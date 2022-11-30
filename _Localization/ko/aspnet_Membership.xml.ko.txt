@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^새 사용자 레코드를 만듭니다.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^새 사용자^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^새로운^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^뒤로^BackToRequestPasswordActionHeaderText^
+
+^Comment^논평^Comment^
+
+^ConfirmIdentityActionHeaderText^마침^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^새 암호 확인^ConfirmNewPassword^
+
+^ConfirmPassword^비밀 번호를 확인^ConfirmPassword^
+
+^CreateDate^날짜 만들기^CreateDate^
+
+^CreateFormCommentCategoryDescription^이 사용자 계정에 대한 추가 의견을 입력하십시오. 코멘트는 사용자에게 표시되지 않습니다.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^댓글^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^사용자 이름과 암호를 입력하십시오. 비밀 번호는 최소 7 자 이상 하나의 영숫자 이외의 문자를 포함해야합니다. 승인된 사용자만이 웹사이트에 로그인할 수있게 될 것입니다.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^새 사용자 정보^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^이 필드는 잊어버린 암호를 복구하기 위해 사용자가 도움을 필요합니다. 복구 과정에서 사용자는 사용자 이름을 입력하라는 메시지가 나타납니다. 사용자 계정이 있으면 다음의 보안 질문 답변 요청합니다. 정답은 &#39;임시 비밀 번호를 사용자에게 보낼 수있는 이메일을하게됩니다.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^비밀 번호 복구^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^가장 가까운 사용자의 책임을 일치하는 사용자 역할을 선택하십시오. 역할이 웹 사이트의 영역에 대한 액세스를 제어합니다. 역할 액세스 제한이 변경해야하는 경우 시스템 관리자에게 문의하시기 바랍니다.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^역할^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^이 양식을 작성하여 새로운 사용자 회원 레코드를 만들려면 확인 버튼을 클릭하십시오. 이전 화면으로 돌아가려면 취소를 클릭하십시오.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^새 사용자^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^이 사용자 계정이 승인 만들어집니다.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^이메일 주소를 중복.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Provider 키는 중복.^DuplicateProviderUserKey^
+
+^DuplicateUserName^사용자 이름을 중복.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^활동에 대한 통계^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^이 사용자 계정이 승인^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^이것은이 사용자에 의해 실패 로그인 시도의 통계입니다. <br/> <br/> 사용자는 실패 로그인 시도의 최대 개수에 도달 후에 고정됩니다. <br/> 사용자가 실패 암호 시도 윈도우 시작 날짜 이후에 다시 로그인하실 수 밖 <br/> 잠겨 있습니다. <br/> <br/> 비밀 번호를 복구하는 데 실패 사용자는 실패 암호 대답 시도 윈도우 시작 날짜 이후에하실 수 있습니다. <br/> <br/> 당신은 &#39;아니오&#39;로 옥내 플래그를 설정하여 로그인 사용자의 능력을 복원할 수 있습니다.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^로그인 통계^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^비밀 번호를 분실 복구하는 동안 사용자가 사용자 이름을 입력하라는 메시지가 나타납니다. 사용자 계정이 있으면 다음의 보안 질문 답변 요청합니다. 정답은 &#39;임시 비밀 번호를 사용자에게 보낼 수있는 이메일을하게됩니다. 사용자가 실패 로그인 시도의 최대 개수에 도달 후에 잠겨하고 사용자가 다시 로그인을 허용할되었는지 <br/><br/> 변경 &#39;아니오&#39;로 플래그를 잠겨 있습니다.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^비밀 번호 복구^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^가장 가까운 사용자의 책임을 일치하는 사용자 역할을 선택하십시오. 역할이 웹 사이트의 영역에 대한 액세스를 제어합니다. 역할 액세스 제한이 변경해야하는 경우 시스템 관리자에게 문의하시기 바랍니다. <br/> <br/>이 사용자 계정에 대한 추가 의견을 입력하십시오. 코멘트는 사용자에게 표시되지 않습니다.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^사용자 정보^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^아래의 사용자 회원 정보를 검토하시기 바랍니다. 이 레코드를 변경하려면 편집을 클릭 기록을 삭제하려면 삭제를 클릭하거나 클릭하여 취소 / 다시 돌아갑니다 닫습니다.^EditFormViewHeaderText^
+
+^EditFormViewLabel^검토 사용자^EditFormViewLabel^
+
+^Email^이메일^Email^
+
+^EnterCurrentPassword^현재 비밀 번호를 입력하십시오.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^비밀 번호 답변을 입력하십시오.^EnterPasswordAnswer^
+
+^ErrorSavingUser^사용자 계정을 저장하는 동안 오류가 발생했습니다.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^실패 암호 대답 시도 카운트^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^실패 암호 대답 시도 윈도우 시작^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^실패 암호 시도 횟수^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^실패 암호 시도 윈도우 시작^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^이것은 회원의 사용자 레코드의 목록입니다.^GridViewHeaderText^
+
+^GridViewLabel^모든 사용자^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^비밀 번호를받을 수있는 다음과 같은 질문에 대한 답변. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^신원 확인^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^이 양식을 작성해 주시기 바랍니다하여 잊어버린 암호를 복구 버튼 제출을 클릭하십시오. 이전 화면으로 돌아가려면 취소를 클릭하십시오.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^비밀 번호 복구 : 2 단계 중 2 단계^IdentityConfirmViewLabel^
+
+^InvalidAnswer^잘못된 비밀 번호 복구보십시오.^InvalidAnswer^
+
+^InvalidEmail^이메일 주소가 잘못되었습니다.^InvalidEmail^
+
+^InvalidPassword^비밀 번호가 잘못되었습니다.^InvalidPassword^
+
+^InvalidProviderUserKey^잘못된 공급자 사용자 키.^InvalidProviderUserKey^
+
+^InvalidQuestion^잘못된 비밀 번호 복구 질문입니다.^InvalidQuestion^
+
+^InvalidUserName^사용자 이름이 잘못되었습니다.^InvalidUserName^
+
+^IsApproved^승인^IsApproved^
+
+^IsLockedOut^아웃 잠겨 있습니다^IsLockedOut^
+
+^LastLockoutDate^마지막으로 잠금 날짜^LastLockoutDate^
+
+^LastLoginDate^마지막 로그인 날짜^LastLoginDate^
+
+^LastPasswordChangedDate^마지막으로 비밀 번호 날짜 변경^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^비밀 번호 답변 (귀하의 보호를 위해 표시하지 않음)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^새 비밀 번호를 만들려면 현재 비밀 번호를 입력하세요, 귀하의 이메일 주소 또는 암호 변경 복구 질문 및 답변을 업데이 트합니다.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. 현재 비밀 번호^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^아래의 회원 정보를 검토하시기 바랍니다. 이 레코드를 변경하려면 내 계정을 업데이 트를 클릭하거나, 다시 돌아가려면 취소를 클릭하십시오.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^내 계정^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^새로운 비밀 번호를 입력하십시오. 비밀 번호는 최소 7 자 이상 하나의 영숫자 이외의 문자를 포함해야합니다.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. 새 암호 (옵션)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^비밀 번호를 분실 복구하는 동안 당신의 사용자 이름을 입력하라는 메시지가 나타납니다. 사용자 계정이 다음 있으면 비밀 번호 질문 답변을해야합니다. 정답은 &#39;임시 비밀 번호를 보낼 수있는 이메일을하게됩니다.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. 이메일 &amp; 비밀 번호 복구 (선택 사항)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^새 비밀 번호^NewPassword^
+
+^NewPasswordAlert^새 암호 파일에있는 주소로 전송되었습니다.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^새로운 비밀 번호 확인 일치하지 않습니다.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^새 비밀 번호가 잘못되었습니다.^NewPasswordInvalid^
+
+^NewPasswordSubject^\ &#39;{0} \ &#39;을위한 새로운 비밀 번호입니다.^NewPasswordSubject^
+
+^OldPassword^이전 비밀 번호^OldPassword^
+
+^Password^암호^Password^
+
+^PasswordAndConfirmationDoNotMatch^비밀 번호와 확인이 일치하지 않습니다.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^비밀 번호 답변^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^비밀 번호는 우리의 기록과 일치하지 않습니다.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^비밀 번호 형식^PasswordFormat^
+
+^PasswordQuestion^비밀 번호 질문^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^사용자 이름을 입력하십시오. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^비밀 번호를 잊으셨습니까?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^이 양식을 작성해 주시기 바랍니다하여 잊어버린 암호를 복구 버튼을 클릭하십시오. 이전 화면으로 돌아가려면 취소를 클릭하십시오.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^비밀 번호 복구 : 2 단계 중 1 단계^PasswordRequestViewLabel^
+
+^ProviderError^공급자 오류가 발생했습니다.^ProviderError^
+
+^RequestPasswordActionHeaderText^다음^RequestPasswordActionHeaderText^
+
+^Roles^역할^Roles^
+
+^SelfRegisteredUser^셀프 등록된 사용자.^SelfRegisteredUser^
+
+^SignUp^가입^SignUp^
+
+^SignUpViewHeaderText^이 양식을 작성하여 계정에 가입하려면 &#39;확인&#39;버튼을 클릭하십시오. 이전 화면으로 돌아가려면 취소를 클릭하십시오.^SignUpViewHeaderText^
+
+^SignUpViewLabel^계정 가입^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^사용자 이름과 암호를 입력하십시오. 비밀 번호는 최소 7 자 이상 하나의 영숫자 이외의 문자를 포함해야합니다. 승인된 사용자만이 웹사이트에 로그인할 수있게 될 것입니다.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^새 사용자 정보^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^이 필드는 당신이 잊어버린 암호를 복구하는 데 도움이 필요합니다. 복구 과정에서 당신은 사용자 이름을 입력하라는 메시지가 나타납니다. 사용자 계정이 있으면 다음의 보안 질문 답변 요청합니다. 정답은 &#39;임시 비밀 번호가 등록된 이메일로 보내기 이메일을하게됩니다.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^비밀 번호 복구^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^내 계정을 업데이 트합니다^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^사용자가 밖으로 잠겨 수 없습니다. 당신이 로그인을 수있는이 사용자를 방지하려는 경우 다음 단순히 &#39;승인되지 않음&#39;과 같은 사용자를 표시합니다.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^사용자 &#39;{0}&#39;가 삭제되었습니다.^UserHasBeenDeleted^
+
+^UserName^사용자 이름^UserName^
+
+^UserNameDoesNotExist^사용자 이름이 존재하지 않습니다.^UserNameDoesNotExist^
+
+^UserNotFound^사용자가 찾을 수 없습니다.^UserNotFound^
+
+^UserRejected^사용자가 거부되었습니다.^UserRejected^
+
+^UsersInRolesGridHeaderText^이것은 선택한 역할에 속한 회원의 사용자 레코드의 목록입니다.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^역할의 사용자^UsersInRolesGridLabel^
+

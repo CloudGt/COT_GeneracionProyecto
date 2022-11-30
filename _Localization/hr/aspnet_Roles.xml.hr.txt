@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Napravite novi zapis.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Dodaj ulogu^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Dodaj^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Ispunite obrazac. Pobrinite se da unesete sva tražena polja.^CreateFormCategory^
+
+^CreateFormHeaderText^Molimo vas da ispunite ovaj obrazac i kliknite na OK gumb za stvaranje nove zapisa. Kliknite Odustani da biste se vratili na prethodni zaslon.^CreateFormHeaderText^
+
+^DescriptionLabel^Opis^DescriptionLabel^
+
+^EditViewCategory^Ovo su polja zapisa koja se mogu uređivati.^EditViewCategory^
+
+^EditViewHeaderText^Molimo pregledajte informacije u nastavku. Kliknite na Uredi da biste promijenili ovaj zapis, pritisnite Izbriši za brisanje zapisa, ili pritisnite Odustani za povratak.^EditViewHeaderText^
+
+^GridViewHeaderText^Ovo je popis uloga.^GridViewHeaderText^
+
+^RoleNameLabel^Uloga Naziv^RoleNameLabel^
+

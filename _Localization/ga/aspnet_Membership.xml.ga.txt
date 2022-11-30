@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Cruthaigh cuntas nua úsáideora.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Úsáideoir Nua^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nua^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Ar ais^BackToRequestPasswordActionHeaderText^
+
+^Comment^Nóta tráchta^Comment^
+
+^ConfirmIdentityActionHeaderText^Críochnaigh^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Deimhnigh Pasfhocal Nua^ConfirmNewPassword^
+
+^ConfirmPassword^Deimhnigh Pasfhocal^ConfirmPassword^
+
+^CreateDate^Cruthaigh Dáta^CreateDate^
+
+^CreateFormCommentCategoryDescription^Dul isteach in aon tuairimí breise faoi seo cuntas úsáideora. Ní Trácht infheicthe don úsáideoir.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Tuairimí^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Cuir isteach ainm úsáideora agus do phasfhocal. Tabhair faoi deara nach mór do phasfhocal a chur ar a laghad 7 carachtair fada agus ina measc amháin neamh-alfa-uimhriúla carachtar. Ní bheidh ach úsáideoirí a bheidh ceadaithe a bheith in ann logáil isteach ar an láithreán gréasáin.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Faisnéis maidir le húsáideoir Nua^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Sna réimsí seo ag teastáil chun cabhrú le úsáideoir a ghnóthú focal faire dearmad. Le linn an phróisis a ghnóthú beidh an t-úsáideoir go n-iarrfaí a chur isteach ar ainm úsáideora. Má tá cuntas úsáideora ansin tá ceist slándála a iarrtar a fhreagairt. Cuirfear freagra ceart tús le r-phost le focal faire sealadach a sheoladh chuig an úsáideoir.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Aisghabháil Pasfhocal^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Roghnaigh róil úsáideora sin is dlúithe a mheaitseáil úsáideora fhreagrachtaí. Rólanna rialú rochtana ar na réimsí ar an suíomh gréasáin seo. Téigh i dteagmháil le riarthóir córas má Ní mór ról srianta ar rochtain a athrú.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Rólanna^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Comhlánaigh an fhoirm seo agus cnaipe OK taifead a chruthú bhallraíocht nua úsáideora cliceáil. Cliceáil Cealaigh chun filleadh ar an scáileán roimhe sin.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Úsáideoir Nua^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Beidh an cuntas úsáideora a chruthú mar atá faofa.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Dúblach sheoladh r-phoist.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Dúblach eochair soláthraí.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Dúblach ainm úsáideora.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Staitisticí Gníomhaíocht^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Tá an cuntas úsáideora ceadaithe^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Seo iad na staitisticí ar iarrachtaí teipthe logáil isteach ag an úsáideoir seo. Beidh <br/> <br/> Úsáideoir a bheith faoi ghlas amach tar éis teacht ar líon uasta de iarrachtaí teipthe logáil isteach. <br/> <br/> Faoi Ghlas amach beidh úsáideoirí in ann a logáil isteach arís tar éis an dáta tosaithe i Theip Fuinneog Pasfhocal Iarracht. <br/> <br/> Beidh úsáideoirí ar theip orthu a ghnóthú an focal faire a bheith in ann mar sin tar éis an dáta tosaithe i Theip Pasfhocal Freagair Fuinneog Iarracht. <br/> <br/> Is féidir leat a chur ar ais úsáideora cumas chun logáil isteach ag an suíomh bratach ghlas Amach le &#39;Níl&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Logáil isteach Staitistic^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Le linn a ghnóthú do phasfhocal dearmadta beidh an t-úsáideoir go n-iarrfaí a chur isteach ar ainm úsáideora. Má tá cuntas úsáideora ansin tá ceist slándála a iarrtar a fhreagairt. Cuirfear freagra ceart tús le r-phost le focal faire sealadach a sheoladh chuig an úsáideoir. <br/><br/> Athrú faoi ghlas amach bhratach a &#39;Níl&#39; má tá an t-úsáideoir faoi ghlas amach tar éis teacht ar líon uasta de iarrachtaí teipthe logáil isteach agus is mian leat a cheadú úsáideoir chun logáil isteach arís.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Aisghabháil Pasfhocal^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Roghnaigh róil úsáideora sin is dlúithe a mheaitseáil úsáideora fhreagrachtaí. Rólanna rialú rochtana ar na réimsí ar an suíomh gréasáin seo. Téigh i dteagmháil le riarthóir córas má Ní mór ról srianta ar rochtain a athrú. <br/> <br/> Cuir aon tuairimí breise faoi seo cuntas úsáideora. Ní Trácht infheicthe don úsáideoir.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Faisnéis maidir le húsáideoir^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Tabhair faoi athbhreithniú a dhéanamh ar fhaisnéis a bhallraíocht úsáideora thíos. Cliceáil Athraigh an taifead seo a athrú, cliceáil ar Scrios an taifead a scriosadh, nó cliceáil Cealaigh / Dún chun filleadh ar ais.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Athbhreithniú a dhéanamh ar Úsáideoir^EditFormViewLabel^
+
+^Email^Ríomhphost^Email^
+
+^EnterCurrentPassword^Cuir isteach do phasfhocal faoi láthair.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Cuir isteach focal faire a fhreagairt.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Earráid shábháil cuntas úsáideora.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Theip ar Pasfhocal Líon Iarracht Freagra^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Theip ar Pasfhocal Freagair Tosaigh Fuinneog Iarracht^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Theip Líon Iarracht Pasfhocal^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Theip ar Pasfhocal Tosaigh Fuinneog Iarracht^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Seo liosta de na taifid úsáideora ballraíochta.^GridViewHeaderText^
+
+^GridViewLabel^Gach Úsáideoirí^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Freagair an cheist seo a leanas a fháil do phasfhocal. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Deimhniú Céannachta^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Comhlánaigh an fhoirm seo agus cliceáil an cnaipe a ghnóthú an focal faire dearmad Cuir. Cliceáil Cealaigh chun filleadh ar an scáileán roimhe sin.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Aisghabháil Pasfhocal: Céim 2 de 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Neamhbhailí a fhreagairt phasfhocal a ghnóthú.^InvalidAnswer^
+
+^InvalidEmail^Neamhbhailí sheoladh r-phoist.^InvalidEmail^
+
+^InvalidPassword^Neamhbhailí focal faire.^InvalidPassword^
+
+^InvalidProviderUserKey^Neamhbhailí eochair úsáideora soláthraí.^InvalidProviderUserKey^
+
+^InvalidQuestion^Neamhbhailí cheist phasfhocal a ghnóthú.^InvalidQuestion^
+
+^InvalidUserName^Neamhbhailí ainm úsáideora.^InvalidUserName^
+
+^IsApproved^An bhfuil Ceadaithe^IsApproved^
+
+^IsLockedOut^An bhfuil Faoi Ghlas Amach^IsLockedOut^
+
+^LastLockoutDate^Dáta an Leasaithe Deireanaigh Frithdhúnadh^LastLockoutDate^
+
+^LastLoginDate^Dáta an Leasaithe Deireanaigh Logáil isteach^LastLoginDate^
+
+^LastPasswordChangedDate^Pasfhocal Dáta an Leasaithe Deireanaigh Athraithe^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Freagair phasfhocal a úsáid (gan taispeáint do do chosaint)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Cuir isteach do phasfhocal faoi láthair a chruthú pasfhocal nua, suas chun dáta do sheoladh r-phost, no ar an gceist a athrú phasfhocal a ghnóthú agus a fhreagairt.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Pasfhocal Reatha^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Tabhair faoi athbhreithniú a dhéanamh ar do chuid faisnéise ballraíocht thíos. Cliceáil Nuashonrú Mo Chuntas a athrú an taifead seo, nó cliceáil Cealaigh le filleadh ar ais.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Mo Chuntas^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Cuir isteach focal faire nua. Tabhair faoi deara nach mór do phasfhocal a chur ar a laghad 7 carachtair fada agus ina measc amháin neamh-alfa-uimhriúla carachtar.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Pasfhocal Nua (Roghnach)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Le linn a ghnóthú do phasfhocal dearmadta iarrfar ort a chur isteach d&#39;ainm úsáideora. Má tá cuntas úsáideora ansin ní mór do cheist a fhreagairt pasfhocal. Cuirfear freagra ceart tús le r-phost le focal faire sealadach a sheoladh a thabhairt duit.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Aisghabháil Ríomhphost Focal Faire &amp; (Roghnach)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Pasfhocal Nua^NewPassword^
+
+^NewPasswordAlert^Tá focal faire nua ríomhphost chuig an seoladh ar comhad.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Nach bhfuil focal faire nua agus deimhniú a mheaitseáil.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Tá do phasfhocal nua neamhbhailí.^NewPasswordInvalid^
+
+^NewPasswordSubject^Focal faire nua le haghaidh \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Tools Sean^OldPassword^
+
+^Password^Pasfhocal^Password^
+
+^PasswordAndConfirmationDoNotMatch^Ní Pasfhocal agus deimhniú a mheaitseáil.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Freagair Pasfhocal^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Ní bheidh ar do phasfhocal fhreagraíonn dár taifid.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Formáid Pasfhocal^PasswordFormat^
+
+^PasswordQuestion^Ceist Pasfhocal^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Cuir isteach ainm úsáideora. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Forgot your password?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Comhlánaigh an fhoirm seo agus cliceáil an cnaipe Leanúint a ghnóthú an focal faire dearmad. Cliceáil Cealaigh chun filleadh ar an scáileán roimhe sin.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Aisghabháil Pasfhocal: Céim 1 as 2^PasswordRequestViewLabel^
+
+^ProviderError^Soláthraí earráid.^ProviderError^
+
+^RequestPasswordActionHeaderText^Ar Aghaidh^RequestPasswordActionHeaderText^
+
+^Roles^Rólanna^Roles^
+
+^SelfRegisteredUser^Féin-úsáideoir cláraithe.^SelfRegisteredUser^
+
+^SignUp^Sign Up^SignUp^
+
+^SignUpViewHeaderText^Comhlánaigh an fhoirm seo agus cnaipe OK le clárú le haghaidh cuntas cliceáil. Cliceáil Cealaigh chun filleadh ar an scáileán roimhe sin.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Cuntas Sign Up^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Cuir isteach ainm úsáideora agus do phasfhocal. Tabhair faoi deara nach mór do phasfhocal a chur ar a laghad 7 carachtair fada agus ina measc amháin neamh-alfa-uimhriúla carachtar. Ní bheidh ach úsáideoirí a bheidh ceadaithe a bheith in ann logáil isteach ar an láithreán gréasáin.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Faisnéis maidir le húsáideoir Nua^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Sna réimsí seo ag teastáil chun cabhrú leat a ghnóthú focal faire dearmad. Le linn an phróisis ghnóthú iarrfar ort a chur isteach ar ainm úsáideora. Má tá cuntas úsáideora ansin tá ceist slándála a iarrtar a fhreagairt. Cuirfear freagra ceart tús le r-phost le focal faire sealadach a sheoladh chuig an r-phost cláraithe.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Aisghabháil Pasfhocal^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Nuashonrú Mo Chuntas^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Ní féidir a chur faoi ghlas Úsáideoir amach. Más mian leat chun cosc ​​a chur ar an úsáideoir seo ó bheith in ann ansin logáil isteach a mharcáil go simplí úsáideora mar &#39;nach-ceadaithe&#39;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Tá&#39;{0}&#39; Úsáideoir been deleted.^UserHasBeenDeleted^
+
+^UserName^Ainm Úsáideora^UserName^
+
+^UserNameDoesNotExist^Níl ainm úsáideora ann.^UserNameDoesNotExist^
+
+^UserNotFound^Ní bhfuarthas an t-úsáideoir.^UserNotFound^
+
+^UserRejected^Úsáideoir Tá diúltaithe.^UserRejected^
+
+^UsersInRolesGridHeaderText^Seo liosta de na taifid úsáideora ballraíochta a bhaineann le ról roghnaithe.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Úsáideoirí i Ról^UsersInRolesGridLabel^
+

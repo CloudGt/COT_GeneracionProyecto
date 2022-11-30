@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Krijo një rekord të ri përdoruesit.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Përdorues i Ri^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^I ri^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Prapa^BackToRequestPasswordActionHeaderText^
+
+^Comment^Koment^Comment^
+
+^ConfirmIdentityActionHeaderText^Finish^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Konfirmo fjalëkalim të ri^ConfirmNewPassword^
+
+^ConfirmPassword^Konfirmo Fjalëkalimi^ConfirmPassword^
+
+^CreateDate^Krijo Data^CreateDate^
+
+^CreateFormCommentCategoryDescription^Shkruani ndonjë koment plotësues rreth kësaj llogari përdoruesi. Koment nuk është e dukshme për përdoruesit.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Komentet^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Ju lutemi shkruani emrin e përdoruesit dhe fjalëkalimin. Vini re se fjalëkalimi duhet të jetë së paku 7 karaktereve i gjatë dhe të përfshijë një karakter jo-alfanumerike. Vetëm përdoruesit e miratuar do jetë në gjendje të identifikoheni në faqen e internetit.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Informacione Përdoruesi të Ri^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Këto fusha janë të nevojshme për të ndihmuar një përdorues që të rimarrë një fjalëkalim të harruar. Gjatë procesit të rimëkëmbjes përdoruesit do të kërkohet për të hyrë në një emër përdorues. Nëse një llogari përdoruesi ekziston, atëherë një pyetje të sigurisë është kërkuar për t&#39;u përgjigjur. Një përgjigje e saktë do të shkaktonte një email me një fjalëkalim i përkohshëm dërguar për përdoruesit.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Rimëkëmbjes^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Ju lutem zgjidhni rolet përdorues që më nga afër ndeshjen përgjegjësitë e përdoruesit. Rolet e kontrollit qasje në zonat e këtij web site. Ju lutemi të kontaktoni administratorin e sistemit, nëse kufizimet e aksesit roli duhet të ndryshojë.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Rolet^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Ju lutem plotësoni këtë formular dhe klikoni butonin OK për të krijuar një të re anëtarësimit rekord përdoruesit. Klikoni Anulo për t&#39;u kthyer në ekranin e mëparshëm.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Përdorues i Ri^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Kjo llogari përdoruesi do të krijohet aprovuar.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplicate adresë e-mail.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Duplicate kryesore provider.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplicate emri i përdoruesit.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Aktiviteti Statistikat^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Kjo llogari përdoruesi është miratuar^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Këto janë statistikat e përpjekjeve të dështuara hyrje me emrin përkatës nga ky përdorues. <br/> <br/> User do të jetë e bllokuar nga pas arritjes së një numri maksimal i përpjekjeve të identifikoheni dështuar. <br/> <br/> Locked se përdoruesit do të mund të identifikohen përsëri pas datës në Filloni nje perpjekje te deshtuar Password Window. <br/> <br/> Përdoruesit që arriti të shërohen fjalëkalimin do të jetë në gjendje për të në mënyrë pas datës në Përgjigje Failed Fillimi Fjalëkalimi Përpjekje Window. <br/> <br/> Ju mund të rivendosur aftësinë e përdoruesit për të identifikoheni duke vendosur flamurin Locked Out për &#39;Jo&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Identifikohu Statistikat^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Gjatë rimëkëmbjes së një fjalëkalim harruar përdoruesit do të kërkohet për të hyrë në një emër përdorues. Nëse një llogari përdoruesi ekziston, atëherë një pyetje të sigurisë është kërkuar për t&#39;u përgjigjur. Një përgjigje e saktë do të shkaktonte një email me një fjalëkalim i përkohshëm dërguar për përdoruesit. <br/><br/> Ndrysho bllokuar nga flamuri për &#39;Jo&#39; në qoftë se përdoruesi ka qenë e bllokuar nga pas arritjes së një numri maksimal i përpjekjeve të dështuara login dhe ju doni të lejojë përdoruesin të identifikohen përsëri.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Rimëkëmbjes^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Ju lutem zgjidhni rolet përdorues që më nga afër ndeshjen përgjegjësitë e përdoruesit. Rolet e kontrollit qasje në zonat e këtij web site. Ju lutemi të kontaktoni administratorin e sistemit, nëse kufizimet e aksesit roli duhet të ndryshojë. <br/> <br/> Shkruani ndonjë koment plotësues rreth kësaj llogari përdoruesi. Koment nuk është e dukshme për përdoruesit.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Informacione User^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Ju lutemi të shqyrtojë anëtarësimin e informacionit të përdoruesit më poshtë. Kliko Edit për të ndryshuar këtë rekord, kliko Fshij të fshini rekord, ose klikoni Cancel / Mbylle për t&#39;u kthyer mbrapa.^EditFormViewHeaderText^
+
+^EditFormViewLabel^User shqyrtim^EditFormViewLabel^
+
+^Email^Email^Email^
+
+^EnterCurrentPassword^Ju lutemi shkruani fjalëkalimin tuaj të tanishme.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Ju lutemi shkruani një përgjigje fjalëkalimin.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Error saving llogari përdoruesi.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Përgjigje Failed Password Përpjekje Count^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Përgjigje Failed Fjalëkalimi Përpjekje Window Fillimi^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Nje perpjekje te deshtuar Password Count^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Përpjekje Failed Password Window Fillimi^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Kjo është një listë e të dhënave përdoruesit anëtarësimit.^GridViewHeaderText^
+
+^GridViewLabel^Të gjitha Përdoruesit^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Përgjigje në pyetjen e mëposhtme për të marrë fjalëkalimin tuaj. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Konfirmimi identitetit^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Ju lutem plotësoni këtë formular dhe kliko butonin Submit për të rimarrë keni harruar fjalekalimin. Klikoni Anulo për t&#39;u kthyer në ekranin e mëparshëm.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Rimëkëmbjes Fjalëkalimi: Hapi 2 nga 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Invalid Password Recovery përgjigje.^InvalidAnswer^
+
+^InvalidEmail^Invalid adresë e-mail.^InvalidEmail^
+
+^InvalidPassword^Invalid password.^InvalidPassword^
+
+^InvalidProviderUserKey^Invalid përdorues ofruesi kryesor.^InvalidProviderUserKey^
+
+^InvalidQuestion^Invalid Password Recovery pyetje.^InvalidQuestion^
+
+^InvalidUserName^Invalid emri i përdoruesit.^InvalidUserName^
+
+^IsApproved^Është miratuar^IsApproved^
+
+^IsLockedOut^Është bllokuar nga^IsLockedOut^
+
+^LastLockoutDate^Data e fundit lokaut^LastLockoutDate^
+
+^LastLoginDate^Data e fundit Identifikohu^LastLoginDate^
+
+^LastPasswordChangedDate^Ndryshuar së fundmi Fjalëkalimi Data^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Përgjigje Password (nuk shfaqet për mbrojtjen tuaj)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Ju lutemi shkruani fjalëkalimin tuaj të tanishme për të krijuar një fjalëkalim të ri, update-mail adresën tuaj, ose fjalëkalimin ndryshojë shërim pyetje dhe përgjigje.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Password aktuale^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Ju lutemi rishikoni informacionin e anëtarësisë suaj më poshtë. Kliko Update Llogaria ime për të ndryshuar këtë rekord, ose klikoni Cancel për t&#39;u kthyer mbrapa.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Llogaria ime^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Ju lutemi shkruani fjalëkalimin e ri. Vini re se fjalëkalimi duhet të jetë së paku 7 karaktereve i gjatë dhe të përfshijë një karakter jo-alfanumerike.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. New Password (Fakultativ)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Gjatë rimëkëmbjes së një fjalëkalim të harruar ju do të kërkohet të shkruani emrin tuaj të përdoruesit. Nëse një llogari përdoruesi ekziston, atëherë një pyetje fjalëkalim duhet të përgjigjet. Një përgjigje e saktë do të shkaktonte një email me një fjalëkalim i përkohshëm dërgojë tek ju.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email Fjalëkalimi Rimëkëmbjes &amp; (Fakultativ)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Fjalëkalim të ri^NewPassword^
+
+^NewPasswordAlert^Një fjalëkalim i ri është dërguar me email në adresën në skedë.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Fjalëkalim të ri dhe konfirmimi nuk përputhen.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Fjalëkalimi juaj i ri është i pavlefshëm.^NewPasswordInvalid^
+
+^NewPasswordSubject^Fjalëkalim të ri për \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Password Vjetër^OldPassword^
+
+^Password^Fjalëkalim^Password^
+
+^PasswordAndConfirmationDoNotMatch^Password dhe konfirmimi nuk përputhen.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Përgjigje Fjalëkalimi^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Fjalëkalimi juaj nuk përputhet me të dhënat tona.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Format Fjalëkalimi^PasswordFormat^
+
+^PasswordQuestion^Pyetje Fjalëkalimi^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Ju lutemi shkruani një emër përdorues. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Keni harruar fjalëkalimin tuaj?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Ju lutem plotësoni këtë formular dhe kliko butonin Vazhdo për të rimarrë keni harruar fjalekalimin. Klikoni Anulo për t&#39;u kthyer në ekranin e mëparshëm.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Rimëkëmbjes Fjalëkalimi: Hapi 1 prej 2^PasswordRequestViewLabel^
+
+^ProviderError^Gabim Provider.^ProviderError^
+
+^RequestPasswordActionHeaderText^Tjetër^RequestPasswordActionHeaderText^
+
+^Roles^Rolet^Roles^
+
+^SelfRegisteredUser^Vetë-regjistruar përdoruesit.^SelfRegisteredUser^
+
+^SignUp^Regjistrohu^SignUp^
+
+^SignUpViewHeaderText^Ju lutem plotësoni këtë formular dhe klikoni butonin OK për të nënshkruar për një llogari. Klikoni Anulo për t&#39;u kthyer në ekranin e mëparshëm.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Llogaria Regjistrohu^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Ju lutemi shkruani emrin e përdoruesit dhe fjalëkalimin. Vini re se fjalëkalimi duhet të jetë së paku 7 karaktereve i gjatë dhe të përfshijë një karakter jo-alfanumerike. Vetëm përdoruesit e miratuar do të jetë në gjendje të identifikoheni në faqen e internetit.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Informacione Përdoruesi të Ri^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Këto fusha janë të nevojshme për t&#39;ju ndihmuar të mbulojë një fjalëkalim harruar. Gjatë procesit të rimëkëmbjes ju do të kërkohet për të hyrë në një emër përdorues. Nëse një llogari përdoruesi ekziston, atëherë një pyetje të sigurisë është kërkuar për t&#39;u përgjigjur. Një përgjigje e saktë do të shkaktonte një email me një fjalëkalim i përkohshëm dërgoni në email regjistruar.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Rimëkëmbjes^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Update Llogaria ime^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Përdoruesi nuk mund të jetë i bllokuar jashtë. Nëse ju doni të parandaluar këtë përdorues nga të qenit në gjendje për të login pastaj thjesht shënuar përdoruesit si &#39;jo-aprovuar &quot;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^&#39;{0}&#39; Përdorues është grisur.^UserHasBeenDeleted^
+
+^UserName^Emri i përdoruesit^UserName^
+
+^UserNameDoesNotExist^Emri i përdoruesit nuk ekziston.^UserNameDoesNotExist^
+
+^UserNotFound^Përdoruesi nuk u gjet.^UserNotFound^
+
+^UserRejected^Përdoruesi është refuzuar.^UserRejected^
+
+^UsersInRolesGridHeaderText^Kjo është një listë e të dhënave përdoruesit anëtarësimit që i përkasin një rol të zgjedhur.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Përdoruesit në rolin e^UsersInRolesGridLabel^
+

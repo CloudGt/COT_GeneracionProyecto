@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="System" targetNamespace="http://www.codeontime.com/2008/codedom-configuration" elementFormDefault="qualified" xmlns="http://www.codeontime.com/2008/codedom-configuration" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="configuration">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="providers" minOccurs="1" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="provider" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="name" type="providerNameType" use="required">
+                    <xs:annotation>
+                      <xs:documentation>The name of the Microsoft CodeDom provider.</xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                  <xs:attribute name="title" type="xs:string" use="required">
+                    <xs:annotation>
+                      <xs:documentation>The user-friendly name of the provider displayed in the user interface of the Code OnTime generator.</xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                  <xs:attribute name="bracingStyle" type="bracingStyleType" use="optional"/>
+                  <xs:attribute name="memberFieldPrefix" type="memberFieldPrefixType" use="required" />
+                  <xs:attribute name="verbatimOrder" type="xs:boolean" use="required"/>
+                  <xs:attribute name="extension" type="externsionType" use="required"/>
+                  <xs:attribute name="language" type="languageType" use="required"/>
+                  <xs:attribute name="autoEventWireup" type="xs:boolean" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="default" type="providerNameType" use="required"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="customFormatters" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="formatter" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="regex" minOccurs="1" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="pattern" type="xs:string" use="required"/>
+                        <xs:attribute name="replacement" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="extensions" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="allowInlineCode" minOccurs="1" maxOccurs="1">
+          <xs:complexType>
+            <xs:attribute name="extensions" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="providerNameType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="CSharp"/>
+      <xs:enumeration value="VisualBasic"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="bracingStyleType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="C"/>
+      <xs:enumeration value=""/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="memberFieldPrefixType">
+    <xs:union>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="_"/>
+          <xs:enumeration value="m_"/>
+          <xs:minLength value="1"/>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:minLength value="1"/>
+          <xs:pattern value="(_|m_|[\w_]+)"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:union>
+  </xs:simpleType>
+  <xs:simpleType name="externsionType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value=".cs"/>
+      <xs:enumeration value=".vb"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="languageType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="C#"/>
+      <xs:enumeration value="VB"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

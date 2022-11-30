@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^กลับ^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^เสร็จสิ้น^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^ยืนยันรหัสผ่านใหม่^ConfirmNewPassword^
+
+^ConfirmPassword^ยืนยันรหัสผ่าน^ConfirmPassword^
+
+^Email^อีเมล์^Email^
+
+^ForgotYourPassword^ลืมรหัสผ่านหรือไม่?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^ตอบคำถามต่อไปนี้เพื่อรับรหัสผ่านของคุณ <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^การยืนยันตัวตน^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^โปรดกรอกแบบฟอร์มนี้และคลิกปุ่ม Submit เพื่อกู้คืนรหัสผ่านที่ถูกลืม คลิกยกเลิกเพื่อกลับไปยังหน้าจอก่อนหน้า^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^การกู้คืนรหัสผ่าน: ขั้นตอนที่ 2 จาก 2^IdentityConfirmViewLabel^
+
+^LoginButton^เข้าสู่ระบบ^LoginButton^
+
+^LoginLink^เข้าสู่ระบบ^LoginLink^
+
+^LoginWithDNN^เข้าสู่ระบบด้วย DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^เข้าสู่ระบบด้วย Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^เข้าสู่ระบบด้วย Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^เข้าสู่ระบบด้วย Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^เข้าสู่ระบบด้วย SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^เข้าสู่ระบบด้วย Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^(ไม่แสดงเพื่อการป้องกันของคุณ)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^โปรดป้อนรหัสผ่านปัจจุบันของคุณเพื่อสร้างรหัสผ่านใหม่อัพเดตที่อยู่อีเมลของคุณหรือเปลี่ยนคำถามและคำตอบในการกู้คืนรหัสผ่าน^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. รหัสผ่านปัจจุบัน^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^โปรดตรวจสอบข้อมูลสมาชิกของคุณด้านล่าง คลิกอัปเดตบัญชีของฉันเพื่อเปลี่ยนระเบียนนี้หรือคลิกยกเลิกเพื่อย้อนกลับ^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^บัญชีของฉัน^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^โปรดป้อนรหัสผ่านใหม่ โปรดทราบว่ารหัสผ่านต้องมีความยาวอย่างน้อย 7 ตัวและประกอบด้วยอักขระที่ไม่ใช่ตัวอักษรและตัวเลข^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. รหัสผ่านใหม่ (ไม่บังคับ)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^ในระหว่างการกู้คืนรหัสผ่านที่ลืมไประบบจะขอให้คุณป้อนชื่อผู้ใช้ของคุณ หากบัญชีผู้ใช้มีอยู่แล้วคำถามรหัสผ่านจะต้องได้รับการตอบ คำตอบที่ถูกต้องจะเรียกอีเมลที่มีรหัสผ่านชั่วคราวส่งถึงคุณ^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. อีเมล &amp; การกู้คืนรหัสผ่าน (ไม่บังคับ)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^รหัสผ่านใหม่^NewPassword^
+
+^OldPassword^รหัสผ่านเก่า^OldPassword^
+
+^Password^รหัสผ่าน^Password^
+
+^PasswordAnswer^คำตอบรหัสผ่าน^PasswordAnswer^
+
+^PasswordQuestion^คำถามรหัสผ่าน^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^โปรดป้อนชื่อผู้ใช้ <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^ลืมรหัสผ่านหรือไม่?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^โปรดกรอกแบบฟอร์มนี้และคลิกที่ปุ่ม Continue เพื่อกู้คืนรหัสผ่านที่ถูกลืม คลิกยกเลิกเพื่อกลับไปยังหน้าจอก่อนหน้า^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^การกู้คืนรหัสผ่าน: ขั้นตอนที่ 1 จาก 2^PasswordRequestViewLabel^
+
+^RememberMe^จำฉันไว้ครั้งต่อไป^RememberMe^
+
+^RequestPasswordActionHeaderText^ต่อไป^RequestPasswordActionHeaderText^
+
+^SignUp^ลงชื่อ^SignUp^
+
+^SignUpNow^สมัครตอนนี้เลย^SignUpNow^
+
+^SignUpViewHeaderText^โปรดกรอกแบบฟอร์มนี้และคลิกปุ่ม OK เพื่อลงทะเบียนบัญชี คลิกยกเลิกเพื่อกลับไปยังหน้าจอก่อนหน้า^SignUpViewHeaderText^
+
+^SignUpViewLabel^ลงทะเบียนบัญชี^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^โปรดใส่ชื่อผู้ใช้และรหัสผ่าน โปรดทราบว่ารหัสผ่านต้องมีความยาวอย่างน้อย 7 ตัวและประกอบด้วยอักขระที่ไม่ใช่ตัวอักษรและตัวเลข เฉพาะผู้ใช้ที่ได้รับอนุมัติเท่านั้นที่สามารถเข้าสู่เว็บไซต์ได้^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^ข้อมูลผู้ใช้ใหม่^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^ฟิลด์เหล่านี้จะต้องใช้เพื่อช่วยให้คุณสามารถกู้คืนรหัสผ่านที่ลืมได้ ระหว่างกระบวนการกู้คืนระบบจะขอให้คุณป้อนชื่อผู้ใช้ หากมีบัญชีผู้ใช้อยู่ระบบจะตอบคำถามเพื่อความปลอดภัย คำตอบที่ถูกต้องจะเรียกอีเมลที่มีรหัสผ่านชั่วคราวส่งไปยังอีเมลที่ลงทะเบียน^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^รหัสผ่าน^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^อัปเดตบัญชีของฉัน^UpdateMyAccountActionHeaderText^
+
+^UserName^ชื่อผู้ใช้^UserName^
+

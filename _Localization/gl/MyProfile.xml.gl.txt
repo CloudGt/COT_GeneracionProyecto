@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^De volta^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Rematar^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Confirmar nova contrasinal^ConfirmNewPassword^
+
+^ConfirmPassword^Confirme o contrasinal^ConfirmPassword^
+
+^Email^Correo electrónico^Email^
+
+^ForgotYourPassword^Esqueceu o contrasinal?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Responda a seguinte pregunta para recibir o teu contrasinal. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Confirmación de identidade^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Encha este formulario e fai clic no botón Enviar para recuperar o contrasinal esquecido. Faga clic en Cancelar para volver á pantalla anterior.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Recuperación de contrasinal: Paso 2 de 2^IdentityConfirmViewLabel^
+
+^LoginButton^Iniciar sesión^LoginButton^
+
+^LoginLink^Iniciar sesión^LoginLink^
+
+^LoginWithDNN^Iniciar sesión con DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Iniciar sesión con Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Iniciar sesión con Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Iniciar sesión con Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Iniciar sesión con SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Iniciar sesión con Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Contrasinal Resposta (non se amosa para a súa protección)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Insira o seu contrasinal actual para crear un novo contrasinal, actualizar o seu enderezo de correo electrónico ou cambiar a pregunta e responder a recuperación de contrasinal.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Contrasinal actual^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Revisa a túa información de membro a continuación. Faga clic en Actualizar a miña conta para cambiar este rexistro ou prema Cancelar para voltar.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^A miña conta^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Introduce un novo contrasinal. Ten en conta que o contrasinal debe ter polo menos 7 caracteres e incluír un carácter non alfanumérico.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Contrasinal novo (opcional)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Durante a recuperación dun contrasinal esquecido terás que introducir o teu nome de usuario. Se existe unha conta de usuario, debe responder unha pregunta de contrasinal. Unha resposta correcta desencadeará un correo electrónico cunha contraseña temporal enviándolle.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Correo electrónico &amp; Recuperación de contrasinal (opcional)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^novo contrasinal^NewPassword^
+
+^OldPassword^contrasinal antigo^OldPassword^
+
+^Password^Contrasinal^Password^
+
+^PasswordAnswer^Contrasinal de resposta^PasswordAnswer^
+
+^PasswordQuestion^Contrasinal Pregunta^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Introduce un nome de usuario. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Esqueceu o contrasinal?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Encha este formulario e fai clic en Continuar para recuperar o contrasinal esquecido. Faga clic en Cancelar para volver á pantalla anterior.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Recuperación de contrasinal: Paso 1 de 2^PasswordRequestViewLabel^
+
+^RememberMe^Recorda-me a próxima vez^RememberMe^
+
+^RequestPasswordActionHeaderText^Seguinte^RequestPasswordActionHeaderText^
+
+^SignUp^Rexistrarse^SignUp^
+
+^SignUpNow^Asine agora^SignUpNow^
+
+^SignUpViewHeaderText^Cubra este formulario e fai clic en Aceptar para rexistrarse nunha conta. Faga clic en Cancelar para volver á pantalla anterior.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Rexistro de contas^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Introduce o nome de usuario e o contrasinal. Ten en conta que o contrasinal debe ter polo menos 7 caracteres e incluír un carácter non alfanumérico. Só os usuarios autorizados poderán iniciar sesión no sitio web.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Nova información do usuario^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Estes campos son necesarios para axudarche a recuperar un contrasinal esquecido. Durante o proceso de recuperación solicitaráselle que introduza un nome de usuario. Se existe unha conta de usuario, pídese que se responda unha pregunta de seguridade. Unha resposta correcta desencadeará un correo electrónico cunha contraseña temporal enviada ao correo electrónico rexistrado.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Recuperación de contrasinal^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Actualizar a miña conta^UpdateMyAccountActionHeaderText^
+
+^UserName^Nome de usuario^UserName^
+

@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Buat catatan pengguna baru.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^New User^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Baru^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Kembali^BackToRequestPasswordActionHeaderText^
+
+^Comment^Komentar^Comment^
+
+^ConfirmIdentityActionHeaderText^Selesai^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Konfirmasi Password Baru^ConfirmNewPassword^
+
+^ConfirmPassword^Konfirmasi Password^ConfirmPassword^
+
+^CreateDate^Buat Tanggal^CreateDate^
+
+^CreateFormCommentCategoryDescription^Masukkan komentar tambahan mengenai user account ini. Komentar tidak terlihat oleh pengguna.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Komentar^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Silakan masukkan nama pengguna dan password. Perhatikan bahwa password harus minimal 7 karakter panjang dan termasuk salah satu karakter non-alfanumerik. Hanya pengguna yang disetujui akan dapat login ke situs web.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Baru Informasi Pengguna^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Bidang ini diperlukan untuk membantu pengguna untuk memulihkan password yang terlupakan. Selama proses pemulihan pengguna akan diminta untuk memasukkan nama pengguna. Jika account pengguna ada maka pertanyaan keamanan diminta untuk dijawab. Sebuah jawaban yang benar akan memicu email dengan sandi sementara kirim ke pengguna.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Silakan pilih peran pengguna yang paling cocok tanggung jawab pengguna. Peran kontrol akses ke daerah-daerah dari situs web. Silakan hubungi administrator sistem jika peran pembatasan akses harus diubah.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Peran^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Silahkan mengisi formulir ini dan klik tombol OK untuk membuat rekaman pengguna keanggotaan baru. Klik Batal untuk kembali ke layar sebelumnya.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^New User^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Ini account pengguna akan dibuat sebagai disetujui.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Gandakan alamat email.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Gandakan kunci penyedia.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplikat nama pengguna.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Kegiatan Statistik^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Ini account pengguna disetujui^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Ini adalah statistik dari usaha login gagal oleh pengguna ini. <br/> <br/> Pengguna akan terkunci setelah mencapai jumlah maksimum usaha login gagal. <br/> <br/> Dikunci keluar pengguna akan bisa login lagi setelah tanggal di Start Sandi Gagal Mencoba Jendela. <br/> <br/> Pengguna yang gagal untuk memulihkan password akan mampu jadi setelah tanggal Sandi Jawaban Mulai Gagal Mencoba Jendela. <br/> <br/> Anda dapat mengembalikan kemampuan pengguna untuk login dengan pengaturan bendera Dikunci Out untuk &#39;Tidak&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Masuk Statistik^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Selama pemulihan password yang terlupakan pengguna akan diminta untuk memasukkan nama pengguna. Jika account pengguna ada maka pertanyaan keamanan diminta untuk dijawab. Sebuah jawaban yang benar akan memicu email dengan sandi sementara kirim ke pengguna. <br/><br/> Ubah dikunci bendera untuk &#39;Tidak&#39; jika pengguna telah dikunci setelah mencapai jumlah maksimum usaha login gagal dan anda ingin mengizinkan pengguna untuk login lagi.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Silakan pilih peran pengguna yang paling cocok tanggung jawab pengguna. Peran kontrol akses ke daerah-daerah dari situs web. Silakan hubungi administrator sistem jika peran pembatasan akses harus diubah. <br/> <br/> Masukkan komentar tambahan mengenai user account ini. Komentar tidak terlihat oleh pengguna.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Pengguna Informasi^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Harap tinjau informasi pengguna keanggotaan di bawah ini. Klik Edit untuk mengubah catatan ini, klik Hapus untuk menghapus catatan, atau klik Batal / Tutup untuk kembali.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Tinjauan Pemakai^EditFormViewLabel^
+
+^Email^Email^Email^
+
+^EnterCurrentPassword^Masukkan sandi Anda saat ini.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Masukkan jawaban sandi.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Kesalahan saat menyimpan account pengguna.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Sandi Gagal Mencoba Jawaban Perhitungan^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Sandi Gagal Jawaban Mencoba Mulai Jendela^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Sandi Gagal Mencoba Hitung^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Sandi Gagal Mencoba Mulai Jendela^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Ini adalah daftar catatan pengguna keanggotaan.^GridViewHeaderText^
+
+^GridViewLabel^Semua Pengguna^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Jawablah pertanyaan berikut untuk menerima sandi Anda. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identitas Konfirmasi^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Silahkan mengisi formulir ini dan klik tombol Submit untuk memulihkan password yang terlupakan. Klik Batal untuk kembali ke layar sebelumnya.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: Langkah 2 dari 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Jawabannya tidak valid pemulihan password.^InvalidAnswer^
+
+^InvalidEmail^Alamat email tidak valid.^InvalidEmail^
+
+^InvalidPassword^Sandi tidak valid.^InvalidPassword^
+
+^InvalidProviderUserKey^Kunci tidak valid penyedia pengguna.^InvalidProviderUserKey^
+
+^InvalidQuestion^Pertanyaan pemulihan password tidak valid.^InvalidQuestion^
+
+^InvalidUserName^Tidak valid nama pengguna.^InvalidUserName^
+
+^IsApproved^Apakah Disetujui^IsApproved^
+
+^IsLockedOut^Apakah Dikunci Out^IsLockedOut^
+
+^LastLockoutDate^Terakhir Lockout Tanggal^LastLockoutDate^
+
+^LastLoginDate^Login Terakhir Tanggal^LastLoginDate^
+
+^LastPasswordChangedDate^Sandi terakhir Tanggal Berubah^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Sandi Jawaban (tidak ditampilkan untuk melindungi Anda)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Masukkan sandi Anda saat ini untuk membuat password baru, memperbarui alamat email Anda, atau mengubah password dan jawaban pertanyaan pemulihan.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Sandi saat ini^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Harap tinjau informasi keanggotaan Anda di bawah ini. Klik Update Akun saya untuk mengubah catatan ini, atau klik Batal untuk kembali.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Akun Saya^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Silahkan masukkan password baru. Perhatikan bahwa password harus minimal 7 karakter panjang dan termasuk salah satu karakter non-alfanumerik.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Password Baru (Opsional)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Selama pemulihan password yang terlupakan Anda akan diminta untuk memasukkan nama pengguna Anda. Jika ada maka account pengguna sandi pertanyaan harus dijawab. Sebuah jawaban yang benar akan memicu email dengan sandi sementara kirim ke Anda.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. &amp; Email Password Recovery (Opsional)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Password Baru^NewPassword^
+
+^NewPasswordAlert^Sebuah password baru telah dikirim melalui email ke alamat pada file.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Password baru dan konfirmasi tidak cocok.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Password baru anda tidak valid.^NewPasswordInvalid^
+
+^NewPasswordSubject^Password baru untuk \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Lama Sandi^OldPassword^
+
+^Password^Sandi^Password^
+
+^PasswordAndConfirmationDoNotMatch^Password dan konfirmasi tidak cocok.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Sandi Jawaban^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Sandi Anda tidak cocok catatan kami.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Sandi Format^PasswordFormat^
+
+^PasswordQuestion^Pertanyaan Sandi^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Silakan masukkan nama pengguna. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Lupa kata sandi Anda?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Silahkan mengisi formulir ini dan klik tombol Lanjutkan untuk memulihkan password yang terlupakan. Klik Batal untuk kembali ke layar sebelumnya.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: Langkah 1 dari 2^PasswordRequestViewLabel^
+
+^ProviderError^Penyedia kesalahan.^ProviderError^
+
+^RequestPasswordActionHeaderText^Berikutnya^RequestPasswordActionHeaderText^
+
+^Roles^Peran^Roles^
+
+^SelfRegisteredUser^Cukup pengguna terdaftar.^SelfRegisteredUser^
+
+^SignUp^Sign Up^SignUp^
+
+^SignUpViewHeaderText^Silahkan mengisi formulir ini dan klik tombol OK untuk mendaftar untuk sebuah account. Klik Batal untuk kembali ke layar sebelumnya.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Rekening Sign Up^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Silakan masukkan nama pengguna dan password. Perhatikan bahwa password harus minimal 7 karakter panjang dan termasuk salah satu karakter non-alfanumerik. Hanya pengguna yang disetujui akan dapat login ke situs web.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Baru Informasi Pengguna^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Bidang ini diperlukan untuk membantu Anda untuk memulihkan password yang terlupakan. Selama proses pemulihan Anda akan diminta untuk memasukkan nama pengguna. Jika account pengguna ada maka pertanyaan keamanan diminta untuk dijawab. Sebuah jawaban yang benar akan memicu email dengan password sementara dikirim ke email yang terdaftar.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Perbarui Akun Saya^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Pengguna tidak bisa dikunci. Jika Anda ingin mencegah pengguna ini dari yang bisa login maka cukup menandai pengguna sebagai &#39;tidak disetujui&#39;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^&#39;{0}&#39; Pengguna telah dihapus.^UserHasBeenDeleted^
+
+^UserName^Nama Pengguna^UserName^
+
+^UserNameDoesNotExist^Nama pengguna tidak ada.^UserNameDoesNotExist^
+
+^UserNotFound^Pengguna tidak ditemukan.^UserNotFound^
+
+^UserRejected^Pengguna telah ditolak.^UserRejected^
+
+^UsersInRolesGridHeaderText^Ini adalah daftar catatan pengguna keanggotaan yang milik peran yang dipilih.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Pengguna di Peran^UsersInRolesGridLabel^
+

@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Costas^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Terminar^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Confirme a nova senha^ConfirmNewPassword^
+
+^ConfirmPassword^Confirme a Senha^ConfirmPassword^
+
+^Email^O email^Email^
+
+^ForgotYourPassword^Esqueceu sua senha?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Responda a seguinte pergunta para receber sua senha. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Confirmação de identidade^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Preencha este formulário e clique no botão Enviar para recuperar a senha esquecida. Clique em Cancelar para retornar à tela anterior.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Recuperação de senha: etapa 2 de 2^IdentityConfirmViewLabel^
+
+^LoginButton^Entrar^LoginButton^
+
+^LoginLink^Entrar^LoginLink^
+
+^LoginWithDNN^Entre com o DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Entrar com o Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Entrar com o Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Faça login com a Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Faça o login com o SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Login com Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Resposta por senha (não exibida para sua proteção)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Digite sua senha atual para criar uma nova senha, atualizar seu endereço de e-mail ou alterar a pergunta e a resposta da recuperação de senha.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Senha atual^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Por favor, reveja suas informações de associação abaixo. Clique em Atualizar minha conta para alterar esse registro ou clique em Cancelar para retornar.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Minha conta^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Digite uma nova senha. Observe que a senha deve ter no mínimo 7 caracteres e incluir um caractere não alfanumérico.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nova Senha (Opcional)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Durante a recuperação de uma senha esquecida, você será solicitado a inserir seu nome de usuário. Se uma conta de usuário existir, uma questão de senha deve ser respondida. Uma resposta correta irá ativar um email com uma senha temporária enviada para você.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Recuperação de senha (opcional)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nova senha^NewPassword^
+
+^OldPassword^Senha Antiga^OldPassword^
+
+^Password^Senha^Password^
+
+^PasswordAnswer^Resposta por senha^PasswordAnswer^
+
+^PasswordQuestion^Pergunta de Senha^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Por favor coloque um nome de usuário. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Esqueceu sua senha?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Preencha este formulário e clique no botão Continuar para recuperar a senha esquecida. Clique em Cancelar para retornar à tela anterior.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Recuperação de senha: etapa 1 de 2^PasswordRequestViewLabel^
+
+^RememberMe^Lembre-me da próxima vez^RememberMe^
+
+^RequestPasswordActionHeaderText^Próximo^RequestPasswordActionHeaderText^
+
+^SignUp^Inscrever-se^SignUp^
+
+^SignUpNow^Inscreva-se agora^SignUpNow^
+
+^SignUpViewHeaderText^Preencha este formulário e clique no botão OK para se inscrever para uma conta. Clique em Cancelar para retornar à tela anterior.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Registro de conta^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Digite o nome do usuário e a senha. Observe que a senha deve ter no mínimo 7 caracteres e incluir um caractere não alfanumérico. Somente usuários aprovados poderão entrar no site.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Nova informação do usuário^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Esses campos são necessários para ajudá-lo a recuperar uma senha esquecida. Durante o processo de recuperação, você será solicitado a inserir um nome de usuário. Se uma conta de usuário existe, uma pergunta de segurança deve ser respondida. Uma resposta correta irá ativar um e-mail com uma senha temporária enviada para o e-mail registrado.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Recuperação de senha^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Atualize minha conta^UpdateMyAccountActionHeaderText^
+
+^UserName^Nome de usuário^UserName^
+

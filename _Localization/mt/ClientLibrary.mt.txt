@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Dwar^About^
+
+^Accent^Accent^Accent^
+
+^ActionBarActionsHeaderText^Azzjonijiet^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Ikkanċella^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Ikkanċella l-bidliet kollha rekord.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Ikkanċella rekord ġdid.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Ħlief rekord ġdid għad-database.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Ħlief^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Oħloq rekord {0} ġdid.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^Ġodda {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Ġodda^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Rekord^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Rapport ta &#39;^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Ħlief bidliet għad-database.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Ħlief^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Żid Kont^AddAccount^
+
+^AddCondition^Żid Kundizzjoni^AddCondition^
+
+^AddConditionText^Żid il-kundizzjoni tat-tiftix^AddConditionText^
+
+^AddItem^Żid Punt^AddItem^
+
+^AddMatchingGroup^Żid grupp tqabbil^AddMatchingGroup^
+
+^AddSearchBarField^Oqsma aktar Fittex^AddSearchBarField^
+
+^AddSystemIdentity^Żid Sistema Identità^AddSystemIdentity^
+
+^AddToFavorites^Żid mal-Favoriti^AddToFavorites^
+
+^AdvancedSearch^Tfittxija Avvanzata^AdvancedSearch^
+
+^AdvancedSearchInstruction^Ikteb kundizzjonijiet li għandhom jiġu mqabbla u buttuna ta &#39;tfittxija għall-istampa.^AdvancedSearchInstruction^
+
+^After^Wara^After^
+
+^Agenda^Aġenda^Agenda^
+
+^AlignedLeft^Allinjati Xellug^AlignedLeft^
+
+^AlignedRight^Allinjati Dritt^AlignedRight^
+
+^AllDatesInPreriod^Kollha Dati fl-Perjodu^AllDatesInPreriod^
+
+^AlternativeView^Agħżel veduta alternattiva ta &#39;data.^AlternativeView^
+
+^Always^Dejjem^Always^
+
+^AnyValue^(Xi)^AnyValue^
+
+^Apply^Applika^Apply^
+
+^Apps^apps^Apps^
+
+^Aquarium^Aquarium^Aquarium^
+
+^Auto^Auto^Auto^
+
+^AutoOpenNextItem^Tiftaħ awtomatikament il-punt li jmiss^AutoOpenNextItem^
+
+^AverageOf^Medja ta &#39;^AverageOf^
+
+^AvgAggregate^Avg: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Medja ta &#39;{0}^AvgAggregateToolTip^
+
+^Azure^Azure^Azure^
+
+^Back^Ritorn^Back^
+
+^BackColor^Lura Kulur^BackColor^
+
+^BatchEditActionHeaderText^Lott Edit^BatchEditActionHeaderText^
+
+^BatchEdited^{0} aġġornat^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Lott Edit (Formola)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^aġġornament^BatchUpdate^
+
+^Before^Qabel ma^Before^
+
+^BeginsWith^Jibda Bil-^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^Berry^Berry^
+
+^Between^Bejn l-^Between^
+
+^Bittersweet^Bittersweet^Bittersweet^
+
+^Blank^Blank^Blank^
+
+^BlankPassword^Password ma tistax tkun vojta.^BlankPassword^
+
+^BlankUserName^Isem l-utent ma jistgħux ikunu vojta.^BlankUserName^
+
+^BlankValue^(Bjank)^BlankValue^
+
+^BlobDownloadHint^Ikklikkja hawn biex tniżżel il-fajl oriġinali.^BlobDownloadHint^
+
+^BlobDownloadLink^download^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Timbutta l-immaġni biex tniżżel il-fajl oriġinali^BlobDownloadOriginalHint^
+
+^Blur^Ċċajpar^Blur^
+
+^Bold^Bold^Bold^
+
+^BooleanFilterText^Filtri loġiku^BooleanFilterText^
+
+^BooleanIsExpected^Valur loġiku huwa mistenni.^BooleanIsExpected^
+
+^ButtonShapes^Forom ta 'buttuni^ButtonShapes^
+
+^By^billi^By^
+
+^Calendar^Kalendarju^Calendar^
+
+^Cancel^Ikkanċella^Cancel^
+
+^Cards^Cards^Cards^
+
+^Cay^Cay^Cay^
+
+^ChangeYourLanguage^Biddel il-lingwa tiegħek^ChangeYourLanguage^
+
+^Charts^Charts^Charts^
+
+^Citrus^Citrus^Citrus^
+
+^Classic^Classic^Classic^
+
+^ClearFilter^Iffiltra ċar mill {0}^ClearFilter^
+
+^ClearFilter2^Clear Iffiltra^ClearFilter2^
+
+^ClearText^Test ċar^ClearText^
+
+^ClearToolTip^Ċari {0}^ClearToolTip^
+
+^Close^Agħlaq^Close^
+
+^Comfortable^Komdu^Comfortable^
+
+^Compact^Compact^Compact^
+
+^Condensed^Ikkondensat^Condensed^
+
+^ConfirmContinue^Kompli?^ConfirmContinue^
+
+^ConfirmReload^Rikarigu?^ConfirmReload^
+
+^ConnectionLost^Il-konnessjoni tan-netwerk tkun intilfet. Erġa &#39;pprova?^ConnectionLost^
+
+^Construct^Ibni^Construct^
+
+^Contains^Fih^Contains^
+
+^Convention^Konvenzjoni^Convention^
+
+^Copy^Kopja^Copy^
+
+^CountAggregate^Count: {0}^CountAggregate^
+
+^CountAggregateToolTip^Għadd ta &#39;{0}^CountAggregateToolTip^
+
+^CountOf^Għadd ta &#39;^CountOf^
+
+^CreateLink^Oħloq Link^CreateLink^
+
+^CustomFilterOption^Iffiltra ...^CustomFilterOption^
+
+^Cut^Aqta^Cut^
+
+^DarkKnight^Dark Knight^DarkKnight^
+
+^DarkTheme^Dark^DarkTheme^
+
+^DataSheetActionDescription^Wiri oġġetti bl-użu ta sheet<br/>format tad-data.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Juru fil-Karta tad-Data^DataSheetActionHeaderText^
+
+^DataWarning^L-għadd massimu ta &#39;elementi għall-proċess huwa {0: d}. Ikklikkja hawn biex tiffiltra l-riżultat.^DataWarning^
+
+^Date^Data^Date^
+
+^DateFilterText^Data Filtri^DateFilterText^
+
+^DateIsExpected^A data hija mistennija.^DateIsExpected^
+
+^DatesAMinAgo^minuta ilu^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^fil-minuta^DatesInAMin^
+
+^DatesInHour^fl-siegħa^DatesInHour^
+
+^DatesInMin^f&#39;min {0}^DatesInMin^
+
+^DatesLast^aħħar^DatesLast^
+
+^DatesMinAgo^{0} Min ilu^DatesMinAgo^
+
+^DatesNext^Li jmiss^DatesNext^
+
+^DatesNow^issa^DatesNow^
+
+^DatesOneHour^siegħa ilu^DatesOneHour^
+
+^DateSortAscending^Aktar kmieni fuq Top^DateSortAscending^
+
+^DateSortDescending^Latest fuq Top^DateSortDescending^
+
+^DatesSmart^Dati smart^DatesSmart^
+
+^DatesToday^illum^DatesToday^
+
+^DatesTomorrow^għada^DatesTomorrow^
+
+^DatesYesterday^bieraħ^DatesYesterday^
+
+^Day^Jum^Day^
+
+^DefaultCancelActionHeaderText^Agħlaq^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Jekk jogħġbok imla din il-formola u kklikkja OK buttuna biex joħolqu rekord {0} ġdid. Ikklikkja Ikkanċella li jirritornaw għall-iskrin ta &#39;qabel.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^Dawn huma l-fields tar-rekord {0} li jistgħu jiġu editjati.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Jekk jogħġbok irrevedi {0} informazzjoni t&#39;hawn taħt. Ikklikkja Edit għall-bidla dan ir-rekord, ikklikkja Ħassar li jitħassar ir-rekord, jew ikklikkja Ikkanċella / Agħlaq li jirritornaw lura.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Din hija lista ta &#39;{0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Imla l-formola. Kun żgur li jidħlu oqsma kollha meħtieġa.^DefaultNewDescription^
+
+^DefaultOption^Standard^DefaultOption^
+
+^DefaultReferenceDescription^Dettalji addizzjonali dwar {0} huma pprovduti fit-taqsima informazzjoni ta &#39;referenza.^DefaultReferenceDescription^
+
+^Delete^Ħassar^Delete^
+
+^DeleteActionConfirmation^Ħassar?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Ħassar^DeleteActionHeaderText^
+
+^Deleted^{$ magħżula} imħassar^Deleted^
+
+^DeleteOriginalSel^ħassar l-għażla oriġinali^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Ħassar)^DeleteSearchBarField^
+
+^DetailsToolTip^Ara d-dettalji għall-{0}^DetailsToolTip^
+
+^DevelopExplorer^proġett Explorer^DevelopExplorer^
+
+^DevelopFormLayout^formola Layout^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^daqsijiet iskrin Agħżel li għandhom jiġu inklużi fil-format.^DevelopFormLayoutInstr^
+
+^DevelopTools^Developer Għodod^DevelopTools^
+
+^Device^apparat^Device^
+
+^DeviceLoginPrompt^Jekk jogħġbok idħol biex tawtorizza aċċess fuq dan il-mezz.^DeviceLoginPrompt^
+
+^DidNotMatch^Ma jaqblux ma &#39;^DidNotMatch^
+
+^Directions^Direzzjonijiet^Directions^
+
+^DiscardChanges^Jarmi bidliet?^DiscardChanges^
+
+^DisplayDensity^Densità Display^DisplayDensity^
+
+^DisplayedAbove^Murija Fuq^DisplayedAbove^
+
+^DisplayedBelow^Murija hawn taħt^DisplayedBelow^
+
+^Dock^Tittrakka^Dock^
+
+^DoesNotBeginWith^Ma jibdiex^DoesNotBeginWith^
+
+^DoesNotContain^Ma jkunx fih^DoesNotContain^
+
+^DoesNotEndWith^Ma jiqafx ma &#39;^DoesNotEndWith^
+
+^DoesNotEqual^Ma Mhux Indaqs^DoesNotEqual^
+
+^DoesNotInclude^Ma tinkludix^DoesNotInclude^
+
+^DoNotMatchAll^Ma jaqblux kondizzjonijiet kollha^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Ma jaqblux ma &#39;kondizzjonijiet kollha^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Ma jaqblux xi kondizzjonijiet^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Ma jaqblux ma &#39;xi kondizzjonijiet^DoNotMatchAnyPastTense^
+
+^Download^download^Download^
+
+^Draw^Pinġi^Draw^
+
+^DuplicateActionHeaderText^Duplikat^DuplicateActionHeaderText^
+
+^DuplicateItem^Oġġett duplikat^DuplicateItem^
+
+^DuplicateRow^Ringiela dupplikata^DuplicateRow^
+
+^EditActionHeaderText^Edit^EditActionHeaderText^
+
+^EditItem^Edit Item^EditItem^
+
+^EditModeCancelActionHeaderText^Ikkanċella^EditModeCancelActionHeaderText^
+
+^EditRow^Edit Row^EditRow^
+
+^Empty^Empty^Empty^
+
+^EmptyContext^Azzjonijiet mhumiex disponibbli.^EmptyContext^
+
+^EmptyValue^(Vojta)^EmptyValue^
+
+^Enable^Enable^Enable^
+
+^EndsWith^Tispiċċa Bil-^EndsWith^
+
+^Equals^Ugwali^Equals^
+
+^Eraser^Eraser^Eraser^
+
+^Error^żball^Error^
+
+^Exit^Ħruġ^Exit^
+
+^ExitFullscreen^Meħlus ħruġ^ExitFullscreen^
+
+^ExportCsvActionDescription^Oġġetti tniżżel fil-format CSV.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Download^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Janalizza oġġetti ma spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Esportazzjoni lejn Spreadsheet^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Sindikat oġġetti ma RSS reader.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^Ara l-RSS Feed^ExportRssActionHeaderText^
+
+^Favorites^Favorites^Favorites^
+
+^Felt^Feltru^Felt^
+
+^FileCleared^Il-valur se jiġi kklerjat meta tiġi ffrankata^FileCleared^
+
+^FilesBytes^bytes^FilesBytes^
+
+^FilesClear^Clear^FilesClear^
+
+^FilesClearConfirm^Clear?^FilesClearConfirm^
+
+^FilesClick^Ikklikkja biex tagħżel fajl^FilesClick^
+
+^FilesClickMany^Ikklikkja biex tagħżel fajls^FilesClickMany^
+
+^FilesDrop^Drop fajl hawn^FilesDrop^
+
+^FilesDropMany^Qatra fajls hawn^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Tektek biex tagħżel fajl^FilesTap^
+
+^FilesTapMany^Tektek biex tagħżel fajls^FilesTapMany^
+
+^Filter^Iffiltra^Filter^
+
+^FilterApplied^Filtru ġie applikat.^FilterApplied^
+
+^FilterByField^Agħżel qasam li japplika filtru għall <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Agħżel għażliet wieħed jew aktar fil-lista hawn taħt u l-istampa <b>{2}</b> biex jiffiltraw <b>{0}</b> mill-kamp <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Ikklerja l-filtri kollha.^FilterCleared^
+
+^FilterLabelAnd^u^FilterLabelAnd^
+
+^FilterLabelClear^Ċari^FilterLabelClear^
+
+^FilterLabelEquals^ugwali^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Bidla^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^jinkludi^FilterLabelIncludes^
+
+^FilterLabelOr^jew^FilterLabelOr^
+
+^FilterLabelSelectAll^(Agħżel Kollha)^FilterLabelSelectAll^
+
+^FilterSiteMap^Mappa tas-sit filtru ...^FilterSiteMap^
+
+^Finish^finish^Finish^
+
+^FitToWidth^Fit wisa^FitToWidth^
+
+^FlatTreeToggle^Jaqilbu għal Ġerarkija^FlatTreeToggle^
+
+^FontName^Isem Font^FontName^
+
+^FontSize^Daqs Font^FontSize^
+
+^ForeColor^Kulur Fore^ForeColor^
+
+^Forget^tinsa^Forget^
+
+^ForgotYourPassword^Insejt il-password tiegħek?^ForgotYourPassword^
+
+^Format^Format^Format^
+
+^Freeze^Jiffriżaw^Freeze^
+
+^From^minn^From^
+
+^Fullscreen^fullscreen^Fullscreen^
+
+^Future^Futur^Future^
+
+^GeneralTabText^Ġenerali^GeneralTabText^
+
+^Generate^Iġġenera^Generate^
+
+^GenericNewToolTip^Oħloq ġodda^GenericNewToolTip^
+
+^GenericSortAscending^Iżgħar fuq Top^GenericSortAscending^
+
+^GenericSortDescending^Akbar fuq Top^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Totali Grand^GrandTotals^
+
+^Granite^Granit^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Gravità^Gravity^
+
+^GreaterThan^Akbar minn^GreaterThan^
+
+^GreateThanOrEqual^Ikbar minn jew ugwali^GreateThanOrEqual^
+
+^Grid^Ordni^Grid^
+
+^GridActionDescription^Wiri oġġetti fil-format standard<br/>list.^GridActionDescription^
+
+^GridActionHeaderText^Juru fil Ara l-Istandard^GridActionHeaderText^
+
+^Group^Grupp^Group^
+
+^GroupByField^Agħżel qasam li grupp <b>{0}</b>.^GroupByField^
+
+^Grouped^Raggruppat^Grouped^
+
+^GroupedBy^Raggruppati skond^GroupedBy^
+
+^GroupedDefault^Il-grupp tneħħa^GroupedDefault^
+
+^Heading1^Intestatura 1^Heading1^
+
+^Heading2^Intestatura 2^Heading2^
+
+^Heading3^Intestatura 3^Heading3^
+
+^Heading4^Intestatura 4^Heading4^
+
+^Heading5^Intestatura 5^Heading5^
+
+^Heading6^Intestatura 6^Heading6^
+
+^Help^Għajnuna^Help^
+
+^HelpClose^Agħlaq^HelpClose^
+
+^HelpFullScreen^Full Screen^HelpFullScreen^
+
+^Hide^Aħbi^Hide^
+
+^HideAdvancedSearch^Aħbi Tfittxija Avvanzata^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Jaqilbu għal Lista ċatti^HierarchyTreeModeToggle^
+
+^Highlighter^Highlighter^Highlighter^
+
+^History^Storja^History^
+
+^HistoryToolTip^Ara l-istorja ta &#39;rekords magħżula qabel^HistoryToolTip^
+
+^HistoryUnavailable^Storja ma tkunx disponibbli.^HistoryUnavailable^
+
+^Home^Home^Home^
+
+^IdleUser^Inti xorta hemm? Jekk jogħġbok login għal darb&#39;oħra.^IdleUser^
+
+^ImportActionDescription^Upload CSV, XLS, jew rekords ta &#39;importazzjoni XLSX file<br/>to.^ImportActionDescription^
+
+^ImportActionHeaderText^Importazzjoni Mill File^ImportActionHeaderText^
+
+^ImportAutoDetect^(Auto-jiskopru)^ImportAutoDetect^
+
+^ImportComplete^kompluta^ImportComplete^
+
+^ImportDone^Completed importazzjoni^ImportDone^
+
+^ImportDownloadTemplate^Download template fajl ta &#39;importazzjoni.^ImportDownloadTemplate^
+
+^ImportDuplicates^dupplikati^ImportDuplicates^
+
+^ImportEmail^Ibgħat l-log ta &#39;importazzjoni lill-indirizzi email li ġejjin (mhux obbligatorju)^ImportEmail^
+
+^ImportEmailNotSpecified^Riċevitur tal-log ta &#39;importazzjoni ma ġietx speċifikata. Kompli xorta?^ImportEmailNotSpecified^
+
+^ImportExpected^Mistennija biex jitlesta^ImportExpected^
+
+^ImportFileStats^Hemm rekords <b>{0}</b> fil-fajl <b>{1}</b> lesti biex jiġu pproċessati. Jekk jogħġbok jqabblu l-ismijiet qasam.^ImportFileStats^
+
+^Importing^jimporta^Importing^
+
+^ImportMappingInstruction^Hemm rekord <b>{0}</b> (i) fil-<b>{1}</b> fajl lesti biex jiġu processed.<br/>Please Mappa-oqsma ta &#39;importazzjoni minn data fajl lill-oqsma ta&#39; applikazzjoni u kklikkja <i>Import</i> biex tibda l-ipproċessar.^ImportMappingInstruction^
+
+^ImportNotSupported^format tad-data ta &#39; &quot;{0}&quot; mhijiex appoġġjata.^ImportNotSupported^
+
+^ImportProcessing^Ipproċessar fajl ta &#39;importazzjoni tkun ġiet mibdija. Ir-rekords tad-data importat se ssir disponibbli fuq l-ipproċessar ta &#39;suċċess. Jista &#39;jkollok bżonn li jġedded l-opinjonijiet rilevanti / paġni biex tara d-reġistri importati.^ImportProcessing^
+
+^ImportRemaining^Mistennija biex jitlesta^ImportRemaining^
+
+^ImportSelectFile^Ċikli relatati mad-fajl elettroniku stabbilit CSV, XLS, jew format xlsx.^ImportSelectFile^
+
+^ImportStartButton^Importazzjoni^ImportStartButton^
+
+^ImportUploading^Fajl tiegħek qed tittella-server. Jekk jogħġbok stenna ...^ImportUploading^
+
+^ImportUploadInstruction^Jekk jogħġbok agħżel il-fajl biex ittella. Il-fajl għandu jkun <b>CSV</b>, <b>XLS</b>, jew <b>XLSX</b>-format.^ImportUploadInstruction^
+
+^In^fil^In^
+
+^Includes^Jinkludi^Includes^
+
+^Indent^Inċiż^Indent^
+
+^InfoBarAnd^u^InfoBarAnd^
+
+^InfoBarEmpty^vojta^InfoBarEmpty^
+
+^InfoBarEqualTo^hija ugwali għal^InfoBarEqualTo^
+
+^InfoBarGreaterThan^hija akbar minn^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^hija akbar minn jew ugwali għal^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^huwa inqas minn^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^huwa inqas minn jew ugwali għal^InfoBarLessThanOrEqual^
+
+^InfoBarLike^huwa simili^InfoBarLike^
+
+^InfoBarOr^jew^InfoBarOr^
+
+^InfoBarQuickFind^Kull qasam fih^InfoBarQuickFind^
+
+^InfoBarStartsWith^jibda^InfoBarStartsWith^
+
+^InitialListMode^Lista Mode inizjali^InitialListMode^
+
+^InlineEditing^Editjar Inline^InlineEditing^
+
+^InsertActionHeaderText^OK^InsertActionHeaderText^
+
+^InsertHorizontalRule^Daħħal Regola Orizzontali^InsertHorizontalRule^
+
+^InsertingRecords^ddaħħal rekords^InsertingRecords^
+
+^InsertOrderedList^Daħħal Lista Ordnat^InsertOrderedList^
+
+^InsertUnorderedList^Daħħal Unordered Lista^InsertUnorderedList^
+
+^Into^fis^Into^
+
+^InvalidUserNameAndPassword^Il-username u password mhumiex validi.^InvalidUserNameAndPassword^
+
+^Italic^Korsiv^Italic^
+
+^ItemsPerPage^Oġġetti għal kull paġna:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} punti magħżula^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Oġġett magħżula^ItemsSelectedOne^
+
+^JustDatesNow^Issa^JustDatesNow^
+
+^JustifyCenter^Jiġġustifikaw Center^JustifyCenter^
+
+^JustifyFull^Jiġġustifikaw Full^JustifyFull^
+
+^JustifyLeft^Jiġġustifikaw Xellug^JustifyLeft^
+
+^JustifyRight^Jiġġustifika d-dritt^JustifyRight^
+
+^KeepOriginalSel^iżomm l-għażla oriġinali^KeepOriginalSel^
+
+^LabelsInList^Tikketti fil-Lista^LabelsInList^
+
+^Lacquer^Laker^Lacquer^
+
+^Laminate^Pellikola^Laminate^
+
+^Landscape^Pajsaġġ^Landscape^
+
+^Large^Kbir^Large^
+
+^LastMonth^Aħħar Xahar^LastMonth^
+
+^LastQuarter^L-aħħar Kwartier^LastQuarter^
+
+^LastWeek^L-aħħar Ġimgħa^LastWeek^
+
+^LastYear^Aħħar Sena^LastYear^
+
+^Less^Inqas^Less^
+
+^LessThan^Inqas Than^LessThan^
+
+^LessThanOrEqual^Anqas minn jew ugwali^LessThanOrEqual^
+
+^Lichen^Lichen^Lichen^
+
+^LightTheme^Light^LightTheme^
+
+^Line^linja^Line^
+
+^List^Lista^List^
+
+^ListOneColumn^Lista (One Kolonna)^ListOneColumn^
+
+^ListViewStyle^Lista^ListViewStyle^
+
+^Loading^Tagħbija ...^Loading^
+
+^Logical^Logical^Logical^
+
+^LoginButton^Login^LoginButton^
+
+^LoginLink^Login^LoginLink^
+
+^Logout^Logout^Logout^
+
+^LookupInstruction^Jekk jogħġbok agħżel <b>{0}</b> fil-lista.^LookupInstruction^
+
+^LookupOriginalSelection^L-għażla oriġinali huwa <b>&quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^Manage Kontijiet^ManageAccounts^
+
+^Map^Map^Map^
+
+^MatchAll^Match kondizzjonijiet kollha^MatchAll^
+
+^MatchAllPastTense^Mqabbla kondizzjonijiet kollha^MatchAllPastTense^
+
+^MatchAny^Match kwalunkwe kondizzjonijiet^MatchAny^
+
+^MatchAnyPastTense^Mqabbla kwalunkwe kondizzjonijiet^MatchAnyPastTense^
+
+^Matched^Mqabbla^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Massimu ta &#39;{0}^MaxAggregateToolTip^
+
+^Maximize^Jespandu^Maximize^
+
+^MaximumOf^Massimu ta &#39;^MaximumOf^
+
+^Medium^Medju^Medium^
+
+^Menu^Menu^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^Minimu ta &#39;{0}^MinAggregateToolTip^
+
+^Minimize^Kollass^Minimize^
+
+^MinimumOf^Minimu ta &#39;^MinimumOf^
+
+^Mission^Missjoni^Mission^
+
+^ModeBrowsing^Tfittex^ModeBrowsing^
+
+^ModeEditing^Editjar^ModeEditing^
+
+^ModeEntering^Id-dħul^ModeEntering^
+
+^ModeLookup^Tfittxija^ModeLookup^
+
+^Modern^Modern^Modern^
+
+^ModernRose^Modern Rose^ModernRose^
+
+^ModeViewing^Veduta^ModeViewing^
+
+^Month^Xahar^Month^
+
+^More^Aktar^More^
+
+^MultiSelection^Għażla multi^MultiSelection^
+
+^Municipal^Muniċipali^Municipal^
+
+^MyAccount^Il-Kont Tiegħi^MyAccount^
+
+^Never^Qatt^Never^
+
+^NewActionHeaderText^Ġodda^NewActionHeaderText^
+
+^NewItem^Punt ġdid^NewItem^
+
+^NewRow^Ringiela Ġdida^NewRow^
+
+^NewRowLink^Ikklikkja hawn biex joħloq rekord ġdid.^NewRowLink^
+
+^NewToolTip^Ġodda {0}^NewToolTip^
+
+^Next^Li jmiss^Next^
+
+^Next2^Li jmiss^Next2^
+
+^NextMonth^Xahar li jmiss^NextMonth^
+
+^NextQuarter^Li jmiss Kwartier^NextQuarter^
+
+^NextWeek^Li jmiss Ġimgħa^NextWeek^
+
+^NextYear^Li jmiss Sena^NextYear^
+
+^No^L-ebda^No^
+
+^NoMatches^Ebda taqbila.^NoMatches^
+
+^None^Xejn^None^
+
+^Noon^Nofsinhar^Noon^
+
+^NoRecords^Ebda rekords misjuba.^NoRecords^
+
+^NoteDeleteConfirm^Ħassar?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^tħassar^NoteDeleteLabel^
+
+^NoteEditLabel^jeditjaw^NoteEditLabel^
+
+^NotEmpty^Mhux vojta^NotEmpty^
+
+^NotMatched^(Mhux imqabbla)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^Numru^Number^
+
+^NumberFilterText^Numru Filtri^NumberFilterText^
+
+^NumberIsExpected^Numru mistenni.^NumberIsExpected^
+
+^OdpCommitting^Tella &#39;transazzjonijiet ...^OdpCommitting^
+
+^OdpDone^Realizatu^OdpDone^
+
+^OdpDownloadingBlob^Tniżżil ta &#39;data binarja għal {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^Tniżżil tad-dejta għal {0}...^OdpDownloadingData^
+
+^OdpInitializing^Inizjalizza ...^OdpInitializing^
+
+^OdpInvalidResponse^Risposta mhux valida mis-server.^OdpInvalidResponse^
+
+^OdpLastRefresh^L-aħħar aġġornament: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Id-dejta ma ġietx aġġornata.^OdpNotRefreshed^
+
+^OdpOfflineState^Int taħdem fil-modalità offline.^OdpOfflineState^
+
+^OdpOnlineRequired^Konnessjoni onlajn hija meħtieġa.^OdpOnlineRequired^
+
+^OdpPending^Tibdiliet pendenti^OdpPending^
+
+^OdpReconRequired^Rikonċiljazzjoni hija meħtieġa^OdpReconRequired^
+
+^OdpReconTxDelete^Ħassar din il-bidla mil-log?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^Imħassar l-ewwel tranżazzjoni pendenti fil-ġurnal.^OdpReconTxDeleted^
+
+^OdpRefresh^Aġġorna d-Dejta^OdpRefresh^
+
+^OdpRefreshData^Aġġorna d-Dejta^OdpRefreshData^
+
+^OdpRefreshLast^Data mġedda^OdpRefreshLast^
+
+^OdpSave^Jekk jogħġbok ħlief it-tibdiliet kollha.^OdpSave^
+
+^OdpSaveAndSync^Issejvja l-bidliet kollha u agħżel l-għażla Issinkronizza fil-menu tal-kuntest.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Server tal-applikazzjoni mhux disponibbli.^OdpServerUnavailable^
+
+^OdpStatus^Status^OdpStatus^
+
+^OdpSync^Issinkronizza^OdpSync^
+
+^OdpSynced^Sinkronizzata^OdpSynced^
+
+^OdpSyncLast^L-Aħħar Sinkronizzazzjoni^OdpSyncLast^
+
+^OdpSyncLong^Issinkronizza biex ittella &#39;bidliet.^OdpSyncLong^
+
+^OdpSyncUploadFailed^Ma rnexxielux ittella &#39;{0} fajls.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Ittella &#39;{0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Mhux possibbli li titħassar. {1} oġġetti dipendenti fi {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Mhux kapaċi tesegwixxi.^OdpUnableToExec^
+
+^OdpUnableToProcess^Mhux kapaċi tipproċessa transazzjonijiet.^OdpUnableToProcess^
+
+^OdpUnableToSave^Mhux possibbli biex issalva l-bidliet.^OdpUnableToSave^
+
+^OdpUploadFailed^Ma rnexxielux itella &#39;l-fajls.^OdpUploadFailed^
+
+^OdpUploadingFiles^Ttella &#39;{0} fajls ...^OdpUploadingFiles^
+
+^OK^OK^OK^
+
+^OnHover^fuq Hover^OnHover^
+
+^OnOrAfter^Fuq jew Wara^OnOrAfter^
+
+^OnOrBefore^Fuq jew Qabel^OnOrBefore^
+
+^OpenActionHeaderText^Miftuħa^OpenActionHeaderText^
+
+^Optional^fakultattiv^Optional^
+
+^Orientation^orjentazzjoni^Orientation^
+
+^Other^Oħra^Other^
+
+^Outdent^Outdent^Outdent^
+
+^Page^Paġna^Page^
+
+^Paragraph^Paragrafu^Paragraph^
+
+^Password^Password^Password^
+
+^Past^Passat^Past^
+
+^Paste^Paste^Paste^
+
+^Pen^Pinna^Pen^
+
+^PerformAdvancedSearch^Fittex^PerformAdvancedSearch^
+
+^Permalink^Permalink^Permalink^
+
+^PermalinkToolTip^Toħloq rabta permanenti għar-rekord magħżula^PermalinkToolTip^
+
+^PermalinkUnavailable^Permalink ma tkunx disponibbli. Jekk jogħġbok agħżel rekord.^PermalinkUnavailable^
+
+^Petal^Petali^Petal^
+
+^Pinnate^Pinnate^Pinnate^
+
+^Plastic^Plastic^Plastic^
+
+^Portrait^Portrait^Portrait^
+
+^PresentationStyle^Agħżel stil preżentazzjoni data.^PresentationStyle^
+
+^Prev2^Prev^Prev2^
+
+^Previous^Preċedenti^Previous^
+
+^PromoteActions^Jippromwovu Azzjonijiet^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^Kwartier^Quarter^
+
+^Quarter1^Kwartier 1^Quarter1^
+
+^Quarter2^Kwartier 2^Quarter2^
+
+^Quarter3^Kwart 3^Quarter3^
+
+^Quarter4^Kwartier 4^Quarter4^
+
+^QuickFindDescription^Fittex fi {0}^QuickFindDescription^
+
+^QuickFindScope^Fittex fil ...^QuickFindScope^
+
+^QuickFindText^Quick Find^QuickFindText^
+
+^QuickFindToolTip^Tip ta &#39;tiftix ir-rekords u l-istampa Ikteb^QuickFindToolTip^
+
+^Quotation^Kwotazzjoni^Quotation^
+
+^Reading^Qari ...^Reading^
+
+^ReadingPane^Qari Pane^ReadingPane^
+
+^ReadOnly^{0} huwa ta &#39;qari biss.^ReadOnly^
+
+^Recent^Reċenti^Recent^
+
+^Redo^Jerġa &#39;jagħmel^Redo^
+
+^Refresh^Riffriskar^Refresh^
+
+^Refreshed^Refreshed^Refreshed^
+
+^RememberMe^Remember me ħin li jmiss^RememberMe^
+
+^RemoveCondition^Neħħi Kundizzjoni^RemoveCondition^
+
+^RemoveFormat^Neħħi Format^RemoveFormat^
+
+^ReportActionDescription^Tirrendi rapport fil-format PDF^ReportActionDescription^
+
+^ReportActionHeaderText^Rapport ta &#39;^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Ara l-oġġetti fil-Excel spreadsheet formatted<br/>Microsoft.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Spreadsheet^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Ara l-oġġetti bħala immaġini TIFF multipage.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Image multipage^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Ara l-oġġetti bħala Adobe PDF document.<br/>Requires qarrej kompatibbli.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^Dokument PDF^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Ara l-oġġetti fil dokument Word formatted<br/>Microsoft.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Meħtieġa^Required^
+
+^RequiredField^Dan il-qasam hija meħtieġa.^RequiredField^
+
+^RequiredFiledMarkerFootNote^jindika kamp meħtieġa^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Irrisettja^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Irrisettja l-kundizzjonijiet tat-tfittxija^ResetSearchConfirm^
+
+^ResolvingReferences^Solvuti referenzi^ResolvingReferences^
+
+^ResumeBrowsing^Resume Browsing^ResumeBrowsing^
+
+^ResumeEditing^Resume Editjar^ResumeEditing^
+
+^ResumeEntering^Resume dħul^ResumeEntering^
+
+^ResumeLookup^Resume Lookup^ResumeLookup^
+
+^ResumeViewing^Resume Viewing^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Rwoli^RolesTab^
+
+^RootNodeText^Ogħla Livell^RootNodeText^
+
+^Rotate^Dawwar^Rotate^
+
+^RowCancelActionHeaderText^Ikkanċella^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Daħħal^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Ħlief^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Aġġornament?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Għażla Aġġornament^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Ħlief^Save^
+
+^SaveAndContinue^Issejvja u Kompli^SaveAndContinue^
+
+^SaveAndNew^Ħlief u New^SaveAndNew^
+
+^Saved^Ssejvjata - {0}^Saved^
+
+^ScanToConfirm^Jekk jogħġbok skennja mill-ġdid biex tikkonferma.^ScanToConfirm^
+
+^SeeAll^Ara Kollha^SeeAll^
+
+^SeeAlso^Ara ukoll^SeeAlso^
+
+^SelectActionHeaderText^Agħżel^SelectActionHeaderText^
+
+^SelectAll^Agħżel Kollha^SelectAll^
+
+^SelectItem^Agħżel Punt^SelectItem^
+
+^SelectLink^(Agħżel)^SelectLink^
+
+^SelectRow^Agħżel ringiela^SelectRow^
+
+^SelectToolTip^Agħżel {0}^SelectToolTip^
+
+^Separator^Separator^Separator^
+
+^Settings^Settings^Settings^
+
+^Show^Uri^Show^
+
+^ShowAdvancedSearch^Uri Tfittxija Avvanzata^ShowAdvancedSearch^
+
+^ShowChart^Uri Chart^ShowChart^
+
+^ShowData^Uri Data^ShowData^
+
+^ShowingItems^Esibiti <b>{0}</b> <b>{1}</b>-ta &#39;oġġetti <b>{2}</b>^ShowingItems^
+
+^ShowingItemsInfo^Showing {0} oġġetti.^ShowingItemsInfo^
+
+^ShowingItemsRange^Showing {0} tal {1} oġġetti^ShowingItemsRange^
+
+^ShowLess^Uri Inqas^ShowLess^
+
+^ShowMore^Uri Aktar^ShowMore^
+
+^ShowOptions^Għażliet Uri^ShowOptions^
+
+^ShowSystemButtons^Buttuni Uri Sistema ta^ShowSystemButtons^
+
+^Sidebar^Sidebar^Sidebar^
+
+^Sign^Sign hawn^Sign^
+
+^SignedOut^iffirmat Out^SignedOut^
+
+^SignUpNow^Sign up issa^SignUpNow^
+
+^Simple^Sempliċi^Simple^
+
+^SiteActions^Sit Azzjonijiet^SiteActions^
+
+^SizeLabel^Daqs^SizeLabel^
+
+^Small^Żgħar^Small^
+
+^Social^Soċjali^Social^
+
+^Sort^Xorta^Sort^
+
+^SortBy^Xorta minn {0}^SortBy^
+
+^SortByField^Agħżel qasam biex ibiddlu l-ordni tip ta &#39;<b>{0}</b>.^SortByField^
+
+^SortByOptions^Agħżel l-ordni tip ta &#39;<b>{0}</b> mill-kamp <b>{1}</b> fil-lista ta&#39; għażliet hawn taħt.^SortByOptions^
+
+^Sorted^Issortjat^Sorted^
+
+^SortedDefault^Ordni ta &#39;sort default.^SortedDefault^
+
+^StartImport^bidu Importazzjoni^StartImport^
+
+^StrikeThrough^Aqta Permezz^StrikeThrough^
+
+^StringSortAscending^Axxendenti^StringSortAscending^
+
+^StringSortDescending^Dixxendenti^StringSortDescending^
+
+^Submit^Issottometti^Submit^
+
+^Subscript^Script Sub^Subscript^
+
+^Suggestions^Suġġerimenti^Suggestions^
+
+^SumAggregate^Somma: {0}^SumAggregate^
+
+^SumAggregateToolTip^Somma ta &#39;{0}^SumAggregateToolTip^
+
+^Summary^Sommarju^Summary^
+
+^Summer^Summer^Summer^
+
+^SumOf^Somma ta &#39;^SumOf^
+
+^Superscript^Super Script^Superscript^
+
+^Sync^Sync^Sync^
+
+^TaskResume^Tkompli^TaskResume^
+
+^Tasks^Kompiti^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^abc^TelHints2^
+
+^TelHints3^dif^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^rekords tal-ittestjar^TestingRecords^
+
+^Text^Test^Text^
+
+^TextFilterText^Test Filtri^TextFilterText^
+
+^Theme^Tema^Theme^
+
+^ThisMonth^Dan Xahar^ThisMonth^
+
+^ThisQuarter^Dan Kwartier^ThisQuarter^
+
+^ThisWeek^Din il-Ġimgħa^ThisWeek^
+
+^ThisYear^Din is-Sena^ThisYear^
+
+^Tiny^ċkejkna^Tiny^
+
+^Today^Illum^Today^
+
+^Tomorrow^Għada^Tomorrow^
+
+^Top^top^Top^
+
+^ToThisWebsite^għal din il-websajt^ToThisWebsite^
+
+^TouchUINotSupported^Touch UI ma hija sostnuta f&#39;dan browser.^TouchUINotSupported^
+
+^TransitionFade^Fade^TransitionFade^
+
+^TransitionFlip^Flip^TransitionFlip^
+
+^TransitionFlow^Flow^TransitionFlow^
+
+^TransitionNone^Xejn^TransitionNone^
+
+^TransitionPop^Pop^TransitionPop^
+
+^Transitions^Tranżizzjonijiet^Transitions^
+
+^TransitionSlide^Slide^TransitionSlide^
+
+^TransitionSlideDown^Żerżaq Down^TransitionSlideDown^
+
+^TransitionSlideUp^Slide Up^TransitionSlideUp^
+
+^TransitionTurn^Turn^TransitionTurn^
+
+^TreeActionDescription^Wiri relazzjonijiet ġerarkiċi.^TreeActionDescription^
+
+^TreeActionHeaderText^Uri Ġerarkija^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Ikseb Kodiċi ta &#39;Verifika^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^App Awtentikatur^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Jekk m&#39;intix kapaċi tipprovdi l-kodiċi tal-verifika, imbagħad daħħal il-kodiċi tal-backup minflok.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^kodiċi ta &#39;darba^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Kodiċi ta &#39;riżerva^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Is-sejħa saret lil^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^Intbagħtet email lil^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^Messaġġ ta &#39;test intbagħat lil^TwoFaCodeSentSms^
+
+^TwoFaConsent^Kunsens^TwoFaConsent^
+
+^TwoFaEnterPassword^Daħħal il-password tiegħek^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Ċemplini fuq^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^Se nċempel^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^Ibgħatli email lil^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^Test me fi^TwoFaGetCodeSms^
+
+^TwoFaMethod^Metodu^TwoFaMethod^
+
+^TwoFaMsgChanged^L-Awtentikazzjoni b&#39;2 Fatturi nbidlet.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^L-Awtentikazzjoni b&#39;2 Fatturi ġiet diżattivata.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Itfi awtentikazzjoni b&#39;żewġ fatturi?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^L-Awtentikazzjoni b&#39;2 Fatturi ġiet attivata.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Jekk jogħġbok daħħal il-kodiċi ta &#39;verifika b&#39;{0} ċifri.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Password invalida.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Kodiċi ta &#39;verifika invalidu.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 huwa l-kodiċi ta &#39;verifika {0} tiegħek.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^Ma nistax niskennja l-kodiċi QR.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Għandi bżonn l-għajnuna biex tinstalla l-app tal-awtentikatur.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Għandi app awtentikatur fuq apparat mobbli.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^Il-kodiċijiet ta &#39;riżerva ta&#39; użu ta &#39;darba jħalluk tiffirma jekk ma tkunx tista&#39; tipprovdi kodiċi ta &#39;verifika.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Kodiċijiet tal-backup^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Se ndaħħal kodiċi ta &#39;verifika wara li niffirma b&#39;suċċess.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Daħħal iċ-ċavetta tas-setup fl-app^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Metodi ta &#39;Verifika^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Skennja l-kodiċi QR bil-kamera^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Skennja l-kodiċi QR fl-app^TwoFaSetupScanQrCode^
+
+^TwoFaText^Awtentikazzjoni b&#39;2 Fatturi^TwoFaText^
+
+^TwoFaTrustThisDevice^Fidu f&#39;dan l-apparat^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Kodiċi ta &#39;Verifika^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Se nuża app awtentikatur biex nikseb il-kodiċi tal-verifika.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Se nirċievi telefonata awtomatizzata fuq it-telefon tiegħi.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Il-kodiċi tal-verifika se jitwassal permezz tal-email.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Il-kodiċi tal-verifika se jitwassal permezz ta &#39;messaġġ ta&#39; test.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Tip lil Fittex^TypeToSearch^
+
+^Underline^Jissottolinjaw^Underline^
+
+^Undo^Jneħħu^Undo^
+
+^Undock^Skonnetta^Undock^
+
+^Unfreeze^Jiżblokkaw^Unfreeze^
+
+^UnGrouped^Il-grupp tneħħa^UnGrouped^
+
+^UnLink^Unlink^UnLink^
+
+^UnSelect^Neħħi l-għażla^UnSelect^
+
+^UpdateActionHeaderText^OK^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Aġġornament?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Għażla Aġġornament^UpdateActionInBatchModeHeaderText^
+
+^Upload^Itellgħu^Upload^
+
+^UploadDescription^Tella fajls multipli.^UploadDescription^
+
+^Uploading^Ittella &#39;{0}...^Uploading^
+
+^UpOneLevel^Up Livell Wieħed^UpOneLevel^
+
+^UseLEV^Pejst &quot;{0}&quot;^UseLEV^
+
+^UserName^Isem l-utent^UserName^
+
+^UsersInRole^Utenti fil Rwol^UsersInRole^
+
+^UsersTab^Utenti^UsersTab^
+
+^Vantage^Vantage^Vantage^
+
+^Verdant^Verdant^Verdant^
+
+^Verify^Ivverifika^Verify^
+
+^View^Ara l-^View^
+
+^Viewpoint^Viewpoint^Viewpoint^
+
+^Wait^Stenna...^Wait^
+
+^Week^Ġimgħa^Week^
+
+^Welcome1^Merħba^Welcome1^
+
+^Welcome2^Illum huwa^Welcome2^
+
+^WhiteSmoke^Duħħan White^WhiteSmoke^
+
+^WithSelectedValues10^Bil Valuri magħżula (Top 10)^WithSelectedValues10^
+
+^WithSelectedValues5^Bil Valuri magħżula (Fuq 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^Bil Filtri Speċifikati^WithSpecifiedFilters^
+
+^Year^Sena^Year^
+
+^YearToDate^Sena biex Data^YearToDate^
+
+^Yes^Iva^Yes^
+
+^Yesterday^Ilbieraħ^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Zoom^ZoomIn^
+
+^ZoomOut^Zoom out^ZoomOut^
+

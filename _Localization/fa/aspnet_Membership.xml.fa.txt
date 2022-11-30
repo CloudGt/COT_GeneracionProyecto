@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^ایجاد یک رکورد جدید کاربر.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^کاربر جدید^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^جدید^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^به عقب^BackToRequestPasswordActionHeaderText^
+
+^Comment^نظر^Comment^
+
+^ConfirmIdentityActionHeaderText^پایان^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^تکرار رمز عبور جدید^ConfirmNewPassword^
+
+^ConfirmPassword^تکرار رمز عبور^ConfirmPassword^
+
+^CreateDate^تاریخ ایجاد^CreateDate^
+
+^CreateFormCommentCategoryDescription^هیچ نظری اضافی در مورد این حساب کاربری را وارد نمایید. «دیدگاه» است به کاربر قابل مشاهده نیست.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^نظرات^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^لطفا نام کاربری و رمز عبور را وارد کنید. توجه داشته باشید که رمز عبور باید حداقل 7 کاراکتر و شامل یک کاراکتر غیر الفبایی باشد. تنها مورد تایید کاربران قادر خواهند بود به وب سایت وارد شوید.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^اطلاعات کاربر جدید^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^این فیلدها لازم هستند برای کمک به کاربر برای بازیابی رمز عبور فراموش شده است. در طول روند بهبود کاربر خواسته خواهد شد که به یک نام کاربر را وارد کنید. اگر یک حساب کاربری وجود دارد و سپس یک سوال امنیتی درخواست پاسخ داده شود. پاسخ درست یک ایمیل با یک رمز عبور موقتی به کاربر ارسال شود.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^بازیابی رمز عبور^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^لطفا نقش کاربر است که نزدیک ترین ارتباط را مطابقت با مسئولیت های کاربر را انتخاب کنید. نقش کنترل دسترسی به زمینه های این وب سایت است. لطفا با مدیر سیستم تماس بگیرید اگر نقش محدودیت های دسترسی را باید تغییر.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^نقش^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^لطفا این فرم را پر کنید و روی دکمه OK را برای ایجاد یک کاربر جدید ثبت عضویت کلیک کنید. برای بازگشت به صفحه قبلی کلیک کنید لغو.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^کاربر جدید^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^این حساب کاربری ایجاد خواهد شد به عنوان تایید شده است.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^تکراری آدرس پست الکترونیک شما.^DuplicateEmail^
+
+^DuplicateProviderUserKey^تکراری کلید ارائه دهنده.^DuplicateProviderUserKey^
+
+^DuplicateUserName^تکراری نام کاربر.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^آمار فعالیت^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^این حساب کاربری تصویب شده است^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^این آمار از تلاش ناموفق ورود به سایت های این کاربر است. <br/> کاربر <br/> خواهد شد بعد از رسیدن به حداکثر تعداد تلاش ورود ناموفق هستند قفل شده است. <br/> <br/> قفل شده خارج کاربران قادر خواهند بود برای ورود به سایت دوباره پس از تاریخ ناموفق رمز عبور اقدام به پنجره شروع. <br/> <br/> کاربرانی که موفق به بازیابی رمز عبور قادر خواهد بود به طوری پس از تاریخ در جواب شروع ناموفق رمز عبور اقدام به پنجره. <br/> ____ شما می توانید بر توانایی کاربران را برای ورود به سایت با تنظیم پرچم قفل شده خارج به &#39;هیچ&#39; بازگرداند.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^آمار ورود به انجمن^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^در طول بازیابی رمز عبور فراموش شده کاربر خواسته خواهد شد که به یک نام کاربر را وارد کنید. اگر یک حساب کاربری وجود دارد و سپس یک سوال امنیتی درخواست پاسخ داده شود. پاسخ درست یک ایمیل با یک رمز عبور موقتی به کاربر ارسال شود. <br/><br/> تغییر قفل شده است و پرچم به &#39;هیچ&#39; در صورتی که کاربر پس از رسیدن به حداکثر تعداد تلاش ورود ناموفق هستند قفل شده است و شما می خواهید اجازه می دهد تا کاربر را برای ورود به سایت دوباره.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^بازیابی رمز عبور^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^لطفا نقش کاربر است که نزدیک ترین ارتباط را مطابقت با مسئولیت های کاربر را انتخاب کنید. نقش کنترل دسترسی به زمینه های این وب سایت است. لطفا با مدیر سیستم تماس بگیرید اگر نقش محدودیت های دسترسی را باید تغییر. <br/> <br/> هیچ نظری اضافی در مورد این حساب کاربری را وارد کنید. «دیدگاه» است به کاربر قابل مشاهده نیست.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^اطلاعات کاربری^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^لطفا این فایل نقد می نویسید : اطلاعات عضویت کاربر زیر وارد نمایید. کلیک کنید ویرایش این رکورد برای تغییر ، حذف رکورد را حذف کنید کلیک کنید و یا با کلیک لغو / بستن به بازگشت به عقب.^EditFormViewHeaderText^
+
+^EditFormViewLabel^کاربر را نقد کنید^EditFormViewLabel^
+
+^Email^ایمیل^Email^
+
+^EnterCurrentPassword^لطفا رمز عبور فعلی خود را وارد کنید.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^لطفا پاسخ رمز عبور را وارد کنید.^EnterPasswordAnswer^
+
+^ErrorSavingUser^خطا در صرفه جویی در حساب کاربری.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^ناموفق رمز عبور اقدام به جواب تعداد^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^ناموفق رمز عبور اقدام به جواب شروع پنجره^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^تعداد تلاشی ناموفق رمز عبور^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^رمز عبور تلاشی ناموفق شروع پنجره^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^این یک لیست از سوابق عضویت کاربر می باشد.^GridViewHeaderText^
+
+^GridViewLabel^تمام کاربران^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^پاسخ به این سوال زیر را برای دریافت رمز عبور خود را. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^تایید هویت^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^لطفا این فرم را تکمیل و سپس فشردن کلید ارسال را فشار دهید برای بازیابی رمز عبور فراموش شده. برای بازگشت به صفحه قبلی کلیک کنید لغو.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^بازیابی کلمه عبور : مرحله 2 از 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^پاسخ بازیابی رمز عبور اشتباه.^InvalidAnswer^
+
+^InvalidEmail^آدرس ایمیل نامعتبر است.^InvalidEmail^
+
+^InvalidPassword^رمز عبور اشتباه.^InvalidPassword^
+
+^InvalidProviderUserKey^نامعتبر ارائه دهنده کلید کاربر.^InvalidProviderUserKey^
+
+^InvalidQuestion^سوال بازیابی رمز عبور اشتباه.^InvalidQuestion^
+
+^InvalidUserName^نام کاربری نامعتبر است.^InvalidUserName^
+
+^IsApproved^مورد قبول واقع شد^IsApproved^
+
+^IsLockedOut^موضوع قفل شده از^IsLockedOut^
+
+^LastLockoutDate^آخرین تاریخ حبس^LastLockoutDate^
+
+^LastLoginDate^آخرین تاریخ ورود^LastLoginDate^
+
+^LastPasswordChangedDate^رمز عبور آخرین تغییرات در تاریخ^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^جواب رمز عبور (برای محافظت از خود را نشان داده نمی شود)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^لطفا رمز عبور فعلی خود را برای ایجاد رمز عبور جدید را وارد کنید ، به روز رسانی آدرس ایمیل خود ، و یا تغییر بازیابی رمز عبور پرسش و پاسخ.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. رمز ورود فعلی^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^لطفا اطلاعات عضویت خود را در زیر این فایل نقد می نویسید :. کلیک کنید به روز رسانی حساب من برای تغییر این رکورد ، و یا با کلیک انصراف به بازگشت به عقب.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^حساب کاربری من^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^لطفا کلمه ی عبور جدید را وارد کنید. توجه داشته باشید که رمز عبور باید حداقل 7 کاراکتر و شامل یک کاراکتر غیر الفبایی باشد.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. رمز عبور (اختیاری)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^در طی بازیابی رمز عبور فراموش شده شما خواسته خواهد شد که برای نام کاربری خود را وارد کنید. اگر یک حساب کاربری وجود دارد و سپس رمز عبور یک سوال باید پاسخ داده شده است. پاسخ درست یک ایمیل با یک رمز عبور موقتی برای شما ارسال شود.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. ایمیل &amp; بازیابی رمز عبور (اختیاری)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^رمز عبور جدید^NewPassword^
+
+^NewPasswordAlert^رمز عبور جدید به آدرس که در فایل است ارسال خواهد شد.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^رمز عبور جدید و تایید مطابقت ندارند.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^رمز عبور جدید شما نامعتبر است.^NewPasswordInvalid^
+
+^NewPasswordSubject^رمز عبور جدیدی را برای \ &#39;{0}\&#39;.^NewPasswordSubject^
+
+^OldPassword^کلمه عبور قبلی^OldPassword^
+
+^Password^رمز عبور^Password^
+
+^PasswordAndConfirmationDoNotMatch^رمز عبور و تایید ، مطابقت ندارد.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^جواب رمز عبور^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^رمز عبور شما از سوابق ما مطابقت ندارد.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^فرمت رمز عبور^PasswordFormat^
+
+^PasswordQuestion^سوال رمز عبور^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^لطفا یک نام کاربر را وارد کنید. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^رمز عبورتان را فراموش کرده اید؟^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^لطفا این فرم را پر و دکمه برای بازیابی رمز عبور فراموش شده ادامه خواهد داد. برای بازگشت به صفحه قبلی کلیک کنید لغو.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^بازیابی کلمه عبور : مرحله 1 از 2^PasswordRequestViewLabel^
+
+^ProviderError^خطا ارائه دهنده خدمات.^ProviderError^
+
+^RequestPasswordActionHeaderText^بعد^RequestPasswordActionHeaderText^
+
+^Roles^نقش^Roles^
+
+^SelfRegisteredUser^کاربر عضو شده.^SelfRegisteredUser^
+
+^SignUp^ثبت نام^SignUp^
+
+^SignUpViewHeaderText^لطفا این فرم را پر کنید و دکمه OK به ثبت نام برای یک حساب کاربری. برای بازگشت به صفحه قبلی کلیک کنید لغو.^SignUpViewHeaderText^
+
+^SignUpViewLabel^حساب کاربری ثبت نام^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^لطفا نام کاربری و رمز عبور را وارد کنید. توجه داشته باشید که رمز عبور باید حداقل 7 کاراکتر و شامل یک کاراکتر غیر الفبایی باشد. تنها مورد تایید کاربران قادر خواهند بود به وب سایت وارد شوید.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^اطلاعات کاربر جدید^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^این فیلدها لازم هستند برای کمک به شما برای بازیابی رمز عبور فراموش شده است. در طول روند بهبود شما خواسته خواهد شد که به یک نام کاربر را وارد کنید. اگر یک حساب کاربری وجود دارد و سپس یک سوال امنیتی درخواست پاسخ داده شود. پاسخ درست یک ایمیل با یک رمز عبور موقتی به ایمیل ثبت شده ارسال شود.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^بازیابی رمز عبور^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^به روز رسانی حساب من^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^کاربر می تواند قفل نشده. اگر شما می خواهید برای جلوگیری از این کاربر از قادر بودن برای ورود به سایت و سپس به سادگی کاربر را به عنوان &quot;مورد تایید نیست علامت گذاری به عنوان.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^&#39;{0}&#39;کاربر حذف شده است.^UserHasBeenDeleted^
+
+^UserName^نام کاربر^UserName^
+
+^UserNameDoesNotExist^نام کاربری وجود ندارد.^UserNameDoesNotExist^
+
+^UserNotFound^کاربر یافت نشد.^UserNotFound^
+
+^UserRejected^کاربر شده است را رد کرد.^UserRejected^
+
+^UsersInRolesGridHeaderText^این یک لیست از سوابق عضویت کاربر که متعلق به یک نقش انتخاب شده است.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^کاربران در نقش^UsersInRolesGridLabel^
+

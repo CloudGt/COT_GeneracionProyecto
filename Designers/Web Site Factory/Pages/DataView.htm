@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Code OnTime Designer</title>
+
+    <script type="text/javascript" language="javascript" src="../../_System/CodeOnTime.Designer.js"></script>
+
+    <script type="text/javascript" language="javascript">
+
+        function pageLoad() {
+            if (!document.body) return;
+            initializeDesigner('Data View');
+            createTabbedControllers('Placeholder', [
+                new CodeOnTime.DesignerTab('Data View', 'DataViews', [
+                    { 'name': 'startCommandName', 'value': 'Edit' },
+                    { 'name': 'startCommandArgument', 'value': 'editForm1' },
+                    { 'name': 'hideExternalFilterFields', 'value': false },
+                    { 'name': 'backOnCancel', 'value': true },
+                    $cookie()])//,
+//                new CodeOnTime.DesignerTab('Items', 'Items', [
+//                    $cookie()]),
+//                new CodeOnTime.DesignerTab('Data Fields', 'DataFields', [
+//                    $cookie()]),
+//                new CodeOnTime.DesignerTab('Field Outputs', 'FieldOutputs', [
+//                    { 'name': 'hideExternalFilterFields', 'value': false },
+//                    $cookie()])
+                ]);
+            $find('DataViewsExtender').raiseSelected();
+
+        }
+
+    </script>
+
+</head>
+<body>
+    <!-- page body -->
+    <div id="Main" title="Data View">
+        <div id="Placeholder">
+        </div>
+    </div>
+</body>
+</html>

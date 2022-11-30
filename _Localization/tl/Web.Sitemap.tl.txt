@@ -1,0 +1,19 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Web.Sitemap project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^HomeDesc^Application home page^HomeDesc^
+
+^HomePath^Tahanan^HomePath^
+
+^MembershipDesc^User at manager ng papel^MembershipDesc^
+
+^MembershipPath^Pagsapi^MembershipPath^
+
+^ReportsPath^Mga Ulat^ReportsPath^
+
+^SiteHome^Tahanan^SiteHome^
+

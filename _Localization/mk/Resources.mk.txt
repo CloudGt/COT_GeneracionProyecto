@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Annotate^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b>{1}</b> Спроведен во {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Прилог^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Внесете опционален белешки и да го прикачите датотеки.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Забелешки и додатоци^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Напишани во {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Белешки^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Белешки^AnnotationTab^
+
+^BlobClearConfirm^Јасно?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Е расчистено.^BlobCleared^
+
+^BlobClearText^Ведро^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Не успеа да испраќате {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Кликнете^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^тука^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^за да испратите или јасно {0} датотека.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Беше качен успешно. <b>It Може да потрае до {1} минути за сликата за да ја одразуваат поставени content.</b>^BlobUploded^
+
+^Copyright^Сите права се задржани.^Copyright^
+
+^RecordChangedByAnotherUser^Записот е променето од страна на друг корисник.^RecordChangedByAnotherUser^
+

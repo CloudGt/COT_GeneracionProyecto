@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Kuunda mpya user rekodi.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^New User^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Mpya^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Nyuma^BackToRequestPasswordActionHeaderText^
+
+^Comment^Maoni^Comment^
+
+^ConfirmIdentityActionHeaderText^Kumaliza^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Confirm Password Mpya^ConfirmNewPassword^
+
+^ConfirmPassword^Confirm Password^ConfirmPassword^
+
+^CreateDate^Kujenga Tarehe^CreateDate^
+
+^CreateFormCommentCategoryDescription^Kuingia maoni yoyote ya ziada kuhusu akaunti ya mtumiaji huyu. Maoni ni kutoonekana kwa mtumiaji.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Maoni^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Tafadhali kuingia user jina na password. Kumbuka kwamba password ni lazima angalau 7 wahusika kwa muda mrefu na ni pamoja na moja isiyo ya alphanumeric tabia. Tu kupitishwa watumiaji watakuwa na uwezo wa kuingia katika tovuti.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^New User Habari^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Mashamba hayo wanatakiwa kusaidia user kuokoa password wamesahau. Wakati wa mchakato wa kufufua mtumiaji atatakiwa kuingia jina la mtumiaji. Kama akaunti ya mtumiaji lipo basi swali usalama ni ombi kwa kuwa akajibu. jibu sahihi trigger email na password muda kutuma kwa mtumiaji.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Tafadhali chagua majukumu user kwamba kwa karibu sana mechi ya majukumu ya mtumiaji. Majukumu ya kudhibiti upatikanaji wa maeneo ya mtandao huu. Tafadhali wasiliana na msimamizi mfumo kama vikwazo vya kutumia nafasi lazima kubadilishwa.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Majukumu^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Tafadhali jaza fomu hii na bonyeza OK kuunda mpya user uanachama rekodi. Bonyeza Ghairi kurudi screen uliopita.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^New User^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Akaunti hii user zitapatikana kama kupitishwa.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplicate anwani ya barua pepe.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Duplicate mtoa muhimu.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplicate user jina.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Shughuli Takwimu^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Akaunti hii user ni kupitishwa^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Hizi ni takwimu za majaribio walishindwa kuingia kwa mtumiaji huyu. <br/> <br/> User itakuwa imefungwa nje baada ya kufikia upeo wa idadi ya majaribio ya kushindwa kuingia. <br/> <br/> Locked nje watumiaji watakuwa na uwezo wa kuingia tena baada ya tarehe katika Imeshindwa Anza Password Jaribio Window. <br/> <br/> Watumiaji ambao walishindwa kuokoa password wataweza hivyo baada ya tarehe katika Imeshindwa Password Anza Jibu Jaribio Window. <br/> <br/> Unaweza kurejesha uwezo wa mtumiaji kuingia kwa kuweka Locked Kati bendera ya &#39;No&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Takwimu Login^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Wakati ahueni ya password wamesahau mtumiaji atatakiwa kuingia jina la mtumiaji. Kama akaunti ya mtumiaji lipo basi swali usalama ni ombi kwa kuwa akajibu. jibu sahihi trigger email na password muda kutuma kwa mtumiaji. <br/><br/> Change imefungwa nje bendera ya &#39;No&#39; kama mtumiaji imekuwa imefungwa nje baada ya kufikia upeo wa idadi ya majaribio ya kushindwa kuingia na unataka kuruhusu user kuingia tena.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Tafadhali chagua majukumu user kwamba kwa karibu sana mechi ya majukumu ya mtumiaji. Majukumu ya kudhibiti upatikanaji wa maeneo ya mtandao huu. Tafadhali wasiliana na msimamizi mfumo kama vikwazo vya kutumia nafasi lazima kubadilishwa. <br/> <br/> Andika maoni yoyote ya ziada kuhusu akaunti ya mtumiaji huyu. Maoni ni kutoonekana kwa mtumiaji.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^User Habari^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Tafadhali mapitio ya mtumiaji uanachama habari hapa chini. Click Edit na mabadiliko ya rekodi hii, bonyeza Futa kufuta rekodi, au bonyeza Cancel / Karibu na kurudi nyuma.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Mapitio ya mtumiaji^EditFormViewLabel^
+
+^Email^Email^Email^
+
+^EnterCurrentPassword^Tafadhali ingiza nywila yako ya sasa.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Tafadhali kuingia jibu password.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Hitilafu katika kuhifadhi user akaunti.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Alishindwa Password Jibu Jaribio Count^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Alishindwa Password Jibu Jaribio Window Mwanzo^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Alishindwa Password Jaribio Count^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Alishindwa Password Jaribio Window Mwanzo^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Hii ni orodha ya rekodi user uanachama.^GridViewHeaderText^
+
+^GridViewLabel^Watumiaji wote^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Kujibu swali zifuatazo kupokea nywila yako. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Utambulisho Kipaimara^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Tafadhali jaza fomu hii na bonyeza button Submit kuokoa password wamesahau. Bonyeza Ghairi kurudi screen uliopita.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: Hatua ya 2 ya 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Batili ahueni password jibu.^InvalidAnswer^
+
+^InvalidEmail^Batili anwani ya barua pepe.^InvalidEmail^
+
+^InvalidPassword^Batili password.^InvalidPassword^
+
+^InvalidProviderUserKey^Batili user mtoa muhimu.^InvalidProviderUserKey^
+
+^InvalidQuestion^Batili ahueni password swali.^InvalidQuestion^
+
+^InvalidUserName^Batili jina la mtumiaji.^InvalidUserName^
+
+^IsApproved^Ni Approved^IsApproved^
+
+^IsLockedOut^Zimefungiwa^IsLockedOut^
+
+^LastLockoutDate^Tarehe ya mwisho Lockout^LastLockoutDate^
+
+^LastLoginDate^Last Login Tarehe^LastLoginDate^
+
+^LastPasswordChangedDate^Password mara iliyopita tarehe^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Jibu Password (si kuonyeshwa kwa ajili ya ulinzi yako)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Tafadhali ingiza nywila yako ya sasa ya kujenga password mpya, update anwani yako ya barua pepe, au kubadilisha password ahueni swali na jibu.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Sasa Password^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Tafadhali kupitia uanachama wako habari hapa chini. Click Mwisho Akaunti yangu ya kubadili rekodi, au bonyeza Cancel kurudi nyuma.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Akaunti yangu^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Tafadhali ingiza nywila mpya. Kumbuka kwamba password ni lazima angalau 7 wahusika kwa muda mrefu na ni pamoja na moja isiyo ya alphanumeric tabia.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Mpya Password (lazima)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Wakati ahueni ya password wamesahau utaulizwa kuingia user name yako. Kama akaunti ya mtumiaji lipo basi swali password kuulizwa. jibu sahihi trigger email na password muda kutuma na wewe.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Password Recovery (lazima)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Mpya Password^NewPassword^
+
+^NewPasswordAlert^password mpya imekuwa Emailed na anwani juu ya faili.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^New password na uthibitisho si mechi.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Password yako mpya ni batili.^NewPasswordInvalid^
+
+^NewPasswordSubject^New password kwa \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Old Password^OldPassword^
+
+^Password^Password^Password^
+
+^PasswordAndConfirmationDoNotMatch^Neno la siri na uthibitisho si mechi.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Password Jibu^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Password yako haina mechi ya kumbukumbu zetu.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Password Format^PasswordFormat^
+
+^PasswordQuestion^Swali Password^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Tafadhali ingiza jina la mtumiaji. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Umesahau nywila yako?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Tafadhali kujaza fomu na bofya Endelea kifungo kuokoa password wamesahau. Bonyeza Ghairi kurudi screen uliopita.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: Hatua ya 1 ya 2^PasswordRequestViewLabel^
+
+^ProviderError^Mtoa makosa.^ProviderError^
+
+^RequestPasswordActionHeaderText^Next^RequestPasswordActionHeaderText^
+
+^Roles^Majukumu^Roles^
+
+^SelfRegisteredUser^Self-registered user.^SelfRegisteredUser^
+
+^SignUp^Jiandikishe^SignUp^
+
+^SignUpViewHeaderText^Tafadhali jaza fomu hii na bonyeza OK ishara kwa ajili ya akaunti. Bonyeza Ghairi kurudi screen uliopita.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Akaunti Sign Up^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Tafadhali kuingia user jina na password. Kumbuka kwamba password ni lazima angalau 7 wahusika kwa muda mrefu na ni pamoja na moja isiyo ya alphanumeric tabia. Tu kupitishwa watumiaji watakuwa na uwezo wa kuingia katika tovuti.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^New User Habari^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Mashamba hayo wanatakiwa kusaidia kuokoa password wamesahau. Wakati wa mchakato wa kufufua utaulizwa kuingia jina la mtumiaji. Kama akaunti ya mtumiaji lipo basi swali usalama ni ombi kwa kuwa akajibu. jibu sahihi trigger email na password muda kutuma kwa barua pepe iliyosajiliwa.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Mwisho Akaunti Yangu^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Mtumiaji hawezi kuwa imefungwa nje. Kama unataka kuzuia hili user kwa kuweza kuingia basi tu kama alama user &#39;si ya kupitishwa.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^&#39;{0}&#39; User umefutwa.^UserHasBeenDeleted^
+
+^UserName^Jina la mtumiaji^UserName^
+
+^UserNameDoesNotExist^Jina la mtumiaji haipo.^UserNameDoesNotExist^
+
+^UserNotFound^User haikupatikana.^UserNotFound^
+
+^UserRejected^User imekataliwa.^UserRejected^
+
+^UsersInRolesGridHeaderText^Hii ni orodha ya rekodi user uanachama ambayo ni ya nafasi ya kuchaguliwa.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Wajibu watumiaji katika^UsersInRolesGridLabel^
+

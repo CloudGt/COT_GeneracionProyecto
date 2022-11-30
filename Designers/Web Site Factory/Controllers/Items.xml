@@ -1,0 +1,146 @@
+<dataController name="Items" conflictDetection="overwriteChanges" label="Items"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium"  handler="CodeOnTime.Designer.DesignerBusinessRules">
+	<commands>
+		<command id="command1" type="Text">
+			<query href="Controllers.xml" select="//a:item" dependencies="//a:field" />
+			<template select="//a:dataController[@name=$Controller]/a:fields/a:field[@name=$FieldName]/a:items">
+				<item xmlns="urn:schemas-codeontime-com:data-aquarium" />
+			</template>
+		</command>
+	</commands>
+	<fields>
+		<field name="FieldName" type="String" select="ancestor::a:field[1]/@name" allowNulls="false" isPrimaryKey="true" label="Field Name" contextFields="Controller">
+			<items style="Lookup" dataController="Fields" dataValueField="Name" dataTextField="Name"/>
+		</field>
+		<field name="Controller" type="String" select="ancestor::a:dataController[1]/@name" allowNulls="false" isPrimaryKey="true" readOnly="true" >
+			<items style="Lookup" dataController="Controllers" newDataView="createForm1" dataValueField="Name" dataTextField="Name"/>
+		</field>
+		<field name="Value" type="String" select="@value" allowNulls="true" isPrimaryKey="true" label="Value"/>
+		<field name="Text" type="String" select="@text" allowNulls="false" label="Text"/>
+	</fields>
+	<views>
+		<view id="grid1" type="Grid" commandId="command1" label="Items">
+      <headerText>
+        <![CDATA[
+        <span class="HelpLink" title="Learn to work with static lookup Items" onclick="$openUrl('http://codeontime.com/learn/development/project-designer/items')"></span>
+		This is a list of static lookup items. 
+    ]]>
+      </headerText>
+      <dataFields>
+        <dataField fieldName="Value" readOnly="true"/>
+				<dataField fieldName="Text"/>
+				<dataField fieldName="FieldName" hidden="true"/>
+				<dataField fieldName="Controller"/>
+			</dataFields>
+		</view>
+		<view id="editForm1" type="Form" commandId="command1" label="Item">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about static lookup Items" onclick="$openUrl('http://codeontime.com/learn/data-controllers/items/overview')"></span>
+        Click OK to save the static lookup item, or click Cancel to undo changes or return back.]]>
+      </headerText>
+      <categories>
+				<category headerText="General">
+					<description><![CDATA[
+          The <i>Value</i> is saved to the field when the item is selected.<br/><br/>
+          The <i>Item</i> is displayed to the user.<br/><br/>
+          ]]></description>
+					<dataFields>
+						<dataField fieldName="Controller" hidden="true" readOnly="false"/>
+						<dataField fieldName="FieldName" hidden="true" readOnly="false"/>
+						<dataField fieldName="Value" readOnly="true" hyperlinkFormatString="javascript:window.external.SyncAndRename()" toolTip="Click here to change the item value."/>
+						<dataField fieldName="Text"/>
+					</dataFields>
+				</category>
+			</categories>
+		</view>
+		<view id="createForm1" type="Form" commandId="command1" label="New Item">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about static lookup Items" onclick="$openUrl('http://codeontime.com/learn/data-controllers/item/overview')"></span>
+        Please fill this form and click OK button to create a new static lookup Item. Click Cancel to return to the previous screen.]]>
+      </headerText>
+      <categories>
+				<category headerText="General">
+					<description>
+            <![CDATA[
+          The <i>Value</i> is saved to the field when the item is selected.<br/><br/>
+          The <i>Item</i> is displayed to the user.<br/><br/>
+          ]]> </description>
+					<dataFields>
+						<dataField fieldName="Controller" hidden="true" readOnly="false"/>
+						<dataField fieldName="FieldName" hidden="true" readOnly="false"/>
+						<dataField fieldName="Value"/>
+						<dataField fieldName="Text"/>
+					</dataFields>
+				</category>
+			</categories>
+		</view>
+	</views>
+	<actions>
+		<actionGroup scope="Grid">
+			<!--<action commandName="Select" commandArgument="editForm1" />-->
+      <!--
+			<action commandName="Edit" commandArgument="editForm1" headerText="View"/>
+			<action commandName="Edit" />
+			<action commandName="Delete" confirmation="Delete?" />
+			<action/>
+			<action commandName="Custom" commandArgument="MakeFirst" headerText="Make First"/>
+			<action commandName="Custom" commandArgument="MoveUp" headerText="Move Up"/>
+			<action commandName="Custom" commandArgument="MoveDown" headerText="Move Down"/>
+			<action commandName="Custom" commandArgument="MakeLast" headerText="Make Last"/>
+			-->
+      <!--<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+      <action commandName="Navigate" commandArgument="Item.htm?_returnController=Items&amp;Controller={Controller}&amp;FieldName={FieldName}&amp;Value={Value}" headerText="Open"/>
+      <action commandName="ClientScript" commandArgument="__syncDesigner(this)" headerText="Sync" cssClass="SyncIcon"/>
+      <action commandName="Edit" />
+      <action commandName="Select" commandArgument="editForm1" headerText="View"/>
+    </actionGroup>
+		<actionGroup scope="Form">
+			<action commandName="Edit" />
+			<!--<action commandName="Delete" confirmation="Delete?" />-->
+			<action commandName="Cancel" headerText="Close" />
+			<action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+			<!--<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />-->
+			<action whenLastCommandName="Edit" commandName="Cancel" />
+			<action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+			<action whenLastCommandName="New" commandName="Cancel" />
+		</actionGroup>
+		<actionGroup scope="ActionBar" headerText="New">
+			<action commandName="New" commandArgument="createForm1" headerText="New Item" description="Create a new item." />
+		</actionGroup>
+		<!--<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+			<action commandName="Custom" commandArgument="Preview" headerText="Quick View" description="Preview the data controller."  />
+		</actionGroup>-->
+    <!--<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+      --><!--<action commandName="Custom" commandArgument="MakeFirst" headerText="First" whenKeySelected="true" whenView="grid1" cssClass="MakeFirstIcon"/>--><!--
+      <action commandName="Custom" commandArgument="MoveUp" headerText="Up" whenKeySelected="true" whenView="grid1" cssClass="MoveUpIcon"/>
+      <action commandName="Custom" commandArgument="MoveDown" headerText="Down" whenKeySelected="true" whenView="grid1" cssClass="MoveDownIcon"/>
+      --><!--<action commandName="Custom" commandArgument="MakeLast" headerText="Last" whenKeySelected="true" whenView="grid1" cssClass="MakeLastIcon"/>--><!--
+    </actionGroup>-->
+    <!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+		<actionGroup scope="ActionBar" headerText="Record">
+			<action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+			<action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+		</actionGroup>
+    <actionGroup id="sync01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncDesigner()" headerText="Sync" cssClass="SyncIcon" description="Synchronize with Explorer (Ctrl+.)"/>
+    </actionGroup>
+    <actionGroup id="new01" scope="ActionBar" flat="true">
+      <action commandName="New" commandArgument="createForm1" headerText="New Item" whenLastCommandName="Edit" description="Create a new item." cssClass="NewIcon"/>
+    </actionGroup>
+    <actionGroup id="list01" scope="ActionBar" flat="true">
+      <action commandName="Navigate" commandArgument="Field.htm?_explorerNode=Item&amp;Controller={Controller}&amp;Name={FieldName}&amp;FieldName={FieldName}&amp;_activeTab=Items" headerText="List" whenLastCommandName="Edit" description="List of static lookup items."/>
+    </actionGroup>
+    <actionGroup id="ag8" scope="Row">
+			<action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+		</actionGroup>
+	</actions>
+</dataController>

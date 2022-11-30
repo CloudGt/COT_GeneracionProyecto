@@ -1,0 +1,19 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Web.Sitemap project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^HomeDesc^Leathanach Baile Iarratais^HomeDesc^
+
+^HomePath^Baile^HomePath^
+
+^MembershipDesc^Úsáideoir agus ról an bhainisteora^MembershipDesc^
+
+^MembershipPath^Ballraíocht^MembershipPath^
+
+^ReportsPath^Tuarascálacha^ReportsPath^
+
+^SiteHome^Baile^SiteHome^
+

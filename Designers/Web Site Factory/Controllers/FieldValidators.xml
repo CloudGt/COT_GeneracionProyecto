@@ -1,0 +1,130 @@
+<dataController name="FieldValidator" conflictDetection="overwriteChanges" label="Field Validators"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium" handler="CodeOnTime.Designer.DesignerBusinessRules">
+	<commands>
+		<command id="command1" type="Text">
+			<query href="Controllers.xml" select="//a:expression[parent::a:validate/parent::a:field]" />
+			<template select="//a:dataController[@name=$Controller]/a:fields/a:field[@name=$FieldName]">
+				<validate xmlns="urn:schemas-codeontime-com:data-aquarium"  >
+					<expression type="RegularExpression" __target="a:validate" id="{generate-id('ExpressionId')}"/>
+				</validate>
+			</template>
+		</command>
+	</commands>
+	<fields>
+		<field name="FieldName" type="String" select="ancestor::a:field[1]/@name" allowNulls="false" label="Field Name" isPrimaryKey="true">
+			<items style="Lookup" dataController="Fields" dataValueField="FieldName" dataTextField="FieldName"/>
+		</field>
+		<field name="Controller" type="String" select="ancestor::a:dataController[1]/@name" allowNulls="false" isPrimaryKey="true">
+			<items style="Lookup" dataController="Controllers" newDataView="createForm1" dataValueField="Name" dataTextField="Name"/>
+		</field>
+		<field name="Expression" type="String" select="@test" allowNulls="false" label="Regular Expression"/>
+    <field name="ExpressionId" type="String" select="@id" allowNulls="false" label="Id" readOnly="true" isPrimaryKey="true"/>
+    <field name="Result" type="String" select="@result" allowNulls="false" label="Error Message / Replacement Pattern"/>
+	</fields>
+	<views>
+		<view id="grid1" type="Grid" commandId="command1" label="Validators">
+			<headerText><![CDATA[This is a list of field validation expressions.]]></headerText>
+			<dataFields>
+        <dataField fieldName="ExpressionId" readOnly="true"/>
+				<dataField fieldName="Expression"/>
+				<dataField fieldName="Result" />
+				<dataField fieldName="FieldName"/>
+				<dataField fieldName="Controller"/>
+			</dataFields>
+		</view>
+		<view id="editForm1" type="Form" commandId="command1" label="Validator">
+      <headerText><![CDATA[Click OK to save the field validator, click Delete to delete, or click Cancel to undo changes or return back.]]></headerText>
+			<categories>
+				<category headerText="General">
+					<description>
+						<![CDATA[The <a href="http://en.wikipedia.org/wiki/Regex" target="_blank">regular expression</a> is evaluated whenever the feild value must be prepared for posting to the database.<br/><br/>
+						The error message is displayed if the field value does match the regular expression pattern. If a '$' character followed by a number is detected then the error message is treated as a replacement pattern instead.<br/><br/>
+						Learn more about validators <a href="javascript:" onclick="return $openUrl('http://www.youtube.com/watch?v=eE7JqR5-zaU')" target="_blank">here</a>.
+						]]>
+					</description>
+					<dataFields>
+						<!--<dataField fieldName="DataFieldVisibilityId"/>-->
+						<dataField fieldName="Expression" columns="50" rows="5"/>
+						<dataField fieldName="Result" columns="50" rows="5"/>
+						<dataField fieldName="FieldName" readOnly="true"/>
+						<dataField fieldName="Controller" readOnly="true"/>
+            <dataField fieldName="ExpressionId" readOnly="true" hidden="true" />					</dataFields>
+				</category>
+			</categories>
+		</view>
+		<view id="createForm1" type="Form" commandId="command1" label="New Validator">
+			<headerText>Please fill this form and click OK button to create a new field validator. Click Cancel to return to the previous screen.</headerText>
+			<categories>
+				<category headerText="General">
+					<description>
+						<![CDATA[The <a href="http://en.wikipedia.org/wiki/Regex" target="_blank">regular expression</a> is evaluated whenever the feild value must be prepared for posting to the database.<br/><br/>
+						The error message is displayed if the field value does match the regular expression pattern. If a '$' character followed by a number is detected then the error message is treated as a replacement pattern instead.<br/><br/>
+						Learn more about validators <a href="javascript:" onclick="return $openUrl('http://www.youtube.com/watch?v=eE7JqR5-zaU')" target="_blank">here</a>.
+						]]>
+					</description>
+					<dataFields>
+						<!--<dataField fieldName="DataFieldVisibilityId"/>-->
+						<dataField fieldName="Expression" columns="50" rows="5"/>
+						<dataField fieldName="Result" columns="50" rows="5"/>
+						<dataField fieldName="FieldName" readOnly="true"/>
+						<dataField fieldName="Controller" readOnly="true"/>
+            <dataField fieldName="ExpressionId" hidden="true" />
+          </dataFields>
+				</category>
+			</categories>
+		</view>
+	</views>
+	<actions>
+		<actionGroup scope="Grid">
+			<!--<action commandName="Select" commandArgument="editForm1" />-->
+			<action commandName="Edit" commandArgument="editForm1" headerText="View"/>
+			<action commandName="Edit" />
+			<action commandName="Delete" confirmation="Delete?" />
+			<!--<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+			<action/>
+			<action commandName="Custom" commandArgument="MakeFirst" headerText="Make First"/>
+			<action commandName="Custom" commandArgument="MoveUp" headerText="Move Up"/>
+			<action commandName="Custom" commandArgument="MoveDown" headerText="Move Down"/>
+			<action commandName="Custom" commandArgument="MakeLast" headerText="Make Last"/>
+		</actionGroup>
+		<actionGroup scope="Form">
+			<action commandName="Edit" />
+			<action commandName="Delete" confirmation="Delete?" />
+			<action commandName="Cancel" headerText="Close" />
+			<action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+			<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />
+			<action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+			<action whenLastCommandName="New" commandName="Cancel" />
+		</actionGroup>
+		<actionGroup scope="ActionBar" headerText="New">
+			<action commandName="New" commandArgument="createForm1" headerText="New Validator" description="Create a new validator." />
+		</actionGroup>
+		<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+			<action commandName="Custom" commandArgument="Preview" headerText="Quick View" description="Preview the data controller." />
+		</actionGroup>
+    <actionGroup scope="ActionBar" headerText="N/A" flat="true">
+      <!--<action commandName="Custom" commandArgument="MakeFirst" headerText="First" whenKeySelected="true" whenView="grid1" cssClass="MakeFirstIcon"/>-->
+      <action commandName="Custom" commandArgument="MoveUp" headerText="Up" whenKeySelected="true" whenView="grid1" cssClass="MoveUpIcon"/>
+      <action commandName="Custom" commandArgument="MoveDown" headerText="Down" whenKeySelected="true" whenView="grid1" cssClass="MoveDownIcon"/>
+      <!--<action commandName="Custom" commandArgument="MakeLast" headerText="Last" whenKeySelected="true" whenView="grid1" cssClass="MakeLastIcon"/>-->
+    </actionGroup>
+    <!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+		<actionGroup scope="ActionBar" headerText="Record">
+			<action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+			<action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+		</actionGroup>
+		<actionGroup id="ag8" scope="Row">
+			<action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+		</actionGroup>
+	</actions>
+</dataController>

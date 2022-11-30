@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Opret en ny bruger rekord.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Ny bruger^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nyt^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Tilbage^BackToRequestPasswordActionHeaderText^
+
+^Comment^Kommentar^Comment^
+
+^ConfirmIdentityActionHeaderText^Finish^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Bekræft ny adgangskode^ConfirmNewPassword^
+
+^ConfirmPassword^Bekræft adgangskode^ConfirmPassword^
+
+^CreateDate^Opret Dato^CreateDate^
+
+^CreateFormCommentCategoryDescription^Indtast yderliger kommentarer til denne brugerkonto. Kommentar er ikke synlig for brugeren.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Kommentarer^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Indtast venligst brugernavn og adgangskode. Bemærk, at adgangskoden skal være mindst 7 tegn og indeholde en ikke-alfanumeriske tegn. Kun godkendte brugere vil være i stand til at logge ind på hjemmesiden.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Ny bruger Information^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Disse felter er forpligtet til at hjælpe en bruger til at inddrive en glemt adgangskode. Under retableringen vil brugeren blive bedt om at indtaste et brugernavn. Hvis en bruger konto findes herefter et sikkerhedsspørgsmål anmodes om at blive besvaret. Et korrekt svar vil udløse en email med et midlertidigt password sendes til brugeren.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Vælg brugerroller, der bedst matcher brugerens ansvar. Roller kontrollere adgangen til de områder af denne web site. Kontakt venligst systemadministratoren, hvis rolle adgangsbegrænsninger skal ændres.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Roller^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Udfyld denne formular og klik på OK-knappen for at oprette en ny bruger medlemskab rekord. Klik på Annuller for at vende tilbage til den forrige skærm.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Ny bruger^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Denne bruger konto vil blive oprettet som godkendt.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplicate e-mail-adresse.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Duplicate Provider.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplicate brugernavn.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Aktivitet Statistik^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Denne bruger konto er godkendt^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Disse er statistikken fra mislykkede login-forsøg af denne bruger. <br/> <br/> Brugeren vil blive låst ude efter at have nået et maksimum antal mislykkede login-forsøg. <br/> <br/> Låst ude brugere vil være i stand til at logge ind igen efter datoen i Failed Adgangskode Forsøg Window Start. <br/> <br/> Brugere, der har undladt at hente adgangskoden vil være i stand til at så efter datoen i Failed Adgangskode Svar Forsøg Window Start. <br/> <br/> Du kan gendanne brugerens evne til at logge ind ved at sætte Locked Out flag til &#39;Nej&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Log ind Statistikker^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Under inddrivelse af en glemt kodeord vil brugeren blive bedt om at indtaste et brugernavn. Hvis en bruger konto findes herefter et sikkerhedsspørgsmål anmodes om at blive besvaret. Et korrekt svar vil udløse en email med et midlertidigt password sendes til brugeren. <br/><br/> Skift låst ude flag til &#39;Nej&#39;, hvis brugeren er blevet låst ude efter at have nået et maksimum antal mislykkede login-forsøg, og du vil tillade brugeren at logge ind igen.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Vælg brugerroller, der bedst matcher brugerens ansvar. Roller kontrollere adgangen til de områder af denne web site. Kontakt venligst systemadministratoren, hvis rolle adgangsbegrænsninger skal ændres. <br/> <br/> Indtast yderliger kommentarer til denne brugerkonto. Kommentar er ikke synlig for brugeren.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Bruger Information^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Du bedes gennemgå bruger medlemskab oplysninger nedenfor. Klik på Rediger for at ændre dette, klik på Slet for at slette posten, eller klik på Annuller / Luk for at vende tilbage.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Anmeldelse Bruger^EditFormViewLabel^
+
+^Email^E-mail^Email^
+
+^EnterCurrentPassword^Indtast venligst din nuværende adgangskode.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Angiv en adgangskode svar.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Fejl ved lagring af brugerkonto.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Mislykket Password Svar Forsøg Count^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Mislykket Password Svar Forsøg Start i Windows^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Mislykket Adgangskode Forsøg Count^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Mislykket Password Forsøg Start i Windows^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Dette er en liste over medlemskab brugerposter.^GridViewHeaderText^
+
+^GridViewLabel^Alle brugere^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Svar på følgende spørgsmål for at modtage dit password. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identitet Bekræftelse^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Udfyld denne formular og klik på Send-knappen for at gendanne glemte adgangskode. Klik på Annuller for at vende tilbage til den forrige skærm.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: Trin 2 af 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Ugyldigt password opsving svar.^InvalidAnswer^
+
+^InvalidEmail^Ugyldig e-mail-adresse.^InvalidEmail^
+
+^InvalidPassword^Ugyldig adgangskode.^InvalidPassword^
+
+^InvalidProviderUserKey^Ugyldig udbyder bruger nøgle.^InvalidProviderUserKey^
+
+^InvalidQuestion^Ugyldigt password opsving spørgsmål.^InvalidQuestion^
+
+^InvalidUserName^Ugyldigt brugernavn.^InvalidUserName^
+
+^IsApproved^Er godkendt^IsApproved^
+
+^IsLockedOut^Er låst ude^IsLockedOut^
+
+^LastLockoutDate^Sidste Lockout Dato^LastLockoutDate^
+
+^LastLoginDate^Sidste Log ind dato^LastLoginDate^
+
+^LastPasswordChangedDate^Sidste Password skiftet dato^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Password Svar (vises ikke, for din beskyttelse)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Indtast venligst din nuværende adgangskode for at oprette nye adgangskode, skal du opdatere din e-mail-adresse, eller ændre password opsving spørgsmål og svar.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Nuværende adgangskode^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Gennemgå venligst dit medlemskab oplysninger nedenfor. Klik opdatere min konto til at ændre denne record, eller klik på Annuller for at vende tilbage.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Min konto^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Angiv ny adgangskode. Bemærk, at adgangskoden skal være mindst 7 tegn og indeholde en ikke-alfanumeriske tegn.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nye adgangskode (valgfrit)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Under inddrivelse af en glemt adgangskode vil du blive bedt om at indtaste dit brugernavn. Hvis en bruger konto findes herefter en adgangskode spørgsmål skal besvares. Et korrekt svar vil udløse en email med et midlertidigt password sendt til dig.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Password Recovery (valgfrit)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Ny adgangskode^NewPassword^
+
+^NewPasswordAlert^En ny adgangskode er sendt til den adresse.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Ny adgangskode og bekræftelse stemmer ikke overens.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Din nye adgangskode er ugyldig.^NewPasswordInvalid^
+
+^NewPasswordSubject^Ny adgangskode til \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Gammel adgangskode^OldPassword^
+
+^Password^Password^Password^
+
+^PasswordAndConfirmationDoNotMatch^Kodeord og bekræftelse er ikke ens.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Password Svar^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Din adgangskode matcher ikke vores optegnelser.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Password Format^PasswordFormat^
+
+^PasswordQuestion^Password Spørgsmål^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Indtast venligst et brugernavn. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Har du glemt din adgangskode?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Udfyld denne formular og klik på knappen Fortsæt for at gendanne glemte adgangskode. Klik på Annuller for at vende tilbage til den forrige skærm.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: Trin 1 af 2^PasswordRequestViewLabel^
+
+^ProviderError^Provider fejl.^ProviderError^
+
+^RequestPasswordActionHeaderText^Næste^RequestPasswordActionHeaderText^
+
+^Roles^Roller^Roles^
+
+^SelfRegisteredUser^Self-registrerede bruger.^SelfRegisteredUser^
+
+^SignUp^Tilmeld dig^SignUp^
+
+^SignUpViewHeaderText^Udfyld denne formular og klik på OK-knappen for at tilmelde dig en konto. Klik på Annuller for at vende tilbage til den forrige skærm.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Account Tilmeld^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Indtast venligst brugernavn og adgangskode. Bemærk, at adgangskoden skal være mindst 7 tegn og indeholde en ikke-alfanumeriske tegn. Kun godkendte brugere vil være i stand til at logge ind på hjemmesiden.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Ny bruger Information^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Disse felter er forpligtet til at hjælpe dig med at gendanne en glemt adgangskode. Under inddrivelsesproceduren processen vil du blive bedt om at indtaste et brugernavn. Hvis en bruger konto findes herefter et sikkerhedsspørgsmål anmodes om at blive besvaret. Et korrekt svar vil udløse en email med et midlertidig password sendt til den registrerede e-mail.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Opdatere min konto^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Brugeren kan ikke udelukkes. Hvis du ønsker at forhindre denne bruger fra at være i stand til at logge ind så skal du bare markere brugeren som &quot;ikke-godkendt &#39;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Bruger&#39;{0}&#39; er blevet slettet.^UserHasBeenDeleted^
+
+^UserName^Bruger Navn^UserName^
+
+^UserNameDoesNotExist^Brugernavn findes ikke.^UserNameDoesNotExist^
+
+^UserNotFound^Bruger ikke fundet.^UserNotFound^
+
+^UserRejected^Bruger er blevet afvist.^UserRejected^
+
+^UsersInRolesGridHeaderText^Dette er en liste over medlemskab bruger poster, der hører til en udvalgt rolle.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Brugere i Rolle^UsersInRolesGridLabel^
+

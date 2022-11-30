@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Takaisin^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Suorittaa loppuun^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Vahvista uusi salasana^ConfirmNewPassword^
+
+^ConfirmPassword^Vahvista salasana^ConfirmPassword^
+
+^Email^Sähköposti^Email^
+
+^ForgotYourPassword^Unohditko salasanasi?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Vastaa seuraavaa kysymykseen saadaksesi salasanasi. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identiteetin vahvistus^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Täytä tämä lomake ja napsauta Lähetä-painiketta, jos haluat palauttaa unohdetun salasanan. Palaa edelliseen näyttöön valitsemalla Peruuta.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Salasanan palautus: Vaihe 2/2^IdentityConfirmViewLabel^
+
+^LoginButton^Kirjaudu sisään^LoginButton^
+
+^LoginLink^Kirjaudu sisään^LoginLink^
+
+^LoginWithDNN^Kirjaudu sisään DotNetNukella^LoginWithDNN^
+
+^LoginWithFacebook^Kirjaudu Facebookiin^LoginWithFacebook^
+
+^LoginWithGoogle^Kirjaudu Googleen^LoginWithGoogle^
+
+^LoginWithMicrosoft^Kirjaudu Microsoftin kanssa^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Kirjaudu SharePointiin^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Kirjaudu Windows Liveen^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Salasanan vastaus (ei näytetä suojauksestasi)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Syötä nykyinen salasana luodaksesi uuden salasanan, päivitä sähköpostiosoitteesi tai vaihda salasanan palautuskysymys ja vastaus.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Nykyinen salasana^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Tutustu alla olevaan jäsenyystietoosi. Muuta tätä tietuetta napsauttamalla Päivitä Oma tili -vaihtoehto tai palaa takaisin valitsemalla Peruuta.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Tilini^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Anna uusi salasana. Huomaa, että salasanan on oltava vähintään 7 merkkiä pitkä ja sisältää yhden ei-aakkosnumeerisen merkin.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Uusi salasana (valinnainen)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Unohtuneen salasanan palauttamisen yhteydessä sinua pyydetään antamaan käyttäjänimi. Jos käyttäjätili on olemassa, salasanakysymykseen on vastattava. Oikea vastaus käynnistää sähköpostin, jossa on tilapäinen salasana.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Sähköposti &amp; Salasanan palautus (valinnainen)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^uusi salasana^NewPassword^
+
+^OldPassword^vanha salasana^OldPassword^
+
+^Password^Salasana^Password^
+
+^PasswordAnswer^Salasanan vastaus^PasswordAnswer^
+
+^PasswordQuestion^Salasana-kysymys^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Anna käyttäjänimi. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Unohditko salasanasi?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Täytä tämä lomake ja napsauta Jatka-painiketta palauttaaksesi unohtuneen salasanan. Palaa edelliseen näyttöön valitsemalla Peruuta.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Salasanan palautus: Vaihe 1/2^PasswordRequestViewLabel^
+
+^RememberMe^Muista seuraava kerta^RememberMe^
+
+^RequestPasswordActionHeaderText^Seuraava^RequestPasswordActionHeaderText^
+
+^SignUp^Kirjaudu^SignUp^
+
+^SignUpNow^Ilmoittaudu nyt^SignUpNow^
+
+^SignUpViewHeaderText^Täytä tämä lomake ja napsauta OK-painiketta, kun haluat kirjautua tiliin. Palaa edelliseen näyttöön valitsemalla Peruuta.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Tilin rekisteröinti^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Anna käyttäjänimi ja salasana. Huomaa, että salasanan on oltava vähintään 7 merkkiä pitkä ja sisältää yhden ei-aakkosnumeerisen merkin. Vain hyväksytyt käyttäjät voivat kirjautua verkkosivustoon.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Uudet käyttäjätiedot^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Nämä kentät ovat tarpeen, jotta voit palauttaa unohtuneen salasanan. Palautusprosessin aikana sinua pyydetään syöttämään käyttäjätunnus. Jos käyttäjätili on olemassa, pyydetään vastaamaan turvakysymykseen. Oikea vastaus käynnistää sähköpostin, jossa tilapäinen salasana lähetetään rekisteröityyn sähköpostiviestiin.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Salasanan palautus^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Päivitä Oma tili^UpdateMyAccountActionHeaderText^
+
+^UserName^Käyttäjänimi^UserName^
+

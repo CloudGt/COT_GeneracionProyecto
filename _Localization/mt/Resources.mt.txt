@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Jannota^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b>{1}</b> Mehmuża fil-{2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Sekwestru^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Ikteb noti fakultattiv u tehmeż fajls.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Noti u Attachments^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} {1} Bil-miktub fi^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Noti^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Noti^AnnotationTab^
+
+^BlobClearConfirm^Ċari?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Tkun ġiet approvata.^BlobCleared^
+
+^BlobClearText^Ċari^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Naqset milli upload {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Ikklikkja^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^hawn^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^biex ittella jew ċara fajl {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Ġiet imtella b&#39;suċċess. <b>It Tista &#39;tieħu sa minuta {1} għall-thumbnail biex jirriflettu l-content.</b> uploaded^BlobUploded^
+
+^Copyright^All rights reserved.^Copyright^
+
+^RecordChangedByAnotherUser^Ir-rekord ikun ġie mibdul minn utent ieħor.^RecordChangedByAnotherUser^
+

@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Yeni bir kullanıcı kaydı oluşturun.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Yeni Kullanıcı^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Yeni^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Geri^BackToRequestPasswordActionHeaderText^
+
+^Comment^Yorum^Comment^
+
+^ConfirmIdentityActionHeaderText^Bitirmek^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Yeni Şifreyi Onaylayın^ConfirmNewPassword^
+
+^ConfirmPassword^Şifre Tekrarı^ConfirmPassword^
+
+^CreateDate^Tarihi oluşturun^CreateDate^
+
+^CreateFormCommentCategoryDescription^Bu kullanıcı hesabı ile ilgili herhangi bir ek bir yorum girin. Yorum kullanıcıya görünür değildir.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Yorumlar^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Kullanıcı adı ve şifrenizi giriniz. Şifre en az 7 karakter ve uzun olmayan bir alfanümerik karakter olması gerektiğini unutmayın. Sadece onaylanan kullanıcılar web sitesine giriş yapma şansına sahip olacaktır.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Yeni Kullanıcı Bilgileri^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Bu alanlar, unutulmuş bir şifre kurtarmak için bir kullanıcı yardımcı olmak için gereklidir. Kurtarma işlemi sırasında kullanıcının bir kullanıcı adı girmeniz istenecektir. Bir kullanıcı hesabı varsa bir güvenlik soruya cevap istenir. Doğru cevap, geçici bir şifre kullanıcıya göndermek e-posta ile tetikleyecektir.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Lütfen en yakın kullanıcının sorumlulukları maç kullanıcı rolleri seçmek. Roller, bu web sitesini alanlara erişim kontrol eder. Rol erişim kısıtlamaları değiştirilmesi gerekiyorsa sistem yöneticinize başvurun.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Roller^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Lütfen bu formu doldurun ve yeni bir kullanıcı üyelik kaydı oluşturmak için OK düğmesini tıklatın. Bir önceki ekrana dönmek için İptal düğmesini tıklayın.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Yeni Kullanıcı^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Bu kullanıcı hesabı olarak onaylanmış oluşturulur.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Yinelenen e-posta adresinizi.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Yinelenen sağlayıcı anahtar.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Yinelenen kullanıcı adı.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Aktivitesi İstatistikleri^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Bu kullanıcı hesabı onaylanmıştır^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Bu kullanıcının gönderdiği başarısız oturum açma girişimleri istatistikleri. <br/> <br/> Kullanıcı maksimum sayıda başarısız oturum açma girişimleri ulaştıktan sonra kilitli olacaktır. <br/> <br/> Kullanıcılar Şifre Denemesi Başarısız Pencere Başlangıç ​​tarihinden sonra tekrar giriş yapmanız mümkün olacak dışarı Kilitli. <br/> <br/> Başarısız Şifre Cevap girişimi Windows&#39;un Başlat tarihinden sonra şifre kurtarmak için başarısız olan kullanıcılar, bu yüzden için mümkün olacaktır. <br/> <br/> &#39;Hayır&#39; Out Kilitli bayrağı ayarlayarak giriş kullanıcının yeteneğini geri yükleyebilirsiniz.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Giriş İstatistikleri^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Unutulmuş bir şifre kurtarma sırasında kullanıcının bir kullanıcı adı girmeniz istenecektir. Bir kullanıcı hesabı varsa bir güvenlik soruya cevap istenir. Doğru cevap, geçici bir şifre kullanıcıya göndermek e-posta ile tetikleyecektir. Kullanıcı, maksimum sayıda başarısız oturum açma girişimleri ulaştıktan sonra kilitli ve kullanıcı tekrar giriş yapmak için izin vermek istediğiniz varsa <br/><br/> değiştir &#39;Hayır&#39; bayrağı kilitli.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Lütfen en yakın kullanıcının sorumlulukları maç kullanıcı rolleri seçmek. Roller, bu web sitesini alanlara erişim kontrol eder. Rol erişim kısıtlamaları değiştirilmesi gerekiyorsa sistem yöneticinize başvurun. <br/> <br/> Bu kullanıcı hesabı ile ilgili herhangi bir ek açıklamalar girin. Yorum kullanıcıya görünür değildir.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Kullanıcı Bilgileri^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Aşağıdaki kullanıcı üyelik bilgilerini gözden geçirin. Bu kayıt değiştirmek için Düzenle&#39;yi tıklayın, kayıt silmek için Sil&#39;i tıklatın ya da Cancel tıklanırsa / geri dönmek için kapatın.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Gözden Kullanıcı^EditFormViewLabel^
+
+^Email^E-posta^Email^
+
+^EnterCurrentPassword^Geçerli şifrenizi giriniz.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Lütfen bir parola cevap girin.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Kullanıcı hesabı kaydedilirken hata oluştu.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Başarısız Şifre Cevap girişimi Sayısı^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Başarısız Şifre Cevap girişimi Windows&#39;un Başlat^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Başarısız Şifre girişimi Sayısı^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Şifre Denemesi Başarısız Windows&#39;un Başlat^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Bu üyelik kullanıcı kayıtlarının bir listesi.^GridViewHeaderText^
+
+^GridViewLabel^Tüm Kullanıcılar^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Lütfen şifrenizi almak için şu soruya cevap verin. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Kimlik Onay^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Bu formu doldurun ve unutulan şifre kurtarmak için Gönder düğmesini tıklatın. Bir önceki ekrana dönmek için İptal düğmesini tıklayın.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery Adım 2: 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Geçersiz şifre kurtarma cevap.^InvalidAnswer^
+
+^InvalidEmail^Geçersiz e-posta adresi.^InvalidEmail^
+
+^InvalidPassword^Geçersiz şifre.^InvalidPassword^
+
+^InvalidProviderUserKey^Geçersiz sağlayıcı kullanıcı anahtarı.^InvalidProviderUserKey^
+
+^InvalidQuestion^Geçersiz şifre kurtarma soru.^InvalidQuestion^
+
+^InvalidUserName^Geçersiz kullanıcı adı.^InvalidUserName^
+
+^IsApproved^Ruhsatla Üretilir^IsApproved^
+
+^IsLockedOut^Kilitli^IsLockedOut^
+
+^LastLockoutDate^Son Lokavt Tarihi^LastLockoutDate^
+
+^LastLoginDate^Son Giriş Tarihi^LastLoginDate^
+
+^LastPasswordChangedDate^Son Şifre Tarihi Değişti^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Şifre Cevap (sizi korumak için görüntülenmez)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Lütfen yeni bir şifre oluşturmak için mevcut şifrenizi girmek, e-posta adresi veya parola değiştirme kurtarma soru ve cevap güncelleyin.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Şu anki Şifre^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Lütfen üyelik bilgilerinizi gözden geçirin. Bu kaydı değiştirmek için Hesabım Güncelleme tıklayın ya da geri dönmek için İptal düğmesini tıklatın.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Hesabım^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Lütfen yeni şifrenizi girin. Şifre en az 7 karakter ve uzun olmayan bir alfanümerik karakter olması gerektiğini unutmayın.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Yeni Şifre (Opsiyonel)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Unutulmuş bir şifre kurtarma sırasında kullanıcı adınızı girmeniz istenecektir. Bir kullanıcı hesabı varsa bir şifre soruya cevap olmalıdır. Doğru cevap, geçici bir şifre göndermek e-posta ile tetikleyecektir.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-posta &amp; Password Recovery (Opsiyonel)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Yeni Şifre^NewPassword^
+
+^NewPasswordAlert^Dosya üzerinde adresine e-posta ile yeni bir şifre olmuştur.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Yeni şifre ve onay uyuşmuyor.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Yeni şifre geçersiz.^NewPasswordInvalid^
+
+^NewPasswordSubject^Yeni şifre \&#39;{0} \ &#39;için.^NewPasswordSubject^
+
+^OldPassword^Eski Şifre^OldPassword^
+
+^Password^Parola^Password^
+
+^PasswordAndConfirmationDoNotMatch^Şifre ve onay uyuşmuyor.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Şifre Cevap^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Parolanız kayıtları eşleşmiyor.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Şifre Biçimi^PasswordFormat^
+
+^PasswordQuestion^Parola Sorusunu^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Lütfen bir kullanıcı adı girin. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Şifreni mi unuttun?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Bu formu doldurun ve unutulmuş bir şifre kurtarmak için Devam düğmesini tıklatın. Bir önceki ekrana dönmek için İptal düğmesini tıklayın.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: 2 Adım 1^PasswordRequestViewLabel^
+
+^ProviderError^Sağlayıcı hata.^ProviderError^
+
+^RequestPasswordActionHeaderText^Sonraki^RequestPasswordActionHeaderText^
+
+^Roles^Roller^Roles^
+
+^SelfRegisteredUser^Kendinden kayıtlı kullanıcı.^SelfRegisteredUser^
+
+^SignUp^Kaydolmak^SignUp^
+
+^SignUpViewHeaderText^Lütfen bu formu doldurun ve bir hesap için kaydolmak için Tamam düğmesine tıklayın. Bir önceki ekrana dönmek için İptal düğmesini tıklayın.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Kaydolun^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Kullanıcı adı ve şifrenizi giriniz. Şifre en az 7 karakter ve uzun olmayan bir alfanümerik karakter olması gerektiğini unutmayın. Sadece onaylanan kullanıcılar web sitesine giriş yapma şansına sahip olacaktır.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Yeni Kullanıcı Bilgileri^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Bu alanlar, unutulmuş bir şifre kurtarmak için yardımcı olmak için gereklidir. Kurtarma işlemi sırasında size bir kullanıcı adı girmeniz istenecektir. Bir kullanıcı hesabı varsa bir güvenlik soruya cevap istenir. Doğru cevap, geçici bir şifre kayıtlı e-posta göndermek e-posta ile tetikleyecektir.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Hesabım güncelleyin^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Kullanıcı kilitli değil. Giriş yapma şansına sahip olan bu kullanıcı engellemek istiyorsanız, basitçe &#39;onaylı&#39; gibi kullanıcı işareti.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Kullanıcı&#39;{0}&#39; silinmiştir.^UserHasBeenDeleted^
+
+^UserName^Kullanıcı adı^UserName^
+
+^UserNameDoesNotExist^Kullanıcı adı yok.^UserNameDoesNotExist^
+
+^UserNotFound^Kullanıcı bulundu.^UserNotFound^
+
+^UserRejected^Kullanıcı reddedildi.^UserRejected^
+
+^UsersInRolesGridHeaderText^Bu, seçilmiş bir rol ait üyelik kullanıcı kayıtlarının bir listesi.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Rolü Kullanıcılar^UsersInRolesGridLabel^
+

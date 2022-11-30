@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="System" targetNamespace="http://www.codeontime.com/2008/codedom-compiler" elementFormDefault="qualified" xmlns="http://www.codeontime.com/2008/codedom-compiler" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="compileUnitType">
+    <xs:sequence>
+      <xs:element name="imports" type="importsType" />
+      <xs:element name="types" type="typesType" />
+    </xs:sequence>
+    <xs:attribute name="namespace" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:element name="compileUnit" type="compileUnitType">
+  </xs:element>
+  <xs:complexType name="importsType">
+    <xs:sequence>
+      <xs:element name="namespaceImport" type="namespaceImportType" minOccurs="1" maxOccurs="100" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="namespaceImportType">
+    <xs:sequence />
+    <xs:attribute name="name" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:complexType name="typeDeclarationType">
+    <xs:sequence>
+      <xs:element name="comment" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="attributes" type="typeAttributesType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="customAttributes" type="customAttributesType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="baseTypes" type="typeReferenceListType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="typeParameters" type="typeParameterListType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="members" type="membersType" />
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required" />
+    <xs:attribute name="isPartial" type="xs:boolean" use="optional" />
+    <xs:attribute name="isEnum" type="xs:boolean" use="optional" />
+    <xs:attribute name="isStruct" type="xs:boolean" use="optional" />
+    <xs:attribute name="isInterface" type="xs:boolean" use="optional" />
+  </xs:complexType>
+  <xs:group name="memberGroup">
+    <xs:choice>
+      <xs:element name="memberField" type="memberFieldType" />
+      <xs:element name="memberProperty" type="memberPropertyType" />
+      <xs:element name="memberMethod" type="memberMethodType" />
+      <xs:element name="memberEvent" type="memberEventType"/>
+      <xs:element name="constructor" type="constructorType" />
+      <xs:element name="codeEntryPoint" type="memberMethodType"/>
+      <xs:element name="typeConstructor" type="typeConstructorType" minOccurs="1" maxOccurs="1" />
+      <xs:element name="typeDelegate" type="typeDelegateType"/>
+    </xs:choice>
+  </xs:group>
+  <xs:complexType name="typeDelegateType">
+    <xs:sequence>
+      <xs:element name="comment" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="typeArguments" type="typeReferenceListType"  minOccurs="0" maxOccurs="1"/>
+      <xs:element name="attributes" type="memberAttributesType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="parameters" type="parameterDeclarationExpressionCollectionType" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required" />
+    <xs:attribute name="type" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:complexType name="memberFieldType">
+    <xs:sequence>
+      <xs:element name="comment" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="typeArguments" type="typeReferenceListType"  minOccurs="0" maxOccurs="1"/>
+      <xs:element name="attributes" type="memberAttributesType" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="customAttributes" type="customAttributesType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="init" type="codeExpressionType" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required" />
+    <xs:attribute name="type" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:complexType name="memberPropertyType">
+    <xs:sequence>
+      <xs:element name="comment" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="typeArguments" type="typeReferenceListType"  minOccurs="0" maxOccurs="1"/>
+      <xs:element name="attributes" type="memberAttributesType" />
+      <xs:element name="customAttributes" type="customAttributesType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="parameters" type="parameterDeclarationExpressionCollectionType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="getStatements" type="statementsType" minOccurs="1" maxOccurs="1" />
+      <xs:element name="setStatements" type="statementsType" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required" />
+    <xs:attribute name="type" type="xs:string" use="required" />
+    <xs:attribute name="privateImplementationType" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="memberEventType">
+    <xs:sequence>
+      <xs:element name="comment" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="typeArguments" type="typeReferenceListType"  minOccurs="0" maxOccurs="1"/>
+      <xs:element name="attributes" type="memberAttributesType" />
+      <xs:element name="customAttributes" type="customAttributesType" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required" />
+    <xs:attribute name="type" type="xs:string" use="required" />
+    <xs:attribute name="privateImplementationType" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="membersType">
+    <xs:sequence>
+      <xs:choice minOccurs="0" maxOccurs="1000">
+        <xs:group ref="memberGroup" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="typesType">
+    <xs:sequence>
+      <xs:element name="typeDeclaration" type="typeDeclarationType" minOccurs="1" maxOccurs="1000" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="memberAttributesType">
+    <xs:sequence />
+    <xs:attribute name="abstract" type="xs:boolean" use="optional" />
+    <xs:attribute name="final" type="xs:boolean" use="optional" />
+    <xs:attribute name="static" type="xs:boolean" use="optional" />
+    <xs:attribute name="override" type="xs:boolean" use="optional" />
+    <xs:attribute name="const" type="xs:boolean" use="optional" />
+    <xs:attribute name="scopeMask" type="xs:boolean" use="optional" />
+    <xs:attribute name="new" type="xs:boolean" use="optional" />
+    <xs:attribute name="vtableMask" type="xs:boolean" use="optional" />
+    <xs:attribute name="overloaded" type="xs:boolean" use="optional" />
+    <xs:attribute name="assembly" type="xs:boolean" use="optional" />
+    <xs:attribute name="familyAndAssembly" type="xs:boolean" use="optional" />
+    <xs:attribute name="family" type="xs:boolean" use="optional" />
+    <xs:attribute name="familyOrAssembly" type="xs:boolean" use="optional" />
+    <xs:attribute name="private" type="xs:boolean" use="optional" />
+    <xs:attribute name="public" type="xs:boolean" use="optional" />
+    <xs:attribute name="accessMask" type="xs:boolean" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="typeAttributesType">
+    <xs:sequence />
+    <xs:attribute name="ansiClass" type="xs:boolean" use="optional" />
+    <xs:attribute name="class" type="xs:boolean" use="optional" />
+    <xs:attribute name="autoLayout" type="xs:boolean" use="optional" />
+    <xs:attribute name="notPublic" type="xs:boolean" use="optional" />
+    <xs:attribute name="public" type="xs:boolean" use="optional" />
+    <xs:attribute name="nestedPublic" type="xs:boolean" use="optional" />
+    <xs:attribute name="nestedPrivate" type="xs:boolean" use="optional" />
+    <xs:attribute name="nestedFamily" type="xs:boolean" use="optional" />
+    <xs:attribute name="nestedAssembly" type="xs:boolean" use="optional" />
+    <xs:attribute name="nestedFamANDAssem" type="xs:boolean" use="optional" />
+    <xs:attribute name="nestedFamORAssem" type="xs:boolean" use="optional" />
+    <xs:attribute name="sequentialLayout" type="xs:boolean" use="optional" />
+    <xs:attribute name="explicitLayout" type="xs:boolean" use="optional" />
+    <xs:attribute name="layoutMask" type="xs:boolean" use="optional" />
+    <xs:attribute name="classSemanticsMask" type="xs:boolean" use="optional" />
+    <xs:attribute name="interface" type="xs:boolean" use="optional" />
+    <xs:attribute name="abstract" type="xs:boolean" use="optional" />
+    <xs:attribute name="sealed" type="xs:boolean" use="optional" />
+    <xs:attribute name="specialName" type="xs:boolean" use="optional" />
+    <xs:attribute name="rtSpecialName" type="xs:boolean" use="optional" />
+    <xs:attribute name="import" type="xs:boolean" use="optional" />
+    <xs:attribute name="serializable" type="xs:boolean" use="optional" />
+    <xs:attribute name="unicodeClass" type="xs:boolean" use="optional" />
+    <xs:attribute name="autoClass" type="xs:boolean" use="optional" />
+    <xs:attribute name="customFormatClass" type="xs:boolean" use="optional" />
+    <xs:attribute name="stringFormatMask" type="xs:boolean" use="optional" />
+    <xs:attribute name="hasSecurity" type="xs:boolean" use="optional" />
+    <xs:attribute name="reservedMask" type="xs:boolean" use="optional" />
+    <xs:attribute name="beforeFieldInit" type="xs:boolean" use="optional" />
+    <xs:attribute name="customFormatMask" type="xs:boolean" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="statementsType">
+    <xs:sequence>
+      <xs:choice minOccurs="0" maxOccurs="1000">
+        <xs:group ref="codeStatementGroup" />
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:group name="codeExpressionGroup">
+    <xs:choice>
+      <xs:element name="thisReferenceExpression" type="thisReferenceExprssionType" />
+      <xs:element name="propertySetValueReferenceExpression" type="propertySetValueReferenceExpressionType" />
+      <xs:element name="fieldReferenceExpression" type="fieldReferenceExpressionType" />
+      <xs:element name="methodInvokeExpression" type="methodInvokeExpressionType" />
+      <xs:element name="stringFormatExpression" type="formatStringExpressionType" />
+      <xs:element name="stringEmptyExpression">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="convertExpression" type="convertExpressionType" />
+      <xs:element name="delegateInvokeExpression" type="delegateInvokeExpressionType" />
+      <xs:element name="primitiveExpression" type="primitiveExpressionType" />
+      <xs:element name="variableReferenceExpression" type="variableReferenceExpressionType" />
+      <xs:element name="typeReferenceExpression" type="typeReferenceExpressionType" />
+      <xs:element name="propertyReferenceExpression" type="propertyReferenceExpressionType" />
+      <xs:element name="arrayIndexerExpression" type="arrayIndexerExpressionType" />
+      <xs:element name="binaryOperatorExpression" type="binaryOperatorExpressionType" />
+      <xs:element name="argumentReferenceExpression" type="argumentReferenceExpressionType" />
+      <xs:element name="objectCreateExpression" type="objectCreateExpressionType" />
+      <xs:element name="delegateCreateExpression" type="delegateCreateExpressionType" />
+      <xs:element name="castExpression" type="castExpressionType" />
+      <xs:element name="typeofExpression" type="typeofExpressionType" />
+      <xs:element name="arrayCreateExpression" type="arrayCreateExpressionType" />
+      <xs:element name="baseReferenceExpression" type="baseReferenceExpressionType" />
+      <xs:element name="directionExpression" type="directionExpressionType" />
+      <xs:element name="unaryOperatorExpression" type="unaryOperatorExpressionType" />
+      <xs:element name="methodReferenceExpression" type="methodReferenceExpressionType"/>
+      <xs:element name="addressOfExpression" type="addressOfExpressionType"/>
+      <xs:element name="eventReferenceExpression" type="eventReferenceExpressionType" />
+      <xs:element name="snippet" type="xs:string" nillable="false"></xs:element>
+    </xs:choice>
+  </xs:group>
+  <xs:complexType name="addressOfExpressionType">
+    <xs:sequence>
+      <xs:element name="methodReferenceExpression" type="methodReferenceExpressionType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="methodReferenceExpressionType">
+    <xs:sequence>
+      <xs:element name="typeArguments" type="typeReferenceListType" minOccurs="0" maxOccurs="1"/>
+      <xs:group ref="codeExpressionGroup" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="methodName" type="xs:string" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="incrementStatementType">
+    <xs:group ref="codeExpressionGroup" maxOccurs="1" minOccurs="1"/>
+  </xs:complexType>
+  <xs:complexType name="decrementStatementType">
+    <xs:group ref="codeExpressionGroup" maxOccurs="1" minOccurs="1"/>
+  </xs:complexType>
+  <xs:complexType name="thisReferenceExprssionType">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="propertySetValueReferenceExpressionType">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="fieldReferenceExpressionType">
+    <xs:sequence>
+      <xs:group ref="codeExpressionGroup" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:complexType name="methodReturnStatementType">
+    <xs:sequence>
+      <xs:group ref="codeExpressionGroup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="assignStatementType">
+    <xs:sequence>
+      <xs:group ref="codeExpressionGroup"  minOccurs="1" maxOccurs="1"/>
+      <xs:group ref="codeExpressionGroup" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:group name="codeStatementGroup">
+    <xs:choice>
+      <xs:element name="methodReturnStatement" type="methodReturnStatementType" />
+      <xs:element name="assignStatement" type="assignStatementType" />
+      <xs:group ref="codeExpressionGroup" />
+      <xs:element name="conditionStatement" type="conditionStatementType" />
+      <xs:element name="variableDeclarationStatement" type="variableDeclarationStatementType" />
+      <xs:element name="usingStatement" type="usingStatementType" />
+			<xs:element name="lockStatement" type="lockStatementType" />
+      <xs:element name="whileStatement" type="whileStatementType" />
+      <xs:element name="foreachStatement" type="foreachStatementType" />
+      <xs:element name="forStatement" type="forStatementType" />
+      <xs:element name="tryStatement" type="tryStatementType" />
+      <xs:element name="throwExceptionStatement" type="throwExceptionStatementType" />
+			<xs:element name="breakStatement">
+				<xs:complexType>
+					<xs:sequence />
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="continueStatement">
+				<xs:complexType>
+					<xs:sequence />
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="comment" type="commentType" minOccurs="0" maxOccurs="1000" />
+      <xs:element name="incrementStatement" type="incrementStatementType" />
+      <xs:element name="decrementStatement" type="decrementStatementType" />
+      <xs:element name="attachEventStatement" type="attachEventStatementType"/>
+      <xs:element name="removeEventStatement" type="removeEventStatementType"/>
+    </xs:choice>
+  </xs:group>
+  <xs:complexType name="customAttributeType">
+    <xs:sequence>
+      <xs:element name="arguments" type="customAttributeArgumentsType" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required" />
+    <xs:attribute name="type" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="customAttributesType">
+    <xs:sequence>
+      <xs:element name="customAttribute" type="customAttributeType" minOccurs="1" maxOccurs="100" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="memberMethodType">
+    <xs:sequence>
+      <xs:element name="comment" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="typeArguments" type="typeReferenceListType"  minOccurs="0" maxOccurs="1"/>
+      <xs:element name="typeParameters" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="typeParameter" minOccurs="1" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:attribute name="name" type="xs:string" use="required"/>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="privateImplementationType" type="typeReferenceType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="attributes" type="memberAttributesType" maxOccurs="1" minOccurs="1" />
+      <xs:element name="customAttributes" type="customAttributesType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="parameters" type="parameterDeclarationExpressionCollectionType" maxOccurs="1" minOccurs="0" />
+      <xs:element name="statements" type="statementsType" minOccurs="1" maxOccurs="1" nillable="true" />
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required" />
+    <xs:attribute name="returnType" type="xs:string" use="optional" />
+    <xs:attribute name="privateImplementationType" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="parameterDeclarationExpressionCollectionType">
+    <xs:sequence>
+      <xs:element name="parameter" type="parameterDeclarationExpressionType" minOccurs="0" maxOccurs="1000" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="parameterDeclarationExpressionType">
+    <xs:sequence>
+      <xs:element name="typeArguments" type="typeReferenceListType"  minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required" />
+    <xs:attribute name="type" type="xs:string" use="required" />
+    <xs:attribute name="direction" type="FieldDirectionEnum" use="optional" />
+    <xs:attribute name="comment" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="methodInvokeExpressionType">
+    <xs:sequence>
+      <xs:element name="typeArguments" minOccurs="0" maxOccurs="1" type="typeReferenceListType"/>
+      <xs:element name="target" type="codeExpressionType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="parameters" type="codeExpressionListType" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+    <xs:attribute name="methodName" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:complexType name="formatStringExpressionType">
+    <xs:sequence>
+      <xs:group ref="codeExpressionGroup" minOccurs="0" maxOccurs="1000" />
+    </xs:sequence>
+    <xs:attribute name="format" type="xs:string" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="convertExpressionType">
+    <xs:sequence>
+      <xs:group ref="codeExpressionGroup" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="to">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Boolean"/>
+          <xs:enumeration value="Byte"/>
+          <xs:enumeration value="Char"/>
+          <xs:enumeration value="DateTime"/>
+          <xs:enumeration value="Decimal"/>
+          <xs:enumeration value="Double"/>
+          <xs:enumeration value="Int16"/>
+          <xs:enumeration value="Int32"/>
+          <xs:enumeration value="Int64"/>
+          <xs:enumeration value="Object"/>
+          <xs:enumeration value="SByte"/>
+          <xs:enumeration value="Single"/>
+          <xs:enumeration value="String"/>
+          <xs:enumeration value="UInt16"/>
+          <xs:enumeration value="UInt32"/>
+          <xs:enumeration value="UInt64"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="delegateInvokeExpressionType">
+    <xs:sequence>
+      <xs:element name="target" type="codeExpressionType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="parameters" type="codeExpressionListType" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="codeExpressionType">
+    <xs:sequence>
+      <xs:group ref="codeExpressionGroup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="codeExpressionListType">
+    <xs:sequence>
+      <xs:group ref="codeExpressionGroup" minOccurs="0" maxOccurs="1000" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="primitiveExpressionType">
+    <xs:sequence>
+    </xs:sequence>
+    <xs:attribute name="value" type="xs:string" use="required" />
+    <xs:attribute name="convertTo" type="ConvertPrimitiveToType" use="optional" />
+    <xs:attribute name="culture" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <xs:simpleType name="ConvertPrimitiveToType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Auto" />
+      <xs:enumeration value="String" />
+      <xs:enumeration value="Char" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="customAttributeArgumentsType">
+    <xs:sequence minOccurs="0" maxOccurs="unbounded">
+      <xs:choice>
+        <xs:group ref="codeExpressionGroup" minOccurs="0" maxOccurs="1" />
+        <xs:element name="attributeArgument" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:group ref="codeExpressionGroup" maxOccurs="1" minOccurs="1"/>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="variableReferenceExpressionType">
+    <xs:sequence />
+    <xs:attribute name="name" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:complexType name="typeReferenceExpressionType">
+    <xs:sequence>
+      <xs:element name="typeArguments" type="typeReferenceListType"  minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="type" type="xs:string" use="required" />
+    <xs:attribute name="contextTypeName" type="xs:string" use="optional" />
+    <xs:attribute name="namespace" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="propertyReferenceExpressionType">
+    <xs:sequence>
+      <xs:choice minOccurs="0">
+        <xs:group ref="codeExpressionGroup" />
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:complexType name="eventReferenceExpressionType">
+    <xs:sequence>
+      <xs:choice minOccurs="0">
+        <xs:group ref="codeExpressionGroup" />
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:complexType name="arrayIndexerExpressionType">
+    <xs:sequence>
+      <xs:element name="target" type="codeExpressionType" minOccurs="1" maxOccurs="1" />
+      <xs:element name="indices" type="codeExpressionListType" minOccurs="1" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="conditionStatementType">
+    <xs:sequence>
+      <xs:element name="condition" type="codeExpressionType" maxOccurs="1" minOccurs="1" />
+      <xs:element name="trueStatements" type="codeStatementListType" maxOccurs="1" minOccurs="1" />
+      <xs:element name="falseStatements" type="codeStatementListType" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="codeStatementListType">
+    <xs:sequence>
+      <xs:group ref="codeStatementGroup" minOccurs="0" maxOccurs="1000" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="binaryOperatorExpressionType">
+    <xs:sequence>
+      <xs:group ref="codeExpressionGroup" />
+      <xs:group ref="codeExpressionGroup" />
+    </xs:sequence>
+    <xs:attribute name="operator" type="binaryOperatorType" use="required" />
+  </xs:complexType>
+  <xs:simpleType name="binaryOperatorType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Add" />
+      <xs:enumeration value="Subtract" />
+      <xs:enumeration value="Multiply" />
+      <xs:enumeration value="Divide" />
+      <xs:enumeration value="Modulus" />
+      <xs:enumeration value="Assign" />
+      <xs:enumeration value="IdentityInequality" />
+      <xs:enumeration value="IdentityEquality" />
+      <xs:enumeration value="ValueEquality" />
+      <xs:enumeration value="ValueInequality" />
+      <!--<xs:enumeration value="ValueInequality" />-->
+      <xs:enumeration value="IsTypeOf" />
+      <xs:enumeration value="BitwiseOr" />
+      <xs:enumeration value="BitwiseAnd" />
+      <xs:enumeration value="BooleanOr" />
+      <xs:enumeration value="BooleanAnd" />
+      <xs:enumeration value="LessThan" />
+      <xs:enumeration value="LessThanOrEqual" />
+      <xs:enumeration value="GreaterThan" />
+      <xs:enumeration value="GreaterThanOrEqual" />
+			<xs:enumeration value="ShiftLeft" />
+			<xs:enumeration value="ShiftRight" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="argumentReferenceExpressionType">
+    <xs:sequence />
+    <xs:attribute name="name" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:complexType name="constructorType">
+    <xs:sequence>
+      <xs:element name="comment" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="attributes" type="memberAttributesType" maxOccurs="1" minOccurs="1" />
+      <xs:element name="parameters" type="parameterDeclarationExpressionCollectionType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="baseConstructorArgs" type="codeExpressionListType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="chainedConstructorArgs" type="codeExpressionListType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="statements" type="codeStatementListType" minOccurs="1" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="variableDeclarationStatementType">
+    <xs:sequence>
+      <xs:element name="typeArguments" type="typeReferenceListType"  minOccurs="0" maxOccurs="1"/>
+      <xs:element name="init" type="codeExpressionType" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="optional" />
+    <xs:attribute name="type" type="xs:string" use="required" />
+    <xs:attribute name="var" type="xs:boolean" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="attachEventStatementType">
+    <xs:sequence>
+      <xs:element name="event" type="eventReferenceExpressionType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="listener" type="codeExpressionType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="removeEventStatementType">
+    <xs:sequence>
+      <xs:element name="event" type="eventReferenceExpressionType" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="listener" type="codeExpressionType" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="objectCreateExpressionType">
+    <xs:sequence>
+      <xs:element name="typeArguments" type="typeReferenceListType"  minOccurs="0" maxOccurs="1"/>
+      <xs:element name="parameters" type="codeExpressionListType" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+    <xs:attribute name="type" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="delegateCreateExpressionType">
+    <xs:sequence>
+      <xs:element name="typeArguments" type="typeReferenceListType"  minOccurs="0" maxOccurs="1"/>
+      <xs:element name="target" type="codeExpressionType" maxOccurs="1" minOccurs="1" />
+    </xs:sequence>
+    <xs:attribute name="type" type="xs:string" use="optional" />
+    <xs:attribute name="methodName" type="xs:string" use="required" />
+  </xs:complexType>
+	<xs:complexType name="usingStatementType">
+		<xs:sequence>
+			<xs:element name="variable" type="variableDeclarationStatementType" maxOccurs="1" minOccurs="1" />
+			<xs:element name="statements" type="codeStatementListType" minOccurs="1" maxOccurs="1" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="lockStatementType">
+		<xs:sequence>
+			<xs:element name="object" type="codeExpressionType" maxOccurs="1" minOccurs="1" />
+			<xs:element name="statements" type="codeStatementListType" minOccurs="1" maxOccurs="1" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="whileStatementType">
+    <xs:sequence>
+      <xs:element name="test" type="codeExpressionType" minOccurs="1" maxOccurs="1" />
+      <xs:element name="statements" type="codeStatementListType" minOccurs="1" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="foreachStatementType">
+    <xs:sequence>
+      <xs:element name="variable" type="variableDeclarationStatementType" maxOccurs="1" minOccurs="1" />
+      <xs:element name="target" type="codeExpressionType" maxOccurs="1" minOccurs="1" />
+      <xs:element name="statements" type="codeStatementListType" maxOccurs="1" minOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="castExpressionType">
+    <xs:sequence>
+      <xs:element name="typeArguments" type="typeReferenceListType"  minOccurs="0" maxOccurs="1"/>
+      <xs:group ref="codeExpressionGroup" />
+    </xs:sequence>
+    <xs:attribute name="targetType" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:complexType name="typeReferenceListType">
+    <xs:sequence>
+      <xs:element name="typeReference" type="typeReferenceType" minOccurs="1" maxOccurs="100" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="forStatementType">
+    <xs:sequence>
+      <xs:element name="variable" type="variableDeclarationStatementType" minOccurs="1" maxOccurs="1" />
+      <xs:element name="test" type="codeExpressionType" />
+      <xs:element name="increment" type="codeStatementListType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="statements" type="codeStatementListType" minOccurs="1" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="typeDeclaration" type="typeDeclarationType">
+  </xs:element>
+  <xs:element name="memberField" type="memberFieldType">
+  </xs:element>
+  <xs:element name="memberProperty" type="memberPropertyType">
+  </xs:element>
+  <xs:element name="primitiveExpression" type="primitiveExpressionType">
+  </xs:element>
+  <xs:element name="binaryOperatorExpression" type="binaryOperatorExpressionType">
+  </xs:element>
+  <xs:element name="memberMethod" type="memberMethodType">
+  </xs:element>
+  <xs:element name="constructor" type="constructorType">
+  </xs:element>
+  <xs:element name="parameter" type="parameterDeclarationExpressionCollectionType">
+  </xs:element>
+  <xs:complexType name="typeParameterListType">
+    <xs:sequence>
+      <xs:element name="parameter" type="typeParameterType" minOccurs="0" maxOccurs="100" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="typeParameterType">
+    <xs:sequence />
+    <xs:attribute name="name" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:complexType name="typeReferenceType">
+    <xs:sequence>
+      <xs:element name="typeArguments" type="typeReferenceListType"  minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="type" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:complexType name="typeofExpressionType">
+    <xs:sequence>
+      <xs:element name="typeArguments" type="typeReferenceListType"  minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="type" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:complexType name="arrayCreateExpressionType">
+    <xs:sequence>
+      <xs:element name="createType" type="typeReferenceType" minOccurs="1" maxOccurs="1" />
+      <xs:element name="sizeExpression" type="codeExpressionType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="initializers" type="codeExpressionListType" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="baseReferenceExpressionType">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:element name="methodInvokeExpression" type="methodInvokeExpressionType">
+  </xs:element>
+  <xs:element name="delegateInvokeExpression" type="delegateInvokeExpressionType">
+  </xs:element>
+  <xs:element name="assignStatement" type="assignStatementType">
+  </xs:element>
+  <xs:element name="attachEventStatement" type="attachEventStatementType"/>
+  <xs:element name="removeEventStatement" type="removeEventStatementType"/>
+  <xs:element name="conditionStatement" type="conditionStatementType">
+  </xs:element>
+  <xs:element name="castExpression" type="castExpressionType">
+  </xs:element>
+  <xs:element name="objectCreateExpression" type="objectCreateExpressionType">
+  </xs:element>
+  <xs:complexType name="typeConstructorType">
+    <xs:sequence>
+      <xs:element name="statements" type="codeStatementListType" minOccurs="1" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="dynamicExpression" type="dynamicExpressionType"/>
+  <xs:element name="attributeExpression" type="dynamicExpressionType"/>
+  <xs:complexType name="dynamicExpressionType">
+    <xs:simpleContent >
+      <xs:extension base="xs:string">
+        <xs:attribute name="property" type="xs:string" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:element name="bindingExpression" type="bindingExpressionType">
+  </xs:element>
+  <xs:complexType name="bindingExpressionType">
+    <xs:complexContent>
+      <xs:extension base="codeExpressionType">
+        <xs:sequence>
+        </xs:sequence>
+        <xs:attribute name="property" type="xs:string" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="bindingGroupType">
+    <xs:sequence>
+      <xs:element name="bindingExpression" type="bindingExpressionType" minOccurs="1" maxOccurs="100" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="bindingGroup" type="bindingGroupType">
+  </xs:element>
+  <xs:complexType name="directionExpressionType">
+    <xs:complexContent>
+      <xs:extension base="codeExpressionType">
+        <xs:sequence>
+          <xs:group ref="codeExpressionGroup" minOccurs="1" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="direction" type="FieldDirectionEnum" use="required" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:simpleType name="FieldDirectionEnum">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="In" />
+      <xs:enumeration value="Out" />
+      <xs:enumeration value="Ref" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="unaryOperatorType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Not" />
+      <xs:enumeration value="IsNullOrEmpty"/>
+      <xs:enumeration value="IsNotNullOrEmpty"/>
+      <xs:enumeration value="IsNull"/>
+      <xs:enumeration value="IsNotNull"/>
+			<xs:enumeration value="IsNullOrWhiteSpace"/>
+			<xs:enumeration value="IsNotNullOrWhiteSpace"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="unaryOperatorExpressionType">
+    <xs:sequence>
+      <xs:group ref="codeExpressionGroup" maxOccurs="1" minOccurs="1" />
+    </xs:sequence>
+    <xs:attribute name="operator" type="unaryOperatorType" use="required" />
+  </xs:complexType>
+  <xs:element name="unaryOperatorExpression" type="unaryOperatorExpressionType">
+  </xs:element>
+  <xs:element name="variableDeclarationStatement" type="variableDeclarationStatementType">
+  </xs:element>
+  <xs:complexType name="throwExceptionStatementType">
+    <xs:sequence>
+      <xs:group ref="codeExpressionGroup" maxOccurs="1" minOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="tryStatementType">
+    <xs:sequence>
+      <xs:element name="statements" type="codeStatementListType" maxOccurs="1" minOccurs="1" />
+      <xs:element name="catch" type="catchStatementType" minOccurs="0" maxOccurs="999" />
+      <xs:element name="finally" type="codeStatementListType" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="catchStatementType">
+    <xs:complexContent>
+      <xs:extension base="codeStatementListType">
+        <xs:sequence />
+        <xs:attribute name="exceptionType" type="xs:string"  use="required"/>
+        <xs:attribute name="localName" type="xs:string" use="optional" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="inlineExpression" >
+    <xs:complexType>
+      <xs:group ref="codeExpressionGroup" minOccurs="1" maxOccurs="1"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="commentType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string" />
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:schema>

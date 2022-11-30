@@ -1,0 +1,45 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Annoteren^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Bevestigd <b>{1}</b> op {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Bijlage^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Geef eventuele notities aan de bestanden.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Opmerkingen en bijlagen^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Geschreven {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Opmerkingen^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Opmerkingen en bijlagen^AnnotationTab^
+
+^BlobClearConfirm^Wissen?^BlobClearConfirm^
+
+^BlobCleared^<b>Bevestiging :</b> {0} Is gewist.^BlobCleared^
+
+^BlobClearText^Wissen^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Niet {0} uploaden. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Klikken^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^hier^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^om te uploaden of {0} bestand te wissen.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Is geüpload. <b>Het kan tot {1} minuten duren voordat de miniatuur is bijgewerkt.</b> reflecteren^BlobUploded^
+
+^Copyright^Alle rechten voorbehouden.^Copyright^
+
+^RecordChangedByAnotherUser^Het record is gewijzigd door een andere gebruiker.^RecordChangedByAnotherUser^
+

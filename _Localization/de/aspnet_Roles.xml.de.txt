@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Erstellen Sie eine neue Mitgliedschaft Rolle aufzunehmen.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Neue Rolle^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Neu^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Füllen Sie das Formular. Achten Sie darauf, alle erforderlichen Felder eingeben.^CreateFormCategory^
+
+^CreateFormHeaderText^Bitte füllen Sie dieses Formular aus und klicken Sie auf OK, um eine neue Mitgliedschaft Rollen Datensatz zu erstellen. Klicken Sie auf Abbrechen, um zum vorherigen Bildschirm zurückzukehren.^CreateFormHeaderText^
+
+^DescriptionLabel^Beschreibung^DescriptionLabel^
+
+^EditViewCategory^Dies sind die Felder der Mitgliedschaft Rolle Datensatz, der bearbeitet werden können.^EditViewCategory^
+
+^EditViewHeaderText^Bitte lesen Sie die Mitgliedschaft Rollen unten stehenden Informationen. Klicken Sie auf Bearbeiten, um diesen Datensatz zu ändern, klicken Sie auf Löschen, um den Eintrag zu löschen, oder klicken Sie auf Abbrechen / Schließen, um wieder zurückzukehren.^EditViewHeaderText^
+
+^GridViewHeaderText^Dies ist eine Liste der Mitgliedschaft Rollen.^GridViewHeaderText^
+
+^RoleNameLabel^Role Name^RoleNameLabel^
+

@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Plecy^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^koniec^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Potwierdź nowe hasło^ConfirmNewPassword^
+
+^ConfirmPassword^Potwierdź hasło^ConfirmPassword^
+
+^Email^E-mail^Email^
+
+^ForgotYourPassword^Zapomniałeś hasła?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Odpowiedz na następujące pytanie, aby otrzymać hasło. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Potwierdzenie tożsamości^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Proszę wypełnić ten formularz i kliknąć przycisk Prześlij, aby odzyskać zapomniane hasło. Kliknij przycisk Anuluj, aby powrócić do poprzedniego ekranu.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Odzyskiwanie haseł: Krok 2 z 2^IdentityConfirmViewLabel^
+
+^LoginButton^Zaloguj Się^LoginButton^
+
+^LoginLink^Zaloguj Się^LoginLink^
+
+^LoginWithDNN^Logowanie Z DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Zaloguj się przez facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Zaloguj się za pomocą Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Zaloguj się z firmą Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Zaloguj się za pomocą programu SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Zaloguj się za pomocą usługi Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Odpowiedź na hasło (nie jest wyświetlana w celu ochrony użytkownika)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Wpisz swoje bieżące hasło, aby utworzyć nowe hasło, zaktualizować swój adres e-mail lub zmienić pytanie i odpowiedź na temat odzyskiwania hasła.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Bieżące hasło^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Sprawdź informacje o członkostwa poniżej. Kliknij przycisk Aktualizuj moje konto, aby zmienić ten rekord, lub kliknij przycisk Anuluj, aby wrócić.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Moje konto^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Wprowadź nowe hasło. Należy pamiętać, że hasło musi mieć co najmniej 7 znaków i zawierać jeden nie-alfanumeryczny znak.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nowe hasło (opcjonalne)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Podczas odzyskiwania zapomnianego hasła zostanie wyświetlony monit o wprowadzenie nazwy użytkownika. Jeśli istnieje konto użytkownika, musisz odpowiedzieć na pytanie o hasło. Prawidłowa odpowiedź spowoduje wysłanie wiadomości e-mail z tymczasowym hasłem.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Odzyskiwanie hasła (nieobowiązkowe)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^nowe hasło^NewPassword^
+
+^OldPassword^stare hasło^OldPassword^
+
+^Password^Hasło^Password^
+
+^PasswordAnswer^Odpowiedź na hasło^PasswordAnswer^
+
+^PasswordQuestion^Pytanie o hasło^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Proszę, wpisz nazwę użytkownika. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Zapomniałeś hasła?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Proszę wypełnić ten formularz i kliknąć przycisk Kontynuuj, aby odzyskać zapomniane hasło. Kliknij przycisk Anuluj, aby powrócić do poprzedniego ekranu.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Odzyskiwanie haseł: krok 1 z 2^PasswordRequestViewLabel^
+
+^RememberMe^Pamiętaj mnie nastepnym razem^RememberMe^
+
+^RequestPasswordActionHeaderText^Następny^RequestPasswordActionHeaderText^
+
+^SignUp^Zapisz się^SignUp^
+
+^SignUpNow^Zapisz się teraz^SignUpNow^
+
+^SignUpViewHeaderText^Proszę wypełnić ten formularz i kliknąć przycisk OK, aby zarejestrować konto. Kliknij przycisk Anuluj, aby powrócić do poprzedniego ekranu.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Załóż konto^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Wprowadź nazwę użytkownika i hasło. Należy pamiętać, że hasło musi mieć co najmniej 7 znaków i zawierać jeden nie-alfanumeryczny znak. Tylko zatwierdzeni użytkownicy będą mogli się zalogować na stronie.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Nowe informacje o użytkowniku^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Te pola są potrzebne, aby odzyskać zapomniane hasło. Podczas procesu odzyskiwania zostanie wyświetlony monit o wprowadzenie nazwy użytkownika. Jeśli istnieje konto użytkownika, wymagany jest pytanie o zabezpieczenie. Odpowiednia odpowiedź spowoduje, że e-mail z tymczasowym hasłem zostanie wysłany do zarejestrowanego adresu e-mail.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Odzyskiwanie hasła^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Zaktualizuj moje konto^UpdateMyAccountActionHeaderText^
+
+^UserName^Nazwa Użytkownika^UserName^
+

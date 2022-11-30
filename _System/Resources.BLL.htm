@@ -1,0 +1,405 @@
+﻿<!--
+    Resource page body children are automatically exctracted by CodeOnTime.Client.loadResource
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title></title>
+    <link href="CodeOnTime.css" type="text/css" rel="Stylesheet" />
+</head>
+<body>
+    <!-- "Data Model & Business Logic" Dialog -->
+    <div id="BusinessLogicLayerDialog" title="Data Model & Business Logic">
+        <!--<div class="Buttons Top" id="BusinessLogicLayerDialog_TopButtons">
+            <button onclick="CodeOnTime.Client.cancel()">
+                Cancel</button>
+            <button onclick="CodeOnTime.Client._executeBusinessLogicLayerDialogCallback('Back')">
+                Back</button>
+            <button onclick="CodeOnTime.Client._executeBusinessLogicLayerDialogCallback('Next')">
+                Next</button>
+        </div>-->
+        <div class="Content ContentBar">
+            Specify business logic layer configuration parameters. Relationship discovery, denormalization
+            map, and text label construction will affect the baseline app.
+        </div>
+        <div class="Heading Logo">
+            Data Model & Business Logic
+            <div class="Icon BLL">
+            </div>
+        </div>
+        <div id="BusinessLogicLayerDialog_TabView">
+            <!-- Data Model -->
+            <div title="Data Model">
+                <div id="DataModelContainer">
+                    <div>
+                        Application uses data controllers to interact with database entities. Each controller
+                        has its own model. A model is a collection of fields derived directly from the entity
+                        columns and columns borrowed from other related entities.
+                        <br />
+                        <br />
+                        <span id="model-desc-nomodels" >Select a database entity from the list below to define a data controller model.</span>
+                        <span id="model-desc-models">Click an existing model to edit. Click an entity to add a new model.</span>
+                        <label for="DataModel_NormalizeModelNames" style="white-space:nowrap;display:inline-block" title="Removes underscores, eliminates duplicate words, converts to camel notation, and shortens names to comply with the maximum name length policy of the database engine.">
+                            <input type="checkbox" id="DataModel_NormalizeModelNames" checked="checked" />
+                            Normalize model names
+                        </label>
+                    </div>
+                    <input type="text" id="DataModel_SearchBox" value="Search..." onfocus="if (this.value == 'Search...') this.value = ''; return false;"
+                           onblur="if (this.value == '') this.value = 'Search...'; return false;" onkeyup="CodeOnTime.Client._searchEntities(this); return false;" />
+                    <div id="dataModelLists">
+                        <div id="dataModelList">
+                        </div>
+                        <div id="businessEntityList">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Shared Business Rules -->
+            <div title="Shared Business Rules">
+                <input type="checkbox" id="BusinessLogicLayerDialog_SharedBusinessRules" />
+                <label for="BusinessLogicLayerDialog_SharedBusinessRules" id="BusinessLogicLayerDialog_SharedBusinessRulesLabel">
+                    Shared Business Rules
+                </label>
+                <br />
+                <br />
+                Generator creates <i>SharedBusinessRules</i> class in the application when enabled. An instance of the class or its corresponding descendant is created at runtime for each controller in the life cycle of data operations. The class makes possible implementing <a href="javascript:" onclick="return window.external.OpenUrl('http://codeontime.com/blog/2010/01/global-logging-with-shared-business')"
+                                                                                                                                                                                                                                                                                      title="Learn about Global Logging" target="_blank">global logging</a> or shared
+                <a href="javascript::" onclick="return window.external.OpenUrl('http://codeontime.com/learn/security/multi-tenant-applications/dynamic-access-control-rules')"
+                   target="_blank" title="Learn about Access Control Rules, the component of EASE (Enterpise Application Services Engine).">
+                    access control rules
+                </a> in your application.
+                <br />
+                <br />
+                Enable shared business rules to activate optional <b>
+                    <a href="http://codeontime.com/learn/access-control-list" target="_blank"
+                       title="Learn about Access Control List">
+                        Access Control List
+                    </a> (ACL)
+                </b> in your application.
+                <br />
+                <br />
+                ACL allows role-based configuration of access to pages and data. If ACL is enabled, then all pages and data become invisible. ACL requires explicit listing of permissions to view pages, read, create, update, and delete data.
+                Grant permissions to user roles by including them in ACL.
+                <br />
+                <br />
+                ACL can be configured at design-time by application developer and changed by application administrators at runtime. Runtime configuration of access control list requires <a href="javascript::" onclick="return window.external.OpenUrl('https://codeontime.com/learn/integrated-content-management-system/adding-cms-to-existing-project')"
+                                                                                                                                                                                             target="_blank" title="Lear more about installing CMS in the application database">Content Management System</a> to be installed in the application database.
+                <!--<b><a href="http://codeontime.com/learn/dynamic-access-control-list" target="_blank"
+                    title="Learn about Dynamic Access Control List (feature of EASE)">Dynamic Access
+                    Control List</a></b> allows creating access control rules at runtime if shared
+                business rules are activated.
+                <br />
+                <br />
+                <!--<b><a href="http://codeontime.com/learn/dynamic-access-control-list" target="_blank"
+                    title="Learn about Dynamic Access Control List (feature of EASE)">Dynamic Access
+                    Control List</a></b> allows creating access control rules at runtime if shared
+                business rules are activated.
+                <br />
+                <br />
+                <b><a href="http://codeontime.com/learn/dynamic-controller-customization" target="_blank"
+                    title="Learn about Dynamic Controller Customization (feature of EASE)">Dynamic Controller
+                    Customization</a></b> allows altering data controllers at runtime if shared
+                business rules are activated.
+                <br />
+                <br />
+                <br />
+                <b>* - DACL</b> and <b>DCC</b> is available only in projects with <a href="http://codeontime.com/learn/integrated-content-management-system"
+                    target="_blank" title="Learn about Integrated Content Management System (feature of EASE)">
+                    Integrated Content Management System</a> created with <i>Premium</i> or <i>Unlimited</i>
+                edition.-->
+            </div>
+            <!-- Data Access Objects -->
+            <div title="Data Access Objects">
+                <!--<div id="BusinessLogicLayerDialog_GenerateField">
+                    <label class="Label" style="display: none">
+                        BLL Code Generation:</label>
+                    <input type="checkbox" id="BusinessLogicLayerDialog_Generate" onclick="CodeOnTime.Client.checkBusinessLogicLayerMethodsVisibility(this.checked)" />
+                    <label for="BusinessLogicLayerDialog_Generate" id="BusinessLogicLayerDialog_GenerateLabel">
+                        Generate data access objects for this application for use in <a href="http://codeontime.com/blog/label/Business%20Rules_slash_Logic"
+                            target="_blank" title="Learn about writing custom business rules.">business rules</a>
+                        and custom <a href="http://codeontime.com/blog/2009/04/objectdatasource-vs-controllerdatasourc"
+                            target="_blank" title="Learn about using business layer code objects for custom user interface development.">
+                            user interface</a> forms.</label>
+                </div>
+                <br />-->
+                <div id="BusinessLogicLayerDialog_MethodsDiv" style="padding: 0px 4px 8px 4px;">
+                    Data access objects may be needed when programming <a href="http://codeontime.com/blog/label/Business%20Rules_slash_Logic"
+                                                                          target="_blank" title="Learn about writing custom business rules.">business rules</a>
+                    and custom <a href="http://codeontime.com/blog/2009/04/objectdatasource-vs-controllerdatasourc"
+                                  target="_blank" title="Learn about using business layer code objects for custom user interface development.">
+                        user interface
+                    </a> forms.
+                    <br />
+                    <br />
+                    Create data access object instances by calling <i>data selection</i> methods
+                    of object factories, manipulate object properties, <i>insert</i>, <i>update</i>,
+                    and <i>delete</i> objects. All objects of business logic layer are designed to support
+                    <i>data binding</i> with <a href="http://msdn.microsoft.com/en-us/library/9a4kyhcx.aspx"
+                                                target="_blank" title="ObjectDataSource Web Server Control Overview">ObjectDataSource</a>
+                    component.
+                    <br />
+                    <br />
+                    Full support is provided for paging, sorting, filtering, and editing of records
+                    of any size with maximum flexibility and minimal database interaction. Business
+                    layer objects are provided with methods that allow to <b>create</b>, <b>read</b>,
+                    <b>update</b>, and <b>delete</b> database information. Please specify the method
+                    names. If you change the data access object method names then please make sure to
+                    use these names when following instructions in online tutorials.
+                    <div class="Field">
+                        <label for="BusinessLogicLayerDialog_InsertMethod" class="Label">
+                            Create method to insert a record in a database table:
+                        </label>
+                        <input type="text" id="BusinessLogicLayerDialog_InsertMethod" style="width: 150px" />
+                        <br />
+                        <div class="Error" id="BusinessLogicLayerDialog_InsertMethodError">
+                        </div>
+                    </div>
+                    <div class="Field">
+                        <label for="BusinessLogicLayerDialog_SelectMethod" class="Label">
+                            Read method to retrieve <b>all records</b> that match specified filtering parameters:
+                        </label>
+                        <input type="text" id="BusinessLogicLayerDialog_SelectMethod" style="width: 150px" />
+                        <br />
+                        <div class="Error" id="BusinessLogicLayerDialog_SelectMethodError">
+                        </div>
+                    </div>
+                    <div class="Field">
+                        <label for="BusinessLogicLayerDialog_SelectSingleMethod" class="Label">
+                            Read method to retrieve a <b>single record</b> matched to a primary key value:
+                        </label>
+                        <input type="text" id="BusinessLogicLayerDialog_SelectSingleMethod" style="width: 150px" />
+                        <br />
+                        <div class="Error" id="BusinessLogicLayerDialog_SelectSingleMethodError">
+                        </div>
+                    </div>
+                    <div class="Field">
+                        <label for="BusinessLogicLayerDialog_UpdateMethod" class="Label">
+                            Update method to modify a record in a database table:
+                        </label>
+                        <input type="text" id="BusinessLogicLayerDialog_UpdateMethod" style="width: 150px" />
+                        <br />
+                        <div class="Error" id="BusinessLogicLayerDialog_UpdateMethodError">
+                        </div>
+                    </div>
+                    <div class="Field">
+                        <label for="BusinessLogicLayerDialog_DeleteMethod" class="Label">
+                            Delete method to remove a record from a database table:
+                        </label>
+                        <input type="text" id="BusinessLogicLayerDialog_DeleteMethod" style="width: 150px" />
+                        <br />
+                        <div class="Error" id="BusinessLogicLayerDialog_DeleteMethodError">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Database Views -->
+            <div title="Database Views">
+                <input type="checkbox" id="BusinessLogicLayerDialog_IncludeViews" />
+                <label for="BusinessLogicLayerDialog_IncludeViews" id="BusinessLogicLayerDialog_IncludeViewsLabel">
+                    Include database views as read-only data controllers for reporting and customization.
+                </label>
+            </div>
+            <!-- Relationship Discovery -->
+            <div title="Relationship Discovery">
+                <div>
+                    All possible relationships are discovered automatically for each database table
+                    through the available foreign keys. Optional discovery depth can limit the number
+                    of fields in objects.
+                    <br />
+                </div>
+                <div class="Field">
+                    <label class="Label" for="BusinessLogicLayerDialog_DiscoveryDepth">
+                        Discovery Depth:
+                    </label>
+                    <input type="text" id="BusinessLogicLayerDialog_DiscoveryDepth" style="width: 20px"
+                           onchange="CodeOnTime.Client.resetDatabaseModel();" />
+                    <div class="Error" id="BusinessLogicLayerDialog_DiscoveryDepthError">
+                    </div>
+                    <br />
+                </div>
+                <div>
+                    Relationship <a href="javascript:" onclick="var elt=$get('BusinessLogicLayerDialog_Keys');if(elt.value.length==0)elt.value=this.getAttribute('sampletext');return
+                    false;" title="Click here to populate a sample relationship discovery definition. The sample refers to the Northwind database."
+                                    sampletext="Sample relationships (any child/parent relationship specified in relationship discovery overrides the corresponding physical foreign keys automatically discovered in the database):
+
+foreign key dbo.Products(SupplierID)
+references dbo.Suppliers(SupplierID)
+
+foreign key dbo.Orders(CustomerID)
+references dbo.Customers(CustomerID)
+
+foreign key dbo.Order Details(OrderID)
+references dbo.Orders(OrderID)
+
+foreign key dbo.Order Details(ProductID)
+references dbo.Products(ProductID)
+">discovery definition</a> allows specifying any foreign key realtionships between child and parent
+                    tables that are not explicitly defined in the database. Relationship discovery overrides
+                    the discovery depth.
+                </div>
+                <br />
+                <div class="Field">
+                    <label class="Label" for="BusinessLogicLayerDialog_Keys">
+                        Relationship Discovery Definition:
+                    </label>
+                    <textarea id="BusinessLogicLayerDialog_Keys" style="width: 550px" cols="50" rows="12"></textarea>
+                </div>
+                <br />
+                Use the following syntax to define a relationship:
+                <br />
+                <table style="margin-top: 4px;">
+                    <tr>
+                        <td style="border: solid 1px silver; background-color: InfoBackground; padding: 4px;">
+                            <i>
+                                foreign key schema.table_name(field1[, fieldN])
+                                <br />
+                                references schema.table_name(field1,[ fieldN])
+                            </i>
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                Set discovery depth to <i>zero</i> to define all relationships manually.
+            </div>
+            <!-- Denormalization Map -->
+            <div title="Denormalization Map">
+                <div>
+                    A business logic layer is a collection of data controllers representing entities
+                    of the logical domain model of your application. Business objects represent a <a href="javascript:" onclick="return $openUrl('http://en.wikipedia.org/wiki/Denormalised');"
+                                                                                                     target="_blank" title="Learn about denormalization.">denormalized</a> view of
+                    data suitable for display in user interface and coding of business rules.
+                </div>
+                <br />
+                <div>
+                    Specify a denormalization field map that will be used to construct the field roster
+                    of the application objects.
+                </div>
+                <br />
+                <div class="Field">
+                    <label class="Label" for="BusinessLogicLayerDialog_FieldMap">
+                        Denormalization Field Map:
+                    </label>
+                    <textarea id="BusinessLogicLayerDialog_FieldMap" style="width: 550px" cols="50" rows="12"></textarea>
+                </div>
+                <div>
+                    Denormalization <a href="javascript:" onclick="var elt=$get('BusinessLogicLayerDialog_FieldMap');if(elt.value.length==0)elt.value=this.getAttribute('sampletext');return false;"
+                                       title="Click here to create a sample denormalization field map. The sample refers to the Northwind database."
+                                       sampletext="Sample denormalization field map:
+
+dbo.Products =&gt; dbo.Suppliers
+SupplierCompanyName
+ContactName
+ContactTitle
+Fax
+Phone
+">field map</a> controls inclusion of master fields in the detail objects.
+                    <br />
+                    <br />
+                    Mappings start with a header line. Format of a denormalization field map is shown
+                    below.
+                    <table style="margin-top: 4px;">
+                        <tr>
+                            <td style="border: solid 1px silver; padding: 4px; background-color: InfoBackground;">
+                                <i>
+                                    schema.ChildTableName =&gt; schema.ParentTableName<br />
+                                    ParentFieldName1<br />
+                                    ParentFieldName2
+                                </i>
+                            </td>
+                        </tr>
+                    </table>
+                    <br />
+                    Parent field names that must be included in the child object are listed one field
+                    per line following the map header. Use square brackets around the names with spaces.
+                </div>
+            </div>
+            <!-- Text Label Construction -->
+            <div title="Text Label Construction">
+                <div>
+                    Provide user-friendly custom labels for physical names of schemas (synonyms), tables
+                    and fields.
+                </div>
+                <br />
+                <div class="Field">
+                    <label class="Label" for="BusinessLogicLayerDialog_CustomLabels">
+                        Custom Labels (one per line in the format <b>PhysicalName=LabelText</b>):
+                    </label>
+                    <textarea id="BusinessLogicLayerDialog_CustomLabels" style="width: 550px;" rows="12"
+                              cols="52" title="Examples:&#10;CUSTOMER_NAME=Customer Name&#10;OrdItm=Order Items"></textarea>
+                </div>
+                <br />
+                <div>
+                    Specify an optional <a href="http://en.wikipedia.org/wiki/Regular_expressions" target="_blank"
+                                           title="Learn more about regular expressions.">regular expression</a> that will
+                    be applied to all automatically generated labels to create user-friendly labels
+                    based on combinations of table and/or field names. For example, if your tables start
+                    with a prefix then the prefix can be removed by entering <b title="This expression will transform 'TBL_CUSTOMERS' to 'Customers' and 't_OrderDetails' to 'Order Details'.">
+                        ^\w+?_(?'Text'.+)$
+                    </b> expression.
+                </div>
+                <br />
+                <div class="Field">
+                    <label class="Label" for="BusinessLogicLayerDialog_LabelFormatExpression">
+                        Label Format Expression:
+                    </label>
+                    <input type="text" id="BusinessLogicLayerDialog_LabelFormatExpression" style="width: 550px"
+                           title="All characters in this field are treated as a single regular expression." />
+                    <div class="Error" id="BusinessLogicLayerDialog_LabelFormatExpressionError">
+                    </div>
+                </div>
+            </div>
+            <!-- System and Hidden Fields -->
+            <div title="System and Hidden Fields">
+                <div style="padding-top: 4px">
+                    Specify optional lists of table fields that are not generally available to application
+                    end-users through user interface forms. Such fields are often referred as <i>
+                        system
+                    </i>and <i>hidden</i> and are typically used to log data access operations and conditions.
+                </div>
+                <br />
+                <div class="Field">
+                    <label class="Label" for="BusinessLogicLayerDialog_FieldsToIgnore">
+                        System Fields (one per line <b>FieldName</b>):
+                    </label>
+                    <textarea id="BusinessLogicLayerDialog_FieldsToIgnore" rows="7" cols="35" style="width: 550px"></textarea>
+                </div>
+                <div>
+                    <i>System</i> fields are never retrieved from the database.
+                </div>
+                <br />
+                <div class="Field">
+                    <label class="Label" for="BusinessLogicLayerDialog_FieldsToHide">
+                        Hidden Fields (enter the exact spelling of one base <b>table column name</b> of the hidden field per line):
+                    </label>
+                    <textarea id="BusinessLogicLayerDialog_FieldsToHide" rows="7" cols="35" style="width: 550px"></textarea>
+                </div>
+                <div>
+                    <i>Hidden</i> fields travel from the server to the client and back.
+                </div>
+                <div class="Field" style="clear: left; margin-top: 0px; padding-top: 0px; display: none">
+                    <input type="checkbox" id="BusinessLogicLayerDialog_AdvancedOptions" onclick="var elm=$get('BusinessLogicLayerDialog_AdvancedOptionsContainer');Sys.UI.DomElement.setVisible(elm, !Sys.UI.DomElement.getVisible(elm));" />
+                    <label for="BusinessLogicLayerDialog_AdvancedOptions" id="BusinessLogicLayerDialog_AdvancedOptionsLabel">
+                        Use custom discovery depth, labeling expressions, field exclusion rules, table keys,
+                        and table field mapping to compose business objects.
+                    </label>
+                </div>
+                <fieldset id="BusinessLogicLayerDialog_AdvancedOptionsContainer" style="display: none;
+                    padding: 0px 4px 8px 4px; margin-bottom: 4px">
+                    &nbsp;
+                </fieldset>
+            </div>
+        </div>
+        <div class="Buttons">
+            <button onclick="CodeOnTime.Client.cancel()">
+                Cancel
+            </button>
+            <button onclick="CodeOnTime.Client._executeBusinessLogicLayerDialogCallback('Back')">
+                Back
+            </button>
+            <button onclick="if(CodeOnTime.Client._validateProjectLevel())CodeOnTime.Client._executeBusinessLogicLayerDialogCallback('Next');  ">
+                Next
+            </button>
+        </div>
+    </div>
+</body>
+</html>

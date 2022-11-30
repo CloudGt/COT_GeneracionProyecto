@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^تعليم^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0}<b>{1} </b> {2} يعلق على^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^التعلق^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^إدخال الملاحظات الاختيارية وإرفاق الملفات.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^الملاحظات والمرفقات^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} خطية في {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^تلاحظ^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^تلاحظ^AnnotationTab^
+
+^BlobClearConfirm^واضح؟^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} تم تطهيرها.^BlobCleared^
+
+^BlobClearText^واضح^BlobClearText^
+
+^BlobUploadError^فشل <b>Error :</b> لتحميل {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^فوق^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^هنا^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^لتحميل الملف أو إلغاء {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} تم تحميله بنجاح. <b>It قد يستغرق دقائق {1} للإبهام بأن تعكس content.</b> تم الرفع^BlobUploded^
+
+^Copyright^جميع الحقوق محفوظة.^Copyright^
+
+^RecordChangedByAnotherUser^تم تغيير السجل بواسطة مستخدم آخر.^RecordChangedByAnotherUser^
+

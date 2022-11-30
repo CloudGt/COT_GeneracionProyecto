@@ -1,0 +1,58 @@
+﻿<!-- 
+    Resource page body children are automatically exctracted by CodeOnTime.Client.loadResource 
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title></title>
+    <link href="CodeOnTime.css" type="text/css" rel="Stylesheet" />
+</head>
+<body>
+    <!-- "Membership" Dialog -->
+    <div id="ReportsDialog" title="Reports">
+        <div class="Content ContentBar">
+            Please specify your reporting preferences.</div>
+        <div class="Heading Logo">
+            Reporting
+            <div class="Icon Reporting">
+            </div>
+        </div>
+        <div class="Content">
+            <div>
+                Support for <a href="http://www.microsoft.com/en-us/sqlserver/solutions-technologies/business-intelligence/reporting.aspx"
+                    target="_blank" title="Learn about Microsoft Reporting Services 2008">Microsoft
+                    Reporting Services</a> technology can be embedded into your application. Dynamic
+                reports are automatically created on-the-fly without a need for a standalone reporting
+                server. Static reports are supported as well.<br />
+                <br />
+            </div>
+            <div>
+                Application users will be able to render reports as <i>Adobe PDF</i>, <i>Microsoft Office
+                    Excel</i>, or <i>Tiff</i> image file. Learn more about <a href="http://codeontime.com/learn/reports/overview"
+                    target="_blank" title="Code On Time Reporting Capabilitie">reporting capabilities in Code On Time apps</a>.
+                <br />
+                <br />
+                Microsoft Report Viewer is required to run the reports. The <i>Microsoft Report
+                    Viewer Redistributable Package</i> includes Windows Forms and ASP.NET Web server
+                controls for viewing reports designed using Microsoft reporting technology. 
+                <br />
+                <br />
+
+            </div>
+            <div class="Field">
+                <label class="Label">
+                    Reports:</label>
+                <input type="checkbox" id="ReportsDialog_Enabled" /><label for="ReportsDialog_Enabled">Enable
+                    dynamic and static reports in my application.</label></div>
+        </div>
+        <div class="Buttons">
+            <button onclick="CodeOnTime.Client.cancel()">
+                Cancel</button>
+            <button onclick="CodeOnTime.Client._executeReportsDialogCallback('Back')">
+                Back</button>
+            <button onclick="CodeOnTime.Client._executeReportsDialogCallback('Next')">
+                Next</button>
+        </div>
+    </div>
+</body>
+</html>

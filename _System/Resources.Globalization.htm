@@ -1,0 +1,119 @@
+﻿<!-- 
+    Resource page body children are automatically exctracted by CodeOnTime.Client.loadResource 
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title></title>
+    <link href="CodeOnTime.css" type="text/css" rel="Stylesheet" />
+</head>
+<body>
+    <!-- "Membership" Dialog -->
+    <div id="GlobalizationDialog" title="Globalization">
+        <div class="Content ContentBar">
+            Please specify globalization and localization preferences.</div>
+        <div class="Heading Logo">
+            Globalization and Localization
+            <div class="Icon Globalization">
+            </div>
+        </div>
+        <div class="Content">
+            <div>
+                Culture (locale) information includes the writing system, the calendar used, formatting
+                for dates, numbers, currency, and string sorting.
+                <br />
+                <br />
+                A web application uses a specific <b>culture</b> to perform server operations when
+                processing client requests and <b>user interface culture</b> to render application
+                presentation.<br />
+                The user interface culture and culture of the server-side process can be configured
+                independently to meet the needs of your application.
+            </div>
+            <div class="Field" style="display: none">
+                <input type="checkbox" id="GlobalizationDialog_EnableClientBasedCulture" onclick="$get('GlobalizationDialog_Culture').value = this.checked ? '*' : '';$get('GlobalizationDialog_UICulture').value = this.checked ? '*' : ''" /><label
+                    for="GlobalizationDialog_EnableClientBasedCulture">Enable client-based culture to
+                    rely on the browser language to set the culture and UI culture for each request.</label>
+                <br />
+            </div>
+            <div>
+                Select the server process culture and user interface culture of the application.
+                You may have both cultures set automatically based on the server locale.<br />
+            </div>
+            <div>
+                <div style="float: left" class="Field">
+                    <label class="Label" for="GlobalizationDialog_Culture">
+                        Culture:</label>
+                    <select id="GlobalizationDialog_Culture">
+                        <option value="">(Current)</option>
+                        <option value="*">(Auto)</option>
+                    </select>
+                </div>
+                <div style="float: left; margin-left: 20px;" class="Field">
+                    <label class="Label" for="GlobalizationDialog_UICulture">
+                        UI Culture:</label>
+                    <select id="GlobalizationDialog_UICulture" onchange="if(this.value!='*')$get('GlobalizationDialog_EnableClientBasedCulture').checked = false;">
+                        <option value="">(Current)</option>
+                        <option value="*">(Auto)</option>
+                    </select>
+                </div>
+                <div style="clear: left">
+                </div>
+            </div>
+            <div class="Content" style="margin-top: 10px">
+                Your application can support multiple user interface cultures. A menu of supported
+                user interface cultures (languages) is displayed on the application membership bar.
+                <div style="margin: 8px 0px">
+                    <button style="width: 100px" onclick="CodeOnTime.Client.addCultureSet()" title="Add selected combination of cultures to the list of Supported UI Cultures.">
+                        Add Culture Set</button>
+                    <button style="width: 100px; margin-left: 8px" onclick="CodeOnTime.Client.resetCultureSet()"
+                        title="Select the current culture set that matched your computer settings.">
+                        Default</button>
+                </div>
+                Separate multiple culture sets with semicolon or enter each culture set on a separate
+                line. You may enter country-specific and generic user interface cultures. If a user
+                interface culture is not country-specific then enter the country-specific culture
+                in front of UI culture and separate both cultures with comma. The order of supported
+                cultures will be reflected in the language menu of application. Multiple culture sets and language menu are supported in <a href="javascript:" onclick="return $openUrl('http://codeontime.com/products')"
+                    target="_blank" title="Compare Product Editions">Unlimited</a> edition only.
+                <table style="margin: 4px 0px;">
+                    <tr>
+                        <td style="border: solid 1px silver; background-color: InfoBackground; padding: 4px;">
+                            Example: <i>en-US; fr-CA,fr; de-DE;</i>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="Field">
+                <label class="Label" for="GlobalizationDialog_SupportedCultures">
+                    Supported Culture Sets</label>
+                <textarea class="Field" id="GlobalizationDialog_SupportedCultures" rows="3" cols="130"></textarea>
+            </div>
+            <div class="Field">
+                <label class="Label" for="GlobalizationDialog_GoogleTranslateApiKey">
+                    Google Translate API Key</label>
+                <input class="Field" id="GlobalizationDialog_GoogleTranslateApiKey" size="130" />
+            </div>
+            <div style="margin-top: 12px">
+                <div class="Task">
+                    Learn about <a href="javascript:" onclick="return $openUrl('http://codeontime.com/blog/label/Globalization%20and%20Localization')"
+                        target="_blank">globalization and localization</a> of applications created with
+                    Code OnTime Generator.
+                </div>
+                <div class="Task">
+                    <a href="javascript:" onclick="return $openUrl('http://codeontime.com/contactus.aspx')"
+                        target="_blank" title="Join Code OnTime Time Resource Localization Group">Contact</a>
+                    our development team if you would like to participate in resource localization.
+                </div>
+            </div>
+            <div class="Buttons">
+                <button onclick="CodeOnTime.Client.cancel()">
+                    Cancel</button>
+                <button onclick="CodeOnTime.Client._executeGlobalizationDialogCallback('Back')">
+                    Back</button>
+                <button onclick="CodeOnTime.Client._executeGlobalizationDialogCallback('Next')">
+                    Next</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

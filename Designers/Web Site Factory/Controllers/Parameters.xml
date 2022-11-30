@@ -1,0 +1,196 @@
+<dataController name="Parameters" conflictDetection="overwriteChanges" label="Actions" handler="CodeOnTime.Designer.DesignerBusinessRules"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium">
+	<commands>
+		<command id="command1" type="Text">
+			<query href="Controllers.xml" select="//a:parameter" />
+			<template select="//a:dataController[@name=$Controller]/a:commands/a:command[@id=$CommandId]">
+				<parameters xmlns="urn:schemas-codeontime-com:data-aquarium">
+					<parameter  __target="a:parameters"/>
+				</parameters>
+			</template>
+		</command>
+	</commands>
+	<fields>
+		<field name="Controller" type="String" select="ancestor::a:dataController[1]/@name" allowNulls="false" isPrimaryKey="true" readOnly="true">
+			<items style="Lookup" dataController="Controllers" newDataView="createForm1" dataValueField="Name" dataTextField="Name"/>
+		</field>
+		<field name="CommandId" type="String" select="ancestor::a:command[1]/@id" allowNulls="false" isPrimaryKey="true" readOnly="true" label="Command" contextFields="Controller">
+			<items style="Lookup" dataController="Commands" newDataView="createForm1" dataValueField="CommandId" dataTextField="CommandId"/>
+		</field>
+		<field name="ParameterName" type="String" select="@name" allowNulls="false" isPrimaryKey="true" readOnly="false" label="Name"/>
+		<field name="Type" type="String" select="@type" allowNulls="true" >
+			<items style="DropDownList">
+				<item value="" text="(auto)"/>
+				<item value="AnsiString" text="AnsiString"/>
+				<item value="Binary" text="Binary"/>
+				<item value="Byte" text="Byte"/>
+				<item value="Boolean" text="Boolean"/>
+				<item value="Currency" text="Currency"/>
+				<item value="Date" text="Date"/>
+				<item value="DateTime" text="DateTime"/>
+				<item value="Decimal" text="Decimal"/>
+				<item value="Double" text="Double"/>
+				<item value="Guid" text="Guid"/>
+				<item value="Int16" text="Int16"/>
+				<item value="Int32" text="Int32"/>
+				<item value="Int64" text="Int64"/>
+				<item value="Object" text="Object"/>
+				<item value="SByte" text="SByte"/>
+				<item value="Single" text="Single"/>
+				<item value="String" text="String"/>
+				<item value="Time" text="Time"/>
+				<item value="UInt16" text="UInt16"/>
+				<item value="UInt32" text="UInt32"/>
+				<item value="UInt64" text="UInt64"/>
+				<item value="VarNumeric" text="VarNumeric"/>
+				<item value="AnsiStringFiledLength" text="AnsiStringFixedLength"/>
+				<item value="StringFiledLength" text="StringFixedLength"/>
+				<item value="Xml" text="Xml"/>
+				<item value="DateTime2" text="DateTime2"/>
+				<item value="DateTimeOffset" text="DateTimeOffset"/>
+				<item value="TimeSpan" text="TimeSpan"/>
+				<item value="Byte[]" text="Byte[]"/>
+			</items>
+		</field>
+		<field name="Direction" type="String" select="@direction" allowNulls="false" default="'Input'">
+			<items style="DropDownList">
+				<item value="Input" text="Input"/>
+				<item value="Output" text="Output"/>
+				<item value="InputOutput" text ="Input/Output"/>
+				<item value="ReturnValue" text="Return Value"/>
+			</items>
+			<defaultValues>
+				<expression type="ClientScript" test="" result="Input"/>
+			</defaultValues>
+		</field>
+		<field name="DefaultValue" type="String" select="@defaultValue" allowNulls="true" label="Default Value"/>
+		<field name="FieldName" type="String" select="@fieldName" allowNulls="false" isPrimaryKey="true" label="Field Name" contextFields="Controller">
+			<items style="Lookup" dataController="Fields" dataValueField="Name" dataTextField="Name"/>
+		</field>
+		<field name="FieldValue" type="String" select="@fieldValue" allowNulls="false"  default="'Current'">
+			<items style="DropDownList">
+				<item value="Current" text="Current"/>
+				<item value="New" text="New"/>
+				<item value="Old" text="Old"/>
+			</items>
+			<defaultValues>
+				<expression type="ClientScript" test="" result="Current"/>
+			</defaultValues>
+		</field>
+		<field name="PropertyName" type="String" select="@propertyName" allowNulls="true" label="Property Name"/>
+	</fields>
+	<views>
+		<view id="grid1" type="Grid" commandId="command1" label="Parameter">
+			<headerText>This is a list of command parameters. Parameter values are specified explicitly or derived from fields of a selected data object or a property of a business rules class.</headerText>
+			<dataFields>
+				<dataField fieldName="Controller"/>
+				<dataField fieldName="CommandId"/>
+				<dataField fieldName="ParameterName"/>
+				<dataField fieldName="Type"/>
+				<dataField fieldName="Direction"/>
+				<dataField fieldName="DefaultValue"/>
+				<dataField fieldName="FieldName"/>
+				<dataField fieldName="FieldValue"/>
+				<dataField fieldName="PropertyName"/>
+			</dataFields>
+		</view>
+		<view id="editForm1" type="Form" commandId="command1" label="Parameter">
+      <headerText><![CDATA[Click OK to save the parameter, click Delete to delete, or click Cancel to undo changes or return back.]]></headerText>
+			<categories>
+				<category headerText="General">
+					<description>
+						<![CDATA[Key action properties. <br/><br/>
+						If command name is not specified then the action is presented as a break line in the acton group popup menu.]]>
+					</description>
+					<dataFields>
+						<dataField fieldName="Controller"/>
+						<dataField fieldName="CommandId"/>
+						<dataField fieldName="ParameterName"/>
+						<dataField fieldName="Type"/>
+						<dataField fieldName="Direction"/>
+						<dataField fieldName="DefaultValue"/>
+						<dataField fieldName="FieldName"/>
+						<dataField fieldName="FieldValue"/>
+						<dataField fieldName="PropertyName"/>
+					</dataFields>
+				</category>
+			</categories>
+		</view>
+		<view id="createForm1" type="Form" commandId="command1" label="New Parameter">
+			<headerText>Please fill this form and click OK button to create a new parameter record. Click Cancel to return to the previous screen.</headerText>
+			<categories>
+				<category headerText="General">
+					<description>
+						<![CDATA[Key action properties. <br/><br/>
+						If command name is not specified then the action is presented as a break line in the acton group popup menu.]]>
+					</description>
+					<dataFields>
+						<dataField fieldName="Controller"/>
+						<dataField fieldName="CommandId"/>
+						<dataField fieldName="ParameterName"/>
+						<dataField fieldName="Type"/>
+						<dataField fieldName="Direction"/>
+						<dataField fieldName="DefaultValue"/>
+						<dataField fieldName="FieldName"/>
+						<dataField fieldName="FieldValue"/>
+						<dataField fieldName="PropertyName"/>
+					</dataFields>
+				</category>
+			</categories>
+		</view>
+	</views>
+	<actions>
+		<actionGroup scope="Grid">
+			<action commandName="Edit" commandArgument="editForm1" />
+			<!--<action commandName="Navigate" commandArgument="ActionGroup.htm?Controller={Controller}&amp;ActionGroupId={ActionGroupId}" headerText="View"/>-->
+			<action commandName="Edit" />
+			<action commandName="Delete" confirmation="Delete?" />
+			<action/>
+			<action commandName="Custom" commandArgument="MakeFirst" headerText="Make First"/>
+			<action commandName="Custom" commandArgument="MoveUp" headerText="Move Up"/>
+			<action commandName="Custom" commandArgument="MoveDown" headerText="Move Down"/>
+			<action commandName="Custom" commandArgument="MakeLast" headerText="Make Last"/>
+			<!--<action commandName="Select" commandArgument="editForm1" headerText="Properties"/>-->
+			<!--<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+		</actionGroup>
+		<actionGroup scope="Form">
+			<action commandName="Edit" />
+			<action commandName="Delete" confirmation="Delete?" />
+			<action commandName="Cancel" headerText="Close" />
+			<action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+			<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />
+			<action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+			<action whenLastCommandName="New" commandName="Cancel" />
+		</actionGroup>
+		<actionGroup scope="ActionBar" headerText="New">
+			<action commandName="New" commandArgument="createForm1" headerText="New Action" description="Create a new action." />
+		</actionGroup>
+		<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+			<action commandName="Custom" commandArgument="Preview" headerText="Quick View" description="Preview the data controller."  />
+		</actionGroup>
+		<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+			<!--<action commandName="Custom" commandArgument="MakeFirst" headerText="First" whenKeySelected="true" whenView="grid1" cssClass="MakeFirstIcon"/>-->
+			<action commandName="Custom" commandArgument="MoveUp" headerText="Up" whenKeySelected="true" whenView="grid1" cssClass="MoveUpIcon"/>
+			<action commandName="Custom" commandArgument="MoveDown" headerText="Down" whenKeySelected="true" whenView="grid1" cssClass="MoveDownIcon"/>
+			<!--<action commandName="Custom" commandArgument="MakeLast" headerText="Last" whenKeySelected="true" whenView="grid1" cssClass="MakeLastIcon"/>-->
+		</actionGroup>
+		<!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+		<actionGroup scope="ActionBar" headerText="Record">
+			<action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+			<action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+		</actionGroup>
+		<actionGroup id="ag8" scope="Row">
+			<action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+		</actionGroup>
+	</actions>
+</dataController>

@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Πίσω^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Φινίρισμα^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Επιβεβαιώστε τον καινούριο σας κωδικό^ConfirmNewPassword^
+
+^ConfirmPassword^Επιβεβαίωση Κωδικού^ConfirmPassword^
+
+^Email^ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ^Email^
+
+^ForgotYourPassword^Ξεχάσατε τον κωδικό σας;^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Απαντήστε στην παρακάτω ερώτηση για να λάβετε τον κωδικό πρόσβασής σας. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Επιβεβαίωση ταυτότητας^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Συμπληρώστε αυτήν τη φόρμα και κάντε κλικ στο κουμπί Υποβολή για να ανακτήσετε τον ξεχασμένο κωδικό πρόσβασης. Κάντε κλικ στην επιλογή Ακύρωση για να επιστρέψετε στην προηγούμενη οθόνη.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Ανάκτηση κωδικού πρόσβασης: Βήμα 2 από 2^IdentityConfirmViewLabel^
+
+^LoginButton^Σύνδεση^LoginButton^
+
+^LoginLink^Σύνδεση^LoginLink^
+
+^LoginWithDNN^Σύνδεση με το DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Σύνδεση με το Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Σύνδεση με το Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Σύνδεση με τη Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Σύνδεση με το SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Σύνδεση με το Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Κωδικός Απάντηση (δεν εμφανίζεται για την προστασία σας)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Πληκτρολογήστε τον τρέχοντα κωδικό πρόσβασης για να δημιουργήσετε νέο κωδικό πρόσβασης, να ενημερώσετε τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας ή να αλλάξετε την ερώτηση και την απάντηση ανάκτησης κωδικού πρόσβασης^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Τρέχων κωδικός πρόσβασης^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Ελέγξτε τις πληροφορίες συμμετοχής σας παρακάτω. Κάντε κλικ στην επιλογή Ενημέρωση του λογαριασμού μου για να αλλάξετε αυτήν την εγγραφή ή κάντε κλικ στο κουμπί Άκυρο για να επιστρέψετε.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Ο λογαριασμός μου^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Εισαγάγετε νέο κωδικό πρόσβασης. Σημειώστε ότι ο κωδικός πρόσβασης πρέπει να έχει μήκος τουλάχιστον 7 χαρακτήρων και να περιλαμβάνει έναν μη αλφαριθμητικό χαρακτήρα.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Νέος κωδικός πρόσβασης (προαιρετικός)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Κατά την ανάκτηση ενός ξεχασμένου κωδικού πρόσβασης θα σας ζητηθεί να καταχωρίσετε το όνομα χρήστη σας. Εάν υπάρχει ένας λογαριασμός χρήστη, πρέπει να απαντηθεί μια ερώτηση για τον κωδικό πρόσβασης. Μια σωστή απάντηση θα ενεργοποιήσει ένα μήνυμα ηλεκτρονικού ταχυδρομείου με έναν προσωρινό κωδικό πρόσβασης που θα στείλει σε εσάς.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Αποκατάσταση κωδικού πρόσβασης &amp; με ηλεκτρονικό ταχυδρομείο (προαιρετικό)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Νέος Κωδικός^NewPassword^
+
+^OldPassword^ΠΑΛΙΟΣ ΚΩΔΙΚΟΣ^OldPassword^
+
+^Password^Κωδικός πρόσβασης^Password^
+
+^PasswordAnswer^Απάντηση κωδικού πρόσβασης^PasswordAnswer^
+
+^PasswordQuestion^Ερώτηση κωδικού πρόσβασης^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Εισαγάγετε ένα όνομα χρήστη. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Ξεχάσατε τον κωδικό σας;^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Συμπληρώστε αυτήν τη φόρμα και κάντε κλικ στο κουμπί Συνέχεια για να ανακτήσετε τον ξεχασμένο κωδικό πρόσβασης. Κάντε κλικ στην επιλογή Ακύρωση για να επιστρέψετε στην προηγούμενη οθόνη.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Ανάκτηση κωδικού πρόσβασης: Βήμα 1 από 2^PasswordRequestViewLabel^
+
+^RememberMe^Θυμηθείτε την επόμενη φορά^RememberMe^
+
+^RequestPasswordActionHeaderText^επόμενος^RequestPasswordActionHeaderText^
+
+^SignUp^Εγγραφείτε^SignUp^
+
+^SignUpNow^Εγγραφείτε τώρα^SignUpNow^
+
+^SignUpViewHeaderText^Συμπληρώστε αυτήν τη φόρμα και κάντε κλικ στο κουμπί OK για να εγγραφείτε για λογαριασμό. Κάντε κλικ στην επιλογή Ακύρωση για να επιστρέψετε στην προηγούμενη οθόνη.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Εγγραφή λογαριασμού^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Εισαγάγετε το όνομα χρήστη και τον κωδικό πρόσβασης. Σημειώστε ότι ο κωδικός πρόσβασης πρέπει να έχει μήκος τουλάχιστον 7 χαρακτήρων και να περιλαμβάνει έναν μη αλφαριθμητικό χαρακτήρα. Μόνο εγκεκριμένοι χρήστες θα μπορούν να συνδεθούν στον ιστότοπο.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Νέες πληροφορίες χρήστη^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Αυτά τα πεδία απαιτούνται για να σας βοηθήσουν να ανακτήσετε έναν ξεχασμένο κωδικό πρόσβασης. Κατά τη διάρκεια της διαδικασίας αποκατάστασης θα σας ζητηθεί να καταχωρίσετε ένα όνομα χρήστη. Εάν υπάρχει ένας λογαριασμός χρήστη, ζητείται να απαντηθεί μια ερώτηση ασφαλείας. Μια σωστή απάντηση θα ενεργοποιήσει ένα μήνυμα ηλεκτρονικού ταχυδρομείου με προσωρινό κωδικό πρόσβασης που θα αποσταλεί στο εγγεγραμμένο μήνυμα ηλεκτρονικού ταχυδρομείου.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^ΑΝΑΚΤΗΣΗ ΚΩΔΙΚΟΥ^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Ενημέρωση του λογαριασμού μου^UpdateMyAccountActionHeaderText^
+
+^UserName^Ονομα χρήστη^UserName^
+

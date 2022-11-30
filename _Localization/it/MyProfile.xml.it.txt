@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Indietro^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^finire^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Conferma la nuova password^ConfirmNewPassword^
+
+^ConfirmPassword^conferma password^ConfirmPassword^
+
+^Email^E-mail^Email^
+
+^ForgotYourPassword^Hai dimenticato la password?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Rispondi alla seguente domanda per ricevere la tua password. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Conferma dell&#39;identità^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Compila questo modulo e clicca su Invia per recuperare la password dimenticata. Fare clic su Annulla per tornare alla schermata precedente.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Recupero password: passo 2 di 2^IdentityConfirmViewLabel^
+
+^LoginButton^Accesso^LoginButton^
+
+^LoginLink^Accesso^LoginLink^
+
+^LoginWithDNN^Accedi con DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Fai il login con facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Accedi con Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Accesso con Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Accesso con SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Accesso con Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Risposta password (non visualizzata per la protezione)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Inserisci la tua password corrente per creare una nuova password, aggiornare l&#39;indirizzo email o modificare la domanda e la risposta di recupero password.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Password corrente^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Leggi le tue informazioni sull&#39;account qui sotto. Fare clic su Aggiorna il mio account per modificare questo record oppure fare clic su Annulla per tornare indietro.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Il mio account^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Inserisci nuova password. Si noti che la password deve essere lunga almeno 7 caratteri e includere un carattere non alfanumerico.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nuova password (facoltativa)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Durante il recupero di una password dimenticata ti verrà chiesto di inserire il tuo nome utente. Se esiste un account utente, è necessario rispondere a una domanda di password. Una risposta corretta innescherà un&#39;email con una password temporanea che ti verrà inviata.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-mail &amp; Recupero password (facoltativo)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^nuova password^NewPassword^
+
+^OldPassword^vecchia password^OldPassword^
+
+^Password^Parola d&#39;ordine^Password^
+
+^PasswordAnswer^Risposta password^PasswordAnswer^
+
+^PasswordQuestion^Domanda sulla password^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Inserisci un nome utente. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Hai dimenticato la password?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Compila questo modulo e fai clic sul pulsante Continua per recuperare la password dimenticata. Fare clic su Annulla per tornare alla schermata precedente.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Ripristino password: passo 1 di 2^PasswordRequestViewLabel^
+
+^RememberMe^ricordati di me la prossima volta^RememberMe^
+
+^RequestPasswordActionHeaderText^Il prossimo^RequestPasswordActionHeaderText^
+
+^SignUp^Registrazione^SignUp^
+
+^SignUpNow^Iscriviti ora^SignUpNow^
+
+^SignUpViewHeaderText^Compila questo modulo e fai clic su OK per registrarti per un account. Fare clic su Annulla per tornare alla schermata precedente.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Registrati^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Inserisci nome utente e password. Si noti che la password deve essere lunga almeno 7 caratteri e includere un carattere non alfanumerico. Solo gli utenti approvati potranno accedere al sito web.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Nuove informazioni utente^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Questi campi sono necessari per aiutarti a recuperare una password dimenticata. Durante il processo di recupero verrà richiesto di inserire un nome utente. Se esiste un account utente, viene richiesto di rispondere a una domanda di sicurezza. Una risposta corretta innescherà un&#39;email con una password temporanea inviata all&#39;email registrato.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Recupero della password^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Aggiorna il mio account^UpdateMyAccountActionHeaderText^
+
+^UserName^Nome utente^UserName^
+

@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Izveidot jaunu dalībnieku loma rekordu.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^New Loma^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^New^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Aizpildiet formu. Pārliecinieties, lai ievadītu visus nepieciešamos laukus.^CreateFormCategory^
+
+^CreateFormHeaderText^Lūdzu aizpildiet šo veidlapu un noklikšķiniet uz OK pogas, lai izveidotu jaunu dalībnieku lomas rekordu. Noklikšķiniet uz Atcelt, lai atgrieztos iepriekšējā ekrānā.^CreateFormHeaderText^
+
+^DescriptionLabel^Apraksts^DescriptionLabel^
+
+^EditViewCategory^Šīs ir jomas dalībnieku loma ieraksts, ko var rediģēt.^EditViewCategory^
+
+^EditViewHeaderText^Lūdzu, pārskatiet biedru lomas informāciju. Noklikšķiniet uz Rediģēt, lai mainītu šo ierakstu, noklikšķiniet uz Dzēst, lai izdzēstu ierakstu, vai noklikšķiniet uz Atcelt / Aizvērt, lai atgrieztos atpakaļ.^EditViewHeaderText^
+
+^GridViewHeaderText^Šis ir saraksts ar dalības lomas.^GridViewHeaderText^
+
+^RoleNameLabel^Loma nosaukums^RoleNameLabel^
+

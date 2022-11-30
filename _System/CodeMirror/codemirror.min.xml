@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <output path="..\codemirror.min.css" type="css">
+    <input path="lib\codemirror.css"/>
+    <input path="addon\hint\show-hint.css"/>
+  </output>
+  
+  <output path="..\codemirror.min.js" type="js">
+    <!-- Main -->
+    <input path="lib\codemirror.js"/>
+    <!-- Type Extensions-->
+    <input path="mode\sql\sql.js"/>
+    <input path="mode\javascript\javascript.js"/>
+    <input path="mode\xml\xml.js"/>
+    <input path="mode\htmlmixed\htmlmixed.js"/>
+    <input path="mode\css\css.js"/>
+    <!-- Addon comments-->
+    <input path="addon\edit\matchbrackets.js"/>
+    <input path="addon\comment\comment.js"/>
+    <input path="addon\comment\continuecomment.js"/>
+    <!-- Addon hints-->
+    <input path="addon\hint\show-hint.js"/>
+    <input path="addon\hint\css-hint.js"/>
+    <input path="addon\hint\html-hint.js"/>
+    <input path="addon\hint\javascript-hint.js"/>
+    <input path="addon\hint\sql-hint.js"/>
+    <input path="addon\hint\xml-hint.js"/>
+  </output>
+</root>

@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Ustvari nov rekord uporabnika.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nov uporabnik^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^New^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Nazaj^BackToRequestPasswordActionHeaderText^
+
+^Comment^Komentar^Comment^
+
+^ConfirmIdentityActionHeaderText^Finish^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Potrditev novega gesla^ConfirmNewPassword^
+
+^ConfirmPassword^Potrdi geslo^ConfirmPassword^
+
+^CreateDate^Ustvari Datum^CreateDate^
+
+^CreateFormCommentCategoryDescription^Vpišite dodatne pripombe o tem uporabniškim računom. Komentar ni vidna za uporabnika.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Komentarji^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Prosimo, vnesite uporabniško ime in geslo. Upoštevajte, da mora biti geslo najmanj 7 znakov in vključuje enega ne-alfanumeričnih znakov. Samo odobreni uporabniki bodo mogli prijaviti v spletno stran.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Nov uporabnik Informacije^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Ta polja so potrebne za pomoč uporabnikom, da si opomore pozabljeno geslo. Med proces okrevanja bo uporabnik vnesti uporabniško ime. Če uporabniški račun obstaja, potem je varnostno vprašanje zahtevali, da je treba odgovoriti. Pravilen odgovor bo sprožila email z začasnim geslom pošlje uporabniku.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Izberite uporabniških vlog, ki najbolj ustrezajo uporabnikov odgovornosti. Vloge za nadzor dostopa do področij te spletne strani. Obrnite se na skrbnika sistema, če je treba spremeniti omejitev dostopa vlogo.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Vloge^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Prosimo, da izpolnite ta obrazec in kliknite na gumb OK, da ustvarite nov zapis uporabnika članstvo. Kliknite Prekliči, da se vrnete na prejšnji zaslon.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Nov uporabnik^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Ta uporabnik račun bo ustvarjen kot je bila odobrena.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplicate e-poštni naslov.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Duplicate ponudnika ključ.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplicate uporabniško ime.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Aktivnost Statistika^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Ta uporabniški račun je odobrena^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^To so statistični podatki o neuspešnih poskusov prijave s tega uporabnika. <br/> <br/> Uporabniško bo izpasti potem ko je dosegel največje število neuspešnih poskusov prijave. <br/> <br/> Izpasti bodo uporabniki lahko znova prijaviti po datumu v neuspelem poskusu Geslo Začni Window. <br/> <br/> Bo Uporabniki, ki niso za povrnitev gesla se lahko tako po datumu iz Failed Odgovor Geslo Poskus Začni Window. <br/> <br/> Lahko obnovite uporabnikov sposobnost, da se prijavite z določitvijo Locked Out zastavo &#39;Ne&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Statistika Prijava^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Med obnovo pozabljenega gesla bo uporabnik vnesti uporabniško ime. Če uporabniški račun obstaja, potem je vprašanje varnosti, zahtevali, da je treba odgovoriti. Pravilen odgovor bo sprožila email z začasnim geslom pošlje uporabniku. <br/><br/> Change izpasti zastave, da &quot;ne&quot;, če je uporabnik zaklenjen, potem ko je dosegel največje število neuspešnih poskusov prijave in želite, da se omogoči uporabniku, da se znova prijaviti.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Izberite uporabniških vlog, ki najbolj ustrezajo uporabnikov odgovornosti. Vloge za nadzor dostopa do področij te spletne strani. Obrnite se na skrbnika sistema, če je treba spremeniti omejitev dostopa vlogo. <br/> <br/> Vnesite dodatne pripombe o tem uporabniškim računom. Komentar ni vidna za uporabnika.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Podatki o uporabniku^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Prosimo, preglejte podatke uporabnikov članstvo v nadaljevanju. Kliknite Uredi, da spremenite ta zapis, kliknite Izbriši, da izbrišete zapis, ali pa kliknite Cancel / Zapri, da se vrnete nazaj.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Pregled uporabnika^EditFormViewLabel^
+
+^Email^Email^Email^
+
+^EnterCurrentPassword^Vnesite trenutno geslo.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Vnesite geslo za odgovor.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Napaka pri shranjevanju uporabniški račun.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Failed Geslo Odgovor Poskus Count^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Failed Geslo Odgovor Poskus Window Začni^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Failed Geslo Poskus Count^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Failed Geslo Poskus Window Začni^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^To je seznam evidenc članstva uporabnika.^GridViewHeaderText^
+
+^GridViewLabel^Vsi uporabniki^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Odgovorite na naslednje vprašanje, da prejmemo vaše geslo. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Potrditev identitete^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Prosimo, da izpolnite ta obrazec in kliknite gumb Pošlji, da si opomore pozabljeno geslo. Kliknite Prekliči, da se vrnete na prejšnji zaslon.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: Korak 2 od 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Neveljavno geslo okrevanje odgovor.^InvalidAnswer^
+
+^InvalidEmail^Neveljaven e-poštni naslov.^InvalidEmail^
+
+^InvalidPassword^Neveljavno geslo.^InvalidPassword^
+
+^InvalidProviderUserKey^Neveljavna ponudnik uporabniku ključ.^InvalidProviderUserKey^
+
+^InvalidQuestion^Neveljavno geslo okrevanje vprašanje.^InvalidQuestion^
+
+^InvalidUserName^Neveljavno uporabniško ime.^InvalidUserName^
+
+^IsApproved^, Je odobrena^IsApproved^
+
+^IsLockedOut^Ali je zaklenjen^IsLockedOut^
+
+^LastLockoutDate^Last Lockout Datum^LastLockoutDate^
+
+^LastLoginDate^Datum zadnje prijave^LastLoginDate^
+
+^LastPasswordChangedDate^Last Geslo Spremenjena Datum^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Geslo Odgovor (ni prikazana za vašo zaščito)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Vnesite trenutno geslo, da ustvarite novo geslo, posodobite svoj e-poštni naslov, ali med okrevanjem sprememba gesla vprašanje in odgovor.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Trenutni Geslo^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Prosimo, preglejte vaše članstvo informacije spodaj. Kliknite Posodobi Moj račun spremeniti ta zapis, ali pa kliknite Prekliči, da se vrnete nazaj.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Moj račun^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Vnesite novo geslo. Upoštevajte, da mora biti geslo najmanj 7 znakov in vključuje enega ne-alfanumeričnih znakov.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Novo geslo (izbirno)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Med obnovo pozabljenega gesla boste morali vnesti svoje uporabniško ime. Če uporabniški račun obstaja, potem je treba odgovoriti gesla vprašanje. Pravilen odgovor bo sprožila email z začasnim geslom poslal.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Password Recovery (po želji)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Novo geslo^NewPassword^
+
+^NewPasswordAlert^Novo geslo je bilo poslano na naslov v datoteki.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Novo geslo in potrditev se ne ujemata.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Vaše novo geslo je neveljavno.^NewPasswordInvalid^
+
+^NewPasswordSubject^Novo geslo za \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Old Password^OldPassword^
+
+^Password^Geslo^Password^
+
+^PasswordAndConfirmationDoNotMatch^Geslo in potrditev se ne ujemata.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Geslo Odgovor^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Vaše geslo se ne ujema z našimi zapisi.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Geslo Format^PasswordFormat^
+
+^PasswordQuestion^Geslo Vprašanje^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Prosimo, vnesite uporabniško ime. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Ste pozabili geslo?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Prosimo, da izpolnite ta obrazec in kliknite Nadaljuj, če želite obnoviti pozabljeno geslo. Kliknite Prekliči, da se vrnete na prejšnji zaslon.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: Korak 1 od 2^PasswordRequestViewLabel^
+
+^ProviderError^Provider napake.^ProviderError^
+
+^RequestPasswordActionHeaderText^Naslednja^RequestPasswordActionHeaderText^
+
+^Roles^Vloge^Roles^
+
+^SelfRegisteredUser^Self-registriran uporabnik.^SelfRegisteredUser^
+
+^SignUp^Sign Up^SignUp^
+
+^SignUpViewHeaderText^Prosimo, da izpolnite ta obrazec in kliknite na gumb OK, da se prijavite za račun. Kliknite Prekliči, da se vrnete na prejšnji zaslon.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Account Sign Up^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Prosimo, vnesite uporabniško ime in geslo. Upoštevajte, da mora biti geslo najmanj 7 znakov in vključuje enega ne-alfanumeričnih znakov. Samo odobreni uporabniki bodo mogli prijaviti v spletno stran.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Nov uporabnik Informacije^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Ta polja so potrebni, da vam pomaga obnoviti pozabljeno geslo. Med proces okrevanja boste morali vnesti uporabniško ime. Če uporabniški račun obstaja, potem je varnostno vprašanje zahtevali, da je treba odgovoriti. Pravilen odgovor bo sprožila email z začasnim geslom pošljite na email registrirani.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Posodobitev Moj račun^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Uporabnik ne more izpasti. Če želite preprečiti tega uporabnika ne bi mogli prijaviti nato preprosto oznako uporabnika za &quot;ne-odobrena&quot;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Uporabniško&#39;{0}&#39; je bil izbrisan.^UserHasBeenDeleted^
+
+^UserName^Uporabniško ime^UserName^
+
+^UserNameDoesNotExist^Uporabniško ime ne obstaja.^UserNameDoesNotExist^
+
+^UserNotFound^Uporabnik ni bil najden.^UserNotFound^
+
+^UserRejected^Uporabnik je bila zavrnjena.^UserRejected^
+
+^UsersInRolesGridHeaderText^To je seznam evidenc članstva uporabnika, ki so v izbrani vlogo.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Uporabniki v vlogi^UsersInRolesGridLabel^
+

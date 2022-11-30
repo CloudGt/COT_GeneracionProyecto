@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^व्याख्या करना^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} पर  संलग्न <b>{1}</b> {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^अटैचमेंट^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^वैकल्पिक नोट्स में प्रवेश करें और फाइलों को देते हैं.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^नोट्स और संलग्नक^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} पर लिखा {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^नोट्स^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^और नोट्स अनुलग्नक^AnnotationTab^
+
+^BlobClearConfirm^साफ?^BlobClearConfirm^
+
+^BlobCleared^<b>पुष्टिकरण:</b> {0} को मंजूरी दे दी गई है.^BlobCleared^
+
+^BlobClearText^साफ़^BlobClearText^
+
+^BlobUploadError^<b>त्रुटि:</b> को {0} अपलोड करने में विफल रहा है. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^पर क्लिक करें^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^यहां^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^अपलोड करने के लिए या {0} फ़ाइल रिक्त करें.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>पुष्टिकरण:</b> {0} है सफलतापूर्वक अपलोड कर दिया गया. <b>It ऊपर थंबनेल के लिए {1} मिनट तक ले करने के लिए अपलोड content.</b> प्रतिबिंबित कर सकते हैं^BlobUploded^
+
+^Copyright^सभी अधिकार सुरक्षित.^Copyright^
+
+^RecordChangedByAnotherUser^रिकॉर्ड अन्य उपयोगकर्ता द्वारा बदल दिया गया है.^RecordChangedByAnotherUser^
+

@@ -1,0 +1,21 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Conta administrativa^AdminDesc^
+
+^SignInHeader^Instruções^SignInHeader^
+
+^SignInInstruction^Login para acessar o conteúdo do site protegido.^SignInInstruction^
+
+^SignInPara1^Duas contas de usuário padrão são criadas automaticamente quando a aplicação é inicializada se opção de membership foi selecionado para esta aplicação.^SignInPara1^
+
+^SignInPara2^O <b>admin</b> conta administrativa está autorizado a acessar todas as áreas do site web e gerenciar usuários. A conta <b>user</b> padrão tem permissão para acessar todas as áreas do site com exceção ao gerenciamento de usuários.^SignInPara2^
+
+^SignInPara3^Mover o ponteiro do mouse sobre o link para este <i>Login site</i> web no canto direito no topo da página e entre com uma das contas listadas abaixo.^SignInPara3^
+
+^UserDesc^Conta de usuário padrão^UserDesc^
+

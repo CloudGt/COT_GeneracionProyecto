@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Yeni bir üyelik Rolü kaydı oluşturun.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Yeni Rol^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Yeni^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Formu doldurun. Gerekli tüm alanları girdiğinizden emin olun.^CreateFormCategory^
+
+^CreateFormHeaderText^Lütfen bu formu doldurun ve yeni bir üyelik roller kayıt oluşturmak için OK butonuna tıklayın. Bir önceki ekrana dönmek için İptal düğmesini tıklayın.^CreateFormHeaderText^
+
+^DescriptionLabel^Tanım^DescriptionLabel^
+
+^EditViewCategory^Bunlar alanları düzenlenebilir üyelik rol kayıt.^EditViewCategory^
+
+^EditViewHeaderText^Aşağıdaki üyelik roller bilgileri gözden geçirin. Bu kayıt değiştirmek için Düzenle&#39;yi tıklayın, kayıt silmek için Sil&#39;i tıklatın ya da Cancel tıklanırsa / geri dönmek için kapatın.^EditViewHeaderText^
+
+^GridViewHeaderText^Bu üyelik rollerinin bir listesi.^GridViewHeaderText^
+
+^RoleNameLabel^Rol Adı^RoleNameLabel^
+

@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Til baka^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Klára^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Staðfestu nýtt lykilorð^ConfirmNewPassword^
+
+^ConfirmPassword^Staðfesta lykilorð^ConfirmPassword^
+
+^Email^Email^Email^
+
+^ForgotYourPassword^Gleymt lykilorðinu þínu?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Svaraðu eftirfarandi spurningu til að fá aðgangsorðið þitt. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Staðfesting persónuskilríkja^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Vinsamlegast fylltu út þetta eyðublað og smelltu á Senda hnappinn til að endurheimta gleymt lykilorð. Smelltu á Hætta við til að fara aftur á fyrri skjá.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Lykilorð Bati: Skref 2 af 2^IdentityConfirmViewLabel^
+
+^LoginButton^Skrá inn^LoginButton^
+
+^LoginLink^Skrá inn^LoginLink^
+
+^LoginWithDNN^Innskráning með DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Innskráning með Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Innskráning með Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Innskráning með Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Innskráning með SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Innskráning með Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Lykilorð Svar (birtist ekki til verndar)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Vinsamlegast sláðu inn núverandi lykilorðið þitt til að búa til nýtt lykilorð, uppfærðu netfangið þitt eða breyttu spurningunni um endurheimt lykilorð og svaraðu.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Núverandi lykilorð^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Vinsamlegast skoðaðu aðildarupplýsingar þínar hér fyrir neðan. Smelltu á Uppfæra reikninginn minn til að breyta þessari skrá eða smelltu á Hætta við til að fara aftur.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Minn reikningur^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Vinsamlegast sláðu inn nýtt lykilorð. Athugaðu að lykilorðið verður að vera að minnsta kosti 7 stafir að lengd og innihalda eitt stafrótt staf.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nýtt lykilorð (valfrjálst)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Við endurheimt gleymt lykilorð verður þú beðinn um að slá inn notandanafnið þitt. Ef notandareikningur er til staðar verður að svara lykilorði. Rétt svar mun kveikja á tölvupósti með tímabundið aðgangsorð sem þú sendir.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Lykilorð bati (valfrjálst)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^nýtt lykilorð^NewPassword^
+
+^OldPassword^gamalt lykilorð^OldPassword^
+
+^Password^Lykilorð^Password^
+
+^PasswordAnswer^Lykilorð svara^PasswordAnswer^
+
+^PasswordQuestion^Lykilorð Spurning^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Vinsamlegast sláðu inn notandanafn. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Gleymt lykilorðinu þínu?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Vinsamlegast fylltu út þetta eyðublað og smelltu á Halda áfram hnappinn til að endurheimta gleymt lykilorð. Smelltu á Hætta við til að fara aftur á fyrri skjá.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Lykilorð Bati: Skref 1 af 2^PasswordRequestViewLabel^
+
+^RememberMe^Muna eftir mér næst^RememberMe^
+
+^RequestPasswordActionHeaderText^Næst^RequestPasswordActionHeaderText^
+
+^SignUp^Skráðu þig^SignUp^
+
+^SignUpNow^Skráðu þig núna^SignUpNow^
+
+^SignUpViewHeaderText^Vinsamlegast fylltu út þetta eyðublað og smelltu á OK hnappinn til að skrá þig fyrir reikning. Smelltu á Hætta við til að fara aftur á fyrri skjá.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Skráning reiknings^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Vinsamlegast sláðu inn notandanafn og lykilorð. Athugaðu að lykilorðið verður að vera að minnsta kosti 7 stafir að lengd og innihalda eitt stafrótt staf. Aðeins viðurkenndir notendur geta skráð sig inn á vefsíðuna.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Upplýsingar um nýjan notanda^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Þessar reitir eru nauðsynlegar til að hjálpa þér að endurheimta gleymt lykilorð. Á bata ferli verður þú beðinn um að slá inn notandanafn. Ef notandareikningur er til staðar er öryggisspurning óskað eftir að svara. Rétt svar mun kveikja á tölvupósti með tímabundið aðgangsorð sem sent er til skráðs tölvupósts.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Lykilorð bati^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Uppfæra reikninginn minn^UpdateMyAccountActionHeaderText^
+
+^UserName^Notandanafn^UserName^
+

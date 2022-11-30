@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Tawala akaunti^AdminDesc^
+
+^SignInHeader^Maelekezo^SignInHeader^
+
+^SignInInstruction^Ishara ya kupata ulinzi tovuti maudhui.^SignInInstruction^
+
+^SignInPara1^Mbili ya mtumizi kiwango ni moja kwa moja umba wakati maombi ni initialized kama chaguo uanachama imekuwa kuchaguliwa kwa ajili ya maombi haya.^SignInPara1^
+
+^SignInPara2^utawala <b>admin</b> akaunti ni mamlaka ya upatikanaji wa maeneo yote ya tovuti na meneja uanachama. kiwango akaunti <b>user</b> anaruhusiwa kupata maeneo yote ya tovuti na ubaguzi wa meneja uanachama.^SignInPara2^
+
+^SignInPara3^Hoja mouse pointer juu ya <i>Login zilizounganishwa na site</i> tovuti hii juu ya upande wa kulia juu ya ukurasa na kuingia na moja ya akaunti hapa chini.^SignInPara3^
+
+^UserDesc^Standard user akaunti^UserDesc^
+

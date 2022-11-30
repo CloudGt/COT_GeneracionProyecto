@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Σχολιάζω^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Επισυνάπτεται <b>{1}</b> σε {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Κατάσχεση^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Εισάγετε προαιρετικό σημειώσεις και να επισυνάψετε αρχεία.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Σημειώσεις και Συνημμένα^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Γραμμένο σε {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Σημειώσεις^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Σημειώσεις^AnnotationTab^
+
+^BlobClearConfirm^Clear?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Έχει εκκαθαριστεί.^BlobCleared^
+
+^BlobClearText^Σαφής^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Απέτυχε να ανεβάσετε {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Κλικ^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^εδώ^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^για να φορτώσετε ή να καταργήσετε το αρχείο {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Έχει φορτωθεί με επιτυχία. <b>It Μπορεί να διαρκέσει έως και λεπτά {1} για τις μικρές φωτογραφίες για να αντικατοπτρίζουν την φορτώθηκε content.</b>^BlobUploded^
+
+^Copyright^Όλα τα δικαιώματα διατηρούνται.^Copyright^
+
+^RecordChangedByAnotherUser^Η εγγραφή έχει αλλάξει από άλλο χρήστη.^RecordChangedByAnotherUser^
+

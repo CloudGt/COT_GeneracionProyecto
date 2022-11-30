@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Направи нови рекорд чланство улогу.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Нова улога^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Ново^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Попуните образац. Проверите да ли сте унели сва обавезна поља.^CreateFormCategory^
+
+^CreateFormHeaderText^Молимо Вас да попуните овај формулар и кликните на ОК дугме да бисте креирали нове улоге рекорд чланство. Кликните на дугме Откажи да бисте се вратили на претходни екран.^CreateFormHeaderText^
+
+^DescriptionLabel^Опис^DescriptionLabel^
+
+^EditViewCategory^То су поља записа чланства улогу коју могу да се мењају.^EditViewCategory^
+
+^EditViewHeaderText^Молимо Вас прегледајте у наставку улоге информације чланство. Кликните на Измени да промените ову запис, кликните на дугме Избриши да избришете запис, или на дугме Откажи / Затвори да се врати врати.^EditViewHeaderText^
+
+^GridViewHeaderText^Ово је списак чланства улоге.^GridViewHeaderText^
+
+^RoleNameLabel^Улога Име^RoleNameLabel^
+

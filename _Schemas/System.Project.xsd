@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.codeontime.com/2008/code-generator" targetNamespace="http://www.codeontime.com/2008/code-generator" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="projectType">
+    <xs:sequence>
+      <xs:element name="information">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="product" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="title" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="display" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="order" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="description" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="vendor" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="website" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="about" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="demo" minOccurs="0" maxOccurs="1"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="build" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence minOccurs="0" maxOccurs="unbounded">
+            <xs:group ref="buildInstructionGroup"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="actions" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="action">
+              <xs:complexType>
+                <xs:sequence minOccurs="0" maxOccurs="unbounded">
+                  <xs:group ref="buildInstructionGroup"/>
+                </xs:sequence>
+                <xs:attribute name="name" type="xs:string" use="required"/>
+                <xs:attribute name="toolTip" type="xs:string" use="required"/>
+                <xs:attribute name="hint" type="xs:string" use="optional"/>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="settings" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence minOccurs="1" maxOccurs="unbounded">
+            <xs:element name="group">
+              <xs:complexType>
+                <xs:attribute name="name" type="xs:string" use="required"/>
+                <xs:attribute name="text" type="xs:string" use="required"/>
+                <xs:attribute name="description" type="xs:string" use="required"/>
+                <xs:attribute name="section" type="xs:string" use="optional"/>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="debug" type="xs:boolean" use="required"/>
+  </xs:complexType>
+  <xs:element name="project" type="projectType"/>
+  <xs:group name="buildInstructionGroup">
+    <xs:choice>
+      <xs:element name="load" type="loadType"/>
+      <xs:element name="choose" type="chooseType"/>
+      <xs:element name="copy" type="copyType"/>
+      <xs:element name="variable" type="variableType"/>
+      <xs:element name="transform" type="transformType"/>
+      <xs:element name="if" type="ifType"/>
+      <xs:element name="execute" type="executeType"/>
+      <xs:element name="forEach" type="forEachType"/>
+      <xs:element name="delete" type="deleteType"/>
+      <xs:element name="message" type="messageType"/>
+      <xs:element name="navigate" type="navigateType"/>
+      <xs:element name="retract" type="retractType"/>
+      <xs:element name="translate" type="translateType"/>
+      <xs:element name="wait" type="waitType"/>
+      <xs:element name="browse" type="browseType"/>
+      <xs:element name="clean" type="cleanType"/>
+      <xs:element name="strongNameKey" type="stronNameKeyType"/>
+      <xs:element name="applyTheme" type="applyThemeType"/>
+      <xs:element name="revise" nillable="true" type="reviseType"/>
+    </xs:choice>
+  </xs:group>
+  <xs:complexType name="retractType">
+    <xs:annotation>
+      <xs:documentation>Retracts a specified number of steps if test XPath expression has been evaluated successfully.</xs:documentation>
+    </xs:annotation>
+    <xs:attribute name="path" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>The path to the XML document that will be tested.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="test" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>A valid XPath expression evaluated again the content of the file specified by "path" attribute.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="steps" type="xs:string" use="required">
+      <xs:annotation>
+        <xs:documentation>The number of steps to retract.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="waitType">
+    <xs:attribute name="message" type="xs:string" use="required"/>
+    <xs:attribute name="silent" type="xs:boolean" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="loadType">
+    <xs:sequence>
+      <xs:group ref="buildInstructionGroup" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="path" type="xs:string" use="required"/>
+    <xs:attribute name="useLog" type="xs:boolean" use="optional">
+      <xs:annotation>
+        <xs:documentation>Specifies if the update log created by Code OnTime Designer must be used.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="depth" type="xs:int" use="optional"/>
+    <xs:attribute name="skipIfCached" type="xs:string" use="optional"/>
+    <xs:attribute name="useOutputCache" type="xs:string" use="optional"/>
+    <xs:attribute name="silent" type="xs:boolean" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="chooseType">
+    <xs:sequence>
+      <xs:element name="when" minOccurs="1" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:group ref="buildInstructionGroup" minOccurs="1" maxOccurs="unbounded"/>
+          </xs:sequence>
+          <xs:attribute name="test" type="xs:string" use="required"/>
+          <xs:attribute name="silent" type="xs:boolean" use="optional"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="otherwise" minOccurs="0" maxOccurs="1">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:group ref="buildInstructionGroup" minOccurs="1" maxOccurs="unbounded"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="silent" type="xs:boolean" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="applyThemeType">
+    <xs:attribute name="theme" type="xs:string" use="required"/>
+    <xs:attribute name="output" type="xs:string" use="required"/>
+    <xs:attribute name="usage" use="optional">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Website"/>
+          <xs:enumeration value="ClassLibrary"/>
+          <xs:enumeration value="DnnModule"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:complexType name="copyType">
+    <xs:sequence >
+      <xs:element name="regex" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name="pattern" type="xs:string" use="required"/>
+          <xs:attribute name="replacement" type="xs:string" use="required"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="select" type="xs:string" use="optional"/>
+    <xs:attribute name="input" type="xs:string" use="optional"/>
+    <xs:attribute name="output" type="xs:string" use="required"/>
+    <xs:attribute name="mode" use="optional">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="default"/>
+          <xs:enumeration value="append"/>
+          <xs:enumeration value="overwrite"/>
+          <xs:enumeration value="zip"/>
+          <xs:enumeration value="create"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="group" use="optional">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="ReportViewer"/>
+          <xs:enumeration value="ControllerViews"/>
+          <xs:enumeration value="Packages"/>
+          <xs:enumeration value="FreeTrial"/>
+          <xs:enumeration value="Addons"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="silent" type="xs:boolean" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="navigateType">
+    <xs:attribute name="url" type="xs:string" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="variableType">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="select" type="xs:string" use="required"/>
+    <xs:attribute name="silent" type="xs:boolean" use="optional"/>
+    <xs:attribute name="append" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="transformType">
+    <xs:sequence>
+      <xs:element name="param" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name="name" type="xs:string" use="required"/>
+          <xs:attribute name="select" type="xs:string" use="required"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="regex" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:attribute name="pattern" type="xs:string" use="required"/>
+          <xs:attribute name="replacement" type="xs:string" use="required"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="template" type="xs:string" use="required"/>
+    <xs:attribute name="output" type="xs:string" use="required"/>
+    <xs:attribute name="legacyOutput" type="xs:string" use="optional"/>
+    <xs:attribute name="when">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Always"/>
+          <xs:enumeration value="TemplateChanged"/>
+          <xs:enumeration value="DoesNotExist"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="otherwise" type="xs:string" use="optional"/>
+    <xs:attribute name="usage">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Website"/>
+          <xs:enumeration value="ClassLibrary"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="dependencies" type="xs:string" use="optional"/>
+    <xs:attribute name="async" type="xs:boolean" use="optional"/>
+    <xs:attribute name="select" type="xs:string" use="optional"/>
+    <xs:attribute name="cache" type="xs:boolean" use="optional"/>
+    <xs:attribute name="convertTo" use="optional">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="JSON"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="freeTrial" type="xs:boolean" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="ifType">
+    <xs:sequence>
+      <xs:group ref="buildInstructionGroup" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="test" type="xs:string" use="required"/>
+    <xs:attribute name="silent" type="xs:boolean" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="reviseType">
+    <xs:attribute name="type" type="xs:string"/>
+    <xs:attribute name="file" type="xs:string"/>
+  </xs:complexType>
+  <xs:complexType name="executeType">
+    <xs:attribute name="fileName" type="xs:string" use="required"/>
+    <xs:attribute name="arguments" type="xs:string" use="required"/>
+    <xs:attribute name="mode" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="nowait"/>
+          <xs:enumeration value="wait"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="runas" type="xs:boolean" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="browseType">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="path" type="xs:string" use="required"/>
+    <xs:attribute name="port" type="xs:string" use="required"/>
+    <xs:attribute name="framework" type="xs:string" use="optional"/>
+    <xs:attribute name="windowsAuthentication" type="xs:string" use="optional"/>
+    <xs:attribute name="relativePath" type="xs:string" use="optional"/>
+    <xs:attribute name="clear" type="xs:boolean" use="optional"/>
+    <xs:attribute name="preview" type="xs:string" use="optional"/>
+    <xs:attribute name="client" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="forEachType">
+    <xs:sequence>
+      <xs:group ref="buildInstructionGroup" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="select" type="xs:string" use="required"/>
+    <xs:attribute name="silent" type="xs:boolean" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="deleteType">
+    <xs:attribute name="path" type="xs:string" use="required"/>
+    <xs:attribute name="silent" type="xs:boolean" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="cleanType">
+    <xs:attribute name="path" type="xs:string" use="required"/>
+    <xs:attribute name="silent" type="xs:boolean" use="optional"/>
+    <xs:attribute name="debug" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="stronNameKeyType">
+    <xs:attribute name="output" type="xs:string" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="messageType">
+    <xs:attribute name="text" type="xs:string" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="translateType">
+    <xs:attribute name="path" type="xs:string" use="required"/>
+    <xs:attribute name="pattern" type="xs:string" use="required"/>
+    <xs:attribute name="cultures" type="xs:string" use="required"/>
+    <xs:attribute name="dictionary" type="xs:string" use="optional"/>
+  </xs:complexType>
+</xs:schema>

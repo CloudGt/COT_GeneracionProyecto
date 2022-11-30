@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Создать новую запись пользователя.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Новый покупатель^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Новый^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Назад^BackToRequestPasswordActionHeaderText^
+
+^Comment^Комментарий^Comment^
+
+^ConfirmIdentityActionHeaderText^Отделка^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Подтвердите новый пароль^ConfirmNewPassword^
+
+^ConfirmPassword^Подтвердите пароль^ConfirmPassword^
+
+^CreateDate^Дата создания^CreateDate^
+
+^CreateFormCommentCategoryDescription^Напечатайте Ваши дополнительные комментарии по поводу этой учетной записи пользователя. Комментарий не видна для пользователя.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Комментарии^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Пожалуйста, введите имя пользователя и пароль. Обратите внимание, что пароль должен быть не менее 7 символов и включать в себя один не алфавитно-цифровой символ. Только одобренные пользователи смогут Войти в веб-сайт.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Новые сведения о пользователе^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Эти поля обязательны для заполнения, чтобы помочь пользователю восстановить забытый пароль. Во время процесса восстановления, пользователю будет предложено ввести имя пользователя. Если учетная запись пользователя существует, то секретный вопрос предлагается дать ответ. Правильный ответ вызовет письмо с временным паролем отправить пользователю.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Пожалуйста, выберите ролей пользователей, которое наиболее близко соответствует обязанности пользователя. Роли управления доступом к области этого веб-сайта. Пожалуйста, свяжитесь с системным администратором, если ограничения роли доступ должен быть изменен.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Роли^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Пожалуйста, заполните эту форму и нажмите кнопку ОК, чтобы создать новую запись пользователя членства. Нажмите Отмена для возврата к предыдущему экрану.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Новый покупатель^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Эта учетная запись будет создана, как утверждено.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Дубликат адрес электронной почты.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Дубликат поставщик ключ.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Дубликат имени пользователя.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Статистика активности^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Эта учетная запись утвержден^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Это статистика не удалось Войти попытки этого пользователя. <br/> <br/> Пользователя будет заблокирован после достижения максимального числа неудачных попыток Войти. <br/> <br/> Заблокированы пользователи смогут Войти снова после даты, указанной в Сбой пароль Начало Окно попытки. <br/> <br/> Пользователи, которые не смогли восстановить пароль смогут так что после указанной даты не удалось Начало Пароль Ответ Window попытки. <br/> <br/> Вы можете восстановить способность пользователя на Логин, установив флаг Locked Out &#39;Нет&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Войти Статистика^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Во время восстановления забытого пароля пользователю будет предложено ввести имя пользователя. Если учетная запись пользователя существует, то секретный вопрос предлагается дать ответ. Правильный ответ вызовет письмо с временным паролем отправить пользователю. <br/><br/> Изменение заблокированы флаг «Нет», если пользователь был заблокирован после достижения максимального числа неудачных попыток Логин и вы хотите позволить пользователю Войти снова.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Пожалуйста, выберите ролей пользователей, которое наиболее близко соответствует обязанности пользователя. Роли управления доступом к области этого веб-сайта. Пожалуйста, свяжитесь с системным администратором, если ограничения роли доступ должен быть изменен. <br/> <br/> Напечатайте Ваши дополнительные комментарии по поводу этой учетной записи пользователя. Комментарий не видна для пользователя.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Информация о пользователе^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Пожалуйста, ознакомьтесь с информацией пользователя членства ниже. Нажмите Изменить, чтобы изменить эту запись, нажмите кнопку Удалить, чтобы удалить запись, или нажмите кнопку Отмена / Закрыть, чтобы вернуться обратно.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Обзор пользователей^EditFormViewLabel^
+
+^Email^Email^Email^
+
+^EnterCurrentPassword^Пожалуйста, введите ваш текущий пароль.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Пожалуйста, введите пароль ответа.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Ошибка при сохранении учетной записи пользователя.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Ошибка Пароль Ответ Попытка графа^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Ошибка Пароль Ответ Попытка Окно Начать^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Не удалось графу Пароль попытка^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Ошибка Пароль Попытка Окно Начать^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Это список записей пользователя членства.^GridViewHeaderText^
+
+^GridViewLabel^Все пользователи^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Ответьте на следующие вопросы, чтобы получить Ваш пароль. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Подтверждения личности^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Пожалуйста, заполните эту форму и нажмите кнопку Отправить для восстановления забытого пароля. Нажмите Отмена для возврата к предыдущему экрану.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: шаг 2 из 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Недопустимый ответ для восстановления пароля.^InvalidAnswer^
+
+^InvalidEmail^Неправильный электронный адрес.^InvalidEmail^
+
+^InvalidPassword^Неверный пароль.^InvalidPassword^
+
+^InvalidProviderUserKey^Недопустимые ключевым поставщиком пользователя.^InvalidProviderUserKey^
+
+^InvalidQuestion^Недопустимые вопрос для восстановления пароля.^InvalidQuestion^
+
+^InvalidUserName^Недопустимое имя пользователя.^InvalidUserName^
+
+^IsApproved^Есть утвержденные^IsApproved^
+
+^IsLockedOut^Блокировкой^IsLockedOut^
+
+^LastLockoutDate^Дата последнего блокировки^LastLockoutDate^
+
+^LastLoginDate^Дата последнего Войти^LastLoginDate^
+
+^LastPasswordChangedDate^Последнее Пароль изменен дате^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Пароль Ответ (не отображается для вашей защиты)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Пожалуйста, введите ваш текущий пароль, чтобы создать новый пароль, обновить свой адрес электронной почты или изменить пароль вопросу восстановления и ответ.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Текущий пароль^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Пожалуйста, проверьте ваш членства информацию ниже. Нажмите кнопку Update Мой аккаунт, чтобы изменить эту запись, или Отмена, чтобы вернуться обратно.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Мои данные^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Пожалуйста, введите новый пароль. Обратите внимание, что пароль должен быть не менее 7 символов и включать в себя один не алфавитно-цифровой символ.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Новый пароль (необязательно)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Во время восстановления забытого пароля вам будет предложено ввести имя пользователя. Если учетная запись пользователя существует, то пароль вопрос должен быть дан ответ. Правильный ответ вызовет письмо с временным паролем отправим к вам.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-mail Пароль &amp; Recovery (дополнительно)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Новый пароль^NewPassword^
+
+^NewPasswordAlert^Новый пароль был выслан на адрес файла.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Новый пароль и подтверждение не совпадают.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Ваш новый пароль является недействительным.^NewPasswordInvalid^
+
+^NewPasswordSubject^Новый пароль для \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Старый пароль^OldPassword^
+
+^Password^Пароль^Password^
+
+^PasswordAndConfirmationDoNotMatch^Пароль и его подтверждение не совпадают.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Пароль Ответ^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Ваш пароль не соответствует нашим данным.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Пароль Формат^PasswordFormat^
+
+^PasswordQuestion^Пароль Вопрос^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Пожалуйста, введите имя пользователя. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Забыли пароль?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Пожалуйста, заполните эту форму и нажмите кнопку Продолжить, чтобы восстановить забытый пароль. Нажмите Отмена для возврата к предыдущему экрану.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Восстановление пароля: Шаг 1 из 2^PasswordRequestViewLabel^
+
+^ProviderError^Поставщик ошибки.^ProviderError^
+
+^RequestPasswordActionHeaderText^Следующий^RequestPasswordActionHeaderText^
+
+^Roles^Роли^Roles^
+
+^SelfRegisteredUser^Self-зарегистрированным пользователем.^SelfRegisteredUser^
+
+^SignUp^Регистрация^SignUp^
+
+^SignUpViewHeaderText^Пожалуйста, заполните эту форму и нажмите кнопку ОК, чтобы подписаться на счет. Нажмите Отмена для возврата к предыдущему экрану.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Счет Регистрация^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Пожалуйста, введите имя пользователя и пароль. Обратите внимание, что пароль должен быть не менее 7 символов и включать в себя один не алфавитно-цифровой символ. Только одобренные пользователи смогут Войти в веб-сайт.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Новые сведения о пользователе^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Эти поля обязательны для заполнения, чтобы помочь вам восстановить забытый пароль. В процессе восстановления вам будет предложено ввести имя пользователя. Если учетная запись пользователя существует, то секретный вопрос предлагается дать ответ. Правильный ответ вызовет письмо с временным паролем отправить зарегистрированных электронной почте.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Обновить учетную запись^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Пользователь не может быть заблокирована. Если вы не хотите, чтобы этот пользователь от того, чтобы Войти затем просто пометить пользователя как «не одобренных».^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Пользователь&#39;{0}&#39; была удалена.^UserHasBeenDeleted^
+
+^UserName^Имя пользователя^UserName^
+
+^UserNameDoesNotExist^Имя пользователя не существует.^UserNameDoesNotExist^
+
+^UserNotFound^Пользователь не найден.^UserNotFound^
+
+^UserRejected^Пользователь был отклонен.^UserRejected^
+
+^UsersInRolesGridHeaderText^Это список пользователей членства записей, относящихся к выбранной роли.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Пользователи в роли^UsersInRolesGridLabel^
+

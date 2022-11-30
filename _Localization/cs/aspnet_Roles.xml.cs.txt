@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Vytvořit nové členy Role rekord.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nová Role^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nový^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Vyplňte formulář. Ujistěte se, že zadání všechna požadovaná pole.^CreateFormCategory^
+
+^CreateFormHeaderText^Vyplňte prosím tento formulář a klikněte na tlačítko OK vytvoříte nový rekord členství v rolích. Klepněte na tlačítko Storno se vrátíte na předchozí obrazovku.^CreateFormHeaderText^
+
+^DescriptionLabel^Popis^DescriptionLabel^
+
+^EditViewCategory^Jedná se o pole záznamu členství roli, kterou lze upravovat.^EditViewCategory^
+
+^EditViewHeaderText^Přečtěte si prosím níže uvedené informace členství rolí. Klepněte na tlačítko Upravit pro změnu tento záznam, klepněte na tlačítko Odstranit pro vymazání záznamu, nebo klepněte na tlačítko Storno / Zavřít a vrátit se zpět.^EditViewHeaderText^
+
+^GridViewHeaderText^Toto je seznam členství rolí.^GridViewHeaderText^
+
+^RoleNameLabel^Role jméno^RoleNameLabel^
+

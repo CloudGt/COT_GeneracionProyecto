@@ -1,0 +1,27 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Új szerepkör rekord létrehozása.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Új szerepkör^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Új^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Töltse ki az űrlapot! Minden kötelező mezőt adjon meg!^CreateFormCategory^
+
+^CreateFormHeaderText^Kérem, töltse ki az űrlapot, és nyomja meg a Rendben gombot az új szerepkör rekord létrehozásához! Visszatéréshez nyomja meg a Mégsem gombot!^CreateFormHeaderText^
+
+^DescriptionLabel^Leírás^DescriptionLabel^
+
+^EditViewCategory^Ezek a mezők módosíthatók a szerepkör rekordban.^EditViewCategory^
+
+^EditViewHeaderText^Ellenőrizze a szerepkör információkat! Módosításhoz nyomja meg a Szerkeszt gombot, törléshez a Törlés gombot, vagy a Mégsem/Bezár gombbal térhet vissza az előző képernyőhöz.^EditViewHeaderText^
+
+^GridViewHeaderText^Szerepkörök listája.^GridViewHeaderText^
+
+^RoleNameLabel^Szerepkör neve^RoleNameLabel^
+

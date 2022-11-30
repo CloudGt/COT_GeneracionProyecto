@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Opprett en ny brukerkonto.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Ny bruker^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nytt^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Tilbake^BackToRequestPasswordActionHeaderText^
+
+^Comment^Kommentar^Comment^
+
+^ConfirmIdentityActionHeaderText^Avslutt^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Bekreft nytt passord^ConfirmNewPassword^
+
+^ConfirmPassword^Bekreft passord^ConfirmPassword^
+
+^CreateDate^Opprettelsesdato^CreateDate^
+
+^CreateFormCommentCategoryDescription^Skriv inn ytterligere kommentarer om denne brukerkontoen. Kommentar er ikke synlig for brukeren.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Kommentarer^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Vennligst skriv inn brukernavn og passord. Merk at passordet må være minst 7 tegn og inneholde en ikke-alfanumerisk tegn. Kun godkjente brukere vil kunne logge inn på nettstedet.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Nye Brukerinformasjon^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Disse feltene er nødvendig for å hjelpe en bruker til å gjenopprette et glemt passord. Under gjenopprettingsprosessen brukeren vil bli bedt om å oppgi et brukernavn. Hvis en brukerkonto finnes da et sikkerhetsspørsmål er bedt om å bli besvart. Det riktige svaret vil utløse en e-post med et midlertidig passord sendes til brukeren.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Vennligst velg brukerroller som best samsvarer med brukerens ansvar. Roller kontrollere tilgangen til de områdene av dette nettstedet. Vennligst kontakt system administrator hvis rolle tilgangsbegrensninger må endres.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Roller^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Vennligst fyll ut dette skjemaet og klikk OK-knappen for å opprette en ny bruker medlemskap posten. Klikk Avbryt for å gå tilbake til forrige skjermbilde.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Ny bruker^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Denne brukerkontoen vil bli opprettet som godkjent.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplicate e-postadresse.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Duplicate Provider.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplicate brukernavn.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Aktivitet Statistikk^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Denne brukerkontoen er godkjent^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Disse er statistikk over mislykkede påloggingsforsøk fra denne brukeren. <br/> <br/> Brukeren vil bli låst ute etter å nå et maksimalt antall mislykkede påloggingsforsøk. <br/> <br/> Låst ute brukere vil kunne logge inn igjen etter datoen i Feilet Passord Forsøk Vindu Start. <br/> <br/> Brukere som ikke klarte å gjenopprette passordet vil være i stand til å så etter datoen i Feilet Passord Svar Forsøk Vindu Start. <br/> <br/> Du kan gjenopprette brukerens mulighet for å logge inn ved å sette Locked Out flagget til 'Nei'.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Logg inn Statistikk^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Under gjenoppretting av et glemt passord vil brukeren bli bedt om å oppgi et brukernavn. Hvis en brukerkonto finnes da et sikkerhetsspørsmål er bedt om å bli besvart. Det riktige svaret vil utløse en e-post med et midlertidig passord sendes til brukeren. <br/><br/> Endre låst ute flagget til 'Nei' hvis brukeren har blitt låst ute etter å nå et maksimalt antall mislykkede påloggingsforsøk, og du vil tillate brukeren å logge inn igjen.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Vennligst velg brukerroller som best samsvarer med brukerens ansvar. Roller kontrollere tilgangen til de områdene av dette nettstedet. Vennligst kontakt system administrator hvis rolle tilgangsbegrensninger må endres. <br/> <br/> Skriv inn ytterligere kommentarer om denne brukerkontoen. Kommentar er ikke synlig for brukeren.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Brukerinformasjon^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Se gjennom bruker medlemskapet informasjon nedenfor. Klikk Rediger for å endre denne posten, klikker du på Slett for å slette posten, eller klikke Avbryt / Lukk for å returnere tilbake.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Gjennomgang Bruker^EditFormViewLabel^
+
+^Email^E-post^Email^
+
+^EnterCurrentPassword^Vennligst skriv inn ditt nåværende passord.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Vennligst oppgi et passord svar.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Feil ved lagring brukerkonto.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Feilet Passord Svar Forsøk Count^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Feilet Passord Svar Forsøk Vindu start^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Feilet Passord Forsøk Count^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Feilet Passord Forsøk Vindu start^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Dette er en liste med medlemskap brukerens poster.^GridViewHeaderText^
+
+^GridViewLabel^Alle brukere^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Svar på følgende spørsmål for å motta passordet ditt. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identitet Bekreftelse^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Vennligst fyll ut dette skjemaet og klikk Submit knappen for å gjenopprette glemte passord. Klikk Avbryt for å gå tilbake til forrige skjermbilde.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: Trinn 2 av 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Ugyldig passordgjenoppretting svar.^InvalidAnswer^
+
+^InvalidEmail^Ugyldig e-postadresse.^InvalidEmail^
+
+^InvalidPassword^Ugyldig passord.^InvalidPassword^
+
+^InvalidProviderUserKey^Ugyldig leverandør bruker nøkkel.^InvalidProviderUserKey^
+
+^InvalidQuestion^Ugyldig passordgjenoppretting spørsmål.^InvalidQuestion^
+
+^InvalidUserName^Ugyldig brukernavn.^InvalidUserName^
+
+^IsApproved^Er godkjent^IsApproved^
+
+^IsLockedOut^Er låst ute^IsLockedOut^
+
+^LastLockoutDate^Siste Lockout dato^LastLockoutDate^
+
+^LastLoginDate^Siste Logg dato^LastLoginDate^
+
+^LastPasswordChangedDate^Siste Passord Endr.dato^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Passord Svar (vises ikke for beskyttelse)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Vennligst skriv inn ditt nåværende passord for å opprette nytt passord, oppdatere din e-postadresse, eller endre passord recovery spørsmål og svar.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Gjeldende passord^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Se gjennom medlemskapet informasjon nedenfor. Klikk oppdatere kontoen min til å endre denne posten, eller klikk Avbryt for å returnere tilbake.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Min konto^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Vennligst skriv inn nytt passord. Merk at passordet må være minst 7 tegn og inneholde en ikke-alfanumerisk tegn.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nytt passord (valgfritt)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Under gjenoppretting av et glemt passord vil du bli bedt om å oppgi brukernavnet ditt. Hvis en brukerkonto finnes da et passord spørsmålet må besvares. Det riktige svaret vil utløse en e-post med et midlertidig passord sende til deg.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Post &amp; Password Recovery (valgfritt)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nytt passord^NewPassword^
+
+^NewPasswordAlert^Et nytt passord har blitt sendt til adressen på filen.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Nytt passord og bekreftelse stemmer ikke.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Ditt nye passord er ugyldig.^NewPasswordInvalid^
+
+^NewPasswordSubject^Nytt passord for \'{0} \ '.^NewPasswordSubject^
+
+^OldPassword^Gammelt passord^OldPassword^
+
+^Password^Passord^Password^
+
+^PasswordAndConfirmationDoNotMatch^Passord og bekreftelse stemmer ikke overens.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Passord Svar^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Ditt passord stemmer ikke våre registre.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Passord Format^PasswordFormat^
+
+^PasswordQuestion^Password Question^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Vennligst skriv inn et brukernavn. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Glemt passordet?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Vennligst fyll ut dette skjemaet og klikk på Fortsett-knappen for å gjenopprette glemte passord. Klikk Avbryt for å gå tilbake til forrige skjermbilde.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: Trinn 1 av 2^PasswordRequestViewLabel^
+
+^ProviderError^Provider feil.^ProviderError^
+
+^RequestPasswordActionHeaderText^Neste^RequestPasswordActionHeaderText^
+
+^Roles^Roller^Roles^
+
+^SelfRegisteredUser^Self-registrert bruker.^SelfRegisteredUser^
+
+^SignUp^Sign Up^SignUp^
+
+^SignUpViewHeaderText^Vennligst fyll ut dette skjemaet og klikk OK-knappen for å registrere deg for en konto. Klikk Avbryt for å gå tilbake til forrige skjermbilde.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Account Sign Up^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Vennligst skriv inn brukernavn og passord. Merk at passordet må være minst 7 tegn og inneholde en ikke-alfanumerisk tegn. Kun godkjente brukere vil kunne logge inn på nettstedet.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Nye Brukerinformasjon^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Disse feltene er nødvendig for å hjelpe deg å gjenopprette et glemt passord. Under gjenopprettingsprosessen vil du bli bedt om å angi et brukernavn. Hvis en brukerkonto finnes da et sikkerhetsspørsmål er bedt om å bli besvart. Det riktige svaret vil utløse en e-post med et midlertidig passord sendes til registrert e-post.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Update My Account^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Brukeren kan ikke bli låst ute. Hvis du ønsker å hindre at denne brukeren fra å kunne logge inn så bare markerer brukeren som "ikke godkjent".^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Bruker'{0}' har blitt slettet.^UserHasBeenDeleted^
+
+^UserName^Brukernavn^UserName^
+
+^UserNameDoesNotExist^Brukernavn finnes ikke.^UserNameDoesNotExist^
+
+^UserNotFound^Bruker ikke funnet.^UserNotFound^
+
+^UserRejected^Brukeren har blitt avvist.^UserRejected^
+
+^UsersInRolesGridHeaderText^Dette er en liste med medlemskap brukerens poster som tilhører en valgt rolle.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Brukere i Rolle^UsersInRolesGridLabel^
+

@@ -1,0 +1,19 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Template.xslt project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^Items^articles^Items^
+
+^No^No^No^
+
+^of^de^of^
+
+^Page^Pàgina^Page^
+
+^PrintedOn^Imprès a^PrintedOn^
+
+^Yes^Sí^Yes^
+

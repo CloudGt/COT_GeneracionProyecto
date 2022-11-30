@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Skapa ett nytt rekord medlemskap roll.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nya roll^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nya^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Fyll i formuläret. Se till att ange alla obligatoriska fält.^CreateFormCategory^
+
+^CreateFormHeaderText^Fyll i formuläret och klicka på OK knappen för att skapa ett nytt medlemskap roller rekord. Klicka på Avbryt för att återgå till föregående skärm.^CreateFormHeaderText^
+
+^DescriptionLabel^Beskrivning^DescriptionLabel^
+
+^EditViewCategory^Dessa är de fält av medlemskapet roll rekord som kan redigeras.^EditViewCategory^
+
+^EditViewHeaderText^Läs medlemskapet roller informationen nedan. Klicka på Redigera för att ändra denna post, klicka på Radera för att radera posten, eller klicka på Avbryt / Stäng för att återvända tillbaka.^EditViewHeaderText^
+
+^GridViewHeaderText^Detta är en lista av medlemskap roller.^GridViewHeaderText^
+
+^RoleNameLabel^Roll namn^RoleNameLabel^
+

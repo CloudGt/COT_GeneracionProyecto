@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Creaţi o înregistrare de utilizator nou.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Noi Ghid de utilizare^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nou^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Înapoi^BackToRequestPasswordActionHeaderText^
+
+^Comment^Comentariu^Comment^
+
+^ConfirmIdentityActionHeaderText^Finisaj^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Confirmare parolă nouă^ConfirmNewPassword^
+
+^ConfirmPassword^Confirmare parolă^ConfirmPassword^
+
+^CreateDate^Data creării^CreateDate^
+
+^CreateFormCommentCategoryDescription^Introduceţi orice comentarii suplimentare despre acest cont de utilizator. Comentariul nu este vizibil pentru utilizator.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Comentarii^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Va rugam introduceti numele de utilizator şi parola. Reţineţi că parola trebuie să fie de cel puţin 7 caractere lungime şi să includă un non-alfanumerice caractere. Numai utilizatorii autorizaţi vor putea să se autentifice în site-ul web.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Informatii despre utilizator nou^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Aceste domenii sunt necesare pentru a ajuta un utilizator pentru a recupera unei parole uitate. În timpul procesului de recuperare, utilizatorul va fi rugat să introduceţi un nume de utilizator. În cazul în care un cont de utilizator există apoi o întrebare de securitate se solicită să se răspundă. Un răspuns corect va declanşa un email cu o parola temporara trimite ghidul.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Parola de recuperare^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Vă rugăm să selectaţi ghidul de roluri care potrivesc cel mai îndeaproape responsabilităţile utilizatorului. Roluri de control al accesului la zonele de pe acest site web. Vă rugăm să contactaţi administratorul de sistem dacă restricţiile privind accesul rol trebuie să fie schimbată.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Roluri^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Vă rugăm să completaţi acest formular şi faceţi clic pe butonul OK pentru a crea un nou record de membru ghidul. Faceţi clic pe Anulaţi pentru a reveni la ecranul anterior.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Noi Ghid de utilizare^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Acest cont de utilizator va fi creat cum a fost aprobat.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplicate adresa de e-mail.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Duplicate cheie furnizorul de servicii.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplicate numele de utilizator.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Activitatea Statistici^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Acest cont de utilizator este aprobat^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Acestea sunt statisticile de încercări de conectare a eşuat de acest utilizator. <br/> <br/> Ghid de utilizare va fi blocat după ce ajunge la un număr maxim de încercări de conectare a eşuat. <br/> <br/> Blocat utilizatorii vor putea să te autentifici din nou, după data la Start a eşuat Parola Window Tentativa. <br/> <br/> Utilizatorii care nu au reuşit să recupereze parola vor fi în măsură să deci după data în a eşuat Parola Start Window Răspuns Tentativa. <br/> <br/> Puteţi restaura abilitatea utilizatorului de a conectare prin stabilirea de pavilion inchisa out pentru &quot;Nu&quot;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Conectaţi-vă Statistici^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^În timpul de recuperare a unei parole uitate ghidul de se va cere să introduceţi un nume de utilizator. În cazul în care un cont de utilizator există apoi o întrebare de securitate se solicită să se răspundă. Un răspuns corect va declanşa un email cu o parola temporara trimite ghidul. <br/><br/> Schimbarea blocat de pavilion pentru a &quot;Nu&quot; în cazul în care utilizatorul a fost blocat după ce a atins un număr maxim de încercări de conectare a eşuat şi doriţi pentru a permite utilizatorilor să te autentifici din nou.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Parola de recuperare^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Vă rugăm să selectaţi ghidul de roluri care potrivesc cel mai îndeaproape responsabilităţile utilizatorului. Roluri controlul accesului la zonele de pe acest site web. Vă rugăm să contactaţi administratorul de sistem dacă restricţiile privind accesul rol trebuie să fie schimbată. <br/> <br/> Introduceţi orice comentarii suplimentare despre acest cont de utilizator. Comentariul nu este vizibil pentru utilizator.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Informatii despre utilizator^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Va rugam sa cititi membru informaţii de utilizator de mai jos. Faceţi clic pe Editare pentru a modifica acest record, faceţi clic pe Ştergere pentru a şterge înregistrarea, sau faceţi clic pe Revocare / Închidere pentru a reveni înapoi.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Ghid de opinie^EditFormViewLabel^
+
+^Email^E-mail^Email^
+
+^EnterCurrentPassword^Te rugăm să introduci parola curentă.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Vă rugăm să introduceţi un răspuns parolă.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Eroare la salvarea cont de utilizator.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Răspuns eşuat Parola Tentativa Numărătoarea^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Tentativa a eşuat Răspuns Window Parola Start^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Tentativa a eşuat Parola Numărătoarea^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Tentativa a eşuat Parola Window Start^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Aceasta este o listă de înregistrări ghidul de aderare.^GridViewHeaderText^
+
+^GridViewLabel^Toţi utilizatorii^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Răspundă la următoarele întrebări pentru a primi parola. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Confirmarea de identitate^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Vă rugăm să completaţi acest formular şi faceţi clic pe butonul Submit pentru a recupera parola uitata. Faceţi clic pe Anulaţi pentru a reveni la ecranul anterior.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^De recuperare a parolei: Pasul 2 din 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Nevalid de recuperare a parolei răspuns.^InvalidAnswer^
+
+^InvalidEmail^Adresă e-mail nevalidă.^InvalidEmail^
+
+^InvalidPassword^Parolă incorectă.^InvalidPassword^
+
+^InvalidProviderUserKey^Nevalid furnizorul ghidul de cheie.^InvalidProviderUserKey^
+
+^InvalidQuestion^Nevalid de recuperare a parolei întrebare.^InvalidQuestion^
+
+^InvalidUserName^Nevalid nume de utilizator.^InvalidUserName^
+
+^IsApproved^Este aprobat^IsApproved^
+
+^IsLockedOut^Este blocat^IsLockedOut^
+
+^LastLockoutDate^Ultima Lockout Data^LastLockoutDate^
+
+^LastLoginDate^Ultima Intra in Data^LastLoginDate^
+
+^LastPasswordChangedDate^Parola Ultima dată schimbat la Data^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Răspuns parola (nu este afişat pentru protecţia dvs.)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Te rugăm să introduci parola curentă pentru a crea o parolă nouă, să actualizeze adresa ta de email, sau schimba parola de recuperare întrebarea şi răspunsul.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Curent Parola^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Vă rugăm să revedeţi informaţiile dvs. de membru de mai jos. Faceţi clic pe Actualizare Contul meu pentru a schimba acest record, sau faceţi clic pe Revocare pentru a reveni înapoi.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Contul meu^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Te rugăm să introduci noua parolă. Reţineţi că parola trebuie să fie de cel puţin 7 caractere lungime şi să includă un non-alfanumerice caractere.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Parolă nouă (opţional)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^În timpul de recuperare a unei parole uitate vi se va cere să introduceţi numele dvs. de utilizator. În cazul în care un cont de utilizator există apoi o întrebare parolă trebuie să se răspundă. Un răspuns corect va declanşa un email cu o parola temporara trimite la voi.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-mail &amp; Password Recovery (opţional)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Parolă nouă^NewPassword^
+
+^NewPasswordAlert^O nouă parolă a fost trimisă la adresa de la dosar.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Noua parolă şi confirmarea nu se potrivesc.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Parola nouă nu este valid.^NewPasswordInvalid^
+
+^NewPasswordSubject^Noua parolă pentru \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Vechi Parola^OldPassword^
+
+^Password^Parolă^Password^
+
+^PasswordAndConfirmationDoNotMatch^Parola şi confirmarea nu se potrivesc.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Parola Răspuns^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Parola dumneavoastră nu se potriveşte cu înregistrările noastre.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Parola Format^PasswordFormat^
+
+^PasswordQuestion^Parola Întrebare^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Vă rugăm să introduceţi un nume de utilizator. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Ai uitat parola?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Vă rugăm să completaţi acest formular şi faceţi clic pe butonul Continuare pentru a recupera parola uitata. Faceţi clic pe Anulaţi pentru a reveni la ecranul anterior.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^De recuperare a parolei: Pasul 1 din 2^PasswordRequestViewLabel^
+
+^ProviderError^Furnizor de eroare.^ProviderError^
+
+^RequestPasswordActionHeaderText^Următor^RequestPasswordActionHeaderText^
+
+^Roles^Roluri^Roles^
+
+^SelfRegisteredUser^Auto-înregistrate utilizator.^SelfRegisteredUser^
+
+^SignUp^Înscrieţi-vă^SignUp^
+
+^SignUpViewHeaderText^Vă rugăm să completaţi acest formular şi faceţi clic pe butonul OK pentru a vă înscrie pentru un cont. Faceţi clic pe Anulaţi pentru a reveni la ecranul anterior.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Înscrieţi-vă cont^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Va rugam introduceti numele de utilizator şi parola. Reţineţi că parola trebuie să fie de cel puţin 7 caractere lungime şi să includă un non-alfanumerice caractere. Numai utilizatorii autorizaţi vor putea să se autentifice în site-ul web.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Informatii despre utilizator nou^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Aceste domenii sunt necesare pentru a vă ajuta să recupereze unei parole uitate. În timpul procesului de recuperare vi se va cere să introduceţi un nume de utilizator. În cazul în care un cont de utilizator există apoi o întrebare de securitate se solicită să se răspundă. Un răspuns corect va declanşa un email cu o parola temporara pentru a trimite e-mail înregistrată.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Parola de recuperare^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Actualizaţi Contul meu^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Ghid de utilizare nu poate fi blocat. Dacă doriţi pentru a preveni acest utilizator de a fi capabil să te autentifici apoi pur şi simplu ghidul de marca ca &quot;nu-aprobate&quot;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^&#39;{0}&#39; Ghid de utilizare a fost şters.^UserHasBeenDeleted^
+
+^UserName^Nume de utilizator^UserName^
+
+^UserNameDoesNotExist^Nume de utilizator nu exista.^UserNameDoesNotExist^
+
+^UserNotFound^Ghid de utilizare nu a fost găsit.^UserNotFound^
+
+^UserRejected^Ghid de utilizare a fost respins.^UserRejected^
+
+^UsersInRolesGridHeaderText^Aceasta este o listă de înregistrări ghidul de aderare, care aparţin la un rol selectate.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Utilizatorii în rolul^UsersInRolesGridLabel^
+

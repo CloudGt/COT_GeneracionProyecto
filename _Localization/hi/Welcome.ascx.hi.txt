@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^प्रशासनिक खाता^AdminDesc^
+
+^SignInHeader^निर्देश^SignInHeader^
+
+^SignInInstruction^में साइन इन करने के लिए संरक्षित साइट की सामग्री का उपयोग.^SignInInstruction^
+
+^SignInPara1^दो मानक उपयोगकर्ता खाते स्वतः जब आवेदन अगर सदस्यता विकल्प इस आवेदन के लिए चयनित किया गया है initialized है बनाया जाता है.^SignInPara1^
+
+^SignInPara2^प्रशासनिक खाता <b>admin</b> के लिए वेब साइट और सदस्यता प्रबंधक के सभी क्षेत्रों पहुँच के लिए अधिकृत है. मानक <b>user</b> खाते सदस्यता प्रबंधक के अपवाद के साथ वेब साइट के सभी क्षेत्रों के उपयोग की अनुमति दी है.^SignInPara2^
+
+^SignInPara3^इस वेब site<i> को पृष्ठ के शीर्ष पर दाईं ओर पर कड़ी </i>Login पर माउस सूचक ले जाएँ और एक नीचे सूचीबद्ध खातों के साथ साइन इन करना होगा.^SignInPara3^
+
+^UserDesc^मानक उपयोगकर्ता खाते^UserDesc^
+

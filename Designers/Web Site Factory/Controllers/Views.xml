@@ -1,0 +1,397 @@
+<dataController name="Views" conflictDetection="overwriteChanges" label="Views"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium" handler="CodeOnTime.Designer.DesignerBusinessRules">
+  <commands>
+    <command id="command1" type="Text">
+      <query href="Controllers.xml" select="//a:view" sort="Controller"  dependencies="//a:category,//a:dataField,//a:expression[parent::a:styles],//a:action,//app:dataView"/>
+      <template select="//a:dataController[@name=$Controller]/a:views">
+        <view xmlns="urn:schemas-codeontime-com:data-aquarium">
+          <categories/>
+          <dataFields/>
+        </view>
+      </template>
+    </command>
+  </commands>
+  <fields>
+    <field name="ViewId" type="String" select="@id" allowNulls="false" isPrimaryKey="true" label="Id">
+      <validate>
+        <expression type="RegularExpression" test="^[A-Za-z]\w*$" result="A view id must start with a letter and must contain only alpha-numeric characters."/>
+      </validate>
+    </field>
+    <field name="Controller" type="String" select="ancestor::a:dataController[1]/@name" allowNulls="false" isPrimaryKey="true" readOnly="true">
+      <items style="Lookup" dataController="Controllers" newDataView="createForm1" dataValueField="Name" dataTextField="Name"/>
+    </field>
+    <field name="CommandId" type="String" select="@commandId" allowNulls="true" readOnly="false" contextFields="Controller" label="Command">
+      <items style="Lookup" dataController="Commands" newDataView="createForm1" dataValueField="CommandId" dataTextField="CommandId"/>
+    </field>
+    <field name="Type" type="String" select="@type" allowNulls="false" label="Type" readOnly="true">
+      <items style="DropDownList">
+        <item value="Grid" text="Grid"/>
+        <item value="Form" text="Form"/>
+        <item value="Chart" text="Chart"/>
+        <item value="DataSheet" text="Data Sheet"/>
+        <!--<item value="Tree" text="Tree"/>-->
+      </items>
+    </field>
+    <field name="Label" type="String" select="@label" allowNulls="false" label="Label" />
+    <field name="HeaderText" type="String" select="a:headerText" allowNulls="true" label="Header Text"/>
+    <field name="SortExpression" type="String" select="@sortExpression" allowNulls="true" label="Sort Expression"/>
+    <field name="FilterExpression" type="String" select="@filter" allowNulls="true" label="Filter Expression"/>
+    <field name="GroupExpression" type="String" select="@groupExpression" allowNulls="true" label="Group Expression"/>
+    <field name="VirtualViewId" type="String" select="@virtualViewId" allowNulls="true" label="Virtual View Id" contextFields="Controller">
+      <items style="Lookup" dataController="Views" dataValueField="ViewId" dataTextField="ViewId"/>
+    </field>
+    <field name="OverrideWhen" type="String" select="a:overrideWhen" allowNulls="true" label="Override When"/>
+    <field name="BaseViewId" type="String" select="@baseViewId" allowNulls="true" label="Base View Id" contextFields="Controller">
+      <items style="Lookup" dataController="Views" dataValueField="ViewId" dataTextField="ViewId"/>
+    </field>
+    <field name="Legend" type="Boolean" select="@legend" allowNulls="false" default="false()" label="Enable legend in the chart area.">
+      <items style="CheckBox"/>
+      <visibility>
+        <expression type="ClientScript" test="[Type] == 'Chart'"/>
+      </visibility>
+    </field>
+    <field name="ShowInSelector" type="Boolean" select="@showInSelector" allowNulls="false" label="Show In View Selector" default="true()">
+      <items style="CheckBox"/>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="true"/>
+      </defaultValues>
+    </field>
+    <field name="Group" type="String" select="@group" allowNulls="true" label="Group"/>
+    <field name="Tags" type="String" select="@tags" allowNulls="true" label="Tags"/>
+    <field name="ReportLabel" type="String" select="@reportLabel" allowNulls="true" label="Report Label"/>
+    <field name="ReportTemplate" type="Boolean" select="@reportTemplate" allowNulls="false" label="Template" default="false()">
+      <items style="CheckBox"/>
+    </field>
+    <field name="ReportOrientation" type="String" select="@reportOrientation" allowNulls="true" label="Orientation">
+      <items style="DropDownList">
+        <item value="" text="(Auto)"/>
+        <item value="Portrait" text="Portrait"/>
+        <item value="Landscape" text="Landscape"/>
+      </items>
+    </field>
+    <field name="ReportFont" type="String" select="@reportFont" allowNulls="true" label="Report Font">
+      <items style="DropDownList">
+        <item value="" text="(Auto)"/>
+        <item value="X-Large" text="X-Large"/>
+        <item value="Large" text="Large"/>
+        <item value="Medium" text="Medium"/>
+        <item value="Small" text="Small"/>
+        <item value="X-Small" text="X-Small"/>
+      </items>
+    </field>
+    <field name="Access" type="String" select="@access" allowNulls="true" label="Access">
+      <items style="DropDownList">
+        <item value="" text="Private"/>
+        <item value="Public" text="Public"/>
+      </items>
+    </field>
+  </fields>
+  <views>
+    <view id="grid1" type="Grid" commandId="command1" label="Views">
+      <headerText>
+        <![CDATA[
+        <span class="HelpLink" title="Learn to work with Views" onclick="$openUrl('http://codeontime.com/learn/development/project-designer/views')"></span>
+		This is a list of data controller views. 
+    ]]>
+      </headerText>
+      <dataFields>
+        <dataField fieldName="ViewId" readOnly="true"/>
+        <dataField fieldName="Controller"/>
+        <dataField fieldName="Type" readOnly="false"/>
+        <dataField fieldName="CommandId"/>
+        <dataField fieldName="Label"/>
+        <!--<dataField fieldName="HeaderText" columns="40" rows="2"/>-->
+        <dataField fieldName="Access"/>
+        <dataField fieldName="Group"/>
+        <dataField fieldName="ShowInSelector">
+          <headerText>Selector</headerText>
+        </dataField>
+        <dataField fieldName="ReportLabel">
+          <headerText>Label</headerText>
+        </dataField>
+        <dataField fieldName="ReportOrientation">
+          <headerText>Orient.</headerText>
+        </dataField>
+        <dataField fieldName="ReportFont">
+          <headerText>Font</headerText>
+        </dataField>
+        <dataField fieldName="ReportTemplate">
+          <headerText>Template</headerText>
+        </dataField>
+      </dataFields>
+    </view>
+    <view id="editForm1" type="Form" commandId="command1" label="View">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about Views" onclick="$openUrl('http://codeontime.com/learn/data-controllers/views/overview')"></span>
+        Click OK to save the view, or click Cancel to undo changes or return back.]]>
+      </headerText>
+      <categories>
+        <category id="c1" headerText="General">
+          <description>
+            <![CDATA[
+          <i>Id</i> is the unique identifier of the view.<br/><br/>
+          <i>Controller</i> specifies the controller that this view belongs to.<br/><br/>
+          <i>Type</i> determines the presentation style. Available types include form, grid, 
+          <a href="javascript:" title="Learn more about charts in Code On Time web applications." onclick="return $openUrl('http://codeontime.com/learn/feature-tour/charts')">chart</a>, or 
+          <a href="javascript:" title="Learn more about data sheet view in Code On Time web applications." onclick="return $openUrl('http://codeontime.com/blog/2011/04/data-sheet-view')">data sheet</a>.<br/><br/>
+          Set <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/views/access')" title="Learn about configuring access to a data controller view">Access</a> to <i>Public</i> if the view shall be accessible to anonymous users on "Public" pages.<br/><br/>
+          Changes to the view will effect all instances of the controller on the application pages. An instance of data controller is called <i>Data View</i>.<br/><br/>
+          Use tags to specify a view icon, modal state, or other special properties. . Separate multiple tags with spaces.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="ViewId" columns="30" readOnly="true" hyperlinkFormatString="javascript:window.external.SyncAndRename()" toolTip="Click here to change the 'Id' of the View."/>
+            <dataField fieldName="Controller"/>
+            <dataField fieldName="Type" readOnly="false"/>
+            <dataField fieldName="Legend"/>
+            <dataField fieldName="Access"/>
+            <dataField fieldName="Tags" columns="40" rows="3"/>
+          </dataFields>
+        </category>
+        <category id="c2" headerText="Presentation">
+          <description>
+            <![CDATA[
+            Specify the <i>Command</i> that will be used to select data.<br/><br/>
+            <i>Label</i> is the text displayed in the view selector.<br/><br/>
+            <i>Header Text</i> is displayed above the view in the user interface.<br/><br/>
+            When <i>Show In View Selector</i> is disabled, the view will be hidden from the view selector menu.<br/><br/>
+            Enter any non-blank value in <i>Group</i> property to make sure that filters selected in a view are transferred to the other views in the same group when a user selects them in view selector.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="CommandId"/>
+            <dataField fieldName="Label"/>
+            <dataField fieldName="HeaderText" columns="40" rows="3"/>
+            <dataField fieldName="ShowInSelector"/>
+            <dataField fieldName="Group"/>
+          </dataFields>
+        </category>
+        <category id="c3" headerText="Reporting">
+          <description>
+            <![CDATA[
+            Specify a <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/views/report-label')" title="Learn about configuring a report label">Report Label</a> that must print when a view report is produced in PDF, Excel, TIFF, or Word format. If the property left blank then the view label will be printed.<br/><br/>
+            Set <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/views/report-orientation')" title="Learn to configuring report orientation">Report Orientation</a> to "Portrait" or "Landscape" or let the application to decide what is best.<br/><br/>
+            Property <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/views/report-font')" title="Learn to configuring report orientation">Report Font</a> will determine the size of text for the data and labels in the report. The default value is <i>Medium</i>.<br/><br/>
+            Indicate if a <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/views/create-custom-report-template')" title="Learn to create a custom report template based on a data controller view data fields">custom report template</a> file must be created for this view. The report in <a href="javascript:" title="Learn more about Microsoft Report Viewer and RDLC report definitions." onclick="return $openUrl('http://msdn.microsoft.com/en-us/library/ms252067.aspx')">RDLC</a> format can be customized in <i>Visual Studio</i> or <i>Visual Web Developer</i>. The file name will be formatted as <i>[Controller]_[ViewId].rdlc</i>. 
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="ReportLabel"/>
+            <dataField fieldName="ReportOrientation">
+              <headerText>Page Orientation</headerText>
+            </dataField>
+            <dataField fieldName="ReportFont"/>
+            <dataField fieldName="ReportTemplate">
+              <headerText>Create custom report template</headerText>
+            </dataField>
+          </dataFields>
+        </category>
+        <category id="c4" headerText="Sort, Filter, and Group">
+          <description>
+            <![CDATA[
+					<i>Sort Expression</i> is a list of data field names of this view, each followed by optional <i>asc</i> or <i>desc</i> suffix.<br/><br/>
+					<a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/security/multi-tenant-applications/view-filter-expressions')" title="Learn about View Filter Expressions">Filter Expression</a> must be compatible with the back-end database server syntax. 
+					Data field names used in filter are automatically expanded into appropriate SQL expressions as defined in command.<br/><br/>
+					Parameters must be prefixed by "@" or ":" symbol. 
+					You must implement a business rules class for the data controller with a property or field that matches the parameter name. <br/><br/>
+          <i>Group Expression</i> will determine the default grouping of the view. Enter a comma-separated list of field names.
+					]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="SortExpression"/>
+            <dataField fieldName="FilterExpression" columns="54" rows="7"/>
+            <dataField fieldName="GroupExpression"/>
+          </dataFields>
+        </category>
+        <category id="c5" headerText="Virtualization">
+          <description>
+            <![CDATA[
+          The specified<i>Virtual View ID</i> will replace the current view when the condition in <i>Override When</i> is met.<br/><br/>
+          <i>Override When</i> is an expression that evaluates to <i>true</i> or <i>false</i>. It is written in the programming language of your project.<br/><br/>
+          Specify a <a href="javascript:" title="Learn how to use base views." onclick="return $openUrl('http://codeontime.com/learn/data-controllers/views/base-view-id')">Base View Id</a>
+          to inherit its data fields, categories, description, and label.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="VirtualViewId"/>
+            <dataField fieldName="OverrideWhen" columns="54" rows="3"/>
+            <dataField fieldName="BaseViewId"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+    <view id="createForm1" type="Form" commandId="command1" label="New View">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about Views" onclick="$openUrl('http://codeontime.com/learn/data-controllers/views/overview')"></span>
+        Please fill this form and click OK button to create a new view. Click Cancel to return to the previous screen.]]>
+      </headerText>
+      <categories>
+        <category id="c1" headerText="General">
+          <description>
+            <![CDATA[
+          <i>Id</i> is the unique identifier of the view.<br/><br/>
+          <i>Type</i> determines the presentation style. Available types include form, grid, 
+          <a href="javascript:" title="Learn more about charts in Code On Time web applications." onclick="return $openUrl('http://codeontime.com/learn/feature-tour/charts')">chart</a>, or 
+          <a href="javascript:" title="Learn more about data sheet view in Code On Time web applications." onclick="return $openUrl('http://codeontime.com/blog/2011/04/data-sheet-view')">data sheet</a>.<br/><br/>
+          Set <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/views/access')" title="Learn about configuring access to a data controller view">Access</a> to <i>Public</i> if the view shall be accessible to anonymous users on "Public" pages.<br/><br/>
+          Changes to the view will effect all instances of the controller on the application pages. An instance of data controller is called <i>Data View</i>.<br/><br/>
+          Use tags to specify a view icon, modal state, or other special properties. Separate multiple tags with spaces.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Controller" readOnly="false"/>
+            <dataField fieldName="ViewId" columns="30"/>
+            <dataField fieldName="Type" readOnly="false">
+            </dataField>
+            <dataField fieldName="Legend"/>
+            <dataField fieldName="Access"/>
+            <dataField fieldName="Tags" columns="40" rows="3"/>
+          </dataFields>
+        </category>
+        <category id="c2" headerText="Presentation">
+          <description>
+            <![CDATA[
+            Specify the <i>Command</i> that will be used to select data.<br/><br/>
+            <i>Label</i> is the text displayed in the view selector.<br/><br/>
+            <i>Header Text</i> is displayed above the view in the user interface.<br/><br/>
+            When <i>Show In View Selector</i> is disabled, the view will be hidden from the view selector menu.<br/><br/>
+            Enter any non-blank value in <i>Group</i> property to make sure that filters selected in a view are transferred to the other views in the same group when a user selects them in view selector.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="CommandId"/>
+            <dataField fieldName="Label"/>
+            <dataField fieldName="HeaderText" columns="40" rows="3"/>
+            <dataField fieldName="ShowInSelector"/>
+            <dataField fieldName="Group"/>
+          </dataFields>
+        </category>
+        <category id="c3" headerText="Reporting">
+          <description>
+            <![CDATA[
+            Specify a <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/views/report-label')" title="Learn about configuring a report label">Report Label</a> that must print when a view report is produced in PDF, Excel, TIFF, or Word format. If the property left blank then the view label will be printed.<br/><br/>
+            Set <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/views/report-orientation')" title="Learn to configuring report orientation">Report Orientation</a> to "Portrait" or "Landscape" or let the application to decide what is best.<br/><br/>
+            Property <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/views/report-font')" title="Learn to configuring report orientation">Report Font</a> will determine the size of text for the data and labels in the report. The default value is <i>Medium</i>.<br/><br/>
+            Indicate if a <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/views/create-custom-report-template')" title="Learn to create a custom report template based on a data controller view data fields">custom report template</a> file must be created for this view. The report in <a href="javascript:" title="Learn more about Microsoft Report Viewer and RDLC report definitions." onclick="return $openUrl('http://msdn.microsoft.com/en-us/library/ms252067.aspx')">RDLC</a> format can be customized in <i>Visual Studio</i> or <i>Visual Web Developer</i>. The file name will be formatted as <i>[Controller]_[ViewId].rdlc</i>. 
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="ReportLabel"/>
+            <dataField fieldName="ReportOrientation">
+              <headerText>Page Orientation</headerText>
+            </dataField>
+            <dataField fieldName="ReportFont"/>
+            <dataField fieldName="ReportTemplate">
+              <headerText>Create custom report template</headerText>
+            </dataField>
+          </dataFields>
+        </category>
+        <category id="c4" headerText="Sort, Filter, and Group">
+          <description>
+            <![CDATA[
+					<i>Sort Expression</i> is a list of data field names of this view, each followed by optional <i>asc</i> or <i>desc</i> suffix.<br/><br/>
+					<a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/security/multi-tenant-applications/view-filter-expressions')" title="Learn about View Filter Expressions">Filter Expression</a> must be compatible with the back-end database server syntax. 
+					Data field names used in filter are automatically expanded into appropriate SQL expressions as defined in command.<br/><br/>
+					Parameters must be prefixed by "@" or ":" symbol. 
+					You must implement a business rules class for the data controller with a property or field that matches the parameter name. 
+          <i>Group Expression</i> will determine the default grouping of the view. Enter a comma-separated list of field names.
+					]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="SortExpression"/>
+            <dataField fieldName="FilterExpression" columns="54" rows="7"/>
+            <dataField fieldName="GroupExpression"/>
+          </dataFields>
+        </category>
+        <category id="c5" headerText="Virtualization">
+          <description>
+            <![CDATA[
+          The specified<i>Virtual View ID</i> will replace the current view when the condition in <i>Override When</i> is met.<br/><br/>
+          <i>Override When</i> is an expression that evaluates to <i>true</i> or <i>false</i>. It is written in the programming language of your project.<br/><br/>
+          Specify a <a href="javascript:" title="Learn how to use base views." onclick="return $openUrl('http://codeontime.com/learn/data-controllers/views/base-view-id')">Base View Id</a>
+          to inherit its data fields, categories, description, and label.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="VirtualViewId"/>
+            <dataField fieldName="OverrideWhen" columns="54" rows="3"/>
+            <dataField fieldName="BaseViewId"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+  </views>
+  <actions>
+    <actionGroup scope="Grid">
+      <!--<action commandName="Select" commandArgument="editForm1" />-->
+      <action commandName="Navigate" commandArgument="View.htm?_returnController=Views&amp;Controller={Controller}&amp;ViewId={ViewId}&amp;TheViewId={ViewId} ({Type})" headerText="Open"/>
+      <action commandName="ClientScript" commandArgument="__syncDesigner(this)" headerText="Sync" cssClass="SyncIcon"/>
+      <action commandName="Edit" />
+      <action commandName="Select" commandArgument="editForm1" headerText="View"/>
+    </actionGroup>
+    <actionGroup scope="Form">
+      <action commandName="Edit" />
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <action commandName="Cancel" headerText="Close" />
+      <action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+      <!--<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />-->
+      <action whenLastCommandName="Edit" commandName="Cancel" />
+      <action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+      <action whenLastCommandName="New" commandName="Cancel" />
+    </actionGroup>
+    <actionGroup scope="ActionBar" headerText="New">
+      <action commandName="New" commandArgument="createForm1" headerText="New View" description="Create a new view." />
+    </actionGroup>
+    <!--<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+      <action commandName="Custom" commandArgument="Preview" headerText="Quick View" description="Preview the data controller." />
+    </actionGroup>-->
+    <!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+    <actionGroup scope="ActionBar" headerText="Record">
+      <action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+      <action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+    </actionGroup>
+    <actionGroup id="sync01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncDesigner()" headerText="Sync" cssClass="SyncIcon" description="Synchronize with Explorer (Ctrl+.)"/>
+    </actionGroup>
+    <actionGroup id="ag8" scope="Row">
+      <action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+      <action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+    </actionGroup>
+  </actions>
+  <businessRules>
+    <rule id="r1" type="JavaScript" commandName="Update" view="" phase="Before">
+      <![CDATA[
+      if ([Type.Modified] && [Type.NewValue] == 'Form') {
+          this.preventDefault();
+          this.result.showAlert('The view type cannot be changed from \'{0}\' to \'Form\'. Right-click the view node and choose "Convert to Form" option instead', [Type.OldValue]);
+      }
+      if ([Type.Modified] && [Type.OldValue] == 'Form' && [Type.NewValue]) {
+          this.preventDefault();
+          this.result.showAlert('The view type cannot be changed from \'Form\' to \'{0}\'. Right-click the view node and choose "Convert to Grid" option instead.', [Type.NewValue]);
+      }
+    ]]>
+    </rule>
+    <rule id="r2" type="JavaScript" commandName="Insert" phase="Before">
+      <![CDATA[
+      if ([ViewId.Modified] && [Label] == null)
+          [Label] = window.external.PrettyText([ViewId]);
+    ]]>
+    </rule>
+    <rule id="r3" type="JavaScript" commandName="New" phase="After">
+      <![CDATA[
+      [Type] = 'Grid';
+      [CommandId] = window.external.FindDataControllerSelectCommand([Controller]);
+      [ShowInSelector] = true;
+      [ReportTemplate] = false;
+      
+      ]]>
+    </rule>
+  </businessRules>
+</dataController>

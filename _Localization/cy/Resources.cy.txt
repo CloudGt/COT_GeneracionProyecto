@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Anodi^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0}<b>{1} </b> {2} Ynghlwm yn^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Ymlyniad^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Rhowch nodiadau dewisol ac atodi ffeiliau.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Nodiadau a Ymlyniadau^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} {1} Ysgrifenedig yn^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Nodiadau^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Nodiadau^AnnotationTab^
+
+^BlobClearConfirm^Clir?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Wedi cael ei glirio.^BlobCleared^
+
+^BlobClearText^Clir^BlobClearText^
+
+^BlobUploadError^Methodd <b>Error :</b> i&#39;w llwytho i fyny {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Cliciwch^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^yma^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^i lwytho neu glir ffeil {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Wedi cael ei llwytho i fyny yn llwyddiannus. Gall <b>It gymryd hyd at {1} munud ar gyfer y llun bach i adlewyrchu&#39;r content.</b> uploaded^BlobUploded^
+
+^Copyright^Cedwir pob hawl.^Copyright^
+
+^RecordChangedByAnotherUser^Mae&#39;r cofnod wedi cael ei newid gan ddefnyddiwr arall.^RecordChangedByAnotherUser^
+

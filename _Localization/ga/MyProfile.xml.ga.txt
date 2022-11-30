@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Ar ais^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Críochnaigh^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Dearbhaigh Pasfhocal Nua^ConfirmNewPassword^
+
+^ConfirmPassword^Deimhnigh Pasfhocal^ConfirmPassword^
+
+^Email^Ríomhphost^Email^
+
+^ForgotYourPassword^Ar rinne tú dearmad ar do Phásfhocail?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Freagair an cheist seo a leanas chun do phasfhocal a fháil. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Dearbhú Aitheantais^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Líon isteach an fhoirm seo agus cliceáil Cuir isteach chun an focal faire dearmadta a ghnóthú. Cliceáil Cealaigh chun filleadh ar an scáileán roimhe seo.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Aisghabháil Pasfhocal: Céim 2 de 2^IdentityConfirmViewLabel^
+
+^LoginButton^Logáil isteach^LoginButton^
+
+^LoginLink^Logáil isteach^LoginLink^
+
+^LoginWithDNN^Logáil isteach Le DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Logáil Isteach le Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Logáil Isteach le Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Logáil isteach le Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Logáil Isteach le SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Logáil isteach le Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Freagra Pasfhocal (nach bhfuil ar taispeáint le haghaidh do chosaint)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Cuir isteach do phasfhocal reatha chun pasfhocal nua a chruthú, do sheoladh ríomhphoist a uasdátú, nó an ceist agus an freagra a ghnóthú phasfhocal a athrú.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Pasfhocal reatha^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Déan athbhreithniú ar do chuid sonraí ballraíochta thíos. Cliceáil Nuashonraigh Mo Chuntas chun an taifead seo a athrú, nó cliceáil ar Cealaigh chun filleadh ar ais.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Mo chuntas^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Cuir pasfhocal nua isteach. Tabhair faoi deara go gcaithfidh an focal faire 7 carachtar ar a laghad a bheith ar a laghad agus go n-áireofaí carachtar neamh-alfaiméara amháin.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Pasfhocal Nua (Roghnach)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Le linn pasfhocal dearmadta a aisghabháil iarrfar ort d&#39;ainm úsáideora a chur isteach. Má tá cuntas úsáideora ann ansin ní mór ceist phasfhocal a fhreagairt. Cuirfidh freagra ceart r-phost le pasfhocal sealadach a sheolann tú.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. R-phost &amp; Aisghabháil Pasfhocal (Roghnach)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Focal Faire Nua^NewPassword^
+
+^OldPassword^Sean Pasfhocal^OldPassword^
+
+^Password^Pasfhocal^Password^
+
+^PasswordAnswer^Freagra Pasfhocal^PasswordAnswer^
+
+^PasswordQuestion^Ceist Pasfhocal^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Cuir ainm úsáideora isteach. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Ar rinne tú dearmad ar do Phásfhocail?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Líon isteach an fhoirm seo agus cliceáil ar Leanúint ar aghaidh chun an focal faire dearmadta a ghnóthú. Cliceáil Cealaigh chun filleadh ar an scáileán roimhe seo.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Aisghabháil Pasfhocal: Céim 1 de 2^PasswordRequestViewLabel^
+
+^RememberMe^Cuimhnigh orm an chéad uair eile^RememberMe^
+
+^RequestPasswordActionHeaderText^Ar Aghaidh^RequestPasswordActionHeaderText^
+
+^SignUp^Clarú^SignUp^
+
+^SignUpNow^Cláraigh anois^SignUpNow^
+
+^SignUpViewHeaderText^Líon isteach an fhoirm seo agus cliceáil ar an gcnaipe OK chun clárú le haghaidh cuntas. Cliceáil Cealaigh chun filleadh ar an scáileán roimhe seo.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Cláraigh Cuntas^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Cuir isteach ainm úsáideora agus focal faire. Tabhair faoi deara go gcaithfidh an focal faire 7 carachtar ar a laghad a bheith ar a laghad agus go n-áireofaí carachtar neamh-alfaiméara amháin. Ní bheidh ach úsáideoirí ceadaithe in ann logáil isteach sa láithreán gréasáin.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Eolas Úsáideora Nua^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Tá na réimsí seo de dhíth chun cabhrú leat pasfhocal dearmadta a ghnóthú. Le linn an phróisis aisghabhála iarrtar ort ainm úsáideora a chur isteach. Má tá cuntas úsáideora ann ansin iarrtar ar cheist slándála a fhreagairt. Cuirfidh freagra ceart r-phost le seol focal faire sealadach chuig an ríomhphost cláraithe.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Aisghabháil Pasfhocal^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Nuashonraigh Mo Chuntas^UpdateMyAccountActionHeaderText^
+
+^UserName^Ainm Úsáideora^UserName^
+

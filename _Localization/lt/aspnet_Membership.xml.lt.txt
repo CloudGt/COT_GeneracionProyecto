@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Sukurti naują vartotoją įrašų.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Naujas vartotojas^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Naujas^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Atgal^BackToRequestPasswordActionHeaderText^
+
+^Comment^Komentaras^Comment^
+
+^ConfirmIdentityActionHeaderText^Apdaila^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Patvirtinkite naują slaptažodį^ConfirmNewPassword^
+
+^ConfirmPassword^Patvirtinti slaptažodį^ConfirmPassword^
+
+^CreateDate^Sukurti data^CreateDate^
+
+^CreateFormCommentCategoryDescription^Įveskite jokių papildomų komentarų apie šį klientą sąskaitos. Komentaras nėra matomas vartotojui.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Komentarai^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Prašome įrašyti vartotojo vardą ir slaptažodį. Atkreipkite dėmesį, kad slaptažodis turi būti bent 7 simbolių ilgio ir yra ne raidinių skaitmeninių simbolių. Tik aprobuotus vartotojai galės prisijungti į svetainę.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Informacija apie naują vartotoją^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Šiuos laukus užpildyti būtina padėti vartotojui atgauti pamiršote slaptažodį. Per susigrąžinimo procesą vartotojo bus paprašyta įvesti vartotojo vardą. Jei vartotojo abonementą egzistuoja tada saugumo klausimas yra prašoma atsakyti. Teisingas atsakymas bus sukelti laikiną slaptažodį siųsti vartotojui el.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Slaptažodžio atkūrimas^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Prašome pasirinkti vartotojo vaidmenis, kurie labiausiai atitiktų vartotojo atsakomybę. Vaidmenis kontroliuoja priėjimą prie šios svetainės srityse. Prašome susisiekti su sistemos administratoriumi, jei vaidmuo prieigos apribojimai turi būti pakeisti.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Vaidmenys^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Prašome užpildyti šią formą ir paspauskite OK mygtuką, kad sukurtumėte naują vartotojo narystės įrašo. Spustelėkite Atšaukti, jei norite grįžti į ankstesnį ekraną.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Naujas vartotojas^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Šio vartotojo sąskaita bus sukurtas kaip patvirtintas.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Pasikartojantis elektroninio pašto adresą.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Dviem egzemplioriais teikėjas raktą.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Pasikartojantis vartotojo vardą.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Veiklos rūšies statistinius duomenis,^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Šio vartotojo sąskaita yra patvirtinta^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Tai nepavyko prisijungimo bandymus šio vartotojo statistiką. <br/> <br/> Vartotojų bus uždaryta pasiekus maksimalų skaičių nepavyko prisijungimo bandymus. <br/> <br/> Locked Out vartotojai galės prisijungti iš naujo po Nepavyko Slaptažodis Bandymas lango pradžią dienos. <br/> <br/> Vartotojai, kurie nesugebėjo atgauti slaptažodį, galės, kad taip po Nepavyko Slaptažodis Atsakymas Bandymas lango pradžią dienos. <br/> <br/> Galite atkurti vartotojo gebėjimą prisijungti nustatant Locked Out vėliava &quot;Ne&quot;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Prisijungti Statistika^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Per Pamiršai slaptažodžio atkūrimo vartotojo bus paprašyta įvesti vartotojo vardą. Jei vartotojo abonementą egzistuoja tada saugumo klausimas yra prašoma atsakyti. Teisingas atsakymas bus sukelti laikiną slaptažodį siųsti vartotojui el. <br/><br/> Keisti užrakinta vėliava &quot;Ne&quot;, jei vartotojas buvo užblokuotas pasiekus maksimalų skaičių nepavyko prisijungimo bandymus ir norite leisti vartotojui prisijungti iš naujo.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Slaptažodžio atkūrimas^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Prašome pasirinkti vartotojo vaidmenis, kurie labiausiai atitiktų vartotojo atsakomybę. Vaidmenis kontroliuoja priėjimą prie šios svetainės srityse. Prašome susisiekti su sistemos administratoriumi, jei vaidmuo prieigos apribojimai turi būti pakeisti. <br/> <br/> Įveskite papildomus komentarus apie šį klientą sąskaitos. Komentaras nėra matomas vartotojui.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Vartotojo informacija^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Prašome peržiūrėti žemiau vartotojo Narystė informacijos. Spustelėkite Redaguoti, jei norite pakeisti šį įrašą, spustelėkite Naikinti ištrinti įrašą, arba spustelėkite Atšaukti / Uždaryti grįžti atgal.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Peržiūrėti Vartotojas^EditFormViewLabel^
+
+^Email^Elektroniniu paštu^Email^
+
+^EnterCurrentPassword^Prašome įvesti savo dabartinį slaptažodį.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Prašome įvesti slaptažodį atsakymas.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Klaida įrašant vartotojo sąskaitą.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Nepavyko Slaptažodis Atsakymas Bandymas Grafas^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Nepavyko Slaptažodis Atsakymas Bandymas lango pradžią^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Nepavyko Slaptažodis Bandymas Grafas^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Nepavyko Slaptažodis Bandymas lango pradžią^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Tai narystės vartotojo įrašų sąrašą.^GridViewHeaderText^
+
+^GridViewLabel^Visi vartotojai^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Atsakyti į šį klausimą gauti slaptažodį. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Tapatybės patvirtinimą^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Prašome užpildyti šią formą ir spustelėkite Pateikti mygtuką, norėdami atgauti pamirštą slaptažodį. Spustelėkite Atšaukti, jei norite grįžti į ankstesnį ekraną.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Slaptažodžio atkūrimas: žingsnis 2 iš 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Neteisingas slaptažodis atkūrimo atsakymas.^InvalidAnswer^
+
+^InvalidEmail^Neteisingas elektroninio pašto adresą.^InvalidEmail^
+
+^InvalidPassword^Neteisingas slaptažodis.^InvalidPassword^
+
+^InvalidProviderUserKey^Neteisingas teikėjas vartotojo klavišą.^InvalidProviderUserKey^
+
+^InvalidQuestion^Neteisingas slaptažodis atkūrimo klausimą.^InvalidQuestion^
+
+^InvalidUserName^Neteisingas vartotojo vardas.^InvalidUserName^
+
+^IsApproved^Yra patvirtintas^IsApproved^
+
+^IsLockedOut^Užblokuota^IsLockedOut^
+
+^LastLockoutDate^Paskutinis lokautas data^LastLockoutDate^
+
+^LastLoginDate^Paskutinio prisijungimo data^LastLoginDate^
+
+^LastPasswordChangedDate^Paskutinis Slaptažodis Pasikeitė data^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Slaptažodis Atsakymas (nerodomas jūsų apsaugos)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Prašome įvesti savo dabartinį slaptažodį sukurti naują slaptažodį, atnaujinkite savo elektroninio pašto adresą, arba keisti slaptažodžio atkūrimo klausimas ir atsakymas.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Dabartinis slaptažodis^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Prašome peržiūrėti žemiau jūsų narystės informaciją. Spustelėkite Naujinti Mano sąskaita pakeisti šį įrašą, arba spustelėkite Atšaukti, jei norite grįžti.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Mano sąskaita^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Įveskite naują slaptažodį. Atkreipkite dėmesį, kad slaptažodis turi būti bent 7 simbolių ilgio ir yra ne raidinių skaitmeninių simbolių.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Naują slaptažodį (pasirinktinai)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Pamiršai slaptažodžio atkūrimo metu bus paprašyta įvesti savo vartotojo vardą. Jei vartotojo sąskaitoje egzistuoja slaptažodį klausimą turi būti atsakyta. Teisingas atsakymas bus sukelti laikiną slaptažodį siųsti jums el.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Elektroninio pašto &amp; Password Recovery (pasirinktinai)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Naujas slaptažodis^NewPassword^
+
+^NewPasswordAlert^Naujas slaptažodis buvo išsiųstas į failą adresas.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Naujas slaptažodis ir patvirtinimas nesutampa.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Jūsų naujas slaptažodis yra neteisingas.^NewPasswordInvalid^
+
+^NewPasswordSubject^\&#39;{0} \ &#39;Naują slaptažodį.^NewPasswordSubject^
+
+^OldPassword^Senas slaptažodis^OldPassword^
+
+^Password^Slaptažodis^Password^
+
+^PasswordAndConfirmationDoNotMatch^Slaptažodį ir patvirtinimas nesutampa.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Slaptažodis Atsakymas^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Jūsų slaptažodis nesutampa su mūsų įrašų.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Slaptažodis formatas^PasswordFormat^
+
+^PasswordQuestion^Slaptažodis Klausimas^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Prašome įvesti vartotojo vardą. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Pamiršote slaptažodį?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Prašome užpildyti šią formą ir spustelėkite mygtuką Tęsti, esantį atgauti pamirštą slaptažodį. Spustelėkite Atšaukti, jei norite grįžti į ankstesnį ekraną.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: Žingsnis 2 1^PasswordRequestViewLabel^
+
+^ProviderError^Teikėjo klaida.^ProviderError^
+
+^RequestPasswordActionHeaderText^Kitas^RequestPasswordActionHeaderText^
+
+^Roles^Vaidmenys^Roles^
+
+^SelfRegisteredUser^Savarankiškai registruotas vartotojas.^SelfRegisteredUser^
+
+^SignUp^Registruotis^SignUp^
+
+^SignUpViewHeaderText^Prašome užpildyti šią formą ir paspauskite mygtuką &quot;OK&quot; (gerai), užsiregistruoti sąskaitą. Spustelėkite Atšaukti, jei norite grįžti į ankstesnį ekraną.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Prisijunkite prie savo paskyros^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Prašome įrašyti vartotojo vardą ir slaptažodį. Atkreipkite dėmesį, kad slaptažodis turi būti bent 7 simbolių ilgio ir yra ne raidinių skaitmeninių simbolių. Tik aprobuotus vartotojai galės prisijungti į svetainę.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Informacija apie naują vartotoją^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Šiuos laukus užpildyti būtina, kad padėtų jums atgauti pamiršote slaptažodį. Atkūrimo proceso metu jums bus prašoma įvesti vartotojo vardą. Jei vartotojo abonementą egzistuoja tada saugumo klausimas yra prašoma atsakyti. Teisingas atsakymas bus sukelti laikiną slaptažodį siųsti registruotą laišką elektroniniu paštu.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Slaptažodžio atkūrimas^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Atnaujinkite Mano sąskaita^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Vartotojas negali būti užrakinta. Jei norite išvengti šios vartotojas galėtų prisijungti, tada tiesiog pažymėti vartotojo nėra patvirtintas.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Vartotojo&#39;{0}&#39; buvo ištrintas.^UserHasBeenDeleted^
+
+^UserName^Vartotojo vardas^UserName^
+
+^UserNameDoesNotExist^Vartotojo vardas neegzistuoja.^UserNameDoesNotExist^
+
+^UserNotFound^Vartotojas nerastas.^UserNotFound^
+
+^UserRejected^Vartotojas buvo atmestas.^UserRejected^
+
+^UsersInRolesGridHeaderText^Tai narystės vartotojo įrašus, kurie priklauso pasirinktą vaidmenį, sąrašą.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Vartotojai, vaidmuo^UsersInRolesGridLabel^
+

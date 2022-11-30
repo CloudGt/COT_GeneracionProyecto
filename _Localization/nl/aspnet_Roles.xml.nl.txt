@@ -1,0 +1,27 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Maak een nieuwe rol om in het lidmaatschap op te nemen.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nieuwe rol^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nieuw^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Vul het formulier in. Zorg ervoor dat u alle verplichte velden zijn ingevuld.^CreateFormCategory^
+
+^CreateFormHeaderText^Vul dit formulier in druk op de OK-knop om een ​​nieuwe rol in het lidmaatschpa op te nemen. Klik op Annuleren om terug te keren naar het vorige scherm.^CreateFormHeaderText^
+
+^DescriptionLabel^Beschrijving^DescriptionLabel^
+
+^EditViewCategory^Dit zijn de velden van de rol in het lidmaatschap rol die kunnen worden bewerkt.^EditViewCategory^
+
+^EditViewHeaderText^Hierbij de onderstaande rollen van het lidmaatschap. Klik op Bewerken om dit record te wijzigen, klikt u op Verwijderen om de record te verwijderen, of klik op Annuleren / Sluiten om terug te keren.^EditViewHeaderText^
+
+^GridViewHeaderText^Dit is een lijst van alle rollen in het lidmaatschap.^GridViewHeaderText^
+
+^RoleNameLabel^Naam Rol^RoleNameLabel^
+

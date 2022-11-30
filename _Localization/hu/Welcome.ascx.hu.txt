@@ -1,0 +1,25 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Adminisztrátori fiók^AdminDesc^
+
+^SignInHeader^Útmutatás^SignInHeader^
+
+^SignInInstruction^Jelentkezzen be a védett oldalak eléréséhez.^SignInInstruction^
+
+^SignInPara1^Két alapértelmezett felhasználói fiók jön létre az alkalmazás inicializálásakor,
+    ha a hozzáférés opció ki lett választva.^SignInPara1^
+
+^SignInPara2^Adminisztrátor: <b>admin</b>  - hozzáférést biztosít az alkalmazás valamennyi oldalához
+    és a hozzáférés kezeléshez is. </br>Alap felhasználó: <b>user</b>  - hozzáférést biztosít az alkalmazás 
+	valamennyi oldalához kivéve a hozzáférés kezelést.^SignInPara2^
+
+^SignInPara3^Mozgassa az egérmutatót a <i>Bejelentkezés</i> link fölé a képernyő
+    jobb felső részén, és jelentkezzen be valamelyik felhasználói névvel.^SignInPara3^
+
+^UserDesc^Alap felhasználói fiók^UserDesc^
+

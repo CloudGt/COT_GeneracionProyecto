@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Loo uus koosseis roll rekord.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^New Role^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Uus^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Täitke vorm. Veenduge, et sisestate kõik kohustuslikud väljad.^CreateFormCategory^
+
+^CreateFormHeaderText^Palun täitke see vorm ja klõpsake OK nuppu, et luua uue koosseisu rollid rekord. Click Cancel naasmiseks eelmisele ekraanile.^CreateFormHeaderText^
+
+^DescriptionLabel^Kirjeldus^DescriptionLabel^
+
+^EditViewCategory^Need on valdkonnad liikmemaksu roll registreerida, et ei saa redigeerida.^EditViewCategory^
+
+^EditViewHeaderText^Palun vaadake liikmeks rollid allpool toodud andmed. Click Muuda selle kirje, klõpsake Kustuta rekord, või klõpsake Cancel / Sulge naasta.^EditViewHeaderText^
+
+^GridViewHeaderText^See on loetelu liikmesusest rollid.^GridViewHeaderText^
+
+^RoleNameLabel^Rolli nimi^RoleNameLabel^
+

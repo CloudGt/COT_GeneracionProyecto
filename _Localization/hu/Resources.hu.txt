@@ -1,0 +1,45 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Jegyzet^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Csatolva: <b>{1}</b>  {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Melléklet^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Fűzzön hozzá megjegyzést és csatoljon fájlokat.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Megjegyzések és csatolmányok^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Irva: {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Megjegyzések^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Megjegyzések és csatolmányok^AnnotationTab^
+
+^BlobClearConfirm^Törlés?^BlobClearConfirm^
+
+^BlobCleared^<b>Megerősítés:</b> {0} törölve.^BlobCleared^
+
+^BlobClearText^Törlés^BlobClearText^
+
+^BlobUploadError^<b>Hiba:</b> Sikertelen feltöltés {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Klikkeljen^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^ide^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^fájl feltöltéséhez vagy törléséhez: {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Megerősítés:</b> {0} sikeresen feltöltve. <b> {1} percet is igénybe vehet amíg az ikon frissül.</b>^BlobUploded^
+
+^Copyright^Minden jog fenntartva.^Copyright^
+
+^RecordChangedByAnotherUser^A rekordot más felhasználó módosította.^RecordChangedByAnotherUser^
+

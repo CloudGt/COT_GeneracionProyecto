@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Administrative cont^AdminDesc^
+
+^SignInHeader^Instrucţiuni^SignInHeader^
+
+^SignInInstruction^Conectaţi-vă pentru a accesa conţinutul site-ului protejat.^SignInInstruction^
+
+^SignInPara1^Cele două conturi de utilizator standard sunt create automat atunci când cererea este iniţializat în cazul în care opţiunea de membru a fost selectat pentru această aplicaţie.^SignInPara1^
+
+^SignInPara2^<b>admin</b> Cont administrativ este autorizat pentru a accesa toate zonele site-ului web şi manager de aderare. Contul <b>user</b> standard este permisiunea de a accesa toate zonele site-ului web, cu excepţia managerului de membru.^SignInPara2^
+
+^SignInPara3^Mutaţi indicatorul mouse-ul peste <i>Login această legătură într-site</i> Web de pe partea dreaptă în partea de sus a paginii şi să semneze în cu unul din conturile enumerate mai jos.^SignInPara3^
+
+^UserDesc^Standard cont de utilizator^UserDesc^
+

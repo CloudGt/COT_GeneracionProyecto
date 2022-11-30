@@ -1,0 +1,123 @@
+<dataController name="DataFieldVisibility" conflictDetection="overwriteChanges" label="Category Visibility Expressions"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium" handler="CodeOnTime.Designer.DesignerBusinessRules">
+	<commands>
+		<command id="command1" type="Text">
+			<query href="Controllers.xml" select="//a:expression[parent::a:visibility/parent::a:category]" />
+			<template select="//a:dataController[@name=$Controller]/a:views/a:view[@id=$ViewId]/a:categories/a:category[@id=$CategoryId]">
+				<visibility xmlns="urn:schemas-codeontime-com:data-aquarium"  >
+					<expression type="ClientScript" __target="a:visibility" id="{generate-id('ExpressionId')}"/>
+				</visibility>
+			</template>
+		</command>
+	</commands>
+	<fields>
+		<field name="Controller" type="String" select="ancestor::a:dataController[1]/@name" allowNulls="false" isPrimaryKey="true">
+			<items style="Lookup" dataController="Controllers" newDataView="createForm1" dataValueField="Name" dataTextField="Name"/>
+		</field>
+		<field name="ViewId" type="String" select="ancestor::a:view[1]/@id" allowNulls="false" label="View" isPrimaryKey="true">
+			<items style="Lookup" dataController="Views" dataValueField="ViewId" dataTextField="ViewId"/>
+		</field>
+		<field name="CategoryId" type="String" select="parent::a:visibility/parent::a:category[1]/@id" allowNulls="true" isPrimaryKey="true" label="Category">
+			<items style="Lookup" dataController="Categories" newDataView="createForm1" dataTextField="HeaderText" dataValueField="CategoryId"/>
+		</field>
+    <field name="CategoryHeaderText" type="String" select="parent::a:visibility/parent::a:category[1]/@headerText" allowNulls="true"/>
+    <field name="ExpressionId" type="String" select="@id" allowNulls="false" label="Id" readOnly="true" isPrimaryKey="true"/>
+    <field name="Expression" type="String" select="@test" allowNulls="false"/>
+	</fields>
+	<views>
+		<view id="grid1" type="Grid" commandId="command1" label="Visibility Expressions">
+			<headerText><![CDATA[This is a list of field category visibility expressions.]]></headerText>
+			<dataFields>
+        <dataField fieldName="ExpressionId" readOnly="true" />
+        <dataField fieldName="Expression"/>
+				<dataField fieldName="Controller"/>
+				<dataField fieldName="ViewId"/>
+				<dataField fieldName="CategoryId" aliasFieldName="CategoryHeaderText"/>
+        <dataField fieldName="CategoryHeaderText" hidden="true"/>
+      </dataFields>
+		</view>
+		<view id="editForm1" type="Form" commandId="command1" label="Visibility Expression">
+			<headerText>Please review the field category visibility expression information below. Click Edit to change this record, click Delete to delete the record, or click Cancel/Close to return back.</headerText>
+			<categories>
+				<category headerText="General">
+					<description>
+						<![CDATA[The JavaScript expression that must evaluate to a <i>true</i> or <i>false</i>. If the expression is <i>false</i> then the category is not displayed. <br/><br/>
+					The expression can refer to the field names available in this view in any category. The field names must be wrapped in square brackets. <br/><br/>
+					Read more about <a href="http://codeontime.com/blog/2009/10/conditional-visibility-in-forms" target="_blank">conditional visibility</a> of field categories in views.]]>
+					</description>
+					<dataFields>
+						<!--<dataField fieldName="DataFieldVisibilityId"/>-->
+						<dataField fieldName="Expression" columns="50" rows="5"/>
+						<dataField fieldName="Controller" readOnly="true"/>
+						<dataField fieldName="ViewId" readOnly="true"/>
+            <dataField fieldName="CategoryId" aliasFieldName="CategoryHeaderText"/>
+            <dataField fieldName="CategoryHeaderText" hidden="true"/>
+            <dataField fieldName="ExpressionId" readOnly="true" hidden="true" />
+          </dataFields>
+				</category>
+			</categories>
+		</view>
+		<view id="createForm1" type="Form" commandId="command1" label="New Visibility Expression">
+			<headerText>Please fill this form and click OK button to create a new field category visibility expression. Click Cancel to return to the previous screen.</headerText>
+			<categories>
+				<category headerText="General">
+					<description>
+						<![CDATA[The JavaScript expression that must evaluate to a <i>true</i> or <i>false</i>. If the expression is <i>false</i> then the category is not displayed. <br/><br/>
+					The expression can refer to the field names available in this view in any category. The field names must be wrapped in square brackets. <br/><br/>
+					Read more about <a href="http://codeontime.com/blog/2009/10/conditional-visibility-in-forms" target="_blank">conditional visibility</a> of field categories in views.]]>
+					</description>
+					<dataFields>
+						<!--<dataField fieldName="DataFieldVisibilityId"/>-->
+						<dataField fieldName="Expression" columns="50" rows="5"/>
+						<dataField fieldName="Controller" readOnly="true"/>
+						<dataField fieldName="ViewId" readOnly="true"/>
+						<dataField fieldName="CategoryId" />
+            <dataField fieldName="ExpressionId" hidden="true" />
+					</dataFields>
+				</category>
+			</categories>
+		</view>
+	</views>
+	<actions>
+		<actionGroup scope="Grid">
+			<!--<action commandName="Select" commandArgument="editForm1" />-->
+			<action commandName="Edit" commandArgument="editForm1" headerText="View"/>
+			<action commandName="Edit" />
+			<action commandName="Delete" confirmation="Delete?" />
+			<!--<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+		</actionGroup>
+		<actionGroup scope="Form">
+			<action commandName="Edit" />
+			<action commandName="Delete" confirmation="Delete?" />
+			<action commandName="Cancel" headerText="Close" />
+			<action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+			<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />
+			<action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+			<action whenLastCommandName="New" commandName="Cancel" />
+		</actionGroup>
+		<actionGroup scope="ActionBar" headerText="New">
+			<action commandName="New" commandArgument="createForm1" headerText="New Item" description="Create a new item." />
+		</actionGroup>
+		<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+			<action commandName="Custom" commandArgument="Preview" headerText="Quick View" description="Preview the data controller."  />
+		</actionGroup>
+		<!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+		<actionGroup scope="ActionBar" headerText="Record">
+			<action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+			<action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+		</actionGroup>
+		<actionGroup id="ag8" scope="Row">
+			<action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+		</actionGroup>
+	</actions>
+</dataController>

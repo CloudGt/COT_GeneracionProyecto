@@ -1,0 +1,240 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Új felhasználó létrehozása.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Új felhasználó^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Új^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Vissza^BackToRequestPasswordActionHeaderText^
+
+^Comment^Megjegyzés^Comment^
+
+^ConfirmIdentityActionHeaderText^Kész^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Erősítse meg új jelszavát!^ConfirmNewPassword^
+
+^ConfirmPassword^Jelszó megerősítése^ConfirmPassword^
+
+^CreateDate^Készítés dátuma^CreateDate^
+
+^CreateFormCommentCategoryDescription^Tetszőleges megjegyzést fűzhet a felhasználó rekordhoz. A felhasználó ezt a megjegyzést nem láthatja.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Megjegyzések^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Adja meg a felhasználó nevet és a jelszót! A jelszónak minimum 7 karakter hosszúnak kell lennie, és tartalmazni kell egy nem alfanumerikus karaktert is. 
+                            Csak engedélyezett felhasználók tudnak belépni ebbe az alkalmazásba.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Új felhasználói információk^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Ezek a mezők szükségesek az elfelejtett jelszavak visszaállításában. A visszaállítási folyamatban a felhasználónak meg kell adnia a felhasználói nevét. 
+						Ha a felhasználói név létezik, akkor egy biztonsági kérdést kell megválaszolni. 
+						Amennyiben a válasz helyes, egy emailt küldünk a felhasználónak egy új ideiglenes jelszóval.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Elfelejtett jelszó^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Kérjük, válassza ki azt a szerepkört, ami leginkább megfelel a felhasználó tevékenységének. A szerepkörök befolyásolják a weboldal különböző részeihez való hozzáférést. Kérjük, forduljon a rendszergazdához, ha a szerepkörök hozzáférési szabályain kell módosítani.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Szerepkörök^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Kérem, töltse ki az űrlapot, és nyomja meg a Rendben gombot az új szerepkör rekord létrehozásához! Visszatéréshez nyomja meg a Mégsem gombot!^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Új felhasználó^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^A felhasználó az igények szerint lesz létrehozva.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Email cím már létezik.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Kulcs már létezik.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Felhasználó név már létezik.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Tevékenység statisztikák^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Felhasználó engedélyezve.^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Statisztika a felhasználó sikertelen bejelentkezéseiről:
+					<br/>
+					<br/>
+					A felhasználó kizárásra kerül, ha elérte a hibás bejelentkezések maximális számát.
+					<br/>
+					<br/>
+					Kizárt felhasználók a Hibás bejelentkezések feloldása mezőben található dátum után tudnak bejelentkezni.
+					<br/>
+					<br/>
+					Azok a felhasználók, akiknek nem sikerül a jelszó helyreállítás, a Hibás jelszó válasz feloldása mezőben szereplő dátum után tehetik meg.
+					<br/>
+					<br/>
+					Kizárt felhasználót újra aktiválhat, amennyiben a Kizárva? mezőt 'No'-ra állítja.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Bejelentkezési statisztika^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Elfelejtett jelszó helyreállításakor a felhasználónak meg kell adnia a felhasználói nevét. 
+						Ha a felhasználó létezik, akkor egy biztonsági kérdést kell megválaszolni. 
+						Amennyiben a válasz helyes, egy emailt küldünk a felhasználónak egy új ideiglenes jelszóval.
+						<br/><br/>
+						Állítsa a Kizárva? mező értékét 'No'-ra, amennyiben engedélyezni akarja a felhasználó belépését miután elérte a hibás bejelentkezési kisérletek maximális számát.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Elfelejtett jelszó^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Kérjük, válassza ki azt a szerepkört, ami leginkább megfelel a felhasználó tevékenységének. A szerepkörök befolyásolják a weboldal különböző részeihez való hozzáférést. 
+						Kérjük, forduljon a rendszergazdához, ha a szerepkörök hozzáférési szabályain kell módosítani.
+						<br/>
+						<br/>
+						Tetszőleges megjegyzést fűzhet a felhasználó rekordhoz. A felhasználó ezt a megjegyzést nem láthatja.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Felhasználói információk^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Ellenőrizze a szerepkör információkat! Módosításhoz nyomja meg a Szerkeszt gombot, törléshez a Törlés gombot, vagy a Mégsem/Lezár gombbal térhet vissza az előző képernyőhöz.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Felhasználó áttekintése^EditFormViewLabel^
+
+^Email^Email^Email^
+
+^EnterCurrentPassword^Adja meg jelenlegi jelszavát!^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Adjon meg egy biztonsági kérdést!^EnterPasswordAnswer^
+
+^ErrorSavingUser^Felhasználó mentése sikertelen.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Hibás jelszó válasz kisérletek száma^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Hibás jelszó válasz feloldása^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Hibás bejelentkezési kisérletek száma^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Hibás bejelentkezések feloldása^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Felhasználók listája.^GridViewHeaderText^
+
+^GridViewLabel^Valamennyi felhasználó^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Válaszoljon az alábbi kérdésre, hogy megkaphassa az új jelszavát:<br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Azonosító megerősítése^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Töltse ki az űrlapot és nyomja meg a Küldés gombot az elfelejtett jelszó helyreállításához. Visszatéréshez nyomja meg a Mégsem gombot.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Elfelejtett jelszó: 2. lépés^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Érvénytelen jelszó helyreállítási válasz.^InvalidAnswer^
+
+^InvalidEmail^Érvénytelen email cím.^InvalidEmail^
+
+^InvalidPassword^Érvénytelen jelszó.^InvalidPassword^
+
+^InvalidProviderUserKey^Érvénytelen kulcs.^InvalidProviderUserKey^
+
+^InvalidQuestion^Érvénytelen jelszó helyreállítási kérdés.^InvalidQuestion^
+
+^InvalidUserName^Érvénytelen felhasználói név.^InvalidUserName^
+
+^IsApproved^Engedélyezve?^IsApproved^
+
+^IsLockedOut^Kizárva?^IsLockedOut^
+
+^LastLockoutDate^Utolsó kizárás dátuma^LastLockoutDate^
+
+^LastLoginDate^Utolsó belépés dátuma^LastLoginDate^
+
+^LastPasswordChangedDate^Utolsó jelszó változtatás dátuma^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Jelszó válasz (nem mutatjuk az ön biztonsága érdekében)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Adja meg aktuális jelszavát, ha újat szeretne, módosítsa email címét, vagy módosítsa a jelszó helyreállítási kérdést és választ.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Jelenlegi jelszó^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Ellenőrizze a hozzáférési információit! Módosításhoz nyomja meg a Felhasználói fiók módosítása gombot, vagy visszatéréshez nyomja meg a Mégsem gombot.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Felhasználói fiókom^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Adja meg az új jelszót. A jelszónak legalább 7 karakter hosszúnak kell lennie, és tartalmaznia kell egy nem alfanumerikus karaktert is.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Új jelszó (Opcionális)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Az elfelejtett jelszó helyreállítási folyamatában meg kell adni a felhasználói nevét. 
+						Ha a felhasználó létezik, akkor egy biztonsági kérdést kell megválaszolni.  
+						Amennyiben a válasz helyes, egy emailt küldünk a felhasználónak egy új ideiglenes jelszóval.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Jelszó helyreállítás (Opcionális)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Új jelszó^NewPassword^
+
+^NewPasswordAlert^Új jelszavát elküldtük a megadott címre.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^A jelszó és a megerősítés eltér.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Új jelszava érvénytelen.^NewPasswordInvalid^
+
+^NewPasswordSubject^Új jelszó \'{0}\'.^NewPasswordSubject^
+
+^OldPassword^Régi jelszó^OldPassword^
+
+^Password^Jelszó^Password^
+
+^PasswordAndConfirmationDoNotMatch^A jelszó és a megerősítés eltér.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Jelszó válasz^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Hibás jelszó.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Jelszó formátum^PasswordFormat^
+
+^PasswordQuestion^Jelszó kérdés^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Kérem, adjon meg egy felhasználói nevet. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Elfelejtette jelszavát?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Töltse ki az űrlapot, és nyomja meg a Tovább gombot az elfelejtett jelszó helyreállításáért. Visszatéréshez nyomja meg a Mégsem gombot.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Jelszó helyreállítás: 2/1. lépés^PasswordRequestViewLabel^
+
+^ProviderError^Belső hiba.^ProviderError^
+
+^RequestPasswordActionHeaderText^Tovább^RequestPasswordActionHeaderText^
+
+^Roles^Szerepkörök^Roles^
+
+^SelfRegisteredUser^Saját regisztráció.^SelfRegisteredUser^
+
+^SignUp^Regisztráció^SignUp^
+
+^SignUpViewHeaderText^Töltse ki az űrlapot, és nyomja meg a Rendben gombot a regisztrációhoz. Visszatéréshez nyomja meg a Mégsem gombot.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Regisztráció^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Adja meg a felhasználói nevet és a jelszót. A jelszónak minimum 7 karakter hosszúnak kell lenni, és tartalmaznia kell nem alfanumerikus karaktert is. Csak engedélyezett felhasználók léphetnek be az oldalra.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Új felhasználó információ^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Ezek a mezők az elfelejtett jelszó helyreállításához szükségesek. Az elfelejtett jelszó helyreállítási folyamatában meg kell adni a felhasználói nevét.
+						Ha a felhasználó létezik, akkor egy biztonsági kérdést kell megválaszolni.  
+						Amennyiben a válasz helyes, egy emailt küldünk a felhasználónak egy új ideiglenes jelszóval.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Jelszó helyreállítás^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Felhasználói fiók módosítása^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Felhasználó nem zárható ki. Ha meg akarja akadályozni a belépését, állítsa 'not-approved'-ra.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Felhasználó '{0}' törölve.^UserHasBeenDeleted^
+
+^UserName^Felhasználó név^UserName^
+
+^UserNameDoesNotExist^Felhasználói név nem létezik.^UserNameDoesNotExist^
+
+^UserNotFound^Felhasználó nem található.^UserNotFound^
+
+^UserRejected^Felhasználó visszautasítva.^UserRejected^
+
+^UsersInRolesGridHeaderText^Kiválasztott szerepkörhöz tartozó felhasználók^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Szerepkör felhasználói^UsersInRolesGridLabel^
+

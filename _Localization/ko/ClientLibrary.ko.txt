@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^약^About^
+
+^Accent^악센트^Accent^
+
+^ActionBarActionsHeaderText^행위^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^취소^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^모든 레코드 변경 사항을 취소합니다.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^새로운 기록을 취소합니다.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^데이터베이스에 새 레코드를 저장합니다.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^저장^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^새로운 {0} 기록을 만듭니다.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^새로운 {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^새로운^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^기록^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^보고서^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^데이터베이스에 변경 내용을 저장합니다.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^저장^ActionBarUpdateActionHeaderText^
+
+^AddAccount^계정을 추가^AddAccount^
+
+^AddCondition^조건을 추가^AddCondition^
+
+^AddConditionText^검색 조건을 추가^AddConditionText^
+
+^AddItem^항목 추가^AddItem^
+
+^AddMatchingGroup^일치하는 그룹을 추가^AddMatchingGroup^
+
+^AddSearchBarField^더 많은 검색 필드^AddSearchBarField^
+
+^AddSystemIdentity^시스템 아이덴티티 추가^AddSystemIdentity^
+
+^AddToFavorites^즐겨찾기에 추가^AddToFavorites^
+
+^AdvancedSearch^고급 검색^AdvancedSearch^
+
+^AdvancedSearchInstruction^일치해야하는 조건 눌러 검색 버튼을 입력합니다.^AdvancedSearchInstruction^
+
+^After^후^After^
+
+^Agenda^비망록^Agenda^
+
+^AlignedLeft^왼쪽에게 정렬^AlignedLeft^
+
+^AlignedRight^오른쪽 정렬^AlignedRight^
+
+^AllDatesInPreriod^기간의 모든 날짜^AllDatesInPreriod^
+
+^AlternativeView^데이터의 다른보기를 선택합니다.^AlternativeView^
+
+^Always^항상^Always^
+
+^AnyValue^(어떤)^AnyValue^
+
+^Apply^적용^Apply^
+
+^Apps^앱^Apps^
+
+^Aquarium^수족관^Aquarium^
+
+^Auto^자동^Auto^
+
+^AutoOpenNextItem^다음 항목 자동 열기^AutoOpenNextItem^
+
+^AverageOf^평균^AverageOf^
+
+^AvgAggregate^평균 : {0}^AvgAggregate^
+
+^AvgAggregateToolTip^{0} 평균^AvgAggregateToolTip^
+
+^Azure^하늘빛^Azure^
+
+^Back^돌아가다^Back^
+
+^BackColor^다시 컬러^BackColor^
+
+^BatchEditActionHeaderText^일괄 수정^BatchEditActionHeaderText^
+
+^BatchEdited^{0} 업데이트 됨^BatchEdited^
+
+^BatchEditInFormActionHeaderText^일괄 수정 (양식)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^업데이트^BatchUpdate^
+
+^Before^전에^Before^
+
+^BeginsWith^로 시작^BeginsWith^
+
+^Belltown^벨^Belltown^
+
+^Berry^장과^Berry^
+
+^Between^사이에^Between^
+
+^Bittersweet^달콤한^Bittersweet^
+
+^Blank^공백^Blank^
+
+^BlankPassword^비밀 번호가 비어 수 없습니다.^BlankPassword^
+
+^BlankUserName^사용자 이름은 비워둘 수 없습니다.^BlankUserName^
+
+^BlankValue^(비어 있음)^BlankValue^
+
+^BlobDownloadHint^원본 파일을 다운로드하려면 여기를 클릭하십시오.^BlobDownloadHint^
+
+^BlobDownloadLink^다운로드^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^원본 파일을 다운로드하려면 이미지를 누릅니다.^BlobDownloadOriginalHint^
+
+^Blur^흐림^Blur^
+
+^Bold^대담한^Bold^
+
+^BooleanFilterText^논리 필터^BooleanFilterText^
+
+^BooleanIsExpected^논리 값이 예상된다.^BooleanIsExpected^
+
+^ButtonShapes^버튼 모양^ButtonShapes^
+
+^By^로^By^
+
+^Calendar^달력^Calendar^
+
+^Cancel^취소^Cancel^
+
+^Cards^카드^Cards^
+
+^Cay^암초^Cay^
+
+^ChangeYourLanguage^언어 변경^ChangeYourLanguage^
+
+^Charts^차트^Charts^
+
+^Citrus^감귤류의^Citrus^
+
+^Classic^고전적인^Classic^
+
+^ClearFilter^에서 필터 삭제 {0}^ClearFilter^
+
+^ClearFilter2^필터 지우기^ClearFilter2^
+
+^ClearText^일반 텍스트^ClearText^
+
+^ClearToolTip^지우기 {0}^ClearToolTip^
+
+^Close^가까운^Close^
+
+^Comfortable^안락한^Comfortable^
+
+^Compact^콤팩트^Compact^
+
+^Condensed^응축^Condensed^
+
+^ConfirmContinue^잇다?^ConfirmContinue^
+
+^ConfirmReload^다시로드?^ConfirmReload^
+
+^ConnectionLost^네트워크 연결이 손실되었다. 다시 시도 하시겠습니까?^ConnectionLost^
+
+^Construct^구축^Construct^
+
+^Contains^포함^Contains^
+
+^Convention^컨벤션^Convention^
+
+^Copy^복사^Copy^
+
+^CountAggregate^개수 : {0}^CountAggregate^
+
+^CountAggregateToolTip^백작 {0}^CountAggregateToolTip^
+
+^CountOf^백작^CountOf^
+
+^CreateLink^링크 생성^CreateLink^
+
+^CustomFilterOption^필터 ...^CustomFilterOption^
+
+^Cut^절단^Cut^
+
+^DarkKnight^다크 나이트 (The Dark Knight)^DarkKnight^
+
+^DarkTheme^어두운^DarkTheme^
+
+^DataSheetActionDescription^데이터 sheet<br/>format를 사용하여 항목을 표시합니다.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^데이터 시트에 표시^DataSheetActionHeaderText^
+
+^DataWarning^프로세스 항 중 최대 수는 {0 : d}이다. 결과를 필터링하려면 여기를 클릭하십시오.^DataWarning^
+
+^Date^날짜^Date^
+
+^DateFilterText^날짜 필터^DateFilterText^
+
+^DateIsExpected^날짜 예정입니다.^DateIsExpected^
+
+^DatesAMinAgo^분 전^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^분에서^DatesInAMin^
+
+^DatesInHour^한 시간 후^DatesInHour^
+
+^DatesInMin^{0} 분에서^DatesInMin^
+
+^DatesLast^마지막^DatesLast^
+
+^DatesMinAgo^{0} 분 전^DatesMinAgo^
+
+^DatesNext^다음 것^DatesNext^
+
+^DatesNow^지금^DatesNow^
+
+^DatesOneHour^한 시간 전에^DatesOneHour^
+
+^DateSortAscending^상단에 처음^DateSortAscending^
+
+^DateSortDescending^상단에 최신^DateSortDescending^
+
+^DatesSmart^스마트 날짜^DatesSmart^
+
+^DatesToday^오늘^DatesToday^
+
+^DatesTomorrow^내일^DatesTomorrow^
+
+^DatesYesterday^어제^DatesYesterday^
+
+^Day^일^Day^
+
+^DefaultCancelActionHeaderText^가까운^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^이 양식을 작성하고 새로운 {0} 기록을 만들 확인 버튼을 클릭하십시오. 이전 화면으로 돌아가려면 취소를 클릭하십시오.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^이들은 편집할 수 있습니다 {0} 레코드의 필드입니다.^DefaultEditDescription^
+
+^DefaultEditViewDescription^다음 {0} 정보를 검토하시기 바랍니다. 이 레코드를 변경하려면 편집을 클릭 기록을 삭제하려면 삭제를 클릭하거나 클릭하여 취소 / 다시 돌아갑니다 닫습니다.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^이것은 {0}의 목록입니다.^DefaultGridViewDescription^
+
+^DefaultNewDescription^양식을 작성하세요. 모든 필수 필드를 입력했는지 확인하십시오.^DefaultNewDescription^
+
+^DefaultOption^표준^DefaultOption^
+
+^DefaultReferenceDescription^{0}에 대한 추가 정보는 참조 정보 섹션에서 제공됩니다.^DefaultReferenceDescription^
+
+^Delete^삭제^Delete^
+
+^DeleteActionConfirmation^삭제?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^삭제^DeleteActionHeaderText^
+
+^Deleted^{$ selected}이 (가) 삭제되었습니다.^Deleted^
+
+^DeleteOriginalSel^원본 선택 물 삭제^DeleteOriginalSel^
+
+^DeleteSearchBarField^(삭제)^DeleteSearchBarField^
+
+^DetailsToolTip^{0}에 대한 세부 정보보기^DetailsToolTip^
+
+^DevelopExplorer^프로젝트 탐색기^DevelopExplorer^
+
+^DevelopFormLayout^양식 레이아웃^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^레이아웃에 포함될 스크린 크기를 선택하십시오.^DevelopFormLayoutInstr^
+
+^DevelopTools^개발자 도구^DevelopTools^
+
+^Device^장치^Device^
+
+^DeviceLoginPrompt^이 기기에서 액세스 권한을 부여하려면 로그인하십시오.^DeviceLoginPrompt^
+
+^DidNotMatch^일치하지 않습니다^DidNotMatch^
+
+^Directions^방향^Directions^
+
+^DiscardChanges^변경 사항을 취소?^DiscardChanges^
+
+^DisplayDensity^디스플레이 밀도^DisplayDensity^
+
+^DisplayedAbove^위에 표시^DisplayedAbove^
+
+^DisplayedBelow^아래에 표시^DisplayedBelow^
+
+^Dock^연결^Dock^
+
+^DoesNotBeginWith^로 시작되지 않습니다^DoesNotBeginWith^
+
+^DoesNotContain^포함하지 않습니다^DoesNotContain^
+
+^DoesNotEndWith^만으로 끝나 는게 아니라^DoesNotEndWith^
+
+^DoesNotEqual^평등하지 않습니다^DoesNotEqual^
+
+^DoesNotInclude^포함되지 않습니다^DoesNotInclude^
+
+^DoNotMatchAll^모든 조건이 일치하지 않는^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^모든 조건과 일치하지 않습니다^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^어떠한 조건에 일치하지 않는^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^모든 조건에 일치하지 않습니다^DoNotMatchAnyPastTense^
+
+^Download^다운로드^Download^
+
+^Draw^그리다^Draw^
+
+^DuplicateActionHeaderText^복제^DuplicateActionHeaderText^
+
+^DuplicateItem^중복 상품^DuplicateItem^
+
+^DuplicateRow^중복 행^DuplicateRow^
+
+^EditActionHeaderText^편집^EditActionHeaderText^
+
+^EditItem^항목 편집^EditItem^
+
+^EditModeCancelActionHeaderText^취소^EditModeCancelActionHeaderText^
+
+^EditRow^행 편집^EditRow^
+
+^Empty^빈^Empty^
+
+^EmptyContext^동작을 사용할 수 없습니다.^EmptyContext^
+
+^EmptyValue^(빈)^EmptyValue^
+
+^Enable^할 수있게하다^Enable^
+
+^EndsWith^로 끝나는^EndsWith^
+
+^Equals^같음^Equals^
+
+^Eraser^지우개^Eraser^
+
+^Error^오류^Error^
+
+^Exit^출구^Exit^
+
+^ExitFullscreen^종료 전체 화면^ExitFullscreen^
+
+^ExportCsvActionDescription^CSV 형식으로 다운로드 항목이 없습니다.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^다운로드^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^spreadsheet<br/>application과 항목을 분석.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^스프레드 시트로 내보내기^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^RSS 리더로 ​​신디케이트 항목이 없습니다.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^RSS 피드보기^ExportRssActionHeaderText^
+
+^Favorites^즐겨 찾기^Favorites^
+
+^Felt^펠트^Felt^
+
+^FileCleared^저장시 값이 지워집니다^FileCleared^
+
+^FilesBytes^바이트^FilesBytes^
+
+^FilesClear^명확한^FilesClear^
+
+^FilesClearConfirm^지우기?^FilesClearConfirm^
+
+^FilesClick^파일을 선택합니다^FilesClick^
+
+^FilesClickMany^파일을 선택합니다^FilesClickMany^
+
+^FilesDrop^여기에 파일을 드롭^FilesDrop^
+
+^FilesDropMany^여기에 파일을 드롭^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^파일을 선택합니다 눌러^FilesTap^
+
+^FilesTapMany^파일을 선택 탭^FilesTapMany^
+
+^Filter^필터^Filter^
+
+^FilterApplied^필터가 적용되었습니다.^FilterApplied^
+
+^FilterByField^<b>{0}</b> 할 수있는 필터를 적용 할 필드를 선택합니다.^FilterByField^
+
+^FilterByOptions^<b>{2}</b> 필드에 의해 아래의 목록과 <b>{0}</b> 필터를 눌러 <b>{1}</b>에서 하나 이상의 옵션을 선택합니다.^FilterByOptions^
+
+^FilterCleared^모든 필터를 지 웠습니다.^FilterCleared^
+
+^FilterLabelAnd^과^FilterLabelAnd^
+
+^FilterLabelClear^맑은^FilterLabelClear^
+
+^FilterLabelEquals^같음^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^변화^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^포함^FilterLabelIncludes^
+
+^FilterLabelOr^또는^FilterLabelOr^
+
+^FilterLabelSelectAll^(모두 선택)^FilterLabelSelectAll^
+
+^FilterSiteMap^필터 사이트 맵 ...^FilterSiteMap^
+
+^Finish^끝^Finish^
+
+^FitToWidth^폭에 맞춤^FitToWidth^
+
+^FlatTreeToggle^계층 구조로 전환^FlatTreeToggle^
+
+^FontName^글꼴 이름^FontName^
+
+^FontSize^글꼴 크기^FontSize^
+
+^ForeColor^앞 색상^ForeColor^
+
+^Forget^잊다^Forget^
+
+^ForgotYourPassword^비밀 번호를 잊으셨습니까?^ForgotYourPassword^
+
+^Format^체재^Format^
+
+^Freeze^고정^Freeze^
+
+^From^~에서^From^
+
+^Fullscreen^전체 화면^Fullscreen^
+
+^Future^미래^Future^
+
+^GeneralTabText^일반^GeneralTabText^
+
+^Generate^생성하다^Generate^
+
+^GenericNewToolTip^새로 만들기^GenericNewToolTip^
+
+^GenericSortAscending^상단에 작은^GenericSortAscending^
+
+^GenericSortDescending^상위에 최대^GenericSortDescending^
+
+^Graham^그레이엄^Graham^
+
+^GrandTotals^총계^GrandTotals^
+
+^Granite^화강암^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^중량^Gravity^
+
+^GreaterThan^보다 큰^GreaterThan^
+
+^GreateThanOrEqual^또는보다 크^GreateThanOrEqual^
+
+^Grid^그리드^Grid^
+
+^GridActionDescription^standard<br/>list 형식의 항목을 표시합니다.^GridActionDescription^
+
+^GridActionHeaderText^표준보기로 표시^GridActionHeaderText^
+
+^Group^그룹^Group^
+
+^GroupByField^<b>{0}</b> 그룹에 필드를 선택합니다.^GroupByField^
+
+^Grouped^그룹화 된^Grouped^
+
+^GroupedBy^별로 그룹화^GroupedBy^
+
+^GroupedDefault^그룹화가 제거되었습니다.^GroupedDefault^
+
+^Heading1^제목 1^Heading1^
+
+^Heading2^제목 2^Heading2^
+
+^Heading3^제목 3^Heading3^
+
+^Heading4^제목 4^Heading4^
+
+^Heading5^제목 5^Heading5^
+
+^Heading6^제목 6^Heading6^
+
+^Help^도움^Help^
+
+^HelpClose^가까운^HelpClose^
+
+^HelpFullScreen^전체 화면^HelpFullScreen^
+
+^Hide^숨는 장소^Hide^
+
+^HideAdvancedSearch^고급 검색 숨기기^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^플랫리스트로 전환^HierarchyTreeModeToggle^
+
+^Highlighter^형광펜^Highlighter^
+
+^History^역사^History^
+
+^HistoryToolTip^이전에 선택한 레코드의 내역보기^HistoryToolTip^
+
+^HistoryUnavailable^역사는 사용할 수 없습니다.^HistoryUnavailable^
+
+^Home^홈^Home^
+
+^IdleUser^당신은 아직 거기 있습니까? 다시 로그인하십시오.^IdleUser^
+
+^ImportActionDescription^CSV, XLS, XLSX 또는 file<br/>to 가져오기 기록을 업로드합니다.^ImportActionDescription^
+
+^ImportActionHeaderText^파일에서 가져오기^ImportActionHeaderText^
+
+^ImportAutoDetect^(자동 감지)^ImportAutoDetect^
+
+^ImportComplete^완전한^ImportComplete^
+
+^ImportDone^완성 된 가져 오기^ImportDone^
+
+^ImportDownloadTemplate^가져오기 파일 템플릿을 다운로드합니다.^ImportDownloadTemplate^
+
+^ImportDuplicates^중복^ImportDuplicates^
+
+^ImportEmail^다음 이메일 주소로 가져오기 로그를 전송 (옵션)^ImportEmail^
+
+^ImportEmailNotSpecified^수입 로그의 수신자가 지정되지 않았습니다. 어쨌든시겠습니까?^ImportEmailNotSpecified^
+
+^ImportExpected^완료 예상^ImportExpected^
+
+^ImportFileStats^파일의 <b>{0}</b> 레코드를 처리 할 준비가 <b>{1}</b>있다. 필드 이름과 일치하십시오.^ImportFileStats^
+
+^Importing^가져 오기^Importing^
+
+^ImportMappingInstruction^<b>{0}</b> 기록 (들)은 파일 <b>{1}</b>의 데이터 파일에서 응용 프로그램 필드 가져오기 분야 processed.<br/>Please지도하고 처리를 시작 <i>Import</i>를 클릭하여 준비하고 있습니다.^ImportMappingInstruction^
+
+^ImportNotSupported^&quot;{0}&quot;의 데이터 형식은 지원되지 않습니다.^ImportNotSupported^
+
+^ImportProcessing^가져오기 파일 처리가 시작되었습니다. 가져온 데이터 레코드가 성공적으로 처리시 사용할 수있게됩니다. 당신이 가져온 레코드를 볼 수있는 관련 전망 / 페이지를 새로 고쳐야 할 수도 있습니다.^ImportProcessing^
+
+^ImportRemaining^완료 예상^ImportRemaining^
+
+^ImportSelectFile^CSV, XLS, XLSX 또는 형식의 데이터 파일을 선택합니다.^ImportSelectFile^
+
+^ImportStartButton^수입^ImportStartButton^
+
+^ImportUploading^귀하의 파일이 서버로 업로드되고 있습니다. 잠시 기다려주십시오 ...^ImportUploading^
+
+^ImportUploadInstruction^업로드할 파일을 선택하십시오. 파일 <b>CSV</b>, <b>XLS</b> 또는 <b>XLSX</b> 형식이어야합니다.^ImportUploadInstruction^
+
+^In^에^In^
+
+^Includes^포함^Includes^
+
+^Indent^들여 쓰기^Indent^
+
+^InfoBarAnd^과^InfoBarAnd^
+
+^InfoBarEmpty^빈^InfoBarEmpty^
+
+^InfoBarEqualTo^같음^InfoBarEqualTo^
+
+^InfoBarGreaterThan^보다 큼^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^보다 크거나 같음^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^보다 작음^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^보다 작거나 같음^InfoBarLessThanOrEqual^
+
+^InfoBarLike^같은^InfoBarLike^
+
+^InfoBarOr^또는^InfoBarOr^
+
+^InfoBarQuickFind^모든 필드가 포함되어 있습니다^InfoBarQuickFind^
+
+^InfoBarStartsWith^로 시작^InfoBarStartsWith^
+
+^InitialListMode^초기 목록 모드^InitialListMode^
+
+^InlineEditing^인라인 편집^InlineEditing^
+
+^InsertActionHeaderText^OK^InsertActionHeaderText^
+
+^InsertHorizontalRule^수평 규칙을 삽입^InsertHorizontalRule^
+
+^InsertingRecords^레코드를 삽입^InsertingRecords^
+
+^InsertOrderedList^순서가있는 목록을 삽입^InsertOrderedList^
+
+^InsertUnorderedList^삽입 정렬되지 않은 목록^InsertUnorderedList^
+
+^Into^으로^Into^
+
+^InvalidUserNameAndPassword^사용자 이름과 암호가 유효하지 않습니다.^InvalidUserNameAndPassword^
+
+^Italic^이탤릭체^Italic^
+
+^ItemsPerPage^페이 지당 항목 :^ItemsPerPage^
+
+^ItemsSelectedMany^선택 {0} 항목^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} 항목 선택^ItemsSelectedOne^
+
+^JustDatesNow^방금^JustDatesNow^
+
+^JustifyCenter^센터를 정당화^JustifyCenter^
+
+^JustifyFull^전체 맞춤^JustifyFull^
+
+^JustifyLeft^왼쪽 맞춤^JustifyLeft^
+
+^JustifyRight^오른쪽 맞춤^JustifyRight^
+
+^KeepOriginalSel^원래 선택 유지^KeepOriginalSel^
+
+^LabelsInList^목록에서 라벨^LabelsInList^
+
+^Lacquer^래커^Lacquer^
+
+^Laminate^라미네이트^Laminate^
+
+^Landscape^풍경^Landscape^
+
+^Large^큰^Large^
+
+^LastMonth^지난 달^LastMonth^
+
+^LastQuarter^지난 분기^LastQuarter^
+
+^LastWeek^지난 주^LastWeek^
+
+^LastYear^작년^LastYear^
+
+^Less^적게^Less^
+
+^LessThan^미만^LessThan^
+
+^LessThanOrEqual^거나 같음보다 작음^LessThanOrEqual^
+
+^Lichen^이끼^Lichen^
+
+^LightTheme^빛^LightTheme^
+
+^Line^선^Line^
+
+^List^표^List^
+
+^ListOneColumn^표 (1 열)^ListOneColumn^
+
+^ListViewStyle^명부^ListViewStyle^
+
+^Loading^로드 중 ...^Loading^
+
+^Logical^논리^Logical^
+
+^LoginButton^로그인^LoginButton^
+
+^LoginLink^로그인^LoginLink^
+
+^Logout^로그아웃^Logout^
+
+^LookupInstruction^목록에 <b>{0}</b>을 선택하세요.^LookupInstruction^
+
+^LookupOriginalSelection^원래 선택 <b>&quot;{0}&quot;</b>입니다.^LookupOriginalSelection^
+
+^ManageAccounts^계정 관리^ManageAccounts^
+
+^Map^지도^Map^
+
+^MatchAll^모든 조건에 일치^MatchAll^
+
+^MatchAllPastTense^모든 조건을 일치^MatchAllPastTense^
+
+^MatchAny^모든 조건에 일치^MatchAny^
+
+^MatchAnyPastTense^어떤 조건에 맞는^MatchAnyPastTense^
+
+^Matched^일치^Matched^
+
+^MaxAggregate^최대 : {0}^MaxAggregate^
+
+^MaxAggregateToolTip^{0} 최대^MaxAggregateToolTip^
+
+^Maximize^확장^Maximize^
+
+^MaximumOf^최대^MaximumOf^
+
+^Medium^중^Medium^
+
+^Menu^메뉴^Menu^
+
+^MinAggregate^최소 : {0}^MinAggregate^
+
+^MinAggregateToolTip^{0}의 최소^MinAggregateToolTip^
+
+^Minimize^축소^Minimize^
+
+^MinimumOf^최소^MinimumOf^
+
+^Mission^사명^Mission^
+
+^ModeBrowsing^검색^ModeBrowsing^
+
+^ModeEditing^편집^ModeEditing^
+
+^ModeEntering^입력^ModeEntering^
+
+^ModeLookup^조회^ModeLookup^
+
+^Modern^현대^Modern^
+
+^ModernRose^현대 로즈^ModernRose^
+
+^ModeViewing^보기^ModeViewing^
+
+^Month^달^Month^
+
+^More^더^More^
+
+^MultiSelection^다중 선택^MultiSelection^
+
+^Municipal^시^Municipal^
+
+^MyAccount^내 계정^MyAccount^
+
+^Never^어머 놀랐다^Never^
+
+^NewActionHeaderText^새로운^NewActionHeaderText^
+
+^NewItem^새로운 물품^NewItem^
+
+^NewRow^새 행^NewRow^
+
+^NewRowLink^새로운 레코드를 만들려면 여기를 클릭하십시오.^NewRowLink^
+
+^NewToolTip^새로운 {0}^NewToolTip^
+
+^Next^다음^Next^
+
+^Next2^다음 것^Next2^
+
+^NextMonth^다음 달^NextMonth^
+
+^NextQuarter^다음 분기^NextQuarter^
+
+^NextWeek^다음 주^NextWeek^
+
+^NextYear^내년에^NextYear^
+
+^No^아니^No^
+
+^NoMatches^일치하는 항목이 없습니다.^NoMatches^
+
+^None^없음^None^
+
+^Noon^정오^Noon^
+
+^NoRecords^아무 기록을 찾을 수 없습니다.^NoRecords^
+
+^NoteDeleteConfirm^삭제?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^삭제^NoteDeleteLabel^
+
+^NoteEditLabel^편집^NoteEditLabel^
+
+^NotEmpty^비어 있지^NotEmpty^
+
+^NotMatched^(일치하지 않음)^NotMatched^
+
+^NullValue^N/A^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^수^Number^
+
+^NumberFilterText^숫자 필터^NumberFilterText^
+
+^NumberIsExpected^숫자 예정입니다.^NumberIsExpected^
+
+^OdpCommitting^거래 업로드 중 ...^OdpCommitting^
+
+^OdpDone^끝난.^OdpDone^
+
+^OdpDownloadingBlob^{0}에 대한 이진 데이터 다운로드 중 ...^OdpDownloadingBlob^
+
+^OdpDownloadingData^{0}에 대한 데이터 다운로드 중 ...^OdpDownloadingData^
+
+^OdpInitializing^초기화 중 ...^OdpInitializing^
+
+^OdpInvalidResponse^서버의 응답이 잘못되었습니다.^OdpInvalidResponse^
+
+^OdpLastRefresh^마지막 새로 고침 : {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^데이터가 새로 고쳐지지 않았습니다.^OdpNotRefreshed^
+
+^OdpOfflineState^오프라인 모드에서 작업 중입니다.^OdpOfflineState^
+
+^OdpOnlineRequired^온라인 연결이 필요합니다.^OdpOnlineRequired^
+
+^OdpPending^보류중인 변경 사항^OdpPending^
+
+^OdpReconRequired^조정이 필요합니다^OdpReconRequired^
+
+^OdpReconTxDelete^로그에서이 변경 사항을 삭제 하시겠습니까?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^로그에서 첫 번째 보류 트랜잭션을 삭제했습니다.^OdpReconTxDeleted^
+
+^OdpRefresh^데이터 새로 고침^OdpRefresh^
+
+^OdpRefreshData^데이터 새로 고침^OdpRefreshData^
+
+^OdpRefreshLast^새로 고침 된 데이터^OdpRefreshLast^
+
+^OdpSave^모든 변경 사항을 저장하십시오.^OdpSave^
+
+^OdpSaveAndSync^모든 변경 사항을 저장하고 상황에 맞는 메뉴에서 동기화 옵션을 선택하십시오.^OdpSaveAndSync^
+
+^OdpServerUnavailable^응용 프로그램 서버를 사용할 수 없습니다.^OdpServerUnavailable^
+
+^OdpStatus^상태^OdpStatus^
+
+^OdpSync^동기화^OdpSync^
+
+^OdpSynced^동기화^OdpSynced^
+
+^OdpSyncLast^마지막 동기화^OdpSyncLast^
+
+^OdpSyncLong^변경 사항을 업로드하도록 동기화하십시오.^OdpSyncLong^
+
+^OdpSyncUploadFailed^{0} 파일을 업로드하지 못했습니다.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^{0} 업로드 중 ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^삭제할 수 없습니다. {1}의 종속 품목.^OdpUnableToDelete^
+
+^OdpUnableToExec^실행할 수 없습니다.^OdpUnableToExec^
+
+^OdpUnableToProcess^거래를 처리 할 수 없습니다.^OdpUnableToProcess^
+
+^OdpUnableToSave^변경 사항을 저장할 수 없습니다.^OdpUnableToSave^
+
+^OdpUploadFailed^파일을 업로드하지 못했습니다.^OdpUploadFailed^
+
+^OdpUploadingFiles^{0} 파일 업로드 중 ...^OdpUploadingFiles^
+
+^OK^OK^OK^
+
+^OnHover^호버에서^OnHover^
+
+^OnOrAfter^이후^OnOrAfter^
+
+^OnOrBefore^또는 그 이전에^OnOrBefore^
+
+^OpenActionHeaderText^열린^OpenActionHeaderText^
+
+^Optional^선택 과목^Optional^
+
+^Orientation^정위^Orientation^
+
+^Other^다른^Other^
+
+^Outdent^내어 쓰기^Outdent^
+
+^Page^페이지^Page^
+
+^Paragraph^절^Paragraph^
+
+^Password^암호^Password^
+
+^Past^지난^Past^
+
+^Paste^풀^Paste^
+
+^Pen^펜^Pen^
+
+^PerformAdvancedSearch^수색^PerformAdvancedSearch^
+
+^Permalink^블로그 바로가기^Permalink^
+
+^PermalinkToolTip^선택한 레코드에 대한 영구 링크 만들기^PermalinkToolTip^
+
+^PermalinkUnavailable^영구 사용할 수 없습니다. 레코드를 선택하십시오.^PermalinkUnavailable^
+
+^Petal^꽃잎^Petal^
+
+^Pinnate^우상^Pinnate^
+
+^Plastic^플라스틱^Plastic^
+
+^Portrait^초상화^Portrait^
+
+^PresentationStyle^데이터 프리젠 테이션 스타일을 선택합니다.^PresentationStyle^
+
+^Prev2^이전^Prev2^
+
+^Previous^이전^Previous^
+
+^PromoteActions^작업을 추진^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^쿼터^Quarter^
+
+^Quarter1^분기 1^Quarter1^
+
+^Quarter2^분기이^Quarter2^
+
+^Quarter3^3 분기^Quarter3^
+
+^Quarter4^4 분기^Quarter4^
+
+^QuickFindDescription^{0}에서 검색^QuickFindDescription^
+
+^QuickFindScope^에서 검색 ...^QuickFindScope^
+
+^QuickFindText^빨리 찾기^QuickFindText^
+
+^QuickFindToolTip^입력 레코드를 검색하고 Enter 키를 누릅니다^QuickFindToolTip^
+
+^Quotation^인용^Quotation^
+
+^Reading^독서...^Reading^
+
+^ReadingPane^독서 창^ReadingPane^
+
+^ReadOnly^{0}은 읽기 전용입니다.^ReadOnly^
+
+^Recent^최근^Recent^
+
+^Redo^다시^Redo^
+
+^Refresh^새로고침^Refresh^
+
+^Refreshed^새로 고침^Refreshed^
+
+^RememberMe^나에게 다음 시간을 기억^RememberMe^
+
+^RemoveCondition^조건을 제거^RemoveCondition^
+
+^RemoveFormat^서식 제거^RemoveFormat^
+
+^ReportActionDescription^PDF 형식으로 보고서를 렌더링^ReportActionDescription^
+
+^ReportActionHeaderText^보고서^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^formatted<br/>Microsoft Excel 스프레드 시트에서 항목을 볼 수 있습니다.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^스프레드 시트^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^다중 페이지 TIFF 이미지로 항목을 볼 수 있습니다.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^다중 이미지^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^어도비 PDF는 호환 리더 document.<br/>Requires 같은 항목을 볼 수 있습니다.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^PDF 문서^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^formatted<br/>Microsoft Word 문서에서 항목을 볼 수 있습니다.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word를^ReportAsWordActionHeaderText^
+
+^Required^필수^Required^
+
+^RequiredField^이 필드는 필수 항목입니다.^RequiredField^
+
+^RequiredFiledMarkerFootNote^필수 필드를 나타냅니다^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^재설정^ResetAdvancedSearch^
+
+^ResetSearchConfirm^검색 조건을 재설정 하시겠습니까?^ResetSearchConfirm^
+
+^ResolvingReferences^참조 해결^ResolvingReferences^
+
+^ResumeBrowsing^찾아보기 재개^ResumeBrowsing^
+
+^ResumeEditing^편집이 다시 시작^ResumeEditing^
+
+^ResumeEntering^입력 재개^ResumeEntering^
+
+^ResumeLookup^조회에게 다시 시작^ResumeLookup^
+
+^ResumeViewing^보기를 다시 시작^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^역할^RolesTab^
+
+^RootNodeText^상위 수준^RootNodeText^
+
+^Rotate^회전^Rotate^
+
+^RowCancelActionHeaderText^취소^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^삽입^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^저장^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^업데이트?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^업데이트 선택^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^저장^Save^
+
+^SaveAndContinue^저장하고 계속^SaveAndContinue^
+
+^SaveAndNew^저장하고 새^SaveAndNew^
+
+^Saved^저장 됨 - {0}^Saved^
+
+^ScanToConfirm^다시 스캔하여 확인하십시오.^ScanToConfirm^
+
+^SeeAll^전체보기^SeeAll^
+
+^SeeAlso^또한 참조^SeeAlso^
+
+^SelectActionHeaderText^선택^SelectActionHeaderText^
+
+^SelectAll^전체 선택^SelectAll^
+
+^SelectItem^물품을 고르시 오^SelectItem^
+
+^SelectLink^(선택)^SelectLink^
+
+^SelectRow^행 선택^SelectRow^
+
+^SelectToolTip^선택 {0}^SelectToolTip^
+
+^Separator^분리 기호^Separator^
+
+^Settings^설정^Settings^
+
+^Show^보여 주다^Show^
+
+^ShowAdvancedSearch^고급 검색보기^ShowAdvancedSearch^
+
+^ShowChart^보기 차트^ShowChart^
+
+^ShowData^데이터 표시^ShowData^
+
+^ShowingItems^<b>{0}</b> 항목 <b>{1}</b> - <b>{2}</b>보기^ShowingItems^
+
+^ShowingItemsInfo^{0} 항목을 표시합니다.^ShowingItemsInfo^
+
+^ShowingItemsRange^{0} 항목의 {1}보기^ShowingItemsRange^
+
+^ShowLess^덜보기^ShowLess^
+
+^ShowMore^자세히보기^ShowMore^
+
+^ShowOptions^보기 옵션^ShowOptions^
+
+^ShowSystemButtons^표시 시스템 버튼^ShowSystemButtons^
+
+^Sidebar^사이드 바^Sidebar^
+
+^Sign^여기 서명^Sign^
+
+^SignedOut^로그 아웃^SignedOut^
+
+^SignUpNow^지금 가입^SignUpNow^
+
+^Simple^단순한^Simple^
+
+^SiteActions^사이트 작업^SiteActions^
+
+^SizeLabel^크기^SizeLabel^
+
+^Small^작은^Small^
+
+^Social^사회적인^Social^
+
+^Sort^순서^Sort^
+
+^SortBy^{0} 정렬^SortBy^
+
+^SortByField^<b>{0}</b>의 정렬 순서를 변경하려면 필드를 선택합니다.^SortByField^
+
+^SortByOptions^아래의 옵션 목록에 <b>{0}</b> 필드에 <b>{1}</b>의 정렬 순서를 선택합니다.^SortByOptions^
+
+^Sorted^정렬 된^Sorted^
+
+^SortedDefault^기본 정렬 순서.^SortedDefault^
+
+^StartImport^가져 오기 시작^StartImport^
+
+^StrikeThrough^을 통해 공격^StrikeThrough^
+
+^StringSortAscending^오름차순^StringSortAscending^
+
+^StringSortDescending^내림차순^StringSortDescending^
+
+^Submit^제출^Submit^
+
+^Subscript^서브 스크립트^Subscript^
+
+^Suggestions^제안^Suggestions^
+
+^SumAggregate^합계 : {0}^SumAggregate^
+
+^SumAggregateToolTip^{0}의 합^SumAggregateToolTip^
+
+^Summary^개요^Summary^
+
+^Summer^여름^Summer^
+
+^SumOf^의 합^SumOf^
+
+^Superscript^슈퍼 스크립트^Superscript^
+
+^Sync^동조^Sync^
+
+^TaskResume^계속하다^TaskResume^
+
+^Tasks^작업^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^알파벳^TelHints2^
+
+^TelHints3^데프^TelHints3^
+
+^TelHints4^기^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^음^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^투브^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^테스트 기록^TestingRecords^
+
+^Text^본문^Text^
+
+^TextFilterText^텍스트 필터^TextFilterText^
+
+^Theme^테마^Theme^
+
+^ThisMonth^이번 달^ThisMonth^
+
+^ThisQuarter^이번 분기^ThisQuarter^
+
+^ThisWeek^이번 주^ThisWeek^
+
+^ThisYear^올해^ThisYear^
+
+^Tiny^작은^Tiny^
+
+^Today^오늘^Today^
+
+^Tomorrow^내일^Tomorrow^
+
+^Top^상단^Top^
+
+^ToThisWebsite^본 웹사이트에^ToThisWebsite^
+
+^TouchUINotSupported^터치 UI는이 브라우저에서 지원되지 않습니다.^TouchUINotSupported^
+
+^TransitionFade^페이드^TransitionFade^
+
+^TransitionFlip^플립^TransitionFlip^
+
+^TransitionFlow^흐름^TransitionFlow^
+
+^TransitionNone^없음^TransitionNone^
+
+^TransitionPop^대중적인^TransitionPop^
+
+^Transitions^전환^Transitions^
+
+^TransitionSlide^슬라이드^TransitionSlide^
+
+^TransitionSlideDown^아래로 밀어^TransitionSlideDown^
+
+^TransitionSlideUp^위로 밀어^TransitionSlideUp^
+
+^TransitionTurn^회전^TransitionTurn^
+
+^TreeActionDescription^계층 관계를 표시합니다.^TreeActionDescription^
+
+^TreeActionHeaderText^계층 구조보기^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^인증 코드 받기^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^인증 앱^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^인증 코드를 제공할 수 없으면 대신 백업 코드를 입력하십시오.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^일회성 코드^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^백업 코드^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^에 전화를 걸었습니다.^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^다음 주소로 이메일이 전송되었습니다.^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^에게 문자 메시지를 보냈습니다.^TwoFaCodeSentSms^
+
+^TwoFaConsent^동의^TwoFaConsent^
+
+^TwoFaEnterPassword^비밀번호를 입력하세요^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^전화주세요^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^내가 전화할게^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^나에게 이메일을 보내^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^나에게 문자 보내기^TwoFaGetCodeSms^
+
+^TwoFaMethod^방법^TwoFaMethod^
+
+^TwoFaMsgChanged^2단계 인증이 변경되었습니다.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^2단계 인증이 비활성화되었습니다.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^이중 인증을 비활성화하시겠습니까?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^2단계 인증이 활성화되었습니다.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^{0}자리 인증 코드를 입력하세요.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^잘못된 비밀번호.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^잘못된 인증 코드입니다.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000은 {0} 인증 코드입니다.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^QR 코드를 스캔할 수 없습니다.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^인증 앱 설치에 도움이 필요합니다.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^모바일 장치에 인증자 앱이 있습니다.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^인증 코드를 제공할 수 없는 경우 일회용 백업 코드를 사용하여 로그인할 수 있습니다.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^백업 코드^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^로그인 성공 후 인증번호를 입력하겠습니다.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^앱에서 설정 키 입력^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^검증 방법^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^카메라로 QR 코드 스캔^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^앱에서 QR 코드를 스캔하세요.^TwoFaSetupScanQrCode^
+
+^TwoFaText^2단계 인증^TwoFaText^
+
+^TwoFaTrustThisDevice^이 장치를 신뢰하십시오^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^확인 코드^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^인증기 앱을 사용하여 인증 코드를 받습니다.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^내 전화로 자동 전화를 받게 됩니다.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^인증 코드는 이메일로 전달됩니다.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^인증 코드는 문자 메시지로 전달됩니다.^TwoFaVerifyViaSms^
+
+^TypeToSearch^검색을 입력^TypeToSearch^
+
+^Underline^밑줄^Underline^
+
+^Undo^취소^Undo^
+
+^Undock^도킹 해제^Undock^
+
+^Unfreeze^녹이다^Unfreeze^
+
+^UnGrouped^그룹화가 제거되었습니다.^UnGrouped^
+
+^UnLink^해제^UnLink^
+
+^UnSelect^선택을 해제^UnSelect^
+
+^UpdateActionHeaderText^OK^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^업데이트?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^업데이트 선택^UpdateActionInBatchModeHeaderText^
+
+^Upload^업로드^Upload^
+
+^UploadDescription^여러 파일을 업로드하십시오.^UploadDescription^
+
+^Uploading^{0} 업로드 중 ...^Uploading^
+
+^UpOneLevel^한 수준 위로^UpOneLevel^
+
+^UseLEV^붙여넣기 &quot;{0}&quot;^UseLEV^
+
+^UserName^사용자 이름^UserName^
+
+^UsersInRole^역할의 사용자^UsersInRole^
+
+^UsersTab^사용자^UsersTab^
+
+^Vantage^우세^Vantage^
+
+^Verdant^초록의^Verdant^
+
+^Verify^검증^Verify^
+
+^View^전망^View^
+
+^Viewpoint^견해^Viewpoint^
+
+^Wait^기다리세요...^Wait^
+
+^Week^주^Week^
+
+^Welcome1^환영^Welcome1^
+
+^Welcome2^오늘은^Welcome2^
+
+^WhiteSmoke^흰 연기^WhiteSmoke^
+
+^WithSelectedValues10^선정 된 가치를 가진 정상 10^WithSelectedValues10^
+
+^WithSelectedValues5^선택된 값 (상위 5 개)^WithSelectedValues5^
+
+^WithSpecifiedFilters^지정된 필터 사용^WithSpecifiedFilters^
+
+^Year^년^Year^
+
+^YearToDate^날짜 년^YearToDate^
+
+^Yes^예^Yes^
+
+^Yesterday^어제^Yesterday^
+
+^Yoshi^요시^Yoshi^
+
+^ZoomIn^확대^ZoomIn^
+
+^ZoomOut^축소^ZoomOut^
+

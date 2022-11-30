@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Tạo ra một hồ sơ thành viên Vai trò mới.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^New Vai trò^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^New^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Hoàn thành mẫu đơn. Hãy chắc chắn để vào tất cả các lĩnh vực cần thiết.^CreateFormCategory^
+
+^CreateFormHeaderText^Xin vui lòng điền mẫu này và nhấn nút OK để tạo ra một vai trò thành viên mới ghi. Nhấp vào Cancel để quay trở lại màn hình trước đó.^CreateFormHeaderText^
+
+^DescriptionLabel^Mô tả^DescriptionLabel^
+
+^EditViewCategory^Đây là những lĩnh vực của hồ sơ vai trò thành viên có thể được chỉnh sửa.^EditViewCategory^
+
+^EditViewHeaderText^Vui lòng xem lại các thông tin về thành viên vai trò dưới đây. Nhấp vào Chỉnh sửa để thay đổi hồ sơ này, nhấn Delete để xóa các bản ghi, hoặc nhấn vào Cancel / Close để trở về.^EditViewHeaderText^
+
+^GridViewHeaderText^Đây là danh sách các vai trò thành viên.^GridViewHeaderText^
+
+^RoleNameLabel^Vai trò Tên^RoleNameLabel^
+

@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Комментировать^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b>{1}</b> Прилагается в {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Привязанность^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Введите дополнительные примечания и прикреплять файлы.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Примечания и вложения^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Написана в {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Примечания^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Примечания^AnnotationTab^
+
+^BlobClearConfirm^Очистить?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Был очищен.^BlobCleared^
+
+^BlobClearText^Ясно^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Удалось загрузить {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Нажмите^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^здесь^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^загружать или снимите {0} файл.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Был загружен успешно. <b>It Может занять до {1} минут на изображение, чтобы отражать загружены content.</b>^BlobUploded^
+
+^Copyright^Все права защищены.^Copyright^
+
+^RecordChangedByAnotherUser^Запись была изменена другим пользователем.^RecordChangedByAnotherUser^
+

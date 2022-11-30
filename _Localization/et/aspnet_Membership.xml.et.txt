@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Loo uus kasutaja rekord.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Uus kasutaja^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Uus^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Tagasi^BackToRequestPasswordActionHeaderText^
+
+^Comment^Kommentaar^Comment^
+
+^ConfirmIdentityActionHeaderText^Lõpetama^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Confirm New Password^ConfirmNewPassword^
+
+^ConfirmPassword^Kinnita parool^ConfirmPassword^
+
+^CreateDate^Loo kuupäev^CreateDate^
+
+^CreateFormCommentCategoryDescription^Enter tahes täiendavaid kommentaare selle kasutaja konto. Kommentaar ei ole nähtav kasutaja.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Kommentaarid^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Palun sisesta kasutajanimi ja parool. Pange tähele, et parool peab olema vähemalt 7 sümbolit pikk ja sisaldama üht mitte-tähtnumbriline märk. Üksnes tunnustatud kasutajad saavad sisse logida veebilehel.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^New User Information^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Need väljad on kohustuslikud, et aidata kasutajal taastada ununenud salasõna. Taastumise ajal protsessi kasutaja palutakse sisestada kasutaja nimi. Kui kasutaja konto on olemas, siis turvalisuse küsimus palutakse vastata. Õige vastus käivitab e-posti ajutine salasõna saata kasutaja.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Palun valige kasutaja rolle, mis vastavad kõige täpsemalt kasutaja kohustustele. Rollid kontrollida juurdepääsu valdkonnas sellele veebilehele. Palun võtke ühendust süsteemi administraatoriga kui rolli juurdepääsupiirangud tuleb muuta.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Rollid^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Palun täitke see vorm ja klõpsake OK nuppu, et luua uus kasutaja liikmeks rekord. Click Cancel naasmiseks eelmisele ekraanile.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Uus kasutaja^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^See kasutaja konto on loodud heaks.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplicate meiliaadress.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Duplicate pakkuja võti.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplicate kasutaja nimi.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Kalandustegevuse statistiliste^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^See kasutajakonto on heaks kiidetud^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Need on statistika ebaõnnestunud login katseid selle kasutaja. <br/> <br/> Kasutaja on lukus pärast jõuda maksimaalne arv ei login katseid. <br/> <br/> Lukus kasutajad saavad uuesti sisse pärast ebaõnnestus Parool Attempt Window Start. <br/> <br/> Kasutajad, kes ei suutnud taastuda parooli saab nii et pärast kuupäeva ebaõnnestus Parool Vastus Attempt Window Start. <br/> <br/> Saate taastada kasutaja võimet login seades lukus lipp &quot;Ei&quot;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Logi sisse Statistika^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Taastumise ajal kui parool on ununenud kasutajal palutakse sisestada kasutaja nimi. Kui kasutaja konto on olemas, siis turvalisuse küsimus palutakse vastata. Õige vastus käivitab e-posti ajutine salasõna saata kasutaja. <br/><br/> Change lukus lipp &quot;ei&quot;, kui kasutaja on suletud pärast jõuda maksimaalne arv ei login katseid ja soovite, et kasutaja uuesti sisse logima.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Palun valige kasutaja rolle, mis vastavad kõige täpsemalt kasutaja kohustustele. Rollid kontrollida juurdepääsu valdkonnas sellele veebilehele. Palun võtke ühendust süsteemi administraatoriga kui rolli juurdepääsupiirangud tuleb muuta. <br/> <br/> Enter tahes täiendavaid kommentaare selle kasutaja konto. Kommentaar ei ole nähtav kasutaja.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Kasutaja andmed^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Palun vaadake kasutaja liikmeks allpool toodud andmed. Click Muuda selle kirje, klõpsake Kustuta rekord, või klõpsake Cancel / Sulge naasta.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Review Kasutaja^EditFormViewLabel^
+
+^Email^Email^Email^
+
+^EnterCurrentPassword^Palun sisestage oma parool.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Palun sisesta parool vastus.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Error kokkuhoid kasutajakonto.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Ebaõnnestus Parool Vastus Attempt Count^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Ebaõnnestus Parool Vastus Attempt Window Start^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Ebaõnnestus Parool Attempt Count^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Ebaõnnestus Parool Attempt Window Start^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^See on loetelu liikmesusest kasutaja arvestust.^GridViewHeaderText^
+
+^GridViewLabel^All Users^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Vastata järgmisele küsimusele saada parool. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identity Kinnitus^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Palun täitke see vorm ja vajuta nuppu Esita taastada ununenud salasõna. Click Cancel naasmiseks eelmisele ekraanile.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: Step 2 of 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Vigane taasta parool vastus.^InvalidAnswer^
+
+^InvalidEmail^Invalid email address.^InvalidEmail^
+
+^InvalidPassword^Vigane parool.^InvalidPassword^
+
+^InvalidProviderUserKey^Vigane pakkuja kasutaja võti.^InvalidProviderUserKey^
+
+^InvalidQuestion^Vigane parool taastamise küsimus.^InvalidQuestion^
+
+^InvalidUserName^Vale kasutajanimi.^InvalidUserName^
+
+^IsApproved^On heaks kiidetud^IsApproved^
+
+^IsLockedOut^On lukus^IsLockedOut^
+
+^LastLockoutDate^Last Lockout Date^LastLockoutDate^
+
+^LastLoginDate^Last Login Date^LastLoginDate^
+
+^LastPasswordChangedDate^Last Parool Muudetud aeg^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Parool Vastus (ei kuvata teie kaitseks)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Palun sisestage oma kehtiv parool, et luua uus parool värskendada oma meiliaadress või muuta taasta parool küsimust ja vastust.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Praegune salasõna^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Palun vaadake oma liikmelisuse allpool toodud andmed. Vajuta Uuenda Minu konto muuta selle kirje või vajutage Loobu naasta.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Minu konto^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Palun sisesta uus parool. Pange tähele, et parool peab olema vähemalt 7 sümbolit pikk ja sisaldama üht mitte-tähtnumbriline märk.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Uus parool (fakultatiivne)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Taastumise ajal kui parool on ununenud palutakse teil sisestada oma kasutajanimi. Kui kasutaja konto on olemas, siis parool küsimusele tuleb vastata. Õige vastus käivitab e-posti ajutine salasõna saata teile.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Password Recovery (valikuline)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^New Password^NewPassword^
+
+^NewPasswordAlert^Uus parool on meilitakse aadressi faili.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Uus parool ja kinnitus ei sobi.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Sinu uus parool on vigane.^NewPasswordInvalid^
+
+^NewPasswordSubject^Uue parooli \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Vana parool^OldPassword^
+
+^Password^Parool^Password^
+
+^PasswordAndConfirmationDoNotMatch^Password ja kinnitus ei sobi.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Parool Vastus^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Teie parool ei sobi meie andmebaasist.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Parool Format^PasswordFormat^
+
+^PasswordQuestion^Parool Küsimus^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Palun sisesta kasutajanimi. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Unustasid oma parooli?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Palun täitke see vorm ja klõpsake nuppu Jätka taastada ununenud salasõna. Click Cancel naasmiseks eelmisele ekraanile.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: Step 1 of 2^PasswordRequestViewLabel^
+
+^ProviderError^Pakkuja viga.^ProviderError^
+
+^RequestPasswordActionHeaderText^Järgmine^RequestPasswordActionHeaderText^
+
+^Roles^Rollid^Roles^
+
+^SelfRegisteredUser^Füüsilisest isikust registreeritud kasutaja.^SelfRegisteredUser^
+
+^SignUp^Registreeru^SignUp^
+
+^SignUpViewHeaderText^Palun täitke see vorm ja klõpsake nuppu OK logida konto. Click Cancel naasmiseks eelmisele ekraanile.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Konto Sign Up^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Palun sisesta kasutajanimi ja parool. Pange tähele, et parool peab olema vähemalt 7 sümbolit pikk ja sisaldama üht mitte-tähtnumbriline märk. Üksnes tunnustatud kasutajad saavad sisse logida veebilehel.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^New User Information^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Need väljad on kohustuslikud, et aidata teil taastada ununenud salasõna. Ajal taastamise protsess palutakse teil sisestada kasutaja nimi. Kui kasutaja konto on olemas, siis turvalisuse küsimus palutakse vastata. Õige vastus käivitab e-posti ajutine salasõna saadavad registreeritud aadressi.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Värskenda Minu konto^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Kasutaja ei ole lukus. Kui soovite, et vältida selle kasutaja olema võimeline login siis lihtsalt märk kasutaja &quot;mitte heaks.&quot;^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Kasutaja&#39;{0}&#39; on kustutatud.^UserHasBeenDeleted^
+
+^UserName^Kasutajanimi^UserName^
+
+^UserNameDoesNotExist^Kasutaja nimi ei ole olemas.^UserNameDoesNotExist^
+
+^UserNotFound^Kasutaja ei leitud.^UserNotFound^
+
+^UserRejected^Kasutaja on tagasi lükatud.^UserRejected^
+
+^UsersInRolesGridHeaderText^See on loetelu liikmesusest kasutaja kirjed, mis kuuluvad valitud rolli.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Kasutajad roll^UsersInRolesGridLabel^
+

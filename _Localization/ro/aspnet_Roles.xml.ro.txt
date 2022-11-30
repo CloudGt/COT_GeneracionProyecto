@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Creaţi un nou record rol de membru.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Rolul noi^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nou^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Completaţi formularul. Asiguraţi-vă că pentru a introduce toate câmpurile obligatorii.^CreateFormCategory^
+
+^CreateFormHeaderText^Vă rugăm să completaţi acest formular şi faceţi clic pe butonul OK pentru a crea un nou record de membru roluri. Faceţi clic pe Anulaţi pentru a reveni la ecranul anterior.^CreateFormHeaderText^
+
+^DescriptionLabel^Descriere^DescriptionLabel^
+
+^EditViewCategory^Acestea sunt domeniile de înregistrare rolul de membru, care pot fi editate.^EditViewCategory^
+
+^EditViewHeaderText^Va rugam sa cititi membru informaţii rolurile de mai jos. Faceţi clic pe Editare pentru a modifica acest record, faceţi clic pe Ştergere pentru a şterge înregistrarea, sau faceţi clic pe Revocare / Închidere pentru a reveni înapoi.^EditViewHeaderText^
+
+^GridViewHeaderText^Aceasta este o listă de roluri de membru.^GridViewHeaderText^
+
+^RoleNameLabel^Rolul Nume^RoleNameLabel^
+

@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Për^About^
+
+^Accent^theks^Accent^
+
+^ActionBarActionsHeaderText^Veprimet^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Anuloj^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Anulojë të gjitha ndryshimet rekord.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Cancel rekord të ri.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Save rekord të ri në bazën e të dhënave.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Ruaj^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Krijo një rekord të ri {0}.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^New {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^I ri^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Rekord^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Raport^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Ruaj ndryshimet në bazën e të dhënave.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Ruaj^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Shtoni Llogari^AddAccount^
+
+^AddCondition^Shto Kushti^AddCondition^
+
+^AddConditionText^Shto kushte kërkimi^AddConditionText^
+
+^AddItem^Shto Item^AddItem^
+
+^AddMatchingGroup^Shto grup përputhen^AddMatchingGroup^
+
+^AddSearchBarField^Fushat më të Kerko^AddSearchBarField^
+
+^AddSystemIdentity^Shto Sistemit identitetin^AddSystemIdentity^
+
+^AddToFavorites^Shtoni në të preferuarat^AddToFavorites^
+
+^AdvancedSearch^Kërkim i Avancuar^AdvancedSearch^
+
+^AdvancedSearchInstruction^Shkruani kushtet që duhet të krahasohen dhe shtypni butonin e kërkimit.^AdvancedSearchInstruction^
+
+^After^Pas^After^
+
+^Agenda^Axhenda^Agenda^
+
+^AlignedLeft^Linjë LEFT^AlignedLeft^
+
+^AlignedRight^Linjë drejta^AlignedRight^
+
+^AllDatesInPreriod^Të gjitha datat në Periudha^AllDatesInPreriod^
+
+^AlternativeView^Zgjidhni një pikëpamje alternative të të dhënave.^AlternativeView^
+
+^Always^Gjithmonë^Always^
+
+^AnyValue^(Ndonjë)^AnyValue^
+
+^Apply^Aplikoni^Apply^
+
+^Apps^Apps^Apps^
+
+^Aquarium^Akuarium^Aquarium^
+
+^Auto^Auto^Auto^
+
+^AutoOpenNextItem^Hap automatikisht artikullin tjetër^AutoOpenNextItem^
+
+^AverageOf^Mesatare e^AverageOf^
+
+^AvgAggregate^Avg: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Mesatarja e {0}^AvgAggregateToolTip^
+
+^Azure^I kaltër^Azure^
+
+^Back^Kthehem^Back^
+
+^BackColor^Color Mbrapa^BackColor^
+
+^BatchEditActionHeaderText^Batch Edit^BatchEditActionHeaderText^
+
+^BatchEdited^{0} përditësuar^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Batch Edit (Formulari)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^Përditëso^BatchUpdate^
+
+^Before^Para se të^Before^
+
+^BeginsWith^Fillon me^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^Kokrra të kuqe^Berry^
+
+^Between^Ndërmjet^Between^
+
+^Bittersweet^Bittersweet^Bittersweet^
+
+^Blank^Bosh^Blank^
+
+^BlankPassword^Password nuk mund të jetë bosh.^BlankPassword^
+
+^BlankUserName^Emri i përdoruesit nuk mund të jetë bosh.^BlankUserName^
+
+^BlankValue^(Bosh)^BlankValue^
+
+^BlobDownloadHint^Kliko këtu për ta shkarkuar skedarin origjinal.^BlobDownloadHint^
+
+^BlobDownloadLink^Shkarko^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Trokitni imazhin për të shkarkuar skedarin origjinal.^BlobDownloadOriginalHint^
+
+^Blur^Turbullim^Blur^
+
+^Bold^Guximtar^Bold^
+
+^BooleanFilterText^Filtra logjike^BooleanFilterText^
+
+^BooleanIsExpected^Një vlerë logjike pritet.^BooleanIsExpected^
+
+^ButtonShapes^Format e butonave^ButtonShapes^
+
+^By^nga^By^
+
+^Calendar^Kalendar^Calendar^
+
+^Cancel^Anuloj^Cancel^
+
+^Cards^Letra^Cards^
+
+^Cay^Ishull i ulët^Cay^
+
+^ChangeYourLanguage^Ndrysho gjuhën tuaj^ChangeYourLanguage^
+
+^Charts^Charts^Charts^
+
+^Citrus^Agrume^Citrus^
+
+^Classic^Klasik^Classic^
+
+^ClearFilter^Filter qartë nga {0}^ClearFilter^
+
+^ClearFilter2^Clear Filter^ClearFilter2^
+
+^ClearText^Clear Text^ClearText^
+
+^ClearToolTip^{0} Të qartë^ClearToolTip^
+
+^Close^Afër^Close^
+
+^Comfortable^I rehatshëm^Comfortable^
+
+^Compact^Kompakt^Compact^
+
+^Condensed^Kondensuar^Condensed^
+
+^ConfirmContinue^Vazhdo?^ConfirmContinue^
+
+^ConfirmReload^Rifresko?^ConfirmReload^
+
+^ConnectionLost^Lidhje rrjet ka humbur. Provoni përsëri?^ConnectionLost^
+
+^Construct^Ndërtoj^Construct^
+
+^Contains^Përmban^Contains^
+
+^Convention^Kuvend^Convention^
+
+^Copy^Copy^Copy^
+
+^CountAggregate^Count: {0}^CountAggregate^
+
+^CountAggregateToolTip^Numërimi i {0}^CountAggregateToolTip^
+
+^CountOf^Numërimi i^CountOf^
+
+^CreateLink^Krijo Link^CreateLink^
+
+^CustomFilterOption^Filter ...^CustomFilterOption^
+
+^Cut^E prerë^Cut^
+
+^DarkKnight^Dark Knight^DarkKnight^
+
+^DarkTheme^I errët^DarkTheme^
+
+^DataSheetActionDescription^Sende të ekranit duke përdorur një sheet<br/>format të dhënave.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Tregojnë në fletë të dhënave^DataSheetActionHeaderText^
+
+^DataWarning^Numri maksimal i artikujve të procesit është {0: d}. Kliko këtu për të filtruar rezultatin.^DataWarning^
+
+^Date^Data^Date^
+
+^DateFilterText^Data Filtra^DateFilterText^
+
+^DateIsExpected^Një datë pritet.^DateIsExpected^
+
+^DatesAMinAgo^një minutë më parë^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^ne nje minut^DatesInAMin^
+
+^DatesInHour^per nje ore^DatesInHour^
+
+^DatesInMin^në min {0}^DatesInMin^
+
+^DatesLast^i fundit^DatesLast^
+
+^DatesMinAgo^{0} Min më parë^DatesMinAgo^
+
+^DatesNext^tjetër^DatesNext^
+
+^DatesNow^tani^DatesNow^
+
+^DatesOneHour^një orë më parë^DatesOneHour^
+
+^DateSortAscending^Së pari on Top^DateSortAscending^
+
+^DateSortDescending^E fundit mbi Top^DateSortDescending^
+
+^DatesSmart^Datat zgjuar^DatesSmart^
+
+^DatesToday^sot^DatesToday^
+
+^DatesTomorrow^nesër^DatesTomorrow^
+
+^DatesYesterday^dje^DatesYesterday^
+
+^Day^Ditë^Day^
+
+^DefaultCancelActionHeaderText^Afër^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Ju lutem plotësoni këtë formular dhe klikoni butonin OK për të krijuar një rekord të ri {0}. Klikoni Anulo për t&#39;u kthyer në ekranin e mëparshëm.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^Këto janë fushat e rekord {0} që mund të redaktohen.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Ju lutemi të shqyrtojë {0} dhënat e mëposhtme. Kliko Edit për të ndryshuar këtë rekord, kliko Fshij të fshini rekord, ose klikoni Cancel / Mbylle për t&#39;u kthyer mbrapa.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Kjo është një listë e {0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Plotësoni formën. Sigurohuni që të hyjë në të gjitha fushat e kërkuara.^DefaultNewDescription^
+
+^DefaultOption^Standard^DefaultOption^
+
+^DefaultReferenceDescription^Detaje të tjera rreth {0} janë dhënë në seksionin e informacionit reference.^DefaultReferenceDescription^
+
+^Delete^Fshij^Delete^
+
+^DeleteActionConfirmation^Delete?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Fshij^DeleteActionHeaderText^
+
+^Deleted^{$ zgjedhur} fshihet^Deleted^
+
+^DeleteOriginalSel^fshini zgjedhjen origjinale^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Fshini)^DeleteSearchBarField^
+
+^DetailsToolTip^Shiko detaje për {0}^DetailsToolTip^
+
+^DevelopExplorer^Project Explorer^DevelopExplorer^
+
+^DevelopFormLayout^Layout formë^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^madhësive ekran Zgjidh për t&#39;u përfshirë në paraqitjen.^DevelopFormLayoutInstr^
+
+^DevelopTools^Developer Tools^DevelopTools^
+
+^Device^pajisje^Device^
+
+^DeviceLoginPrompt^Identifikohu për të autorizuar aksesin në këtë pajisje.^DeviceLoginPrompt^
+
+^DidNotMatch^Nuk korespondon^DidNotMatch^
+
+^Directions^Directions^Directions^
+
+^DiscardChanges^Hedh ndryshime?^DiscardChanges^
+
+^DisplayDensity^Display Dendësia^DisplayDensity^
+
+^DisplayedAbove^Shfaqet Mbi^DisplayedAbove^
+
+^DisplayedBelow^Shfaqet poshtë^DisplayedBelow^
+
+^Dock^Lidh^Dock^
+
+^DoesNotBeginWith^Nuk fillon me^DoesNotBeginWith^
+
+^DoesNotContain^A nuk përmbajnë^DoesNotContain^
+
+^DoesNotEndWith^Nuk përfundon me^DoesNotEndWith^
+
+^DoesNotEqual^A nuk të Barabarta^DoesNotEqual^
+
+^DoesNotInclude^Nuk përfshin^DoesNotInclude^
+
+^DoNotMatchAll^Nuk përputhen të gjitha kushtet^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Nuk korespondon me të gjitha kushtet^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^A nuk përputh me asnjë kushte^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Nuk përputhet me asnjë kushte^DoNotMatchAnyPastTense^
+
+^Download^Shkarko^Download^
+
+^Draw^Barazim^Draw^
+
+^DuplicateActionHeaderText^Kopje^DuplicateActionHeaderText^
+
+^DuplicateItem^Dupliko artikullin^DuplicateItem^
+
+^DuplicateRow^Rresht kopjuar^DuplicateRow^
+
+^EditActionHeaderText^Redaktoj^EditActionHeaderText^
+
+^EditItem^Ndrysho artikullin^EditItem^
+
+^EditModeCancelActionHeaderText^Anuloj^EditModeCancelActionHeaderText^
+
+^EditRow^Redakto Rreshtin^EditRow^
+
+^Empty^Bosh^Empty^
+
+^EmptyContext^Veprimet nuk janë në dispozicion.^EmptyContext^
+
+^EmptyValue^(Empty)^EmptyValue^
+
+^Enable^Aktivizo^Enable^
+
+^EndsWith^Mbaron me^EndsWith^
+
+^Equals^Barabartë^Equals^
+
+^Eraser^Gomë^Eraser^
+
+^Error^gabim^Error^
+
+^Exit^dalje^Exit^
+
+^ExitFullscreen^Exit Fullscreen^ExitFullscreen^
+
+^ExportCsvActionDescription^Artikuj Shkarko në formatin CSV.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Shkarko^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Analizuar artikuj me spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Eksporto në spreadsheet^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Artikuj Syndicate me një lexues i RSS.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^Shikoni ushqyesin RSS^ExportRssActionHeaderText^
+
+^Favorites^Të preferuar^Favorites^
+
+^Felt^Shajak^Felt^
+
+^FileCleared^Vlera do të pastrohet me kursim^FileCleared^
+
+^FilesBytes^bytes^FilesBytes^
+
+^FilesClear^Qartë^FilesClear^
+
+^FilesClearConfirm^Clear?^FilesClearConfirm^
+
+^FilesClick^Klikoni për të zgjedhur një fotografi^FilesClick^
+
+^FilesClickMany^Kliko për të zgjedhur fotografi^FilesClickMany^
+
+^FilesDrop^Drop një fotografi këtu^FilesDrop^
+
+^FilesDropMany^Drop fotografi këtu^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Trokitje e lehtë për të zgjedhur një fotografi^FilesTap^
+
+^FilesTapMany^Trokitje e lehtë për të zgjedhur fotografi^FilesTapMany^
+
+^Filter^Filtër^Filter^
+
+^FilterApplied^Një filtër është aplikuar.^FilterApplied^
+
+^FilterByField^Zgjidh një fushë për të aplikuar një filtër për <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Zgjidh një ose më shumë opsione në listën më poshtë dhe shtypni <b>{2}</b> për të filtruar <b>{0}</b> nga <b>{1}</b> fushë.^FilterByOptions^
+
+^FilterCleared^Pastroi të gjitha filtrat.^FilterCleared^
+
+^FilterLabelAnd^dhe^FilterLabelAnd^
+
+^FilterLabelClear^Qartë^FilterLabelClear^
+
+^FilterLabelEquals^barabartë^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Ndryshim^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^përfshin^FilterLabelIncludes^
+
+^FilterLabelOr^ose^FilterLabelOr^
+
+^FilterLabelSelectAll^(Zgjidhni gjithë)^FilterLabelSelectAll^
+
+^FilterSiteMap^Harta filtër faqe ...^FilterSiteMap^
+
+^Finish^fund^Finish^
+
+^FitToWidth^Fit To Gjerësia^FitToWidth^
+
+^FlatTreeToggle^Kaloni në Hierarkia^FlatTreeToggle^
+
+^FontName^Emri Font^FontName^
+
+^FontSize^Size Font^FontSize^
+
+^ForeColor^Color Fore^ForeColor^
+
+^Forget^harroj^Forget^
+
+^ForgotYourPassword^Keni harruar fjalëkalimin tuaj?^ForgotYourPassword^
+
+^Format^format^Format^
+
+^Freeze^Ngrij^Freeze^
+
+^From^nga^From^
+
+^Fullscreen^Ekran i plotë^Fullscreen^
+
+^Future^Të ardhmen^Future^
+
+^GeneralTabText^I përgjithshëm^GeneralTabText^
+
+^Generate^Gjeneroni^Generate^
+
+^GenericNewToolTip^Create New^GenericNewToolTip^
+
+^GenericSortAscending^Vogël në Top^GenericSortAscending^
+
+^GenericSortDescending^Më i madh në Top^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Arrin Grand^GrandTotals^
+
+^Granite^Granit^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Gravitet^Gravity^
+
+^GreaterThan^Më e madhe se^GreaterThan^
+
+^GreateThanOrEqual^Më e madhe se ose e barabartë^GreateThanOrEqual^
+
+^Grid^Skarë^Grid^
+
+^GridActionDescription^Sende të ekranit në formatin standard<br/>list.^GridActionDescription^
+
+^GridActionHeaderText^Shiko tregojnë në Standard^GridActionHeaderText^
+
+^Group^Grup^Group^
+
+^GroupByField^Zgjidh një fushë të grupit <b>{0}</b>.^GroupByField^
+
+^Grouped^grupuar^Grouped^
+
+^GroupedBy^Grupuar sipas^GroupedBy^
+
+^GroupedDefault^Grupimi është hequr^GroupedDefault^
+
+^Heading1^Kreu 1^Heading1^
+
+^Heading2^Kreu 2^Heading2^
+
+^Heading3^Kreu 3^Heading3^
+
+^Heading4^Kreu 4^Heading4^
+
+^Heading5^Kreu 5^Heading5^
+
+^Heading6^Kreu 6^Heading6^
+
+^Help^Ndihmë^Help^
+
+^HelpClose^Afër^HelpClose^
+
+^HelpFullScreen^Full Screen^HelpFullScreen^
+
+^Hide^fsheh^Hide^
+
+^HideAdvancedSearch^Hide Kërkim i Avancuar^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Kaloni në Lista Flat^HierarchyTreeModeToggle^
+
+^Highlighter^Highlighter^Highlighter^
+
+^History^Histori^History^
+
+^HistoryToolTip^Shiko historinë e të dhënave të përzgjedhura më parë^HistoryToolTip^
+
+^HistoryUnavailable^Historia nuk është në dispozicion.^HistoryUnavailable^
+
+^Home^Shtëpi^Home^
+
+^IdleUser^A jeni akoma atje? Ju lutemi të identifikohen përsëri.^IdleUser^
+
+^ImportActionDescription^Ngarko një CSV, XLS, ose XLSX importit të dhënat file<br/>to.^ImportActionDescription^
+
+^ImportActionHeaderText^Import From File^ImportActionHeaderText^
+
+^ImportAutoDetect^(Auto zbuluar)^ImportAutoDetect^
+
+^ImportComplete^i plotë^ImportComplete^
+
+^ImportDone^importimin përfunduar^ImportDone^
+
+^ImportDownloadTemplate^Shkarko skedarin template të importit.^ImportDownloadTemplate^
+
+^ImportDuplicates^kopje identike^ImportDuplicates^
+
+^ImportEmail^Dërgo log importit në adresat e mëposhtme mail (optional)^ImportEmail^
+
+^ImportEmailNotSpecified^Marrësi i log importit nuk është saktësuar. Vazhdojë anyway?^ImportEmailNotSpecified^
+
+^ImportExpected^Pritet të përfundojë^ImportExpected^
+
+^ImportFileStats^Nuk janë të dhënat <b>{0}</b> në <b>{1}</b> dosjen gati për t&#39;u përpunuar. Ju lutemi të përputhen me emrat fushë.^ImportFileStats^
+
+^Importing^Importimi^Importing^
+
+^ImportMappingInstruction^Ka dhënat <b>{0}</b> (e) ne <b>{1}</b> dosjen gati për t&#39;u processed.<br/>Please hartë fushën e importit nga të dhënat e file për fushat e aplikimit dhe klikoni <i>Import</i> për të filluar të përpunimit.^ImportMappingInstruction^
+
+^ImportNotSupported^format e të dhënave të &quot;{0}&quot; nuk është i mbështetur.^ImportNotSupported^
+
+^ImportProcessing^Dosjen e importit të përpunimit ka filluar. Importuar të dhëna të dhënat do të jetë në dispozicion sipas përpunimit të suksesshëm. Ju mund të kenë nevojë për të rifreskuar pikëpamjet përkatëse / faqe për të parë të dhënat e importuar.^ImportProcessing^
+
+^ImportRemaining^Pritet të përfundojë^ImportRemaining^
+
+^ImportSelectFile^Zgjidhni një skedar të dhënave në CSV, XLS, ose format xlsx.^ImportSelectFile^
+
+^ImportStartButton^Import^ImportStartButton^
+
+^ImportUploading^Dosja juaj është duke u ngarkuar në server. Ju lutem prisni ...^ImportUploading^
+
+^ImportUploadInstruction^Ju lutemi të zgjidhni file të ngarkoni. Dosja duhet të jetë në <b>CSV</b>, format <b>XLS</b>, ose <b>XLSX</b>.^ImportUploadInstruction^
+
+^In^në^In^
+
+^Includes^Përfshin^Includes^
+
+^Indent^Porosit^Indent^
+
+^InfoBarAnd^dhe^InfoBarAnd^
+
+^InfoBarEmpty^bosh^InfoBarEmpty^
+
+^InfoBarEqualTo^është e barabartë me^InfoBarEqualTo^
+
+^InfoBarGreaterThan^është më i madh se^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^është më i madh se ose e barabartë me^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^është më pak se^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^është më pak se ose e barabartë me^InfoBarLessThanOrEqual^
+
+^InfoBarLike^është si^InfoBarLike^
+
+^InfoBarOr^ose^InfoBarOr^
+
+^InfoBarQuickFind^Çdo fushë përmban^InfoBarQuickFind^
+
+^InfoBarStartsWith^fillon me^InfoBarStartsWith^
+
+^InitialListMode^Mode Lista fillestar^InitialListMode^
+
+^InlineEditing^Inline Editing^InlineEditing^
+
+^InsertActionHeaderText^Në rregull^InsertActionHeaderText^
+
+^InsertHorizontalRule^Fut vijë horizontale^InsertHorizontalRule^
+
+^InsertingRecords^futur të dhënat^InsertingRecords^
+
+^InsertOrderedList^Fut lista e renditur,^InsertOrderedList^
+
+^InsertUnorderedList^Fut listë të parenditur^InsertUnorderedList^
+
+^Into^në^Into^
+
+^InvalidUserNameAndPassword^Emrin tuaj të përdoruesit dhe fjalëkalimin nuk janë të vlefshme.^InvalidUserNameAndPassword^
+
+^Italic^Kursiv^Italic^
+
+^ItemsPerPage^Items për faqe:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} pikat e zgjedhura^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Pika të zgjedhura^ItemsSelectedOne^
+
+^JustDatesNow^Tani^JustDatesNow^
+
+^JustifyCenter^Justify Center^JustifyCenter^
+
+^JustifyFull^Justify plotë^JustifyFull^
+
+^JustifyLeft^Justify Left^JustifyLeft^
+
+^JustifyRight^Justify drejta^JustifyRight^
+
+^KeepOriginalSel^mbaj zgjedhjen origjinale^KeepOriginalSel^
+
+^LabelsInList^Etiketa Në Lista^LabelsInList^
+
+^Lacquer^Llak^Lacquer^
+
+^Laminate^I petëzuar^Laminate^
+
+^Landscape^Peizazh^Landscape^
+
+^Large^I madh^Large^
+
+^LastMonth^Muajin e kaluar^LastMonth^
+
+^LastQuarter^Tremujori i fundit^LastQuarter^
+
+^LastWeek^Java e fundit^LastWeek^
+
+^LastYear^Vitin e kaluar^LastYear^
+
+^Less^Më pak^Less^
+
+^LessThan^Më pak se^LessThan^
+
+^LessThanOrEqual^Më pak se ose e barabartë^LessThanOrEqual^
+
+^Lichen^Liken^Lichen^
+
+^LightTheme^Dritë^LightTheme^
+
+^Line^Linjë^Line^
+
+^List^Listë^List^
+
+^ListOneColumn^Lista (Një Column)^ListOneColumn^
+
+^ListViewStyle^Listë^ListViewStyle^
+
+^Loading^Duke u ngarkuar ...^Loading^
+
+^Logical^Logjik^Logical^
+
+^LoginButton^Hyrje^LoginButton^
+
+^LoginLink^Hyrje^LoginLink^
+
+^Logout^Logout^Logout^
+
+^LookupInstruction^Ju lutem, përzgjidhni <b>{0}</b> në listë.^LookupInstruction^
+
+^LookupOriginalSelection^Zgjedhja origjinal është <b>&quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^menaxhuar Llogaritë^ManageAccounts^
+
+^Map^Hartë^Map^
+
+^MatchAll^Kërko të gjitha kushtet^MatchAll^
+
+^MatchAllPastTense^Krahasohen të gjitha kushtet^MatchAllPastTense^
+
+^MatchAny^Kërko të paktën kushte^MatchAny^
+
+^MatchAnyPastTense^Krahasohen çdo kushte^MatchAnyPastTense^
+
+^Matched^Krahasohen^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Maksimal i {0}^MaxAggregateToolTip^
+
+^Maximize^Expand^Maximize^
+
+^MaximumOf^Maksimumi i^MaximumOf^
+
+^Medium^Medium^Medium^
+
+^Menu^Menu^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^Minimal i {0}^MinAggregateToolTip^
+
+^Minimize^Collapse^Minimize^
+
+^MinimumOf^Minimumi i^MinimumOf^
+
+^Mission^Mision^Mission^
+
+^ModeBrowsing^Shfletoj^ModeBrowsing^
+
+^ModeEditing^Montim^ModeEditing^
+
+^ModeEntering^Hyrja^ModeEntering^
+
+^ModeLookup^Kërkim^ModeLookup^
+
+^Modern^Modern^Modern^
+
+^ModernRose^Moderne Rose^ModernRose^
+
+^ModeViewing^Duke parë^ModeViewing^
+
+^Month^Muaj^Month^
+
+^More^Më shumë^More^
+
+^MultiSelection^Përzgjedhja multi^MultiSelection^
+
+^Municipal^Komunal^Municipal^
+
+^MyAccount^Llogaria ime^MyAccount^
+
+^Never^Kurrë^Never^
+
+^NewActionHeaderText^I ri^NewActionHeaderText^
+
+^NewItem^Artikulli i ri^NewItem^
+
+^NewRow^Rresht i Ri^NewRow^
+
+^NewRowLink^Kliko këtu për të krijuar një rekord të ri.^NewRowLink^
+
+^NewToolTip^New {0}^NewToolTip^
+
+^Next^Tjetër^Next^
+
+^Next2^Tjetër^Next2^
+
+^NextMonth^Muajin e ardhshëm^NextMonth^
+
+^NextQuarter^Tremujorin e ardhshëm^NextQuarter^
+
+^NextWeek^Javën e ardhshme^NextWeek^
+
+^NextYear^Vitin e ardhshëm^NextYear^
+
+^No^Jo^No^
+
+^NoMatches^Nuk u.^NoMatches^
+
+^None^Asnje^None^
+
+^Noon^Mesditë^Noon^
+
+^NoRecords^Ka të dhëna gjetur.^NoRecords^
+
+^NoteDeleteConfirm^Delete?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^fshij^NoteDeleteLabel^
+
+^NoteEditLabel^redaktoj^NoteEditLabel^
+
+^NotEmpty^Jo Empty^NotEmpty^
+
+^NotMatched^(Nuk përputhen)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^Numër^Number^
+
+^NumberFilterText^Numri Filtra^NumberFilterText^
+
+^NumberIsExpected^Një numër pritet.^NumberIsExpected^
+
+^OdpCommitting^Po ngarkoni transaksione ...^OdpCommitting^
+
+^OdpDone^Done.^OdpDone^
+
+^OdpDownloadingBlob^Shkarkimi i të dhënave binare për {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^Shkarkimi i të dhënave për {0}...^OdpDownloadingData^
+
+^OdpInitializing^Inicializuar ...^OdpInitializing^
+
+^OdpInvalidResponse^Përgjigje e pavlefshme nga serveri.^OdpInvalidResponse^
+
+^OdpLastRefresh^Rifreskimi i fundit: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Të dhënat nuk janë rifreskuar.^OdpNotRefreshed^
+
+^OdpOfflineState^Ju jeni duke punuar në modë offline.^OdpOfflineState^
+
+^OdpOnlineRequired^Lidhja në internet kërkohet.^OdpOnlineRequired^
+
+^OdpPending^Ndryshimet në pritje^OdpPending^
+
+^OdpReconRequired^Kërkohet pajtimi^OdpReconRequired^
+
+^OdpReconTxDelete^Fshini këtë ndryshim nga regjistri?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^Fshirë transaksionin e parë në pritje në regjistër.^OdpReconTxDeleted^
+
+^OdpRefresh^Rifreskoni të dhënat^OdpRefresh^
+
+^OdpRefreshData^Rifreskoni të dhënat^OdpRefreshData^
+
+^OdpRefreshLast^Rifreskohen të dhënat^OdpRefreshLast^
+
+^OdpSave^Ju lutemi ruani të gjitha ndryshimet.^OdpSave^
+
+^OdpSaveAndSync^Ruani të gjitha ndryshimet dhe zgjidhni opsionin Synchronize në menunë e kontekstit.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Serveri i aplikacionit nuk është i disponueshëm.^OdpServerUnavailable^
+
+^OdpStatus^status^OdpStatus^
+
+^OdpSync^Synchronize^OdpSync^
+
+^OdpSynced^sinkronizuar^OdpSynced^
+
+^OdpSyncLast^Sinkronizimi i fundit^OdpSyncLast^
+
+^OdpSyncLong^Sinkronizo për të ngarkuar ndryshimet.^OdpSyncLong^
+
+^OdpSyncUploadFailed^Dështimi i ngarkimit të {0} skedarëve.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Duke u ngarkuar {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Në pamundësi të fshihet. {1} sendet e varura në {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Në pamundësi për të ekzekutuar.^OdpUnableToExec^
+
+^OdpUnableToProcess^Në pamundësi për të përpunuar transaksione.^OdpUnableToProcess^
+
+^OdpUnableToSave^Në pamundësi për të ruajtur ndryshimet.^OdpUnableToSave^
+
+^OdpUploadFailed^Dështoi të ngarkonte skedarët.^OdpUploadFailed^
+
+^OdpUploadingFiles^Po ngarkoni {0} skedarë ...^OdpUploadingFiles^
+
+^OK^Në rregull^OK^
+
+^OnHover^më rri në pritje^OnHover^
+
+^OnOrAfter^Në ose pas^OnOrAfter^
+
+^OnOrBefore^Në ose para^OnOrBefore^
+
+^OpenActionHeaderText^Hapur^OpenActionHeaderText^
+
+^Optional^fakultativ^Optional^
+
+^Orientation^Orientim^Orientation^
+
+^Other^Tjetër^Other^
+
+^Outdent^Outdent^Outdent^
+
+^Page^Faqe^Page^
+
+^Paragraph^Paragraf^Paragraph^
+
+^Password^Fjalëkalim^Password^
+
+^Past^E kaluara^Past^
+
+^Paste^Ngjit^Paste^
+
+^Pen^Stilolaps^Pen^
+
+^PerformAdvancedSearch^Kërkim^PerformAdvancedSearch^
+
+^Permalink^Permalink^Permalink^
+
+^PermalinkToolTip^Krijo një lidhje të përhershme për rekord të zgjedhura^PermalinkToolTip^
+
+^PermalinkUnavailable^Permalink nuk është në dispozicion. Ju lutem zgjidhni një rekord.^PermalinkUnavailable^
+
+^Petal^Petal^Petal^
+
+^Pinnate^Pendor^Pinnate^
+
+^Plastic^Plastik^Plastic^
+
+^Portrait^Portret^Portrait^
+
+^PresentationStyle^Zgjidhni një stil të prezantimit të të dhënave.^PresentationStyle^
+
+^Prev2^Prev^Prev2^
+
+^Previous^Previous^Previous^
+
+^PromoteActions^Nxitja Veprimet^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^Çerek^Quarter^
+
+^Quarter1^Tremujori 1^Quarter1^
+
+^Quarter2^Tremujori 2^Quarter2^
+
+^Quarter3^Tremujori 3^Quarter3^
+
+^Quarter4^Tremujori 4^Quarter4^
+
+^QuickFindDescription^Kërko në {0}^QuickFindDescription^
+
+^QuickFindScope^Kërko në ...^QuickFindScope^
+
+^QuickFindText^Quick Gjej të^QuickFindText^
+
+^QuickFindToolTip^Lloji për të kërkuar të dhënat dhe shtypni Enter^QuickFindToolTip^
+
+^Quotation^citat^Quotation^
+
+^Reading^Leximi ...^Reading^
+
+^ReadingPane^Paneli i leximit^ReadingPane^
+
+^ReadOnly^{0} është vetëm në lexim.^ReadOnly^
+
+^Recent^I fundit^Recent^
+
+^Redo^Ribëj^Redo^
+
+^Refresh^Freskoj^Refresh^
+
+^Refreshed^refreshed^Refreshed^
+
+^RememberMe^Më mbaj mend herën tjetër^RememberMe^
+
+^RemoveCondition^Hequr gjendjen e^RemoveCondition^
+
+^RemoveFormat^Hiq Format^RemoveFormat^
+
+^ReportActionDescription^Render një raport në formatin PDF^ReportActionDescription^
+
+^ReportActionHeaderText^Raport^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Shiko artikuj në Excel formatted<br/>Microsoft.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Spreadsheet^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Shiko artikuj si një imazh TIFF multipage.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Image Multipage^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Shiko artikuj si Adobe PDF document.<br/>Requires një lexues të pajtueshme.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^Dokumenti PDF^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Shiko artikuj në një dokument Word formatted<br/>Microsoft.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^I nevojshëm^Required^
+
+^RequiredField^Kjo fushë është e nevojshme.^RequiredField^
+
+^RequiredFiledMarkerFootNote^tregon një fushë të kërkuara^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Reset^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Rivendos kushtet e kërkimit?^ResetSearchConfirm^
+
+^ResolvingReferences^zgjidhja referenca^ResolvingReferences^
+
+^ResumeBrowsing^Resume Browsing^ResumeBrowsing^
+
+^ResumeEditing^Resume Editing^ResumeEditing^
+
+^ResumeEntering^Resume Hyrja^ResumeEntering^
+
+^ResumeLookup^Resume lookup^ResumeLookup^
+
+^ResumeViewing^Resume Duke parë^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Rolet^RolesTab^
+
+^RootNodeText^Niveli Top^RootNodeText^
+
+^Rotate^Në formë të rrotës^Rotate^
+
+^RowCancelActionHeaderText^Anuloj^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Fut^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Ruaj^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Update?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Përzgjedhja Update^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Ruaj^Save^
+
+^SaveAndContinue^Ruani dhe vazhdoni^SaveAndContinue^
+
+^SaveAndNew^Ruaj dhe New^SaveAndNew^
+
+^Saved^I ruajtur - {0}^Saved^
+
+^ScanToConfirm^Ju lutemi skanoni përsëri për të konfirmuar.^ScanToConfirm^
+
+^SeeAll^Shihni Tërë^SeeAll^
+
+^SeeAlso^Shih edhe^SeeAlso^
+
+^SelectActionHeaderText^Përzgjedh^SelectActionHeaderText^
+
+^SelectAll^Përzgjidh të gjitha^SelectAll^
+
+^SelectItem^Zgjidhni artikullin^SelectItem^
+
+^SelectLink^(Zgjidhni)^SelectLink^
+
+^SelectRow^Zgjidh rreshtin^SelectRow^
+
+^SelectToolTip^Zgjidh {0}^SelectToolTip^
+
+^Separator^Separator^Separator^
+
+^Settings^Cilësimet^Settings^
+
+^Show^Shfaqje^Show^
+
+^ShowAdvancedSearch^Trego Kërkim i Avancuar^ShowAdvancedSearch^
+
+^ShowChart^Shfaq Chart^ShowChart^
+
+^ShowData^Shfaq të dhënave^ShowData^
+
+^ShowingItems^Duke shfaqur <b>{0}</b> <b>{1}</b>-i artikujve <b>{2}</b>^ShowingItems^
+
+^ShowingItemsInfo^Po shfaqen {0} artikuj.^ShowingItemsInfo^
+
+^ShowingItemsRange^Duke treguar {0} {1} i artikujve^ShowingItemsRange^
+
+^ShowLess^tregojnë më pak^ShowLess^
+
+^ShowMore^Shfaq më shumë^ShowMore^
+
+^ShowOptions^Shfaq Options^ShowOptions^
+
+^ShowSystemButtons^Buttons tregojnë Sistemit^ShowSystemButtons^
+
+^Sidebar^Sidebar^Sidebar^
+
+^Sign^Regjistrohu këtu^Sign^
+
+^SignedOut^nënshkruar Out^SignedOut^
+
+^SignUpNow^Regjistrohu tani^SignUpNow^
+
+^Simple^I thjeshtë^Simple^
+
+^SiteActions^Veprimet Site^SiteActions^
+
+^SizeLabel^Madhësi^SizeLabel^
+
+^Small^I vogël^Small^
+
+^Social^Social^Social^
+
+^Sort^Klasifikoj^Sort^
+
+^SortBy^Rendit sipas {0}^SortBy^
+
+^SortByField^Zgjidh një fushë për të ndryshuar rendin lloj <b>{0}</b>.^SortByField^
+
+^SortByOptions^Zgjidhni rendin lloj <b>{0}</b> nga <b>{1}</b> fushës në listën e opsioneve më poshtë.^SortByOptions^
+
+^Sorted^Renditur^Sorted^
+
+^SortedDefault^Rendi i paracaktuar i renditjes^SortedDefault^
+
+^StartImport^fillimi Import^StartImport^
+
+^StrikeThrough^Nëpërmjet Strike^StrikeThrough^
+
+^StringSortAscending^Në ngjitje^StringSortAscending^
+
+^StringSortDescending^Në zbritje^StringSortDescending^
+
+^Submit^paraqes^Submit^
+
+^Subscript^Script Sub^Subscript^
+
+^Suggestions^Sugjerime^Suggestions^
+
+^SumAggregate^Shuma: {0}^SumAggregate^
+
+^SumAggregateToolTip^Shuma e {0}^SumAggregateToolTip^
+
+^Summary^Përmbledhje^Summary^
+
+^Summer^Verë^Summer^
+
+^SumOf^Shuma e^SumOf^
+
+^Superscript^Super Script^Superscript^
+
+^Sync^Sync^Sync^
+
+^TaskResume^Vazhdoj^TaskResume^
+
+^Tasks^Detyrat^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^abc^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^të dhënat e testimit^TestingRecords^
+
+^Text^Tekst^Text^
+
+^TextFilterText^Filtra Tekst^TextFilterText^
+
+^Theme^Temë^Theme^
+
+^ThisMonth^Kete muaj^ThisMonth^
+
+^ThisQuarter^Këtij tremujori^ThisQuarter^
+
+^ThisWeek^This Week^ThisWeek^
+
+^ThisYear^Kjo Viti^ThisYear^
+
+^Tiny^i vockël^Tiny^
+
+^Today^Sot^Today^
+
+^Tomorrow^Nesër^Tomorrow^
+
+^Top^më i lartë^Top^
+
+^ToThisWebsite^në këtë faqe interneti^ToThisWebsite^
+
+^TouchUINotSupported^Touch UI nuk është i mbështetur në këtë shfletues.^TouchUINotSupported^
+
+^TransitionFade^Zbehet^TransitionFade^
+
+^TransitionFlip^Rrokullisje^TransitionFlip^
+
+^TransitionFlow^Flow^TransitionFlow^
+
+^TransitionNone^Asnjë^TransitionNone^
+
+^TransitionPop^Pop^TransitionPop^
+
+^Transitions^Transitions^Transitions^
+
+^TransitionSlide^Rrëshqitje^TransitionSlide^
+
+^TransitionSlideDown^Slide poshtë^TransitionSlideDown^
+
+^TransitionSlideUp^Slide Up^TransitionSlideUp^
+
+^TransitionTurn^Kthesë^TransitionTurn^
+
+^TreeActionDescription^Shfaq marrëdhëniet hierarkike.^TreeActionDescription^
+
+^TreeActionHeaderText^Trego Hierarkia^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Merrni Kodin e Verifikimit^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Aplikacioni i vërtetuesit^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Nëse nuk jeni në gjendje të jepni kodin e verifikimit, atëherë vendosni kodin rezervë.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^kod një herë^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Kodi rezervë^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Thirrja u bë për^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^Emaili u dërgua te^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^Mesazhi me tekst iu dërgua^TwoFaCodeSentSms^
+
+^TwoFaConsent^Pëlqimi^TwoFaConsent^
+
+^TwoFaEnterPassword^Shkruani fjalëkalimin tuaj^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Më telefononi në^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^Do të telefonoj^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^Më dërgoni me email në^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^Më shkruani në^TwoFaGetCodeSms^
+
+^TwoFaMethod^Metodë^TwoFaMethod^
+
+^TwoFaMsgChanged^Vërtetimi me 2 Faktorë ka ndryshuar.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^Vërtetimi me 2 Faktorë është çaktivizuar.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Të çaktivizohet vërtetimi me dy faktorë?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^Autentifikimi me 2 Faktorë është aktivizuar.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Ju lutemi vendosni kodin {0}-shifror të verifikimit.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Fjalëkalim i pavlefshëm.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Kodi i pavlefshëm i verifikimit.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 është kodi juaj i verifikimit {0}.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^Nuk mund të skanoj kodin QR.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Kam nevojë për ndihmë për të instaluar aplikacionin e vërtetimit.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Unë kam një aplikacion vërtetues në një pajisje celulare.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^Kodet rezervë të përdorura një herë do t&#39;ju lejojnë të regjistroheni nëse nuk jeni në gjendje të jepni një kod verifikimi.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Kodet rezervë^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Do të fut një kod verifikimi pasi të keni hyrë me sukses.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Futni çelësin e konfigurimit në aplikacion^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Metodat e Verifikimit^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Skanoni kodin QR me kamerën^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Skanoni kodin QR në aplikacion^TwoFaSetupScanQrCode^
+
+^TwoFaText^Vërtetimi 2-Faktor^TwoFaText^
+
+^TwoFaTrustThisDevice^Besoni këtë pajisje^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Kodi i Verifikimit^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Unë do të përdor një aplikacion vërtetues për të marrë kodin e verifikimit.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Do të marr një telefonatë të automatizuar në telefonin tim.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Kodi i verifikimit do të dorëzohet me email.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Kodi i verifikimit do të dorëzohet përmes mesazhit me tekst.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Lloji ta Kërko^TypeToSearch^
+
+^Underline^Nënvizoj^Underline^
+
+^Undo^Prish^Undo^
+
+^Undock^Shqit^Undock^
+
+^Unfreeze^Pushoj të mos paguaj rrogë^Unfreeze^
+
+^UnGrouped^Grupimi është hequr^UnGrouped^
+
+^UnLink^Fshirjen e^UnLink^
+
+^UnSelect^Hiqni përzgjedhje^UnSelect^
+
+^UpdateActionHeaderText^Në rregull^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Update?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Përzgjedhja Update^UpdateActionInBatchModeHeaderText^
+
+^Upload^Ngarkoni^Upload^
+
+^UploadDescription^Ngarko skedarë të shumtë.^UploadDescription^
+
+^Uploading^Duke u ngarkuar {0}...^Uploading^
+
+^UpOneLevel^Ngjitet me një nivel^UpOneLevel^
+
+^UseLEV^Paste &quot;{0}&quot;^UseLEV^
+
+^UserName^Emri i përdoruesit^UserName^
+
+^UsersInRole^Përdoruesit në rolin^UsersInRole^
+
+^UsersTab^Përdoruesit^UsersTab^
+
+^Vantage^Epërsi^Vantage^
+
+^Verdant^I gjelbëruar^Verdant^
+
+^Verify^Verifiko^Verify^
+
+^View^Pamje^View^
+
+^Viewpoint^Pikëpamje^Viewpoint^
+
+^Wait^Te lutem prit...^Wait^
+
+^Week^Javë^Week^
+
+^Welcome1^I mirëpritur^Welcome1^
+
+^Welcome2^Sot është^Welcome2^
+
+^WhiteSmoke^Smoke bardhë^WhiteSmoke^
+
+^WithSelectedValues10^Me vlerat e zgjedhura (Top 10)^WithSelectedValues10^
+
+^WithSelectedValues5^Me vlerat e zgjedhura (Top 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^Me filtra specifikuar^WithSpecifiedFilters^
+
+^Year^Vit^Year^
+
+^YearToDate^Data vit^YearToDate^
+
+^Yes^Po^Yes^
+
+^Yesterday^Dje^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Zoom në^ZoomIn^
+
+^ZoomOut^Zmadhim jashtë^ZoomOut^
+

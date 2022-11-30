@@ -1,0 +1,191 @@
+﻿<!-- 
+    Resource page body children are automatically extracted by CodeOnTime.Client.loadResource 
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title></title>
+    <link href="CodeOnTime.css" type="text/css" rel="Stylesheet" />
+</head>
+<body>
+    <!-- "Membership" Dialog -->
+    <div id="MembershipDialog" title="Membership">
+        <div class="Content ContentBar">
+            Please select authentication and membership options for your web app.
+        </div>
+        <div class="Heading Logo">
+            Authentication and Membership
+            <div class="Icon Membership">
+            </div>
+        </div>
+        <div id="MembershipDialog_TabView">
+            <!-- Authentication -->
+            <div title="Authentication">
+                <input type="checkbox" id="MembershipDialog_Enabled" onclick="CodeOnTime.Client.toggleMembershipOptions(this, true)" /><label
+                    for="MembershipDialog_Enabled">Enable support for <a target="_blank" href="javascript:" onclick="return $openUrl('http://msdn.microsoft.com/en-us/library/yh26yfzy.aspx')"
+                        title="Learn about Microsoft ASP.NET Membership">ASP.NET Membership</a> with membership bar and
+                    <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/getting-started/creating-app');"
+                        target="_blank" title="Learn to create a web app with standard ASP.NET Membership">user manager</a>.</label><br />
+                <br />
+                <div id="MembershipDialog_SubscriberFeatures">
+                    <div id="MembershipDialog_PremiumFeatures">
+                        <input type="checkbox" id="MembershipDialog_WindowsAuthentication" onclick="CodeOnTime.Client.toggleMembershipOptions(this)" /><label  id="MembershipDialog_WindowsAuthenticationLabel" 
+                            for="MembershipDialog_WindowsAuthentication">Enable <a target="_blank" href="javascript:" onclick="return $openUrl('http://msdn.microsoft.com/en-us/library/ms998358.aspx')"
+                                title="Learn about support for Windows Authentication in ASP.NET web applications. This feature requires Premium or Unlimited edition.">
+                                Windows Authentication</a>. Recommended for <i>Intranet</i> applications only.</label><br />
+                        <br />
+                        <input type="checkbox" id="MembershipDialog_ActiveDirectory" onclick="CodeOnTime.Client.toggleMembershipOptions(this)" /><label id="MembershipDialog_ActiveDirectoryLabel" 
+                            for="MembershipDialog_ActiveDirectory">Enable <a target="_blank" href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/security/active-directory')"
+                                title="Learn about support for Active Directory in ASP.NET web applications. This feature requires Premium or Unlimited edition.">
+                                Active Directory</a> authentication and role management.
+                        </label>
+                        <br />
+                        <textarea id="MembershipDialog_ActiveDirectoryConfig" style="width: 680px; height: 225px; overflow: auto;
+                            margin-left: 18px; margin-top: 4px" rows="5" cols="80" wrap="off"></textarea>
+                        <br />
+                        <input type="checkbox" id="MembershipDialog_CustomSecurity" onclick="CodeOnTime.Client.toggleMembershipOptions(this)" /><label
+                            for="MembershipDialog_CustomSecurity">Enable custom membership and role providers. <a href="javascript:"
+                                onclick="return $openUrl('http://codeontime.com/learn/security/membership-role-providers/overview')"
+                                target="_blank" title="Learn to configure custom Membership and Role providers using application database tables. This feature requires Unlimited edition.">
+                                Users and roles are defined in the application database tables.</a></label><br />
+                        <textarea id="MembershipDialog_CustomSecurityConfig" style="width: 680px; height: 225px; overflow: auto;
+                            margin-left: 18px; margin-top: 4px" rows="5" cols="80" wrap="off"></textarea>
+                        <br />
+                    </div>
+                </div>
+                <div id="MembershipDialog_StandaloneDatabase_Container">
+                    <input type="checkbox" id="MembershipDialog_StandaloneDatabase" onclick="Sys.UI.DomElement.setVisible($get('MembershipDialog_ConnectionStringSettings'), this.checked);if(!this.checked)$get('MembershipDialog_ConnectionString').value='';" /><label
+                        for="MembershipDialog_StandaloneDatabase">Membership will use a <a href="javascript:" onclick="return $openUrl('http://msdn.microsoft.com/en-us/library/ms229862(VS.80).aspx')"
+                            target="_blank" title="Learn how to create a standalone ASP.NET Membership database with aspnet_regsql.exe">
+                            standalone database</a> that already exists.</label></div>
+                <br />
+                <div id="MembershipDialog_ConnectionStringSettings">
+                    <div class="Content" style="margin-bottom: 0px; padding-bottom: 0px;">
+                        <div>
+                            Specify a valid connection string compatible with the selected data provider for a standalone membership
+                            database.
+                            <div class="Field" id="MembershipDialog_ProviderName_Container">
+                                <label for="MembershipDialog_ProviderName" class="Label">
+                                    Data Provider:</label>
+                                <select id="MembershipDialog_ProviderName" onchange="CodeOnTime.Client.verifyProviderName(this); return true">
+                                    <optgroup label="Supported Data Providers">
+                                        <option value="System.Data.SqlClient">.Net Framework Provider for SqlServer (System.Data.SqlClient)</option>
+                                        <option value="Oracle.ManagedDataAccess.Client">Oracle Data Provider for .NET, Managed Driver (Oracle.ManagedDataAccess.Client)</option>
+                                        <!-- <option value="System.Data.OleDb">.NET Framework Data Provider for Microsoft Access (System.Data.OleDb)</option> -->
+                                        <option value="MySql.Data.MySqlClient">.NET Framework Data Provider for MySQL and MariaDB (MySql.Data.MySqlClient)</option>
+                                        <option value="IBM.Data.DB2">IBM DB2 .NET Data Provider (IBM.Data.DB2)</option>
+                                        <option value="iAnywhere.Data.SQLAnywhere">.NET Framework Data Provider for SQL Anywhere 12 (iAnywhere.Data.SQLAnywhere)</option>
+                                        <option value="Npgsql">.Net Framework Data Provider for Postgresql Server (Npgsql)</option>
+                                        <option value="FirebirdSql.Data.FirebirdClient">.NET Framework Data Provider for Firebird (FirebirdSql.Data.FirebirdClient)</option>
+                                    </optgroup>
+                                    <optgroup label="Specialty Providers">
+                                        <option value="CodeOnTime.CustomDataProvider">Custom Data Provider (Web Service, File System, etc)</option>
+                                        <option value="Microsoft.EntityFramework" disabled="disabled">Entity Framework Data Provider</option>
+                                    </optgroup>
+                                    <optgroup label="Legacy Data Providers">
+                                        <option value="Oracle.DataAccess.Client">Oracle Data Provider for .NET (Oracle.DataAccess.Client)</option>
+                                        <option value="System.Data.OracleClient">.Net Framework Provider for Oracle (System.Data.OracleClient)</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <div class="Field">
+                                <label for="MembershipDialog_ConnectionString" class="Label">
+                                    Connection String:</label>
+                                <input type="text" id="MembershipDialog_ConnectionString" style="width: 450px" onchange="CodeOnTime.Client.encryptConnectionString(this)" />
+                                <button onclick="if(!$get('MembershipDialog_ConnectionStringSettings').disabled)CodeOnTime.Client._runConnectionStringWizard('MembershipDialog');return false"
+                                    title="Use wizard to build the connection string" class="button-more">
+                                    ...</button><br />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Tasks">
+                        <div class="Task">
+                            Click <a href="#" onclick="if(!$get('MembershipDialog_ConnectionStringSettings').disabled)CodeOnTime.Client._runConnectionStringWizard('MembershipDialog');return false"
+                                title="Use wizard to build the connection string">here</a> if you need assistance to build the connection
+                            string.</div>
+                        <div class="Task">
+                            If the connection string is left blank, membership is enabled, and <i>System.Data.SqlClient</i> is selected
+                            as the data provider then ASP.NET will expect that <a href="javascript:" onclick="return $openUrl('http://www.microsoft.com/express/database/')">
+                                Microsoft SQL Express</a> is installed on this computer.
+                        </div>
+                    </div>
+                    <div class="Content">
+                        <br />
+                        <br />
+                        Options depend on product edition, may require custom coding, or are not compatible with each other.</div>
+                </div>
+            </div>
+            <!-- Login -->
+            <div title="Login Window">
+                <div id="MembershipDialog_DedicatedLogin_Container">
+                    <input type="checkbox" id="MembershipDialog_DedicatedLogin" onclick="CodeOnTime.Client.ensureRefreshModels()" /><label
+                        for="MembershipDialog_DedicatedLogin">Enable a dedicated login page instead of a fly-over login dialog.</label>
+                </div>
+                <br />
+                <div id="MembershipDialog_DisplayRememberMe_Container">
+                    <input type="checkbox" id="MembershipDialog_DisplayRememberMe" onclick="CodeOnTime.Client.ensureRefreshModels()" /><label for="MembershipDialog_DisplayRememberMe">Display
+                        "Remember Me" option on the fly-over login dialog.</label></div>
+                <br />
+                <div id="MembershipDialog_RememberMeSet_Container">
+                    <input type="checkbox" id="MembershipDialog_RememberMeSet" onclick="CodeOnTime.Client.ensureRefreshModels()" /><label for="MembershipDialog_RememberMeSet">Login
+                        option "Remember Me" is set by default.</label></div>
+                <br />
+                <div id="MembershipDialog_DisplayPasswordRecovery_Container" onclick="CodeOnTime.Client.ensureRefreshModels()">
+                    <input type="checkbox" id="MembershipDialog_DisplayPasswordRecovery" /><label for="MembershipDialog_DisplayPasswordRecovery">Display
+                        "Password Recovery" link on the fly-over login dialog.</label></div>
+                <br />
+                <div id="MembershipDialog_DisplaySignUp_Container" onclick="CodeOnTime.Client.ensureRefreshModels()">
+                    <input type="checkbox" id="MembershipDialog_DisplaySignUp" /><label for="MembershipDialog_DisplaySignUp">Display
+                        "Sign Up" link on the fly-over login dialog.</label></div>
+            </div>
+            <!-- Membership Bar -->
+            <div title="Membership Bar">
+                <div id="MembershipDialog_DisplayMyAccount_Container">
+                    <input type="checkbox" id="MembershipDialog_DisplayMyAccount" /><label for="MembershipDialog_DisplayMyAccount">Display
+                        "My Account" link on the membership bar.</label></div>
+                <br />
+                <div id="MembershipDialog_DisplayHelp_Container">
+                    <input type="checkbox" id="MembershipDialog_DisplayHelp" /><label for="MembershipDialog_DisplayHelp">Display
+                        "Help" link on the membership bar and support page-level help.</label></div>
+            </div>
+            <!-- Logout -->
+            <div title="Logout">
+                <div id="MembershipDialog_IdleUserDetection_Container">
+                    <input type="checkbox" id="MembershipDialog_IdleUserDetection" /><label for="MembershipDialog_IdleUserDetection">Detect
+                        if user is idle for longer than
+                        <input type="text" id="MembershipDialog_IdleUserDetectionTimeout" style="width: 20px" />
+                        minutes and log the user out of the application</label>.
+                </div>
+            </div>
+            <!-- About ASP.NET Membership -->
+            <!--            <div title="About ASP.NET Membership">
+                <a title="About ASP.NET Membership" target="_blank" href="http://msdn.microsoft.com/en-us/library/yh26yfzy.aspx">
+                    ASP.NET Membership</a> gives you a built-in way to validate and store user credentials
+                and helps you manage user authentication in your Web sites.
+                <br />
+                <br />
+                Standard ASP.NET membership features can be enhanced with AJAX-enabled user and
+                role manager. Membership bar component will be displayed at the top of all pages
+                and will provide an attractive AJAX-enabled login window, access to self-registration,
+                password recovery, and user account modification with no code to write.
+                <br />
+                <br />
+                <b>ASP.NET Membership requires an instance of Microsoft SQL Express 2008 installed on
+                    your computer.</b> You may opt to host a <a href="javascript:" onclick="return $openUrl('http://msdn.microsoft.com/en-us/library/ms229862(VS.80).aspx')"
+                        target="_blank" title="Learn how to create a standalone ASP.NET Membeship database with aspnet_regsql.exe">
+                        standalone database</a> membership database or keep the membership structures
+                in your own database.
+            </div>
+-->
+        </div>
+        <div class="Buttons">
+            <button onclick="CodeOnTime.Client.cancel()">
+                Cancel</button>
+            <button onclick="CodeOnTime.Client._executeMembershipDialogCallback('Back')">
+                Back</button>
+            <button onclick="CodeOnTime.Client._executeMembershipDialogCallback('Next')">
+                Next</button>
+        </div>
+    </div>
+</body>
+</html>

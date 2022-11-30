@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^एक नया उपयोगकर्ता के रिकॉर्ड बनाएँ.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^नये उपयोगकर्ता^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^नया^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^वापस^BackToRequestPasswordActionHeaderText^
+
+^Comment^टिप्पणी^Comment^
+
+^ConfirmIdentityActionHeaderText^समाप्त^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^नए पासवर्ड की पुष्टि^ConfirmNewPassword^
+
+^ConfirmPassword^पासवर्ड की पुष्टि करें^ConfirmPassword^
+
+^CreateDate^तिथि बनाएँ^CreateDate^
+
+^CreateFormCommentCategoryDescription^इस प्रयोक्ता के खाते के बारे में कोई अतिरिक्त टिप्पणी दर्ज करें. नया उपयोगकर्ता के लिए दृश्यमान नहीं है.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^टिप्पणियाँ^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^उपयोगकर्ता नाम और पासवर्ड दर्ज करें. ध्यान दें कि पासवर्ड कम से कम 7 अक्षर लंबा और एक चरित्र गैर अक्षरांकीय शामिल किया जाना चाहिए. केवल अनुमोदित उपयोगकर्ताओं के वेबसाइट में लॉगिन कर सकेंगे.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^नई उपयोगकर्ता जानकारी^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^इन क्षेत्रों के लिए एक के लिए एक भूल कूटशब्द को पुनः प्राप्त उपयोगकर्ता मदद की आवश्यकता है. वसूली प्रक्रिया के दौरान उपयोगकर्ता के लिए एक उपयोगकर्ता नाम दर्ज करने को कहा जाएगा. यदि कोई उपयोगकर्ता खाता फिर से मौजूद एक सुरक्षा प्रश्न का उत्तर दिया जा अनुरोध किया है. एक सही जवाब एक अस्थायी पासवर्ड उपयोगकर्ता के लिए भेजने के साथ एक ईमेल ट्रिगर किया जाएगा.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^पासवर्ड वसूली^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^उपयोगकर्ता भूमिकाओं कि सबसे निकट प्रयोक्ता की जिम्मेदारियों मैच का चयन करें. भूमिकाएँ इस वेब साइट के क्षेत्रों के लिए अभिगम नियंत्रण. सिस्टम व्यवस्थापक से संपर्क करें यदि भूमिका उपयोग प्रतिबंध परिवर्तित किया जाना चाहिए.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^भूमिकाएँ^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^इस फार्म को भरने और ठीक करने के लिए एक नया उपयोगकर्ता के सदस्यता रिकॉर्ड बनाने के लिए बटन क्लिक करें. पिछले स्क्रीन पर लौटने के लिए रद्द करें क्लिक करें.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^नये उपयोगकर्ता^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^इस उपयोगकर्ता खाता बनाए जा के रूप में मंजूरी दे दी जाएगी.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^ईमेल पता डुप्लिकेट.^DuplicateEmail^
+
+^DuplicateProviderUserKey^प्रदाता कुंजी डुप्लिकेट.^DuplicateProviderUserKey^
+
+^DuplicateUserName^उपयोगकर्ता नाम डुप्लिकेट.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^गतिविधि सांख्यिकी^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^इस उपयोगकर्ता खाता मंजूरी दे दी है^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^इन विफल रहा है यह उपयोगकर्ता द्वारा लॉगिन प्रयास के आँकड़े हैं. <br/> <br/> प्रयोक्ता विफल रही लॉगिन करने के प्रयासों की अधिकतम संख्या तक पहुंचने के बाद बाहर हो बंद कर दिया जाएगा. <br/> <br/> ताला बाहर उपयोगकर्ताओं के लिए विफल पासवर्ड प्रयास विंडो में प्रारंभ तिथि के बाद फिर से लॉगिन कर सकेंगे. <br/> <br/> जो प्रयोक्ता कूटशब्द को पुनः प्राप्त करने में विफल रहा ऐसा करने में सक्षम करने में असफल पासवर्ड जवाब देने की कोशिश विंडो में प्रारंभ तिथि के बाद किया जाएगा. <br/> <br/> आप उपयोगकर्ता के लिए 'नहीं' आउट ताला ध्वज सेट करके लॉगिन क्षमता बहाल कर सकते हैं.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^लॉग इन सांख्यिकी^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^एक भूल पासवर्ड की वसूली के दौरान उपयोगकर्ता के लिए एक उपयोगकर्ता नाम दर्ज करने को कहा जाएगा. यदि कोई उपयोगकर्ता खाता फिर से मौजूद एक सुरक्षा प्रश्न का उत्तर दिया जा अनुरोध किया है. एक सही जवाब एक अस्थायी पासवर्ड उपयोगकर्ता के लिए भेजने के साथ एक ईमेल ट्रिगर किया जाएगा. <br/><br/> बदलें बाहर बंद ध्वज को 'नहीं' यदि उपयोगकर्ता विफल रही लॉगिन करने के प्रयासों की अधिकतम संख्या तक पहुंचने के बाद किया गया है बाहर बंद कर दिया और आप उपयोगकर्ता को फिर से लोगिन करने की अनुमति देना चाहते हैं.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^पासवर्ड वसूली^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^उपयोगकर्ता भूमिकाओं कि सबसे निकट प्रयोक्ता की जिम्मेदारियों मैच का चयन करें. भूमिकाएँ इस वेब साइट के क्षेत्रों के लिए अभिगम नियंत्रण. सिस्टम व्यवस्थापक से संपर्क करें यदि भूमिका उपयोग प्रतिबंध परिवर्तित किया जाना चाहिए. <br/> <br/> इस प्रयोक्ता के खाते के बारे में कोई अतिरिक्त टिप्पणी दर्ज करें. नया उपयोगकर्ता के लिए दृश्यमान नहीं है.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^उपयोगकर्ता जानकारी^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^उपयोगकर्ता सदस्यता जानकारी नीचे की समीक्षा करें. इस रिकॉर्ड बदलने के लिए संपादित करें, रिकॉर्ड करने के लिए हटाएँ हटाएँ क्लिक करें, या क्लिक करें रद्द करने के लिए / वापस बंद करें.^EditFormViewHeaderText^
+
+^EditFormViewLabel^समीक्षा प्रयोक्ता^EditFormViewLabel^
+
+^Email^ईमेल^Email^
+
+^EnterCurrentPassword^अपना वर्तमान पासवर्ड दर्ज करें.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^एक पासवर्ड जवाब दाखिल करें.^EnterPasswordAnswer^
+
+^ErrorSavingUser^उपयोगकर्ता खाता सहेजने में त्रुटि.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^विफल पासवर्ड जवाब देने की कोशिश की गणना करें^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^विफल पासवर्ड जवाब देने की कोशिश विंडो प्रारंभ^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^विफल पासवर्ड प्रयास गणना^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^विफल पासवर्ड प्रयास विंडो प्रारंभ^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^इस सदस्यता उपयोगकर्ता के रिकॉर्ड की एक सूची है.^GridViewHeaderText^
+
+^GridViewLabel^सभी उपयोगकर्ता^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^निम्नलिखित के लिए अपना पासवर्ड प्राप्त करने के सवाल का जवाब. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^पहचान की पुष्टि^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^इस फार्म भरें और के लिए भूल पासवर्ड पुनर्प्राप्त बटन सबमिट करें क्लिक करें. पिछले स्क्रीन पर लौटने के लिए रद्द करें क्लिक करें.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^पासवर्ड वसूली: 2 के चरण 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^अमान्य पासवर्ड वसूली जवाब.^InvalidAnswer^
+
+^InvalidEmail^अमान्य ईमेल पता.^InvalidEmail^
+
+^InvalidPassword^अमान्य पासवर्ड.^InvalidPassword^
+
+^InvalidProviderUserKey^अवैध प्रदाता उपयोगकर्ता कुंजी.^InvalidProviderUserKey^
+
+^InvalidQuestion^अमान्य पासवर्ड वसूली प्रश्न.^InvalidQuestion^
+
+^InvalidUserName^अमान्य उपयोगकर्ता नाम.^InvalidUserName^
+
+^IsApproved^क्या स्वीकृत^IsApproved^
+
+^IsLockedOut^बाहर ताला^IsLockedOut^
+
+^LastLockoutDate^अंतिम तिथि तालाबंदी^LastLockoutDate^
+
+^LastLoginDate^अंतिम लॉगिन तिथि^LastLoginDate^
+
+^LastPasswordChangedDate^अंतिम पासवर्ड तिथि बदली गई^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^पासवर्ड उत्तर (अपनी सुरक्षा के लिए प्रदर्शित नहीं)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^अपने वर्तमान के लिए नया पासवर्ड बनाने के लिए पासवर्ड दर्ज करें, आपके ईमेल पता, या बदलने के लिए पासवर्ड वसूली सवाल और जवाब अद्यतन.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. वर्तमान पासवर्ड^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^आपकी सदस्यता जानकारी नीचे की समीक्षा करें. मेरे लिए इस रिकॉर्ड को बदलने खाता अद्यतन करें क्लिक करें, या करने के लिए वापस लौटने के लिए रद्द करें क्लिक करें.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^मेरा खाता^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^नया पासवर्ड दर्ज करें. ध्यान दें कि पासवर्ड कम से कम 7 अक्षर लंबा और एक चरित्र गैर अक्षरांकीय शामिल किया जाना चाहिए.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. नया पासवर्ड (वैकल्पिक)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^एक भूल पासवर्ड की वसूली के दौरान आप अपने उपयोगकर्ता नाम दर्ज करने को कहा जाएगा. यदि कोई उपयोगकर्ता खाता फिर से मौजूद है एक पासवर्ड के प्रश्न का उत्तर दिया जाना चाहिए. एक सही जवाब एक अस्थायी पासवर्ड आप भेजने के साथ एक ईमेल ट्रिगर किया जाएगा.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. ईमेल &amp; पासवर्ड वसूली (वैकल्पिक)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^नया पासवर्ड^NewPassword^
+
+^NewPasswordAlert^एक नया पासवर्ड फ़ाइल पर पते पर ईमेल कर दिया गया गया है.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^नया पासवर्ड और पुष्टिकरण मेल नहीं खाते.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^आपका नया पासवर्ड अमान्य है.^NewPasswordInvalid^
+
+^NewPasswordSubject^\'{0} \ 'के लिए नया पासवर्ड.^NewPasswordSubject^
+
+^OldPassword^पुराना पासवर्ड^OldPassword^
+
+^Password^पासवर्ड^Password^
+
+^PasswordAndConfirmationDoNotMatch^पासवर्ड और पुष्टिकरण मेल नहीं खाते.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^पासवर्ड जवाब^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^आपका पासवर्ड हमारे रिकॉर्ड से मेल नहीं खाती.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^पासवर्ड स्वरूप^PasswordFormat^
+
+^PasswordQuestion^पासवर्ड प्रश्न^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^एक उपयोगकर्ता नाम दर्ज करें. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^अपना पासवर्ड भूल गए?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^इस फार्म भरें और जारी रखें बटन को भूल पासवर्ड पुनर्प्राप्त करें क्लिक करें. पिछले स्क्रीन पर लौटने के लिए रद्द करें क्लिक करें.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^पासवर्ड वसूली: 2 का 1 पद^PasswordRequestViewLabel^
+
+^ProviderError^प्रदाता त्रुटि.^ProviderError^
+
+^RequestPasswordActionHeaderText^अगला^RequestPasswordActionHeaderText^
+
+^Roles^भूमिकाएँ^Roles^
+
+^SelfRegisteredUser^सेल्फ पंजीकृत उपयोगकर्ता.^SelfRegisteredUser^
+
+^SignUp^साइन अप करें^SignUp^
+
+^SignUpViewHeaderText^इस फार्म को भरने और ठीक करने के लिए एक खाते के लिए साइन अप करें बटन क्लिक करें. पिछले स्क्रीन पर लौटने के लिए रद्द करें क्लिक करें.^SignUpViewHeaderText^
+
+^SignUpViewLabel^खाता साइन अप करें^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^उपयोगकर्ता नाम और पासवर्ड दर्ज करें. ध्यान दें कि पासवर्ड कम से कम 7 अक्षर लंबा और एक चरित्र गैर अक्षरांकीय शामिल किया जाना चाहिए. केवल अनुमोदित उपयोगकर्ताओं के वेबसाइट में लॉगिन कर सकेंगे.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^नई उपयोगकर्ता जानकारी^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^इन क्षेत्रों के लिए तुम एक भूल कूटशब्द को पुनः प्राप्त करने में मदद की आवश्यकता है. वसूली की प्रक्रिया के दौरान आप के लिए एक उपयोगकर्ता नाम दर्ज करने को कहा जाएगा. यदि कोई उपयोगकर्ता खाता फिर से मौजूद एक सुरक्षा प्रश्न का उत्तर दिया जा अनुरोध किया है. एक सही जवाब एक अस्थायी पासवर्ड पंजीकृत ईमेल भेजने के साथ एक ईमेल ट्रिगर किया जाएगा.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^पासवर्ड वसूली^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^मेरा खाता अद्यतन^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^उपयोगकर्ता का बाहर होना बंद नहीं कर सकते हैं. यदि आप करने के लिए लॉग इन करने में सक्षम होने से इस उपयोगकर्ता को रोकना चाहते हैं तो बस 'के रूप में अनुमोदित नहीं उपयोगकर्ता चिह्न.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^उपयोगकर्ता का'{0}' हटा दिया गया है.^UserHasBeenDeleted^
+
+^UserName^उपयोगकर्ता नाम^UserName^
+
+^UserNameDoesNotExist^उपयोगकर्ता का नाम मौजूद नहीं है.^UserNameDoesNotExist^
+
+^UserNotFound^नहीं मिला उपयोगकर्ता.^UserNotFound^
+
+^UserRejected^उपयोगकर्ता का खारिज कर दिया गया है.^UserRejected^
+
+^UsersInRolesGridHeaderText^इस सदस्यता उपयोगकर्ता रिकॉर्ड है कि एक चयनित भूमिका से संबंधित की एक सूची है.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^भूमिका में उपयोगकर्ताओं^UsersInRolesGridLabel^
+

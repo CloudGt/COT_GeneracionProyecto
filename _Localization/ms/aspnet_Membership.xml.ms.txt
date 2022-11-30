@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Buat rekod pengguna baru.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Pengguna Baru^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Baru^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Kembali^BackToRequestPasswordActionHeaderText^
+
+^Comment^Komen^Comment^
+
+^ConfirmIdentityActionHeaderText^Selesai^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Sahkan Kata Laluan Baru^ConfirmNewPassword^
+
+^ConfirmPassword^Sahkan Kata Laluan^ConfirmPassword^
+
+^CreateDate^Buat Tarikh^CreateDate^
+
+^CreateFormCommentCategoryDescription^Masukkan apa-apa komen tambahan mengenai akaun pengguna ini. Komen tidak dapat dilihat oleh pengguna.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Comments^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Sila masukkan nama pengguna dan kata laluan. Ambil perhatian bahawa kata laluan mesti sekurang-kurangnya 7 aksara panjang dan termasuk seorang aksara bukan abjad angka. Hanya diluluskan pengguna akan dapat login ke dalam laman web.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Maklumat pengguna Baru^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Bidang ini adalah perlu untuk membantu pengguna untuk mendapatkan kata laluan yang terlupa. Semasa proses pemulihan, pengguna akan diminta untuk memasukkan nama pengguna. Jika akaun pengguna wujud, maka soalan keselamatan adalah diminta untuk menjawab. Satu jawapan yang betul akan mencetuskan e-mel dengan kata laluan sementara menghantar kepada pengguna.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Pemulihan kata laluan^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Sila pilih peranan pengguna yang paling rapat sepadan dengan tanggungjawab pengguna. Peranan mengawal akses kepada kawasan-kawasan laman web ini. Sila hubungi pentadbir sistem jika sekatan akses peranan yang perlu ditukar.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Peranan^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Sila mengisi borang ini dan klik butang OK untuk mencipta rekod keahlian pengguna baru. Klik Batal untuk kembali ke skrin sebelumnya.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Pengguna Baru^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Akaun pengguna ini akan diwujudkan seperti yang diluluskan.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Pendua alamat e-mel.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Pendua kunci pembekal.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Pendua nama pengguna.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Aktiviti Statistik^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Ini akaun pengguna adalah diluluskan^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Ini adalah statistik cubaan login gagal oleh pengguna ini. <br/> Pengguna <br/> akan dikunci selepas mencapai bilangan maksimum cubaan login gagal. <br/> <br/> Berkunci daripada pengguna akan dapat login sekali lagi selepas tarikh di Cuba Mula Window Password Gagal. <br/> <br/> Pengguna yang gagal untuk mendapatkan semula kata laluan akan dapat untuk jadi selepas tarikh Jawapan Kata Laluan Gagal Window Mula Cuba. <br/> <br/> Anda boleh memulihkan keupayaan pengguna untuk login dengan menetapkan bendera Berkunci Out untuk &#39;Tidak&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Masuk Statistik^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Semasa pemulihan kata laluan dilupakan pengguna akan diminta untuk memasukkan nama pengguna. Jika akaun pengguna wujud, maka soalan keselamatan adalah diminta untuk menjawab. Satu jawapan yang betul akan mencetuskan e-mel dengan kata laluan sementara menghantar kepada pengguna. <br/><br/> Tukar dikunci bendera untuk &#39;Tidak&#39; jika pengguna telah dikunci keluar selepas mencapai bilangan maksimum cubaan login gagal dan anda ingin membenarkan pengguna untuk login sekali lagi.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Pemulihan kata laluan^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Sila pilih peranan pengguna yang paling rapat sepadan dengan tanggungjawab pengguna. Peranan mengawal akses kepada kawasan-kawasan laman web ini. Sila hubungi pentadbir sistem jika sekatan akses peranan yang perlu ditukar. <br/> <br/> Masukkan apa-apa komen tambahan mengenai akaun pengguna ini. Komen tidak dapat dilihat oleh pengguna.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Maklumat Pengguna^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Sila menyemak maklumat keahlian pengguna di bawah. Klik Edit untuk ubah rekod ini, klik Padam untuk memadam rekod, atau klik Batal / Close untuk kembali semula.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Arahan Review^EditFormViewLabel^
+
+^Email^E-mel^Email^
+
+^EnterCurrentPassword^Sila masukkan kata laluan semasa anda.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Sila masukkan jawapan kata laluan.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Ralat menyimpan akaun pengguna.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Jawapan Cuba Count Kata Laluan Gagal^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Jawapan Kata Laluan Gagal Cuba Mula Window^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Count Cuba Kata Laluan Gagal^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Cuba Window Mula Kata Laluan Gagal^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Ini adalah senarai rekod pengguna keahlian.^GridViewHeaderText^
+
+^GridViewLabel^Semua Pengguna^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Jawab soalan berikut untuk menerima kata laluan anda. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Pengesahan identiti^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Sila isikan borang ini dan klik Hantar butang untuk mendapatkan kata laluan yang terlupa. Klik Batal untuk kembali ke skrin sebelumnya.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Pemulihan Password: Langkah 2 daripada 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Jawapan pemulihan kata laluan tidak sah.^InvalidAnswer^
+
+^InvalidEmail^Alamat e-mel tidak sah.^InvalidEmail^
+
+^InvalidPassword^Tidak sah kata laluan.^InvalidPassword^
+
+^InvalidProviderUserKey^Pembekal utama pengguna tidak sah.^InvalidProviderUserKey^
+
+^InvalidQuestion^Soalan pemulihan kata laluan tidak sah.^InvalidQuestion^
+
+^InvalidUserName^Nama pengguna tidak sah.^InvalidUserName^
+
+^IsApproved^Apakah yang Diluluskan^IsApproved^
+
+^IsLockedOut^Locked Out^IsLockedOut^
+
+^LastLockoutDate^Sekat-masuk Tarikh terakhir^LastLockoutDate^
+
+^LastLoginDate^Tarikh Masuk Terkini^LastLoginDate^
+
+^LastPasswordChangedDate^Password Terakhir Ditukar Tarikh^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Jawapan Kata Laluan (tidak dipaparkan untuk melindungi anda)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Sila masukkan kata laluan semasa anda untuk mencipta kata laluan yang baru, kini alamat e-mel anda, atau menukar kata laluan pemulihan soalan dan jawapan.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Kata Laluan Semasa^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Sila menyemak maklumat keahlian anda di bawah. Klik Kemas kini Akaun Saya untuk menukar rekod ini, atau klik Batal untuk kembali.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Akaun Saya^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Sila masukkan kata laluan baru. Ambil perhatian bahawa kata laluan mesti sekurang-kurangnya 7 aksara panjang dan termasuk seorang aksara bukan abjad angka.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. New Password (Pilihan)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Semasa pemulihan kata laluan dilupakan anda akan diminta untuk memasukkan nama pengguna anda. Jika akaun pengguna wujud, maka soalan kata laluan mesti dijawab. Satu jawapan yang betul akan mencetuskan e-mel dengan kata laluan sementara hantar kepada anda.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-mel &amp; Password Pemulihan (Pilihan)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Kata Laluan Baru^NewPassword^
+
+^NewPasswordAlert^Kata laluan baru telah melalui e-mel ke alamat dalam fail.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Kata laluan baru dan pengesahan tidak sepadan.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Kata laluan baru anda adalah tidak sah.^NewPasswordInvalid^
+
+^NewPasswordSubject^Kata laluan baru untuk \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Kata Laluan Lama^OldPassword^
+
+^Password^Kata laluan^Password^
+
+^PasswordAndConfirmationDoNotMatch^Kata laluan dan pengesahan tidak sepadan.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Jawapan Kata Laluan^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Kata laluan anda tidak sepadan dengan rekod kami.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Format Password^PasswordFormat^
+
+^PasswordQuestion^Soalan Kata Laluan^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Sila masukkan nama pengguna. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Lupa kata laluan anda?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Sila isikan borang ini dan klik Teruskan butang untuk mendapatkan kata laluan yang terlupa. Klik Batal untuk kembali ke skrin sebelumnya.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Pemulihan Password: Langkah 1 dari 2^PasswordRequestViewLabel^
+
+^ProviderError^Kesilapan pembekal.^ProviderError^
+
+^RequestPasswordActionHeaderText^Seterusnya^RequestPasswordActionHeaderText^
+
+^Roles^Peranan^Roles^
+
+^SelfRegisteredUser^Self-pengguna berdaftar.^SelfRegisteredUser^
+
+^SignUp^Daftar^SignUp^
+
+^SignUpViewHeaderText^Sila mengisi borang ini dan klik butang OK untuk mendaftar untuk akaun. Klik Batal untuk kembali ke skrin sebelumnya.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Akaun Daftar^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Sila masukkan nama pengguna dan kata laluan. Ambil perhatian bahawa kata laluan mesti sekurang-kurangnya 7 aksara panjang dan termasuk seorang aksara bukan abjad angka. Hanya diluluskan pengguna akan dapat login ke dalam laman web.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Maklumat pengguna Baru^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Bidang ini adalah diperlukan untuk membantu anda untuk mendapatkan semula kata laluan yang terlupa. Semasa proses pemulihan, anda akan diminta untuk memasukkan nama pengguna. Jika akaun pengguna wujud, maka soalan keselamatan adalah diminta untuk menjawab. Satu jawapan yang betul akan mencetuskan e-mel dengan kata laluan sementara hantar ke e-mel berdaftar.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Pemulihan kata laluan^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Kemas kini Akaun Saya^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Pengguna tidak boleh dikunci keluar. Jika anda mahu mengelakkan pengguna ini daripada dapat login, maka hanya menandakan pengguna sebagai &#39;tidak diluluskan&#39;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^&#39;{0}&#39; Pengguna telah dipadam.^UserHasBeenDeleted^
+
+^UserName^Nama Pengguna^UserName^
+
+^UserNameDoesNotExist^Nama Pengguna tidak wujud.^UserNameDoesNotExist^
+
+^UserNotFound^Pengguna tidak dijumpai.^UserNotFound^
+
+^UserRejected^Pengguna telah ditolak.^UserRejected^
+
+^UsersInRolesGridHeaderText^Ini adalah senarai rekod pengguna keahlian yang tergolong dalam peranan yang dipilih.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Pengguna dalam Peranan^UsersInRolesGridLabel^
+

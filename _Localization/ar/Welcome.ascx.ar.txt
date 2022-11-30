@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^الحساب الإداري^AdminDesc^
+
+^SignInHeader^تعليمات^SignInHeader^
+
+^SignInInstruction^تسجيل الدخول إلى الوصول إلى محتوى موقع المحمية.^SignInInstruction^
+
+^SignInPara1^يتم تلقائيا إنشاء حسابين المستخدم القياسي عندما تتم تهيئة التطبيق إذا تم تحديد الخيار عضوية لهذا التطبيق.^SignInPara1^
+
+^SignInPara2^يؤذن لل<b>admin</b> الحساب الإداري للوصول إلى جميع المناطق في موقع على شبكة الإنترنت ومدير العضوية. ولا يسمح للحساب <b>user</b> القياسية للوصول إلى جميع المناطق في موقع على شبكة الانترنت مع استثناء من مدير عضوية.^SignInPara2^
+
+^SignInPara3^تحريك مؤشر الماوس فوق <i>Login تصل إلى هذا site</i> ويب على الجانب الأيمن في أعلى الصفحة والدخول مع واحد من الحسابات المذكورة أدناه.^SignInPara3^
+
+^UserDesc^معيار حساب المستخدم^UserDesc^
+

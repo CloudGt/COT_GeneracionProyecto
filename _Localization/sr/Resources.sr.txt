@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Прибележити^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b>{1}</b> Прилогу на {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Приврженост^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Унесите опционални белешке и приложите фајлове.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Белешке и прилоге^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Написана у {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Белешке^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Белешке^AnnotationTab^
+
+^BlobClearConfirm^Јасно?^BlobClearConfirm^
+
+^BlobCleared^<b>Цонфирматион :</b> {0} Је обрисана.^BlobCleared^
+
+^BlobClearText^Јасно^BlobClearText^
+
+^BlobUploadError^<b>Еррор :</b> Није успео да уплоад-{0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Клик^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^овде^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^да отпремите датотеку или брисање {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Цонфирматион :</b> {0} Је успешно отпремљен. <b>Ит Може трајати до {1} минута сличицу да одражава отпремио цонтент.</b>^BlobUploded^
+
+^Copyright^Сва права задржана.^Copyright^
+
+^RecordChangedByAnotherUser^Рекорд је измењен од стране другог корисника.^RecordChangedByAnotherUser^
+

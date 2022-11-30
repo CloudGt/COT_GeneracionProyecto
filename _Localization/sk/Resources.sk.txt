@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Opatriť poznámkami^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b> V prílohe {1}</b>{2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Pripevnenie^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Zadať dodatočné poznámky a pripájať súbory.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Poznámky a prílohy^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} {1} V písomnej^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Poznámky^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Poznámky^AnnotationTab^
+
+^BlobClearConfirm^Jasné?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Bol vymazaný.^BlobCleared^
+
+^BlobClearText^Jasný^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> So nepodarilo nahrať {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Kliknite na tlačidlo^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^tu^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^nahrať alebo vymazať {0} súboru.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Bol úspešne nahraný. <b>It Môže trvať až {1} minút náhľadmi odrážať nahrané content.</b>^BlobUploded^
+
+^Copyright^Všetky práva vyhradené.^Copyright^
+
+^RecordChangedByAnotherUser^Záznam bol zmenený iným užívateľom.^RecordChangedByAnotherUser^
+

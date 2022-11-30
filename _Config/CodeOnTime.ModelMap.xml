@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+  This is the mapping for the metadata builder of the CodeOnTime code generator. 
+-->
+<modelMap>
+  <provider providerName="System.Data.SqlClient">
+    <collection name="*" exclude="Users,Databases,UserDefinedTypes,Procedures,ProcedureParameters"/>
+    <collection name="$TableSchemas"/>
+    <query name="Tables">select * from INFORMATION_SCHEMA.TABLES</query>
+    <query name="Columns">select * from INFORMATION_SCHEMA.COLUMNS</query>
+    <query name="PrimaryKeyColumns">
+      <![CDATA[
+select kcu.* 
+from INFORMATION_SCHEMA.KEY_COLUMN_USAGE kcu
+	inner join INFORMATION_SCHEMA.TABLE_CONSTRAINTS tc on 
+		kcu.constraint_catalog = tc.constraint_catalog and
+		kcu.constraint_schema = tc.constraint_schema and
+		kcu.constraint_name = tc.constraint_name
+where 
+	tc.constraint_type = 'PRIMARY KEY']]>
+    </query>
+    <query name="ForeignKeyColumns">select * from INFORMATION_SCHEMA.KEY_COLUMN_USAGE where constraint_name in (select constraint_name from INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS)</query>
+    <query name="ForeignKeyReferences">
+      <![CDATA[
+select distinct
+	constraint_object.name CONSTRAINT_NAME,
+	parent_object_schema.name TABLE_SCHEMA,
+	parent_object.name TABLE_NAME, 
+	referenced_object_schema.name REFERENCED_TABLE_SCHEMA,
+	referenced_object.name REFERENCED_TABLE_NAME
+from sys.foreign_key_columns
+	inner join sys.objects parent_object on sys.foreign_key_columns.parent_object_id = parent_object.object_id
+	inner join sys.schemas parent_object_schema on parent_object.schema_id = parent_object_schema.schema_id
+	inner join sys.objects referenced_object on sys.foreign_key_columns.referenced_object_id = referenced_object.object_id
+	inner join sys.schemas referenced_object_schema on referenced_object.schema_id = referenced_object_schema.schema_id
+	inner join sys.objects constraint_object on sys.foreign_key_columns.constraint_object_id = constraint_object.object_id
+
+]]>
+    </query>
+  </provider>
+  <provider providerName="System.Data.OracleClient">
+    <collection name="$TableSchemas"/>
+    <collection name="DataSourceInformation"/>
+    <collection name="DataTypes"/>
+    <collection name="Tables" />
+    <collection name="Columns" />
+    <collection name="Indexes" />
+    <collection name="IndexColumns" />
+    <!--<collection name="Procedures" restrictions="User Id"/>-->
+    <collection name="Sequences" />
+    <collection name="Synonyms" />
+    <collection name="Views" />
+    <!--<collection name="Functions" restrictions="User Id"/>
+    <collection name="Packages" restrictions="User Id"/>-->
+    <!--<collection name="Arguments" restrictions="User Id"/>-->
+    <collection name="UniqueKeys" />
+    <collection name="PrimaryKeys" />
+    <collection name="ForeignKeys" />
+    <collection name="ForeignKeyColumns" />
+    <!--<collection name="ProcedureParameters" restrictions="User Id"/>-->
+  </provider>
+  <provider providerName="Oracle.DataAccess.Client">
+    <collection name="$TableSchemas"/>
+    <collection name="DataSourceInformation"/>
+    <collection name="DataTypes"/>
+    <collection name="Tables" />
+    <collection name="Columns" />
+    <collection name="Indexes" />
+    <collection name="IndexColumns" />
+    <!--<collection name="Procedures" restrictions="User Id"/>-->
+    <collection name="Sequences" />
+    <collection name="Synonyms" />
+    <collection name="Views" />
+    <!--<collection name="Functions" restrictions="User Id"/>
+    <collection name="Packages" restrictions="User Id"/>-->
+    <!--<collection name="Arguments" restrictions="User Id"/>-->
+    <collection name="UniqueKeys" />
+    <collection name="PrimaryKeys" />
+    <collection name="ForeignKeys" />
+    <collection name="ForeignKeyColumns" />
+    <!--<collection name="ProcedureParameters" restrictions="User Id"/>-->
+  </provider>
+  <provider providerName="Oracle.ManagedDataAccess.Client">
+    <collection name="$TableSchemas"/>
+    <collection name="DataSourceInformation"/>
+    <collection name="DataTypes"/>
+    <collection name="Tables"/>
+    <collection name="Columns" />
+    <collection name="Indexes" />
+    <collection name="IndexColumns" />
+    <!--<collection name="Procedures" restrictions="User Id"/>-->
+    <collection name="Sequences" />
+    <collection name="Synonyms" />
+    <collection name="Views" />
+    <!--<collection name="Functions" restrictions="User Id"/>
+    <collection name="Packages" restrictions="User Id"/>-->
+    <!--<collection name="Arguments" restrictions="User Id"/>-->
+    <collection name="UniqueKeys" />
+    <collection name="PrimaryKeys" />
+    <collection name="ForeignKeys" />
+    <collection name="ForeignKeyColumns" />
+    <!--<collection name="ProcedureParameters" restrictions="User Id"/>-->
+  </provider>
+  <provider providerName="MySql.Data.MySqlClient">
+    <collection name="$TableSchemas"/>
+    <collection name="DataSourceInformation"/>
+    <collection name="DataTypes"/>
+    <collection name="Tables"/>
+    <collection name="Columns"/>
+    <collection name="Indexes"/>
+    <!--<collection name="Procedure Parameters"/>-->
+    <collection name="Foreign Keys"/>
+    <collection name="Foreign Key Columns"/>
+    <!--<collection name="IndexColumns"/>-->
+    <collection name="Views"/>
+    <collection name="ViewColumns"/>
+    <!--<collection name="Procedures"/>-->
+  </provider>
+  <provider providerName="IBM.Data.DB2">
+    <collection name="$TableSchemas"/>
+    <collection name="Tables" />
+    <collection name="Columns" />
+    <collection name="DataSourceInformation" />
+    <collection name="DataTypes" />
+    <collection name="ForeignKeys" />
+    <collection name="PrimaryKeys"/>
+    <collection name="Indexes" />
+  </provider>
+  <provider providerName="Npgsql">
+    <collection name="$TableSchemas"/>
+    <query name="ForeignKeyColumns">
+      <![CDATA[
+select kcu.*, ctu.table_catalog pk_table_catalog, ctu.table_schema pk_table_schema, ctu.table_name pk_table_name
+from information_schema.key_column_usage kcu
+	inner join 
+		information_schema.constraint_table_usage ctu on 
+			kcu.table_schema = ctu.constraint_schema
+			and kcu.table_catalog = ctu.constraint_catalog
+			and kcu.constraint_name = ctu.constraint_name
+	inner join 
+		information_schema.table_constraints tc on
+			kcu.table_schema = tc.constraint_schema
+			and kcu.table_catalog = tc.constraint_catalog
+			and kcu.constraint_name = tc.constraint_name
+where tc.constraint_type = 'FOREIGN KEY'
+order by constraint_name, position_in_unique_constraint]]>
+    </query>
+    <collection name="Tables" />
+    <collection name="Views" />
+    <collection name="Columns" />
+    <collection name="DataSourceInformation" />
+    <collection name="ForeignKeys" />
+    <!--<collection name="DataTypes" />-->
+    <!--<collection name="PrimaryKeys"/>-->
+    <collection name="Indexes" />
+  </provider>
+  <provider providerName="iAnywhere.Data.SQLAnywhere">
+    <collection name="Tables" />
+    <collection name="AllColumns" />
+    <collection name="Columns" />
+    <collection name="DataSourceInformation" />
+    <collection name="DataTypes" />
+    <collection name="ForeignKeys" />
+    <collection name="IndexColumns" />
+    <collection name="Indexes" />
+    <collection name="MetaDataCollections" />
+    <!--<collection name="ProcedureParameters" />-->
+    <collection name="ReservedWords" />
+    <!--<collection name="Procedures" />-->
+    <collection name="Restrictions" />
+    <collection name="Users" />
+    <collection name="UserDefinedTypes" />
+    <collection name="ViewColumns" />
+    <collection name="Views" />
+    <query name="ForeignKeysCollection">
+      <![CDATA[
+select fk.foreign_key_id ForeignKeyId, ft.table_name ForeignTableName, pt.table_name PrimaryTableName
+from SYSFOREIGNKEY fk
+inner join SYSTABLE ft on ft.table_id = fk.foreign_table_id
+inner join SYSTABLE pt on pt.table_id = fk.primary_table_id 
+]]>
+    </query>
+    <query name="ForeignKeysColumnsCollection">
+      <![CDATA[
+select fk.foreign_key_id ForeignKeyId, ft.table_name ForeignTableName, fk_col_def.column_name ForeignColumn, pk_col_def.column_name PrimaryColumn
+from SYSFOREIGNKEY fk
+inner join SYSTABLE ft on ft.table_id = fk.foreign_table_id
+inner join SYSFKCOL fk_col on fk_col.foreign_key_id = fk.foreign_key_id and fk_col.foreign_table_id = fk.foreign_table_id
+inner join SYSCOLUMN fk_col_def on fk_col_def.table_id = fk_col.foreign_table_id and fk_col_def.column_id = fk_col.foreign_column_id
+inner join SYSCOLUMN pk_col_def on pk_col_def.table_id = fk.primary_table_id and pk_col_def.column_id = fk_col.primary_column_id
+order by ft.table_name, fk.foreign_key_id    
+]]>
+    </query>
+  </provider>
+  <provider providerName="System.Data.OleDb">
+    <collection name="Tables" />
+    <collection name="Columns" />
+    <collection name="DataSourceInformation" />
+    <collection name="DataTypes" />
+    <collection name="Indexes" />
+    <collection name="MetaDataCollections" />
+    <collection name="ReservedWords" />
+    <collection name="Restrictions" />
+    <!--<collection name="Procedures" />-->
+    <collection name="Views" />
+    <query name="ForeignKeysCollection">
+      <![CDATA[SELECT * FROM MSysRelationships]]>
+    </query>
+  </provider>
+  <provider providerName="FirebirdSql.Data.FirebirdClient">
+    <collection name="Tables" />
+    <collection name="Columns" />
+    <collection name="ForeignKeys" />
+    <collection name="ForeignKeyColumns" />
+    <collection name="DataSourceInformation" />
+    <collection name="DataTypes" />
+    <collection name="PrimaryKeys" />
+    <collection name="Indexes" />
+    <collection name="MetaDataCollections" />
+    <collection name="ReservedWords" />
+    <collection name="Restrictions" />
+    <collection name="Generators" />
+    <!--<collection name="Procedures" />-->
+    <collection name="Views" />
+  </provider>
+  <provider>
+    <collection name="*" exclude="Users,Databases"/>
+  </provider>
+</modelMap>

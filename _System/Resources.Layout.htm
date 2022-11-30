@@ -1,0 +1,83 @@
+﻿<!-- 
+    Resource page body children are automatically exctracted by CodeOnTime.Client.loadResource 
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title></title>
+    <link href="CodeOnTime.css" type="text/css" rel="Stylesheet" />
+</head>
+<body>
+    <!-- "Layout" Dialog -->
+    <div id="LayoutDialog" title="Layout">
+        <div class="Content ContentBar">
+            Please specify the page data view layout preferences.</div>
+        <div class="Heading Logo">
+            Layout
+            <div class="Icon Layout">
+            </div>
+        </div>
+        <div class="Content">
+            <div>
+                A dedicated page is created for each data table of your project. A consistent data
+                view layout will be applied to all pages of the generated application.
+                <br />
+                <br />
+                <div class="Task">
+                    <a href="http://dev.codeontime.com/demo/websitefactory2" target="_blank" title="View Sample Application With Simple Layout"
+                        style="font-weight: bold">Simple</a> layout provides a single data view on each
+                    page. A field summary of the selected record is displayed on the side bar.
+                </div>
+                <div class="Task" style="margin-top: 8px">
+                    <a href="http://dev.codeontime.com/demo/websitefactory3" target="_blank" title="View Sample Application With Tabbed Layout"
+                        style="font-weight: bold">Tabbed</a> master-detail layout will place each data
+                    view on a dedicated tab so that only one data view is visible at any time. The details
+                    of the selected master record are automatically displayed on the side bar.</div>
+                <div class="Task" style="margin-top: 8px">
+                    <a href="http://dev.codeontime.com/demo/websitefactory6" target="_blank" title="View Sample Application With Classic Layout"
+                        style="font-weight: bold">Classic</a> master-detail layout will place master
+                    view at the top of the page and all children at the bottom of the page. Each child
+                    will be placed on a dedicated tab so that only master and one child data views are
+                    visible at any time. The details of the selected master record are automatically
+                    displayed on the side bar and stay visible even if the page is scrolled.</div>
+                <div class="Task" style="margin-top: 8px">
+                    <a href="http://dev.codeontime.com/demo/websitefactory4" target="_blank" title="View Sample Application With Inline Layout"
+                        style="font-weight: bold">Inline</a> master-detail layout is similar to the
+                    tabbed layout with one exception. The tabs are not displayed. A set of tasks named
+                    after each data view is displayed at the top of the side bar instead. The details
+                    of the selected master record are automatically displayed on the side bar.</div>
+                <div class="Task" style="margin-top: 8px">
+                    <a href="http://dev.codeontime.com/demo/websitefactory5" target="_blank" title="View Sample Application With Stacked Layout"
+                        style="font-weight: bold">Stacked</a> master-detail layout lists all data views.
+                    This allows simultaneous access to all master and child records. The details of
+                    the selected master record are automatically displayed on the side bar. Stacked
+                    pages are usually longer than the height of the window. The side bar summary automatically
+                    keeps itself in the view when browser window content is scrolled.
+                </div>
+            </div>
+            <div class="Field">
+                <label class="Label" for="LayoutDialog_Layout">
+                    Select the standard page layout:</label>
+                <select id="LayoutDialog_Layout" size="5" style="width: 180px">
+                    <option value="Simple">Simple</option>
+                    <option value="Tabbed">Tabbed</option>
+                    <option value="Classic">Classic</option>
+                    <option value="Inline">Inline</option>
+                    <option value="Stacked">Stacked</option>
+                </select>
+            </div>
+            <div style="margin-top: 8px">
+                You can create custom pages and modify the layout of the automatically generated
+                pages with <b>Code OnTime Designer</b>.</div>
+        </div>
+        <div class="Buttons">
+            <button onclick="CodeOnTime.Client.cancel()">
+                Cancel</button>
+            <button onclick="CodeOnTime.Client._executeLayoutDialogCallback('Back')">
+                Back</button>
+            <button onclick="CodeOnTime.Client._executeLayoutDialogCallback('Next')">
+                Next</button>
+        </div>
+    </div>
+</body>
+</html>

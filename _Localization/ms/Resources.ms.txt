@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Anotasi^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b>{1}</b> Dilampirkan di {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Lampiran^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Masukkan nota pilihan dan melampirkan fail.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Nota dan Lampiran^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Bertulis di {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Nota^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Nota^AnnotationTab^
+
+^BlobClearConfirm^Jelas?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Telah dibersihkan.^BlobCleared^
+
+^BlobClearText^Jelas^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Gagal untuk memuat naik {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Klik^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^di sini^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^memuat naik atau mengosongkan fail {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Telah berjaya diupload. <b>It Mungkin mengambil masa sehingga minit {1} untuk thumbnail untuk mencerminkan content.</b> dimuat naik^BlobUploded^
+
+^Copyright^All rights reserved.^Copyright^
+
+^RecordChangedByAnotherUser^Rekod telah diubah oleh pengguna lain.^RecordChangedByAnotherUser^
+

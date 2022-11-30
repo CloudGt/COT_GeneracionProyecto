@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^ניהול חשבון^AdminDesc^
+
+^SignInHeader^הוראות^SignInHeader^
+
+^SignInInstruction^היכנס כדי לגשת לתוכן באתר מוגנים.^SignInInstruction^
+
+^SignInPara1^שני חשבונות משתמש רגילים נוצרות באופן אוטומטי כאשר יישום מאותחל אם האפשרות לחברות נבחרה עבור יישום זה.^SignInPara1^
+
+^SignInPara2^<b>admin</b> החשבון מינהלי רשאי לגשת לכל האזורים של האתר ומנהל החברות. החשבון <b>user</b> הסטנדרטי הוא רשאי לגשת בכל תחומי האתר למעט מנהל חברות.^SignInPara2^
+
+^SignInPara3^הזיזו את סמן העכבר מעל הקישור <i>Login site</i> האינטרנט הזה בצד הימני בחלק העליון של הדף, התחבר עם אחד החשבונות המפורטים להלן.^SignInPara3^
+
+^UserDesc^למשתמש רגיל חשבון^UserDesc^
+

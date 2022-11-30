@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Kembali^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Selesai^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Konfirmasi password baru^ConfirmNewPassword^
+
+^ConfirmPassword^konfirmasi sandi^ConfirmPassword^
+
+^Email^E-mail^Email^
+
+^ForgotYourPassword^lupa kata sandi Anda?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Jawab pertanyaan berikut untuk menerima kata sandi Anda. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Konfirmasi Identitas^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Isi formulir ini dan klik tombol Kirim untuk memulihkan kata sandi yang terlupakan. Klik Cancel untuk kembali ke layar sebelumnya.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Pemulihan Password: Langkah 2 dari 2^IdentityConfirmViewLabel^
+
+^LoginButton^Masuk^LoginButton^
+
+^LoginLink^Masuk^LoginLink^
+
+^LoginWithDNN^Login dengan DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Masuk dengan Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Login dengan Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Login dengan Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Login dengan SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Login Dengan Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Jawaban Kata Sandi (tidak ditampilkan untuk perlindungan Anda)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Harap masukkan kata sandi Anda saat ini untuk membuat kata sandi baru, perbarui alamat email Anda, atau ubah pertanyaan dan jawaban pemulihan kata kunci.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Kata Sandi Saat Ini^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Harap tinjau informasi keanggotaan Anda di bawah ini. Klik Perbarui Akun Saya untuk mengubah catatan ini, atau klik Cancel untuk kembali kembali.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Akun saya^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Masukkan kata sandi baru Perhatikan bahwa kata sandi minimal harus terdiri dari 7 karakter dan menyertakan satu karakter non-alfanumerik.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Kata Sandi Baru (Opsional)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Selama pemulihan kata sandi yang terlupakan Anda akan diminta untuk memasukkan nama pengguna Anda. Jika akun pengguna ada maka pertanyaan kata sandi harus dijawab. Jawaban yang benar akan memicu email dengan kata sandi sementara yang dikirimkan kepada Anda.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Pemulihan Kata Sandi (Opsional)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^kata sandi baru^NewPassword^
+
+^OldPassword^password lama^OldPassword^
+
+^Password^Kata sandi^Password^
+
+^PasswordAnswer^Jawaban Kata Sandi^PasswordAnswer^
+
+^PasswordQuestion^Pertanyaan kata sandi^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Harap masukkan nama pengguna. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^lupa kata sandi Anda?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Silahkan isi form ini dan klik tombol Continue untuk mengembalikan password yang terlupakan. Klik Cancel untuk kembali ke layar sebelumnya.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Pemulihan Password: Langkah 1 dari 2^PasswordRequestViewLabel^
+
+^RememberMe^Ingat saya lain kali^RememberMe^
+
+^RequestPasswordActionHeaderText^Berikutnya^RequestPasswordActionHeaderText^
+
+^SignUp^Daftar^SignUp^
+
+^SignUpNow^Daftar sekarang^SignUpNow^
+
+^SignUpViewHeaderText^Silahkan isi formulir ini dan klik tombol OK untuk mendaftar ke akun. Klik Cancel untuk kembali ke layar sebelumnya.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Daftar akun^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Harap masukkan nama pengguna dan kata sandi. Perhatikan bahwa kata sandi minimal harus terdiri dari 7 karakter dan menyertakan satu karakter non-alfanumerik. Hanya pengguna yang disetujui yang bisa masuk ke situs web.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Informasi Pengguna Baru^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Bidang ini diperlukan untuk membantu Anda memulihkan kata sandi yang terlupakan. Selama proses pemulihan Anda akan diminta memasukkan nama pengguna. Jika akun pengguna ada maka pertanyaan keamanan diminta dijawab. Jawaban yang benar akan memicu email dengan kata sandi sementara yang dikirim ke email yang terdaftar.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Pemulihan Password^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Perbarui Akun Saya^UpdateMyAccountActionHeaderText^
+
+^UserName^Nama pengguna^UserName^
+

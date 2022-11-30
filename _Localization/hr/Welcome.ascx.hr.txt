@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Administratorski račun^AdminDesc^
+
+^SignInHeader^Upute^SignInHeader^
+
+^SignInInstruction^Prijavite se za pristup zaštićenom sadržaju web-mjesta.^SignInInstruction^
+
+^SignInPara1^Upišite korisničko ime i lozinku te kliknite na Prijava.^SignInPara1^
+
+^SignInPara2^Ukoliko niste registrirani u aplikaciji, kliknite na Registriraj se i popunite tražene podatke.^SignInPara2^
+
+^SignInPara3^Ako ste zaboravili svoju lozinku, kliknite na Zaboravili ste lozinku? te slijedite upute.^SignInPara3^
+
+^UserDesc^Standardni korisnički račun^UserDesc^
+

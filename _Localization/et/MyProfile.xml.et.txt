@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^tagasi^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Lõpetama^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Kinnita Uus salasõna^ConfirmNewPassword^
+
+^ConfirmPassword^Kinnita salasõna^ConfirmPassword^
+
+^Email^E-post^Email^
+
+^ForgotYourPassword^Unustasid salasõna?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Parooli saamiseks vastake järgmisele küsimusele. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Isikut tõendamine^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Palun täitke see vorm ja unusta parooli taastamiseks klõpsake nuppu Esita. Eelmisele kuvale naasmiseks klõpsake nuppu Tühista.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Parooli taastamine: 2. samm 2-st^IdentityConfirmViewLabel^
+
+^LoginButton^Logi sisse^LoginButton^
+
+^LoginLink^Logi sisse^LoginLink^
+
+^LoginWithDNN^Logi sisse DotNetNuke&#39;iga^LoginWithDNN^
+
+^LoginWithFacebook^Logi sisse Facebookiga^LoginWithFacebook^
+
+^LoginWithGoogle^Logi sisse Google&#39;iga^LoginWithGoogle^
+
+^LoginWithMicrosoft^Logi sisse Microsoftiga^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Sisselogimine SharePointiga^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Logi sisse Windows Live&#39;i kaudu^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Parool Vastus (ei kuvata teie kaitseks)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Palun sisestage oma uus parool uue parooli loomiseks, oma e-posti aadressi uuendamiseks või parooli taastamise küsimuse ja vastuse muutmiseks.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Praegune parool^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Palun vaadake allpool oma liikmelisuse teavet. Selle kirje muutmiseks klõpsake käsul Uuenda minu kontot või klõpsake tagasipöördumiseks nupul Loobu.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Minu konto^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Palun sisesta uus parool. Pidage meeles, et parool peab olema vähemalt 7 tähemärki ja sisaldama üht mitte-tähtnumbrilist tähemärki.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Uus parool (valikuline)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Unustatud parooli taastamise ajal palutakse teil sisestada oma kasutajanimi. Kui kasutajakonto on olemas, siis tuleb vastata parooli küsimusele. Õige vastus käivitab teie jaoks ajutise parooliga e-kirja.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Saatke &amp; parooli taastamine (valikuline)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^uus salasõna^NewPassword^
+
+^OldPassword^vana parool^OldPassword^
+
+^Password^Parool^Password^
+
+^PasswordAnswer^Parool Vastus^PasswordAnswer^
+
+^PasswordQuestion^Parooli küsimus^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Palun sisestage kasutajanimi. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Unustasid salasõna?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Palun täitke see vorm ja unusta parooli taastamiseks klõpsake nuppu Jätka. Eelmisele kuvale naasmiseks klõpsake nuppu Tühista.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Parooli taastamine: 1. samm 2-st^PasswordRequestViewLabel^
+
+^RememberMe^Mäletad mind järgmisel korral^RememberMe^
+
+^RequestPasswordActionHeaderText^Järgmine^RequestPasswordActionHeaderText^
+
+^SignUp^Registreeri^SignUp^
+
+^SignUpNow^Registreeru kohe^SignUpNow^
+
+^SignUpViewHeaderText^Palun täitke see vorm ja klõpsake nuppu OK konto registreerimiseks. Eelmisele kuvale naasmiseks klõpsake nuppu Tühista.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Konto registreerimine^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Palun sisestage kasutajanimi ja parool. Pidage meeles, et parool peab olema vähemalt 7 tähemärki ja sisaldama üht mitte-tähtnumbrilist tähemärki. Ainult volitatud kasutajad saavad veebisaidile sisse logida.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Uus kasutaja info^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Need väljad peavad aitama teil unustatud parooli taastada. Taastamisprotsessi ajal palutakse teil sisestada kasutajanimi. Kui kasutajakonto on olemas, siis küsitakse turvaküsimusele vastust. Õige vastus käivitab e-kirja ajutise parooliga, mis saadetakse registreeritud meilile.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Parooli taastamine^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Uuenda minu kontot^UpdateMyAccountActionHeaderText^
+
+^UserName^Kasutaja nimi^UserName^
+

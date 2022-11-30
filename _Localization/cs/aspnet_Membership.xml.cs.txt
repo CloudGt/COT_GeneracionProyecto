@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Vytvořte nový záznam uživatele.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nový uživatel^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nový^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Zpátky^BackToRequestPasswordActionHeaderText^
+
+^Comment^Komentář^Comment^
+
+^ConfirmIdentityActionHeaderText^Provedení^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Potvrdit nové heslo^ConfirmNewPassword^
+
+^ConfirmPassword^Potvrzení hesla^ConfirmPassword^
+
+^CreateDate^Datum vytvoření^CreateDate^
+
+^CreateFormCommentCategoryDescription^Zadejte další komentáře k tomuto uživatelskému účtu. Komentář není viditelný pro uživatele.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Komentáře^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Zadejte prosím uživatelské jméno a heslo. Všimněte si, že heslo musí být minimálně 7 znaků a musí obsahovat jeden non-alfanumerický znak. Pouze schválené uživatelé budou moci přihlásit na webové stránky.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Informace o novém uživateli^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Tyto údaje jsou povinné pomáhají uživateli obnovit zapomenuté heslo. Během procesu obnovy bude uživatel vyzván k zadání uživatelského jména. Je-li uživatelský účet existuje, bezpečnostní otázka je požádala o odpověď. Správná odpověď spustí e-mail s dočasným heslem poslat uživateli.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Prosím, vyberte uživatelské role, které nejvíce odpovídají uživatele povinnosti. Role řídí přístup do oblastí tohoto webu. Prosím, kontaktujte správce systému, zda omezení role přístupu se musí změnit.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Role^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Vyplňte prosím tento formulář a klikněte na tlačítko OK pro vytvoření nového uživatele členství rekord. Klepněte na tlačítko Storno se vrátíte na předchozí obrazovku.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Nový uživatel^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Tento uživatelský účet bude vytvořen za schválené.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplicitní e-mailovou adresu.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Duplicitní poskytovatele klíč.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplicitní uživatelské jméno.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Statistika aktivity^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Tento uživatelský účet je schválen^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^To jsou statistiky neúspěšných pokusů o přihlášení tohoto uživatele. <br/> <br/> Uživatel bude uzamčen po dosažení maximálního počtu neúspěšných pokusů o přihlášení. <br/> <br/> Zamčené se uživatelé budou moci přihlásit znovu po datu se nezdařilo okně Heslo pokus Start. <br/> <br/> Uživatelé, kteří nedokázali obnovit heslo bude moci, aby po datu uvedeném v neúspěšném pokusu Heslo Odpověď okno Spustit. <br/> <br/> Můžete obnovit uživatele možnost přihlášení pomocí nastavení uzamčený vlajku na &quot;ne&quot;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Login Statistics^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Při obnovení zapomenutého hesla bude uživatel vyzván k zadání uživatelského jména. Je-li uživatelský účet existuje, bezpečnostní otázka je požádala o odpověď. Správná odpověď spustí e-mail s dočasným heslem poslat uživateli. <br/><br/> Změna zablokován vlajku na &quot;ne&quot; v případě, že uživatel byl uzamčený po dosažení maximálního počtu neúspěšných pokusů o přihlášení a chcete, aby uživatel znovu přihlásit.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Prosím, vyberte uživatelské role, které nejvíce odpovídají uživatele povinnosti. Role řídí přístup do oblastí tohoto webu. Prosím, kontaktujte správce systému, zda omezení role přístupu se musí změnit. <br/> <br/> Zadejte další komentáře k tomuto uživatelskému účtu. Komentář není viditelný pro uživatele.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Informace o uživateli^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Přečtěte si prosím uživatelské členství v níže uvedené informace. Klepněte na tlačítko Upravit pro změnu tento záznam, klepněte na tlačítko Odstranit pro vymazání záznamu, nebo klepněte na tlačítko Storno / Zavřít a vrátit se zpět.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Recenze uživatelů^EditFormViewLabel^
+
+^Email^E-mail^Email^
+
+^EnterCurrentPassword^Prosím, zadejte své aktuální heslo.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Prosím, zadejte heslo odpovědi.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Chyba při ukládání uživatelských účtů.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Nepodařilo Heslo Odpověď pokus hraběte^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Nepodařilo Heslo Odpověď pokus okna Spustit^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Nepodařilo heslo pokus hraběte^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Nepodařilo Heslo pokus okna Spustit^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Toto je seznam záznamů členství uživatele.^GridViewHeaderText^
+
+^GridViewLabel^Vše Uživatelé^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Odpovězte na následující otázku obdržíte heslo. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Potvrzení identity^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Vyplňte prosím tento formulář a klikněte na tlačítko Odeslat obnovit zapomenuté heslo. Klepněte na tlačítko Storno se vrátíte na předchozí obrazovku.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: Krok 2 ze 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Neplatné obnovení hesla odpověď.^InvalidAnswer^
+
+^InvalidEmail^Neplatná e-mailovou adresu.^InvalidEmail^
+
+^InvalidPassword^Neplatné heslo.^InvalidPassword^
+
+^InvalidProviderUserKey^Neplatné uživatelské poskytovatele klíč.^InvalidProviderUserKey^
+
+^InvalidQuestion^Neplatné obnovení hesla otázku.^InvalidQuestion^
+
+^InvalidUserName^Neplatné uživatelské jméno.^InvalidUserName^
+
+^IsApproved^Je schválen^IsApproved^
+
+^IsLockedOut^Je uzamčen^IsLockedOut^
+
+^LastLockoutDate^Poslední Lockout data^LastLockoutDate^
+
+^LastLoginDate^Datum posledního přihlášení^LastLoginDate^
+
+^LastPasswordChangedDate^Poslední Heslo změněno datum^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Heslo Odpověď (nezobrazuje pro vaši ochranu)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Prosím, zadejte své současné heslo pro vytvoření nového hesla, aktualizujte svou e-mailovou adresu, nebo změna hesla otázky a odpovědi.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Aktuální heslo^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Přečtěte si prosím vaše členství v níže uvedené informace. Klepnutím na tlačítko Aktualizovat Můj účet změnit tento záznam, nebo klepněte na tlačítko Storno pro návrat zpět.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Můj účet^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Zadejte prosím nové heslo. Všimněte si, že heslo musí být minimálně 7 znaků a musí obsahovat jeden non-alfanumerický znak.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nové heslo (nepovinné)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Při obnovení zapomenutého hesla budete vyzváni k zadání uživatelského jména. Je-li uživatelský účet existuje, pak heslo otázka musí být zodpovězena. Správná odpověď spustí e-mail s dočasným heslem poslat.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Password Recovery (volitelné)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nové heslo^NewPassword^
+
+^NewPasswordAlert^Nové heslo bylo zasláno e-mailem na adresu v souboru.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Nové heslo a potvrzení nesouhlasí.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Vaše nové heslo je neplatné.^NewPasswordInvalid^
+
+^NewPasswordSubject^Nové heslo pro \&#39;{0} \ &quot;.^NewPasswordSubject^
+
+^OldPassword^Staré heslo^OldPassword^
+
+^Password^Heslo^Password^
+
+^PasswordAndConfirmationDoNotMatch^Heslo a potvrzení nesouhlasí.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Odpověď heslo^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Vaše heslo se neshoduje s našimi záznamy.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Formát hesla^PasswordFormat^
+
+^PasswordQuestion^Otázka heslo^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Zadejte prosím uživatelské jméno. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Zapomněli jste heslo?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Vyplňte prosím tento formulář a klikněte na tlačítko Pokračovat obnovit zapomenuté heslo. Klepněte na tlačítko Storno se vrátíte na předchozí obrazovku.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: krok 1 ze 2^PasswordRequestViewLabel^
+
+^ProviderError^Poskytovatel chyba.^ProviderError^
+
+^RequestPasswordActionHeaderText^Další^RequestPasswordActionHeaderText^
+
+^Roles^Role^Roles^
+
+^SelfRegisteredUser^Vlastní registrovaného uživatele.^SelfRegisteredUser^
+
+^SignUp^Zaregistrujte se^SignUp^
+
+^SignUpViewHeaderText^Vyplňte prosím tento formulář a klikněte na tlačítko OK se přihlásit k účtu. Klepněte na tlačítko Storno se vrátíte na předchozí obrazovku.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Registrace účtu^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Zadejte prosím uživatelské jméno a heslo. Všimněte si, že heslo musí být minimálně 7 znaků a musí obsahovat jeden non-alfanumerický znak. Pouze schválené uživatelé budou moci přihlásit na webové stránky.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Informace o novém uživateli^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Tyto údaje jsou povinné, které vám pomohou obnovit zapomenuté heslo. Během procesu obnovy budete vyzváni k zadání uživatelského jména. Je-li uživatelský účet existuje, bezpečnostní otázka je požádala o odpověď. Správná odpověď spustí e-mail s dočasným heslem poslat na registrované e-mailu.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Aktualizace Můj účet^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Uživatel může být uzamčen. Pokud chcete zabránit uživatelům budou moci přihlásit a poté jednoduše označit uživatele jako &quot;není schválené.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Uživatel&#39;{0}&#39; byl smazán.^UserHasBeenDeleted^
+
+^UserName^Uživatelské jméno^UserName^
+
+^UserNameDoesNotExist^Uživatelské jméno neexistuje.^UserNameDoesNotExist^
+
+^UserNotFound^Uživatel nebyl nalezen.^UserNotFound^
+
+^UserRejected^Uživatel byl odmítnut.^UserRejected^
+
+^UsersInRolesGridHeaderText^Toto je seznam záznamů členství uživatele, které patří do vybrané role.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Uživatelé v roli^UsersInRolesGridLabel^
+

@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Data Model Builder</title>
+    <link type="text/css" rel="Stylesheet" href="codemirror.min.css" />
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .Query
+        {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            font-size: 9pt;
+            font: Courier new;
+            border: solid 1px silver;
+            width: 99.825%;
+            display: block;
+        }
+        .CodeMirror
+        {
+            min-height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript" src="../Data Aquarium/Scripts/_system.js"></script>
+    <script type="text/javascript" src="codemirror.min.js"></script>
+    <script type="text/javascript" src="cloud.entity-model-builder.min.js"></script>
+    <script type="text/javascript">
+        var cm;
+
+        $(document).ready(function () {
+            cm = new CodeMirror($('.Query')[0], {
+                mode: 'text/x-mssql',
+                indentWithTabs: true,
+                smartIndent: true,
+                lineNumbers: true,
+                matchBrackets: true,
+                autofocus: false,
+                readOnly: true,
+                extraKeys: { "Ctrl-Space": "autocomplete" }
+            });
+            updateQuery();
+        });
+
+        //        function getDataModel() {
+        //            return window.external.DataModel;
+        //        }
+
+        function updateQuery() {
+            cm.getDoc().setValue(window.external.ModelQuery);
+        }
+
+    </script>
+    <div>
+        <div class="Query">
+        </div>
+    </div>
+</body>
+</html>

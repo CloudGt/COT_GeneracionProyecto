@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Tilbake^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Bli ferdig^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Bekrefte nytt passord^ConfirmNewPassword^
+
+^ConfirmPassword^bekreft passord^ConfirmPassword^
+
+^Email^e-post^Email^
+
+^ForgotYourPassword^Glemt passordet?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Svar på følgende spørsmål for å motta passordet ditt. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identitetsbekreftelse^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Vennligst fyll ut dette skjemaet og klikk Send-knappen for å gjenopprette det glemte passordet. Klikk på Avbryt for å gå tilbake til forrige skjermbilde.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Passordgjenoppretting: Trinn 2 av 2^IdentityConfirmViewLabel^
+
+^LoginButton^Logg Inn^LoginButton^
+
+^LoginLink^Logg Inn^LoginLink^
+
+^LoginWithDNN^Logg inn med DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Logg inn med Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Logg inn med Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Logg inn med Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Logg inn med SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Logg inn med Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Passord Svar (vises ikke for din beskyttelse)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Vennligst skriv inn ditt nåværende passord for å opprette nytt passord, oppdatere e-postadressen din, eller endre passordgjenopprettingsspørsmål og svar.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Nåværende passord^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Vennligst se din medlemsinformasjon nedenfor. Klikk Oppdater min konto for å endre denne posten, eller klikk på Avbryt for å returnere tilbake.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Min konto^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Vennligst skriv inn nytt passord. Merk at passordet må være minst 7 tegn langt og inneholde ett ikke-alfanumerisk tegn.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nytt passord (Valgfritt)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Under gjenoppretting av et glemt passord vil du bli bedt om å skrive inn brukernavnet ditt. Hvis en brukerkonto eksisterer, må et passordspørsmål besvares. Et korrekt svar vil utløse en e-post med et midlertidig passord som sendes til deg.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-post &amp; Passordgjenoppretting (Valgfritt)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nytt passord^NewPassword^
+
+^OldPassword^gammelt passord^OldPassword^
+
+^Password^Passord^Password^
+
+^PasswordAnswer^Passord Svar^PasswordAnswer^
+
+^PasswordQuestion^Passord Spørsmål^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Vennligst skriv inn et brukernavn. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Glemt passordet?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Vennligst fyll ut dette skjemaet og klikk Fortsett-knappen for å gjenopprette det glemte passordet. Klikk på Avbryt for å gå tilbake til forrige skjermbilde.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Passordgjenoppretting: Trinn 1 av 2^PasswordRequestViewLabel^
+
+^RememberMe^Husk meg neste gang^RememberMe^
+
+^RequestPasswordActionHeaderText^neste^RequestPasswordActionHeaderText^
+
+^SignUp^Melde deg på^SignUp^
+
+^SignUpNow^Registrer deg nå^SignUpNow^
+
+^SignUpViewHeaderText^Vennligst fyll ut dette skjemaet og klikk OK-knappen for å registrere deg for en konto. Klikk på Avbryt for å gå tilbake til forrige skjermbilde.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Konto påmelding^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Vennligst skriv inn brukernavn og passord. Merk at passordet må være minst 7 tegn langt og inneholde ett ikke-alfanumerisk tegn. Kun godkjente brukere vil kunne logge inn på nettsiden.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Ny brukerinformasjon^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Disse feltene kreves for å hjelpe deg med å gjenopprette et glemt passord. Under gjenopprettingsprosessen blir du bedt om å skrive inn et brukernavn. Hvis en brukerkonto eksisterer, blir det bedt om å besvare et sikkerhetsspørsmål. Et korrekt svar vil utløse en e-post med et midlertidig passord, send til den registrerte e-posten.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Passordgjenoppretting^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Oppdater min konto^UpdateMyAccountActionHeaderText^
+
+^UserName^Brukernavn^UserName^
+

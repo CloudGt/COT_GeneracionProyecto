@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^אודות^About^
+
+^Accent^מִבטָא^Accent^
+
+^ActionBarActionsHeaderText^פעולות^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^בטל^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^בטל את כל השינויים לרשומה.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^ביטול רשומה חדשה.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^שמור רשומה חדשה למסד הנתונים.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^שמור^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^יצירת רשומה חדשה {0}.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^חדש {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^חדש^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^רשומה^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^דוח^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^שמור את השינויים למסד הנתונים.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^שמור^ActionBarUpdateActionHeaderText^
+
+^AddAccount^הוסף חשבון^AddAccount^
+
+^AddCondition^הוסף תנאי^AddCondition^
+
+^AddConditionText^הוסף תנאי חיפוש^AddConditionText^
+
+^AddItem^הוסף פריט^AddItem^
+
+^AddMatchingGroup^הוספת קבוצת התאמה^AddMatchingGroup^
+
+^AddSearchBarField^חיפוש שדות נוספים^AddSearchBarField^
+
+^AddSystemIdentity^להוסיף מערכת זהות^AddSystemIdentity^
+
+^AddToFavorites^הוסף למועדפים^AddToFavorites^
+
+^AdvancedSearch^חיפוש מתקדם^AdvancedSearch^
+
+^AdvancedSearchInstruction^הזן תנאים שחייבים להיות מתאימים וכפתור חיפוש לעיתונות.^AdvancedSearchInstruction^
+
+^After^אחרי^After^
+
+^Agenda^סֵדֶר הַיוֹם^Agenda^
+
+^AlignedLeft^מיושר לשמאל^AlignedLeft^
+
+^AlignedRight^מיושר לימין^AlignedRight^
+
+^AllDatesInPreriod^כל התאריכים בתקופה^AllDatesInPreriod^
+
+^AlternativeView^בחר תצוגה אלטרנטיבית של נתונים.^AlternativeView^
+
+^Always^תמיד^Always^
+
+^AnyValue^(כל)^AnyValue^
+
+^Apply^החל^Apply^
+
+^Apps^Apps^Apps^
+
+^Aquarium^אקוריום^Aquarium^
+
+^Auto^Auto^Auto^
+
+^AutoOpenNextItem^פתיחה אוטומטית של הפריט הבא^AutoOpenNextItem^
+
+^AverageOf^הממוצע של^AverageOf^
+
+^AvgAggregate^ממוצע: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^ממוצע של {0}^AvgAggregateToolTip^
+
+^Azure^תכלת^Azure^
+
+^Back^בחזרה^Back^
+
+^BackColor^צבע גב^BackColor^
+
+^BatchEditActionHeaderText^עדכון מרובה^BatchEditActionHeaderText^
+
+^BatchEdited^{0} עודכן^BatchEdited^
+
+^BatchEditInFormActionHeaderText^עריכת טופס^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^עדכן^BatchUpdate^
+
+^Before^לפני^Before^
+
+^BeginsWith^מתחיל ב^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^ענבה^Berry^
+
+^Between^בין^Between^
+
+^Bittersweet^מתוק מר^Bittersweet^
+
+^Blank^בלנק^Blank^
+
+^BlankPassword^שדה סיסמה לא יכול להיות ריק.^BlankPassword^
+
+^BlankUserName^שם משתמש אינו יכול להיות ריק.^BlankUserName^
+
+^BlankValue^(ריק)^BlankValue^
+
+^BlobDownloadHint^לחץ כאן כדי להוריד את הקובץ המקורי.^BlobDownloadHint^
+
+^BlobDownloadLink^הורדה^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^הקש על התמונה כדי להוריד את הקובץ המקורי.^BlobDownloadOriginalHint^
+
+^Blur^לְטַשׁטֵשׁ^Blur^
+
+^Bold^נועז^Bold^
+
+^BooleanFilterText^סינון דו ערכי^BooleanFilterText^
+
+^BooleanIsExpected^ערך הגיוני וצפוי.^BooleanIsExpected^
+
+^ButtonShapes^צורות כפתור^ButtonShapes^
+
+^By^על ידי^By^
+
+^Calendar^לוח שנה^Calendar^
+
+^Cancel^בטל^Cancel^
+
+^Cards^כרטיסים^Cards^
+
+^Cay^Cay^Cay^
+
+^ChangeYourLanguage^לשנות את השפה שלך^ChangeYourLanguage^
+
+^Charts^תרשימים^Charts^
+
+^Citrus^הדר^Citrus^
+
+^Classic^קלאסי^Classic^
+
+^ClearFilter^נקה מסנן מ {0}^ClearFilter^
+
+^ClearFilter2^סינון ברור^ClearFilter2^
+
+^ClearText^טקסט ברור^ClearText^
+
+^ClearToolTip^נקה {0}^ClearToolTip^
+
+^Close^סגור^Close^
+
+^Comfortable^נוח^Comfortable^
+
+^Compact^קומפקטי^Compact^
+
+^Condensed^מעובה^Condensed^
+
+^ConfirmContinue^לְהַמשִׁיך?^ConfirmContinue^
+
+^ConfirmReload^רענן?^ConfirmReload^
+
+^ConnectionLost^החיבור לרשת אבדה. לנסות שוב?^ConnectionLost^
+
+^Construct^לבנות^Construct^
+
+^Contains^מכיל^Contains^
+
+^Convention^אמנה^Convention^
+
+^Copy^העתק^Copy^
+
+^CountAggregate^סך הכל: {0}^CountAggregate^
+
+^CountAggregateToolTip^סיכום של {0}^CountAggregateToolTip^
+
+^CountOf^רוזן^CountOf^
+
+^CreateLink^יצירת קישור^CreateLink^
+
+^CustomFilterOption^סינון ...^CustomFilterOption^
+
+^Cut^לחתוך^Cut^
+
+^DarkKnight^אביר אפל^DarkKnight^
+
+^DarkTheme^אפל^DarkTheme^
+
+^DataSheetActionDescription^הצגת הפריטים באמצעות sheet<br/>format טבלה.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^הצג גליון נתונים^DataSheetActionHeaderText^
+
+^DataWarning^המספר המרבי של פריטים לתהליך הוא {0: ד}. לחץ כאן כדי לסנן את התוצאה.^DataWarning^
+
+^Date^תאריך^Date^
+
+^DateFilterText^מסנני תאריכים^DateFilterText^
+
+^DateIsExpected^תאריך צפוי.^DateIsExpected^
+
+^DatesAMinAgo^לפני דקה^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}M^DatesCommaMinute^
+
+^DatesInAMin^תוך דקה^DatesInAMin^
+
+^DatesInHour^תוך שעה^DatesInHour^
+
+^DatesInMin^בדקות {0}^DatesInMin^
+
+^DatesLast^אחרון^DatesLast^
+
+^DatesMinAgo^{0} דקות לפני^DatesMinAgo^
+
+^DatesNext^הַבָּא^DatesNext^
+
+^DatesNow^עַכשָׁיו^DatesNow^
+
+^DatesOneHour^לפני שעה^DatesOneHour^
+
+^DateSortAscending^מיון בסדר עולה^DateSortAscending^
+
+^DateSortDescending^מיון בסדר יורד^DateSortDescending^
+
+^DatesSmart^תאריך חכם^DatesSmart^
+
+^DatesToday^היום^DatesToday^
+
+^DatesTomorrow^מָחָר^DatesTomorrow^
+
+^DatesYesterday^אתמול^DatesYesterday^
+
+^Day^יְוֹם^Day^
+
+^DefaultCancelActionHeaderText^סגור^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^נא למלא את הפרטים ולחץ על OK כדי ליצור רשומה חדשה {0}. לחץ על ביטול כדי לחזור למסך הקודם.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^אלה הם שדות של הרשומה {0} שניתן לערוך.^DefaultEditDescription^
+
+^DefaultEditViewDescription^נא לעיין במידע {0} להלן. לחץ על ערוך לשינוי רשומה, לחץ על מחיקה כדי למחוק את הרשומה, או לחץ על ביטול / סגירה כדי לחזור בחזרה.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^רשימת {0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^מלא את הטופס. הקפד להזין את כל השדות הנדרשים.^DefaultNewDescription^
+
+^DefaultOption^ברירת מחדל^DefaultOption^
+
+^DefaultReferenceDescription^פרטים נוספים על {0} ניתנים בסעיף מידע ההפניה.^DefaultReferenceDescription^
+
+^Delete^למחוק^Delete^
+
+^DeleteActionConfirmation^מחק?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^מחק^DeleteActionHeaderText^
+
+^Deleted^{$ selected} נמחק^Deleted^
+
+^DeleteOriginalSel^מחק את הבחירה המקורית^DeleteOriginalSel^
+
+^DeleteSearchBarField^(מחק)^DeleteSearchBarField^
+
+^DetailsToolTip^הצגת פרטים עבור {0}^DetailsToolTip^
+
+^DevelopExplorer^סייר פרויקט^DevelopExplorer^
+
+^DevelopFormLayout^פריסת טופס^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^בחר גדלי מסך שייכללו בפריסה.^DevelopFormLayoutInstr^
+
+^DevelopTools^כלים למפתחים^DevelopTools^
+
+^Device^התקן^Device^
+
+^DeviceLoginPrompt^היכנס כדי לאשר גישה במכשיר זה.^DeviceLoginPrompt^
+
+^DidNotMatch^לא תאם^DidNotMatch^
+
+^Directions^כיוונים^Directions^
+
+^DiscardChanges^בטל שינויים?^DiscardChanges^
+
+^DisplayDensity^צפיפות תצוגה^DisplayDensity^
+
+^DisplayedAbove^הוצג מעל^DisplayedAbove^
+
+^DisplayedBelow^מוצג להלן^DisplayedBelow^
+
+^Dock^רציף^Dock^
+
+^DoesNotBeginWith^לא מתחיל^DoesNotBeginWith^
+
+^DoesNotContain^אינו מכיל^DoesNotContain^
+
+^DoesNotEndWith^לא מסתיימת^DoesNotEndWith^
+
+^DoesNotEqual^לא שווה^DoesNotEqual^
+
+^DoesNotInclude^לא כולל^DoesNotInclude^
+
+^DoNotMatchAll^אינו תואם את כל התנאים^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^לא התאים לכל התנאים^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^לא התאים לשום תנאים^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^לא התאים לשום תנאים^DoNotMatchAnyPastTense^
+
+^Download^הורד^Download^
+
+^Draw^לצייר^Draw^
+
+^DuplicateActionHeaderText^שכפל^DuplicateActionHeaderText^
+
+^DuplicateItem^פריט כפול^DuplicateItem^
+
+^DuplicateRow^שורה כפולה^DuplicateRow^
+
+^EditActionHeaderText^ערוך^EditActionHeaderText^
+
+^EditItem^ערוך פריט^EditItem^
+
+^EditModeCancelActionHeaderText^בטל^EditModeCancelActionHeaderText^
+
+^EditRow^ערוך שורה^EditRow^
+
+^Empty^ריק^Empty^
+
+^EmptyContext^פעולות אינן זמינות.^EmptyContext^
+
+^EmptyValue^(ריק)^EmptyValue^
+
+^Enable^לְאַפשֵׁר^Enable^
+
+^EndsWith^מסתיים עם^EndsWith^
+
+^Equals^שווה^Equals^
+
+^Eraser^מַחַק^Eraser^
+
+^Error^שְׁגִיאָה^Error^
+
+^Exit^יְצִיאָה^Exit^
+
+^ExitFullscreen^צא ממסך מלא^ExitFullscreen^
+
+^ExportCsvActionDescription^פריטים הורד בפורמט CSV.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^ייצוא לאקסל^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^ניתוח פריטים עם spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^יצא לגיליון אלקטרוני^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^סינדיקט פריטים עם קורא RSS.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^הזנת RSS^ExportRssActionHeaderText^
+
+^Favorites^מועדפים^Favorites^
+
+^Felt^לבד^Felt^
+
+^FileCleared^הערך יימחק בשמירה^FileCleared^
+
+^FilesBytes^בתים^FilesBytes^
+
+^FilesClear^ברור^FilesClear^
+
+^FilesClearConfirm^ברור?^FilesClearConfirm^
+
+^FilesClick^לחץ כדי לבחור קובץ^FilesClick^
+
+^FilesClickMany^לחץ כדי לבחור קבצים^FilesClickMany^
+
+^FilesDrop^שחרר קובץ כאן^FilesDrop^
+
+^FilesDropMany^שחרר קבצים כאן^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^הקש כדי לבחור קובץ^FilesTap^
+
+^FilesTapMany^הקש כדי לבחור קבצים^FilesTapMany^
+
+^Filter^מסנן^Filter^
+
+^FilterApplied^מסנן הוחל.^FilterApplied^
+
+^FilterByField^בחר שדה כדי להחיל מסנן כדי <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^בחר אפשרות אחת או יותר ברשימה שלהלן ולחץ על <b>{2}</b> לסנן <b>{0}</b> בשדה <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^נקה את כל המסננים.^FilterCleared^
+
+^FilterLabelAnd^ו -^FilterLabelAnd^
+
+^FilterLabelClear^בטל סינון^FilterLabelClear^
+
+^FilterLabelEquals^שווה^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^שנה^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^כולל^FilterLabelIncludes^
+
+^FilterLabelOr^או^FilterLabelOr^
+
+^FilterLabelSelectAll^(בחר הכל)^FilterLabelSelectAll^
+
+^FilterSiteMap^מפת אתר סינון ...^FilterSiteMap^
+
+^Finish^סִיוּם^Finish^
+
+^FitToWidth^התאם לרוחב^FitToWidth^
+
+^FlatTreeToggle^החלף ל הירארכיה^FlatTreeToggle^
+
+^FontName^שם גופן^FontName^
+
+^FontSize^גודל גופן^FontSize^
+
+^ForeColor^צבע פורה^ForeColor^
+
+^Forget^לשכוח^Forget^
+
+^ForgotYourPassword^שכחת את הסיסמה?^ForgotYourPassword^
+
+^Format^פוּרמָט^Format^
+
+^Freeze^להקפיא^Freeze^
+
+^From^מ^From^
+
+^Fullscreen^מסך מלא^Fullscreen^
+
+^Future^עתידי^Future^
+
+^GeneralTabText^כללי^GeneralTabText^
+
+^Generate^לִיצוֹר^Generate^
+
+^GenericNewToolTip^הוסף חדש^GenericNewToolTip^
+
+^GenericSortAscending^מיון בסדר עולה^GenericSortAscending^
+
+^GenericSortDescending^מיון בסדר יורד^GenericSortDescending^
+
+^Graham^גרהם^Graham^
+
+^GrandTotals^סכומים כוללים^GrandTotals^
+
+^Granite^גרניט^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^כוח משיכה^Gravity^
+
+^GreaterThan^גדול מ^GreaterThan^
+
+^GreateThanOrEqual^גדול או שווה^GreateThanOrEqual^
+
+^Grid^רשת^Grid^
+
+^GridActionDescription^הצגת פריטים בפורמט standard<br/>list.^GridActionDescription^
+
+^GridActionHeaderText^הצג תצוגה רגילה^GridActionHeaderText^
+
+^Group^קְבוּצָה^Group^
+
+^GroupByField^בחר שדה לקבוצה <b>{0}</b>.^GroupByField^
+
+^Grouped^מקובצים^Grouped^
+
+^GroupedBy^מקובצים לפי^GroupedBy^
+
+^GroupedDefault^הקבצה הוסרה^GroupedDefault^
+
+^Heading1^כותרת 1^Heading1^
+
+^Heading2^כותרת 2^Heading2^
+
+^Heading3^כותרת 3^Heading3^
+
+^Heading4^כותרת 4^Heading4^
+
+^Heading5^כותרת 5^Heading5^
+
+^Heading6^כותרת 6^Heading6^
+
+^Help^עזרה^Help^
+
+^HelpClose^סגור עזרה^HelpClose^
+
+^HelpFullScreen^מסך מלא^HelpFullScreen^
+
+^Hide^להתחבא^Hide^
+
+^HideAdvancedSearch^הסתר חיפוש מתקדם^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^החלף לרשימת הירארכית^HierarchyTreeModeToggle^
+
+^Highlighter^מרקר מדגיש^Highlighter^
+
+^History^היסטוריה^History^
+
+^HistoryToolTip^צפה בהיסטוריה של רשומות שנבחרו בעבר^HistoryToolTip^
+
+^HistoryUnavailable^היסטוריה אינה זמינה.^HistoryUnavailable^
+
+^Home^דף בית^Home^
+
+^IdleUser^האם אתה עדיין שם? אנא היכנס שוב.^IdleUser^
+
+^ImportActionDescription^טען קובץ CSV, XLS, או XLSX רשומות file<br/>to לייבא.^ImportActionDescription^
+
+^ImportActionHeaderText^ייבוא ​​מקובץ^ImportActionHeaderText^
+
+^ImportAutoDetect^(ייבוא עם זיהוי אוטומטי)^ImportAutoDetect^
+
+^ImportComplete^לְהַשְׁלִים^ImportComplete^
+
+^ImportDone^יבוא הושלם^ImportDone^
+
+^ImportDownloadTemplate^הורד קובץ תבנית לייבא.^ImportDownloadTemplate^
+
+^ImportDuplicates^כפילויות^ImportDuplicates^
+
+^ImportEmail^ייבא את כתובות הדוא&quot;ל הבאות (לא חובה)^ImportEmail^
+
+^ImportEmailNotSpecified^יבוא רשימת דוא&quot;ל לרשימה שלא צוינה. להמשיך בכל זאת?^ImportEmailNotSpecified^
+
+^ImportExpected^צפוי להשלים^ImportExpected^
+
+^ImportFileStats^ישנן רשום <b>{0}</b> בקובץ <b>{1}</b> מוכן להיות מעובד. התאם את שמות השדות.^ImportFileStats^
+
+^Importing^יבוא^Importing^
+
+^ImportMappingInstruction^יש רשומה<b>{0}</b> (ים) <b>{1}</b> את הקובץ מוכן להיות processed.<br/>Please למפות את השדות לייבא מקובץ הנתונים לשדות יישום ולחץ <i>Import</i> להתחיל לעבד.^ImportMappingInstruction^
+
+^ImportNotSupported^פורמט נתונים של &quot;{0}&quot; אינו נתמך.^ImportNotSupported^
+
+^ImportProcessing^קובץ ייבוא ​​עיבוד כבר נוצר. רשומות מיובאות עם הנתונים יהיו זמינים על עיבוד מוצלח. ייתכן שתצטרך לרענן את התצוגות רלוונטים / דפים כדי לראות את הרשומות המיובאות.^ImportProcessing^
+
+^ImportRemaining^צפוי להשלים^ImportRemaining^
+
+^ImportSelectFile^בחר קובץ נתונים CSV, XLS, או בפורמט XLSX.^ImportSelectFile^
+
+^ImportStartButton^התחל יבוא^ImportStartButton^
+
+^ImportUploading^הקובץ שלך מועלה לשרת. אנא המתן ...^ImportUploading^
+
+^ImportUploadInstruction^נא לבחור את הקובץ להעלאה. הקובץ חייב להיות בפורמט <b>CSV</b> <b>XLS</b>, או <b>XLSX</b>,.^ImportUploadInstruction^
+
+^In^ב^In^
+
+^Includes^כולל^Includes^
+
+^Indent^זחה^Indent^
+
+^InfoBarAnd^ו -^InfoBarAnd^
+
+^InfoBarEmpty^ריק^InfoBarEmpty^
+
+^InfoBarEqualTo^שווה^InfoBarEqualTo^
+
+^InfoBarGreaterThan^גדול^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^גדול או שווה ל^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^פחות מ^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^הוא פחות או שווה ל^InfoBarLessThanOrEqual^
+
+^InfoBarLike^כמו^InfoBarLike^
+
+^InfoBarOr^או^InfoBarOr^
+
+^InfoBarQuickFind^כל שדה מכיל^InfoBarQuickFind^
+
+^InfoBarStartsWith^מתחיל עם^InfoBarStartsWith^
+
+^InitialListMode^מצב רשימה ראשוני^InitialListMode^
+
+^InlineEditing^עריכה מוטבעת^InlineEditing^
+
+^InsertActionHeaderText^הוסף^InsertActionHeaderText^
+
+^InsertHorizontalRule^הכנס סרגל אופקי^InsertHorizontalRule^
+
+^InsertingRecords^הכנסה רשומה^InsertingRecords^
+
+^InsertOrderedList^הכנס רשימה מסודרת^InsertOrderedList^
+
+^InsertUnorderedList^הכנס רשימה לא מסודרת^InsertUnorderedList^
+
+^Into^לְתוֹך^Into^
+
+^InvalidUserNameAndPassword^שם המשתמש והסיסמה שלך אינם תקפים.^InvalidUserNameAndPassword^
+
+^Italic^נטוי^Italic^
+
+^ItemsPerPage^פריטים לעמוד:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} פריטים שנבחרו^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} פריט נבחר^ItemsSelectedOne^
+
+^JustDatesNow^זֶה עַתָה^JustDatesNow^
+
+^JustifyCenter^הצמדה למרכז^JustifyCenter^
+
+^JustifyFull^יישור מלא^JustifyFull^
+
+^JustifyLeft^תשור לשמאל^JustifyLeft^
+
+^JustifyRight^תשור לימין^JustifyRight^
+
+^KeepOriginalSel^שמור על הבחירה המקורית^KeepOriginalSel^
+
+^LabelsInList^תוויות ברשימה^LabelsInList^
+
+^Lacquer^לכה^Lacquer^
+
+^Laminate^לרבד^Laminate^
+
+^Landscape^נוף^Landscape^
+
+^Large^גדול^Large^
+
+^LastMonth^חודש שעבר^LastMonth^
+
+^LastQuarter^רבעון אחרון^LastQuarter^
+
+^LastWeek^מהשבוע האחרון^LastWeek^
+
+^LastYear^אשתקד^LastYear^
+
+^Less^פָּחוּת^Less^
+
+^LessThan^פחות מ^LessThan^
+
+^LessThanOrEqual^קטן או שווה^LessThanOrEqual^
+
+^Lichen^חזזית^Lichen^
+
+^LightTheme^אור^LightTheme^
+
+^Line^קַו^Line^
+
+^List^רשימה^List^
+
+^ListOneColumn^רשימה (עמודה אחת)^ListOneColumn^
+
+^ListViewStyle^רשימה^ListViewStyle^
+
+^Loading^טוען ...^Loading^
+
+^Logical^הגיוני^Logical^
+
+^LoginButton^התחברות^LoginButton^
+
+^LoginLink^התחברות^LoginLink^
+
+^Logout^התנתקות^Logout^
+
+^LookupInstruction^אנא בחר <b>{0}</b> ברשימה.^LookupInstruction^
+
+^LookupOriginalSelection^הבחירה המקורית היא <b> &quot;{0}&quot; </b>.^LookupOriginalSelection^
+
+^ManageAccounts^ניהול חשבונות^ManageAccounts^
+
+^Map^מפה^Map^
+
+^MatchAll^להתאים את כל התנאים^MatchAll^
+
+^MatchAllPastTense^תאם את כל התנאים^MatchAllPastTense^
+
+^MatchAny^התאים לשום תנאים^MatchAny^
+
+^MatchAnyPastTense^התאמה כל תנאים^MatchAnyPastTense^
+
+^Matched^התאמה^Matched^
+
+^MaxAggregate^מקס: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^מרבי של {0}^MaxAggregateToolTip^
+
+^Maximize^הרחב^Maximize^
+
+^MaximumOf^מרבי של^MaximumOf^
+
+^Medium^בינוני^Medium^
+
+^Menu^תפריט^Menu^
+
+^MinAggregate^מינימום: {0}^MinAggregate^
+
+^MinAggregateToolTip^מינימום של {0}^MinAggregateToolTip^
+
+^Minimize^מזער^Minimize^
+
+^MinimumOf^מינימום של^MinimumOf^
+
+^Mission^משימה^Mission^
+
+^ModeBrowsing^דפדוף^ModeBrowsing^
+
+^ModeEditing^עריכה^ModeEditing^
+
+^ModeEntering^הזנה^ModeEntering^
+
+^ModeLookup^בדיקה^ModeLookup^
+
+^Modern^מודרני^Modern^
+
+^ModernRose^רוז המודרני^ModernRose^
+
+^ModeViewing^צפייה^ModeViewing^
+
+^Month^חוֹדֶשׁ^Month^
+
+^More^יותר^More^
+
+^MultiSelection^בחירה רבה^MultiSelection^
+
+^Municipal^עירוני^Municipal^
+
+^MyAccount^החשבון שלי^MyAccount^
+
+^Never^אף פעם לא^Never^
+
+^NewActionHeaderText^חדש^NewActionHeaderText^
+
+^NewItem^פריט חדש^NewItem^
+
+^NewRow^שורה חדשה^NewRow^
+
+^NewRowLink^לחץ כאן כדי ליצור רשומה חדשה.^NewRowLink^
+
+^NewToolTip^חדש {0}^NewToolTip^
+
+^Next^הבא^Next^
+
+^Next2^הַבָּא^Next2^
+
+^NextMonth^חודש הבא^NextMonth^
+
+^NextQuarter^רבעון הבא^NextQuarter^
+
+^NextWeek^שבוע הבא^NextWeek^
+
+^NextYear^שנה הבאה^NextYear^
+
+^No^לא^No^
+
+^NoMatches^אין התאמה.^NoMatches^
+
+^None^אף אחד^None^
+
+^Noon^צָהֳרַיִים^Noon^
+
+^NoRecords^לא נמצאו רשומות.^NoRecords^
+
+^NoteDeleteConfirm^האם לאשר מחיקה?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^מחק^NoteDeleteLabel^
+
+^NoteEditLabel^ערוך^NoteEditLabel^
+
+^NotEmpty^לא ריק^NotEmpty^
+
+^NotMatched^(לא מתאים)^NotMatched^
+
+^NullValue^ריק^NullValue^
+
+^NullValueInForms^ריק^NullValueInForms^
+
+^Number^מספר^Number^
+
+^NumberFilterText^מספר מסננים^NumberFilterText^
+
+^NumberIsExpected^המספר צפוי.^NumberIsExpected^
+
+^OdpCommitting^מעלה עסקאות ...^OdpCommitting^
+
+^OdpDone^בוצע.^OdpDone^
+
+^OdpDownloadingBlob^מוריד נתונים בינאריים ל- {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^מוריד נתונים עבור {0}...^OdpDownloadingData^
+
+^OdpInitializing^מאתחל ...^OdpInitializing^
+
+^OdpInvalidResponse^תגובה לא חוקית מהשרת.^OdpInvalidResponse^
+
+^OdpLastRefresh^רענון אחרון: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^הנתונים לא רעננו.^OdpNotRefreshed^
+
+^OdpOfflineState^אתה עובד במצב לא מקוון.^OdpOfflineState^
+
+^OdpOnlineRequired^חיבור מקוון נדרש.^OdpOnlineRequired^
+
+^OdpPending^שינויים ממתינים^OdpPending^
+
+^OdpReconRequired^יש צורך בפיוס^OdpReconRequired^
+
+^OdpReconTxDelete^למחוק את השינוי הזה מהיומן?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^העסקה הממתינה הראשונה שנמחקה ביומן.^OdpReconTxDeleted^
+
+^OdpRefresh^רענן נתונים^OdpRefresh^
+
+^OdpRefreshData^רענן נתונים^OdpRefreshData^
+
+^OdpRefreshLast^רענון נתונים^OdpRefreshLast^
+
+^OdpSave^אנא שמור את כל השינויים.^OdpSave^
+
+^OdpSaveAndSync^שמור את כל השינויים ובחר באפשרות סינכרון בתפריט ההקשר.^OdpSaveAndSync^
+
+^OdpServerUnavailable^שרת היישומים אינו זמין.^OdpServerUnavailable^
+
+^OdpStatus^סטטוס^OdpStatus^
+
+^OdpSync^סנכרן^OdpSync^
+
+^OdpSynced^מסונכרן^OdpSynced^
+
+^OdpSyncLast^סנכרון אחרון^OdpSyncLast^
+
+^OdpSyncLong^סנכרן להעלאת שינויים.^OdpSyncLong^
+
+^OdpSyncUploadFailed^העלאת {0} קבצים נכשלה.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^מעלה {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^לא ניתן למחוק. {1} פריטים תלויים ב- {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^לא מסוגל לבצע.^OdpUnableToExec^
+
+^OdpUnableToProcess^לא ניתן לעבד עסקאות.^OdpUnableToProcess^
+
+^OdpUnableToSave^לא ניתן לשמור שינויים.^OdpUnableToSave^
+
+^OdpUploadFailed^העלאת קבצים נכשלה.^OdpUploadFailed^
+
+^OdpUploadingFiles^העלאת קבצים...^OdpUploadingFiles^
+
+^OK^אישור^OK^
+
+^OnHover^בעת הנחת העכבר^OnHover^
+
+^OnOrAfter^ביום^OnOrAfter^
+
+^OnOrBefore^או לפני^OnOrBefore^
+
+^OpenActionHeaderText^פתח^OpenActionHeaderText^
+
+^Optional^אופציונאלי^Optional^
+
+^Orientation^נטייה^Orientation^
+
+^Other^אחר^Other^
+
+^Outdent^סט החוצה^Outdent^
+
+^Page^עמוד^Page^
+
+^Paragraph^פסקה^Paragraph^
+
+^Password^סיסמה^Password^
+
+^Past^עבר^Past^
+
+^Paste^הדבק^Paste^
+
+^Pen^עֵט^Pen^
+
+^PerformAdvancedSearch^חפש מתקדם^PerformAdvancedSearch^
+
+^Permalink^קישור קבוע^Permalink^
+
+^PermalinkToolTip^יצירת קישור קבע לרשומה נבחרת^PermalinkToolTip^
+
+^PermalinkUnavailable^קישור קבוע אינו זמין.^PermalinkUnavailable^
+
+^Petal^עלי כותרת^Petal^
+
+^Pinnate^מנוצה פעם אחת^Pinnate^
+
+^Plastic^פלסטי^Plastic^
+
+^Portrait^דיוקן^Portrait^
+
+^PresentationStyle^בחר סגנון מצגת נתונים.^PresentationStyle^
+
+^Prev2^קודם^Prev2^
+
+^Previous^קודם^Previous^
+
+^PromoteActions^לקדם פעולות^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^רבעון^Quarter^
+
+^Quarter1^רבעון 1^Quarter1^
+
+^Quarter2^רבעון 2^Quarter2^
+
+^Quarter3^רבע 3^Quarter3^
+
+^Quarter4^רבעון 4^Quarter4^
+
+^QuickFindDescription^חפשי ב {0}^QuickFindDescription^
+
+^QuickFindScope^חיפוש ב...^QuickFindScope^
+
+^QuickFindText^חיפוש מהיר^QuickFindText^
+
+^QuickFindToolTip^הקלד לחיפוש הרשומות ולחצו על Enter^QuickFindToolTip^
+
+^Quotation^ציטוט^Quotation^
+
+^Reading^קריאה...^Reading^
+
+^ReadingPane^חלונית קריאה^ReadingPane^
+
+^ReadOnly^{0} לקריאה בלבד.^ReadOnly^
+
+^Recent^האחרון^Recent^
+
+^Redo^לעשות שוב^Redo^
+
+^Refresh^רענן^Refresh^
+
+^Refreshed^רַעֲנָן^Refreshed^
+
+^RememberMe^זכור אותי בפעם הבאה^RememberMe^
+
+^RemoveCondition^הסרת תנאי^RemoveCondition^
+
+^RemoveFormat^הסר פורמט^RemoveFormat^
+
+^ReportActionDescription^צור דו&quot;ח בפורמט PDF^ReportActionDescription^
+
+^ReportActionHeaderText^דוח^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^צפה פריטים בגיליון אלקטרוני של Excel formatted<br/>Microsoft.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^גיליון אלקטרוני^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^צפה בפריטים כתמונת מרובי TIFF.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^מרובים תמונה^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^צפה בפריטים כמו Adobe PDF document.<br/>Requires קורא תואם.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^מסמך PDF^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^צפה בפריטים במסמך Word formatted<br/>Microsoft.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^דרוש^Required^
+
+^RequiredField^שדה חובה.^RequiredField^
+
+^RequiredFiledMarkerFootNote^מציין שדה חובה^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^נקה חיפוש מתקדם^ResetAdvancedSearch^
+
+^ResetSearchConfirm^אפס את תנאי החיפוש?^ResetSearchConfirm^
+
+^ResolvingReferences^פתרון אזכור^ResolvingReferences^
+
+^ResumeBrowsing^קורות חיים גלישה^ResumeBrowsing^
+
+^ResumeEditing^קורות חיים עריכה^ResumeEditing^
+
+^ResumeEntering^קורות חיים הזנה^ResumeEntering^
+
+^ResumeLookup^קורות חיים בדיקה^ResumeLookup^
+
+^ResumeViewing^קורות חיים צפייה^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^תפקידים^RolesTab^
+
+^RootNodeText^רמה עליונה^RootNodeText^
+
+^Rotate^סובב^Rotate^
+
+^RowCancelActionHeaderText^בטל^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^הוסף^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^שמור^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^האם לשמור עדכונים?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^עדכון Selection^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^שמור^Save^
+
+^SaveAndContinue^שמור והמשך^SaveAndContinue^
+
+^SaveAndNew^שמור והוסף חדש^SaveAndNew^
+
+^Saved^נשמר - {0}^Saved^
+
+^ScanToConfirm^אנא סרוק שוב כדי לאשר.^ScanToConfirm^
+
+^SeeAll^ראה הכל^SeeAll^
+
+^SeeAlso^למידע נוסף^SeeAlso^
+
+^SelectActionHeaderText^בחר^SelectActionHeaderText^
+
+^SelectAll^בחר הכל^SelectAll^
+
+^SelectItem^בחר פריט^SelectItem^
+
+^SelectLink^(בחר)^SelectLink^
+
+^SelectRow^בחר שורה^SelectRow^
+
+^SelectToolTip^בחר {0}^SelectToolTip^
+
+^Separator^מפריד^Separator^
+
+^Settings^הגדרות^Settings^
+
+^Show^לְהַצִיג^Show^
+
+^ShowAdvancedSearch^הצג חיפוש מתקדם^ShowAdvancedSearch^
+
+^ShowChart^תרשים תכנית^ShowChart^
+
+^ShowData^הצג נתונים^ShowData^
+
+^ShowingItems^מציג <b>{0}</b> <b>{1}</b>-הפריטים <b>{2}</b>^ShowingItems^
+
+^ShowingItemsInfo^מציג {0} פריטים.^ShowingItemsInfo^
+
+^ShowingItemsRange^מציג {0} של {1} פריטים^ShowingItemsRange^
+
+^ShowLess^הראי פחות^ShowLess^
+
+^ShowMore^להראות יותר^ShowMore^
+
+^ShowOptions^הצג אפשרויות^ShowOptions^
+
+^ShowSystemButtons^כפתורי מערכת השידור^ShowSystemButtons^
+
+^Sidebar^הסרגל הצידי^Sidebar^
+
+^Sign^היכנס כאן^Sign^
+
+^SignedOut^יצא^SignedOut^
+
+^SignUpNow^הירשם כעת^SignUpNow^
+
+^Simple^פשוט^Simple^
+
+^SiteActions^קישורים^SiteActions^
+
+^SizeLabel^גודל^SizeLabel^
+
+^Small^קטן^Small^
+
+^Social^חברתי^Social^
+
+^Sort^סוג^Sort^
+
+^SortBy^לפי {0}^SortBy^
+
+^SortByField^בחר שדה כדי לשנות את סדר המיון של <b>{0}</b>.^SortByField^
+
+^SortByOptions^בחר את סדר המיון של <b>{0}</b> בתחום <b>{1}</b> ברשימה של אפשרויות בהמשך.^SortByOptions^
+
+^Sorted^מְמוּיָן^Sorted^
+
+^SortedDefault^סדר מיון ברירת מחדל.^SortedDefault^
+
+^StartImport^התחל יבוא^StartImport^
+
+^StrikeThrough^להכות באמצעות^StrikeThrough^
+
+^StringSortAscending^עולה^StringSortAscending^
+
+^StringSortDescending^יורד^StringSortDescending^
+
+^Submit^שלח^Submit^
+
+^Subscript^סקריפט משנה^Subscript^
+
+^Suggestions^הצעות^Suggestions^
+
+^SumAggregate^סכום: {0}^SumAggregate^
+
+^SumAggregateToolTip^סכום של {0}^SumAggregateToolTip^
+
+^Summary^תקציר^Summary^
+
+^Summer^קיץ^Summer^
+
+^SumOf^סכום של^SumOf^
+
+^Superscript^סופר סקריפט^Superscript^
+
+^Sync^Sync^Sync^
+
+^TaskResume^קורות חיים^TaskResume^
+
+^Tasks^משימות^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^א ב ג^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^W X Y Z^TelHints9^
+
+^TestingRecords^רשום בדיקה^TestingRecords^
+
+^Text^טקסט^Text^
+
+^TextFilterText^טקסט מסננים^TextFilterText^
+
+^Theme^נושא^Theme^
+
+^ThisMonth^החודש הזה^ThisMonth^
+
+^ThisQuarter^ברבעון זה^ThisQuarter^
+
+^ThisWeek^השבוע^ThisWeek^
+
+^ThisYear^בשנה זו^ThisYear^
+
+^Tiny^זָעִיר^Tiny^
+
+^Today^היום^Today^
+
+^Tomorrow^מחר^Tomorrow^
+
+^Top^עליון^Top^
+
+^ToThisWebsite^באתר זה^ToThisWebsite^
+
+^TouchUINotSupported^ממשק המשתמש אינו נתמך בדפדפן זה.^TouchUINotSupported^
+
+^TransitionFade^לדעוך^TransitionFade^
+
+^TransitionFlip^להעיף^TransitionFlip^
+
+^TransitionFlow^זרימה^TransitionFlow^
+
+^TransitionNone^אף לא אחד^TransitionNone^
+
+^TransitionPop^פופ^TransitionPop^
+
+^Transitions^מעברים^Transitions^
+
+^TransitionSlide^שקופית^TransitionSlide^
+
+^TransitionSlideDown^להחליק במורד^TransitionSlideDown^
+
+^TransitionSlideUp^להחליק למעלה^TransitionSlideUp^
+
+^TransitionTurn^תור^TransitionTurn^
+
+^TreeActionDescription^הצגת קשרים הירארכיים.^TreeActionDescription^
+
+^TreeActionHeaderText^הצג הירארכיה^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^קבל קוד אימות^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^אפליקציית המאמת^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^אם אינך יכול לספק את קוד האימות, הזן במקום זאת את קוד הגיבוי.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^קוד חד פעמי^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^קוד גיבוי^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^התקבלה שיחה ל^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^הדוא&quot;ל נשלח אל^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^הודעת טקסט נשלחה אל^TwoFaCodeSentSms^
+
+^TwoFaConsent^הַסכָּמָה^TwoFaConsent^
+
+^TwoFaEnterPassword^הכנס את הסיסמה שלך^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^תתקשר אליי ב^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^אני אתקשר^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^שלח לי דוא&quot;ל אל^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^שלח לי מסר ב^TwoFaGetCodeSms^
+
+^TwoFaMethod^שיטה^TwoFaMethod^
+
+^TwoFaMsgChanged^אימות דו-גורמי השתנה.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^אימות דו-גורמי הושבת.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^להשבית את האימות של שני גורמים?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^אימות דו-גורמי הופעל.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^אנא הזן את קוד האימות בן {0} הספרות.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^סיסמה שגויה.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^קוד אימות לא תקף.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 הוא קוד האימות שלך {0}.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^אני לא יכול לסרוק את קוד ה- QR.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^אני צריך עזרה בהתקנת אפליקציית אימות.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^יש לי אפליקציית אימות במכשיר נייד.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^קודי הגיבוי החד-פעמיים יאפשרו לך להיכנס אם אינך יכול לספק קוד אימות.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^קודי גיבוי^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^אזין קוד אימות לאחר הכניסה המוצלחת.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^הזן את מקש ההגדרה באפליקציה^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^שיטות אימות^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^סרוק את קוד ה- QR בעזרת המצלמה^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^סרוק את קוד ה- QR באפליקציה^TwoFaSetupScanQrCode^
+
+^TwoFaText^אימות דו-גורמי^TwoFaText^
+
+^TwoFaTrustThisDevice^סמכו על מכשיר זה^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^קוד אימות^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^אשתמש ביישום אימות כדי לקבל את קוד האימות.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^אקבל טלפון אוטומטי.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^קוד האימות יימסר בדוא&quot;ל.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^קוד האימות יימסר באמצעות הודעת טקסט.^TwoFaVerifyViaSms^
+
+^TypeToSearch^הקלד לחיפוש^TypeToSearch^
+
+^Underline^לשים דגש^Underline^
+
+^Undo^לבטל^Undo^
+
+^Undock^ניתק את^Undock^
+
+^Unfreeze^להפשיר^Unfreeze^
+
+^UnGrouped^הקבצה הוסרה^UnGrouped^
+
+^UnLink^לבטל את הקישור^UnLink^
+
+^UnSelect^ביטול בחירה^UnSelect^
+
+^UpdateActionHeaderText^אישור^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^האם לשמור עדכונים?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^עדכון Selection^UpdateActionInBatchModeHeaderText^
+
+^Upload^העלה^Upload^
+
+^UploadDescription^העלה קבצים מרובים.^UploadDescription^
+
+^Uploading^מעלה {0}...^Uploading^
+
+^UpOneLevel^רמה אחת למעלה^UpOneLevel^
+
+^UseLEV^הדבק &quot;{0}&quot;^UseLEV^
+
+^UserName^שם משתמש^UserName^
+
+^UsersInRole^משתמשים בתפקיד^UsersInRole^
+
+^UsersTab^משתמשים^UsersTab^
+
+^Vantage^יתרון^Vantage^
+
+^Verdant^ירוק^Verdant^
+
+^Verify^תאשר^Verify^
+
+^View^תצוגה^View^
+
+^Viewpoint^נקודת מבט^Viewpoint^
+
+^Wait^המתן בבקשה...^Wait^
+
+^Week^שבוע^Week^
+
+^Welcome1^ברוך הבא^Welcome1^
+
+^Welcome2^היום^Welcome2^
+
+^WhiteSmoke^עשן לבן^WhiteSmoke^
+
+^WithSelectedValues10^עם ערכים נבחרים (Top 10)^WithSelectedValues10^
+
+^WithSelectedValues5^עם ערכים נבחרים (Top 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^עם מסננים שצוין^WithSpecifiedFilters^
+
+^Year^שָׁנָה^Year^
+
+^YearToDate^השנה עד היום^YearToDate^
+
+^Yes^כן^Yes^
+
+^Yesterday^אתמול^Yesterday^
+
+^Yoshi^יושי^Yoshi^
+
+^ZoomIn^להתמקד^ZoomIn^
+
+^ZoomOut^להקטין את התצוגה^ZoomOut^
+

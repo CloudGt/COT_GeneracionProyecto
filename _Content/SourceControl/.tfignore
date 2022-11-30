@@ -1,0 +1,7 @@
+﻿# Code OnTime files
+DataAquarium.Metadata.xml
+Application.*.xml
+Controllers.*.xml
+!.tfignore
+!DataAquarium.Project.xml
+!DataAquarium.Version.xml

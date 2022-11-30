@@ -1,0 +1,565 @@
+﻿body div
+{
+    display: block;
+}
+
+div.FixedHeader
+{
+    border-bottom: solid 1px #898C95;
+    margin-left: -8px;
+    margin-right: -8px;
+    position: fixed;
+    margin-top: -8px;
+    padding: 4px 8px 0px 8px;
+    background-color: #F0F0F0;
+    width: 100%;
+    z-index: 1000;
+}
+
+div.DesignerToolBar
+{
+    height: 22px;
+    padding: 0px;
+    margin-left: -8px;
+    margin-bottom: -6px;
+}
+
+div.DesignerToolBar a
+{
+    text-decoration: none;
+    margin-left: 4px;
+    cursor: pointer;
+    color: Black;
+}
+
+div.DesignerToolBar span.Outer, div.DesignerToolBar span.Inner, div.DesignerToolBar span.Self
+{
+    display: inline-block;
+    font-family: Segoe UI;
+    font-size: 9pt;
+}
+
+div.DesignerToolBar a span.Outer
+{
+    border: solid 1px transparent;
+    padding-left: 18px;
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    height: 20px;
+}
+
+div.DesignerToolBar a:hover span.Outer
+{
+    border: solid 1px #D2B47A;
+    background-color: #FFE6A0;
+}
+
+div.DesignerToolBar a span.Self
+{
+    padding: 1px 6px 2px 4px;
+}
+
+div.DesignerToolBar a.Run span.Outer
+{
+    background-image: url(Run.png);
+    padding-left: 12px;
+    background-position: 0px center;
+}
+
+div.DesignerToolBar a.Preview span.Outer
+{
+    background-image: url(BringToFrontHS.png);
+}
+
+div.DesignerToolBar a.Browse span.Outer
+{
+    background-image: url(Web.png);
+}
+
+div.DesignerToolBar a.Develop span.Outer
+{
+    background-image: url(../../_Explorer/Images/VisualStudio.png);
+}
+
+div.DesignerToolBar a.Open span.Outer
+{
+    background-image: url(../../_Explorer/Images/ProjectFolder.png);
+}
+
+div.DesignerToolBar a.Exit span.Outer
+{
+    background-image: url(SendBackwardHS.png);
+}
+
+div.DesignerToolBar button
+{
+    width: 85px;
+    height: 20px;
+    line-height: 1;
+}
+
+
+span.ProjectDesignerButtons
+{
+    display: block;
+    margin-top: -4px;
+    margin-right: -3px;
+}
+
+a.ExitDesigner
+{
+    padding-left: 12px;
+    color: #4682B4;
+    text-decoration: none;
+    background-image: url('../../Data Aquarium/_App_Themes/Aquarium/Close.gif');
+    background-repeat: no-repeat;
+    background-position: left center;
+    float: right;
+    font-weight: normal;
+}
+
+.ProjectDesignerButtons button
+{
+    /*float: right;     margin-top:-4px;     margin-right:-3px;*/
+    font-family: Tahoma;
+    font-size: 8.5pt;
+    width: 56px;
+    margin-left: 4px;
+}
+
+.ProjectDesignerButtons button.Preview
+{
+}
+
+.ProjectDesignerButtons button.Browse
+{
+}
+
+.ProjectDesignerButtons button.Exit
+{
+}
+
+
+a.ExitDesigner:hover
+{
+    text-decoration: underline;
+}
+
+.ExcludedFromGeneration .Name
+{
+    text-decoration: line-through;
+}
+
+div.DesignerPath
+{
+    overflow: hidden;
+    padding: 0px 4px 8px 4px;
+    margin-bottom: -2px;
+}
+
+div.DesignerPath span.Separator
+{
+    color: Gray;
+    padding: 0px 2px;
+}
+
+table.DataView tr.ActionRow td.ActionBar
+{
+    border-left-style: none;
+    border-right-style: none;
+}
+
+table.DataView tr.FooterRow td.Footer
+{
+    border-left-style: none;
+    border-right-style: none;
+}
+
+table.DataView tr.FooterRow td.Footer
+{
+    border-bottom-style: none;
+}
+
+.ModalPlaceholder table.DataView tr.FooterRow td.Footer
+{
+    border-bottom-style: solid;
+}
+
+table.DataView tr.CategoryRow td.Category
+{
+    padding-left: 4px;
+}
+
+
+div.Wait
+{
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.Pager div.Wait
+{
+    margin: 0px;
+}
+
+
+.ByteType, .CurrencyType, .DecimalType, .DoubleType, .Int16Type, .Int32Type, .Int64Type, .SingleType, SByteType, UInt16Type, UInt32Type, UInt64Type
+{
+    text-align: right !important;
+}
+
+.DesignerPathBar
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: solid 1px silver;
+    background-color: #fff;
+    padding: 4px 4px 4px 24px;
+    margin-right: 12px;
+    margin-left: -4px;
+    margin-bottom: -2px;
+}
+
+.DesignerPathBar a.Back
+{
+    margin-left: -20px;
+    margin-right: 0px;
+}
+
+.InsertLargeIcon
+{
+    background-image: none;
+}
+
+
+table.DataView tr.ActionRow td.ActionBar table.Groups tr td.QuickFind div.QuickFind span.Button
+{
+    background-position: center 0px;
+}
+
+
+.MakeFirstIcon
+{
+    background-image: url(MakeFirst.png);
+    background-repeat: no-repeat;
+    background-position: 3px 2px;
+}
+
+.MoveUpIcon
+{
+    background-image: url(MoveUp.png);
+    background-repeat: no-repeat;
+    background-position: 3px 0px;
+}
+
+.MoveDownIcon
+{
+    background-image: url(MoveDown.png);
+    background-repeat: no-repeat;
+    background-position: 3px 0px;
+}
+
+.MakeLastIcon
+{
+    background-image: url(MakeLast.png);
+    background-repeat: no-repeat;
+    background-position: 3px center;
+}
+
+body.Designer div.QuickFind
+{
+    padding-top: 0px !important;
+    height: 14px !important;
+}
+
+/* tab icons */
+
+.DataView .HeaderTextRow .HeaderText
+{
+    background-repeat: no-repeat;
+    background-position: 4px 1px;
+    padding-left: 24px !important;
+    padding-bottom: 4px !important;
+    padding-top: 2px !important;
+}
+
+.FormType .HeaderTextRow .HeaderText
+{
+    background-position: 4px 1px;
+    padding-bottom: 5px !important;
+    padding-top: 1px !important;
+}
+
+.ModalPlaceholder table.DataView tr.HeaderTextRow td.HeaderText
+{
+    background-position: 4px 4px;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+
+.ActionGroups_grid1 .HeaderTextRow .HeaderText, .ActionGroups_editForm1 .HeaderTextRow .HeaderText, .ActionGroups_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/ActionGroup.png);
+}
+
+.Actions_grid1 .HeaderTextRow .HeaderText, .Actions_editForm1 .HeaderTextRow .HeaderText, .Actions_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/Action.png);
+}
+
+.Categories_grid1 .HeaderTextRow .HeaderText, .Categories_editForm1 .HeaderTextRow .HeaderText, .Categories_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/Category.png);
+}
+
+.Commands_grid1 .HeaderTextRow .HeaderText, .Commands_editForm1 .HeaderTextRow .HeaderText, .Commands_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/Command.png);
+}
+
+.Containers_grid1 .HeaderTextRow .HeaderText, .Containers_editForm1 .HeaderTextRow .HeaderText, .Containers_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/Container.png);
+}
+
+.Controllers_grid1 .HeaderTextRow .HeaderText, .Controllers_editForm1 .HeaderTextRow .HeaderText, .Controllers_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/Controller.png);
+}
+
+.Controls_grid1 .HeaderTextRow .HeaderText, .Controls_editForm1 .HeaderTextRow .HeaderText, .Controls_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/Control.png);
+}
+
+.DataFields_grid1 .HeaderTextRow .HeaderText, .DataFields_editForm1 .HeaderTextRow .HeaderText, .DataFields_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/DataField-Text.png);
+}
+
+.DataViews_grid1 .HeaderTextRow .HeaderText, .DataViews_editForm1 .HeaderTextRow .HeaderText, .DataViews_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/DataView.png);
+}
+
+.FieldOutputs_grid1 .HeaderTextRow .HeaderText, .FieldOutputs_editForm1 .HeaderTextRow .HeaderText, .FieldOutputs_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/FieldOutput.png);
+}
+
+.Fields_grid1 .HeaderTextRow .HeaderText, .Fields_editForm1 .HeaderTextRow .HeaderText, .Fields_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/Fields.png);
+}
+
+.FieldValidators_grid1 .HeaderTextRow .HeaderText, .FieldValidators_editForm1 .HeaderTextRow .HeaderText, .FieldValidators_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/Validator.png);
+}
+
+.Items_grid1 .HeaderTextRow .HeaderText, .Items_editForm1 .HeaderTextRow .HeaderText, .Items_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/Items.png);
+}
+
+.Pages_grid1 .HeaderTextRow .HeaderText, .Pages_editForm1 .HeaderTextRow .HeaderText, .Pages_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/Page.png);
+}
+
+.Parameters_grid1 .HeaderTextRow .HeaderText, .Parameters_editForm1 .HeaderTextRow .HeaderText, .Parameters_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/Parameter.png);
+}
+
+.Styles_grid1 .HeaderTextRow .HeaderText, .Styles_editForm1 .HeaderTextRow .HeaderText, .Styles_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/Style.png);
+}
+
+.UserControls_grid1 .HeaderTextRow .HeaderText, .UserControls_editForm1 .HeaderTextRow .HeaderText, .UserControls_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/UserControl.png);
+}
+
+.Views_grid1 .HeaderTextRow .HeaderText, .Views_editForm1 .HeaderTextRow .HeaderText, .Views_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/Views.png);
+}
+
+.BusinessRules_grid1 .HeaderTextRow .HeaderText, .BusinessRules_editForm1 .HeaderTextRow .HeaderText, .BusinessRules_createForm1 .HeaderTextRow .HeaderText
+{
+    background-image: url(../../_Explorer/Images/BusinessRule.png);
+}
+
+
+.NavigateIcon .Outer
+{
+    background-image: url(../../_Explorer/Images/Open.png);
+}
+
+.EditIcon .Outer
+{
+    background-image: none;
+}
+
+.SelectIcon .Outer
+{
+    background-image: url(../../_Explorer/Images/Properties.png);
+    background-repeat: no-repeat;
+    background-position: 3px center;
+}
+
+.SyncIcon .Outer, .FlatGroupIcon.SyncIcon
+{
+    background-repeat: no-repeat;
+    background-position: 3px center;
+    background-image: url(Sync.png);
+}
+
+.SyncIcon .Outer, .FlatGroupIcon.SyncIcon
+{
+    height: 15px;
+    display: inline-block;
+    margin-top: -1px;
+}
+
+
+.VisualStudioIcon .Outer, .FlatGroupIcon.VisualStudioIcon
+{
+    background-image: url(../../_Explorer/Images/VisualStudio.png);
+    background-repeat: no-repeat;
+    background-position: 3px center;
+}
+
+
+td.FlatGroup span.Outer a
+{
+    display: inline-block;
+    border-bottom: transparent 1px solid;
+}
+
+.HelpIcon .Outer, .FlatGroupIcon.HelpIcon
+{
+    background-repeat: no-repeat;
+    background-position: 3px center;
+    background-image: url(Help.png);
+}
+
+span.HelpLink
+{
+    float: right;
+    width: 16px;
+    height: 16px;
+    background-image: url(Help.png);
+    margin: -3px 0px -2px 2px;
+    cursor: pointer;
+    padding: 0px;
+    display: block;
+}
+
+.FormType span.HelpLink
+{
+    margin-top: -2px;
+}
+
+.ModalPlaceholder span.HelpLink
+{
+    display: none;
+}
+
+table.DataView tr.CategoryRow.full-width td.Fields
+{
+    width: auto;
+}
+
+.CategoryRow.catScript, .CategoryRow.catText, .CategoryRow.catBody
+{
+    visibility: hidden;
+}
+
+.Fields.catText, .Fields.catScript, .Fields.catData, .Fields.catBody
+{
+    background-color: #fff !important;
+}
+
+.Text textarea, .Script textarea, .Data textarea
+{
+    overflow: auto; /*font-family: Consolas!important;     font-size: 10pt!important;*/
+}
+
+.designer-placeholder.first table.DataView tr.ActionButtonsRow.TopButtonsRow.FormScope, .designer-placeholder.first table.DataView tr.ActionButtonsRow.BottomButtonsRow.FormScope
+{
+    display: none;
+}
+
+.Tab_body
+{
+    margin-top: -2px;
+}
+
+.Fields textarea:not(.Code)
+{
+    width: 100% !important;
+}
+
+.Fields textarea.Code
+{
+    width: 90%;
+}
+
+@media (max-width:640px)
+{
+    table.DataView tr.CategoryRow .Category
+    {
+        display: none;
+    }
+
+    table.DataView tr.CategoryRow .Fields
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 350px)
+{
+    div.DesignerToolBar a.Browse
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 500px)
+{
+    div.DesignerToolBar a.Preview, div.DesignerToolBar a.Develop, div.DesignerToolBar a.Open
+    {
+        display: none;
+    }
+}
+
+.Fields .CodeMirror
+{
+    font-size: 9pt;
+    font: Courier new;
+    border: solid 1px silver;
+}
+
+.FixedDialog .CodeMirror
+{
+    max-width: 500px;
+}
+
+/* begin - override for Aquarium theme*/
+
+table.DataView tr.CategoryRow td.Fields
+{
+    background-color: #f5f5f5;
+}
+
+/* something above is breaking the Core.css styles for links */
+
+table.DataView tr td a
+{
+    font-size: 8.5pt !important;
+}

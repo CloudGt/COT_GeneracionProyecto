@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^יצירת רשומה חדשה תפקיד החברות.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^תפקיד חדש^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^חדש^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^השלם את הטופס. הקפד להזין את כל השדות הנדרשים.^CreateFormCategory^
+
+^CreateFormHeaderText^נא למלא את הפרטים ולחצו על OK כדי ליצור רשומה תפקידים חדשים לחברות. לחץ על ביטול כדי לחזור למסך הקודם.^CreateFormHeaderText^
+
+^DescriptionLabel^תאור^DescriptionLabel^
+
+^EditViewCategory^אלה הם שדות של הרשומה החברות תפקיד שניתן לערוך.^EditViewCategory^
+
+^EditViewHeaderText^עיין תפקידים מידע לחברות להלן. לחץ על ערוך לשינוי זה שיא, לחץ על מחיקה כדי למחוק את הרשומה, או לחץ על ביטול / סגירה כדי לחזור בחזרה.^EditViewHeaderText^
+
+^GridViewHeaderText^זוהי רשימה של תפקידים בחברות.^GridViewHeaderText^
+
+^RoleNameLabel^תפקיד שם^RoleNameLabel^
+

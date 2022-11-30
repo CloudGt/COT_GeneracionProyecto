@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Cyfrif Gweinyddol^AdminDesc^
+
+^SignInHeader^Cyfarwyddiadau^SignInHeader^
+
+^SignInInstruction^Mewngofnodi i gael mynediad at y cynnwys safle gwarchodedig.^SignInInstruction^
+
+^SignInPara1^Mae dau cyfrifon defnyddwyr safonol yn cael eu creu yn awtomatig pan fydd cais yn cael ei initialized os oes opsiwn aelodaeth wedi cael ei ddewis ar gyfer y cais hwn.^SignInPara1^
+
+^SignInPara2^Mae&#39;r <b>admin</b> cyfrif gweinyddol wedi&#39;i awdurdodi i gael mynediad i bob rhan o&#39;r wefan a&#39;r rheolwr aelodaeth. Mae&#39;r cyfrif <b>user</b> safon yn cael mynediad i bob rhan o&#39;r wefan ac eithrio rheolwr aelodaeth.^SignInPara2^
+
+^SignInPara3^Symudwch y llygoden dros y <i>Login gysylltu â&#39;r we site</i> ar yr ochr dde ar frig y dudalen a llofnodi i mewn gyda un o&#39;r cyfrifon a restrir isod.^SignInPara3^
+
+^UserDesc^Cyfrif defnyddiwr Safon^UserDesc^
+

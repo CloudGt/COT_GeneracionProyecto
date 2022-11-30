@@ -1,0 +1,718 @@
+﻿<!-- 
+    Resource page body children are automatically exctracted by CodeOnTime.Client.loadResource 
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title></title>
+    <link href="CodeOnTime.css" type="text/css" rel="Stylesheet" />
+</head>
+<body>
+    <!-- "Database Connection" Dialog -->
+    <div id="DatabaseConnectionDialog" title="Database Connection">
+        <div class="Content ContentBar">
+            Please specify a database connection string for this project.</div>
+        <div style="margin: 0px; padding: 0px" id="DatabaseConnectionDialog_HostDatabaseSharingOptions">
+            <div class="Heading Logo">
+                Host Database Sharing<div class="Icon Sharing">
+                </div>
+            </div>
+            <div class="Content">
+                Indicate if you want to use the connection string of host web application as the source of your data.
+                This is usually the case if the host application tables and your own application data tables co-exist
+                in the same database.<br />
+                <br />
+                If the database sharing is desired then the connection below must match the one specified in the configuration
+                of the host web application.
+                <br />
+                <div class="Field">
+                    <input type="checkbox" id="DatabaseConnectionDialog_HostDatabaseSharing" onclick="if(this.checked){$get('DatabaseConnectionDialog_ConnectionString').value='';CodeOnTime.Client.configureHost('DotNetNuke',$get('DnnPath').value)}" /><label
+                        for="DatabaseConnectionDialog_HostDatabaseSharing" id="DatabaseConnectionDialog_HostDatabaseSharingLabel">Use
+                        connection string of the host web application.</label></div>
+            </div>
+        </div>
+        <div class="Heading Logo">
+            Database Connection
+            <div class="Icon Database">
+            </div>
+        </div>
+        <div class="Content">
+            <div>
+                A valid connection string compatible with the selected data provider is required to generate the project.
+                <span id="DatabaseConnectionDialog_Text"></span>
+                <div class="Field" id="DatabaseConnectionDialog_ProviderName_Container">
+                    <label for="DatabaseConnectionDialog_ProviderName" class="Label">
+                        Data Provider:</label>
+                    <select id="DatabaseConnectionDialog_ProviderName" style="font-size: 1.4em;" onchange="CodeOnTime.Client.verifyProviderName(this); return true">
+                        <optgroup label="Specialty Providers">
+                            <option value="CodeOnTime.CustomDataProvider">Custom Data Provider (Web Service, File System, etc)</option>
+                            <option value="Microsoft.EntityFramework" disabled="disabled">Entity Framework Data Provider</option>
+                        </optgroup>
+                        <optgroup label="Supported Data Providers">
+                            <option value="System.Data.SqlClient">.Net Framework Provider for SqlServer (System.Data.SqlClient)</option>
+                            <option value="Oracle.ManagedDataAccess.Client">Oracle Data Provider for .NET, Managed Driver (Oracle.ManagedDataAccess.Client)</option>
+                            <!-- <option value="System.Data.OleDb">.NET Framework Data Provider for Microsoft Access (System.Data.OleDb)</option> -->
+                            <option value="MySql.Data.MySqlClient">.NET Framework Data Provider for MySQL and MariaDB (MySql.Data.MySqlClient)</option>
+                            <option value="IBM.Data.DB2">IBM DB2 .NET Data Provider (IBM.Data.DB2)</option>
+                            <option value="iAnywhere.Data.SQLAnywhere">.NET Framework Data Provider for SQL Anywhere 12 (iAnywhere.Data.SQLAnywhere)</option>
+                            <option value="Npgsql">.Net Framework Data Provider for Postgresql Server (Npgsql)</option>
+                            <option value="FirebirdSql.Data.FirebirdClient">.NET Framework Data Provider for Firebird (FirebirdSql.Data.FirebirdClient)</option>
+                        </optgroup>
+                        <optgroup label="Legacy Data Providers">
+                            <option value="Oracle.DataAccess.Client">Oracle Data Provider for .NET (Oracle.DataAccess.Client)</option>
+                            <option value="System.Data.OracleClient">.Net Framework Provider for Oracle (System.Data.OracleClient)</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div id="DatabaseConnectionDialog_ConnectionStringProperties">
+                    <div class="Field">
+                        <label for="DatabaseConnectionDialog_ConnectionString" class="Label">
+                            Connection String:</label>
+                        <input type="text" id="DatabaseConnectionDialog_ConnectionString" style="width: 450px" onchange="CodeOnTime.Client.encryptConnectionString(this);CodeOnTime.Client.resetDatabaseModel();" />
+                        <button onclick="CodeOnTime.Client._runConnectionStringWizard();" title="Configure database connection string and install database features." class="button-more">
+                            ...</button>
+                        <a href="javascript:" onclick="CodeOnTime.Client.showProviderHelp($get('DatabaseConnectionDialog_ProviderName').value);return false"
+                            title="Learn to configure a connection string
+for the selected data provider." style="display: inline-block; width: 16px; height: 16px; background-image: url(../Designers/_System/Help.png);">
+                        </a>
+                        <br />
+                        <div class="Error" id="DatabaseConnectionDialog_ConnectionStringError">
+                        </div>
+                        <div class="warning" id="MembershipCS_Different_Warning" style="width:400px">
+                            Note that membership is configured to use a different connection string. Change this setting on the "Membership and Authentication" page.
+                        </div>
+                    </div>
+                    <div class="Field" id="CreateControllersRadioButtonList">
+                        <label class="Label">
+                            Generate:</label>
+                        <div style="padding: 0 0 8px 25px; margin-top: 4px;">
+                            <input type="radio" name="CreateControllers" id="DatabaseConnectionDialog_CreateControllersAndPages"
+                                value="CreateControllersAndPages" checked="checked" onclick="CodeOnTime.Client._configureObjectFilterVisibility();return true"
+                                style="margin-left: -25px; margin-top: -4px; position: absolute;" />
+                            <label for="DatabaseConnectionDialog_CreateControllersAndPages" style="font-weight: bold; color: #333;">
+                                Data Controllers and Pages</label>
+                            <div style="padding-top: 4px">
+                                Learn the benefits of <a href="" target="_blank" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/intro')">
+                                    automatic controller generation</a>, including composition of lookups, <a href="" target="_blank" onclick="return $openUrl('http://codeontime.com/learn/pages/intro')">
+                                        master-detail pages</a>, and more.
+                            </div>
+                        </div>
+                        <div style="padding: 0 0 8px 25px; margin-top: 4px;">
+                            <input type="radio" name="CreateControllers" id="DatabaseConnectionDialog_CreateControllers" value="CreateControllers"
+                                onclick="CodeOnTime.Client._configureObjectFilterVisibility();return true" style="margin-left: -25px;
+                                margin-top: -4px; position: absolute;" />
+                            <label for="DatabaseConnectionDialog_CreateControllers" style="font-weight: bold; color: #333;">
+                                Data Controllers</label>
+                            <div style="padding-top: 4px">
+                                Learn more about the creation and function of <a href="" target="_blank" onclick="return $openUrl('http://codeontime.com/learn/pages/intro')">
+                                    pages, data views, and controls</a> in applications.
+                            </div>
+                        </div>
+                        <div style="padding: 0 0 8px 25px">
+                            <input type="radio" name="CreateControllers" id="DatabaseConnectionDialog_DoNotCreateControllers" value="DoNotCreateControllers"
+                                onclick="CodeOnTime.Client._configureObjectFilterVisibility();return true" style="margin-left: -25px;
+                                margin-top: -4px; position: absolute" />
+                            <label for="DatabaseConnectionDialog_DoNotCreateControllers" style="font-weight: bold; color: #333;">
+                                Empty Project</label>
+                            <div style="padding-top: 4px">
+                                Learn how to configure a data controller from <a href="" target="_blank" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/creation/from-sql-query')">
+                                    SQL query</a>, <a href="" target="_blank" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/creation/from-stored-procedure')">
+                                        stored procedure</a>, or <a href="" target="_blank" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/creation/from-web-service')">
+                                            web service</a>.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Field" id="DatabaseConnectionDialog_CustomDataProviderDescription">
+                    You are using a custom data provider. No controllers or pages will be generated.
+                    <br />
+                    Learn how to <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/creation/from-web-service')"
+                        title="Use wizard to build the connection string">create custom controllers</a> from a web service,
+                    file system, and more.
+                </div>
+            </div>
+        </div>
+        <div id="DatabaseConnectionDialog_ConnectionStringRefreshActions">
+            <div class="Tasks">
+                <div class="Task" style="display: none">
+                    Click <a href="javascript:" onclick="CodeOnTime.Client._runConnectionStringWizard();return false" title="Use wizard to build the connection string">
+                        here</a> if you need assistance to build the connection string.</div>
+                <div class="Task" id="DatabaseConnectionDialog_DeleteMetadataDiv">
+                    <a href="#" onclick="if(CodeOnTime.Client.refreshMetadata)CodeOnTime.Client.refreshMetadata();else CodeOnTime.Client.deleteMetadata();return false"
+                        title="Delete the database metada">Refresh </a>the cached metadata if your database has changed.
+                </div>
+                <div class="Task" id="DatabaseConnectionDialog_SelectTables">
+                    <a href="javascript:" onclick="CodeOnTime.Client.configureDatabaseObjectFilter(true);return false;" title="Select the database tables and views for this project.">
+                        Select</a> the database tables and views included in the project.</div>
+            </div>
+            <div class="Content">
+                <table id="DatabaseConnectionDialog_ProjectRefresh" style="display: none; margin-top: 4px; margin-bottom: 4px;">
+                    <tr>
+                        <td style="border: solid 1px black; padding: 4px; background-color: InfoBackground;">
+                            If you need to change the tables or views included in your project,<br />
+                            then select the project on the start page and choose <i>Refresh</i> action.
+                        </td>
+                    </tr>
+                </table>
+                <input id="DatabaseConnectionDialog_Filter" type="hidden" />
+                <fieldset style="padding: 4px; display: inline; margin-top: 0px; margin-left: 2px;">
+                    <span id="DatabaseConnectionDialog_FilterSummary">All database tables and views are included in this project.</span>
+                </fieldset>
+            </div>
+        </div>
+        <div class="Buttons">
+            <button onclick="CodeOnTime.Client.cancel()">
+                Cancel</button>
+            <button onclick="CodeOnTime.Client._executeDatabaseConnectionDialogCallback('Back')">
+                Back</button>
+            <button onclick="CodeOnTime.Client.ensureTrust();if(!CodeOnTime.Client.verifyDatabaseObjectFilter())CodeOnTime.Client.configureDatabaseObjectFilter(true);else CodeOnTime.Client._executeDatabaseConnectionDialogCallback('Next');">
+                Next</button>
+        </div>
+    </div>
+    <!-- "Oracle Connection" Dialog -->
+    <div id="OracleClientConnectionDialog" title="Oracle Connection">
+        <div class="Content ContentBar">
+            Please specify Oracle database server name and user credentials.</div>
+        <div class="Heading Logo">
+            Oracle Connection
+            <div class="Icon Database">
+            </div>
+        </div>
+        <div class="Content">
+            <div class="Field">
+                <label class="Label" for="Oracle_ServerName">
+                    Server name:</label>
+                <input type="text" id="Oracle_ServerName" style="width: 200px" /></div>
+            <div class="Field">
+                <label class="Label" for="Oracle_UserName">
+                    User name:</label>
+                <input type="text" id="Oracle_UserName" style="width: 200px" /></div>
+            <div class="Field">
+                <label class="Label" for="OraclePassword">
+                    Password:</label>
+                <input type="password" id="Oracle_Password" style="width: 200px" /></div>
+            <div class="Field" id="Oracle_Membership">
+                <div class="Heading2">
+                    Membership</div>
+                <div>
+                    Your application can be configured to implement <i>user and role manager</i> based on Microsoft ASP.NET
+                    Membership.<br />
+                    If you own <a target="_blank" onclick="return $openUrl('http://codeontime.com/products')" href="javascript:"
+                        title="Compare Product Editions">Unlimited</a> edition then you may consider implementing <a target="_blank"
+                            onclick="return $openUrl('http://codeontime.com/learn/security/membership-role-providers/overview')"
+                            href="javascript:" title="Learn more about custom membership and role providers.">custom membership
+                            and role providers</a> instead.</div>
+                <div style="margin-top: 8px">
+                    <button style="width: 80px; height: 20px;" title="Verify status of Membership and Roles support in the database."
+                        onclick="CodeOnTime.Client._verifyMembershipSupport()">
+                        Status</button>
+                    <button style="width: 80px; height: 20px; margin-left: 4px" title="Create tables and stored procedures required to support Membership and Roles in the database."
+                        onclick="CodeOnTime.Client._addMembershipSupport()">
+                        Add</button>
+                    <button style="width: 80px; height: 20px; margin-left: 4px" title="Delete Membership and Roles support from database."
+                        onclick="CodeOnTime.Client._removeMembershipSupport()">
+                        Remove</button>
+                </div>
+            </div>
+            <div class="Field" id="Oracle_CMS">
+                <div class="Heading2">
+                    Content Management System (CMS)</div>
+                <div>
+                    Your application can be configured with an integrated Content Management System with two flavors of
+                    security.
+                    <br />
+                    This feature is available in all product editions, including the free version. Select the security system
+                    for CMS.
+                </div>
+                <div style="margin-top: 8px">
+                    <select id="Oracle_CMS_UsersAndRoles">
+                        <option value="false">Site Content (recommended)</option>
+                        <option value="true">Roles + Users and Workflow Register</option>
+                    </select>
+                    <a href="" target="_blank" onclick="return $openUrl('http://codeontime.com/learn/integrated-content-management-system')"
+                        style="margin-left: 16px" title="Learn more about integrated Content Management System">Learn more about
+                        integrated Content Management System.</a>
+                    <br />
+                    <br />
+                    <div>
+                        Click "Add" to install the required database objects into your database.</div>
+                    <button style="width: 80px; height: 20px; margin-top: 8px;" title="Verify status of CMS table in the database."
+                        onclick="CodeOnTime.Client._verifyCMS()">
+                        Status</button>
+                    <button style="width: 80px; height: 20px; margin-left: 4px" title="Create tables and stored procedures required to support Content Management System in the application database."
+                        onclick="CodeOnTime.Client._addCMS($get('Oracle_CMS_UsersAndRoles').value == 'true')">
+                        Add</button>
+                    <button style="width: 80px; height: 20px; margin-left: 4px" title="Delete CMS tables from database."
+                        onclick="CodeOnTime.Client._removeCMS()">
+                        Remove</button>
+                </div>
+            </div>
+            <div class="Field" id="Oracle_SessionState">
+                <div class="Heading2">
+                    Custom Session State</div>
+                <div>
+                        If you plan to store user variables in the Session object of your application then you will
+                        need to enable support <br />for <i>Session State</i> in the application database.
+                </div>
+                <div style="margin-top: 8px">
+                    <button style="width: 80px; height: 20px;" title="Verify status of Session State support in the database."
+                        onclick="CodeOnTime.Client._verifyCustomSessionStateSupport()">
+                        Status</button>
+                    <button style="width: 80px; height: 20px; margin-left: 4px" title="Create tables and stored procedures required to support Session State in application database."
+                        onclick="CodeOnTime.Client._addCustomSessionStateSupport()">
+                        Add</button>
+                    <button style="width: 80px; height: 20px; margin-left: 4px" title="Delete Session state support from database."
+                        onclick="CodeOnTime.Client._removeCustomSessionStateSupport()">
+                        Remove</button>
+                </div>
+            </div>
+        </div>
+        <div class="Buttons">
+            <button onclick="CodeOnTime.Client._testConnection()">
+                Test</button>
+            <button onclick="CodeOnTime.Client._saveOracleConnectionString()">
+                OK</button>
+            <button onclick="CodeOnTime.Client.showDatabaseConnectionDialog(true, CodeOnTime.Client._get_connectionStringDialog())">
+                Cancel</button></div>
+    </div>
+    <!-- "MySQL Connection" Dialog -->
+    <div id="MySQLConnectionDialog" title="MySQL Connection">
+        <div class="Content ContentBar">
+            Please specify MySQL database server name and user credentials.</div>
+        <div class="Heading Logo">
+            MySQL Connection
+            <div class="Icon Database">
+            </div>
+        </div>
+        <div class="Content">
+            <div class="Field">
+                <label class="Label" for="MySQL_ServerName">
+                    Server name:</label>
+                <input type="text" id="MySQL_ServerName" style="width: 200px" /></div>
+            <div class="Field">
+                <label class="Label" for="MySQL_UserName">
+                    User name:</label>
+                <input type="text" id="MySQL_UserName" style="width: 200px" /></div>
+            <div class="Field">
+                <label class="Label" for="MySQL_Password">
+                    Password:</label>
+                <input type="password" id="MySQL_Password" style="width: 200px" /></div>
+            <div class="Field">
+                <label class="Label" for="MySQL_Database">
+                    Database:</label>
+                <input type="text" id="MySQL_Database" style="width: 200px" /></div>
+            <div class="Field" id="MySQL_CMS">
+                <div class="Heading2">
+                    Content Management System (CMS)</div>
+                <div>
+                    Your application can be configured with an integrated Content Management System with two flavors of
+                    security.
+                    <br />
+                    This feature is available in all product editions, including the free version. Select the security system
+                    for CMS.
+                </div>
+                <div style="margin-top: 8px">
+                    <select id="MySQL_CMS_UsersAndRoles">
+                        <option value="false">Site Content (recommended)</option>
+                        <option value="true">Roles + Users and Workflow Register</option>
+                    </select>
+                    <a href="" target="_blank" onclick="return $openUrl('http://codeontime.com/learn/integrated-content-management-system')"
+                        style="margin-left: 16px" title="Learn more about integrated Content Management System">Learn more about
+                        integrated Content Management System.</a>
+                    <br />
+                    <br />
+                    <div>
+                        Click "Add" to install the required database objects into your database.</div>
+                    <button style="width: 80px; height: 20px; margin-top: 8px;" title="Verify status of CMS table in the database."
+                        onclick="CodeOnTime.Client._verifyCMS()">
+                        Status</button>
+                    <button style="width: 80px; height: 20px; margin-left: 4px" title="Create tables and stored procedures required to support Content Management System in the application database."
+                        onclick="CodeOnTime.Client._addCMS($get('MySQL_CMS_UsersAndRoles').value == 'true')">
+                        Add</button>
+                    <button style="width: 80px; height: 20px; margin-left: 4px" title="Delete CMS tables from database."
+                        onclick="CodeOnTime.Client._removeCMS()">
+                        Remove</button>
+                </div>
+            </div>
+            <div class="Field" id="MySQL_SessionState">
+                <div class="Heading2">
+                    Custom Session State</div>
+                <div>
+                        If you plan to store user variables in the Session object of your application then you will
+                        need to enable support <br />for <i>Session State</i> in the application database.
+                </div>
+                <div style="margin-top: 8px">
+                    <button style="width: 80px; height: 20px;" title="Verify status of Session State support in the database."
+                        onclick="CodeOnTime.Client._verifyCustomSessionStateSupport()">
+                        Status</button>
+                    <button style="width: 80px; height: 20px; margin-left: 4px" title="Create tables and stored procedures required to support Session State in application database."
+                        onclick="CodeOnTime.Client._addCustomSessionStateSupport()">
+                        Add</button>
+                    <button style="width: 80px; height: 20px; margin-left: 4px" title="Delete Session state support from database."
+                        onclick="CodeOnTime.Client._removeCustomSessionStateSupport()">
+                        Remove</button>
+                </div>
+            </div>
+        </div>
+        <div class="Buttons">
+            <button onclick="CodeOnTime.Client._testConnection()">
+                Test</button>
+            <button onclick="CodeOnTime.Client._saveMySQLConnectionString()">
+                OK</button>
+            <button onclick="CodeOnTime.Client.showDatabaseConnectionDialog(true, CodeOnTime.Client._get_connectionStringDialog())">
+                Cancel</button></div>
+    </div>
+    <!-- "Access Connection" Dialog -->
+    <div id="AccessConnectionDialog" title="Microsoft Access Connection">
+        <div class="Content ContentBar">
+            Please specify Microsoft Access database file path and user credentials.</div>
+        <div class="Heading">
+            Microsoft Access Connection</div>
+        <div class="Content">
+            <div class="Field">
+                <label class="Label" for="Access_FileName">
+                    Database file:
+                </label>
+                <input type="text" id="Access_FileName" style="width: 600px" /></div>
+            <div class="Field">
+                <label class="Label" for="Access_UserName">
+                    User name:</label>
+                <input type="text" id="Access_UserName" style="width: 200px" /></div>
+            <div class="Field">
+                <label class="Label" for="Access_Password">
+                    Password:</label>
+                <input type="password" id="Access_Password" style="width: 200px" /></div>
+        </div>
+        <div class="Buttons">
+            <button onclick="CodeOnTime.Client._testConnection()">
+                Test</button>
+            <button onclick="CodeOnTime.Client._saveAccessConnectionString()">
+                OK</button>
+            <button onclick="CodeOnTime.Client.showDatabaseConnectionDialog(true, CodeOnTime.Client._get_connectionStringDialog())">
+                Cancel</button></div>
+    </div>
+    <!-- "DB2 Connection" Dialog -->
+    <div id="DB2ConnectionDialog" title="IBM DB2 Connection">
+        <div class="Content ContentBar">
+            Please specify the connection string and user credentials.</div>
+        <div class="Heading">
+            IBM DB2 Connection</div>
+        <div class="Content">
+            <div class="Field">
+                <label class="Label" for="DB2_Server">
+                    Server:
+                </label>
+                <input type="text" id="DB2_Server" style="width: 200px" /></div>
+            <div class="Field">
+                <label class="Label" for="DB2_Database">
+                    Database:
+                </label>
+                <input type="text" id="DB2_Database" style="width: 200px" /></div>
+            <div class="Field">
+                <label class="Label" for="DB2_UserName">
+                    User name:</label>
+                <input type="text" id="DB2_UserName" style="width: 150px" /></div>
+            <div class="Field">
+                <label class="Label" for="DB2_Password">
+                    Password:</label>
+                <input type="password" id="DB2_Password" style="width: 150px" /></div>
+        </div>
+        <div class="Buttons">
+            <button onclick="CodeOnTime.Client._testConnection()">
+                Test</button>
+            <button onclick="CodeOnTime.Client._saveDB2ConnectionString()">
+                OK</button>
+            <button onclick="CodeOnTime.Client.showDatabaseConnectionDialog(true, CodeOnTime.Client._get_connectionStringDialog())">
+                Cancel</button></div>
+    </div>
+    <!-- "PostgreSQL Connection" Dialog -->
+    <div id="PostgreSQLConnectionDialog" title="PostgreSQL Connection">
+        <div class="Content ContentBar">
+            Please specify the connection string and user credentials.</div>
+        <div class="Heading">
+            PostgreSQL Connection</div>
+        <div class="Content">
+            <div class="Field">
+                <label class="Label" for="PostgreSQL_Host">
+                    Host:
+                </label>
+                <input type="text" id="PostgreSQL_Host" style="width: 200px" /></div>
+            <div class="Field">
+                <label class="Label" for="PostgreSQL_Port">
+                    Port:
+                </label>
+                <input type="text" id="PostgreSQL_Port" style="width: 200px" /></div>
+            <div class="Field">
+                <label class="Label" for="PostgreSQL_Database">
+                    Database:
+                </label>
+                <input type="text" id="PostgreSQL_Database" style="width: 200px" /></div>
+            <div class="Field">
+                <label class="Label" for="PostgreSQL_UserName">
+                    User name:</label>
+                <input type="text" id="PostgreSQL_UserName" style="width: 150px" /></div>
+            <div class="Field">
+                <label class="Label" for="PostgreSQL_Password">
+                    Password:</label>
+                <input type="password" id="PostgreSQL_Password" style="width: 150px" /></div>
+        </div>
+        <div class="Buttons">
+            <button onclick="CodeOnTime.Client._testConnection()">
+                Test</button>
+            <button onclick="CodeOnTime.Client._savePostgreSQLConnectionString()">
+                OK</button>
+            <button onclick="CodeOnTime.Client.showDatabaseConnectionDialog(true, CodeOnTime.Client._get_connectionStringDialog())">
+                Cancel</button></div>
+    </div>
+    <!-- "Firebird Connection" Dialog -->
+    <div id="FirebirdConnectionDialog" title="Firebird Connection">
+        <div class="Content ContentBar">
+            Please specify Firebird database server name and user credentials.</div>
+        <div class="Heading">
+            Firebird Connection</div>
+        <div class="Content">
+            <div class="Field">
+                <label class="Label" for="Firebird_ServerName">
+                    Server name:</label>
+                <input type="text" id="Firebird_ServerName" style="width: 200px" /></div>
+            <div class="Field">
+                <label class="Label" for="Firebird_UserName">
+                    User name:</label>
+                <input type="text" id="Firebird_UserName" style="width: 100px" /></div>
+            <div class="Field">
+                <label class="Label" for="Firebird_Password">
+                    Password:</label>
+                <input type="password" id="Firebird_Password" style="width: 100px" /></div>
+            <div class="Field">
+                <label class="Label" for="Firebird_Database">
+                    Database:</label>
+                <input type="text" id="Firebird_Database" style="width: 500px" /></div>
+        </div>
+        <div class="Buttons">
+            <button onclick="CodeOnTime.Client._testConnection()">
+                Test</button>
+            <button onclick="CodeOnTime.Client._saveFirebirdConnectionString()">
+                OK</button>
+            <button onclick="CodeOnTime.Client.showDatabaseConnectionDialog(true, CodeOnTime.Client._get_connectionStringDialog())">
+                Cancel</button></div>
+    </div>
+    <!-- "Sql Server Connection" Dialog -->
+    <div id="SqlServerConnectionDialog" title="SQL Server Connection">
+        <div class="Content ContentBar">
+            Please specify SQL Server name and database.</div>
+        <div class="Heading Logo">
+            SQL Server Connection
+            <div class="Icon Database">
+            </div>
+        </div>
+        <div class="Content">
+            <div class="Field">
+                <label class="Label" for="SqlServer_Name">
+                    Server:</label>
+                <input type="text" id="SqlServer_Name" style="width: 300px" />
+                <button id="SqlServer_SelectName" title="Select available server"  class="button-more" onclick="CodeOnTime.Client._showDataSources()">
+                    ...</button>
+                <div>
+                    <select id="SqlServer_NameList" style="width: 300px; display: none;" size="5" onchange="$get('SqlServer_Name').value = this.options[this.selectedIndex].value;Sys.UI.DomElement.setVisible(this, false);">
+                    </select></div>
+            </div>
+            <table class="Field">
+                <tr>
+                    <td>
+                        <input type="radio" id="SqlServer_WindowsAuthentication" value="Windows" checked="checked" name="SqlServer_Authentication"
+                            onclick="CodeOnTime.Client._updateSqlServerConnectionControls()" />
+                    </td>
+                    <td>
+                        <label for="SqlServer_WindowsAuthentication">
+                            Windows authentication</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" id="SqlServer_SqlServerAuthentication" value="SQLServer" name="SqlServer_Authentication"
+                            onclick="CodeOnTime.Client._updateSqlServerConnectionControls()" />
+                    </td>
+                    <td>
+                        <label for="SqlServer_SqlServerAuthentication">
+                            SQL Server authentication</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <table style="border-collapse: collapse;">
+                            <tr>
+                                <td>
+                                    <label for="SqlServer_UserName">
+                                        User name:</label>
+                                </td>
+                                <td>
+                                    <input type="text" id="SqlServer_UserName" style="width: 100px" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="SqlServer_Password">
+                                        Password:</label>
+                                </td>
+                                <td>
+                                    <input type="password" id="SqlServer_Password" style="width: 100px" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <div class="Field">
+                <label class="Label" for="SqlServer_Database">
+                    Database:</label>
+                <input type="text" id="SqlServer_Database" style="width: 300px" />
+                <button id="SqlServer_SelectDatabase" title="Select available database" onclick="CodeOnTime.Client._showDatabases()" class="button-more">
+                    ...</button>
+                <button id="SqlServer_CreateDatabase" title="Create new database" onclick="CodeOnTime.Client._createDatabase('Initial Catalog');$get('SqlServer_Database').focus()"
+                    style="margin-left: 8px; width: 80px; height: 20px;">
+                    Create</button>
+                <div>
+                    <select id="SqlServer_DatabaseList" style="width: 300px; display: none;" size="6" onchange="$get('SqlServer_Database').value = this.options[this.selectedIndex].value;Sys.UI.DomElement.setVisible(this, false);">
+                    </select></div>
+            </div>
+            <div id="SqlServer_Azure">
+                <div class="Field" id="SqlServer_Azure_SampleDatabases">
+                    <div class="Heading2">
+                        Sample Tables</div>
+                    <div>
+                        You can populate the application database with sample tables.</div>
+                    <div style="padding-top: 4px">
+                        <select id="SqlServer_SampleDatabases" onchange="Sys.UI.DomElement.setVisible($get('SqlServer_Azure_SampleDatabases_Controls'), this.value!='')"
+                            style="margin-bottom: 1px">
+                            <option value="">(select)</option>
+                        </select><span id="SqlServer_Azure_SampleDatabases_Controls" style="display: none">
+                            <button style="width: 80px; height: 20px; margin-left: 4px;" title="Populate database with sample tables."
+                                onclick="CodeOnTime.Client._installSampleDatabase($get('SqlServer_SampleDatabases').value)">
+                                Install</button>
+                            <button style="width: 80px; height: 20px; margin-left: 4px;" title="Remove sample tables from database."
+                                onclick="CodeOnTime.Client._uninstallSampleDatabase($get('SqlServer_SampleDatabases').value)">
+                                Uninstall</button><span style="margin-left: 20px;"><a href="javascript:" title="View database diagram and description."
+                                    onclick="CodeOnTime.Client._aboutSampleDatabase($get('SqlServer_SampleDatabases').value);return false;">Learn
+                                    more about this sample.</a></span></span>
+                    </div>
+                </div>
+                <div class="Field" id="SqlServer_Azure_Membership">
+                    <div class="Heading2">
+                        Membership</div>
+                    <div>
+                        Your application can be configured to implement <i>user and role manager</i> based on Microsoft ASP.NET
+                        Membership.<br />
+                        If you own <a target="_blank" onclick="return $openUrl('http://codeontime.com/products')" href="javascript:"
+                            title="Compare Product Editions">Unlimited</a> edition then you may consider implementing <a target="_blank"
+                                onclick="return $openUrl('http://codeontime.com/learn/security/membership-role-providers/overview')"
+                                href="javascript:" title="Learn more about custom membership and role providers.">custom membership
+                                and role providers</a> instead.</div>
+                    <div style="margin-top: 8px">
+                        <button style="width: 80px; height: 20px;" title="Verify status of Membership and Roles support in the database."
+                            onclick="CodeOnTime.Client._verifyMembershipSupport()">
+                            Status</button>
+                        <button style="width: 80px; height: 20px; margin-left: 4px" title="Create tables and stored procedures required to support Membership and Roles in the database."
+                            onclick="CodeOnTime.Client._addMembershipSupport()">
+                            Add</button>
+                        <button style="width: 80px; height: 20px; margin-left: 4px" title="Delete Membership and Roles support from database."
+                            onclick="CodeOnTime.Client._removeMembershipSupport()">
+                            Remove</button>
+                    </div>
+                </div>
+                <div class="Field" id="SqlServer_CMS">
+                    <div class="Heading2">
+                        Content Management System (CMS)</div>
+                    <div>
+                        Your application can be configured with an integrated Content Management System with two flavors of
+                        security.
+                        <br />
+                        This feature is available in all product editions, including the free version. Select the security system
+                        for CMS.
+                    </div>
+                    <div style="margin-top: 8px">
+                        <select id="SqlServer_CMS_UsersAndRoles">
+                            <option value="false">Site Content (recommended)</option>
+                            <option value="true">Roles + Users and Workflow Register</option>
+                        </select>
+                        <a href="" target="_blank" onclick="return $openUrl('http://codeontime.com/learn/integrated-content-management-system')"
+                            style="margin-left: 16px" title="Learn more about integrated Content Management System">Learn more about
+                            integrated Content Management System.</a>
+                        <br />
+                        <br />
+                        <div>
+                            Click "Add" to install the required database objects into your database.</div>
+                        <button style="width: 80px; height: 20px; margin-top: 8px;" title="Verify status of CMS table in the database."
+                            onclick="CodeOnTime.Client._verifyCMS()">
+                            Status</button>
+                        <button style="width: 80px; height: 20px; margin-left: 4px" title="Create tables and stored procedures required to support Content Management System in the application database."
+                            onclick="CodeOnTime.Client._addCMS($get('SqlServer_CMS_UsersAndRoles').value == 'true')">
+                            Add</button>
+                        <button style="width: 80px; height: 20px; margin-left: 4px" title="Delete CMS tables from database."
+                            onclick="CodeOnTime.Client._removeCMS()">
+                            Remove</button>
+                    </div>
+                </div>
+                <div class="Field" id="SqlServer_SessionState">
+                    <div class="Heading2">
+                        Session State</div>
+                    <div id="SessionStateModeWrapper">
+                        Select the Session State Provider you wish to use for your project.
+                        <br />
+                        <br />
+                        <select id="SessionStateMode" onchange="CodeOnTime.Client._switchSessionStateMode()">
+                            <option value="Custom">Custom Session State Provider</option>
+                            <option value="ASPNET">ASP.NET Session State Provider</option>
+                        </select>
+                            <br />
+                            <br />
+                    </div>
+                    <div id="CustomSessionState">
+                        <div>
+                            If you plan to store user variables in the Session object of your application then you will
+                            need to enable support <br />for <i>Session State</i> in the application database.
+                        </div>
+                        <div style="margin-top: 8px">
+                            <button style="width: 80px; height: 20px;" title="Verify status of Session State support in the database."
+                                onclick="CodeOnTime.Client._verifyCustomSessionStateSupport()">
+                                Status</button>
+                            <button style="width: 80px; height: 20px; margin-left: 4px" title="Create tables and stored procedures required to support Session State in application database."
+                                onclick="CodeOnTime.Client._addCustomSessionStateSupport()">
+                                Add</button>
+                            <button style="width: 80px; height: 20px; margin-left: 4px" title="Delete Session state support from database."
+                                onclick="CodeOnTime.Client._removeCustomSessionStateSupport()">
+                                Remove</button>
+                        </div>
+                    </div>
+                    <div id="ASPNETSessionState">
+                        <div>
+                            It is recommended to execute Azure applications on more than one role instance. Role instance is equivalent
+                            to<br />
+                            a dedicated server. If you plan to store user variables in the Session object of your application then you will
+                            need to enable support <br />for <i>Session State</i> in the application database.
+                        </div>
+                        <div style="margin-top: 8px">
+                            <button style="width: 80px; height: 20px;" title="Verify status of Session State support in the database."
+                                onclick="CodeOnTime.Client._verifySessionStateSupport()">
+                                Status</button>
+                            <button style="width: 80px; height: 20px; margin-left: 4px" title="Create tables and stored procedures required to support Session State in application database."
+                                onclick="CodeOnTime.Client._addSessionStateSupport()">
+                                Add</button>
+                            <button style="width: 80px; height: 20px; margin-left: 4px" title="Delete Session state support from database."
+                                onclick="CodeOnTime.Client._removeSessionStateSupport()">
+                                Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Buttons">
+            <button onclick="CodeOnTime.Client._testConnection()">
+                Test</button>
+            <button onclick="CodeOnTime.Client._saveSqlServerConnectionString()">
+                OK</button>
+            <button onclick="CodeOnTime.Client.showDatabaseConnectionDialog(true, CodeOnTime.Client._get_connectionStringDialog())">
+                Cancel</button></div>
+    </div>
+</body>
+</html>

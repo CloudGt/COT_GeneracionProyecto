@@ -1,0 +1,121 @@
+﻿<!-- 
+    Resource page body children are automatically exctracted by CodeOnTime.Client.loadResource 
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title></title>
+    <link href="CodeOnTime.css" type="text/css" rel="Stylesheet" />
+</head>
+<body>
+    <!-- "Theme" Dialog -->
+    <div id="ThemeDialog" title="Theme">
+        <div class="Content ContentBar">
+            Please specify user interface theme preferences.</div>
+        <div class="Heading Logo">
+            Theme
+            <div class="Icon Theme">
+            </div>
+        </div>
+        <div class="Content">
+            <div>
+                A theme is a collection of property settings that allow you to define the look of
+                pages and controls, and then apply the look consistently across pages in a Web application,
+                across an entire Web application, or across all Web applications on a server.
+                <br />
+                <br />
+                Themes are made up of a set of elements: skins, cascading style sheets (CSS), images,
+                and other resources. Themes are defined in special directories in your Web site
+                or on your Web server. If your project is a class library then a theme is embedded in the library as a
+                collection of binary resources.
+                <br />
+                <br />
+            </div>
+            <div class="Field" id="ThemeDialog_ThemeContainer">
+                <div style="float: left">
+                    <label class="Label" for="ThemeDialog_Theme">
+                        Theme:</label>
+                    <select id="ThemeDialog_Theme" size="20" onchange="$get('ThemeDialog_Theme_Warning').style.fontWeight='bold';$get('ThemeDialog_ThemeContainer').className=String.format('Field Theme {0}',this.value)">
+                        <!--                        <option value="Light">Light</option>
+                        <option value="Dark">Dark</option>
+-->
+                        <option value="Aquarium">Aquarium</option>
+                        <option value="Azure">Azure</option>
+                        <option value="Belltown">Belltown</option>
+                        <option value="Berry">Berry</option>
+                        <option value="Bittersweet">Bittersweet</option>
+                        <option value="Cay">Cay</option>
+                        <option value="Citrus">Citrus</option>
+                        <option value="Classic">Classic</option>
+                        <option value="Construct">Construct</option>
+                        <option value="Convention">Convention</option>
+                        <option value="DarkKnight">Dark Knight</option>
+                        <option value="Felt">Felt</option>
+                        <option value="Graham">Graham</option>
+                        <option value="Granite">Granite</option>
+                        <option value="Grapello">Grapello</option>
+                        <option value="Gravity">Gravity</option>
+                        <option value="Lacquer">Lacquer</option>
+                        <option value="Laminate">Laminate</option>
+                        <option value="Lichen">Lichen</option>
+                        <option value="Mission">Mission</option>
+                        <option value="Modern">Modern</option>
+                        <option value="ModernRose">Modern Rose</option>
+                        <option value="Municipal">Municipal</option>
+                        <option value="Petal">Petal</option>
+                        <option value="Pinnate">Pinnate</option>
+                        <option value="Plastic">Plastic</option>
+                        <option value="Ricasso">Ricasso</option>
+                        <option value="Simple">Simple</option>
+                        <option value="Social">Social</option>
+                        <option value="Summer">Summer</option>
+                        <option value="Vantage">Vantage</option>
+                        <option value="Verdant">Verdant</option>
+                        <option value="Viewpoint">Viewpoint</option>
+                        <option value="WhiteSmoke">White Smoke</option>
+                        <option value="Yoshi">Yoshi</option>
+                    </select></div>
+                <table class="ThemePreviews" style="float: left">
+                    <tr>
+                        <td id="ThemePreview_TouchUI">
+                            <label>
+                                Touch UI:</label>
+                            <div class="MobileThemePreview" style="float: left">
+                            </div>
+                        </td>
+                        <td class="DesktopPreview" id="ThemePreview_Desktop">
+                            <label>
+                                Classic:</label>
+                            <div class="ThemePreview" style="float: left">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <div style="clear: both">
+                </div>
+            </div>
+            <div style="float: left; margin-left: 8px;">
+                <a href="..\_Images\Themes\_index.htm" title="View Theme Samples" target="_blank"
+                    style="font-weight: bold">Click here to view samples of all available themes</a>
+                <br />
+                <br />
+                <div id="ThemeDialog_Theme_Warning">
+                    If you change the theme then make sure to hit Refresh button when the app loads
+                    in a browser. This will ensure that new stylesheets are correctly loaded.</div>
+                <br />
+                * - requires a <a href="javascript:" onclick="return $openUrl('http://codeontime.com/buy')"
+                    target="_blank" title="Learn more about available Code OnTime editions.">Code OnTime</a>
+                activation code.
+            </div>
+        </div>
+        <div class="Buttons" style="clear: both">
+            <button onclick="CodeOnTime.Client.cancel()">
+                Cancel</button>
+            <button onclick="CodeOnTime.Client._executeThemeDialogCallback('Back')">
+                Back</button>
+            <button onclick="CodeOnTime.Client._executeThemeDialogCallback('Next')">
+                Next</button>
+        </div>
+    </div>
+</body>
+</html>

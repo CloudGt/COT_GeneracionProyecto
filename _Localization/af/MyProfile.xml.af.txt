@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^terug^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Voltooi^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Bevestig nuwe wagwoord^ConfirmNewPassword^
+
+^ConfirmPassword^Bevestig Wagwoord^ConfirmPassword^
+
+^Email^e-pos^Email^
+
+^ForgotYourPassword^Het jy jou wagwoord vergeet?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Beantwoord die volgende vraag om jou wagwoord te ontvang. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identiteitsbevestiging^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Vul asseblief hierdie vorm in en klik Submit knoppie om die vergete wagwoord te herstel. Klik Kanselleer om terug te keer na die vorige skerm.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Wagwoordherstel: Stap 2 van 2^IdentityConfirmViewLabel^
+
+^LoginButton^Teken aan^LoginButton^
+
+^LoginLink^Teken aan^LoginLink^
+
+^LoginWithDNN^Teken in met DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Teken in met Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Teken in met Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Inloggen met Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Teken in met SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Inloggen met Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Wagwoord Antwoord (nie vertoon vir u beskerming nie)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Voer asseblief jou huidige wagwoord in om nuwe wagwoord te skep, jou e-pos adres op te dateer, of wagwoordherstelvraag en antwoord te verander.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Huidige wagwoord^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Gaan asseblief jou lidmaatskapinligting hieronder. Klik op Update my rekening om hierdie rekord te verander, of klik Kanselleer om terug te keer.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^My rekening^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Voer asseblief &#39;n nuwe wagwoord in. Let daarop dat wagwoord ten minste 7 karakters lank moet wees en een nie-alfanumeriese karakter moet bevat.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nuwe wagwoord (opsioneel)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Tydens die herstel van &#39;n vergete wagwoord sal u gevra word om u gebruikersnaam in te voer. As daar &#39;n gebruikersrekening bestaan, moet &#39;n wagwoordvraag beantwoord word. &#39;N Korrekte antwoord sal &#39;n e-pos veroorsaak met &#39;n tydelike wagwoord wat aan u gestuur word.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-pos &amp; Wagwoordherstel (opsioneel)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nuwe Wagwoord^NewPassword^
+
+^OldPassword^Ou wagwoord^OldPassword^
+
+^Password^wagwoord^Password^
+
+^PasswordAnswer^Wagwoord Antwoord^PasswordAnswer^
+
+^PasswordQuestion^Wagwoordvraag^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Voer asseblief &#39;n gebruikersnaam in. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Het jy jou wagwoord vergeet?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Vul asseblief hierdie vorm in en klik op Gaan voort om die vergete wagwoord te herstel. Klik Kanselleer om terug te keer na die vorige skerm.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Wagwoordherstel: Stap 1 van 2^PasswordRequestViewLabel^
+
+^RememberMe^Onthou my die volgende keer^RememberMe^
+
+^RequestPasswordActionHeaderText^volgende^RequestPasswordActionHeaderText^
+
+^SignUp^Teken aan^SignUp^
+
+^SignUpNow^Teken nou aan^SignUpNow^
+
+^SignUpViewHeaderText^Vul asseblief hierdie vorm in en klik OK om &#39;n rekening aan te meld. Klik Kanselleer om terug te keer na die vorige skerm.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Account aanmelding^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Voer asseblief gebruikersnaam en wagwoord in. Let daarop dat wagwoord ten minste 7 karakters lank moet wees en een nie-alfanumeriese karakter moet bevat. Slegs goedgekeurde gebruikers sal in staat wees om by die webwerf aan te meld.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Nuwe gebruiker inligting^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Hierdie velde word benodig om u te help om &#39;n vergete wagwoord te herstel. Tydens die herstelproses sal u gevra word om &#39;n gebruikersnaam in te voer. As daar &#39;n gebruikersrekening bestaan, word &#39;n sekuriteitsvraag versoek om beantwoord te word. &#39;N Korrekte antwoord sal &#39;n e-pos met &#39;n tydelike wagwoord stuur na die geregistreerde e-pos.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Wagwoord herwinning^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Dateer my rekening op^UpdateMyAccountActionHeaderText^
+
+^UserName^Gebruikersnaam^UserName^
+

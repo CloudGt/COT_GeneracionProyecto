@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Data Aquarium</title>
+    <link href="../_System/CodeOnTime.css" type="text/css" rel="Stylesheet" />
+    <script type="text/javascript" src="../_Client/Scripts/jQuery/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" language="javascript" src="../_System/MicrosoftAjax.js"></script>
+    <script type="text/javascript" language="javascript" src="../_System/CodeOnTime.Client.js"></script>
+    <script type="text/javascript" language="javascript">
+
+        var project = null;
+
+        function pageLoad() {
+            project = CodeOnTime.Client.loadFromProject('DataAquarium.Project.xml');
+            var controllers = CodeOnTime.Client.loadFromProject('Controllers.Cache.xml');
+            if (!controllers.firstChild)
+                controllers = CodeOnTime.Client.loadFromProject('Controllers.Baseline.xml');
+            if (!controllers.firstChild)
+                controllers = CodeOnTime.Client.loadFromProject('Controllers.xml');
+            var html = '';
+            if (controllers.firstChild)
+                html = CodeOnTime.Client.systemTransform(controllers, '..\\Data Aquarium\\DataAquarium.UI.Controllers.xslt');
+            $get('ControllerList').innerHTML = html;
+            var nextStep = CodeOnTime.Client.get_property('NextStep');
+            CodeOnTime.Client.set_property('NextStep', null);
+            if (window.external.SilentRefresh) {
+                nextStep = "Design";
+            }
+            if (nextStep == 'Design')
+                CodeOnTime.Client.startDesigner();
+            else if (nextStep == 'Refresh' && CodeOnTime.Client.get_designerSpreadsheetExists())
+                CodeOnTime.Client.executeExcelAction('RefreshAndSync')
+            UpdateExcelButtons();
+            CodeOnTime.Client.resizeDialog();
+            var projectAction = window.external.ProjectAction;
+            if (projectAction == 'GenerateAll') {
+                window.external.ProjectAction = null;
+                Continue('Generate');
+            }
+            var previewConfig = CodeOnTime.Client.getPreviewConfig();
+            if (previewConfig && previewConfig.preview && previewConfig.preview != 'Browser')
+                $('.Generate .Description').text('Generate and compile the application source code. The generated app will start on this device.');
+
+            // validate data models
+//            alert("Next action: " + nextStep + "\nProjectAction: " + projectAction + "\nMetadata.xml exists? - " + CodeOnTime.Client.fileExists("DataAquarium.Metadata.xml") +
+//                "\ndataModelValidate = " + (CodeOnTime.Client.readProperty(project, 'p:project/@dataModelValidate', '') == 'true'));
+//            if (CodeOnTime.Client.readProperty(project, 'p:project/@dataModelValidate', '') == 'true') {
+//                CodeOnTime.Client._validateDataModels();
+//                CodeOnTime.Client.writeProperty(project, 'p:project/@dataModelValidate', '');
+//                project.save(project.url);
+//            }
+
+        }
+
+        function RefreshProject() {
+            window.external.ProjectAction = String.format('Refresh;{0};{1}', CodeOnTime.Client.get_variable('ProjectId'), CodeOnTime.Client.get_variable('ProjectName'));
+            Cancel();
+        }
+
+        function ChangeProjectSettings() {
+            window.external.ProjectAction = String.format('Settings;{0};{1}', CodeOnTime.Client.get_variable('ProjectId'), CodeOnTime.Client.get_variable('ProjectName'));
+            Cancel();
+        }
+
+        function ShowDataModel() {
+            window.external.ProjectActionScript = String.format('openModel("{0}","{1}");', CodeOnTime.Client.get_variable('ProjectId'), CodeOnTime.Client.get_variable('ProjectName'));
+            ChangeProjectSettings();
+        }
+
+        function Continue(step) {
+            //project.selectSingleNode('p:project').setAttribute('nextStep', step);
+            //project.save(project.url);
+            CodeOnTime.Client.set_property('NextStep', step);
+            CodeOnTime.Client.proceed();
+        }
+
+        function Cancel() {
+            CodeOnTime.Client.cancel();
+        }
+
+        function UpdateExcelButtons() {
+            var exists = CodeOnTime.Client.get_designerSpreadsheetExists();
+            $get('Excel_Start').disabled = !exists;
+            $get('Excel_Refresh').disabled = !exists;
+            $get('Excel_Sync').disabled = !exists;
+        }
+
+    </script>
+</head>
+<body>
+    <!-- page body -->
+    <div id="Main" title="Summary">
+        <div class="Content ContentBar">
+            The analysis of your database has been completed. Application generation will start
+            immediately when you click <i>Generate</i> button.
+        </div>
+        <div class="Heading Logo">
+            Summary<div class="Icon Summary">
+            </div>
+        </div>
+        <div class="Content">
+            <div>
+                The following data controllers are included in the application.
+            </div>
+            <table>
+                <tr>
+                    <td valign="top" class="Content" style="width: 45%">
+                        <div id="ControllerList" class="ScrollBox" style="height: 340px; margin-top: 4px;
+                            margin-bottom: 4px;">
+                        </div>
+                    </td>
+                    <td valign="top" style="padding-left: 16px;">
+                        <div class="Content">
+                            <ul class="Settings Summary">
+                                <li class="Design"><a href="javascript:" onclick="CodeOnTime.Client.startDesigner();return false">
+                                    <div class="Outer">
+                                        <div class="Inner">
+                                            <div class="Text">
+                                                Design
+                                            </div>
+                                            <div class="Description">
+                                                Open project designer to customize the app. Customization will be preserved between
+                                                code generation sessions.</div>
+                                        </div>
+                                    </div>
+                                </a></li>
+                                <li class="DataModel"><a href="javascript:" onclick="ShowDataModel();return false">
+                                    <div class="Outer">
+                                        <div class="Inner">
+                                            <div class="Text">
+                                                Model
+                                            </div>
+                                            <div class="Description">
+                                                Modify or add database entity models to change the 
+                                                baseline definitions of data controllers in this project.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a></li>
+                                <li class="Settings"><a href="javascript:" onclick="ChangeProjectSettings();return false">
+                                    <div class="Outer">
+                                        <div class="Inner">
+                                            <div class="Text">
+                                                Settings
+                                            </div>
+                                            <div class="Description">
+                                                Change settings of the project. Some changes will effect only new pages and refreshed
+                                                data controllers.</div>
+                                        </div>
+                                    </div>
+                                </a></li>
+                                <li class="Refresh"><a href="javascript:" onclick="RefreshProject();return false">
+                                    <div class="Outer">
+                                        <div class="Inner">
+                                            <div class="Text">
+                                                Refresh
+                                            </div>
+                                            <div class="Description">
+                                                Refresh database tables and views included in the project if the physical database
+                                                structure has changed.</div>
+                                        </div>
+                                    </div>
+                                </a></li>
+                                <li class="Generate"><a href="javascript:" onclick="Continue('Generate');return false">
+                                    <div class="Outer">
+                                        <div class="Inner">
+                                            <div class="Text">
+                                                Generate
+                                            </div>
+                                            <div class="Description">
+                                                Generate and compile the web application source code. The generated app will start
+                                                in the default web browser.</div>
+                                        </div>
+                                    </div>
+                                </a></li>
+                            </ul>
+                            <div style="padding-bottom: 8px; visibility: hidden;">
+                                You can customize the properties of this code generation project with <i>Code OnTime
+                                    Designer</i>. Customization is preserved between code generation sessions and
+                                is automatically re-applied when your database schema has changed.</div>
+                            <button onclick="CodeOnTime.Client.startDesigner()" class="Large" style="display: none">
+                                Start Designer</button>
+                        </div>
+                        <div class="Content" style="display: none">
+                            <div style="padding-bottom: 8px; padding-top: 4px">
+                                You can customize the project metadata in Microsoft Excel spreadsheet. Project customization
+                                via spreadsheet is applied to the raw project metadata prior to any changes done
+                                in <i>Designer</i>.
+                                <!--Download and install
+                                <a href="http://www.microsoft.com/downloads/details.aspx?familyid=7554F536-8C28-4598-9B72-EF94E038C891"
+                                    target="_blank" title="2007 Office System Driver: Data Connectivity Components">
+                                    Data Connectivity Components</a> if you want to use this feature.-->
+                            </div>
+                            <div id="DesignerSpreadsheet">
+                                <button id="Excel_Start" onclick="CodeOnTime.Client.executeExcelAction('Start')"
+                                    class="Medium" title="Start Excel to edit the project spreadsheet.">
+                                    Start Excel</button>
+                                <button id="Excel_Refresh" onclick="CodeOnTime.Client.executeExcelAction('Refresh')"
+                                    class="Medium" title="Refresh the spreadsheet to reflect database changes.">
+                                    Refresh</button>
+                                <button id="Excel_Sync" onclick="CodeOnTime.Client.executeExcelAction('Sync')" class="Medium"
+                                    title="Synchronize spreadsheet entries with the project.">
+                                    Sync</button>
+                                <button id="Excel_Merge" onclick="if(CodeOnTime.Client.executeExcelAction('Merge')) UpdateExcelButtons()"
+                                    class="Medium" title="Merge project design with the spreadsheet.">
+                                    Merge</button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div>
+                All existing files in the project folder are automatically backed up under <i>[Documents]/Code OnTime/Backups/[ProjectType]/[ProjectName]</i> folder.</div>
+        </div>
+        <div class="Buttons">
+            <button onclick="Cancel()">
+                Cancel</button>
+            <button onclick="Continue('WebServer')">
+                Back</button>
+            <button onclick="Continue('Generate')">
+                Generate</button>
+        </div>
+    </div>
+</body>
+</html>

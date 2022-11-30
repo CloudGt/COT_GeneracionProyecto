@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Oħloq rekord utent ġdid.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Utenti ġodda^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Ġodda^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Lura^BackToRequestPasswordActionHeaderText^
+
+^Comment^Kumment^Comment^
+
+^ConfirmIdentityActionHeaderText^Finish^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Ikkonferma Password ġdida^ConfirmNewPassword^
+
+^ConfirmPassword^Ikkonferma Password^ConfirmPassword^
+
+^CreateDate^Oħloq Data^CreateDate^
+
+^CreateFormCommentCategoryDescription^Idaħħlu xi kummenti addizzjonali dwar dan il-kont utent. Kumment ma jkunx viżibbli għall-utent.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Kummenti^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Jekk jogħġbok daħħal user name u password. Innota li l-password għandu jkun mill-inqas 7 karattri fit-tul u jinkludu waħda mhux karattri alfanumeriċi. Biss utenti approvati se tkun tista &#39;login fis-website.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Informazzjoni ġdida Utent^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Dawn l-oqsma huma meħtieġa biex tgħin lill-utent biex jirkupraw password minsija. Matul il-proċess ta &#39;rkupru l-utent se jkunu mitluba li jidħol isem l-utent. Jekk kont utent jeżisti imbagħad kwistjoni ta &#39;sigurtà huwa mitlub li tiġi mwieġba. A risposta korretta se twassal għal email b&#39;password temporanja jibagħtu lill-utent.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Irkupru^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Jekk jogħġbok agħżel rwoli ta &#39;utenti li l-aktar jaqblu mal-responsabbiltajiet utent. Rwoli kontroll ta &#39;aċċess għaż-żoni ta&#39; dan is-sit web. Jekk jogħġbok ikkuntattja amministratur tas-sistema jekk restrizzjonijiet ta &#39;aċċess rwol għandu jinbidel.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Rwoli^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Jekk jogħġbok imla din il-formola u kklikkja OK buttuna biex joħolqu rekord ġdid sħubija utent. Ikklikkja Ikkanċella li jirritornaw għall-iskrin ta &#39;qabel.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Utenti ġodda^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Dan il-kont utent għandu jinħoloq bħala approvati.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplikat indirizz email.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Duplikat ewlenin fornitur.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplikat isem l-utent.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Attività Istatistika^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Dan il-kont utent huwa approvat^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Dawn huma l-istatistika ta &#39;tentattivi fallew login minn dan l-utent. <br/> <br/> Utent ser tkun imsakkar wara li jintlaħaq numru massimu ta &#39;tentattivi fallew login. <br/> <br/> Illokjati l-utenti jkunu kapaċi login għal darb&#39;oħra wara d-data fil rnexxielhomx Password Attentat Tieqa Bidu. <br/> <br/> Utenti li naqset milli tirkupra l-password se tkun tista &#39;hekk wara d-data fil rnexxielhomx Password Tweġiba Attentat Tieqa Bidu. <br/> <br/> Tista &#39;terġa&#39; kapaċità utent login bit-twaqqif tal-bandiera illokjati Out għall-&quot;Le&quot;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Log in Statistiċi^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Matul l-irkupru ta &#39;password minsija l-utent se jkunu mitluba li jidħol isem l-utent. Jekk kont utent jeżisti imbagħad kwistjoni ta &#39;sigurtà huwa mitlub li tiġi mwieġba. A risposta korretta se twassal għal email b&#39;password temporanja jibagħtu lill-utent. <br/><br/> Bidla imsakkar tal-bandiera sabiex &quot;Le&quot; jekk l-utent ikun imsakkar wara li jintlaħaq numru massimu ta &#39;tentattivi fallew login u inti tixtieq li jippermettu utent biex login għal darb&#39;oħra.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Irkupru^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Jekk jogħġbok agħżel rwoli ta &#39;utenti li l-aktar jaqblu mal-responsabbiltajiet utent. Rwoli kontroll ta &#39;aċċess għaż-żoni ta&#39; dan is-sit web. Jekk jogħġbok ikkuntattja amministratur tas-sistema jekk restrizzjonijiet ta &#39;aċċess rwol għandu jinbidel. <br/> <br/> Ikteb xi kummenti addizzjonali dwar dan il-kont utent. Kumment ma jkunx viżibbli għall-utent.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Informazzjoni lill-Utent^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Jekk jogħġbok irrevedi informazzjoni sħubija utent hawn taħt. Ikklikkja Edit għall-bidla dan ir-rekord, ikklikkja Ħassar li jitħassar ir-rekord, jew ikklikkja Ikkanċella / Agħlaq li jirritornaw lura.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Utent Reviżjoni^EditFormViewLabel^
+
+^Email^Email^Email^
+
+^EnterCurrentPassword^Jekk jogħġbok ikteb il-password attwali tiegħek.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Jekk jogħġbok jidħol risposta password.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Żball iffrankar kont ta &#39;utent.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Naqset Password Tweġiba Attentat Konti^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Naqset Password Tweġiba Attentat Tieqa Bidu^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Naqset Count Attentat Password^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Naqset Password Attentat Tieqa Bidu^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Din hija lista ta &#39;rekords utent sħubija.^GridViewHeaderText^
+
+^GridViewLabel^Kollha utenti^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Risposta għad-domanda li ġejja li jirċievu password tiegħek. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Konferma Identità^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Jekk jogħġbok imla din il-formola u kklikkja Submit buttuna biex tirkupra l-password minsija. Ikklikkja Ikkanċella li jirritornaw għall-iskrin ta &#39;qabel.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Irkupru: Pass 2 minn 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Invalida tweġiba irkupru password.^InvalidAnswer^
+
+^InvalidEmail^Invalida indirizz email.^InvalidEmail^
+
+^InvalidPassword^. Password invalidi^InvalidPassword^
+
+^InvalidProviderUserKey^Invalida ewlenin utent fornitur.^InvalidProviderUserKey^
+
+^InvalidQuestion^Invalida kwistjoni irkupru password.^InvalidQuestion^
+
+^InvalidUserName^Invalida isem l-utent.^InvalidUserName^
+
+^IsApproved^Huwa approvat^IsApproved^
+
+^IsLockedOut^Huwa illokjati Out^IsLockedOut^
+
+^LastLockoutDate^Data aħħar lockout^LastLockoutDate^
+
+^LastLoginDate^Id-data l-aħħar Login^LastLoginDate^
+
+^LastPasswordChangedDate^Password aħħar Tibdil Data^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Tweġiba Password (mhux murija għall-protezzjoni tiegħek)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Jekk jogħġbok ikteb il-password attwali tiegħek biex joħolqu password ġdida, taġġorna l-indirizz email tiegħek, jew il-password bidla irkupru mistoqsija u tweġiba.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Kurrenti Password^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Jekk jogħġbok irrevedi informazzjoni sħubija tiegħek hawn taħt. Ikklikkja Aġġornament Kont Tiegħi għall-bidla dan ir-rekord, jew ikklikkja Ikkanċella li jirritornaw lura.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Il-Kont Tiegħi^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Jekk jogħġbok ikteb il-password ġdida. Innota li l-password għandu jkun mill-inqas 7 karattri fit-tul u jinkludu waħda mhux karattri alfanumeriċi.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Password ġdida (Mhux obbligatorju)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Matul l-irkupru ta &#39;password minsija inti se tintalab biex jidħol isem l-utent tiegħek. Jekk kont utent jeżisti imbagħad password kwistjoni għandha tiġi mwieġba. A risposta korretta se twassal għal email b&#39;password temporanja jibgħat lilek.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email Password Irkupru &amp; (Mhux obbligatorju)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Password ġdida^NewPassword^
+
+^NewPasswordAlert^A password ġdida ġiet email lill-indirizz fuq fajl.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Password il-ġdida u l-konferma ma jaqblux.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Password ġdida tiegħek huwa invalidu.^NewPasswordInvalid^
+
+^NewPasswordSubject^Password ġdida għall \&#39;{0} \ &quot;.^NewPasswordSubject^
+
+^OldPassword^Qadim Password^OldPassword^
+
+^Password^Password^Password^
+
+^PasswordAndConfirmationDoNotMatch^Password u l-konferma ma jaqblux.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Tweġiba Password^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Password tiegħek ma taqbilx ma &#39;rekords tagħna.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Format Password^PasswordFormat^
+
+^PasswordQuestion^Mistoqsija Password^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Jekk jogħġbok daħħal isem l-utent. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Insejt il-password tiegħek?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Jekk jogħġbok imla din il-formola u kklikkja Kompli buttuna biex tirkupra l-password minsija. Ikklikkja Ikkanċella li jirritornaw għall-iskrin ta &#39;qabel.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Irkupru: Pass 1 ta &#39;2^PasswordRequestViewLabel^
+
+^ProviderError^Żball fornitur.^ProviderError^
+
+^RequestPasswordActionHeaderText^Li jmiss^RequestPasswordActionHeaderText^
+
+^Roles^Rwoli^Roles^
+
+^SelfRegisteredUser^Awto-utent reġistrat.^SelfRegisteredUser^
+
+^SignUp^Sign Up^SignUp^
+
+^SignUpViewHeaderText^Jekk jogħġbok imla din il-formola u kklikkja OK buttuna biex jiffirmaw għal kont. Ikklikkja Ikkanċella li jirritornaw għall-iskrin ta &#39;qabel.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Kont Sign Up^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Jekk jogħġbok daħħal user name u password. Innota li l-password għandu jkun mill-inqas 7 karattri fit-tul u jinkludu waħda mhux karattri alfanumeriċi. Biss utenti approvati se tkun tista &#39;login fis-website.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Informazzjoni ġdida Utent^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Dawn l-oqsma huma meħtieġa biex jgħinuk biex jirkupraw password minsija. Matul il-proċess ta &#39;rkupru tkun mitlub li jidħol isem l-utent. Jekk kont utent jeżisti imbagħad kwistjoni ta &#39;sigurtà huwa mitlub li tiġi mwieġba. A risposta korretta se twassal għal email b&#39;password temporanja jibagħtu lill-email reġistrat.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Irkupru^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Aġġornament Kont Tiegħi^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Utenti ma jistgħux ikunu imsakkar. Jekk inti tixtieq li jipprevjenu dan l-utent milli jkunu kapaċi login mbagħad sempliċement marka utent bħala &#39;mhux approvat&#39; tiġi.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^&#39;{0}&#39; Utent ġie mħassar.^UserHasBeenDeleted^
+
+^UserName^Isem l-utent^UserName^
+
+^UserNameDoesNotExist^Isem l-utent ma teżistix.^UserNameDoesNotExist^
+
+^UserNotFound^Utent ma sabet.^UserNotFound^
+
+^UserRejected^Utent ġiet irrifjutata.^UserRejected^
+
+^UsersInRolesGridHeaderText^Din hija lista ta &#39;rekords utent sħubija li jappartjenu għal rwol magħżula.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Utenti fil Rwol^UsersInRolesGridLabel^
+

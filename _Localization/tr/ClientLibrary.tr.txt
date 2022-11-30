@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Hakkında^About^
+
+^Accent^Aksan^Accent^
+
+^ActionBarActionsHeaderText^Eylemleri^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Iptal^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Tüm kayıt değişiklikleri iptal eder.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^İptal yeni bir rekor.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Veritabanına yeni kayıt kaydedin.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Kurtarmak^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Yeni bir {0} kaydı oluşturun.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^Yeni {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Yeni^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Kayıt^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Rapor^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Veritabanına değişiklikleri kaydedin.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Kurtarmak^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Hesap eklemek^AddAccount^
+
+^AddCondition^Durum ekle^AddCondition^
+
+^AddConditionText^Arama koşulu ekle^AddConditionText^
+
+^AddItem^Öğe eklemek^AddItem^
+
+^AddMatchingGroup^Eşleşen Grup ekle^AddMatchingGroup^
+
+^AddSearchBarField^Daha fazla Search Fields^AddSearchBarField^
+
+^AddSystemIdentity^Sistem Kimlik ekle^AddSystemIdentity^
+
+^AddToFavorites^Sık Kullanılanlara Ekle^AddToFavorites^
+
+^AdvancedSearch^Gelişmiş Arama^AdvancedSearch^
+
+^AdvancedSearchInstruction^Uyumlu olmalıdır koşulları ve basın arama tuşuna basın.^AdvancedSearchInstruction^
+
+^After^Sonra^After^
+
+^Agenda^Gündem^Agenda^
+
+^AlignedLeft^Sola Bağlantısızlar^AlignedLeft^
+
+^AlignedRight^Sağ Bağlantısızlar^AlignedRight^
+
+^AllDatesInPreriod^Tüm Tarihler Dönemi^AllDatesInPreriod^
+
+^AlternativeView^Veri alternatif bir görünüm seçin.^AlternativeView^
+
+^Always^Her zaman^Always^
+
+^AnyValue^(Herhangi bir)^AnyValue^
+
+^Apply^Uygula^Apply^
+
+^Apps^Uygulamalar^Apps^
+
+^Aquarium^Akvaryum^Aquarium^
+
+^Auto^Oto^Auto^
+
+^AutoOpenNextItem^Sonraki öğeyi otomatik aç^AutoOpenNextItem^
+
+^AverageOf^Ortalama^AverageOf^
+
+^AvgAggregate^AVG: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^{0}, Ortalama^AvgAggregateToolTip^
+
+^Azure^Masmavi^Azure^
+
+^Back^Dönmek^Back^
+
+^BackColor^Geri Renk^BackColor^
+
+^BatchEditActionHeaderText^Toplu Düzenle^BatchEditActionHeaderText^
+
+^BatchEdited^{0} güncellenmiş^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Toplu Düzenleme (Form)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^güncelleştirme^BatchUpdate^
+
+^Before^Önce^Before^
+
+^BeginsWith^Başlangıcı^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^Dut^Berry^
+
+^Between^Arasında^Between^
+
+^Bittersweet^Bittersweet^Bittersweet^
+
+^Blank^Boş^Blank^
+
+^BlankPassword^Şifre boş olamaz.^BlankPassword^
+
+^BlankUserName^Kullanıcı adı boş olamaz.^BlankUserName^
+
+^BlankValue^(Boş)^BlankValue^
+
+^BlobDownloadHint^Orijinal dosyayı indirmek için tıklayınız.^BlobDownloadHint^
+
+^BlobDownloadLink^indir^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Orijinal dosyayı indirmek için görüntüye dokunun.^BlobDownloadOriginalHint^
+
+^Blur^Bulanıklık^Blur^
+
+^Bold^Cesur^Bold^
+
+^BooleanFilterText^Mantıksal Filtreler^BooleanFilterText^
+
+^BooleanIsExpected^Mantıklı bir değer bekleniyor.^BooleanIsExpected^
+
+^ButtonShapes^Düğme Şekiller^ButtonShapes^
+
+^By^tarafından^By^
+
+^Calendar^Takvim^Calendar^
+
+^Cancel^Iptal^Cancel^
+
+^Cards^Kartlar^Cards^
+
+^Cay^Cay^Cay^
+
+^ChangeYourLanguage^Dilinizi değiştirin^ChangeYourLanguage^
+
+^Charts^Grafikler^Charts^
+
+^Citrus^Narenciye^Citrus^
+
+^Classic^Klasik^Classic^
+
+^ClearFilter^Temizle Filtre {0}^ClearFilter^
+
+^ClearFilter2^Temizle Filtre^ClearFilter2^
+
+^ClearText^Düz metin^ClearText^
+
+^ClearToolTip^Temizle {0}^ClearToolTip^
+
+^Close^Yakın^Close^
+
+^Comfortable^Rahat^Comfortable^
+
+^Compact^Kompakt^Compact^
+
+^Condensed^Yoğunlaştırılmış^Condensed^
+
+^ConfirmContinue^Devam et?^ConfirmContinue^
+
+^ConfirmReload^Yükle?^ConfirmReload^
+
+^ConnectionLost^Ağ bağlantısı kesildi. Tekrar dene?^ConnectionLost^
+
+^Construct^Inşa etmek^Construct^
+
+^Contains^Içerir.^Contains^
+
+^Convention^Kongre^Convention^
+
+^Copy^Kopyalama^Copy^
+
+^CountAggregate^Sayısı: {0}^CountAggregate^
+
+^CountAggregateToolTip^Sayısı {0}^CountAggregateToolTip^
+
+^CountOf^Sayısı^CountOf^
+
+^CreateLink^Bağlantı oluşturma^CreateLink^
+
+^CustomFilterOption^Filtre ...^CustomFilterOption^
+
+^Cut^Kesmek^Cut^
+
+^DarkKnight^Dark Knight^DarkKnight^
+
+^DarkTheme^Karanlık^DarkTheme^
+
+^DataSheetActionDescription^Bir veri sheet<br/>format kullanarak öğeleri görüntüleme.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Data Sheet göster^DataSheetActionHeaderText^
+
+^DataWarning^sürecin öğelerin sayısı {0: d} olduğunu. Sonucu filtre için buraya tıklayın.^DataWarning^
+
+^Date^Tarih^Date^
+
+^DateFilterText^Tarih Filtreleri^DateFilterText^
+
+^DateIsExpected^Bir tarih bekleniyor.^DateIsExpected^
+
+^DatesAMinAgo^bir dakika önce^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^Bir dakika içinde^DatesInAMin^
+
+^DatesInHour^bir saat içinde^DatesInHour^
+
+^DatesInMin^{0} Dakika içinde^DatesInMin^
+
+^DatesLast^Son^DatesLast^
+
+^DatesMinAgo^{0} Dk önce^DatesMinAgo^
+
+^DatesNext^Sonraki^DatesNext^
+
+^DatesNow^şimdi^DatesNow^
+
+^DatesOneHour^bir saat önce^DatesOneHour^
+
+^DateSortAscending^Üstte eski^DateSortAscending^
+
+^DateSortDescending^Sayfa başına dön^DateSortDescending^
+
+^DatesSmart^akıllı Tarihler^DatesSmart^
+
+^DatesToday^bugün^DatesToday^
+
+^DatesTomorrow^yarın^DatesTomorrow^
+
+^DatesYesterday^dün^DatesYesterday^
+
+^Day^Gün^Day^
+
+^DefaultCancelActionHeaderText^Yakın^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Lütfen bu formu doldurun ve Tamam düğmesine tıklayın, yeni bir {0} kayıt oluşturmak için. Bir önceki ekrana dönmek için İptal düğmesini tıklayın.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^Bu {0} kayıt alanları düzenlenebilir.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Aşağıdaki {0} bilgileri gözden geçirin. Bu kayıt değiştirmek için Düzenle&#39;yi tıklayın, kayıt silmek için Sil&#39;i tıklatın ya da Cancel tıklanırsa / geri dönmek için kapatın.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Bu {0} bir listesini.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Formu doldurun. Gerekli tüm alanları girdiğinizden emin olun.^DefaultNewDescription^
+
+^DefaultOption^Standart^DefaultOption^
+
+^DefaultReferenceDescription^{0} Hakkında ek ayrıntılar referans bilgileri bölümünde verilmektedir.^DefaultReferenceDescription^
+
+^Delete^Silmek^Delete^
+
+^DeleteActionConfirmation^Sil?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Silmek^DeleteActionHeaderText^
+
+^Deleted^{$ seçilmiş} silindi^Deleted^
+
+^DeleteOriginalSel^orijinal seçimi sil^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Silme)^DeleteSearchBarField^
+
+^DetailsToolTip^{0} Için detaylar^DetailsToolTip^
+
+^DevelopExplorer^Proje Gezgini^DevelopExplorer^
+
+^DevelopFormLayout^Form Düzeni^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^Mizanpaja dahil edilecek ekran boyutlarını seçin.^DevelopFormLayoutInstr^
+
+^DevelopTools^Geliştirici Araçları^DevelopTools^
+
+^Device^cihaz^Device^
+
+^DeviceLoginPrompt^Bu cihazda erişimi yetkilendirmek için lütfen giriş yapın.^DeviceLoginPrompt^
+
+^DidNotMatch^Eşleşmedi^DidNotMatch^
+
+^Directions^Yol^Directions^
+
+^DiscardChanges^Değişiklikleri gözardı et?^DiscardChanges^
+
+^DisplayDensity^Ekran yoğunluğu^DisplayDensity^
+
+^DisplayedAbove^Üstü Görüntülenen^DisplayedAbove^
+
+^DisplayedBelow^Aşağıda Görüntülenen^DisplayedBelow^
+
+^Dock^Rıhtıma yanaşmak^Dock^
+
+^DoesNotBeginWith^Ile başlamaz^DoesNotBeginWith^
+
+^DoesNotContain^Içermez^DoesNotContain^
+
+^DoesNotEndWith^Ile bitmiyor^DoesNotEndWith^
+
+^DoesNotEqual^Eşit Değil mu^DoesNotEqual^
+
+^DoesNotInclude^İçermemesi^DoesNotInclude^
+
+^DoNotMatchAll^Tüm şartları eşleşmiyor^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Tüm şartları eşleşmedi^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Herhangi bir koşul eşleşmiyor^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Herhangi bir koşul eşleşmedi^DoNotMatchAnyPastTense^
+
+^Download^İndir^Download^
+
+^Draw^Çizmek^Draw^
+
+^DuplicateActionHeaderText^Çift^DuplicateActionHeaderText^
+
+^DuplicateItem^Yinelenen Öğe^DuplicateItem^
+
+^DuplicateRow^Yinelenen Satır^DuplicateRow^
+
+^EditActionHeaderText^Düzenle^EditActionHeaderText^
+
+^EditItem^Ögeyi düzenle^EditItem^
+
+^EditModeCancelActionHeaderText^Iptal^EditModeCancelActionHeaderText^
+
+^EditRow^Satırı Düzenle^EditRow^
+
+^Empty^Boş^Empty^
+
+^EmptyContext^Eylemler mevcut değildir.^EmptyContext^
+
+^EmptyValue^(Boş)^EmptyValue^
+
+^Enable^Olanak vermek^Enable^
+
+^EndsWith^Sona Erdi^EndsWith^
+
+^Equals^Eşittir^Equals^
+
+^Eraser^Silgi^Eraser^
+
+^Error^Hata^Error^
+
+^Exit^çıkış^Exit^
+
+^ExitFullscreen^Tam ekrandan çık^ExitFullscreen^
+
+^ExportCsvActionDescription^CSV formatında indirin.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Indirin^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Spreadsheet<br/>application olan öğeler analiz.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^İhracat açınız^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Bir RSS okuyucu ile Sendikası öğeleri.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^RSS Feed Görüntüle^ExportRssActionHeaderText^
+
+^Favorites^Favori^Favorites^
+
+^Felt^Keçe^Felt^
+
+^FileCleared^Değer kaydedildiğinde silinecek^FileCleared^
+
+^FilesBytes^bayt^FilesBytes^
+
+^FilesClear^Açık^FilesClear^
+
+^FilesClearConfirm^Temizle?^FilesClearConfirm^
+
+^FilesClick^Bir dosyayı seçmek için tıklayın^FilesClick^
+
+^FilesClickMany^Dosyaları seçmek için tıklayın^FilesClickMany^
+
+^FilesDrop^Burada bir dosya açılır^FilesDrop^
+
+^FilesDropMany^Burada açılan dosyaları^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Bir dosyayı seçmek için dokunun^FilesTap^
+
+^FilesTapMany^Dosyaları seçmek için dokunun^FilesTapMany^
+
+^Filter^Filtre^Filter^
+
+^FilterApplied^Bir filtre uygulandıktan olmuştur.^FilterApplied^
+
+^FilterByField^<b>{0}</b> Bir filtre uygulamak için bir alan seçin.^FilterByField^
+
+^FilterByOptions^<b>{2}</b> Alana göre aşağıda listesi ve <b>{0}</b> filtre basın <b>{1}</b> bir veya daha fazla seçenek belirleyin.^FilterByOptions^
+
+^FilterCleared^Tüm filtreleri temizlediniz.^FilterCleared^
+
+^FilterLabelAnd^ve^FilterLabelAnd^
+
+^FilterLabelClear^Açık^FilterLabelClear^
+
+^FilterLabelEquals^eşittir^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Değiştirmek^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^içerir^FilterLabelIncludes^
+
+^FilterLabelOr^veya^FilterLabelOr^
+
+^FilterLabelSelectAll^(Tümünü Seç)^FilterLabelSelectAll^
+
+^FilterSiteMap^Filtre site haritası ...^FilterSiteMap^
+
+^Finish^Bitiş^Finish^
+
+^FitToWidth^Genişlik için Fit^FitToWidth^
+
+^FlatTreeToggle^Hiyerarşi geçiş^FlatTreeToggle^
+
+^FontName^Yazı Tipi Adı^FontName^
+
+^FontSize^Yazı Tipi Boyutu^FontSize^
+
+^ForeColor^Fore Renk^ForeColor^
+
+^Forget^Unutmak^Forget^
+
+^ForgotYourPassword^Şifreni mi unuttun?^ForgotYourPassword^
+
+^Format^Biçim^Format^
+
+^Freeze^Dondurmak^Freeze^
+
+^From^itibaren^From^
+
+^Fullscreen^Tam ekran^Fullscreen^
+
+^Future^Gelecek^Future^
+
+^GeneralTabText^Genel^GeneralTabText^
+
+^Generate^üret^Generate^
+
+^GenericNewToolTip^Yeni Oluştur^GenericNewToolTip^
+
+^GenericSortAscending^Üstte küçüğü^GenericSortAscending^
+
+^GenericSortDescending^Üstte en büyük^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Genel Toplam^GrandTotals^
+
+^Granite^Granit^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Yerçekimi^Gravity^
+
+^GreaterThan^Büyüktür^GreaterThan^
+
+^GreateThanOrEqual^Veya Eşit Daha Büyük^GreateThanOrEqual^
+
+^Grid^Izgara^Grid^
+
+^GridActionDescription^Standard<br/>list formatında öğeleri görüntüleme.^GridActionDescription^
+
+^GridActionHeaderText^Standart Görünüm&#39;ü göster^GridActionHeaderText^
+
+^Group^Grup^Group^
+
+^GroupByField^<b>{0}</b> Gruba bir alan seçin.^GroupByField^
+
+^Grouped^gruplanmış^Grouped^
+
+^GroupedBy^Göre gruplandırma^GroupedBy^
+
+^GroupedDefault^Gruplama kaldırıldı^GroupedDefault^
+
+^Heading1^Başlık 1^Heading1^
+
+^Heading2^Başlık 2^Heading2^
+
+^Heading3^Başlık 3^Heading3^
+
+^Heading4^Başlık 4^Heading4^
+
+^Heading5^Başlık 5^Heading5^
+
+^Heading6^Başlık 6^Heading6^
+
+^Help^Yardım^Help^
+
+^HelpClose^Yakın^HelpClose^
+
+^HelpFullScreen^Tam Ekran^HelpFullScreen^
+
+^Hide^gizlemek^Hide^
+
+^HideAdvancedSearch^Gelişmiş Arama gizle^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Düz Liste geçiş^HierarchyTreeModeToggle^
+
+^Highlighter^vurgulayıcı^Highlighter^
+
+^History^Tarih^History^
+
+^HistoryToolTip^Önceden seçilen kayıtları görüntüleniyor geçmişi^HistoryToolTip^
+
+^HistoryUnavailable^Tarihi mevcut değildir.^HistoryUnavailable^
+
+^Home^Ev^Home^
+
+^IdleUser^Siz hala orada mısınız? Lütfen tekrar giriş yapın.^IdleUser^
+
+^ImportActionDescription^CSV, XLS veya XLSX file<br/>to ithalat kayıtları yükleyin.^ImportActionDescription^
+
+^ImportActionHeaderText^Dosyadan Al^ImportActionHeaderText^
+
+^ImportAutoDetect^(Otomatik algılama)^ImportAutoDetect^
+
+^ImportComplete^tamamlayınız^ImportComplete^
+
+^ImportDone^Tamamlanan ithal^ImportDone^
+
+^ImportDownloadTemplate^Ithalat dosya şablonu indirin.^ImportDownloadTemplate^
+
+^ImportDuplicates^çoğaltır^ImportDuplicates^
+
+^ImportEmail^Aşağıdaki e-posta adresleri alma günlük Gönder (isteğe bağlı)^ImportEmail^
+
+^ImportEmailNotSpecified^Alıcı ithalat günlük belirtilen olmamıştır. Yine de devam edilsin mi?^ImportEmailNotSpecified^
+
+^ImportExpected^tamamlanması bekleniyor^ImportExpected^
+
+^ImportFileStats^dosyasında <b>{0}</b> kayıt işlenmeye hazır <b>{1}</b> vardır. alan adları edin.^ImportFileStats^
+
+^Importing^İthalat^Importing^
+
+^ImportMappingInstruction^Dosya <b>{0}</b> <b>{1}</b> Kayıt (lar), veri dosyası uygulama alanları ithalat alanlarında processed.<br/>Please harita ve <i>Import</i> işlemeye başlamak için tıklayın hazır bulunmaktadır.^ImportMappingInstruction^
+
+^ImportNotSupported^&quot;{0}&quot; Veri formatı desteklenmiyor.^ImportNotSupported^
+
+^ImportProcessing^İthalat dosya işleme başlanmıştır. Ithal veri kayıtları, başarılı işleme üzerine hazır hale gelecektir. İthal kayıtları görmek için ilgili görüş / sayfalar yenilemeniz gerekebilir.^ImportProcessing^
+
+^ImportRemaining^tamamlanması bekleniyor^ImportRemaining^
+
+^ImportSelectFile^CSV, XLS veya XLSX formatında bir veri dosyası seçin.^ImportSelectFile^
+
+^ImportStartButton^Ithalat^ImportStartButton^
+
+^ImportUploading^Dosyanız sunucuya yükleniyor. Lütfen bekleyin ...^ImportUploading^
+
+^ImportUploadInstruction^Lütfen yüklemek için dosyayı seçin. Dosya <b>CSV</b>, <b>XLS</b> veya <b>XLSX</b> formatında olmalıdır.^ImportUploadInstruction^
+
+^In^içinde^In^
+
+^Includes^Içerir^Includes^
+
+^Indent^Çentik^Indent^
+
+^InfoBarAnd^ve^InfoBarAnd^
+
+^InfoBarEmpty^boş^InfoBarEmpty^
+
+^InfoBarEqualTo^eşittir^InfoBarEqualTo^
+
+^InfoBarGreaterThan^daha büyüktür^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^eşit veya daha büyük^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^daha az^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^daha az veya eşit^InfoBarLessThanOrEqual^
+
+^InfoBarLike^gibi^InfoBarLike^
+
+^InfoBarOr^veya^InfoBarOr^
+
+^InfoBarQuickFind^Herhangi bir alanı içeren^InfoBarQuickFind^
+
+^InfoBarStartsWith^ile başlar^InfoBarStartsWith^
+
+^InitialListMode^İlk Liste Modu^InitialListMode^
+
+^InlineEditing^Satır içi Düzenleme^InlineEditing^
+
+^InsertActionHeaderText^Tamam^InsertActionHeaderText^
+
+^InsertHorizontalRule^Yatay Çizgi eklemek^InsertHorizontalRule^
+
+^InsertingRecords^kayıtları takma^InsertingRecords^
+
+^InsertOrderedList^Sıralı Liste Ekle^InsertOrderedList^
+
+^InsertUnorderedList^Liste ekle Sırasız^InsertUnorderedList^
+
+^Into^içine^Into^
+
+^InvalidUserNameAndPassword^Sizin kullanıcı adı ve şifre geçerli değil.^InvalidUserNameAndPassword^
+
+^Italic^Italik^Italic^
+
+^ItemsPerPage^Sayfa başına Öğeler:^ItemsPerPage^
+
+^ItemsSelectedMany^Seçilen {0} ürün^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Öğesi seçili^ItemsSelectedOne^
+
+^JustDatesNow^Şu anda^JustDatesNow^
+
+^JustifyCenter^Merkezi Yasla^JustifyCenter^
+
+^JustifyFull^Tam Yasla^JustifyFull^
+
+^JustifyLeft^Sola Blokla^JustifyLeft^
+
+^JustifyRight^Sağı^JustifyRight^
+
+^KeepOriginalSel^orijinal seçimi koru^KeepOriginalSel^
+
+^LabelsInList^Listesinde Etiketler^LabelsInList^
+
+^Lacquer^Lake^Lacquer^
+
+^Laminate^Laminat^Laminate^
+
+^Landscape^Peyzaj^Landscape^
+
+^Large^Büyük^Large^
+
+^LastMonth^Son Ay^LastMonth^
+
+^LastQuarter^Son Çeyrek^LastQuarter^
+
+^LastWeek^Geçen hafta^LastWeek^
+
+^LastYear^Geçen sene^LastYear^
+
+^Less^Daha az^Less^
+
+^LessThan^Küçüktür^LessThan^
+
+^LessThanOrEqual^Veya Eşit Less Than^LessThanOrEqual^
+
+^Lichen^Liken^Lichen^
+
+^LightTheme^Işık^LightTheme^
+
+^Line^Hat^Line^
+
+^List^Liste^List^
+
+^ListOneColumn^Liste (Bir Kolon)^ListOneColumn^
+
+^ListViewStyle^Liste^ListViewStyle^
+
+^Loading^Yükleniyor ...^Loading^
+
+^Logical^Mantıksal^Logical^
+
+^LoginButton^Giriş^LoginButton^
+
+^LoginLink^Giriş^LoginLink^
+
+^Logout^Çıkış^Logout^
+
+^LookupInstruction^Listede <b>{0}</b> seçiniz.^LookupInstruction^
+
+^LookupOriginalSelection^Orijinal seçim <b>&quot;{0}&quot;</b> olduğunu.^LookupOriginalSelection^
+
+^ManageAccounts^Hesapları Yönet^ManageAccounts^
+
+^Map^Harita^Map^
+
+^MatchAll^Tüm koşullarla eşleşen^MatchAll^
+
+^MatchAllPastTense^Tüm koşulları Eşleştirilmiş^MatchAllPastTense^
+
+^MatchAny^Herhangi şartları Maç^MatchAny^
+
+^MatchAnyPastTense^Herhangi şartları Eşleştirilmiş^MatchAnyPastTense^
+
+^Matched^Eşleştirilmiş^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Maksimum {0},^MaxAggregateToolTip^
+
+^Maximize^Genişletmek^Maximize^
+
+^MaximumOf^Maksimum^MaximumOf^
+
+^Medium^Orta^Medium^
+
+^Menu^Menü^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^En az {0},^MinAggregateToolTip^
+
+^Minimize^Çöküş^Minimize^
+
+^MinimumOf^Minimum^MinimumOf^
+
+^Mission^Misyon^Mission^
+
+^ModeBrowsing^Tarama^ModeBrowsing^
+
+^ModeEditing^Kurgu^ModeEditing^
+
+^ModeEntering^Oluşturma^ModeEntering^
+
+^ModeLookup^Arama^ModeLookup^
+
+^Modern^Modern^Modern^
+
+^ModernRose^Modern Rose^ModernRose^
+
+^ModeViewing^Görüntüleme^ModeViewing^
+
+^Month^Ay^Month^
+
+^More^Daha fazla^More^
+
+^MultiSelection^çok Seçimi^MultiSelection^
+
+^Municipal^Belediyeye ait^Municipal^
+
+^MyAccount^Hesabım^MyAccount^
+
+^Never^Asla^Never^
+
+^NewActionHeaderText^Yeni^NewActionHeaderText^
+
+^NewItem^Yeni öğe^NewItem^
+
+^NewRow^Yeni Satır^NewRow^
+
+^NewRowLink^Yeni bir kayıt oluşturmak için buraya tıklayın.^NewRowLink^
+
+^NewToolTip^Yeni {0}^NewToolTip^
+
+^Next^Sonraki^Next^
+
+^Next2^Sonraki^Next2^
+
+^NextMonth^Sonraki Ay^NextMonth^
+
+^NextQuarter^Sonraki Çeyrek^NextQuarter^
+
+^NextWeek^Sonraki Hafta^NextWeek^
+
+^NextYear^Gelecek Yıl^NextYear^
+
+^No^Yok^No^
+
+^NoMatches^Eşleşme yok.^NoMatches^
+
+^None^Yok^None^
+
+^Noon^Öğle^Noon^
+
+^NoRecords^Kayıt bulunamadı.^NoRecords^
+
+^NoteDeleteConfirm^Sil?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^silmek^NoteDeleteLabel^
+
+^NoteEditLabel^düzenlemek^NoteEditLabel^
+
+^NotEmpty^Boş Değil^NotEmpty^
+
+^NotMatched^(Eşleşmedi)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N / A^NullValueInForms^
+
+^Number^Numara^Number^
+
+^NumberFilterText^Sayı Filtreleri^NumberFilterText^
+
+^NumberIsExpected^Bir sayı bekleniyor.^NumberIsExpected^
+
+^OdpCommitting^İşlemler yükleniyor ...^OdpCommitting^
+
+^OdpDone^Bitti.^OdpDone^
+
+^OdpDownloadingBlob^{0}... için ikili veriler indiriliyor^OdpDownloadingBlob^
+
+^OdpDownloadingData^{0}... için veri indiriliyor^OdpDownloadingData^
+
+^OdpInitializing^Başlatılıyor ...^OdpInitializing^
+
+^OdpInvalidResponse^Sunucudan geçersiz yanıt.^OdpInvalidResponse^
+
+^OdpLastRefresh^Son yenileme: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Veriler yenilenmedi.^OdpNotRefreshed^
+
+^OdpOfflineState^Çevrimdışı modda çalışıyorsunuz.^OdpOfflineState^
+
+^OdpOnlineRequired^Çevrimiçi bağlantı gerekli.^OdpOnlineRequired^
+
+^OdpPending^Bekleyen değişiklikler^OdpPending^
+
+^OdpReconRequired^Mutabakat gerekli^OdpReconRequired^
+
+^OdpReconTxDelete^Bu değişiklik günlükten silinsin mi?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^Günlükte bekleyen ilk işlem silindi.^OdpReconTxDeleted^
+
+^OdpRefresh^Bilgiyi Yenile^OdpRefresh^
+
+^OdpRefreshData^Bilgiyi Yenile^OdpRefreshData^
+
+^OdpRefreshLast^Veri Yenilendi^OdpRefreshLast^
+
+^OdpSave^Lütfen tüm değişiklikleri kaydedin.^OdpSave^
+
+^OdpSaveAndSync^Tüm değişiklikleri kaydedin ve içerik menüsünde Senkronize Et seçeneğini belirleyin.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Uygulama sunucusu kullanılamıyor.^OdpServerUnavailable^
+
+^OdpStatus^durum^OdpStatus^
+
+^OdpSync^Senkronize^OdpSync^
+
+^OdpSynced^Senkronize^OdpSynced^
+
+^OdpSyncLast^Son Senkronizasyon^OdpSyncLast^
+
+^OdpSyncLong^Değişiklikleri yüklemek için senkronize edin.^OdpSyncLong^
+
+^OdpSyncUploadFailed^{0} dosya yüklenemedi.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^{0} yükleniyor ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Silinemiyor. {1} bağımlı öğeleri {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Yürütülemiyor.^OdpUnableToExec^
+
+^OdpUnableToProcess^İşlemler işlenemiyor.^OdpUnableToProcess^
+
+^OdpUnableToSave^Değişiklikler kaydedilemedi.^OdpUnableToSave^
+
+^OdpUploadFailed^Dosyalar yüklenemedi.^OdpUploadFailed^
+
+^OdpUploadingFiles^{0} dosya yükleniyor ...^OdpUploadingFiles^
+
+^OK^Tamam^OK^
+
+^OnHover^vurgulu^OnHover^
+
+^OnOrAfter^Açık veya sonra^OnOrAfter^
+
+^OnOrBefore^Açık veya Önce^OnOrBefore^
+
+^OpenActionHeaderText^Açık^OpenActionHeaderText^
+
+^Optional^İsteğe bağlı^Optional^
+
+^Orientation^Oryantasyon^Orientation^
+
+^Other^Diğer^Other^
+
+^Outdent^Çıkıntı^Outdent^
+
+^Page^Sayfa^Page^
+
+^Paragraph^Paragraf^Paragraph^
+
+^Password^Parola^Password^
+
+^Past^Geçmiş^Past^
+
+^Paste^Yapıştırmak^Paste^
+
+^Pen^Dolma kalem^Pen^
+
+^PerformAdvancedSearch^Arama^PerformAdvancedSearch^
+
+^Permalink^Permalink^Permalink^
+
+^PermalinkToolTip^Seçilen kayıt için kalıcı bir bağlantı oluşturun^PermalinkToolTip^
+
+^PermalinkUnavailable^Permalink mevcut değildir. Lütfen bir kayıt seçin.^PermalinkUnavailable^
+
+^Petal^Taçyaprağı^Petal^
+
+^Pinnate^Ince ve uzun dokunma uzvu olan^Pinnate^
+
+^Plastic^Plastik^Plastic^
+
+^Portrait^Portre^Portrait^
+
+^PresentationStyle^Bir veri sunumu stili seçin.^PresentationStyle^
+
+^Prev2^Önceki^Prev2^
+
+^Previous^Önceki^Previous^
+
+^PromoteActions^Eylemler tanıtın^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^S4^Q4^
+
+^Quarter^Çeyrek^Quarter^
+
+^Quarter1^Çeyrek 1^Quarter1^
+
+^Quarter2^Çeyrek 2^Quarter2^
+
+^Quarter3^Çeyrek 3^Quarter3^
+
+^Quarter4^Çeyrek 4^Quarter4^
+
+^QuickFindDescription^Araştır {0}^QuickFindDescription^
+
+^QuickFindScope^Arama ...^QuickFindScope^
+
+^QuickFindText^Çabuk Bul^QuickFindText^
+
+^QuickFindToolTip^Tip kayıtları aramak ve Enter tuşuna basın^QuickFindToolTip^
+
+^Quotation^alıntı^Quotation^
+
+^Reading^Okuma...^Reading^
+
+^ReadingPane^Okuma panosu^ReadingPane^
+
+^ReadOnly^{0} salt okunurdur.^ReadOnly^
+
+^Recent^Son^Recent^
+
+^Redo^Yeniden yapmak^Redo^
+
+^Refresh^Yenile^Refresh^
+
+^Refreshed^yenilendi^Refreshed^
+
+^RememberMe^Beni hatırla^RememberMe^
+
+^RemoveCondition^Durum çıkarın^RemoveCondition^
+
+^RemoveFormat^Biçimi Kaldır^RemoveFormat^
+
+^ReportActionDescription^Sayfa oluşturulma PDF formatında bir rapor^ReportActionDescription^
+
+^ReportActionHeaderText^Rapor^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Bir formatted<br/>Microsoft Excel elektronik tablo öğeleri görüntüle.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Elektronik Tablo^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Çok sayfalı TIFF görüntü gibi öğeleri görüntüle.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Multipage Görüntü^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Adobe PDF uyumlu bir okuyucu document.<br/>Requires gibi öğeleri görüntüle.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^PDF Document^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Bir formatted<br/>Microsoft Word belgesi öğeleri görüntüle.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Gereken^Required^
+
+^RequiredField^Bu alan gereklidir.^RequiredField^
+
+^RequiredFiledMarkerFootNote^alanın zorunlu olduğunu gösterir^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Sıfırla^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Arama koşullarını sıfırlayın^ResetSearchConfirm^
+
+^ResolvingReferences^referanslar çözümleniyor^ResolvingReferences^
+
+^ResumeBrowsing^Browsing Devam^ResumeBrowsing^
+
+^ResumeEditing^Düzenleme Devam^ResumeEditing^
+
+^ResumeEntering^Girme Devam^ResumeEntering^
+
+^ResumeLookup^Lookup Devam^ResumeLookup^
+
+^ResumeViewing^Görüntüleniyor Devam^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Roller^RolesTab^
+
+^RootNodeText^Üst Düzey^RootNodeText^
+
+^Rotate^Döndürmek^Rotate^
+
+^RowCancelActionHeaderText^Iptal^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Eklemek^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Kurtarmak^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Güncelleme?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Güncelleme Seçimi^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Kurtarmak^Save^
+
+^SaveAndContinue^Kaydet ve devam Et^SaveAndContinue^
+
+^SaveAndNew^Kaydet ve Yeni^SaveAndNew^
+
+^Saved^Kaydedildi - {0}^Saved^
+
+^ScanToConfirm^Lütfen onaylamak için tekrar tarayın.^ScanToConfirm^
+
+^SeeAll^Tüm bakın^SeeAll^
+
+^SeeAlso^Ayrıca Bkz.^SeeAlso^
+
+^SelectActionHeaderText^Seçmek^SelectActionHeaderText^
+
+^SelectAll^Tümünü Seç^SelectAll^
+
+^SelectItem^Öğeyi seçin^SelectItem^
+
+^SelectLink^(Seçme)^SelectLink^
+
+^SelectRow^Satırı Seç^SelectRow^
+
+^SelectToolTip^Seçin {0}^SelectToolTip^
+
+^Separator^Ayırıcı^Separator^
+
+^Settings^Ayarlar^Settings^
+
+^Show^göstermek^Show^
+
+^ShowAdvancedSearch^Gelişmiş Arama^ShowAdvancedSearch^
+
+^ShowChart^Göster Grafik^ShowChart^
+
+^ShowData^Göster Veri^ShowData^
+
+^ShowingItems^<b>{0}</b> Öğeleri <b>{1}</b> <b>{2}</b> gösterilen^ShowingItems^
+
+^ShowingItemsInfo^{0} Öğe gösteriliyor.^ShowingItemsInfo^
+
+^ShowingItemsRange^{0} Öğeleri {1} Gösterilen^ShowingItemsRange^
+
+^ShowLess^Daha az göster^ShowLess^
+
+^ShowMore^Daha fazla göster^ShowMore^
+
+^ShowOptions^Seçenekleri göster^ShowOptions^
+
+^ShowSystemButtons^Show Sistemi Düğmeler^ShowSystemButtons^
+
+^Sidebar^Kenar Çubuğu^Sidebar^
+
+^Sign^Burada yap^Sign^
+
+^SignedOut^Out imzalı^SignedOut^
+
+^SignUpNow^Şimdi kaydolun^SignUpNow^
+
+^Simple^Basit^Simple^
+
+^SiteActions^Site Eylemleri^SiteActions^
+
+^SizeLabel^Boyut^SizeLabel^
+
+^Small^Küçük^Small^
+
+^Social^Sosyal^Social^
+
+^Sort^Sıralamak^Sort^
+
+^SortBy^{0} Tarafından sırala^SortBy^
+
+^SortByField^<b>{0}</b> Sıralama düzenini değiştirmek için bir alan seçin.^SortByField^
+
+^SortByOptions^Aşağıdaki seçenekler listesinde <b>{0}</b> alanı tarafından <b>{1}</b> sıralama düzenini seçin.^SortByOptions^
+
+^Sorted^sıralama^Sorted^
+
+^SortedDefault^Varsayılan sıralama düzeni.^SortedDefault^
+
+^StartImport^Başlangıç ​​İthalat^StartImport^
+
+^StrikeThrough^Sayesinde Strike^StrikeThrough^
+
+^StringSortAscending^Yükselen^StringSortAscending^
+
+^StringSortDescending^Azalan^StringSortDescending^
+
+^Submit^Gönder^Submit^
+
+^Subscript^Alt Komut^Subscript^
+
+^Suggestions^Öneriler^Suggestions^
+
+^SumAggregate^Toplam: {0}^SumAggregate^
+
+^SumAggregateToolTip^{0}, Toplamı^SumAggregateToolTip^
+
+^Summary^Özet^Summary^
+
+^Summer^Yaz^Summer^
+
+^SumOf^Toplamı^SumOf^
+
+^Superscript^Süper Komut^Superscript^
+
+^Sync^Sync^Sync^
+
+^TaskResume^Devam etmek^TaskResume^
+
+^Tasks^Görevler^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^ABC^TelHints2^
+
+^TelHints3^tanım^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^az^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tüv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^test kayıtları^TestingRecords^
+
+^Text^Metin^Text^
+
+^TextFilterText^Metin Filtreleri^TextFilterText^
+
+^Theme^Tema^Theme^
+
+^ThisMonth^Bu Ay^ThisMonth^
+
+^ThisQuarter^Bu Çeyreğin^ThisQuarter^
+
+^ThisWeek^Bu Hafta^ThisWeek^
+
+^ThisYear^Bu Yıl^ThisYear^
+
+^Tiny^minik^Tiny^
+
+^Today^Bugün^Today^
+
+^Tomorrow^Yarın^Tomorrow^
+
+^Top^üst^Top^
+
+^ToThisWebsite^Bu web sitesine^ToThisWebsite^
+
+^TouchUINotSupported^Dokunmatik arayüzü bu tarayıcıda desteklenmiyor.^TouchUINotSupported^
+
+^TransitionFade^Karartmak^TransitionFade^
+
+^TransitionFlip^Çevirmek^TransitionFlip^
+
+^TransitionFlow^Akış^TransitionFlow^
+
+^TransitionNone^Hiçbiri^TransitionNone^
+
+^TransitionPop^Pop^TransitionPop^
+
+^Transitions^Geçişler^Transitions^
+
+^TransitionSlide^Slayt^TransitionSlide^
+
+^TransitionSlideDown^Kayıp düşmek^TransitionSlideDown^
+
+^TransitionSlideUp^Up Slide^TransitionSlideUp^
+
+^TransitionTurn^Dönüş^TransitionTurn^
+
+^TreeActionDescription^Ekran hiyerarşik ilişkiler.^TreeActionDescription^
+
+^TreeActionHeaderText^Hiyerarşi göster^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Doğrulama Kodunu Alın^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Kimlik Doğrulayıcı Uygulaması^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Doğrulama kodunu sağlayamıyorsanız, bunun yerine yedek kodu girin.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^tek seferlik kod^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Yedekleme Kodu^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Çağrı yapıldı^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^E-posta gönderildi^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^Kısa mesaj gönderildi^TwoFaCodeSentSms^
+
+^TwoFaConsent^Razı olmak^TwoFaConsent^
+
+^TwoFaEnterPassword^Şifrenizi girin^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Beni ara^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^arayacağım^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^bana e-posta gönder^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^bana mesaj at^TwoFaGetCodeSms^
+
+^TwoFaMethod^Yöntem^TwoFaMethod^
+
+^TwoFaMsgChanged^2-Faktörlü Kimlik Doğrulama değiştirildi.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^2-Faktörlü Kimlik Doğrulama devre dışı bırakıldı.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^İki faktörlü kimlik doğrulama devre dışı bırakılsın mı?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^2 Faktörlü Kimlik Doğrulama etkinleştirildi.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Lütfen {0} haneli doğrulama kodunu girin.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Geçersiz şifre.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Geçersiz doğrulama kodu.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000, {0} doğrulama kodunuzdur.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^QR kodunu tarayamıyorum.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Kimlik doğrulayıcı uygulamasını yükleme konusunda yardıma ihtiyacım var.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Bir mobil cihazda bir kimlik doğrulama uygulamasına sahibim.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^Tek kullanımlık yedek kodlar, doğrulama kodu sağlayamıyorsanız oturum açmanıza olanak tanır.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Yedekleme Kodları^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Başarılı oturum açtıktan sonra bir doğrulama kodu gireceğim.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Uygulamada kurulum anahtarını girin^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Doğrulama Yöntemleri^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^QR kodunu kamera ile tarayın^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Uygulamadaki QR kodunu tarayın^TwoFaSetupScanQrCode^
+
+^TwoFaText^2 Faktörlü Kimlik Doğrulama^TwoFaText^
+
+^TwoFaTrustThisDevice^Bu cihaza güvenin^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Doğrulama kodu^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Doğrulama kodunu almak için bir kimlik doğrulama uygulaması kullanacağım.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Telefonuma otomatik bir arama gelecek.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Doğrulama kodu e-posta yoluyla teslim edilecektir.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Doğrulama kodu kısa mesaj yoluyla iletilecektir.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Arama için yazın^TypeToSearch^
+
+^Underline^Altını çizmek^Underline^
+
+^Undo^Geri Al^Undo^
+
+^Undock^çıkartmak için^Undock^
+
+^Unfreeze^Eritmek^Unfreeze^
+
+^UnGrouped^Gruplama kaldırıldı^UnGrouped^
+
+^UnLink^Zincirini açmak^UnLink^
+
+^UnSelect^Kaldırın^UnSelect^
+
+^UpdateActionHeaderText^Tamam^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Güncelleme?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Güncelleme Seçimi^UpdateActionInBatchModeHeaderText^
+
+^Upload^Yükleme^Upload^
+
+^UploadDescription^Birden fazla dosya yükleyin.^UploadDescription^
+
+^Uploading^{0}... yükleniyor^Uploading^
+
+^UpOneLevel^Bir Seviye Yukarı^UpOneLevel^
+
+^UseLEV^Yapıştır &quot;{0}&quot;^UseLEV^
+
+^UserName^Kullanıcı adı^UserName^
+
+^UsersInRole^Rol Kullanıcılar^UsersInRole^
+
+^UsersTab^Kullanıcılar^UsersTab^
+
+^Vantage^Avantaj^Vantage^
+
+^Verdant^Yeşil^Verdant^
+
+^Verify^Doğrulamak^Verify^
+
+^View^Görünüm^View^
+
+^Viewpoint^Bakış açısı^Viewpoint^
+
+^Wait^Lütfen bekle...^Wait^
+
+^Week^Hafta^Week^
+
+^Welcome1^Hoşgeldiniz^Welcome1^
+
+^Welcome2^Bugün^Welcome2^
+
+^WhiteSmoke^Beyaz Duman^WhiteSmoke^
+
+^WithSelectedValues10^Seçilen Değerlerle (İlk 10)^WithSelectedValues10^
+
+^WithSelectedValues5^Seçilen Değerlerle (İlk 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^Belirtilen Filtrelerle^WithSpecifiedFilters^
+
+^Year^Yıl^Year^
+
+^YearToDate^Yılbaşından^YearToDate^
+
+^Yes^Evet^Yes^
+
+^Yesterday^Dün^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Büyüt^ZoomIn^
+
+^ZoomOut^Uzaklaştırma^ZoomOut^
+

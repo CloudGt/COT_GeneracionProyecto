@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project xmlns="http://www.codeontime.com/2008/code-generator"
+         xmlns:ontime="http://www.codeontime.com/2008/code-generator"
+         xmlns:a="urn:schemas-codeontime-com:data-aquarium-project"
+         xmlns:c="urn:schemas-codeontime-com:data-aquarium"
+         debug="false"
+>
+	<information>
+		<product>COT200908-DSG</product>
+		<title>Code OnTime Designer</title>
+		<description>Designer for Code OnTime premium projects</description>
+		<vendor>Code OnTime LLC</vendor>
+		<website>http://www.codeontime.com</website>
+		<about>http://www.codeontime.com/designer.aspx</about>
+		<demo>http://www.codeontime.com/designer.aspx</demo>
+	</information>
+	<build>
+	</build>
+	<actions>
+	</actions>
+</project>

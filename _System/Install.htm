@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Welcome</title>
+    <link href="CodeOnTime.css" type="text/css" rel="Stylesheet" />
+
+    <script type="text/javascript" language="javascript" src="MicrosoftAjax.js"></script>
+
+    <script type="text/javascript" language="javascript" src="CodeOnTime.Client.js"></script>
+
+    <script type="text/javascript" language="javascript">
+    
+    function pageLoad(sender, args) {
+    }
+    
+    function Install() {
+        Sys.UI.DomElement.setVisible($get('InstallButton'), false);
+        CodeOnTime.Client.install(true);
+    }
+   
+    </script>
+
+</head>
+<body>
+    <!-- page body -->
+    <div id="Main" title="Library Installation">
+        <div class="Content">
+            You are using <b>Code OnTime Generator</b> for Microsoft.NET.
+        </div>
+        <div class="Heading">
+            Library Installation</div>
+        <div class="Content">
+            The code generation library is not installed on this computer. The library templates will
+            be automatically downloaded and copied to the <i>My Documents</i> folder on your
+            computer. You can start generating your projects as soon as installation has completed.
+            <br />
+            <br />
+            Please install the library now.<br />
+            <br />
+        </div>
+        <div class="Buttons2" style="text-align: left">
+            <button id="InstallButton" onclick="Install()">
+                Install</button></div>
+        <div class="Content">
+            <div id="InstallStatus">
+            </div>
+            <div id="InstallError">
+            </div>
+            <div id="InstallPlan">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

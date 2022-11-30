@@ -1,0 +1,1261 @@
+﻿@import url(../_Shared/Core.css);
+@import url(../_Shared/Membership.css);
+@import url(../_Shared/_Layout.css);
+
+/*****************************************/
+/* core overrides                        */
+/*****************************************/
+
+/* default hover monitor styles */
+
+.HoverMenu
+{
+    border-color: #868686;
+    background-image: url(MenuBg.gif);
+    background-color: #F7F7F7;
+}
+
+.HoverMenu .Break
+{
+    border-top-color: #C5C5C5;
+}
+
+.HoverMenu a.Item, .SearchBarCell option.Delete
+{
+    color: #002570;
+}
+
+.HoverMenu a.Active
+{
+    background-color: #FFD2B2;
+    color: #002570;
+    border-color: #D66617;
+}
+
+.HoverMenu a.Disabled
+{
+    color: #696969;
+}
+
+.HoverMenu a.Item span.Text
+{
+    color: #002570;
+}
+
+.HoverMenu a.Item span.Description
+{
+    color: #666666;
+}
+
+.HoverMenu a.Active span.Description
+{
+    color: #333333;
+}
+
+.HoverMenuEx
+{
+    background-image: url(MenuBgLarge.gif);
+}
+
+/* data view styles */
+
+div.DataViewModalPopup
+{
+    background-color: white;
+}
+
+table.DataView tr.HeaderRow th
+{
+    background-color: #D7E6E8;
+    color: #384C66;
+    background-image: url(HeaderBg.gif);
+}
+
+table.DataView tr.HeaderRow th.FieldHeaderSelector_Hover
+{
+    background-color: #B9CCCE;
+    background-image: url(HeaderBgActive.gif);
+}
+
+table.DataView tr.HeaderRow th a
+{
+    color: #384C66;
+}
+
+table.DataView tr.HeaderRow th.FieldHeaderSelector_Hover a
+{
+    color: #4C4C4C;
+}
+
+table.DataView tr.HeaderRow th a:hover
+{
+    color: black;
+}
+
+.FieldHeaderSelector_Arrow
+{
+    background-color: #FFCFAD;
+    border-color: white;
+}
+
+.FieldHeaderSelector_Arrow div
+{
+    background-image: url(ArrowBkg.gif);
+}
+
+table.DataViewLookup a.Disabled, table.DataViewLookup a:hover.Disabled
+{
+    color: Silver;
+}
+
+table.DataView tr td, table.DataViewLookup tr td
+{
+    color: Black;
+}
+
+table.DataView tr.Row td.Cell
+{
+    background-color: #FFFFFF;
+    border-top-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+}
+
+table.DataView tr.AlternatingRow td.Cell
+{
+    background-color: #E8F5F7;
+    border-top-color: #E8F5F7;
+    border-bottom-color: #E8F5F7;
+}
+
+table.DataView tr.AggregateRow td.None
+{
+    background-color: #FFFFFF;
+    border-top-color: silver;
+}
+
+table.DataView tr.AggregateRow td.Aggregate
+{
+    background-color: #FFFFFF;
+    border-top-color: silver;
+    color: #696969;
+}
+
+table.DataView tr.Row td a, table.DataView tr.AlternatingRow td a, div.TaskBox table.ObjectRef tr td a, div.TreeView a, tr.HeaderTextRow td.HeaderText a.Letter
+{
+    color: #002570;
+}
+
+table.DataView tr.Row td a:hover, table.DataView tr.AlternatingRow td a:hover, div.TaskBox table.ObjectRef tr td a:hover, div.TreeView a:hover
+{
+    color: black;
+}
+
+table.DataView tr.HeaderTextRow td.HeaderText
+{
+    color: #4C4C4C;
+}
+
+table.DataView tr.Selected td.Cell
+{
+    background-color: #B6BCC4;
+    border-top-color: #707984;
+    border-bottom-color: #707984;
+}
+
+table.DataView tr.Highlight td.Cell
+{
+    border-top-color: #D66617;
+    border-bottom-color: #D66617;
+    background-color: #FFD2B2;
+}
+
+table.DataView tr.ActionRow td.ActionBar
+{
+    border-color: #707984;
+    background-image: url(ActionBarBg.gif);
+    background-color: #CFD2D6;
+}
+
+table.DataView tr.ActionRow td.ActionBar table.Groups tr td.ActionGroup_Hover
+{
+    background-image: url(ActionGroupBg.gif);
+}
+
+table.DataView tr.ActionRow td.ActionBar table.Groups tr td.Group a
+{
+    color: #002570;
+}
+
+table.DataView tr.ActionRow td.ActionBar table.Groups tr td.ActionGroup_Hover a
+{
+    color: black;
+}
+
+.ActionGroup_TopLine, .ActionGroup_RightLine, .ActionGroup_BottomLine, .ActionGroup_LeftLine
+{
+    background-color: #707984;
+}
+
+table.DataView tr.ActionRow td.ActionBar table.Groups tr td.Divider div
+{
+    background-image: url(ActionBarDiv.gif);
+}
+
+table.DataView tr.ActionRow td.ActionBar table.Groups tr td.QuickFind div.QuickFind
+{
+    background-color: White;
+    border-color: silver;
+}
+
+table.DataView tr.ActionRow td.ActionBar table.Groups tr td.QuickFind div.QuickFind input
+{
+    color: Black;
+}
+
+table.DataView tr.ActionRow td.ActionBar table.Groups tr td.QuickFind div.QuickFind input.Empty
+{
+    color: #696969;
+}
+
+table.DataView tr.ActionRow td.ActionBar table.Groups tr td.QuickFind div.QuickFind input.NonEmpty
+{
+    color: #696969;
+}
+
+.RowSelector_Arrow
+{
+    background-color: #FFD2B2;
+    border-color: white;
+}
+
+.RowSelector_Arrow div
+{
+    background-image: url(ArrowBkg.gif);
+}
+
+.RowSelector_TopLine, .RowSelector_RightLine, .RowSelector_BottomLine, .RowSelector_LeftLine
+{
+    background-color: #B09460;
+}
+
+div.RowSelector_Hover
+{
+    background-color: White;
+}
+
+.ModalPlaceholder table.DataView
+{
+    border-top-color: #707984;
+    border-left-color: #707984;
+    border-right-color: #707984;
+}
+
+.ModalPopup
+{
+    border-top-color:#707984;
+}
+
+span.ViewSelector
+{
+    background-image: url(ViewNameBg.gif);
+    border-color: #D66617;
+}
+
+span.ViewSelector_Hover
+{
+    border-color: #D66617;
+    background-image: url(ActionGroupBg.gif);
+}
+
+span.ViewSelector span.Outer
+{
+    border-color: white;
+}
+
+span.ViewSelector a
+{
+    color: #002570!important;
+}
+
+span.ViewSelector_Hover a
+{
+    color: #000000;
+}
+
+table.DataView tr td.ViewSelectorLabel
+{
+    color: #222528;
+}
+
+table.DataView tr.HeaderTextRow td.HeaderText a.Close
+{
+    color: black;
+}
+
+table.DataView tr.HeaderTextRow td.HeaderText a.Close:hover
+{
+    color: black;
+}
+
+table.DataView tr.InfoRow td
+{
+    background-color: #FFFFE1;
+    border-right-color: silver;
+    border-left-color: silver;
+}
+
+.ActionBarHidden table.DataView tr.InfoRow td
+{
+    border-top-color: silver;
+}
+
+table.DataView tr.InfoRow td span.Highlight
+{
+    color: Navy;
+}
+
+table.DataView tr.FooterRow td.Footer
+{
+    border-color: #707984;
+}
+
+table.DataView tr.FooterRow td.Footer td.Pager
+{
+    color: #666666;
+}
+
+table.DataView tr.FooterRow td.Footer td.Pager span.Disabled
+{
+    color: #808080;
+}
+table.DataView tr.FooterRow td.Footer td.Pager a
+{
+    color: #002570;
+}
+
+table.DataView tr.FooterRow td.Footer td.Pager a:hover
+{
+    color: black;
+}
+
+table.DataView tr.CategoryRow td.Category
+{
+    border-top-color: #E08D53;
+    background-color: White;
+}
+
+table.DataView tr.CategoryRow .Category table.Category tr td.HeaderText
+{
+    color: #93450D;
+}
+
+table.DataView tr.CategoryRow .Category table.Category tr td.Description
+{
+    color: #4C4C4C;
+}
+
+table.DataView tr.CategoryRow td.Fields
+{
+    background-color: #FFEADB;
+    border-top-color: #E08D53;
+}
+
+table.DataView tr.CategoryRow td.Fields div.Header, table.DataView tr.InlineFormRow div.Header
+{
+    color: #525252;
+}
+
+table.DataView tr.CategoryRow td.Fields div.Header span.Required
+{
+    color: #000000;
+}
+
+table.DataView tr.CategoryRow td.Fields div.Item div.Error, table.DataView tr.Row td div.Error, table.DataView tr.AlternatingRow td div.Error, table.DataView tr.InlineFormRow div.Item div.Error
+{
+    color: red;
+}
+
+table.DataView tr.CategoryRow td.Fields div.Item div.Value, table.DataView tr.InlineFormRow div.Item div.Value
+{
+    color: Black;
+}
+
+table.DataView tr.CategoryRow td.Fields div.Item div.Value table.Lookup tr td, table.DataView tr.Row td table.Lookup tr td, table.DataView tr.AlternatingRow td table.Lookup tr td, table.DataViewLookup tr td
+{
+    border-color: silver;
+    background-color: White;
+}
+
+table.DataView tr.CategoryRow td.Fields div.Item div.Value a, table.DataView tr.Row td table.Lookup tr td a, table.DataView tr.AlternatingRow td table.Lookup tr td a, table.DataViewLookup tr td a
+{
+    color: #002570;
+}
+
+table.DataView tr.CategoryRow td.Fields div.Item div.Value td a:hover, table.DataView tr.Row td table.Lookup tr td a:hover, table.DataView tr.AlternatingRow td table.Lookup tr td a:hover, table.DataViewLookup tr td a:hover
+{
+    color: black;
+}
+
+.ModalPlaceholder
+{
+    border-left-color: #707984;
+    border-right-color: #707984;
+    border-bottom-color: #707984;
+    background-color: White;
+}
+
+.ModalTop
+{
+    border-left-color: #707984;
+    border-right-color: #707984;
+    border-top-color: #707984;
+    background-color: White;
+}
+
+.RightSideShadow
+{
+    background-color: Black;
+}
+
+.BottomShadow
+{
+    background-color: black;
+}
+
+.ModalPlaceholder .Buttons button
+{
+    color: Black;
+}
+
+table.DataView tr.CategoryRow td.Fields div.Item div.Footer
+{
+    color: #525252;
+}
+
+table.DataView tr.ActionButtonsRow td button
+{
+    color: Black;
+}
+
+table.DataView tr.TopButtonsRow td.ActionButtons table.ActionButtons tr td
+{
+    color: #696969;
+}
+
+table.DataView tr.BottomButtonsRow td.ActionButtons table.ActionButtons tr td
+{
+    border-top-color:#E08D53;
+    color: #696969;
+}
+
+table.DataView tr.BottomButtonsRow td.RowActionButtons table.ActionButtons tr td
+{
+    border-bottom-color:#707984;
+}
+
+table.DataView tr.TabsRow td.TabsBar
+{
+    border-bottom-color: #5D646D;
+}
+
+table.DataView tr.TabsRow td.TabsBar td.Tab
+{
+    background-image: url(TabsInactiveTab.gif);
+    border-right-color: #C4C8CE;
+    border-top-color: #C4C8CE;
+}
+
+table.DataView tr.TabsRow td.TabsBar td.Selected
+{
+    background-image: url(TabsSelectedTab.gif);
+    border-top-color: #848E9B;
+    border-right-color: #848E9B;
+}
+
+table.DataView tr.TabsRow td.TabsBar td.Active
+{
+    background-image: url(TabsActiveTab.gif);
+    border-top-color: #AF520F;
+    border-right-color: #AF520F;
+}
+
+table.DataView tr.TabsRow td.TabsBar td.Tab span.Outer
+{
+    border-left-color: #FFFFFF;
+    border-top-color: #FFFFFF;
+}
+
+table.DataView tr.TabsRow td.TabsBar span.Tab a
+{
+    color: #363A3F;
+}
+
+table.DataView tr.TabsRow td.TabsBar td.Selected span.Tab a
+{
+    color: #FFFFFF;
+}
+
+table.DataView tr.TabsRow td.TabsBar td.Active span.Tab a
+{
+    color: #000000;
+}
+
+table.DataView tr.TabsRow td.TabsBar table.Tabs
+{
+    border-left-color: #C4C8CE;
+}
+
+.FixedDialog div.FixedTitle
+{
+    background-color: #707984;
+}
+
+span.NA
+{
+    color: gray;
+}
+
+/* tabs */
+
+.TabContainer div.tab-header
+{
+    border-left-color: #C4C8CE;
+}
+.TabContainer .ajax__tab_inner
+{
+    color: #363A3F;
+}
+
+.TabContainer .ajax__tab_tab
+{
+    border-right-color: #C4C8CE;
+    border-top-color: #C4C8CE;
+    background-image: url(TabsInactiveTab.gif);
+    border-left-color: #FFFFFF;
+}
+
+.TabContainer .ajax__tab_active .ajax__tab_inner
+{
+    color: #000000;
+}
+.TabContainer .ajax__tab_active .ajax__tab_tab
+{
+    background-image: url(TabsSelectedTab.gif);
+    border-right-color: #848E9B;
+    border-top-color: #848E9B;
+    color: #ffffff;
+}
+.TabContainer .ajax__tab_hover .ajax__tab_inner
+{
+    color: #000000;
+}
+.TabContainer .ajax__tab_hover .ajax__tab_tab
+{
+    background-image: url(TabsActiveTab.gif);
+    border-right-color: #AF520F;
+    border-top-color: #AF520F;
+}
+.TabContainer .ajax__tab_disabled
+{
+    color: #A0A0A0;
+}
+.TabContainer .ajax__tab_panel
+{
+    border-color: #707984;
+}
+
+/*****************************************/
+/* layout overrides                      */
+/*****************************************/
+
+/* page header */
+
+table#PageBody tr td#PageHeaderSideBar
+{
+    background-image: url(TabsBar.gif);
+    background-color: #B6BCC4;
+}
+
+table#PageBody tr td#PageHeaderLeftSide
+{
+    background-image: url(TabsBar.gif);
+    background-color: #B6BCC4;
+}
+
+table#PageBody tr td#PageHeaderContent
+{
+    background-image: url(PageHeader.gif);
+    border-left-color: #707984;
+    border-right-color: #707984;
+}
+
+.HomePage table#PageBody tr td#PageHeaderContent
+{
+    background-image: url(TabsBar.gif);
+    background-color: #B6BCC4;
+}
+
+.HomePage table#PageBody tr td#PageHeaderContent div.Header
+{
+    background-image: url(TopShape.jpg);
+}
+
+table#PageBody tr td#PageHeaderRightSide
+{
+    background-image: url(TabsBar.gif);
+    background-color: #B6BCC4;
+}
+
+/* site map path */
+
+.SiteMapPath .RootNode, .SiteMapPath .Node
+{
+    color: #002570;
+}
+
+.SiteMapPath .PathSeparator
+{
+    color: #666666;
+}
+
+.SiteMapPath .CurrentNode
+{
+    color: #666666;
+}
+
+.SiteMapPath a:hover
+{
+    color: Black;
+}
+
+/* page content */
+
+table#PageBody tr td#PageContentSideBar
+{
+    background-image: url(NavShape.jpg);
+    background-color: #5D646D;
+}
+
+table#PageBody tr td#PageContentLeftSide
+{
+    background-image: url(NavShape.jpg);
+    background-color: #5F6670;
+}
+
+table#PageBody tr td#PageContentSideBar div.TaskBox, div.History div.TaskBox
+{
+    border-top-color: #707984;
+    border-left-color: #707984;
+    border-right-color: #5D646D;
+    border-bottom-color: #5D646D;
+    background-color: #DEE0E2;
+}
+
+table#PageBody tr td#PageContentSideBar div.TaskBox div.Inner, div.History div.TaskBox div.Inner
+{
+    border-right-color: #707984;
+    border-bottom-color: #707984;
+}
+
+table#PageBody tr td#PageContentSideBar div.TaskBox div.Header, div.History div.TaskBox div.Header
+{
+    background-color: #B6BCC4;
+    color: #002570;
+    border-left-color: #D2D5D8;
+    border-top-color: #D2D5D8;
+    border-bottom-color: #A9B0BA;
+}
+
+table#PageBody tr td#PageContentSideBar div.TaskBox div.Label, div.History div.TaskBox div.Label
+{
+    background-color: #B6BCC4;
+    color: #002570;
+    border-left-color:#D2D5D8;
+    border-top-color: #D2D5D8;
+    border-bottom-color: #A9B0BA;
+}
+
+table#PageBody tr td#PageContentSideBar div.TaskBox div.Item, div.History div.TaskBox div.Item
+{
+    background-image: url(bullet.gif);
+}
+
+table#PageBody tr td#PageContentSideBar div.TaskBox div.Task, div.History div.TaskBox div.Task
+{
+    background-image: url(TaskBullet.gif);
+}
+
+table#PageBody tr td#PageContentSideBar div.TaskBox div.Task a, div.History div.TaskBox div.Task a
+{
+    color: #002570;
+}
+
+table#PageBody tr td#PageContentSideBar div.TaskBox div.Selected a, div.History div.TaskBox div.Selected a
+{
+    color:Black;
+}
+
+table#PageBody tr td#PageContentSideBar div.TaskBox div.Summary, div.History div.TaskBox div.Summary
+{
+    background-image: url(TaskBoxBkg.gif);
+    color: #002570;
+    border-left-color:#D2D5D8;
+    border-top-color: #DEE0E2;
+    border-bottom-color: #A9B0BA;
+}
+
+table#PageBody tr td#PageContentSideBar div.TaskBox div.Divider, div.History div.TaskBox div.Divider
+{
+    background-color: #A9B0BA;
+}
+
+table#PageBody tr td#PageContentSideBar div.TaskBox div.Item a, div.History div.TaskBox div.Item a
+{
+    color: #002570;
+}
+
+table#PageBody tr td#PageContentSideBar div.TaskBox div.Item a:hover, div.History div.TaskBox div.Item a:hover
+{
+    color: #000000;
+}
+
+table#PageBody tr td#PageContent
+{
+    background-color: white;
+    border-left-color: #707984;
+    border-right-color: #707984;
+    border-bottom-color: #707984;
+}
+
+.HomePage table#PageBody tr td#PageContent
+{
+    border-color:#707984;
+}
+
+table#PageBody tr td#PageContentRightSide
+{
+    background-color: #5D646D;
+    background-image: url(PageContentRightSide.gif);
+}
+
+.HomePage table#PageBody tr td#PageContentRightSide
+{
+    border-left-color: #5D646D;
+}
+
+/* page footer */
+
+table#PageBody tr td#PageFooterSideBar
+{
+    background-color: #5D646D;
+}
+
+table#PageBody tr td#PageFooterLeftSide
+{
+    background-color: #5D646D;
+}
+
+table#PageBody tr td#PageFooterContent
+{
+    background-color: #5D646D;
+}
+
+table#PageBody tr td#PageFooterRightSide
+{
+    background-color: #5D646D;
+}
+
+/* page footer bar */
+
+div#PageFooterBar
+{
+    background-color: #5D646D;
+    color: Black;
+}
+
+/* menu and tab bar */
+
+div.TabBar
+{
+    border-bottom-color: #5D646D;
+}
+
+div.TabBody
+{
+    border-left-color: #5D646D;
+    border-bottom-color: #5D646D;
+    border-right-color: #5D646D;
+}
+
+table.Menu
+{
+    border-left-color: #C4C8CE;
+}
+
+table.Menu tr td.Item
+{
+    border-right-color: #C4C8CE;
+    border-top-color: #C4C8CE;
+    background-image: url(TabsInactiveTab.gif);
+    border-left-color: #FFFFFF;
+}
+
+table.Menu tr td.Selected
+{
+    background-image: url(TabsSelectedTab.gif);
+    border-right-color: #848E9B;
+    border-top-color: #848E9B;
+}
+
+table.Menu tr td.Menu_Hover
+{
+    background-image: url(TabsActiveTab.gif);
+    border-right-color: #AF520F;
+    border-top-color: #AF520F;
+    border-left-color: #FFFFFF;
+}
+
+table.Menu a.Link
+{
+    color: #363A3F;
+}
+
+table.Menu tr td.Selected a.Link
+{
+    color: #FFFFFF;
+}
+
+table.Menu tr td.Menu_Hover a.Link
+{
+    color: #000;
+}
+
+/* site actions menu */
+
+table.SiteActions tr td.Item
+{
+    background-image: url(SiteActionsInactiveTab.gif);
+    border-left-color: #5D646D;
+    border-right-color: #5D646D;
+    border-top-color: #5D646D;
+    border-bottom-color: #5D646D;
+}
+
+table.SiteActions a.Link
+{
+    color: #fff;
+}
+
+table.SiteActions tr td.SiteActions_Hover
+{
+    background-image: url(SiteActionsActiveTab.gif);
+    border-right-color: #89724F;
+    border-top-color: #89724F;
+    border-left-color: #89724F;
+    border-bottom-color: #89724F;
+}
+
+.CloseSiteAction a
+{
+    color: #000000;
+}
+
+/* membership */
+
+div.HelpBar div.Title
+{
+    background-image: url(TopShape.jpg);
+}
+
+.MembershipBarPlaceholder
+{
+    background-color: #E3F0F2!important;
+    border-bottom-color: #E3F0F2!important;
+}
+
+table.LoginDialog
+{
+    border-color: #707984 !important;
+    background-color: #B6BCC4 !important;
+}
+
+table.LoginDialogCollapsed
+{
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+table.LoginDialogCollapsed, div.HelpLink, div.CultureLink
+{
+    color: #666666!important;
+}
+
+div.MembershipBar a
+{
+    color: #00259D!important;
+}
+
+/* page content */
+
+.ParaHeader
+{
+    color: Black;
+    background-image: url(ParaHeaderBkg.gif);
+    border-color: #B6BCC4;
+}
+
+.ParaInfo
+{
+    color: #4C4C4C;
+}
+
+.ParaText
+{
+    color: #000000;
+}
+
+.SettingsPanel, .SearchBarCell
+
+{
+    background-image:url(SettingsGraphic.jpg);
+}
+
+div.BookmarkBar
+{
+    color: #666666 !important;
+}
+
+div.BookmarkBar a
+{
+    color: #00259d !important;
+}
+
+div.BookmarkBar input
+{
+    border-color: #666666;
+    color: #666666;
+}
+
+.AutoCompleteFrame table tr.Active td.Input
+{
+    border-left-color: #B09460;
+    border-top-color: #B09460;
+    border-bottom-color: #B09460;
+}
+
+.AutoCompleteFrame table tr.Active td.Clear
+{
+    border-top-color: #B09460;
+    border-bottom-color: #B09460;
+}
+
+.AutoCompleteFrame table tr.Active td.Button
+{
+    border-right-color: #B09460;
+    border-top-color: #B09460;
+    border-bottom-color: #B09460;
+}
+
+.AutoCompleteFrame table tr.Active td.Button span.Button
+{
+     border-left-color: #B09460;
+}
+
+.CompletionList.AutoComplete .HighlightedItem
+{
+    background-color:#FFD2B2;
+    border-color: #D66617;
+}
+
+.AutoCompleteFrame table tr.Active td.Button
+{
+    background-color: #FFD2B2;
+    background-image: url(ArrowBkg.gif);
+}
+
+.SearchBarCell table.FilterValues.Active, .SearchBarCell table.FilterValues.Focused
+{
+    border-color: #B09460;
+}
+
+table.DataSheetType tr.Row td.Cell, table.DataSheetType tr.AlternatingRow td.Cell, table.DataSheetType tr.Selected td.Cell
+{
+    border-right: solid 1px #C0C0C0;
+    border-top: solid 1px #C0C0C0;
+    border-bottom-style: none;
+}
+
+/* Two-level menu */
+
+div.two-level
+{
+    border-top-color: #848e9b;
+}
+
+div.two-level a
+{
+    text-decoration: none;
+    color: #363a3f!important;
+}
+
+div.two-level li.selected.level1, div.two-level li.current.level1, div.two-level li.hover.level1
+{
+    background-image: url(TopShape.jpg);
+}
+
+div.two-level li.level1
+{
+    border-left-color:#848e9b;
+}
+
+div.two-level li.selected.level1.first, div.two-level li.current.level1.first, div.two-level li.hover.level1.first
+{
+    border-left-color: #848e9b;
+}
+div.two-level li.selected.level1.last, div.two-level li.current.level1.last, div.two-level li.hover.level1.last
+{
+    border-right-color: #848e9b;
+}
+
+div.two-level div.children.level2
+{
+    border-color: #707984;
+}
+
+.DataViewContainer .glyphicon
+{
+    color: #002570;
+}
+
+/***** bootstrap *****/
+
+.app-theme-lacquer .app-bootstrap.app-content-desktop {
+    border-top-color: #707984;
+}
+
+.app-theme-lacquer .app-bootstrap a:not(.btn),
+.app-theme-lacquer body:not(.app-desktop) .app-bootstrap a:hover {
+    color: #002570;
+}
+
+.app-theme-lacquer .dropdown-menu > li > a:not(.ui-btn),
+body:not(.app-desktop) .dropdown-menu > li > a:hover {
+    color: #777 !important;
+}
+
+.app-theme-lacquer .jumbotron {
+    background-color: #d7e6e8;
+}
+
+.app-theme-lacquer .btn-default,
+.app-theme-lacquer .btn-default:focus,
+.app-theme-lacquer .btn-default:visited {
+    background-color: #e6eeef;
+    border-color: #707984;
+    color: #333 !important;
+}
+
+.app-theme-lacquer.app-desktop .btn-default:hover {
+    background-color: #e6eeef;
+    border-color: #5d646d;
+}
+
+.app-theme-lacquer .app-bootstrap .btn.ui-btn-active,
+.app-theme-lacquer .app-bootstrap .btn.ui-btn-active:hover,
+.app-theme-lacquer .app-bootstrap .btn.ui-btn-active:focus,
+.app-theme-lacquer .app-bootstrap .list-group-item.ui-btn-active,
+.app-theme-lacquer .app-bootstrap .list-group-item.ui-btn-active:hover,
+.app-theme-lacquer .app-bootstrap .list-group-item.ui-btn-active:focus,
+.app-theme-lacquer .app-bootstrap .list-group-item.ui-btn-active .list-group-item-text,
+.app-theme-lacquer .app-bootstrap .list-group-item.ui-btn-active .list-group-item-heading {
+    background-color: #d66617 !important;
+    border-color: #d66617 !important;
+    color: #fff !important;
+}
+
+.app-theme-lacquer .app-bootstrap .nav .ui-btn-active,
+.app-theme-lacquer .app-bootstrap .nav .ui-btn-active:hover,
+.app-theme-lacquer .app-bootstrap .nav .ui-btn-active:focus {
+    background-color: #d66617 !important;
+    border-color: #707984 !important;
+    color: #fff !important;
+}
+
+.app-theme-lacquer .table,
+.app-theme-lacquer .table > thead > tr > th,
+.app-theme-lacquer .table > tbody > tr > th,
+.app-theme-lacquer .table > tfoot > tr > th,
+.app-theme-lacquer .table > thead > tr > td,
+.app-theme-lacquer .table > tbody > tr > td,
+.app-theme-lacquer .table > tfoot > tr > td,
+.app-theme-lacquer .list-group-item:not(.active) {
+    background-color: #e6eeef;
+    border-color: #707984;
+}
+
+.app-theme-lacquer.app-desktop a.list-group-item:hover:not(.active) {
+    background-color: #e6eeef;
+}
+
+.app-theme-lacquer .table > thead > tr > th,
+.app-theme-lacquer .table > tbody > tr > th,
+.app-theme-lacquer .table > tfoot > tr > th {
+    color: #333;
+    background-color: #d7e6e8;
+}
+
+.app-theme-lacquer .table-striped > tbody > tr:nth-child(2n+1) > td,
+.app-theme-lacquer .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #ebeff0;
+}
+
+.app-theme-lacquer.app-desktop .navbar-default .navbar-toggle:hover,
+.app-theme-lacquer .app-bootstrap .navbar-default .navbar-toggle:focus,
+.app-theme-lacquer .list-group-item.active:not(.btn),
+.app-theme-lacquer .list-group-item.active:not(.btn):hover,
+.app-theme-lacquer .list-group-item.active:not(.btn):focus,
+.app-theme-lacquer .nav-pills > li.active > a,
+.app-theme-lacquer .nav-pills > li.active > a:hover,
+.app-theme-lacquer .nav-pills > li.active > a:focus {
+    color: #fff !important;
+    background-color: #d66617;
+    border-color: #d66617;
+}
+
+.app-theme-lacquer .list-group-item.active .list-group-item-text {
+    color: #fff;
+}
+
+.app-theme-lacquer .list-group-item:not(.active):not(.ui-btn-active):hover,
+.app-theme-lacquer .list-group-item:not(.active):not(.ui-btn-active):hover .list-group-item-text {
+    color: #000 !important;
+}
+
+.app-theme-lacquer .list-group-item.active > .badge,
+.app-theme-lacquer .nav-pills > .active > a > .badge {
+    color: #d66617 !important;
+}
+
+.app-theme-lacquer .navbar-default .navbar-toggle .icon-bar {
+    background-color: #c4c8ce;
+}
+
+.app-desktop.app-theme-lacquer .navbar-default .navbar-toggle:hover .icon-bar,
+.app-desktop.app-theme-lacquer .navbar-default .navbar-toggle:active .icon-bar,
+.app-desktop.app-theme-lacquer .navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #fff;
+}
+
+.app-theme-lacquer .img-thumbnail {
+    background-color: #e6eeef;
+    border-color: #707984;
+}
+
+.app-theme-lacquer .page-header,
+.app-theme-lacquer .nav-tabs {
+    border-color: #707984;
+}
+
+    .app-theme-lacquer .nav-tabs > li.active > a,
+    .app-theme-lacquer .nav-tabs > li.active > a:hover,
+    .app-theme-lacquer .nav-tabs > li.active > a:focus {
+        border-top-color: #707984;
+        border-left-color: #707984;
+        border-right-color: #707984;
+    }
+
+.app-theme-lacquer.app-desktop .nav > li:not(.active) > a:hover,
+.app-theme-lacquer.app-desktop .nav > li:not(.active) > a:focus {
+    background-color: rgba(255,255,255,0.25);
+    border-color: #5d646d;
+}
+
+.app-theme-lacquer.app-desktop .nav-tabs > li:not(.active) > a:hover,
+.app-theme-lacquer .nav-tabs > li:not(.active) > a:focus,
+.app-theme-lacquer.app-desktop .nav-pills > li:not(.active) > a:hover,
+.app-theme-lacquer .nav-pills > li:not(.active) > a:focus {
+    background-color: #e6eeef;
+}
+
+.app-theme-lacquer .navbar-default {
+    background-color: #e8e9eb;
+    border-color: #c4c8ce;
+}
+
+    .app-theme-lacquer .navbar-default .navbar-brand,
+    .app-theme-lacquer .navbar-default .navbar-brand:hover {
+        color: #777 !important;
+    }
+
+    .app-theme-lacquer .navbar-default .navbar-nav > li > a {
+        color: #777 !important;
+    }
+
+.app-theme-lacquer.app-desktop .navbar-default a.navbar-brand:hover,
+.app-theme-lacquer .app-bootstrap .navbar-default a.navbar-brand.ui-btn-active,
+.app-theme-lacquer.app-desktop .navbar-default .navbar-nav > li > a:hover {
+    color: #333 !important;
+}
+
+.app-theme-lacquer .app-bootstrap .navbar-default .navbar-nav > .active > a,
+.app-theme-lacquer .app-bootstrap .navbar-default .navbar-nav > .active > a:hover,
+.app-theme-lacquer .app-bootstrap .navbar-default .navbar-nav > .active > a:focus,
+.app-theme-lacquer .app-bootstrap .navbar-default .navbar-nav > .open > a,
+.app-theme-lacquer .app-bootstrap .navbar-default .navbar-nav > .open > a:hover,
+.app-theme-lacquer .app-bootstrap .navbar-default .navbar-nav > .open > a:focus {
+    color: #333 !important;
+    background-color: rgba(0,0,0,.05);
+}
+
+.app-theme-lacquer .well {
+    background-color: #e6eeef;
+    border-color: #707984;
+}
+
+@media all and (max-width:767px) {
+    .app-sidebar-undocked.app-theme-lacquer .navbar-nav .open .dropdown-menu {
+        background-color: #e6eeef;
+    }
+
+    .app-sidebar-undocked.app-theme-lacquer.app-desktop .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .app-sidebar-undocked.app-theme-lacquer .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        background-color: #e6eeef;
+    }
+}
+
+.app-theme-lacquer .dropdown-menu {
+    background-color: #e6eeef;
+}
+
+    .app-theme-lacquer .dropdown-menu .divider {
+        background-color: #707984;
+    }
+
+    .app-theme-lacquer.app-desktop .dropdown-menu > li > a:hover,
+    .app-theme-lacquer .dropdown-menu > li > a:focus {
+        background-color: #e6eeef;
+    }
+
+.app-theme-lacquer .navbar-default .navbar-collapse,
+.app-theme-lacquer .navbar-default .navbar-form,
+.app-theme-lacquer .navbar-default .navbar-toggle {
+    border-color: #c4c8ce;
+}
+
+.app-theme-lacquer .navbar-inverse a:not(.ui-btn) {
+    color: #777 !important;
+}
+
+.app-theme-lacquer.app-desktop .navbar-inverse a.navbar-brand:hover,
+.app-theme-lacquer.app-desktop .navbar-inverse .navbar-nav > li > a:hover {
+    color: #fff !important;
+}
+
+.app-theme-lacquer .navbar-inverse .navbar-nav > .active > a,
+.app-theme-lacquer .navbar-inverse .navbar-nav > .active > a:hover,
+.app-theme-lacquer .navbar-inverse .navbar-nav > .active > a:focus,
+.app-theme-lacquer .navbar-inverse .navbar-nav > .open > a,
+.app-theme-lacquer .navbar-inverse .navbar-nav > .open > a:hover,
+.app-theme-lacquer .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff !important;
+}

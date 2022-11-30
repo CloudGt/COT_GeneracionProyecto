@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Atpakaļ^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Pabeigt^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Apstipriniet jauno paroli^ConfirmNewPassword^
+
+^ConfirmPassword^apstipriniet paroli^ConfirmPassword^
+
+^Email^E-pasts^Email^
+
+^ForgotYourPassword^Aizmirsi savu paroli?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Atbildiet uz šādu jautājumu, lai saņemtu savu paroli. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identitātes apstiprinājums^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Lūdzu, aizpildiet šo veidlapu un noklikšķiniet uz pogas Iesniegt, lai atgūtu aizmirsto paroli. Noklikšķiniet uz Atcelt, lai atgrieztos iepriekšējā ekrānā.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Paroles atjaunošana: 2. solis no 2^IdentityConfirmViewLabel^
+
+^LoginButton^Pieslēgties^LoginButton^
+
+^LoginLink^Pieslēgties^LoginLink^
+
+^LoginWithDNN^Ieiet ar DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Ieiet ar Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Ieiet ar Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Pieteikties sistēmā Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Pieteikšanās ar SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Piesakieties sistēmā Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Paroles atbilde (netiek parādīta jūsu aizsardzībai)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Lūdzu, ievadiet savu pašreizējo paroli, lai izveidotu jaunu paroli, atjauninātu savu e-pasta adresi vai mainītu paroles atjaunošanas jautājumu un atbildi.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Pašreizējā parole^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Lūdzu, pārskatiet savu dalības informāciju zemāk. Noklikšķiniet uz Atjaunināt manu kontu, lai mainītu šo ierakstu, vai noklikšķiniet uz Atcelt, lai atgrieztos atpakaļ.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Mans Konts^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Lūdzu, ievadiet jaunu paroli. Ņemiet vērā, ka parolē jābūt vismaz 7 rakstzīmēm garai un tajā jāiekļauj viens burts un cipari.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Jauna parole (pēc izvēles)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Aizmirstās paroles atkopšanas laikā jums tiks lūgts ievadīt savu lietotāja vārdu. Ja ir lietotāja konts, tad jāatbild uz paroli. Pareiza atbilde aktivizēs e-pastu ar pagaidu paroli, kas jums tiks nosūtīta.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-pasts &amp; Paroles atkopšana (pēc izvēles)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^jauna parole^NewPassword^
+
+^OldPassword^Vecā parole^OldPassword^
+
+^Password^Parole^Password^
+
+^PasswordAnswer^Paroles atbilde^PasswordAnswer^
+
+^PasswordQuestion^Paroles jautājums^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Lūdzu, ievadiet lietotājvārdu. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Aizmirsi savu paroli?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Lūdzu, aizpildiet šo veidlapu un noklikšķiniet uz pogas Turpināt, lai atgūtu aizmirsto paroli. Noklikšķiniet uz Atcelt, lai atgrieztos iepriekšējā ekrānā.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Paroles atjaunošana: solis 1 no 2^PasswordRequestViewLabel^
+
+^RememberMe^Atceries mani nākamajā reizē^RememberMe^
+
+^RequestPasswordActionHeaderText^Nākamais^RequestPasswordActionHeaderText^
+
+^SignUp^Pierakstīties^SignUp^
+
+^SignUpNow^Pieraksties tagad^SignUpNow^
+
+^SignUpViewHeaderText^Lūdzu, aizpildiet šo veidlapu un noklikšķiniet uz pogas Labi, lai reģistrētos kontam. Noklikšķiniet uz Atcelt, lai atgrieztos iepriekšējā ekrānā.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Konta reģistrācija^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Lūdzu, ievadiet lietotājvārdu un paroli. Ņemiet vērā, ka parolē jābūt vismaz 7 rakstzīmēm garai un tajā jāiekļauj viens burts un cipari. Tikai apstiprināti lietotāji varēs pieteikties vietnē.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Jauna lietotāja informācija^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Šie lauki ir nepieciešami, lai palīdzētu jums atgūt aizmirsto paroli. Atkopšanas procesa laikā jums tiks lūgts ievadīt lietotājvārdu. Ja ir lietotāja konts, tad drošības jautājumam tiek lūgts atbildēt. Pareiza atbilde aktivizēs e-pastu ar īslaicīgu paroli, kas nosūtīta uz reģistrēto e-pastu.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Paroles atgūšana^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Atjaunināt manu kontu^UpdateMyAccountActionHeaderText^
+
+^UserName^Lietotāja vārds^UserName^
+

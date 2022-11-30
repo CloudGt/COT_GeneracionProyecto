@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^ایجاد سابقه عضویت در نقش.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^نقش جدید^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^جدید^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^فرم را تکمیل کنید. اطمینان حاصل کنید که تمام زمینه های مورد نیاز را وارد کنید.^CreateFormCategory^
+
+^CreateFormHeaderText^لطفا این فرم را پر کنید و دکمه OK را برای ایجاد یک عضویت رکورد جدید نقش. برای بازگشت به صفحه قبلی کلیک کنید لغو.^CreateFormHeaderText^
+
+^DescriptionLabel^شرح^DescriptionLabel^
+
+^EditViewCategory^این زمینه سابقه عضویت در نقش است که می تواند ویرایش.^EditViewCategory^
+
+^EditViewHeaderText^لطفا این فایل نقد می نویسید : عضویت اطلاعات نقش را در جدول زیر بنویسید. کلیک کنید ویرایش این رکورد برای تغییر ، حذف رکورد را حذف کنید کلیک کنید و یا با کلیک لغو / بستن به بازگشت به عقب.^EditViewHeaderText^
+
+^GridViewHeaderText^این لیست ، لیستی از نقش های عضویت می باشد.^GridViewHeaderText^
+
+^RoleNameLabel^نام نقش^RoleNameLabel^
+

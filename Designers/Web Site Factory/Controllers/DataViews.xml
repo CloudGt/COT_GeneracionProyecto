@@ -1,0 +1,527 @@
+<dataController name="Fields" conflictDetection="overwriteChanges" label="Data Views"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium"
+		xmlns:app="urn:schemas-codeontime-com:data-aquarium-application"  handler="CodeOnTime.Designer.DesignerBusinessRules">
+  <commands>
+    <command id="command1" type="Text">
+      <query href="Application.xml" select="//app:dataView" sort="Sequence" dependencies=""/>
+      <template select="//app:page[@name=$Page]/app:dataViews">
+        <dataView xmlns="urn:schemas-codeontime-com:data-aquarium-application"  id="{generate-id('DataViewId')}"/>
+      </template>
+    </command>
+  </commands>
+  <fields>
+    <field name="Page" type="String" select="ancestor::app:page[1]/@name" allowNulls="false" isPrimaryKey="true" readOnly="true">
+      <items style="Lookup" dataController="Pages" newDataView="createForm1" dataValueField="Name" dataTextField="Name"/>
+    </field>
+    <field name="DataViewId" type="String" select="@id" allowNulls="false" isPrimaryKey="true" readOnly="true" label="Id"/>
+    <!--<field name="ContainerId" type="String" select="@container"/>-->
+    <field name="ContainerId" type="String" select="@container" allowNulls="false" label="Container" contextFields="Page" isPrimaryKey="true">
+      <items style="Lookup" dataController="Containers" dataTextField="ContainerId" dataValueField="ContainerId" />
+    </field>
+    <field name="Controller" type="String" select="@controller" allowNulls="false">
+      <items style="Lookup" dataController="Controllers" />
+    </field>
+    <field name="View" type="String" select="@view" allowNulls="true" contextFields="Controller">
+      <items style="Lookup" dataController="Views" dataTextField="ViewId" dataValueField="ViewId"/>
+    </field>
+    <field name="ShowInSummary" type="Boolean" select="@showInSummary" allowNulls="false" label="Show In Summary" default="false()">
+      <items style="CheckBox"/>
+    </field>
+    <field name="ShowActionBar" type="Boolean" select="@showActionBar" allowNulls="false" label="Show Action Bar" default="true()">
+      <items style="CheckBox"/>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="true"/>
+      </defaultValues>
+    </field>
+    <field name="ShowActionButtons" type="String" select="@showActionButtons" allowNulls="true" label="Show Action Buttons">
+      <items style="DropDownList">
+        <item value="" text="Auto"/>
+        <item value="None" text="None"/>
+        <item value="Top" text="Top"/>
+        <item value="Bottom" text="Bottom"/>
+        <item value="TopAndBottom" text="Top and Bottom"/>
+      </items>
+    </field>
+    <field name="ShowDescription" type="Boolean" select="@showDescription" allowNulls="false" label="Show View Description" default="true()">
+      <items style="CheckBox"/>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="true"/>
+      </defaultValues>
+    </field>
+    <field name="ShowViewSelector" type="Boolean" select="@showViewSelector" allowNulls="false" label="Show View Selector" default="true()">
+      <items style="CheckBox"/>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="true"/>
+      </defaultValues>
+    </field>
+    <field name="ShowModalForms" type="Boolean" select="@showModalForms" allowNulls="false" label="Show Modal Forms" default="false()">
+      <items style="CheckBox"/>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="false"/>
+      </defaultValues>
+    </field>
+    <field name="SearchByFirstLetter" type="Boolean" select="@searchByFirstLetter" allowNulls="false" label="Search by First Letter" default="false()">
+      <items style="CheckBox"/>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="false"/>
+      </defaultValues>
+    </field>
+    <field name="SearchOnStart" type="Boolean" select="@searchOnStart" allowNulls="false" label="Search on Start" default="false()">
+      <items style="CheckBox"/>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="false"/>
+      </defaultValues>
+    </field>
+    <field name="Activator" type="String" select="@activator" allowNulls="true" label="Activator">
+      <items style="DropDownList">
+        <item value="Tab" text="Tab"/>
+        <item value="SideBarTask" text="Side Bar Task"/>
+        <item value="SiteAction" text="Site Action"/>
+        <item value="None" text="None"/>
+        <!--<item value="" text="N/A"/>-->
+      </items>
+    </field>
+    <field name="Text" type="String" select="@text" allowNulls="true" label="Text"/>
+    <field name="FilterSource" type="String" select="@filterSource" allowNulls="true" label="Filter Source" contextFields="Page">
+      <items style="Lookup" dataController="DataViews" dataTextField="DataViewId" dataValueField="DataViewId"/>
+    </field>
+    <field name="AllFilterFields" type="String" select="concat(@filterFields, ' ', @filterField2, ' ', @filterField3, ' ', @filterField4, ' ', @filterField5)" readOnly="true" label="Filter Fields"/>
+    <field name="FilterFields" type="String" select="@filterFields" allowNulls="true" label="Filter Field #1" contextFields="Controller,ViewId=View">
+      <items style="Lookup" dataController="DataFields" dataTextField="FieldName" dataValueField="FieldName"/>
+    </field>
+    <field name="FilterField2" type="String" select="@filterField2" allowNulls="true" label="Filter Field #2" contextFields="Controller,ViewId=View">
+      <items style="Lookup" dataController="DataFields" dataTextField="FieldName" dataValueField="FieldName"/>
+    </field>
+    <field name="FilterField3" type="String" select="@filterField3" allowNulls="true" label="Filter Field #3" contextFields="Controller,ViewId=View">
+      <items style="Lookup" dataController="DataFields" dataTextField="FieldName" dataValueField="FieldName"/>
+    </field>
+    <field name="FilterField4" type="String" select="@filterField4" allowNulls="true" label="Filter Field #4" contextFields="Controller,ViewId=View">
+      <items style="Lookup" dataController="DataFields" dataTextField="FieldName" dataValueField="FieldName"/>
+    </field>
+    <field name="FilterField5" type="String" select="@filterField5" allowNulls="true" label="Filter Field #5" contextFields="Controller,ViewId=View">
+      <items style="Lookup" dataController="DataFields" dataTextField="FieldName" dataValueField="FieldName"/>
+    </field>
+    <field name="PageSize" type="Int32" select="@pageSize" allowNulls="true" label="Page Size"/>
+    <field name="MultiSelect" type="Boolean" select="@multiSelect" allowNulls="false" default="false()" label="Selection Mode">
+      <items style="DropDownList">
+        <item value="false" text="Single"/>
+        <item value="true" text="Multiple"/>
+      </items>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="false"/>
+      </defaultValues>
+    </field>
+    <field name="Tag" type="String" select="@tag" label="Tags"/>
+    <field name="StartCommandName" type="String" select="@startCommandName" label="Command Name">
+      <items style="DropDownList">
+        <item value="Select" text="Select"/>
+        <item value="Edit" text="Edit"/>
+        <item value="New" text="New"/>
+      </items>
+    </field>
+    <field name="StartCommandArgument" type="String" select="@startCommandArgument" label="Command Argument"/>
+    <field name="Sequence" type="Int32" select="@sequence"/>
+    <field name="AutoHide" type="String" select="@autoHide" label="Auto Hide" default="'Nothing'">
+      <items style="DropDownList">
+        <item value="Nothing" text="Nothing"/>
+        <item value="Self" text="Self"/>
+        <item value="Container" text="Container"/>
+      </items>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="Nothing"/>
+      </defaultValues>
+    </field>
+    <!--<field name="Transaction" type="String" select="@transaction" label="Transaction" default="'Supported'">
+      <items style="DropDownList">
+        <item value="NotSupported" text="Not Supported"/>
+        <item value="Required" text="Required"/>
+        <item value="Supported" text="Supported"/>
+        --><!--<item value="RequiresNew" text="Requires New"/>--><!--
+      </items>
+    </field>-->
+    <field name="ShowDetailsInListMode" type="Boolean" select="@showDetailsInListMode" allowNulls="false" label="Show Details in List Mode" default="true()">
+      <items style="CheckBox"/>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="true"/>
+      </defaultValues>
+    </field>
+    <field name="ShowPager" type="String" select="@showPager" allowNulls="false" label="Show Pager" default="'Bottom'">
+      <items style="DropDownList">
+        <item value="None" text="None"/>
+        <item value="Top" text="Top"/>
+        <item value="Bottom" text="Bottom"/>
+        <item value="TopAndBottom" text="Top and Bottom"/>
+      </items>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="Bottom"/>
+      </defaultValues>
+    </field>
+    <field name="ShowPageSize" type="Boolean" select="@showPageSize" allowNulls="false" label="Show Page Size" default="true()">
+      <items style="CheckBox"/>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="true"/>
+      </defaultValues>
+    </field>
+    <field name="ShowSearchBar" type="Boolean" select="@showSearchBar" allowNulls="false" label="Show Search Bar" default="true()">
+      <items style="CheckBox"/>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="true"/>
+      </defaultValues>
+    </field>
+    <field name="ShowQuickFind" type="Boolean" select="@showQuickFind" allowNulls="false" label="Show &quot;Quick Find&quot;" default="true()">
+      <items style="CheckBox"/>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="true"/>
+      </defaultValues>
+    </field>
+    <field name="ShowRowNumber" type="Boolean" select="@showRowNumber" allowNulls="false" label="Show Row Number" default="false()">
+      <items style="CheckBox"/>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="false"/>
+      </defaultValues>
+    </field>
+    <field name="VisibleWhen" type="String" select="@visibleWhen" label="Visible When"/>
+    <field name="Roles" type="String" select="@roles" label="Roles"/>
+    <field name="AutoSelectFirstRow" type="Boolean" select="@autoSelectFirstRow" allowNulls="false" label="Auto Select First Row" default="false()">
+      <items style="CheckBox"/>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="false"/>
+      </defaultValues>
+    </field>
+    <field name="AutoHighlightFirstRow" type="Boolean" select="@autoHighlightFirstRow" allowNulls="false" label="Auto Highlight First Row" default="false()">
+      <items style="CheckBox"/>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="false"/>
+      </defaultValues>
+    </field>
+    <field name="RefreshInterval" type="Int32" select="@refreshInterval" allowNulls="true" label="Refresh Interval"/>
+    <field name="ClassName" type="String" allowNulls="true" select="@className" label="CSS Class Name"/>
+  </fields>
+  <views>
+    <view id="grid1" type="Grid" commandId="command1" label="Data Views">
+      <headerText>
+        <![CDATA[
+        <span class="HelpLink" title="Learn to work with Data Views" onclick="$openUrl('http://codeontime.com/learn/development/project-designer/data-views')"></span>
+		    This is a list of data views. 
+		    ]]> </headerText>
+      <dataFields>
+        <dataField fieldName="DataViewId" readOnly="true"/>
+        <dataField fieldName="Page"/>
+        <dataField fieldName="ContainerId"/>
+        <dataField fieldName="Sequence">
+          <headerText>Seq</headerText>
+        </dataField>
+        <dataField fieldName="Controller"/>
+        <dataField fieldName="View"/>
+        <dataField fieldName="ShowInSummary">
+          <headerText>Summary</headerText>
+        </dataField>
+        <dataField fieldName="Activator"/>
+        <dataField fieldName="Text"/>
+        <dataField fieldName="FilterSource"/>
+        <dataField fieldName="AllFilterFields"/>
+        <!--<dataField fieldName="ContainerId" hidden="true"/>-->
+      </dataFields>
+    </view>
+    <view id="editForm1" type="Form" commandId="command1" label="Data View">
+      <headerText>
+        <![CDATA[
+        <span class="HelpLink" title="Learn to work with Data Views" onclick="$openUrl('http://codeontime.com/learn/pages/data-views/overview')"></span>
+            Click OK to save the data view, or click Cancel to undo changes or return back.]]></headerText>
+      <categories>
+        <category headerText="General" >
+          <description>
+            <![CDATA[ 
+            <i>Data View</i> is an instance of a data controller on the page container. Multiple data views can reference the same controller. Deletion of a data view will not affect the linked controller or other pages.<br/><br/>
+            Choose the <i>Controller</i> for the data view, and specify the <i>View</i> to open. If no view is selected, the first view in the controller will be used.<br/><br/>
+            Use <i>Tag</i> to enabled conditional controller actions with matching <i>whenTag</i> property and to write custom business rules specific to tagged data views.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="DataViewId" readOnly="true" hyperlinkFormatString="javascript:window.external.SyncAndRename()" toolTip="Click here to change the 'Id' of the Data View."/>
+            <dataField fieldName="Page"/>
+            <dataField fieldName="ContainerId" readOnly="true"/>
+            <dataField fieldName="Controller"/>
+            <dataField fieldName="View"/>
+            <dataField fieldName="Tag" columns="50" rows="4"/>
+            <!--<dataField fieldName="Transaction"/>-->
+          </dataFields>
+        </category>
+        <category headerText="Activator">
+          <description>
+            <![CDATA[
+            Specify a method to access the data view in <i>Activator</i> property. The available options are <a href="javascript:" onclick="return $openUrl('http://codeontime.com/blog/2012/05/grouping-data-views-under-same-tab')" 
+            title="Learn to configure tabbed data views.">Tab</a>, Side Bar Task, and Site Action.<br/><br/>
+            Specify the <i>Text</i> on the Tab or menu option. <br/><br/>
+            Use <i>Sequence</i> to order controls and data views placed in the same container.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Activator"/>
+            <dataField fieldName="Text"/>
+            <dataField fieldName="Sequence" columns="3"/>
+          </dataFields>
+        </category>
+        <category headerText="Presentation">
+          <description>
+            <![CDATA[
+            Select <i>Show in Summary</i> to include data fields of the view in the summary properties displayed on the side bar.<br/><br/>
+            Specify the number of data rows displayed in <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/fields/page-size')" title="Learn to configure page size.">Page Size</a>.<br/><br/>
+            Enable Multiple Row Selection by setting <i>Selection Mode</i> to "Multiple".<br/><br/>
+            Specify where the action buttons are displayed using <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/show-action-buttons')" title="Learn to configure the location of action buttons.">Show Action Buttons</a>.<br/><br/>
+            Unselect <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/show-action-bar')" title="Learn to hide the action bar.">Show Action Bar</a> to hide the action bar.<br/><br/>
+            Unselect <i>Show View Description</i> to hide the view description on the page.<br/><br/>
+            Unselect <i>Show View Selector</i> to hide the view selection dropdown on the right side of the action bar.<br/><br/>
+            Disable the <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/search/advanced-search-bar')" title="Learn about the Advanced Search Bar.">Advanced Search Bar</a> by unchecking <i>Show Search Bar</i>.<br/><br/>
+            Property <i>Show Quick Find</i> controls if the <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/feature-tour/quick-find')" title="Learn about Quick Find.">Quick Find</a> search box is displayed on the action bar.<br/><br/>
+            Property <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/search-by-first-letter')" title="Learn about Search By First Letter.">Search By First Letter</a> enables a dynamic menu of first characters above the "grid" views.<br/><br/>
+            Enable <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/displaying-row-number')" title="Learn about displaying a row number in data views.">Show Row Number</a> to display row numbers on the left side of the data view.<br/><br/>
+            Unselect <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/show-pager')" title="Learn about showing the pager in a data view.">Show Pager</a> if you want to hide the pager area of the data view.<br/><br/>
+            Unselect <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/show-page-size')" title="Learn about showing the page size in a data view.">Show Page Size</a> to hide the page size section at the bottom of the data view.<br/><br/>
+            <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/show-modal-forms')" title="Learn about enabling modal forms in a data view.">Show Modal Forms</a> will force any actions that bring up a form to have the form displayed in a modal form. If the option is not selected then the form will be in-line.<br/><br/>
+            Enable <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/search-on-start')" title="Learn about enabling Search On Start.">Search On Start</a> if you want non-form views to display an automatic search bar instead of the first page of data. Use <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/data-fields/search-mode')" title="Learn about controlling Search Modes.">Search Mode</a> properties of view's data fields to control the contents of the search bar. <br/><br/>
+            When property <i>Show Details in List Mode</i> is enabled, child views will be refreshed when a row is selected in the grid. When disabled, child views will be refreshed when opened in the form.<br/><br/>
+            Enter JavaScript expression in <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/visible-when')" title="Learn about controlling visiblity of data views.">Visible When</a> if you want a conditional display of the view on the form. Use the word <i>Master</i> to reference the data view specified in the <i>Filter Source</i> property of this data view.<br/><br/>
+            Enter a comma-separated list of <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/roles')" title="Learn about controlling visibility of a data view using roles.">Roles</a> to that will have permission to view the data view.<br/><br/>
+            <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/auto-highlight-first-row')" title="Learn about highlighting the first row of data views on page load.">Auto Highlight of First Row</a> will automatically select the first row in the grid view.<br/><br/>
+            <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/auto-select-first-row')" title="Learn about automatically opening the first row in a data view.">Auto Select of First Row</a> will automatically execute the first action in the action group with the scope of "Grid".<br/><br/>
+            <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/refresh-interval')" title="Learn about automatically refreshing a data view.">Refresh Interval</a> specifies how many seconds will pass before the data view is refreshed. If blank, the data view will not refresh automatically.<br/><br/>
+            Property <i>CSS Class Name</i> will be assigned to the <i>div</i> element on the page that represents the data view.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="ShowInSummary"/>
+            <dataField fieldName="PageSize" columns="2"/>
+            <dataField fieldName="MultiSelect"/>
+            <dataField fieldName="ShowActionButtons"/>
+            <dataField fieldName="ShowActionBar"/>
+            <dataField fieldName="ShowDescription"/>
+            <dataField fieldName="ShowViewSelector"/>
+            <dataField fieldName="ShowSearchBar"/>
+            <dataField fieldName="ShowQuickFind"/>
+            <dataField fieldName="SearchByFirstLetter"/>
+            <dataField fieldName="ShowRowNumber"/>
+            <dataField fieldName="ShowPager"/>
+            <dataField fieldName="ShowPageSize"/>
+            <dataField fieldName="ShowModalForms"/>
+            <dataField fieldName="SearchOnStart"/>
+            <dataField fieldName="ShowDetailsInListMode"/>
+            <dataField fieldName="VisibleWhen" columns="50" rows="4"/>
+            <dataField fieldName="Roles" columns="50"/>
+            <dataField fieldName="AutoHighlightFirstRow"/>
+            <dataField fieldName="AutoSelectFirstRow"/>
+            <dataField fieldName="RefreshInterval" columns="3"/>
+            <dataField fieldName="ClassName" columns="20"/>
+          </dataFields>
+        </category>
+        <category headerText="Filter">
+          <description>
+            <![CDATA[
+						Learn how to <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/configuring-master-detail-relationships')" title="Learn about configuring a master detail relationship.">configure a master/detail relationship</a>.<br/><br/>
+            Enter the master data view in <i>Filter Source</i>.<br/><br/>
+            Enter up to five fields that will limit the visible data in <i>Filter Source #1-5</i>.<br/><br/>
+						Property <i>Auto Hide</i> specifies which user interface element will be hidden if filter value is empty.<br/><br/>
+            <i>Self</i> will hide just the data view. <i>Container</i> hides the entire container that the data view resides in (including all other data views in the container).
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="FilterSource" columns="40"/>
+            <dataField fieldName="FilterFields" columns="40"/>
+            <dataField fieldName="FilterField2" columns="40"/>
+            <dataField fieldName="FilterField3" columns="40"/>
+            <dataField fieldName="FilterField4" columns="40"/>
+            <dataField fieldName="FilterField5" columns="40"/>
+            <dataField fieldName="AutoHide"/>
+          </dataFields>
+        </category>
+        <category headerText="Startup Action">
+          <description>
+            <![CDATA[
+            This action is executed as soon as data view has been initialized on the page in a browser.<br/><br/>
+            Only <i>New</i>, <i>Edit</i>, and <i>Select</i> actions can be executed.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="StartCommandName"/>
+            <dataField fieldName="StartCommandArgument" columns="50"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+    <view id="createForm1" type="Form" commandId="command1" label="New Data View">
+      <headerText>
+        <![CDATA[ 
+            <span class="HelpLink" title="Learn to work with Data Views" onclick="$openUrl('http://codeontime.com/learn/pages/data-views/overview')"></span>
+            Please fill this form and click OK button to create a new data view record. Click Cancel to return to the previous screen.
+            ]]></headerText>
+      <categories>
+        <category headerText="General" >
+          <description>
+            <![CDATA[ 
+            <i>Data View</i> is an instance of a data controller on the page container. Multiple data views can reference the same controller. Deletion of a data view will not affect the linked controller or other pages.<br/><br/>
+            Choose the <i>Controller</i> for the data view, and specify the <i>View</i> to open. If no view is selected, the first view in the controller will be used.<br/><br/>
+            Use <i>Tag</i> to enabled conditional controller actions with matching <i>whenTag</i> property and to write custom business rules specific to tagged data views.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="DataViewId" hidden="true"/>
+            <dataField fieldName="Page"/>
+            <dataField fieldName="ContainerId"/>
+            <dataField fieldName="Controller"/>
+            <dataField fieldName="View"/>
+            <dataField fieldName="Tag" columns="50" rows="4"/>
+            <!--<dataField fieldName="Transaction"/>-->
+          </dataFields>
+        </category>
+        <category headerText="Activator">
+          <description>
+            <![CDATA[
+            Specify a method to access the data view in <i>Activator</i> property. The available options are <a href="javascript:" onclick="return $openUrl('http://codeontime.com/blog/2012/05/grouping-data-views-under-same-tab')" 
+            title="Learn to configure tabbed data views.">Tab</a>, Side Bar Task, and Site Action.<br/><br/>
+            Specify the <i>Text</i> on the Tab or menu option. <br/><br/>
+            Use <i>Sequence</i> to order controls and data views placed in the same container.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Activator"/>
+            <dataField fieldName="Text"/>
+            <dataField fieldName="Sequence" columns="3"/>
+          </dataFields>
+        </category>
+        <category headerText="Presentation">
+          <description>
+            <![CDATA[
+            Select <i>Show in Summary</i> to include data fields of the view in the summary properties displayed on the side bar.<br/><br/>
+            Specify the number of data rows displayed in <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/fields/page-size')" title="Learn to configure page size.">Page Size</a>.<br/><br/>
+            Enable Multiple Row Selection by setting <i>Selection Mode</i> to "Multiple".<br/><br/>
+            Specify where the action buttons are displayed using <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/show-action-buttons')" title="Learn to configure the location of action buttons.">Show Action Buttons</a>.<br/><br/>
+            Unselect <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/show-action-bar')" title="Learn to hide the action bar.">Show Action Bar</a> to hide the action bar.<br/><br/>
+            Unselect <i>Show View Description</i> to hide the view description on the page.<br/><br/>
+            Unselect <i>Show View Selector</i> to hide the view selection dropdown on the right side of the action bar.<br/><br/>
+            Disable the <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/search/advanced-search-bar')" title="Learn about the Advanced Search Bar.">Advanced Search Bar</a> by unchecking <i>Show Search Bar</i>.<br/><br/>
+            Property <i>Show Quick Find</i> controls if the <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/feature-tour/quick-find')" title="Learn about Quick Find.">Quick Find</a> search box is displayed on the action bar.<br/><br/>
+            Property <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/search-by-first-letter')" title="Learn about Search By First Letter.">Search By First Letter</a> enables a dynamic menu of first characters above the "grid" views.<br/><br/>
+            Enable <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/displaying-row-number')" title="Learn about displaying a row number in data views.">Show Row Number</a> to display row numbers on the left side of the data view.<br/><br/>
+            Unselect <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/show-pager')" title="Learn about showing the pager in a data view.">Show Pager</a> if you want to hide the pager area of the data view.<br/><br/>
+            Unselect <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/show-page-size')" title="Learn about showing the page size in a data view.">Show Page Size</a> to hide the page size section at the bottom of the data view.<br/><br/>
+            <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/show-modal-forms')" title="Learn about enabling modal forms in a data view.">Show Modal Forms</a> will force any actions that bring up a form to have the form displayed in a modal form. If the option is not selected then the form will be in-line.<br/><br/>
+            Enable <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/search-on-start')" title="Learn about enabling Search On Start.">Search On Start</a> if you want non-form views to display an automatic search bar instead of the first page of data. Use <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/data-controllers/data-fields/search-mode')" title="Learn about controlling Search Modes.">Search Mode</a> properties of view's data fields to control the contents of the search bar. <br/><br/>
+            When property <i>Show Details in List Mode</i> is enabled, child views will be refreshed when a row is selected in the grid. When disabled, child views will be refreshed when opened in the form.<br/><br/>
+            Enter JavaScript expression in <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/visible-when')" title="Learn about controlling visiblity of data views.">Visible When</a> if you want a conditional display of the view on the form. Use the word <i>Master</i> to reference the data view specified in the <i>Filter Source</i> property of this data view.<br/><br/>
+            Enter a comma-separated list of <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/roles')" title="Learn about controlling visibility of a data view using roles.">Roles</a> to that will have permission to view the data view.<br/><br/>
+            <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/auto-highlight-first-row')" title="Learn about highlighting the first row of data views on page load.">Auto Highlight of First Row</a> will automatically select the first row in the grid view.<br/><br/>
+            <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/auto-select-first-row')" title="Learn about automatically opening the first row in a data view.">Auto Select of First Row</a> will automatically execute the first action in the action group with the scope of "Grid".<br/><br/>
+            <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/data-views/refresh-interval')" title="Learn about automatically refreshing a data view.">Refresh Interval</a> specifies how many seconds will pass before the data view is refreshed. If blank, the data view will not refresh automatically.<br/><br/>
+            Property <i>CSS Class Name</i> will be assigned to the <i>div</i> element on the page that represents the data view.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="ShowInSummary"/>
+            <dataField fieldName="PageSize" columns="2"/>
+            <dataField fieldName="MultiSelect"/>
+            <dataField fieldName="ShowActionButtons"/>
+            <dataField fieldName="ShowActionBar"/>
+            <dataField fieldName="ShowDescription"/>
+            <dataField fieldName="ShowViewSelector"/>
+            <dataField fieldName="ShowSearchBar"/>
+            <dataField fieldName="ShowQuickFind"/>
+            <dataField fieldName="SearchByFirstLetter"/>
+            <dataField fieldName="ShowRowNumber"/>
+            <dataField fieldName="ShowPager"/>
+            <dataField fieldName="ShowPageSize"/>
+            <dataField fieldName="ShowModalForms"/>
+            <dataField fieldName="SearchOnStart"/>
+            <dataField fieldName="ShowDetailsInListMode"/>
+            <dataField fieldName="VisibleWhen" columns="50" rows="4"/>
+            <dataField fieldName="Roles" columns="50"/>
+            <dataField fieldName="AutoHighlightFirstRow"/>
+            <dataField fieldName="AutoSelectFirstRow"/>
+            <dataField fieldName="RefreshInterval" columns="3"/>
+            <dataField fieldName="ClassName" columns="20"/>
+          </dataFields>
+        </category>
+        <category headerText="Filter">
+          <description>
+            <![CDATA[
+						Learn how to <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/configuring-master-detail-relationships')" title="Learn about configuring a master detail relationship.">configure a master/detail relationship</a>.<br/><br/>
+            Enter the master data view in <i>Filter Source</i>.<br/><br/>
+            Enter up to five fields that will limit the visible data in <i>Filter Source #1-5</i>.<br/><br/>
+						Property <i>Auto Hide</i> specifies which user interface element will be hidden if filter value is empty.<br/><br/>
+            <i>Self</i> will hide just the data view. <i>Container</i> hides the entire container that the data view resides in (including all other data views in the container).
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="FilterSource" columns="40"/>
+            <dataField fieldName="FilterFields" columns="40"/>
+            <dataField fieldName="FilterField2" columns="40"/>
+            <dataField fieldName="FilterField3" columns="40"/>
+            <dataField fieldName="FilterField4" columns="40"/>
+            <dataField fieldName="FilterField5" columns="40"/>
+            <dataField fieldName="AutoHide"/>
+          </dataFields>
+        </category>
+        <category headerText="Startup Action">
+          <description>
+            <![CDATA[
+            This action is executed as soon as data view has been initialized on the page in a browser.<br/><br/>
+            Only <i>New</i>, <i>Edit</i>, and <i>Select</i> actions can be executed.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="StartCommandName"/>
+            <dataField fieldName="StartCommandArgument" columns="50"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+  </views>
+  <actions>
+    <actionGroup scope="Grid">
+      <action commandName="Navigate" commandArgument="DataView.htm?_returnController=DataViews&amp;Page={Page}&amp;ContainerId={ContainerId}&amp;DataViewId={DataViewId}" headerText="Open"/>
+      <action commandName="ClientScript" commandArgument="__syncDesigner(this)" headerText="Sync" cssClass="SyncIcon"/>
+      <!--<action commandName="Select" commandArgument="editForm1" />-->
+      <action commandName="Edit" />
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <!--<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+      <!--<action commandName="Custom" commandArgument="MakeFirst" headerText="Make First"/>
+      <action commandName="Custom" commandArgument="MoveUp" headerText="Move Up"/>
+      <action commandName="Custom" commandArgument="MoveDown" headerText="Move Down"/>
+      <action commandName="Custom" commandArgument="MakeLast" headerText="Make Last"/>
+      <action/>-->
+      <action commandName="Select" commandArgument="editForm1" headerText="View"/>
+    </actionGroup>
+    <actionGroup scope="Form">
+      <action commandName="Edit" />
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <action commandName="Cancel" headerText="Close" />
+      <action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+      <!--<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />-->
+      <action whenLastCommandName="Edit" commandName="Cancel" />
+      <action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+      <action whenLastCommandName="New" commandName="Cancel" />
+    </actionGroup>
+    <actionGroup scope="ActionBar" headerText="New">
+      <action commandName="New" commandArgument="createForm1" headerText="New Data View" description="Create a new data view." />
+    </actionGroup>
+    <!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+    <actionGroup scope="ActionBar" headerText="Record">
+      <action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+      <action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+    </actionGroup>
+    <actionGroup id="sync01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncDesigner()" headerText="Sync" cssClass="SyncIcon" description="Synchronize with Explorer (Ctrl+.)"/>
+    </actionGroup>
+    <actionGroup id="ag8" scope="Row">
+      <action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+      <action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+    </actionGroup>
+  </actions>
+</dataController>

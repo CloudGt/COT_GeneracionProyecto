@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Adnota^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b>{1}</b> Ataşat la {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Ataşament^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Introduce note opţional şi ataşa fişiere.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Note şi Echipamente^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} {1} La scris^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Ia act de^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Ia act de^AnnotationTab^
+
+^BlobClearConfirm^Clar?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} A fost eliminat.^BlobCleared^
+
+^BlobClearText^Clar^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Nu a reuşit să încărcaţi {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Clic^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^aici^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^de a încărca sau clar fişier {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} A fost încărcat cu succes. <b>It Poate dura până la minute {1} pentru miniatură pentru a reflecta content.</b> încărcat^BlobUploded^
+
+^Copyright^Toate drepturile rezervate.^Copyright^
+
+^RecordChangedByAnotherUser^Rezultatele a fost schimbat de către un alt utilizator.^RecordChangedByAnotherUser^
+

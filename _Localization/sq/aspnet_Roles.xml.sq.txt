@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Krijo një i ri Roli rekord të anëtarësimit.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Roli i ri^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^I ri^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Plotësoni formën. Sigurohuni që të hyjë në të gjitha fushat e kërkuara.^CreateFormCategory^
+
+^CreateFormHeaderText^Ju lutem plotësoni këtë formular dhe klikoni butonin OK për të krijuar një të re role rekord anëtarësim. Klikoni Anulo për t&#39;u kthyer në ekranin e mëparshëm.^CreateFormHeaderText^
+
+^DescriptionLabel^Përshkrim^DescriptionLabel^
+
+^EditViewCategory^Këto janë fushat e rolit të dhënat e anëtarësimit që mund të redaktohen.^EditViewCategory^
+
+^EditViewHeaderText^Ju lutem rishikoni informacionin rolet e anëtarësimit më poshtë. Kliko Edit për të ndryshuar këtë rekord, kliko Fshij të fshini rekord, ose klikoni Cancel / Mbylle për t&#39;u kthyer mbrapa.^EditViewHeaderText^
+
+^GridViewHeaderText^Kjo është një listë e roleve anëtarësimit.^GridViewHeaderText^
+
+^RoleNameLabel^Emri Roli^RoleNameLabel^
+

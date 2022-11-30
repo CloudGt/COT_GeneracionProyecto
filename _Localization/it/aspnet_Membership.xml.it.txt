@@ -1,0 +1,213 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Creare un nuovo utente.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nuovo utente^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nuovo^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Indietro^BackToRequestPasswordActionHeaderText^
+
+^Comment^Commento^Comment^
+
+^ConfirmIdentityActionHeaderText^Completa^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Conferma nuova password^ConfirmNewPassword^
+
+^ConfirmPassword^Conferma password^ConfirmPassword^
+
+^CreateDate^Data di creazione^CreateDate^
+
+^CreateFormCommentCategoryDescription^Inserisci qui eventuali commenti su questo account utente. Il commento non è visibile all'utente.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Commenti^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Si prega di inserire il nome utente e password. Si noti che la password deve essere di almeno 7 caratteri e deve contenere almeno un carattere non alfanumerico (es. %). Solo gli utenti approvati saranno in grado di accedere al sito.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Dati Nuovo Utente nuovo^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Questi campi sono obbligatori per aiutare un utente a recuperare una password dimenticata. Durante il processo di recupero all'utente verrà chiesto di immettere un nome utente. Se l’ account utente esiste sarà necessario rispondere ad una domanda di sicurezza. La risposta corretta alla domanda attiverà una e-mail con una password temporanea che sarà inviata all'utente.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Recupero Password ^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Si prega di selezionare i ruoli che più corrispondono alle responsabilità dell'utente. I ruoli controllano gli accessi alle aree di questo sito web. Si prega di contattare l'amministratore di sistema per modificare le restrizioni di accesso.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Ruoli^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Vi preghiamo di compilare questo modulo e fare clic sul pulsante OK per creare un nuovo utente. Fare clic su Annulla per tornare alla schermata precedente.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Nuovo utente^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Questo account sarà creato come approvato.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplica indirizzo di posta elettronica.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Chiave duplicata.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplica nome utente.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Statistiche Attività ^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Questo account utente è stato approvato^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Queste sono le statistiche dei tentativi di login falliti da questo utente. <br/> <br/> L’ utente sarà bloccato dopo aver raggiunto un numero massimo di tentativi di login falliti. <br/> <br/> Gli utenti bloccati saranno in grado di accedere di nuovo dopo la data esposta nel campo Data tentativo fallito password da Start di Windows. <br/> <br/> Gli utenti che non sono riusciti a recuperare la password potranno farlo dopo la data esposta nel campo Data tentativo fallito password da Start di Windows. <br/> <br/> È possibile ripristinare la capacità dell'utente di login impostando il flag bloccato a 'No'.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Statistiche di Login^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Durante il recupero di una password dimenticata all'utente verrà chiesto di immettere un nome utente. Se l’ account utente esiste verrà chiesto di rispondere ad una domanda di sicurezza. Una risposta corretta attiverà una e-mail con una password temporanea da inviare all'utente. <br/><br/> Cambiare il flag bloccato a 'No' se l'utente è stato bloccato dopo aver raggiunto un numero massimo di tentativi di login falliti e si desidera consentire all'utente di accedere di nuovo.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Recupero Password ^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Si prega di selezionare i ruoli utente che più  corrispondono alle responsabilità dell'utente. I ruoli controllano gli accessi alle aree di questo sito web. Si prega di contattare l'amministratore di sistema se si desidera modificare le restrizioni di accesso. <br/> <br/> Inserisci qui eventuali commenti su questo account utente. Il commento non è visibile all'utente.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Informazioni utente^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Leggere le informazioni dell'utente qui sotto. Fare clic su Modifica per cambiare questo record, fare clic su Elimina per eliminare il record, o su Annulla / Chiudi per tornare indietro.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Controlla dati utente^EditFormViewLabel^
+
+^Email^E-mail^Email^
+
+^EnterCurrentPassword^Inserisci la password corrente.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Si prega di inserire una password di risposta.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Errore di salvataggio account utente.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Numero di tentativi di password sbagliata^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^ Numero di tentativi di password sbagliata da Start di Windows^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Numero di tentativi falliti di password ^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Data tentativo fallito password da Start di Windows^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Questa è una lista di utenti.^GridViewHeaderText^
+
+^GridViewLabel^Tutti gli utenti^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Rispondere alla seguente domanda per ricevere la password. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Conferma dell’ identità^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Vi preghiamo di compilare questo modulo e cliccare sul pulsante Submit per recuperare la password dimenticata. Fare clic su Annulla per tornare alla schermata precedente.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Recupero Password: Fase 2 di 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Risposta non valida  alla domanda di  recupero password.^InvalidAnswer^
+
+^InvalidEmail^Indirizzo email non valido.^InvalidEmail^
+
+^InvalidPassword^Password errata.^InvalidPassword^
+
+^InvalidProviderUserKey^Utente non valido.^InvalidProviderUserKey^
+
+^InvalidQuestion^domanda di recupero password non valida.^InvalidQuestion^
+
+^InvalidUserName^Nome utente non valido.^InvalidUserName^
+
+^IsApproved^È approvato^IsApproved^
+
+^IsLockedOut^È bloccato^IsLockedOut^
+
+^LastLockoutDate^Ultima data di blocco^LastLockoutDate^
+
+^LastLoginDate^Ultima Data di Login^LastLoginDate^
+
+^LastPasswordChangedDate^Ultima data di modifica password^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Password risposta (non visualizzata per vostra protezione)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Inserisci la tua password attuale per creare una nuova password, aggiornare il tuo indirizzo e-mail o per cambiare la domanda e la risposta di recupero password.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Password corrente^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Si prega di rivedere le informazioni esposte qui di seguito. Fare clic su Aggiorna mio account per cambiare questo record, o su Annulla per tornare indietro.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Il mio account^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Inserisci la nuova password. Si noti che la password deve essere di almeno 7 caratteri e deve includere almeno un carattere non alfanumerico (es: %).^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nuova password (opzionale)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Durante il recupero di una password dimenticata vi verrà chiesto di inserire il vostro nome utente. Se l’ account utente esiste bisognerà rispondere ad una domanda per recupero password. Una risposta corretta attiverà una e-mail con una password temporanea da inviare all’ utente.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Recupero Password (opzionale)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nuova password^NewPassword^
+
+^NewPasswordAlert^Una nuova password è stata inviata all’ indirizzo indicato.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^La nuova password e la conferma non corrispondono.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^La nuova password non è valida.^NewPasswordInvalid^
+
+^NewPasswordSubject^Nuova password per \'{0} \ '.^NewPasswordSubject^
+
+^OldPassword^Vecchia password^OldPassword^
+
+^Password^Password^Password^
+
+^PasswordAndConfirmationDoNotMatch^La password e la conferma non corrispondono.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Password risposta^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^La password non esiste.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Formato della password^PasswordFormat^
+
+^PasswordQuestion^Domanda password^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Si prega di inserire un nome utente. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Dimenticata la password?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Vi preghiamo di compilare questo modulo e fare clic su Continua per recuperare la password dimenticata. Fare clic su Annulla per tornare alla schermata precedente.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Recupero Password: Passo 1 di 2^PasswordRequestViewLabel^
+
+^ProviderError^Provider error.^ProviderError^
+
+^RequestPasswordActionHeaderText^Prossimo^RequestPasswordActionHeaderText^
+
+^Roles^Ruoli^Roles^
+
+^SelfRegisteredUser^Utente auto-registrato.^SelfRegisteredUser^
+
+^SignUp^Registrazione^SignUp^
+
+^SignUpViewHeaderText^Vi preghiamo di compilare questo modulo e fare clic sul pulsante OK per creare un account. Fare clic su Annulla per tornare alla schermata precedente.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Accedi all’ account^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Si prega di inserire il nome utente e password. Si noti che la password deve essere di almeno 7 caratteri e deve includere almeno un carattere non alfanumerico (es: %). Solo gli utenti approvati saranno in grado di accedere al sito.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Informazioni Utente ^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Questi campi sono necessari per aiutare a recuperare una password dimenticata. Durante il processo di recupero vi verrà chiesto di inserire un nome utente. Se l’ account utente esiste dovrete rispondere ad una domanda di sicurezza. Una risposta corretta attiverà una e-mail con una password temporanea da inviare all'e-mail registrata.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Recupero Password ^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Aggiorna il mio account^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^L'utente non può essere bloccato. Se si vuole evitare che questo utente possa essere in grado di accedere definite l’ utente come 'non-approvato'.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^L’ utente '{0}' è stato eliminato.^UserHasBeenDeleted^
+
+^UserName^Nome Utente^UserName^
+
+^UserNameDoesNotExist^Il nome utente non esiste.^UserNameDoesNotExist^
+
+^UserNotFound^Utente non trovato.^UserNotFound^
+
+^UserRejected^L’ Utente è stato respinto.^UserRejected^
+
+^UsersInRolesGridHeaderText^Questa è una lista di utenti che  appartengono al ruolo selezionato.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Utenti nel ruolo^UsersInRolesGridLabel^
+

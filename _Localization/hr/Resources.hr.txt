@@ -1,0 +1,49 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Pribilježi^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Prilog <b>{1}</b> {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentFieldHeaderText^{0} ({1}) Prilog <b>{2}</b> {3}^AnnotationAttachmentFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Privici^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Unesite dodatne napomene i priložite datoteke.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Bilješke i prilozi^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Priložen {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteFieldHeaderText^{0} ({1}) Priložen {2}^AnnotationNoteFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Bilješke^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Bilješke & Privici^AnnotationTab^
+
+^BlobClearConfirm^Brisati?^BlobClearConfirm^
+
+^BlobCleared^<b>Potvrda :</b> {0} Izbrisan.^BlobCleared^
+
+^BlobClearText^Briši^BlobClearText^
+
+^BlobUploadError^<b>Greška :</b> Nije učitano {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Kliknite^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^ovdje^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^za prijenos ili brisanje datoteke.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Potvrda :</b> {0} Je učitana uspješno. <b>Učitavanje sadržaja može potrajati i do {1} minuta.</b>^BlobUploded^
+
+^Copyright^Sva prava pridržana.^Copyright^
+
+^RecordChangedByAnotherUser^Zapis je promijenjen od strane drugog korisnika.^RecordChangedByAnotherUser^
+

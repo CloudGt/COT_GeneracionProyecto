@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^לכתוב הערות^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b>{1}</b> מצורף ב {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^התקשרות^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^הזן הערות אופציונלי לצרף קבצים.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^הערות קבצים מצורפים^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} נכתב ב {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^הערות^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^הערות^AnnotationTab^
+
+^BlobClearConfirm^ברור?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} נוקתה.^BlobCleared^
+
+^BlobClearText^ברור^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> נכשלה {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^לחץ^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^כאן^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^כדי להעלות קובץ או נקה {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} הועלתה בהצלחה. <b>It עשוי להימשך עד {1} דקות על התמונה הממוזערת כדי לשקף את content.</b> נטען^BlobUploded^
+
+^Copyright^כל הזכויות שמורות.^Copyright^
+
+^RecordChangedByAnotherUser^הרשומה שונתה על ידי משתמש אחר.^RecordChangedByAnotherUser^
+

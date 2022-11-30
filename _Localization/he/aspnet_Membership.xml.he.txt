@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^צור רשומת משתמש חדש.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^משתמש חדש^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^חדש^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^בחזרה^BackToRequestPasswordActionHeaderText^
+
+^Comment^הערה^Comment^
+
+^ConfirmIdentityActionHeaderText^לגמור^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^אשר סיסמה חדשה^ConfirmNewPassword^
+
+^ConfirmPassword^אישור סיסמה^ConfirmPassword^
+
+^CreateDate^תאריך יצירה^CreateDate^
+
+^CreateFormCommentCategoryDescription^הזן הערות נוספות בנוגע לחשבון זה המשתמש. תגובות אינו גלוי למשתמש.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^תגובות^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^אנא הכנס שם משתמש וסיסמה. שים לב הסיסמה חייב להיות לפחות 7 תווים לכלול אחד שאינו אלפאנומרי אופי. רק משתמשים שאושרו יוכלו להיכנס לתוך האתר.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^פרטי משתמש חדש^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^שדות אלה נדרשים כדי לסייע למשתמש לשחזר סיסמה שנשכחה. במהלך תהליך ההתאוששות המשתמש יתבקש להזין שם משתמש. אם חשבון המשתמש קיים אז השאלה ביטחון מתבקש לענות. התשובה הנכונה יפעילו מייל עם סיסמה זמנית לשלוח למשתמש.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^שחזור סיסמה^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^נא לבחור תפקידים המשתמש צמוד ביותר להתאים האחריות של המשתמש. תפקידי בקרת גישה לאזורים באתר זה. אנא פנה למנהל המערכת אם הגבלות גישה תפקיד חייב להיות שונה.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^תפקידים^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^נא למלא את הפרטים ולחץ על כפתור אישור כדי ליצור שיא חדש לחברות המשתמש. לחץ על ביטול כדי לחזור למסך הקודם.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^משתמש חדש^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^חשבון זה משתמש תיווצר כפי שאושר.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^שכפל את כתובת הדוא&quot;ל.^DuplicateEmail^
+
+^DuplicateProviderUserKey^שכפול מפתח ספק.^DuplicateProviderUserKey^
+
+^DuplicateUserName^שכפל את שם המשתמש.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^פעילות לסטטיסטיקה^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^חשבון זה משתמש מאושר^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^אלה הם הנתונים הסטטיסטיים של ניסיונות ההתחברות נכשלה ידי משתמש זה. <br/> <br/> המשתמש יהיה נעול החוצה לאחר שהגיע מספר מרבי של ניסיונות ההתחברות נכשלה. <br/> <br/> נעול מחוץ משתמשים יוכלו להתחבר שוב לאחר מועד ב &#39;התחל&#39; נכשל ניסיון סיסמה חלון. <br/> <br/> משתמשים אשר הצליחו לשחזר את הסיסמה יוכלו כל כך לאחר תאריך התחלה של תשובה נכשל ניסיון סיסמה חלון. <br/> <br/> ניתן לשחזר את יכולתו של המשתמש להתחבר באמצעות הגדרת דגל נעול החוצה &#39;לא&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^כניסה סטטיסטיקה^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^במהלך ההתאוששות של הסיסמה נשכח המשתמש יתבקש להזין שם משתמש. אם חשבון המשתמש קיים אז השאלה ביטחון מתבקש לענות. התשובה הנכונה יפעילו מייל עם סיסמה זמנית לשלוח למשתמש. <br/><br/> שנה נעול מחוץ דגל &#39;לא&#39; אם המשתמש כבר נעול החוצה לאחר שהגיע מספר מרבי של ניסיונות כניסה כושלים ברצונך לאפשר למשתמש להתחבר שוב.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^שחזור סיסמה^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^נא לבחור תפקידים המשתמש צמוד ביותר להתאים האחריות של המשתמש. תפקידי בקרת גישה לאזורים באתר זה. אנא פנה למנהל המערכת אם הגבלות גישה תפקיד חייב להיות שונה. <br/> <br/> הזן הערות נוספות בנוגע לחשבון זה המשתמש. תגובות אינו גלוי למשתמש.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^פרטי המשתמש^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^אנא קרא לחברות מידע המשתמש להלן. לחץ על ערוך לשינוי זה שיא, לחץ על מחיקה כדי למחוק את הרשומה, או לחץ על ביטול / סגירה כדי לחזור בחזרה.^EditFormViewHeaderText^
+
+^EditFormViewLabel^סקירה משתמש^EditFormViewLabel^
+
+^Email^דוא&quot;ל^Email^
+
+^EnterCurrentPassword^אנא הכנס את הסיסמה הנוכחית שלך.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^נא להזין את הסיסמה התשובה.^EnterPasswordAnswer^
+
+^ErrorSavingUser^שגיאה בשמירת חשבון משתמש.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^נכשל ניסיון תשובה סיסמה הרוזן^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^נכשל ניסיון תשובה סיסמה חלון התחלה^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^נכשל ניסיון סיסמה הרוזן^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^נכשל ניסיון סיסמה חלון התחלה^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^זוהי רשימה של רשומות המשתמש החברות.^GridViewHeaderText^
+
+^GridViewLabel^כל המשתמשים^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^תשובה על השאלה הבאה כדי לקבל את הסיסמה שלך. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^זהות אישור^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^נא למלא את הפרטים ולחץ על כפתור שלח כדי לשחזר את הסיסמה נשכח. לחץ על ביטול כדי לחזור למסך הקודם.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^שחזור סיסמה: שלב 2 מתוך 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^חוקי שחזור סיסמה התשובה.^InvalidAnswer^
+
+^InvalidEmail^כתובת דוא&quot;ל לא חוקית.^InvalidEmail^
+
+^InvalidPassword^סיסמה לא חוקית.^InvalidPassword^
+
+^InvalidProviderUserKey^משתמש לא חוקי ספקית מפתח.^InvalidProviderUserKey^
+
+^InvalidQuestion^חוקי שחזור סיסמה שאלה.^InvalidQuestion^
+
+^InvalidUserName^לא חוקי את שם המשתמש.^InvalidUserName^
+
+^IsApproved^אושרה^IsApproved^
+
+^IsLockedOut^נעול בחוץ^IsLockedOut^
+
+^LastLockoutDate^נעילת אחרונה תאריך^LastLockoutDate^
+
+^LastLoginDate^ביקור אחרון תאריך^LastLoginDate^
+
+^LastPasswordChangedDate^סיסמה אחרונה השתנה תאריך^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^סיסמה תשובה (לא מוצג להגנת שלך)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^אנא הכנס את הסיסמה הנוכחית שלך כדי ליצור סיסמה חדשה, עדכון כתובת הדוא&quot;ל שלך, או שינוי הסיסמה, השאלה והתשובה התאוששות.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. סיסמה נוכחית^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^נא לעיין במידע החברות שלך למטה. לחץ על עדכן החשבון שלי לשנות את זה שיא, או לחץ על ביטול כדי לחזור בחזרה.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^החשבון שלי^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^הזן את הסיסמה החדשה. שים לב הסיסמה חייב להיות לפחות 7 תווים לכלול אחד שאינו אלפאנומרי אופי.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. סיסמה חדשה (אופציונלי)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^במהלך ההתאוששות של הסיסמה נשכח תתבקשו להזין את שם המשתמש שלך. אם חשבון המשתמש קיים אז השאלה סיסמה יש להשיב. התשובה הנכונה יפעילו מייל עם סיסמה זמנית לשלוח לך.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. דואר אלקטרוני סיסמא שחזור &amp; (אופציונאלי)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^סיסמה חדשה^NewPassword^
+
+^NewPasswordAlert^סיסמה חדשה כבר בדוא&quot;ל לכתובת על הקובץ.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^אישור סיסמה חדשה אינם תואמים.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^הסיסמה החדשה שלך אינה חוקית.^NewPasswordInvalid^
+
+^NewPasswordSubject^סיסמא חדשה \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^ישן סיסמה^OldPassword^
+
+^Password^סיסמה^Password^
+
+^PasswordAndConfirmationDoNotMatch^סיסמה ואישור אינם תואמים.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^סיסמה תשובה^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^הסיסמה שלך אינו תואם הרשומות שלנו.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^סיסמה עיצוב^PasswordFormat^
+
+^PasswordQuestion^שאלה סיסמה^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^נא להזין שם משתמש. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^שכחת את הסיסמה?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^נא למלא את הפרטים ולחץ על המשך כפתור כדי לשחזר את הסיסמה נשכח. לחץ על ביטול כדי לחזור למסך הקודם.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^שחזור סיסמה: שלב 1 מתוך 2^PasswordRequestViewLabel^
+
+^ProviderError^ספק שגיאה.^ProviderError^
+
+^RequestPasswordActionHeaderText^הבא^RequestPasswordActionHeaderText^
+
+^Roles^תפקידים^Roles^
+
+^SelfRegisteredUser^עצמי משתמש רשום.^SelfRegisteredUser^
+
+^SignUp^הרשמה^SignUp^
+
+^SignUpViewHeaderText^נא למלא את הפרטים ולחצו על OK כדי להירשם לחשבון. לחץ על ביטול כדי לחזור למסך הקודם.^SignUpViewHeaderText^
+
+^SignUpViewLabel^חשבון הירשם^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^אנא הכנס שם משתמש וסיסמה. שים לב הסיסמה חייב להיות לפחות 7 תווים לכלול אחד שאינו אלפאנומרי אופי. רק משתמשים שאושרו יוכלו להיכנס לתוך האתר.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^פרטי משתמש חדש^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^שדות אלה נדרשים כדי לעזור לך לשחזר סיסמה שנשכחה. במהלך תהליך ההתאוששות תתבקשו להזין שם משתמש. אם חשבון המשתמש קיים אז השאלה ביטחון מתבקש לענות. התשובה הנכונה יפעילו מייל עם סיסמה זמנית לשלוח לדוא&quot;ל רשום.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^שחזור סיסמה^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^עדכון החשבון שלי^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^המשתמש לא ייחסם. אם אתה רוצה למנוע את זה מהמשתמש את היכולת להתחבר ואז פשוט לסמן המשתמש כמו &quot;לא מאושרות&quot;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^&#39;{0}&#39; המשתמש נמחק.^UserHasBeenDeleted^
+
+^UserName^שם משתמש^UserName^
+
+^UserNameDoesNotExist^שם משתמש אינו קיים.^UserNameDoesNotExist^
+
+^UserNotFound^המשתמש לא נמצא.^UserNotFound^
+
+^UserRejected^המשתמש נדחתה.^UserRejected^
+
+^UsersInRolesGridHeaderText^זוהי רשימה של המשתמש רשומות החברות השייכות תפקיד נבחר.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^משתמשים בתפקיד^UsersInRolesGridLabel^
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project xmlns="http://www.codeontime.com/2008/code-generator"
+         xmlns:ontime="http://www.codeontime.com/2008/code-generator"
+         xmlns:a="urn:schemas-codeontime-com:data-aquarium-project"
+         xmlns:c="urn:schemas-codeontime-com:data-aquarium"
+         debug="false"
+>
+	<information>
+		<product>COT201106-UNL</product>
+		<title>Code OnTime Unlimited</title>
+		<description>Code OnTime Unlimited</description>
+		<vendor>Code OnTime LLC</vendor>
+		<website>http://www.codeontime.com</website>
+		<about>http://www.codeontime.com/products</about>
+		<demo>http://www.codeontime.com/demo</demo>
+	</information>
+	<build>
+    <navigate url="http://www.codeontime.com/products.aspx?2f6021a6-063a-45f5-b148-54229215195d"/>
+	</build>
+	<actions>
+	</actions>
+</project>

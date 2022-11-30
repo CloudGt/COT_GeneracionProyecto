@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Noin^About^
+
+^Accent^Aksentti^Accent^
+
+^ActionBarActionsHeaderText^Toiminnot^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Peruuta^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Peruuta kaikki kirjataan muutokset.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Peruuta uusi ennätys.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Tallenna uusi ennätys tietokantaan.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Tallenna^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Luo uusi {0} ennätys.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^Uusi {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Uusi^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Ennätys^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Raportti^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Tallenna muutokset tietokantaan.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Tallenna^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Lisää tili^AddAccount^
+
+^AddCondition^Lisää Kunto^AddCondition^
+
+^AddConditionText^Lisää hakuehto^AddConditionText^
+
+^AddItem^Lisää tavara^AddItem^
+
+^AddMatchingGroup^Lisää vastaavia ryhmä^AddMatchingGroup^
+
+^AddSearchBarField^Lisää hakukenttiin^AddSearchBarField^
+
+^AddSystemIdentity^Lisää System Identity^AddSystemIdentity^
+
+^AddToFavorites^Lisää suosikkeihin^AddToFavorites^
+
+^AdvancedSearch^Tarkennettu haku^AdvancedSearch^
+
+^AdvancedSearchInstruction^Anna edellytyksiä, jotka on sovitettu ja paina Hae-painiketta.^AdvancedSearchInstruction^
+
+^After^Jälkeen^After^
+
+^Agenda^Esityslista^Agenda^
+
+^AlignedLeft^Tasataan vasemmalle^AlignedLeft^
+
+^AlignedRight^Tasataan oikealle^AlignedRight^
+
+^AllDatesInPreriod^Kaikki päivämäärät kaudella^AllDatesInPreriod^
+
+^AlternativeView^Valitse vaihtoehtoisen näkemyksen tietoja.^AlternativeView^
+
+^Always^Aina^Always^
+
+^AnyValue^(minkä tahansa)^AnyValue^
+
+^Apply^Sovelletaan^Apply^
+
+^Apps^sovellukset^Apps^
+
+^Aquarium^Akvaario^Aquarium^
+
+^Auto^Auto^Auto^
+
+^AutoOpenNextItem^Avaa seuraava kohde automaattisesti^AutoOpenNextItem^
+
+^AverageOf^Keskiarvo^AverageOf^
+
+^AvgAggregate^Avg: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Keskiarvo {0}^AvgAggregateToolTip^
+
+^Azure^Taivaansininen^Azure^
+
+^Back^Paluu^Back^
+
+^BackColor^Back Color^BackColor^
+
+^BatchEditActionHeaderText^Sarjan muokkaus^BatchEditActionHeaderText^
+
+^BatchEdited^{0} päivitetty^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Sarjan muokkaus (lomake)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^päivitys^BatchUpdate^
+
+^Before^Ennen^Before^
+
+^BeginsWith^Alkaa^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^Marja^Berry^
+
+^Between^Välillä^Between^
+
+^Bittersweet^Katkeransuloinen^Bittersweet^
+
+^Blank^Tyhjä^Blank^
+
+^BlankPassword^Salasana ei voi olla tyhjä.^BlankPassword^
+
+^BlankUserName^Käyttäjänimi ei voi olla tyhjä.^BlankUserName^
+
+^BlankValue^(Tyhjä)^BlankValue^
+
+^BlobDownloadHint^Klikkaa tästä ladataksesi alkuperäisen tiedoston.^BlobDownloadHint^
+
+^BlobDownloadLink^Lataa^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Napauta kuvaa ladataksesi alkuperäisen tiedoston.^BlobDownloadOriginalHint^
+
+^Blur^Hämärtää^Blur^
+
+^Bold^Rohkea^Bold^
+
+^BooleanFilterText^Looginen suodattimet^BooleanFilterText^
+
+^BooleanIsExpected^Totuusarvo on odotettavissa.^BooleanIsExpected^
+
+^ButtonShapes^painike muoto^ButtonShapes^
+
+^By^mukaan^By^
+
+^Calendar^Kalenteri^Calendar^
+
+^Cancel^Peruuta^Cancel^
+
+^Cards^Korttipeli^Cards^
+
+^Cay^Cay^Cay^
+
+^ChangeYourLanguage^Vaihda kieli^ChangeYourLanguage^
+
+^Charts^Kaaviot^Charts^
+
+^Citrus^Citrus^Citrus^
+
+^Classic^Klassinen^Classic^
+
+^ClearFilter^Poista suodatin kohteesta {0}^ClearFilter^
+
+^ClearFilter2^Tyhjennä suodatin^ClearFilter2^
+
+^ClearText^Selkeä teksti^ClearText^
+
+^ClearToolTip^Clear {0}^ClearToolTip^
+
+^Close^Sulje^Close^
+
+^Comfortable^Mukava^Comfortable^
+
+^Compact^Kompakti^Compact^
+
+^Condensed^Lyhennetty^Condensed^
+
+^ConfirmContinue^Jatkaa?^ConfirmContinue^
+
+^ConfirmReload^Päivitä?^ConfirmReload^
+
+^ConnectionLost^Verkkoyhteys on katkennut. Yritä uudelleen?^ConnectionLost^
+
+^Construct^Rakentaa^Construct^
+
+^Contains^Sisältää^Contains^
+
+^Convention^Sopimus^Convention^
+
+^Copy^Kopioi^Copy^
+
+^CountAggregate^Count: {0}^CountAggregate^
+
+^CountAggregateToolTip^Kreivi {0}^CountAggregateToolTip^
+
+^CountOf^Kreivi^CountOf^
+
+^CreateLink^Luo linkki^CreateLink^
+
+^CustomFilterOption^Suodata ...^CustomFilterOption^
+
+^Cut^Leikata^Cut^
+
+^DarkKnight^Dark Knight^DarkKnight^
+
+^DarkTheme^Pimeä^DarkTheme^
+
+^DataSheetActionDescription^Näytä kohteita käyttäen data sheet<br/>format.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Näytä Data Sheet^DataSheetActionHeaderText^
+
+^DataWarning^Enimmäismäärä kohteita prosessi on {0: d}. Klikkaa tästä suodattaa tulosta.^DataWarning^
+
+^Date^Päivämäärä^Date^
+
+^DateFilterText^Päivämääräsuodattimet^DateFilterText^
+
+^DateIsExpected^Myyntien odotetaan.^DateIsExpected^
+
+^DatesAMinAgo^minuutti sitten^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^minuutissa^DatesInAMin^
+
+^DatesInHour^tunnissa^DatesInHour^
+
+^DatesInMin^in {0} min^DatesInMin^
+
+^DatesLast^Kestää^DatesLast^
+
+^DatesMinAgo^{0} Min sitten^DatesMinAgo^
+
+^DatesNext^seuraava^DatesNext^
+
+^DatesNow^nyt^DatesNow^
+
+^DatesOneHour^tunti sitten^DatesOneHour^
+
+^DateSortAscending^Aikaisintaan Top^DateSortAscending^
+
+^DateSortDescending^Viimeistään Top^DateSortDescending^
+
+^DatesSmart^Smart Päivämäärät^DatesSmart^
+
+^DatesToday^tänään^DatesToday^
+
+^DatesTomorrow^huomenna^DatesTomorrow^
+
+^DatesYesterday^eilen^DatesYesterday^
+
+^Day^Päivä^Day^
+
+^DefaultCancelActionHeaderText^Sulje^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Täytä lomake ja napsauta OK-painiketta luodaksesi uuden {0} ennätys. Valitsemalla Peruuta voit palata edelliseen näyttöön.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^Nämä ovat aloja {0} levy, jota voi muokata.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Lue {0} alla. Klikkaa Muokkaa muuttaa tätä tietueen valitsemalla Poista voit poistaa tietueen tai valitse Peruuta / Sulje palataksesi takaisin.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Tämä on lista {0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Täytä lomake. Muista kirjoittaa kaikki vaaditut kentät.^DefaultNewDescription^
+
+^DefaultOption^Normaali^DefaultOption^
+
+^DefaultReferenceDescription^Muita tietoja {0} annetaan viitetiedot osassa.^DefaultReferenceDescription^
+
+^Delete^Poistaa^Delete^
+
+^DeleteActionConfirmation^Poista?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Poista^DeleteActionHeaderText^
+
+^Deleted^{$ valittu} poistettu^Deleted^
+
+^DeleteOriginalSel^poista alkuperäinen valinta^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Poista)^DeleteSearchBarField^
+
+^DetailsToolTip^Näytä yksityiskohdat {0}^DetailsToolTip^
+
+^DevelopExplorer^Projektinhallinta^DevelopExplorer^
+
+^DevelopFormLayout^Form sijoittelu^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^Valitse kuvaruutukoon sisällytetään asettelua.^DevelopFormLayoutInstr^
+
+^DevelopTools^Kehittäjän työkalut^DevelopTools^
+
+^Device^Laite^Device^
+
+^DeviceLoginPrompt^Kirjaudu sisään valtuuttamalla tämän laitteen käyttöoikeudet.^DeviceLoginPrompt^
+
+^DidNotMatch^Ei vastannut^DidNotMatch^
+
+^Directions^Ohjeet^Directions^
+
+^DiscardChanges^Hylkää muutokset?^DiscardChanges^
+
+^DisplayDensity^Näytön tiheys^DisplayDensity^
+
+^DisplayedAbove^Yläpuolella näkyvän^DisplayedAbove^
+
+^DisplayedBelow^Näkyvissä alla^DisplayedBelow^
+
+^Dock^Kytkeä^Dock^
+
+^DoesNotBeginWith^Ei ala^DoesNotBeginWith^
+
+^DoesNotContain^Ei sisällä^DoesNotContain^
+
+^DoesNotEndWith^Ei lopu^DoesNotEndWith^
+
+^DoesNotEqual^Ei vastaa^DoesNotEqual^
+
+^DoesNotInclude^Ei sisällä^DoesNotInclude^
+
+^DoNotMatchAll^Älä vastaa kaikissa olosuhteissa^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Ei vastannut kaikissa olosuhteissa^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Älä vastaa mitään ehtoja^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Ei vastannut mitään ehtoja^DoNotMatchAnyPastTense^
+
+^Download^ladata^Download^
+
+^Draw^Tasapeli^Draw^
+
+^DuplicateActionHeaderText^Kaksoiskappale^DuplicateActionHeaderText^
+
+^DuplicateItem^Kopioi kohde^DuplicateItem^
+
+^DuplicateRow^Duplicate Row^DuplicateRow^
+
+^EditActionHeaderText^Muokkaa^EditActionHeaderText^
+
+^EditItem^Muokkaa kohdetta^EditItem^
+
+^EditModeCancelActionHeaderText^Peruuta^EditModeCancelActionHeaderText^
+
+^EditRow^Muokkaa riviä^EditRow^
+
+^Empty^Tyhjä^Empty^
+
+^EmptyContext^Toiminnot eivät ole käytettävissä.^EmptyContext^
+
+^EmptyValue^(Tyhjä)^EmptyValue^
+
+^Enable^ota käyttöön^Enable^
+
+^EndsWith^Loppuu^EndsWith^
+
+^Equals^Yhtä^Equals^
+
+^Eraser^Pyyhekumi^Eraser^
+
+^Error^Virhe^Error^
+
+^Exit^poistuminen^Exit^
+
+^ExitFullscreen^Poistu koko näytön^ExitFullscreen^
+
+^ExportCsvActionDescription^Lataa kohteet CSV-muodossa.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Download^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Analysoi kohteita spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Vie laskentataulukkoon^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Syndicate kohteita RSS-lukijaan.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^Katso RSS syöte^ExportRssActionHeaderText^
+
+^Favorites^Suosikit^Favorites^
+
+^Felt^Huopa^Felt^
+
+^FileCleared^Arvo tyhjennetään tallennettaessa^FileCleared^
+
+^FilesBytes^tavua^FilesBytes^
+
+^FilesClear^Kirkas^FilesClear^
+
+^FilesClearConfirm^Kirkas?^FilesClearConfirm^
+
+^FilesClick^Valitse tiedosto^FilesClick^
+
+^FilesClickMany^Valitse tiedostot^FilesClickMany^
+
+^FilesDrop^Pudota tiedosto tästä^FilesDrop^
+
+^FilesDropMany^Pudota tiedostot tähän^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Napauta Valitse tiedosto^FilesTap^
+
+^FilesTapMany^Napauta valitaksesi tiedostot^FilesTapMany^
+
+^Filter^Suodatin^Filter^
+
+^FilterApplied^Suodatin on sovellettu.^FilterApplied^
+
+^FilterByField^Valitse kenttä soveltaa suodatinta <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Valitse yksi tai useampia vaihtoehtoja alla olevasta listasta ja paina <b>{2}</b> suodattaa <b>{0}</b> kentän <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Poista kaikki suodattimet.^FilterCleared^
+
+^FilterLabelAnd^ja^FilterLabelAnd^
+
+^FilterLabelClear^Tyhjennä^FilterLabelClear^
+
+^FilterLabelEquals^vastaa^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Muuta^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^sisältää^FilterLabelIncludes^
+
+^FilterLabelOr^tai^FilterLabelOr^
+
+^FilterLabelSelectAll^(Valitse kaikki)^FilterLabelSelectAll^
+
+^FilterSiteMap^Suodatin site map ...^FilterSiteMap^
+
+^Finish^Suorittaa loppuun^Finish^
+
+^FitToWidth^Sovita Leveys^FitToWidth^
+
+^FlatTreeToggle^Vaihda Hierarkia^FlatTreeToggle^
+
+^FontName^Fontin nimi^FontName^
+
+^FontSize^Fontin koko^FontSize^
+
+^ForeColor^Fore Color^ForeColor^
+
+^Forget^Unohtaa^Forget^
+
+^ForgotYourPassword^Unohtuiko salasana?^ForgotYourPassword^
+
+^Format^Muoto^Format^
+
+^Freeze^Jäätyä^Freeze^
+
+^From^alkaen^From^
+
+^Fullscreen^Koko näyttö^Fullscreen^
+
+^Future^Tulevaisuus^Future^
+
+^GeneralTabText^Yleinen^GeneralTabText^
+
+^Generate^Tuottaa^Generate^
+
+^GenericNewToolTip^Luo uusi^GenericNewToolTip^
+
+^GenericSortAscending^Pienimmistä Top^GenericSortAscending^
+
+^GenericSortDescending^Laajin Top^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Loppusummat^GrandTotals^
+
+^Granite^Graniitti^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Painovoima^Gravity^
+
+^GreaterThan^Suurempi kuin^GreaterThan^
+
+^GreateThanOrEqual^Suurempi tai yhtä suuri^GreateThanOrEqual^
+
+^Grid^Ruudukko^Grid^
+
+^GridActionDescription^Näytä kohteet standard<br/>list muodossa.^GridActionDescription^
+
+^GridActionHeaderText^Show vakionäkymässä^GridActionHeaderText^
+
+^Group^Ryhmä^Group^
+
+^GroupByField^Valitse kenttä ryhmän <b>{0}</b>.^GroupByField^
+
+^Grouped^ryhmitelty^Grouped^
+
+^GroupedBy^Ryhmitelty^GroupedBy^
+
+^GroupedDefault^Ryhmittely on poistettu^GroupedDefault^
+
+^Heading1^Otsikko 1^Heading1^
+
+^Heading2^Otsikko 2^Heading2^
+
+^Heading3^Otsikko 3^Heading3^
+
+^Heading4^Otsikko 4^Heading4^
+
+^Heading5^Otsikko 5^Heading5^
+
+^Heading6^Otsikko 6^Heading6^
+
+^Help^Apua^Help^
+
+^HelpClose^Sulje^HelpClose^
+
+^HelpFullScreen^Koko näyttö^HelpFullScreen^
+
+^Hide^Piilottaa^Hide^
+
+^HideAdvancedSearch^Piilota Tarkennettu haku^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Vaihda Flat List^HierarchyTreeModeToggle^
+
+^Highlighter^Korostuskynä^Highlighter^
+
+^History^Historia^History^
+
+^HistoryToolTip^Näytä historia aiemmin valitun kirjanpidon^HistoryToolTip^
+
+^HistoryUnavailable^Historia ei ole käytettävissä.^HistoryUnavailable^
+
+^Home^Koti^Home^
+
+^IdleUser^Oletko vielä siellä? Kirjaudu uudelleen.^IdleUser^
+
+^ImportActionDescription^Lataa CSV, XLS, tai XLSX file<br/>to tuonti kirjaa.^ImportActionDescription^
+
+^ImportActionHeaderText^Tuo tiedostosta^ImportActionHeaderText^
+
+^ImportAutoDetect^(Automaattinen tunnistus)^ImportAutoDetect^
+
+^ImportComplete^saattaa loppuun^ImportComplete^
+
+^ImportDone^Valmiit tuova^ImportDone^
+
+^ImportDownloadTemplate^Lataa tuo tiedosto malli.^ImportDownloadTemplate^
+
+^ImportDuplicates^Kopiot^ImportDuplicates^
+
+^ImportEmail^Lähetä tuonti loki seuraaviin sähköpostiosoitteisiin (valinnainen)^ImportEmail^
+
+^ImportEmailNotSpecified^Vastaanottaja tuonti log ei ole määritelty. Haluatko silti jatkaa?^ImportEmailNotSpecified^
+
+^ImportExpected^Odotetaan valmistuvan^ImportExpected^
+
+^ImportFileStats^On <b>{0}</b> tietueisiin <b>{1}</b> valmis käsiteltäväksi. Ole hyvä ja vastaavat kenttien nimet.^ImportFileStats^
+
+^Importing^tuominen^Importing^
+
+^ImportMappingInstruction^On <b>{0}</b> ennätys (t) tiedosto <b>{1}</b> valmis processed.<br/>Please kartta tuoda kentät tiedostossasi sovelluksen tiedot ja klikkaa <i>Import</i> aloittaa käsittelyn.^ImportMappingInstruction^
+
+^ImportNotSupported^Tietojen muoto &quot;{0}&quot; ei tueta.^ImportNotSupported^
+
+^ImportProcessing^Tuo tiedostojen käsittely on aloitettu. Tuodut tietueet tulevat saataville Onnistuneen käsittelyn. Voit joutua päivittämään asiaan views / sivuillasi tuotu kirjaa.^ImportProcessing^
+
+^ImportRemaining^Odotetaan valmistuvan^ImportRemaining^
+
+^ImportSelectFile^Valitse data CSV, XLS, tai XLSX muodossa.^ImportSelectFile^
+
+^ImportStartButton^Tuonti^ImportStartButton^
+
+^ImportUploading^Sinun tiedoston lähettäminen palvelimelle. Odota ...^ImportUploading^
+
+^ImportUploadInstruction^Valitse lähetettävä tiedosto. Tiedoston on <b>CSV</b>, <b>XLS</b> tai <b>XLSX</b> muodossa.^ImportUploadInstruction^
+
+^In^sisään^In^
+
+^Includes^Sisältää^Includes^
+
+^Indent^Luetelmakohta^Indent^
+
+^InfoBarAnd^ja^InfoBarAnd^
+
+^InfoBarEmpty^tyhjä^InfoBarEmpty^
+
+^InfoBarEqualTo^on yhtä suuri^InfoBarEqualTo^
+
+^InfoBarGreaterThan^on suurempi kuin^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^on suurempi tai yhtä suuri^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^on alle^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^on pienempi tai yhtä suuri^InfoBarLessThanOrEqual^
+
+^InfoBarLike^on kuin^InfoBarLike^
+
+^InfoBarOr^tai^InfoBarOr^
+
+^InfoBarQuickFind^Jokainen kenttä sisältää^InfoBarQuickFind^
+
+^InfoBarStartsWith^alkaa^InfoBarStartsWith^
+
+^InitialListMode^Alustava luettelo tila^InitialListMode^
+
+^InlineEditing^Inline-muokkaus^InlineEditing^
+
+^InsertActionHeaderText^OK^InsertActionHeaderText^
+
+^InsertHorizontalRule^Aseta Vaakaviiva^InsertHorizontalRule^
+
+^InsertingRecords^lisääminen kirjaa^InsertingRecords^
+
+^InsertOrderedList^Aseta Järjestetty lista^InsertOrderedList^
+
+^InsertUnorderedList^Lisää Järjestämätön lista^InsertUnorderedList^
+
+^Into^osaksi^Into^
+
+^InvalidUserNameAndPassword^Käyttäjänimesi ja salasanasi eivät ole voimassa.^InvalidUserNameAndPassword^
+
+^Italic^Kursiivi-^Italic^
+
+^ItemsPerPage^Tuotteita per sivu:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} Valittua kohdetta^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Kohde valittu^ItemsSelectedOne^
+
+^JustDatesNow^Juuri nyt^JustDatesNow^
+
+^JustifyCenter^Tasaa keskelle^JustifyCenter^
+
+^JustifyFull^Perustele Full^JustifyFull^
+
+^JustifyLeft^Perustele Vasen^JustifyLeft^
+
+^JustifyRight^Tasaa oikealle^JustifyRight^
+
+^KeepOriginalSel^pidä alkuperäinen valinta^KeepOriginalSel^
+
+^LabelsInList^Tarrat In List^LabelsInList^
+
+^Lacquer^Lakka^Lacquer^
+
+^Laminate^Laminaatti^Laminate^
+
+^Landscape^Maisema^Landscape^
+
+^Large^Suuri^Large^
+
+^LastMonth^Viime kuukausi^LastMonth^
+
+^LastQuarter^Viimeisellä neljänneksellä^LastQuarter^
+
+^LastWeek^Viime viikko^LastWeek^
+
+^LastYear^Viime vuonna^LastYear^
+
+^Less^Vähemmän^Less^
+
+^LessThan^Less Than^LessThan^
+
+^LessThanOrEqual^Pienempi tai yhtä suuri^LessThanOrEqual^
+
+^Lichen^Jäkälä^Lichen^
+
+^LightTheme^Valo^LightTheme^
+
+^Line^Linja^Line^
+
+^List^Lista^List^
+
+^ListOneColumn^List (yksi sarake)^ListOneColumn^
+
+^ListViewStyle^Lista^ListViewStyle^
+
+^Loading^Ladataan ...^Loading^
+
+^Logical^Looginen^Logical^
+
+^LoginButton^Kirjautuminen^LoginButton^
+
+^LoginLink^Kirjautuminen^LoginLink^
+
+^Logout^Kirjaudu ulos^Logout^
+
+^LookupInstruction^Valitse <b>{0}</b> luettelosta.^LookupInstruction^
+
+^LookupOriginalSelection^Alkuperäinen valinta on <b>&quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^tilien hallinta^ManageAccounts^
+
+^Map^Kartta^Map^
+
+^MatchAll^Ottelun kaikki edellytykset^MatchAll^
+
+^MatchAllPastTense^Hyväksytty kaikissa olosuhteissa^MatchAllPastTense^
+
+^MatchAny^Ottelun kaikki ehdot^MatchAny^
+
+^MatchAnyPastTense^Hyväksytty mitään ehtoja^MatchAnyPastTense^
+
+^Matched^Hyväksytty^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Enintään {0}^MaxAggregateToolTip^
+
+^Maximize^Laajenna^Maximize^
+
+^MaximumOf^Enintään^MaximumOf^
+
+^Medium^Keskikokoinen^Medium^
+
+^Menu^Menu^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^Vähintään {0}^MinAggregateToolTip^
+
+^Minimize^Romahtaa^Minimize^
+
+^MinimumOf^Vähintään^MinimumOf^
+
+^Mission^Tehtävä^Mission^
+
+^ModeBrowsing^Selailu^ModeBrowsing^
+
+^ModeEditing^Editointi^ModeEditing^
+
+^ModeEntering^Luominen^ModeEntering^
+
+^ModeLookup^Haku^ModeLookup^
+
+^Modern^Nykyaikainen^Modern^
+
+^ModernRose^Modern Rose^ModernRose^
+
+^ModeViewing^Katselu^ModeViewing^
+
+^Month^Kuukausi^Month^
+
+^More^Lisää^More^
+
+^MultiSelection^MultiSelection^MultiSelection^
+
+^Municipal^Kunnallinen^Municipal^
+
+^MyAccount^Oma tilini^MyAccount^
+
+^Never^Ei koskaan^Never^
+
+^NewActionHeaderText^Uusi^NewActionHeaderText^
+
+^NewItem^Uusi kohde^NewItem^
+
+^NewRow^Uusi rivi^NewRow^
+
+^NewRowLink^Klikkaa tästä luodaksesi uusi ennätys.^NewRowLink^
+
+^NewToolTip^Uusi {0}^NewToolTip^
+
+^Next^Seuraava^Next^
+
+^Next2^Seuraava^Next2^
+
+^NextMonth^Ensi kuussa^NextMonth^
+
+^NextQuarter^Seuraava Quarter^NextQuarter^
+
+^NextWeek^Ensi viikolla^NextWeek^
+
+^NextYear^Seuraava vuosi^NextYear^
+
+^No^Ei^No^
+
+^NoMatches^Ei osumia.^NoMatches^
+
+^None^Ei mitään^None^
+
+^Noon^Keskipäivä^Noon^
+
+^NoRecords^Ei hakutuloksia.^NoRecords^
+
+^NoteDeleteConfirm^Poista?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^poistaa^NoteDeleteLabel^
+
+^NoteEditLabel^Muokkaa^NoteEditLabel^
+
+^NotEmpty^Ei Tyhjä^NotEmpty^
+
+^NotMatched^(Ei vastaa)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^Numero^Number^
+
+^NumberFilterText^Numerosuodattimet^NumberFilterText^
+
+^NumberIsExpected^Määrän odotetaan.^NumberIsExpected^
+
+^OdpCommitting^Lähetetään tapahtumia ...^OdpCommitting^
+
+^OdpDone^Tehty.^OdpDone^
+
+^OdpDownloadingBlob^Ladataan binaaritietoja {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^Ladataan tietoja {0}...^OdpDownloadingData^
+
+^OdpInitializing^Alustetaan ...^OdpInitializing^
+
+^OdpInvalidResponse^Virheellinen vastaus palvelimelta.^OdpInvalidResponse^
+
+^OdpLastRefresh^Viimeisin päivitys: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Tietoja ei ole päivitetty.^OdpNotRefreshed^
+
+^OdpOfflineState^Työskentelet offline-tilassa.^OdpOfflineState^
+
+^OdpOnlineRequired^Verkkoyhteys vaaditaan.^OdpOnlineRequired^
+
+^OdpPending^Odottaa muutoksia^OdpPending^
+
+^OdpReconRequired^Täsmäytys vaaditaan^OdpReconRequired^
+
+^OdpReconTxDelete^Poistetaanko tämä muutos lokista?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^Poistettu ensimmäinen odotettu tapahtuma lokista.^OdpReconTxDeleted^
+
+^OdpRefresh^Päivitä tiedot^OdpRefresh^
+
+^OdpRefreshData^Päivitä tiedot^OdpRefreshData^
+
+^OdpRefreshLast^Tiedot päivitetty^OdpRefreshLast^
+
+^OdpSave^Tallenna kaikki muutokset.^OdpSave^
+
+^OdpSaveAndSync^Tallenna kaikki muutokset ja valitse pikavalikosta Synkronoi-vaihtoehto.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Sovelluspalvelin ei ole käytettävissä.^OdpServerUnavailable^
+
+^OdpStatus^Tila^OdpStatus^
+
+^OdpSync^Synkronoida^OdpSync^
+
+^OdpSynced^Synkronoitu^OdpSynced^
+
+^OdpSyncLast^Viimeisin synkronointi^OdpSyncLast^
+
+^OdpSyncLong^Synkronoi ladataksesi muutokset.^OdpSyncLong^
+
+^OdpSyncUploadFailed^{0} tiedoston lataus epäonnistui.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Lähetetään {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Poisto ei onnistu. {1} riippuvaisia kohteita {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Ei voi suorittaa.^OdpUnableToExec^
+
+^OdpUnableToProcess^Tapahtumia ei voida käsitellä.^OdpUnableToProcess^
+
+^OdpUnableToSave^Muutoksia ei voi tallentaa.^OdpUnableToSave^
+
+^OdpUploadFailed^Tiedostojen lähettäminen epäonnistui.^OdpUploadFailed^
+
+^OdpUploadingFiles^Lähetetään {0} tiedostoa ...^OdpUploadingFiles^
+
+^OK^OK^OK^
+
+^OnHover^Hoverissa^OnHover^
+
+^OnOrAfter^Tai sen jälkeen^OnOrAfter^
+
+^OnOrBefore^Tai sitä ennen^OnOrBefore^
+
+^OpenActionHeaderText^Avoinna^OpenActionHeaderText^
+
+^Optional^Valinnainen^Optional^
+
+^Orientation^Suuntautuminen^Orientation^
+
+^Other^Muut^Other^
+
+^Outdent^Ulonna^Outdent^
+
+^Page^Sivu^Page^
+
+^Paragraph^Kohta^Paragraph^
+
+^Password^Salasana^Password^
+
+^Past^Ohi^Past^
+
+^Paste^Tahna^Paste^
+
+^Pen^Kynä^Pen^
+
+^PerformAdvancedSearch^Haku^PerformAdvancedSearch^
+
+^Permalink^Permalink^Permalink^
+
+^PermalinkToolTip^Luo pysyvä linkki valituille ennätys^PermalinkToolTip^
+
+^PermalinkUnavailable^Pysyvä linkki ei ole käytettävissä. Valitse ennätys.^PermalinkUnavailable^
+
+^Petal^Terälehti^Petal^
+
+^Pinnate^Pariliuskaiset^Pinnate^
+
+^Plastic^Muovi^Plastic^
+
+^Portrait^Muotokuva^Portrait^
+
+^PresentationStyle^Valitse tietojen esittämisen tyyliin.^PresentationStyle^
+
+^Prev2^Edellinen^Prev2^
+
+^Previous^Edellinen^Previous^
+
+^PromoteActions^Edistävät toimet^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^Neljännes^Quarter^
+
+^Quarter1^Quarter 1^Quarter1^
+
+^Quarter2^Quarter 2^Quarter2^
+
+^Quarter3^Quarter 3^Quarter3^
+
+^Quarter4^Quarter 4^Quarter4^
+
+^QuickFindDescription^Etsi {0}^QuickFindDescription^
+
+^QuickFindScope^Hae ...^QuickFindScope^
+
+^QuickFindText^Pikahaku^QuickFindText^
+
+^QuickFindToolTip^Voit etsiä tietueita ja paina Enter^QuickFindToolTip^
+
+^Quotation^lainaus^Quotation^
+
+^Reading^Reading ...^Reading^
+
+^ReadingPane^Lukupaneeli^ReadingPane^
+
+^ReadOnly^{0} on vain luettavissa.^ReadOnly^
+
+^Recent^Viimeaikainen^Recent^
+
+^Redo^Tehdä uudelleen^Redo^
+
+^Refresh^Päivitä^Refresh^
+
+^Refreshed^Päivitetyt^Refreshed^
+
+^RememberMe^Muista minut ensi kerralla^RememberMe^
+
+^RemoveCondition^Poista Kunto^RemoveCondition^
+
+^RemoveFormat^Poista muotoilu^RemoveFormat^
+
+^ReportActionDescription^Render raportti PDF-muodossa^ReportActionDescription^
+
+^ReportActionHeaderText^Raportti^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Tarkastele kohteita formatted<br/>Microsoft Excel.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Taulukkolaskentaohjelma^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Näytä eriä monisivuisia TIFF kuva.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Monisivuinen Image^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Tarkastele kohteita kuten Adobe PDF document.<br/>Requires yhteensopiva lukija.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^PDF Document^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Tarkastele kohteita formatted<br/>Microsoft Word-asiakirjaan.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Vaadittu^Required^
+
+^RequiredField^Tämä kenttä on pakollinen.^RequiredField^
+
+^RequiredFiledMarkerFootNote^ilmoittaa pakollisen kentän^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Nollaa^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Nollaa hakuehdot?^ResetSearchConfirm^
+
+^ResolvingReferences^ratkaiseminen viitteet^ResolvingReferences^
+
+^ResumeBrowsing^Jatka selaaminen^ResumeBrowsing^
+
+^ResumeEditing^Jatka muokkaamista^ResumeEditing^
+
+^ResumeEntering^Jatka syöttäminen^ResumeEntering^
+
+^ResumeLookup^Jatka haku^ResumeLookup^
+
+^ResumeViewing^Jatkaa katselua^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Roolit^RolesTab^
+
+^RootNodeText^Ylin taso^RootNodeText^
+
+^Rotate^Kiertää^Rotate^
+
+^RowCancelActionHeaderText^Peruuta^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Lisää^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Tallenna^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Päivitys?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Päivitä valinta^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Tallenna^Save^
+
+^SaveAndContinue^Tallenna ja jatka^SaveAndContinue^
+
+^SaveAndNew^Tallenna ja New^SaveAndNew^
+
+^Saved^Tallennettu - {0}^Saved^
+
+^ScanToConfirm^Skannaa uudelleen vahvistaaksesi.^ScanToConfirm^
+
+^SeeAll^Katso kaikki^SeeAll^
+
+^SeeAlso^Katso myös^SeeAlso^
+
+^SelectActionHeaderText^Valitse^SelectActionHeaderText^
+
+^SelectAll^Valitse kaikki^SelectAll^
+
+^SelectItem^Valitse tavara^SelectItem^
+
+^SelectLink^(Valitse)^SelectLink^
+
+^SelectRow^Valitse rivi^SelectRow^
+
+^SelectToolTip^Valitse {0}^SelectToolTip^
+
+^Separator^Separaattori^Separator^
+
+^Settings^Asetukset^Settings^
+
+^Show^Show^Show^
+
+^ShowAdvancedSearch^Näytä Tarkennettu haku^ShowAdvancedSearch^
+
+^ShowChart^Näytä Chart^ShowChart^
+
+^ShowData^Näytä tiedot^ShowData^
+
+^ShowingItems^Näytetään <b>{0}</b>-<b>{1}</b> ja <b>{2}</b> kohteita^ShowingItems^
+
+^ShowingItemsInfo^Näytetään {0} kohteita.^ShowingItemsInfo^
+
+^ShowingItemsRange^Näytetään {0} of {1} kohdetta^ShowingItemsRange^
+
+^ShowLess^Näytä vähemmän^ShowLess^
+
+^ShowMore^Näytä lisää^ShowMore^
+
+^ShowOptions^Näytä asetukset^ShowOptions^
+
+^ShowSystemButtons^Show System Painikkeet^ShowSystemButtons^
+
+^Sidebar^Sivupalkki^Sidebar^
+
+^Sign^Rekisteröidy täällä^Sign^
+
+^SignedOut^Kirjautui ulos^SignedOut^
+
+^SignUpNow^Rekisteröidy nyt^SignUpNow^
+
+^Simple^Yksinkertainen^Simple^
+
+^SiteActions^Sivuston toiminnot^SiteActions^
+
+^SizeLabel^Koko^SizeLabel^
+
+^Small^Pieni^Small^
+
+^Social^Sosiaalinen^Social^
+
+^Sort^Lajitella^Sort^
+
+^SortBy^Järjestä {0}^SortBy^
+
+^SortByField^Valitse kenttä muuttaa järjestysperustetta <b>{0}</b>.^SortByField^
+
+^SortByOptions^Valitse lajittelujärjestys <b>{0}</b> kentän <b>{1}</b> luetteloon alla olevista vaihtoehdoista.^SortByOptions^
+
+^Sorted^lajiteltu^Sorted^
+
+^SortedDefault^Oletusjärjestysjärjestys.^SortedDefault^
+
+^StartImport^Aloita tuonti^StartImport^
+
+^StrikeThrough^Läpitulolta^StrikeThrough^
+
+^StringSortAscending^Nouseva^StringSortAscending^
+
+^StringSortDescending^Aleneva^StringSortDescending^
+
+^Submit^Lähetä^Submit^
+
+^Subscript^Sub Script^Subscript^
+
+^Suggestions^Ehdotuksia^Suggestions^
+
+^SumAggregate^Summa: {0}^SumAggregate^
+
+^SumAggregateToolTip^Summa {0}^SumAggregateToolTip^
+
+^Summary^Yhteenveto^Summary^
+
+^Summer^Kesä^Summer^
+
+^SumOf^Summa^SumOf^
+
+^Superscript^Super Script^Superscript^
+
+^Sync^Sync^Sync^
+
+^TaskResume^Jatkaa^TaskResume^
+
+^Tasks^Tehtävät^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^abc^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^kpl^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^Testauspöytäkirjat^TestingRecords^
+
+^Text^Teksti^Text^
+
+^TextFilterText^Tekstisuodattimet^TextFilterText^
+
+^Theme^Teema^Theme^
+
+^ThisMonth^Tämä kuukausi^ThisMonth^
+
+^ThisQuarter^Tämä vuosineljännes^ThisQuarter^
+
+^ThisWeek^Tämä viikko^ThisWeek^
+
+^ThisYear^Tämä vuosi^ThisYear^
+
+^Tiny^Pikkuruinen^Tiny^
+
+^Today^Tänään^Today^
+
+^Tomorrow^Huomenna^Tomorrow^
+
+^Top^ylin^Top^
+
+^ToThisWebsite^tähän sivustoon^ToThisWebsite^
+
+^TouchUINotSupported^Touch UI ei tueta tässä selaimessa.^TouchUINotSupported^
+
+^TransitionFade^Haalistua^TransitionFade^
+
+^TransitionFlip^Kääntää^TransitionFlip^
+
+^TransitionFlow^Flow^TransitionFlow^
+
+^TransitionNone^Ei mitään^TransitionNone^
+
+^TransitionPop^Pop^TransitionPop^
+
+^Transitions^Transitions^Transitions^
+
+^TransitionSlide^Dia^TransitionSlide^
+
+^TransitionSlideDown^Liukua^TransitionSlideDown^
+
+^TransitionSlideUp^Työnnä Up^TransitionSlideUp^
+
+^TransitionTurn^Vuoro^TransitionTurn^
+
+^TreeActionDescription^Näyttö hierarkkisia suhteita.^TreeActionDescription^
+
+^TreeActionHeaderText^Näytä Hierarkia^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Hanki vahvistuskoodi^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Authenticator -sovellus^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Jos et pysty antamaan vahvistuskoodia, anna sen sijaan varakoodi.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^kertaluonteinen koodi^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Varakoodi^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Soitettiin numeroon^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^Sähköposti lähetettiin osoitteeseen^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^Tekstiviesti lähetettiin osoitteeseen^TwoFaCodeSentSms^
+
+^TwoFaConsent^Suostumus^TwoFaConsent^
+
+^TwoFaEnterPassword^Syötä salasanasi^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Soita minulle numeroon^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^soitan^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^Lähetä minulle sähköpostia^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^Lähetä minulle viesti osoitteeseen^TwoFaGetCodeSms^
+
+^TwoFaMethod^Menetelmä^TwoFaMethod^
+
+^TwoFaMsgChanged^2-Factor Authentication on muutettu.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^2-tekijäinen todennus on poistettu käytöstä.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Poistetaanko kaksivaiheinen todennus käytöstä?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^2-tekijäinen todennus on otettu käyttöön.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Anna {0}-numeroinen vahvistuskoodi.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Väärä salasana.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Virheellinen vahvistuskoodi.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 on {0} vahvistuskoodisi.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^En voi skannata QR -koodia.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Tarvitsen apua autentikointisovelluksen asentamisessa.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Minulla on autentikointisovellus mobiililaitteella.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^Kertakäyttöisten varakoodien avulla voit kirjautua sisään, jos et pysty antamaan vahvistuskoodia.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Varakoodit^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Annan vahvistuskoodin onnistuneen sisäänkirjautumisen jälkeen.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Kirjoita asetusavain sovellukseen^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Varmennusmenetelmät^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Skannaa QR -koodi kameralla^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Skannaa sovelluksen QR -koodi^TwoFaSetupScanQrCode^
+
+^TwoFaText^2-tekijän todennus^TwoFaText^
+
+^TwoFaTrustThisDevice^Luota tähän laitteeseen^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Vahvistuskoodi^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Käytän autentikointisovellusta vahvistuskoodin saamiseen.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Saan automaattisen puhelun puhelimeeni.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Vahvistuskoodi toimitetaan sähköpostitse.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Vahvistuskoodi toimitetaan tekstiviestillä.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Kirjoita haku^TypeToSearch^
+
+^Underline^Korostaa^Underline^
+
+^Undo^Purkaa^Undo^
+
+^Undock^Irrottaa^Undock^
+
+^Unfreeze^Vapauttaa^Unfreeze^
+
+^UnGrouped^Ryhmittely on poistettu^UnGrouped^
+
+^UnLink^Unlink^UnLink^
+
+^UnSelect^Poista valinnat^UnSelect^
+
+^UpdateActionHeaderText^OK^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Päivitys?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Päivitä valinta^UpdateActionInBatchModeHeaderText^
+
+^Upload^upload^Upload^
+
+^UploadDescription^Lataa useita tiedostoja.^UploadDescription^
+
+^Uploading^Lähetetään {0}...^Uploading^
+
+^UpOneLevel^Ylös yksi taso^UpOneLevel^
+
+^UseLEV^Liitä &quot;{0}&quot;^UseLEV^
+
+^UserName^Käyttäjän nimi^UserName^
+
+^UsersInRole^Käyttäjät Rooli^UsersInRole^
+
+^UsersTab^Käyttäjille^UsersTab^
+
+^Vantage^Etu^Vantage^
+
+^Verdant^Vehmas^Verdant^
+
+^Verify^Vahvista^Verify^
+
+^View^Näytä^View^
+
+^Viewpoint^Näkökulma^Viewpoint^
+
+^Wait^Odota...^Wait^
+
+^Week^Viikko^Week^
+
+^Welcome1^Tervetuloa^Welcome1^
+
+^Welcome2^Tänään on^Welcome2^
+
+^WhiteSmoke^White Smoke^WhiteSmoke^
+
+^WithSelectedValues10^Kanssa valitut arvot (Top 10)^WithSelectedValues10^
+
+^WithSelectedValues5^Kanssa valitut arvot (Top 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^Erikoislähettäjien Suodattimet^WithSpecifiedFilters^
+
+^Year^Vuosi^Year^
+
+^YearToDate^Vuoden alusta^YearToDate^
+
+^Yes^Kyllä^Yes^
+
+^Yesterday^Eilen^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Suurentaa^ZoomIn^
+
+^ZoomOut^Loitontaa^ZoomOut^
+

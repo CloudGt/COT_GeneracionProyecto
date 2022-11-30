@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^创建一个新的成员角色的记录。^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^新角色^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^新^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^完成表格。请务必输入所有必需的字段。^CreateFormCategory^
+
+^CreateFormHeaderText^请填写此表格，然后点击OK按钮创建一个新的成员角色的记录。单击取消返回到前一个画面。^CreateFormHeaderText^
+
+^DescriptionLabel^说明^DescriptionLabel^
+
+^EditViewCategory^这些都是会员的作用记录可编辑的字段。^EditViewCategory^
+
+^EditViewHeaderText^请仔细阅读下面的成员角色的信息。单击编辑来改变这个记录，点击删除，删除记录，或单击取消/关闭返回回来。^EditViewHeaderText^
+
+^GridViewHeaderText^这是一个角色的成员名单。^GridViewHeaderText^
+
+^RoleNameLabel^角色名称^RoleNameLabel^
+

@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Akaun Pentadbiran^AdminDesc^
+
+^SignInHeader^Arahan^SignInHeader^
+
+^SignInInstruction^Sign in untuk mengakses kandungan laman web yang dilindungi.^SignInInstruction^
+
+^SignInPara1^Dua pengguna akaun standard secara automatik diwujudkan apabila aplikasi dimulakan jika pilihan keahlian telah dipilih untuk permohonan ini.^SignInPara1^
+
+^SignInPara2^<b>admin</b> Akaun pentadbiran adalah diberi kuasa untuk mengakses semua bidang laman web dan pengurus keahlian. Akaun <b>user</b> standard dibenarkan untuk mengakses semua bidang laman web ini kecuali pengurus keahlian.^SignInPara2^
+
+^SignInPara3^Gerakkan penunjuk tetikus ke atas <i>Login link kepada site</i> web ini di sebelah kanan di bahagian atas laman dan log masuk dengan salah satu akaun yang disenaraikan di bawah.^SignInPara3^
+
+^UserDesc^Akaun pengguna Standard^UserDesc^
+

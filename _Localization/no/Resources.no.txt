@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Kommentere^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Festet <b>{1}</b> på {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Vedlegg^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Skriv inn valgfritt notater og legg ved filer.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Notater og vedlegg^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Skrevet på {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Merknader^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Notater og vedlegg^AnnotationTab^
+
+^BlobClearConfirm^Klart?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Har blitt ryddet.^BlobCleared^
+
+^BlobClearText^Clear^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Klarte å laste {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Klikk^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^her^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^for å laste opp eller fjerne {0} fil.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Har blitt lastet opp. <b>It Kan ta opptil {1} minutter for miniatyren for å reflektere den opplastede content.</b>^BlobUploded^
+
+^Copyright^Alle rettigheter reservert.^Copyright^
+
+^RecordChangedByAnotherUser^Posten har blitt endret av en annen bruker.^RecordChangedByAnotherUser^
+

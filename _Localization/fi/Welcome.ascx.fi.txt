@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Hallinnollinen tili^AdminDesc^
+
+^SignInHeader^Ohjeet^SignInHeader^
+
+^SignInInstruction^Kirjaudu sisään pääsy suojattuun sivuston sisällöstä.^SignInInstruction^
+
+^SignInPara1^Kaksi tavalliset käyttäjätilit luodaan automaattisesti, kun sovellus on alustettu jos jäsenyys vaihtoehto on valittu tähän sovellukseen.^SignInPara1^
+
+^SignInPara2^Hallinnollinen tili <b>admin</b> on lupa käyttää kaikkia alueita kotisivuilta ja jäsenyys johtaja. Standardi <b>user</b> tilin saa käyttää kaikilla verkkosivusto lukuun ottamatta jäsenyyden Manager.^SignInPara2^
+
+^SignInPara3^Siirrä hiiren osoitin linkin <i>Login tähän web site</i> oikealla puolella yläreunassa sivun ja kirjaudu sisään yhdelle tilille alla.^SignInPara3^
+
+^UserDesc^Standard käyttäjätili^UserDesc^
+

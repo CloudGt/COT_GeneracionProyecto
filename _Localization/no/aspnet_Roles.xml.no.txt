@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Opprett en ny medlemskapsrole.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Ny rolle^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nytt^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Fyll ut skjemaet. Sørg for å angi alle nødvendige felt.^CreateFormCategory^
+
+^CreateFormHeaderText^Vennligst fyll ut dette skjemaet og klikk OK-knappen for å opprette en ny medlemskapsrolle. Klikk Avbryt for å gå tilbake til forrige skjermbilde.^CreateFormHeaderText^
+
+^DescriptionLabel^Beskrivelse^DescriptionLabel^
+
+^EditViewCategory^Dette er feltene i medlemskapesrolle som kan redigeres.^EditViewCategory^
+
+^EditViewHeaderText^Se gjennom medlemskapsrolle informasjon nedenfor. Klikk Rediger for å endre denne posten, klikker du på Slett for å slette posten, eller klikke Avbryt / Lukk for å returnere tilbake.^EditViewHeaderText^
+
+^GridViewHeaderText^Dette er en liste over medlemskapsroller.^GridViewHeaderText^
+
+^RoleNameLabel^Rolle Navn^RoleNameLabel^
+

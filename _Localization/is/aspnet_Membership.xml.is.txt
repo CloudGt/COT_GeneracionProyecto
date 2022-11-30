@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Búa til nýjan notanda met.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nýr Notandi^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nýtt^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Til baka^BackToRequestPasswordActionHeaderText^
+
+^Comment^Athugasemd^Comment^
+
+^ConfirmIdentityActionHeaderText^Ljúka^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Staðfesta nýtt lykilorð^ConfirmNewPassword^
+
+^ConfirmPassword^Staðfesta lykilorð^ConfirmPassword^
+
+^CreateDate^Búa til Dags^CreateDate^
+
+^CreateFormCommentCategoryDescription^Sláðu inn frekari athugasemdir um þennan notanda. Athugasemd er ekki sýnileg notandanum.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Comments^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Vinsamlega sláðu inn notandanafn og lykilorð. Athugið að lykilorðið verður að vera að minnsta kosti 7 stafa langt og innihalda eitt ekki tölustafi staf. Aðeins samþykkt notandi vilja vera fær til tenging inn á heimasíðu.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Nýtt Upplýsingar um notanda^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Þessir reitir eru nauðsynleg til að hjálpa notandi til að endurheimta gleymt lykilorð. Á bataferli sem notandinn verður beðinn um að slá inn notandanafn. Ef notandi reikningur er til þá er öryggi spurningin er beðið að svara. A rétt svar mun birta tölvupóst með tímabundið lykilorð sent til notandans.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Lykilorð Bati^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Veldu notanda hlutverk sem best passa ábyrgð notanda. Hlutverk stjórna aðgangi að því er varðar þessa vefsíðu. Vinsamlegast hafðu samband við kerfisstjóra ef hlutverk aðgang takmarkanir þarf að breyta.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Hlutverk^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Vinsamlegast fyllið þetta form og smelltu á OK hnappinn til að búa til nýjan notanda aðild met. Smelltu á Hætta við til að fara aftur í fyrri skjá.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Nýr Notandi^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Þessi notandi reikningur vilja vera skapa eins samþykkt.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Afrit netfang.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Afrit hendi inni.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Afrit notandanafn.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Afþreying Tölfræði^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Þessi notandi reikningur er samþykktur^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Þetta eru tölur um mistókst innskráningu tilraunir þessum notanda. <br/> <br/> Notandi vilja vera læst út náði hámarki fjölda tókst tenging tilraunir. <br/> <br/> Læst út notandi vilja vera fær til tenging aftur eftir dagsetningu Mistókst Password Tilraun Gluggi Start. <br/> <br/> Notendur sem ekki batna the lykilorð vilja vera fær til svo eftir dagsetningu Mistókst Password Svar Tilraun Gluggi Start. <br/> <br/> Þú geta skila aftur getu notandans til að skrá þig með því að setja læst út fána á &#39;No&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Skráðu þig inn Tölfræðileg^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Á endurheimt gleymt lykilorð notandans verður beðinn um að slá inn notandanafn. Ef notandi reikningur er til þá er öryggi spurningin er beðið að svara. A rétt svar mun birta tölvupóst með tímabundið lykilorð sent til notandans. <br/><br/> Breyta læst út fána til að &quot;Nei&quot; ef notandi hefur verið læst út náði hámarki fjölda tókst tenging tilraunir og þú vilt leyfa notandi til tenging aftur.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Lykilorð Bati^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Veldu notanda hlutverk sem best passa ábyrgð notanda. Hlutverk stjórna aðgangi að því er varðar þessa vefsíðu. Vinsamlegast hafðu samband við kerfisstjóra ef hlutverk aðgang takmarkanir þarf að breyta. <br/> <br/> Inn einhverjar athugasemdir um þessa notanda. Athugasemd er ekki sýnileg notandanum.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Upplýsingar um notanda^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Vinsamlega farðu notanda aðild upplýsingar hér að neðan. Smelltu á Breyta til að breyta þessari skrá, smelltu Eyða til að eyða skrá, eða smelltu á Hætta við / Close til að fara aftur til baka.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Review notanda^EditFormViewLabel^
+
+^Email^Email^Email^
+
+^EnterCurrentPassword^Vinsamlega sláðu inn núverandi lykilorð þitt.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Vinsamlega sláðu inn lykilorðið svar.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Villa við vistun notandi reikningur.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Tókst Lykilorð Svar Tilraun Count^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Tókst Lykilorð Svar Tilraun glugga Start^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Tókst Lykilorð Tilraun Count^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Tókst Lykilorð Tilraun glugga Start^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Þetta er listi yfir aðild notanda færslur.^GridViewHeaderText^
+
+^GridViewLabel^Allir notendur^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Svaraðu eftirfarandi spurningu til að fá lykilorðið þitt. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identity Staðfesting^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Vinsamlegast fyllið þetta form og smelltu á Senda hnappinn til að endurheimta gleymt lykilorð. Smelltu á Hætta við til að fara aftur í fyrri skjá.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Lykilorð Bati: Skref 2 af 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Ógilt endurheimt lykilorð svar.^InvalidAnswer^
+
+^InvalidEmail^Ógilt netfang.^InvalidEmail^
+
+^InvalidPassword^Ógilt lykilorð.^InvalidPassword^
+
+^InvalidProviderUserKey^Ógilt notandi hendi inni.^InvalidProviderUserKey^
+
+^InvalidQuestion^Ógilt endurheimt lykilorð spurningu.^InvalidQuestion^
+
+^InvalidUserName^Ógilt notandanafn.^InvalidUserName^
+
+^IsApproved^Er samþykkt^IsApproved^
+
+^IsLockedOut^Er læst út^IsLockedOut^
+
+^LastLockoutDate^Síðast læsa Dags^LastLockoutDate^
+
+^LastLoginDate^Last Login Dags^LastLoginDate^
+
+^LastPasswordChangedDate^Síðast Lykilorð Breytt dagsetning^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Lykilorð Svar (ekki birt fyrir öryggis)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Vinsamlega sláðu inn núverandi lykilorð þitt til að búa til nýtt lykilorð, uppfæra netfangið þitt, eða breytt lykilorð bati spurning og svar.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Núverandi lykilorð^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Vinsamlega farðu aðild hér að neðan. Smelltu á Uppfæra reikning minn til að breyta þessari skrá, eða smella á Hætta til að fara aftur til baka.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Reikningurinn minn^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Vinsamlega sláðu inn nýja lykilorðið. Athugið að lykilorðið verður að vera að minnsta kosti 7 stafa langt og innihalda eitt ekki tölustafi staf.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. New Password (valfrjálst)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Á endurheimt gleymt lykilorðinu sem þú verður beðinn um að slá inn notandanafnið þitt. Ef notandi reikningur er þá lykilorð spurningu þarf að svara. A rétt svar mun birta tölvupóst með tímabundið lykilorð sent til þín.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Sendu &amp; Lykilorð Bati (valfrjálst)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nýtt lykilorð^NewPassword^
+
+^NewPasswordAlert^Nýtt lykilorð hefur verið send á heimilisfang á skrá.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Nýtt lykilorð og staðfesting passa ekki saman.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Nýja lykilorðið þitt er ógilt.^NewPasswordInvalid^
+
+^NewPasswordSubject^Nýtt lykilorð fyrir \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Old Password^OldPassword^
+
+^Password^Lykilorð^Password^
+
+^PasswordAndConfirmationDoNotMatch^Lykilorð og staðfesting passa ekki.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Lykilorð Svar^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Lykilorðið þitt passar ekki skrám okkar.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Lykilorð Format^PasswordFormat^
+
+^PasswordQuestion^Lykilorð Spurning^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Vinsamlega sláðu inn notandanafn. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Gleymdirðu lykilorðinu þínu?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Vinsamlegast fyllið þetta form og smelltu á Halda áfram hnappinn til að endurheimta gleymt lykilorð. Smelltu á Hætta við til að fara aftur í fyrri skjá.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Lykilorð Bati: Skref 1 af 2^PasswordRequestViewLabel^
+
+^ProviderError^Provider villa.^ProviderError^
+
+^RequestPasswordActionHeaderText^Næsta^RequestPasswordActionHeaderText^
+
+^Roles^Hlutverk^Roles^
+
+^SelfRegisteredUser^Self-skráður notandi.^SelfRegisteredUser^
+
+^SignUp^Nýskráning^SignUp^
+
+^SignUpViewHeaderText^Vinsamlegast fyllið þetta form og smelltu á OK hnappinn til að skrá þig sem notanda. Smelltu á Hætta við til að fara aftur í fyrri skjá.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Reikningur Nýskráning^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Vinsamlega sláðu inn notandanafn og lykilorð. Athugið að lykilorðið verður að vera að minnsta kosti 7 stafa langt og innihalda eitt ekki tölustafi staf. Aðeins samþykkt notandi vilja vera fær til tenging inn á heimasíðu.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Nýtt Upplýsingar um notanda^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Þessir reitir eru nauðsynleg til að hjálpa þér að endurheimta gleymt lykilorð. Á bataferli þú verður beðinn um að slá inn notandanafn. Ef notandi reikningur er til þá er öryggi spurningin er beðið að svara. A rétt svar mun birta tölvupóst með tímabundnu lykilorði senda skráð tölvupósti.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Lykilorð Bati^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Uppfæra reikning minn^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Notandi er ekki hægt að læsa út. Ef þú vilt koma í veg fyrir þessa notanda frá því að vera fær til tenging þá einfaldlega merkja notanda sem &quot;ekki-samþykkt&quot;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Notandi&#39;{0}&#39; hefur verið eytt.^UserHasBeenDeleted^
+
+^UserName^User Name^UserName^
+
+^UserNameDoesNotExist^Notandanafn er ekki til.^UserNameDoesNotExist^
+
+^UserNotFound^Notandi fannst ekki.^UserNotFound^
+
+^UserRejected^Notandi hefur verið hafnað.^UserRejected^
+
+^UsersInRolesGridHeaderText^Þetta er listi yfir aðild notanda færslur sem tilheyra tilteknum hlutverki.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Notendur í hlutverki^UsersInRolesGridLabel^
+

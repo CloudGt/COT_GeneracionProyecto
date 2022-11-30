@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Annotate^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Meðfylgjandi <b>{1}</b> á {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Viðhengi^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Sláðu inn valfrjálst athugasemdir og hengja skrár.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Seðlar og Viðhengi^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Skrifað á {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Skýringar^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Skýringar^AnnotationTab^
+
+^BlobClearConfirm^Hreinsa?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Hefur verið eytt.^BlobCleared^
+
+^BlobClearText^Hreinsa^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Tókst að hlaða inn {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Smelltu^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^hér^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^að senda eða hreinsa {0} skrá.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Hefur verið hlaðið inn. <b>It Getur tekið allt að {1} mínútur smámynd til að endurspegla hlaðið content.</b>^BlobUploded^
+
+^Copyright^Öll réttindi áskilin.^Copyright^
+
+^RecordChangedByAnotherUser^Skrá hefur verið breytt af öðrum notanda.^RecordChangedByAnotherUser^
+

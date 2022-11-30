@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Code OnTime Designer</title>
+
+    <script type="text/javascript" language="javascript" src="../../_System/CodeOnTime.Designer.js"></script>
+
+    <script type="text/javascript" language="javascript">
+
+        function pageLoad() {
+            if (!document.body) return;
+            initializeDesigner('Action Group');
+            createTabbedControllers('Placeholder', [
+                new CodeOnTime.DesignerTab('Action Group', 'ActionGroups', [
+                    { 'name': 'startCommandName', 'value': 'Edit' },
+                    { 'name': 'startCommandArgument', 'value': 'editForm1' },
+                    { 'name': 'hideExternalFilterFields', 'value': false },
+                    { 'name': 'backOnCancel', 'value': true },
+                    $cookie()]),
+                new CodeOnTime.DesignerTab('Actions', 'Actions', [
+                    $cookie()])
+//                new CodeOnTime.DesignerTab('Styles', 'Styles', [
+//                    $cookie()]),
+//                new CodeOnTime.DesignerTab('Data Fields', 'DataFields', [
+//                    $cookie()])
+                ]);
+            $find('ActionGroupsExtender').raiseSelected();
+
+        }
+
+    </script>
+
+</head>
+<body>
+    <!-- page body -->
+    <div id="Main" title="Action Group">
+        <div id="Placeholder">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Oħloq rekord ġdid Rwol sħubija.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Rwol Ġdid^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Ġodda^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Imla l-formola. Kun żgur li jidħlu oqsma kollha meħtieġa.^CreateFormCategory^
+
+^CreateFormHeaderText^Jekk jogħġbok imla din il-formola u kklikkja OK buttuna biex toħloq strument ġdid sħubija rwoli rekord. Ikklikkja Ikkanċella li jirritornaw għall-iskrin ta &#39;qabel.^CreateFormHeaderText^
+
+^DescriptionLabel^Deskrizzjoni^DescriptionLabel^
+
+^EditViewCategory^Dawn huma l-fields tar-rekord rwol sħubija li jistgħu jiġu editjati.^EditViewCategory^
+
+^EditViewHeaderText^Jekk jogħġbok irrevedi rwoli sħubija informazzjoni t&#39;hawn taħt. Ikklikkja Edit għall-bidla dan ir-rekord, ikklikkja Ħassar li jitħassar ir-rekord, jew ikklikkja Ikkanċella / Agħlaq li jirritornaw lura.^EditViewHeaderText^
+
+^GridViewHeaderText^Din hija lista ta &#39;rwoli sħubija.^GridViewHeaderText^
+
+^RoleNameLabel^Isem ir-rwol^RoleNameLabel^
+

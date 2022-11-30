@@ -1,0 +1,103 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Zurück^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Abschließen^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Bestätige neues Paasswort^ConfirmNewPassword^
+
+^ConfirmPassword^Bestätige Paasswort^ConfirmPassword^
+
+^Email^Email^Email^
+
+^ForgotYourPassword^Passwort vergessen?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Beantworten Sie die Frage um ein neues Passwort zu erhalten. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Bestätigung der Identität^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Bitte füllen Sie das Formular zum zurücksetzen des Passwortes aus.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Passwort zurücksetzen: Schritt 2 of 2^IdentityConfirmViewLabel^
+
+^LoginButton^Anmelden^LoginButton^
+
+^LoginLink^Anmelden^LoginLink^
+
+^LoginWithDNN^Login mit DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Anmelden über Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Anmelden über Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Anmelden über Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Anmelden über SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Anmelden über Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Passwort Antwort (zur Sicherheit nicht angezeigt)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Bitte geben Sie zum erstellen eines neuen Passwortes Ihr altes Passwort ein, aktualisieren Sie Ihre Email Adresse, oder aktualisieren Sie Ihre Passwort Frage.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Aktuelles Passwort^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Bitte kontrollieren Sie Ihre Konto Daten.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Mein Account^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Bitte geben Sie das neue Passwort ein. Das Passwort muss eine mindestlänge von 7 Zeichen und ein nicht alphabetisches Zeichen beinhalten.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Neues Passwort (wahlweise)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Zum zurückstellen des Passwortes müssen Sie Ihren Benutzernamen eingeben. Für einen existierenden Account beantworten Sie dann Ihre Frage. Nach einer korrekten Antwort senden wir Ihnen ein neues Passwort zu.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Password Recovery (Optional)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Neues Passwort^NewPassword^
+
+^OldPassword^Altes Passwort^OldPassword^
+
+^Password^Passwort^Password^
+
+^PasswordAnswer^Passwort Antwort^PasswordAnswer^
+
+^PasswordQuestion^Passwort Frage^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Bitte geben Sie Ihren Benutzernamen ein. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Passwort vergessen?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Bitte füllen Sie dieses Formular zum zurückstellen des Passwortes aus.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Passwort zurückstellen: Schritt 1 von 2^PasswordRequestViewLabel^
+
+^RememberMe^Speichere den Zugang^RememberMe^
+
+^RequestPasswordActionHeaderText^Weiter^RequestPasswordActionHeaderText^
+
+^SignUp^Anmelden^SignUp^
+
+^SignUpNow^Neuen Account^SignUpNow^
+
+^SignUpViewHeaderText^Bitte füllen Sie dieses Formular zum Erstellen eines neuen Accountes aus.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Neuen Account^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Bitte Benutzernamen und Passwort eingeben. Das Passwort muss eine mindestlänge von 7 Zeichen und ein nicht alphabetisches Zeichen beinhalten.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Neue Benutzer Daten^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Diese Felder sind für die Passwordzurückstellung notwendig. Zum zurückstellen des Passwortes müssen Sie Ihren Benutzernamen eingeben. Für einen existierenden Account muss eine Sicherheitsabfrage beantwortet werden.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Passwort Zurückstellen^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Aktualisiere Account^UpdateMyAccountActionHeaderText^
+
+^UserName^Benutzer Name^UserName^
+

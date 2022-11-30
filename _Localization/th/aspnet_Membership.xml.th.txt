@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^สร้างระเบียนผู้ใช้ใหม่^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^ผู้ใช้งานใหม่^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^ใหม่^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^กลับ^BackToRequestPasswordActionHeaderText^
+
+^Comment^ความคิดเห็น^Comment^
+
+^ConfirmIdentityActionHeaderText^เสร็จสิ้น^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^ยืนยันรหัสผ่านใหม่^ConfirmNewPassword^
+
+^ConfirmPassword^ยืนยันรหัสผ่าน^ConfirmPassword^
+
+^CreateDate^วันที่สร้าง^CreateDate^
+
+^CreateFormCommentCategoryDescription^ป้อนความเห็นเพิ่มเติมใด ๆ เกี่ยวกับบัญชีผู้ใช้นี้ ความคิดเห็นที่ไม่สามารถมองเห็นให้กับผู้ใช้^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^ความคิดเห็น^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^กรุณาใส่ชื่อผู้ใช้และรหัสผ่าน โปรดทราบว่ารหัสผ่านต้องมีอย่างน้อย 7 ตัวอักษรยาวและรวมถึงหนึ่งอักขระที่ไม่ใช่ตัวเลขและตัวอักษร เฉพาะผู้ใช้ที่ได้รับการอนุมัติจะสามารถเข้าสู่ระบบในเว็บไซต์^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^ข้อมูลผู้ใช้ใหม่^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^เขตข้อมูลเหล่านี้จะต้องช่วยให้ผู้ใช้เพื่อกู้คืนรหัสผ่านที่ลืม ระหว่างกระบวนการกู้คืนที่ผู้ใช้จะถูกถามให้ใส่ชื่อผู้ใช้ ถ้าบัญชีผู้ใช้ที่มีอยู่แล้วคำถามรักษาความปลอดภัยที่มีการร้องขอที่จะตอบ คำตอบที่ถูกจะทำให้อีเมลที่มีรหัสผ่านชั่วคราวส่งให้กับผู้ใช้^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^กู้คืนรหัสผ่าน^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^กรุณาเลือกบทบาทของผู้ใช้ที่ใกล้ชิดที่สุดตรงกับความรับผิดชอบของผู้ใช้ บทบาทการควบคุมการเข้าถึงไปยังพื้นที่ของเว็บไซต์นี้ กรุณาติดต่อผู้ดูแลระบบหากข้อ จำกัด การเข้าถึงบทบาทต้องมีการเปลี่ยนแปลง^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^บทบาท^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^กรุณากรอกแบบฟอร์มนี้และคลิกปุ่ม OK เพื่อสร้างผู้ใช้บันทึกใหม่สมาชิก คลิกยกเลิกเพื่อกลับไปยังหน้าจอ^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^ผู้ใช้งานใหม่^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^บัญชีผู้ใช้นี้จะถูกสร้างเป็นที่ได้รับอนุมัติ^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^ที่ซ้ำกันที่อยู่อีเมล^DuplicateEmail^
+
+^DuplicateProviderUserKey^ที่สำคัญผู้ให้บริการที่ซ้ำกัน^DuplicateProviderUserKey^
+
+^DuplicateUserName^ชื่อผู้ใช้ซ้ำ^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^สถิติความเคลื่อนไหว^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^บัญชีผู้ใช้นี้ได้รับการอนุมัติ^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^เหล่านี้มีสถิติของการล้มเหลวพยายามเข้าสู่ระบบโดยผู้ใช้นี้ <br/> <br/> ผู้ใช้จะถูกล็อคออกมาหลังจากที่ถึงเป็นจำนวนสูงสุดของความล้มเหลวพยายามเข้าสู่ระบบ <br/> <br/> ที่ถูกใส่กุญแจออกผู้ใช้จะสามารถเข้าสู่ระบบอีกครั้งหลังจากวันที่ในความพยายามที่จะเริ่มต้นรหัสผ่านหน้าต่างที่ล้มเหลว <br/> <br/> ผู้ใช้ที่ล้มเหลวในการกู้คืนรหัสผ่านจะสามารถดังนั้นหลังจากวันที่ในรหัสผ่านคำตอบล้มเหลวในการพยายามที่จะเริ่มต้นหน้าต่าง <br/> <br/> คุณสามารถเรียกคืนความสามารถของผู้ใช้เพื่อเข้าสู่ระบบโดยการตั้งค่าสถานะที่ถูกใส่กุญแจออกไป&#39;ไม่&#39;^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^สถิติการเข้าสู่ระบบ^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^ในระหว่างการฟื้นตัวของการลืมรหัสผ่านที่ผู้ใช้จะถูกถามให้ใส่ชื่อผู้ใช้ ถ้าบัญชีผู้ใช้ที่มีอยู่แล้วคำถามรักษาความปลอดภัยที่มีการร้องขอที่จะตอบ คำตอบที่ถูกจะทำให้อีเมลที่มีรหัสผ่านชั่วคราวส่งให้กับผู้ใช้ <br/><br/> เปลี่ยนล็อคออกธง&#39;ไม่&#39;หากผู้ใช้ที่ได้รับการล็อคออกหลังจากถึงจำนวนสูงสุดของความล้มเหลวพยายามเข้าสู่ระบบและคุณต้องการอนุญาตให้ผู้ใช้เข้าสู่ระบบอีกครั้ง^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^กู้คืนรหัสผ่าน^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^กรุณาเลือกบทบาทของผู้ใช้ที่ใกล้ชิดที่สุดตรงกับความรับผิดชอบของผู้ใช้ บทบาทการควบคุมการเข้าถึงไปยังพื้นที่ของเว็บไซต์นี้ กรุณาติดต่อผู้ดูแลระบบหากข้อ จำกัด การเข้าถึงบทบาทต้องมีการเปลี่ยนแปลง <br/> <br/> ป้อนความเห็นเพิ่มเติมใด ๆ เกี่ยวกับบัญชีผู้ใช้นี้ ความคิดเห็นที่ไม่สามารถมองเห็นให้กับผู้ใช้^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^ข้อมูลผู้ใช้^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^กรุณาตรวจสอบข้อมูลการเป็นสมาชิกผู้ใช้ด้านล่าง คลิกที่แก้ไขเพื่อบัน​​ทึกการเปลี่ยนแปลงนี้ให้คลิกลบเพื่อลบการบันทึกหรือคลิกยกเลิก / ปิดเพื่อกลับกลับ^EditFormViewHeaderText^
+
+^EditFormViewLabel^ความคิดเห็นของผู้ใช้^EditFormViewLabel^
+
+^Email^อีเมล์^Email^
+
+^EnterCurrentPassword^กรุณาป้อนรหัสผ่านปัจจุบันของคุณ^EnterCurrentPassword^
+
+^EnterPasswordAnswer^กรุณาป้อนคำตอบรหัสผ่าน^EnterPasswordAnswer^
+
+^ErrorSavingUser^ข้อผิดพลาดในการบันทึกบัญชีผู้ใช้^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^รหัสผ่านคำตอบนับความพยายามล้มเหลว^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^คำตอบที่ล้มเหลวรหัสผ่านหน้าต่างพยายามที่จะเริ่ม^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^รหัสผ่านล้มเหลวในการพยายามที่จะนับ^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^รหัสผ่านหน้าต่างพยายามที่จะเริ่มล้มเหลว^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^นี้เป็นรายการของระเบียนของผู้ใช้เป็นสมาชิก^GridViewHeaderText^
+
+^GridViewLabel^ผู้ใช้งานทั้งหมด^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^ตอบคำถามต่อไปนี้จะได้รับรหัสผ่านของคุณ <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^การยืนยันตัวตน^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^กรุณากรอกแบบฟอร์มนี้และคลิกปุ่ม Submit ในการกู้คืนรหัสผ่านที่ลืม คลิกยกเลิกเพื่อกลับไปยังหน้าจอ^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^การกู้คืนรหัสผ่าน : ขั้นที่ 2 จาก 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^คำตอบที่ไม่ถูกต้องกู้คืนรหัสผ่าน^InvalidAnswer^
+
+^InvalidEmail^ที่อยู่อีเมลไม่ถูกต้อง^InvalidEmail^
+
+^InvalidPassword^รหัสผ่านไม่ถูกต้อง^InvalidPassword^
+
+^InvalidProviderUserKey^ที่ไม่ถูกต้องที่สำคัญผู้ให้บริการ^InvalidProviderUserKey^
+
+^InvalidQuestion^คำถามที่ไม่ถูกต้องกู้คืนรหัสผ่าน^InvalidQuestion^
+
+^InvalidUserName^ชื่อผู้ใช้ที่ไม่ถูกต้อง^InvalidUserName^
+
+^IsApproved^ได้รับการอนุมัติ^IsApproved^
+
+^IsLockedOut^ล็อคออก^IsLockedOut^
+
+^LastLockoutDate^วันที่ Lockout ครั้งสุดท้าย^LastLockoutDate^
+
+^LastLoginDate^วันที่เข้าระบบครั้งสุดท้าย^LastLoginDate^
+
+^LastPasswordChangedDate^รหัสผ่านครั้งสุดท้ายวันที่มีการเปลี่ยนแปลง^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^คำตอบรหัสผ่าน (ไม่ปรากฏสำหรับการป้องกันของคุณ)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^กรุณาป้อนรหัสผ่านปัจจุบันของคุณเพื่อสร้างรหัสผ่านใหม่, ปรับปรุงที่อยู่อีเมลของคุณหรือเปลี่ยนคำถามกู้คืนรหัสผ่านและคำตอบ^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1 รหัสผ่านปัจจุบัน^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^โปรดตรวจสอบข้อมูลสมาชิกของคุณด้านล่าง คลิกการปรับปรุงบัญชีของฉันเพื่อบัน​​ทึกการเปลี่ยนแปลงนี้หรือคลิกยกเลิกเพื่อส่งกลับมา^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^บัญชีของฉัน^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^กรุณาป้อนรหัสผ่านใหม่ โปรดทราบว่ารหัสผ่านต้องมีอย่างน้อย 7 ตัวอักษรยาวและรวมถึงหนึ่งอักขระที่ไม่ใช่ตัวเลขและตัวอักษร^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2 รหัสผ่านใหม่ (ตัวเลือก)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^ในระหว่างการฟื้นตัวของการลืมรหัสผ่านที่คุณจะถูกถามให้ใส่ชื่อผู้ใช้ของคุณ ถ้าบัญชีผู้ใช้ที่มีอยู่แล้วคำถามรหัสผ่านที่ต้องตอบ คำตอบที่ถูกจะทำให้อีเมลที่มีรหัสผ่านชั่วคราวส่งถึงคุณ^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3 อีเมล์กู้คืนรหัสผ่าน &amp; (ตัวเลือก)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^รหัสผ่านใหม่^NewPassword^
+
+^NewPasswordAlert^รหัสผ่านใหม่ที่ได้รับการส่งอีเมลไปที่ที่อยู่ในไฟล์^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^รหัสผ่านใหม่และยืนยันไม่ตรงกัน^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^รหัสผ่านใหม่ของคุณไม่ถูกต้อง^NewPasswordInvalid^
+
+^NewPasswordSubject^รหัสผ่านใหม่สำหรับ \ &#39;{0} \&#39;^NewPasswordSubject^
+
+^OldPassword^รหัสผ่านเก่า^OldPassword^
+
+^Password^รหัสผ่าน^Password^
+
+^PasswordAndConfirmationDoNotMatch^รหัสผ่านและยืนยันไม่ตรงกัน^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^คำตอบรหัสผ่าน^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^รหัสผ่านของคุณไม่ตรงกับบันทึกของเรา^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^รูปแบบรหัสผ่าน^PasswordFormat^
+
+^PasswordQuestion^คำถามรหัสผ่าน^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^กรุณาใส่ชื่อผู้ใช้ <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^ลืมรหัสผ่าน?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^กรุณากรอกแบบฟอร์มนี้และคลิกปุ่มดำเนินการต่อในการกู้คืนรหัสผ่านที่ลืม คลิกยกเลิกเพื่อกลับไปยังหน้าจอ^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^การกู้คืนรหัสผ่าน : ขั้นที่ 1 จาก 2^PasswordRequestViewLabel^
+
+^ProviderError^ข้อผิดพลาดของผู้ให้บริการ^ProviderError^
+
+^RequestPasswordActionHeaderText^ถัดไป^RequestPasswordActionHeaderText^
+
+^Roles^บทบาท^Roles^
+
+^SelfRegisteredUser^ผู้ใช้ที่ลงทะเบียนด้วยตนเอง^SelfRegisteredUser^
+
+^SignUp^เข้าสู่ระบบ^SignUp^
+
+^SignUpViewHeaderText^กรุณากรอกแบบฟอร์มนี้และคลิกปุ่ม OK เพื่อลงทะเบียนสำหรับบัญชี คลิกยกเลิกเพื่อกลับไปยังหน้าจอ^SignUpViewHeaderText^
+
+^SignUpViewLabel^บัญชีผู้ใช้เข้าสู่ระบบ^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^กรุณาใส่ชื่อผู้ใช้และรหัสผ่าน โปรดทราบว่ารหัสผ่านต้องมีอย่างน้อย 7 ตัวอักษรยาวและรวมถึงหนึ่งอักขระที่ไม่ใช่ตัวเลขและตัวอักษร เฉพาะผู้ใช้ที่ได้รับการอนุมัติจะสามารถเข้าสู่ระบบในเว็บไซต์^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^ข้อมูลผู้ใช้ใหม่^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^เขตข้อมูลเหล่านี้จำเป็นต้องมีเพื่อช่วยให้คุณสามารถกู้คืนรหัสผ่านที่ลืม ระหว่างขั้นตอนการกู้คืนที่คุณจะถูกถามให้ใส่ชื่อผู้ใช้ ถ้าบัญชีผู้ใช้ที่มีอยู่แล้วคำถามรักษาความปลอดภัยที่มีการร้องขอที่จะตอบ คำตอบที่ถูกจะทำให้อีเมลที่มีรหัสผ่านชั่วคราวส่งไปยังอีเมลที่ลงทะเบียน^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^กู้คืนรหัสผ่าน^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^ปรับปรุงบัญชีของฉัน^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^ผู้ใช้จะไม่สามารถล็อคออก หากคุณต้องการป้องกันไม่ให้ผู้ใช้รายนี้จากความสามารถในการเข้าสู่ระบบแล้วเพียงแค่ผู้ใช้เป็นเครื่องหมายไม่ได้รับการอนุมัติ&#39;^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^&#39;{0}&#39; ผู้ใช้งานได้ถูกลบออก^UserHasBeenDeleted^
+
+^UserName^ชื่อผู้ใช้^UserName^
+
+^UserNameDoesNotExist^ชื่อผู้ใช้ไม่อยู่^UserNameDoesNotExist^
+
+^UserNotFound^ไม่พบผู้ใช้^UserNotFound^
+
+^UserRejected^ผู้ใช้ที่ได้รับการปฏิเสธ^UserRejected^
+
+^UsersInRolesGridHeaderText^นี้เป็นรายการของระเบียนผู้ใช้สมาชิกที่เป็นของบทบาทที่เลือก^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^ผู้ใช้งานในบทบาท^UsersInRolesGridLabel^
+

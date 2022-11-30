@@ -1,0 +1,14 @@
+﻿CREATE TABLE aspnet_sessions
+(
+	SESSION_ID       varchar2(80)	NOT NULL,
+	APPLICATION_NAME varchar2(255)	NOT NULL,
+	CREATED          DATE		    NOT NULL,
+	EXPIRES          DATE	    	NOT NULL,
+	LOCK_DATE        DATE   		NOT NULL,
+	LOCK_ID          NUMBER		    NOT NULL,
+	TIMEOUT          NUMBER		    NOT NULL,
+	LOCKED           NUMBER(1)		NOT NULL,
+	SESSION_ITEMS    BLOB,
+	FLAGS            NUMBER         NOT NULL,
+    PRIMARY KEY(SESSION_ID, APPLICATION_NAME) 
+)

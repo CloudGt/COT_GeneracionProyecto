@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Tilbage^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Afslut^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Bekræft ny adgangskode^ConfirmNewPassword^
+
+^ConfirmPassword^Bekræft kodeord^ConfirmPassword^
+
+^Email^E-mail^Email^
+
+^ForgotYourPassword^Glemt din adgangskode?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Besvar følgende spørgsmål for at modtage dit kodeord. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identitetsbekræftelse^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Udfyld dette formular og klik på Submit-knappen for at gendanne den glemte adgangskode. Klik på Annuller for at vende tilbage til det forrige skærmbillede.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: Trin 2 af 2^IdentityConfirmViewLabel^
+
+^LoginButton^Log på^LoginButton^
+
+^LoginLink^Log på^LoginLink^
+
+^LoginWithDNN^Log ind med DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Login med Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Log ind med Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Login med Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Log ind med SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Log ind med Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Adgangskode Svar (vises ikke for din beskyttelse)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Indtast venligst din nuværende adgangskode for at oprette ny adgangskode, opdatere din e-mail-adresse eller ændre adgangskodegendannelsesspørgsmål og svar.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Nuværende adgangskode^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Gennemgå venligst dine medlemsoplysninger nedenfor. Klik på Opdater min konto for at ændre denne post, eller klik på Annuller for at vende tilbage.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Min konto^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Indtast venligst ny adgangskode. Bemærk, at adgangskoden skal være mindst 7 tegn lang og omfatte et ikke-alfanumerisk tegn.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nyt kodeord (valgfrit)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Under gendannelsen af ​​en glemt adgangskode bliver du bedt om at indtaste dit brugernavn. Hvis der findes en brugerkonto, skal der besvares et adgangskode spørgsmål. Et korrekt svar vil udløse en email med en midlertidig adgangskode, der sendes til dig.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Password Recovery (Valgfrit)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^nyt kodeord^NewPassword^
+
+^OldPassword^gammelt kodeord^OldPassword^
+
+^Password^Adgangskode^Password^
+
+^PasswordAnswer^Adgangskode Svar^PasswordAnswer^
+
+^PasswordQuestion^Adgangskode spørgsmål^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Indtast venligst et brugernavn. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Glemt din adgangskode?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Udfyld dette formular og klik på Fortsæt-knappen for at gendanne den glemte adgangskode. Klik på Annuller for at vende tilbage til det forrige skærmbillede.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: Trin 1 af 2^PasswordRequestViewLabel^
+
+^RememberMe^Husk mig næste gang^RememberMe^
+
+^RequestPasswordActionHeaderText^Næste^RequestPasswordActionHeaderText^
+
+^SignUp^Tilmelde^SignUp^
+
+^SignUpNow^Tilmeld dig nu^SignUpNow^
+
+^SignUpViewHeaderText^Udfyld venligst dette formular og klik på OK-knappen for at tilmelde dig en konto. Klik på Annuller for at vende tilbage til det forrige skærmbillede.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Tilmeld dig konto^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Indtast venligst brugernavn og adgangskode. Bemærk, at adgangskoden skal være mindst 7 tegn lang og omfatte et ikke-alfanumerisk tegn. Kun godkendte brugere vil kunne logge ind på hjemmesiden.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Ny brugerinformation^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Disse felter er nødvendige for at hjælpe dig med at gendanne en glemt adgangskode. Under genoprettelsesprocessen bliver du bedt om at indtaste et brugernavn. Hvis der findes en brugerkonto, bliver et sikkerhedsspørgsmål anmodet om at blive besvaret. Et korrekt svar vil udløse en e-mail med en midlertidig adgangskode, der sendes til den registrerede email.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Gendan adgangskode^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Opdater min konto^UpdateMyAccountActionHeaderText^
+
+^UserName^Brugernavn^UserName^
+

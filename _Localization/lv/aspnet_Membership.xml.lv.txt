@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Izveidot jaunu lietotāju rekordu.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Jauns lietotājs^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^New^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Atpakaļ^BackToRequestPasswordActionHeaderText^
+
+^Comment^Komentāru^Comment^
+
+^ConfirmIdentityActionHeaderText^Apdare^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Apstiprināt jauno paroli^ConfirmNewPassword^
+
+^ConfirmPassword^Apstiprināt paroli^ConfirmPassword^
+
+^CreateDate^Izveidot Datums^CreateDate^
+
+^CreateFormCommentCategoryDescription^Ievadiet papildu komentārus par šo lietotāja kontu. Komentārs nav redzams lietotājam.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Komentāri^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Lūdzu, ievadiet lietotāja vārdu un paroli. Ņemiet vērā, ka parolei jābūt vismaz 7 rakstzīmēm, un iekļauj vienu bez burtciparu rakstzīmes. Tikai reģistrētiem lietotājiem būs iespēja pieteikties uz mājas lapā.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Jauns Lietotāja informācija^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Šie lauki ir obligāti, lai palīdzētu lietotājam, lai atgūtu aizmirsto paroli. Piedziņas procesa laikā lietotājam tiks lūgts ievadīt lietotāja vārdu. Ja lietotāja konts pastāv, tad drošības jautājums tiek lūgts atbildēt. Pareizā atbilde izraisīs e-pastu ar pagaidu paroli nosūta lietotājam.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Paroles atgūšana^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Lūdzu, izvēlieties lietotāju lomas, kas visvairāk atbilst lietotāja pienākumiem. Lomas kontrolētu piekļuvi šīs lapas zonās. Lūdzu, sazinieties ar sistēmas administratoru, ja lomu piekļuves ierobežojumi ir jāmaina.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Lomas^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Lūdzu aizpildiet šo veidlapu un noklikšķiniet uz OK pogas, lai izveidotu jaunu lietotāja dalībnieku rekordu. Noklikšķiniet uz Atcelt, lai atgrieztos iepriekšējā ekrānā.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Jauns lietotājs^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Šī lietotāja konts tiks izveidots par apstiprinātu.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplicate e-pasta adresi.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Duplicate sniedzējs taustiņu.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Dublēt lietotāja vārdu.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Darbības statistika^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Šī lietotāja konts ir apstiprināts^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Tie ir statistiku neizdevās login mēģinājumi šis lietotājs. <br/> <br/> Lietotājam tiks izslēgta, sasniedzot maksimālo skaitu neizdevās login mēģinājumi. <br/> <br/> Bloķēts lietotāji varēs pieteikties atkal pēc datuma Failed Parole Mēģinājums Window Start. <br/> <br/> Lietotāji, kuri nav atgūtu paroli, varēs tik pēc datuma Failed Parole Atbilde Mēģinājums Window Start. <br/> <br/> Jūs varat atjaunot lietotāju spēju login nosakot Locked Out karogu, &quot;Nē&quot;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Piesakieties Statistika^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Laikā atgūšanu aizmirsuši paroli lietotājam tiks lūgts ievadīt lietotāja vārdu. Ja lietotāja konts pastāv, tad drošības jautājums tiek lūgts atbildēt. Pareizā atbilde izraisīs e-pastu ar pagaidu paroli nosūta lietotājam. <br/><br/> Mainīt bloķēts karogu, &quot;Nē&quot;, ja lietotājs ir bloķēts, sasniedzot maksimālo skaitu neizdevās login mēģinājumi, un vēlaties atļaut lietotājiem, lai pieteiktos vēlreiz.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Paroles atgūšana^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Lūdzu, izvēlieties lietotāju lomas, kas visvairāk atbilst lietotāja pienākumiem. Lomas kontrolētu piekļuvi šīs lapas zonās. Lūdzu, sazinieties ar sistēmas administratoru, ja lomu piekļuves ierobežojumi ir jāmaina. <br/> <br/> Ievadiet papildu komentārus par šo lietotāja kontu. Komentārs nav redzams lietotājam.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Lietotāja informācija^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Lūdzu, pārskatiet lietotāju biedru informāciju. Noklikšķiniet uz Rediģēt, lai mainītu šo ierakstu, noklikšķiniet uz Dzēst, lai izdzēstu ierakstu, vai noklikšķiniet uz Atcelt / Aizvērt, lai atgrieztos atpakaļ.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Review lietotāju^EditFormViewLabel^
+
+^Email^E-pasts^Email^
+
+^EnterCurrentPassword^Lūdzu ievadiet savu pašreizējo paroli.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Lūdzu, ievadiet paroli atbildi.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Kļūda saglabājot lietotāja kontu.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Neizdevās Parole Atbilde Mēģinājums Count^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Neizdevās Parole Atbilde Mēģinājums Window Start^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Neizdevās paroli Mēģinājums Count^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Neizdevās Parole Mēģinājums Window Start^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Šis ir saraksts ar dalības lietotāja ierakstus.^GridViewHeaderText^
+
+^GridViewLabel^Visi lietotāji^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Atbilde šādu jautājumu, lai saņemtu paroli. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identitātes apliecinājumu^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Lūdzu aizpildiet šo veidlapu un noklikšķiniet uz pogas Iesniegt, lai atgūtu aizmirsto paroli. Noklikšķiniet uz Atcelt, lai atgrieztos iepriekšējā ekrānā.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: 2 no 2 Step^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Nepareiza parole atgūšana atbildi.^InvalidAnswer^
+
+^InvalidEmail^Nederīga e-pasta adresi.^InvalidEmail^
+
+^InvalidPassword^Nepareiza parole.^InvalidPassword^
+
+^InvalidProviderUserKey^Nederīgs sniedzējs lietotāja taustiņu.^InvalidProviderUserKey^
+
+^InvalidQuestion^Nepareiza paroles atjaunošanas jautājumu.^InvalidQuestion^
+
+^InvalidUserName^Nederīgs lietotājvārds.^InvalidUserName^
+
+^IsApproved^Ir apstiprināts^IsApproved^
+
+^IsLockedOut^Vai Locked Out^IsLockedOut^
+
+^LastLockoutDate^Pēdējais Lockout Datums^LastLockoutDate^
+
+^LastLoginDate^Last Login datums^LastLoginDate^
+
+^LastPasswordChangedDate^Pēdējo Parole Mainīts datums^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Parole Atbilde (neparādās jūsu aizsardzību)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Lūdzu ievadiet savu pašreizējo paroli, lai izveidotu jaunu paroli, atjauniniet savu e-pasta adresi vai mainīt paroles atgūšanas jautājumu un atbildi.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Current Password^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Lūdzu, pārskatiet jūsu dalības informāciju. Noklikšķiniet uz Atjaunināt Mans konts, lai mainītu šo ierakstu, vai noklikšķiniet uz Atcelt, lai atgrieztos atpakaļ.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Mans konts^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Lūdzu ievadiet jauno paroli. Ņemiet vērā, ka parolei jābūt vismaz 7 rakstzīmēm, un iekļauj vienu bez burtciparu rakstzīmes.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Jaunā parole (pēc izvēles)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Laikā atgūšanu aizmirsuši paroli Jums tiks lūgts ievadīt savu lietotāja vārdu. Ja lietotāja konts pastāv, tad parole jautājumu ir jāatbild. Pareizā atbilde izraisīs e-pastu ar pagaidu paroli nosūtīt jums.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-pasts &amp; Password Recovery (pēc izvēles)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Jaunā parole^NewPassword^
+
+^NewPasswordAlert^Jaunā parole ir pa e-pastu uz adresi failu.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Jaunā parole un apstiprināšanas nesakrīt.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Jūsu jaunā parole ir nederīga.^NewPasswordInvalid^
+
+^NewPasswordSubject^Jauna parole \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Vecā parole^OldPassword^
+
+^Password^Parole^Password^
+
+^PasswordAndConfirmationDoNotMatch^Paroles un apstiprināšana nesakrīt.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Paroles Atbildēt^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Jūsu parole neatbilst mūsu ierakstiem.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Paroles formāts^PasswordFormat^
+
+^PasswordQuestion^Paroles Jautājums^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Lūdzu, ievadiet lietotāja vārdu. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Aizmirsi savu paroli?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Lūdzu aizpildiet šo veidlapu un noklikšķiniet uz pogas Turpināt, lai atgūtu aizmirsto paroli. Noklikšķiniet uz Atcelt, lai atgrieztos iepriekšējā ekrānā.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: 1 no 2 Step^PasswordRequestViewLabel^
+
+^ProviderError^Provider kļūda.^ProviderError^
+
+^RequestPasswordActionHeaderText^Nākamā^RequestPasswordActionHeaderText^
+
+^Roles^Lomas^Roles^
+
+^SelfRegisteredUser^Self-reģistrētam lietotājam.^SelfRegisteredUser^
+
+^SignUp^Sign Up^SignUp^
+
+^SignUpViewHeaderText^Lūdzu aizpildiet šo veidlapu un noklikšķiniet uz pogas Labi, lai pierakstīties uz kontu. Noklikšķiniet uz Atcelt, lai atgrieztos iepriekšējā ekrānā.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Konta Sign Up^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Lūdzu, ievadiet lietotāja vārdu un paroli. Ņemiet vērā, ka parolei jābūt vismaz 7 rakstzīmēm, un iekļauj vienu bez burtciparu rakstzīmes. Tikai reģistrētiem lietotājiem būs iespēja pieteikties uz mājas lapā.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Jauns Lietotāja informācija^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Šie lauki ir obligāti, lai palīdzētu jums atgūt aizmirsto paroli. Piedziņas procesa laikā jums tiks lūgts ievadīt lietotāja vārdu. Ja lietotāja konts pastāv, tad drošības jautājums tiek lūgts atbildēt. Pareizā atbilde izraisīs e-pastu ar pagaidu paroli nosūtīt uz reģistrēto e-pastu.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Paroles atgūšana^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Update Mans konts^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Lietotājs nevar izslēgt. Ja vēlaties, lai novērstu šo lietotāju no iespējas, lai pieteiktos, tad vienkārši zīme lietotājs kā &quot;nav apstiprināts&quot;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Lietotājs&#39;{0}&#39; ir izdzēsts.^UserHasBeenDeleted^
+
+^UserName^Lietotāja Vārds^UserName^
+
+^UserNameDoesNotExist^Lietotāja vārds neeksistē.^UserNameDoesNotExist^
+
+^UserNotFound^Lietotājs nav atrasts.^UserNotFound^
+
+^UserRejected^Lietotājs ir noraidīts.^UserRejected^
+
+^UsersInRolesGridHeaderText^Šis ir saraksts ar dalības lietotāja ierakstus, kas iekļauti izvēlētajā lomu.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Lietotāji Loma^UsersInRolesGridLabel^
+

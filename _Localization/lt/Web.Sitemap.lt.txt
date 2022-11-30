@@ -1,0 +1,19 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Web.Sitemap project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^HomeDesc^Programos pagrindiniame puslapyje^HomeDesc^
+
+^HomePath^Namo^HomePath^
+
+^MembershipDesc^Vartotojo ir vaidmuo vadybininkas^MembershipDesc^
+
+^MembershipPath^Narystė^MembershipPath^
+
+^ReportsPath^Ataskaitos^ReportsPath^
+
+^SiteHome^Namo^SiteHome^
+

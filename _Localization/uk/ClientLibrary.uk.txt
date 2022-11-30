@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Про^About^
+
+^Accent^акцент^Accent^
+
+^ActionBarActionsHeaderText^Дії^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Скасувати^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Відмінити всі записи змін.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Скасування новий рекорд.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Зберегти новий запис в базі даних.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Економити^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Створіть новий рекорд {0}.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^Нові {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Новий^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Запис^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Звіт^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Зберегти зміни в базу даних.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Економити^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Додати обліковий запис^AddAccount^
+
+^AddCondition^Додати умова^AddCondition^
+
+^AddConditionText^Додати умови пошуку^AddConditionText^
+
+^AddItem^Додати елемент^AddItem^
+
+^AddMatchingGroup^Додати підбору груп^AddMatchingGroup^
+
+^AddSearchBarField^Більш Поля пошуку^AddSearchBarField^
+
+^AddSystemIdentity^Додати системи ідентифікації^AddSystemIdentity^
+
+^AddToFavorites^Додати в обране^AddToFavorites^
+
+^AdvancedSearch^Розширений пошук^AdvancedSearch^
+
+^AdvancedSearchInstruction^Введіть умови, які повинні бути узгоджені і натисніть кнопку пошуку.^AdvancedSearchInstruction^
+
+^After^Після^After^
+
+^Agenda^Порядок денний^Agenda^
+
+^AlignedLeft^Вирівнювання по лівому краю^AlignedLeft^
+
+^AlignedRight^Уніфіковані правої^AlignedRight^
+
+^AllDatesInPreriod^Усі дати за період^AllDatesInPreriod^
+
+^AlternativeView^Виберіть альтернативний погляд на дані.^AlternativeView^
+
+^Always^Завжди^Always^
+
+^AnyValue^(Любой)^AnyValue^
+
+^Apply^Застосувати^Apply^
+
+^Apps^додатки^Apps^
+
+^Aquarium^Акваріум^Aquarium^
+
+^Auto^Автоматичний^Auto^
+
+^AutoOpenNextItem^Автовідкрити наступний елемент^AutoOpenNextItem^
+
+^AverageOf^Середнє^AverageOf^
+
+^AvgAggregate^Середня: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Середнє {0}^AvgAggregateToolTip^
+
+^Azure^Лазурний^Azure^
+
+^Back^Назад^Back^
+
+^BackColor^Back Color^BackColor^
+
+^BatchEditActionHeaderText^Групове редагування^BatchEditActionHeaderText^
+
+^BatchEdited^{0} оновлено^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Групове редагування (форма)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^оновлення^BatchUpdate^
+
+^Before^До^Before^
+
+^BeginsWith^Починається з^BeginsWith^
+
+^Belltown^Белтаун^Belltown^
+
+^Berry^Ягода^Berry^
+
+^Between^Між^Between^
+
+^Bittersweet^Гіркувато-солодкий^Bittersweet^
+
+^Blank^Порожній^Blank^
+
+^BlankPassword^Пароль не може бути порожнім.^BlankPassword^
+
+^BlankUserName^Ім&#39;я користувача не може бути порожнім.^BlankUserName^
+
+^BlankValue^(Бланк)^BlankValue^
+
+^BlobDownloadHint^Натисніть тут, щоб завантажити вихідний файл.^BlobDownloadHint^
+
+^BlobDownloadLink^скачати^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Натисніть зображення, щоб завантажити оригінальний файл.^BlobDownloadOriginalHint^
+
+^Blur^Розмиття^Blur^
+
+^Bold^Сміливий^Bold^
+
+^BooleanFilterText^Логічні фільтри^BooleanFilterText^
+
+^BooleanIsExpected^Логічне значення не очікується.^BooleanIsExpected^
+
+^ButtonShapes^Форма кнопки^ButtonShapes^
+
+^By^по^By^
+
+^Calendar^Календар^Calendar^
+
+^Cancel^Скасувати^Cancel^
+
+^Cards^Карти^Cards^
+
+^Cay^Кораловий риф^Cay^
+
+^ChangeYourLanguage^Змінити мову^ChangeYourLanguage^
+
+^Charts^Діаграми^Charts^
+
+^Citrus^Цитрусові^Citrus^
+
+^Classic^Класичний^Classic^
+
+^ClearFilter^Зняти фільтр із {0}^ClearFilter^
+
+^ClearFilter2^Очистити фільтр^ClearFilter2^
+
+^ClearText^Чіст.текст^ClearText^
+
+^ClearToolTip^Очистити {0}^ClearToolTip^
+
+^Close^Близько^Close^
+
+^Comfortable^Зручний^Comfortable^
+
+^Compact^Компактний^Compact^
+
+^Condensed^Згущений^Condensed^
+
+^ConfirmContinue^Продовжити?^ConfirmContinue^
+
+^ConfirmReload^Оновити?^ConfirmReload^
+
+^ConnectionLost^З&#39;єднання з мережею було втрачено. Спробуйте ще раз?^ConnectionLost^
+
+^Construct^Будувати^Construct^
+
+^Contains^Містить^Contains^
+
+^Convention^Конвенція^Convention^
+
+^Copy^Скопіюйте^Copy^
+
+^CountAggregate^Кількість: {0}^CountAggregate^
+
+^CountAggregateToolTip^Граф {0}^CountAggregateToolTip^
+
+^CountOf^Граф^CountOf^
+
+^CreateLink^Створити посилання^CreateLink^
+
+^CustomFilterOption^Фільтр ...^CustomFilterOption^
+
+^Cut^Вирізати^Cut^
+
+^DarkKnight^Темний лицар^DarkKnight^
+
+^DarkTheme^Темно^DarkTheme^
+
+^DataSheetActionDescription^Показати предмети, використовуючи дані sheet<br/>format.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Показати в Паспорті^DataSheetActionHeaderText^
+
+^DataWarning^Максимальна кількість елементів у процесі {0: d}. Натисніть тут, щоб відфільтрувати результати.^DataWarning^
+
+^Date^Дата^Date^
+
+^DateFilterText^Фільтри за датами^DateFilterText^
+
+^DateIsExpected^Дата не очікується.^DateIsExpected^
+
+^DatesAMinAgo^хвилину тому^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^за хвилину^DatesInAMin^
+
+^DatesInHour^за годину^DatesInHour^
+
+^DatesInMin^в {0} хв^DatesInMin^
+
+^DatesLast^останній^DatesLast^
+
+^DatesMinAgo^{0} Мін назад^DatesMinAgo^
+
+^DatesNext^наступного^DatesNext^
+
+^DatesNow^в даний час^DatesNow^
+
+^DatesOneHour^годину назад^DatesOneHour^
+
+^DateSortAscending^Перший зверху^DateSortAscending^
+
+^DateSortDescending^Останні зверху^DateSortDescending^
+
+^DatesSmart^смарт Дати^DatesSmart^
+
+^DatesToday^сьогодні^DatesToday^
+
+^DatesTomorrow^завтра^DatesTomorrow^
+
+^DatesYesterday^вчора^DatesYesterday^
+
+^Day^День^Day^
+
+^DefaultCancelActionHeaderText^Близько^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Будь ласка, заповніть цю форму та натисніть кнопку ОК, щоб створити новий запис {0}. Натисніть Скасувати, щоб повернутися до попереднього вигляду.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^Ці області {0} запис, який може бути відредагований.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Будь ласка, ознайомтеся з {0} інформацію нижче. Натисніть Змінити, щоб змінити цей запис, натисніть кнопку Видалити, щоб видалити запис, або натисніть кнопку Відмінити / Закрити, щоб повернутися назад.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Це список {0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Заповніть форму. Переконайтеся в тому, щоб ввести всі необхідні поля.^DefaultNewDescription^
+
+^DefaultOption^Дефолт^DefaultOption^
+
+^DefaultReferenceDescription^Додаткова інформація про {0} див довідкової інформації.^DefaultReferenceDescription^
+
+^Delete^Видаляти^Delete^
+
+^DeleteActionConfirmation^Видалити?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Видаляти^DeleteActionHeaderText^
+
+^Deleted^{$ selected} видалено^Deleted^
+
+^DeleteOriginalSel^видалити оригінальний вибір^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Видалення)^DeleteSearchBarField^
+
+^DetailsToolTip^Детальніше на {0}^DetailsToolTip^
+
+^DevelopExplorer^провідник проекту^DevelopExplorer^
+
+^DevelopFormLayout^форма Layout^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^Виберіть розмір екрану, які будуть включені в макет.^DevelopFormLayoutInstr^
+
+^DevelopTools^Інструменти розробника^DevelopTools^
+
+^Device^пристрій^Device^
+
+^DeviceLoginPrompt^Будь ласка, увійдіть, щоб авторизувати доступ на цьому пристрої.^DeviceLoginPrompt^
+
+^DidNotMatch^Не відповідає^DidNotMatch^
+
+^Directions^Проїзд^Directions^
+
+^DiscardChanges^Скасувати зміни?^DiscardChanges^
+
+^DisplayDensity^Показати Щільність^DisplayDensity^
+
+^DisplayedAbove^Показані вище^DisplayedAbove^
+
+^DisplayedBelow^Відображаються нижче^DisplayedBelow^
+
+^Dock^Док^Dock^
+
+^DoesNotBeginWith^Не починається з^DoesNotBeginWith^
+
+^DoesNotContain^Не містить^DoesNotContain^
+
+^DoesNotEndWith^Не закінчується^DoesNotEndWith^
+
+^DoesNotEqual^Хіба не однаково^DoesNotEqual^
+
+^DoesNotInclude^Не включає^DoesNotInclude^
+
+^DoNotMatchAll^Не відповідає всім умовам^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Не відповідає всім умовам^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Не знайдено жодного умови^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Не знайдено жодного умови^DoNotMatchAnyPastTense^
+
+^Download^скачати^Download^
+
+^Draw^Нічия^Draw^
+
+^DuplicateActionHeaderText^Дублювати^DuplicateActionHeaderText^
+
+^DuplicateItem^Дубльований елемент^DuplicateItem^
+
+^DuplicateRow^Дубльована рядок^DuplicateRow^
+
+^EditActionHeaderText^Редагувати^EditActionHeaderText^
+
+^EditItem^Редагувати елемент^EditItem^
+
+^EditModeCancelActionHeaderText^Скасувати^EditModeCancelActionHeaderText^
+
+^EditRow^Редагувати рядок^EditRow^
+
+^Empty^Порожній^Empty^
+
+^EmptyContext^Дії недоступні.^EmptyContext^
+
+^EmptyValue^(Пусто)^EmptyValue^
+
+^Enable^Увімкнути^Enable^
+
+^EndsWith^Закінчується З^EndsWith^
+
+^Equals^Так само^Equals^
+
+^Eraser^Гумка^Eraser^
+
+^Error^помилка^Error^
+
+^Exit^ВХІД^Exit^
+
+^ExitFullscreen^вихід Редакція^ExitFullscreen^
+
+^ExportCsvActionDescription^Завантаження об&#39;єктів у форматі CSV.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Завантажити^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Аналіз елементів з spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Експорт в електронну таблицю^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Syndicate вироби з RSS-рідер.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^Перегляд RSS потік^ExportRssActionHeaderText^
+
+^Favorites^Вибрані^Favorites^
+
+^Felt^Повсть^Felt^
+
+^FileCleared^Значення буде очищено при збереженні^FileCleared^
+
+^FilesBytes^байт^FilesBytes^
+
+^FilesClear^Ясно^FilesClear^
+
+^FilesClearConfirm^Ясно?^FilesClearConfirm^
+
+^FilesClick^Натисніть, щоб вибрати файл^FilesClick^
+
+^FilesClickMany^Натисніть, щоб вибрати файли^FilesClickMany^
+
+^FilesDrop^Залиште файл тут^FilesDrop^
+
+^FilesDropMany^Перетягувати файли тут^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Натисніть, щоб вибрати файл^FilesTap^
+
+^FilesTapMany^Натисніть, щоб вибрати файли^FilesTapMany^
+
+^Filter^Фільтр^Filter^
+
+^FilterApplied^Фільтр був застосований.^FilterApplied^
+
+^FilterByField^Виберіть поле, щоб застосувати фільтр до <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Виберіть один або кілька варіантів у наведеному нижче переліку і натисніть <b>{2}</b> фільтрації <b>{0}</b> полем <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Очищено всі фільтри.^FilterCleared^
+
+^FilterLabelAnd^і^FilterLabelAnd^
+
+^FilterLabelClear^Ясно^FilterLabelClear^
+
+^FilterLabelEquals^одно^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Зміна^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^включає в себе^FilterLabelIncludes^
+
+^FilterLabelOr^або^FilterLabelOr^
+
+^FilterLabelSelectAll^(Виділити все)^FilterLabelSelectAll^
+
+^FilterSiteMap^Карта Фільтр сайт ...^FilterSiteMap^
+
+^Finish^обробка^Finish^
+
+^FitToWidth^по ширині^FitToWidth^
+
+^FlatTreeToggle^Перемикання в ієрархії^FlatTreeToggle^
+
+^FontName^Назва шрифту^FontName^
+
+^FontSize^Розмір шрифта^FontSize^
+
+^ForeColor^Передньої Колір^ForeColor^
+
+^Forget^забувати^Forget^
+
+^ForgotYourPassword^Забули пароль?^ForgotYourPassword^
+
+^Format^Формат^Format^
+
+^Freeze^Заморожувати^Freeze^
+
+^From^від^From^
+
+^Fullscreen^Повноекранний^Fullscreen^
+
+^Future^Майбутнє^Future^
+
+^GeneralTabText^Загальний^GeneralTabText^
+
+^Generate^Генерувати^Generate^
+
+^GenericNewToolTip^Створити новий^GenericNewToolTip^
+
+^GenericSortAscending^Найменший зверху^GenericSortAscending^
+
+^GenericSortDescending^Найбільший на верх^GenericSortDescending^
+
+^Graham^Грехем^Graham^
+
+^GrandTotals^Загальні підсумки^GrandTotals^
+
+^Granite^Граніт^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Вага^Gravity^
+
+^GreaterThan^Більше^GreaterThan^
+
+^GreateThanOrEqual^Більше або дорівнює^GreateThanOrEqual^
+
+^Grid^Сітка^Grid^
+
+^GridActionDescription^Показати елементи в standard<br/>list форматі.^GridActionDescription^
+
+^GridActionHeaderText^Показати в стандартне уявлення^GridActionHeaderText^
+
+^Group^Група^Group^
+
+^GroupByField^Виберіть поле для угруповання <b>{0}</b>.^GroupByField^
+
+^Grouped^Групувати^Grouped^
+
+^GroupedBy^Групування за^GroupedBy^
+
+^GroupedDefault^Групування було видалено^GroupedDefault^
+
+^Heading1^Заголовок 1^Heading1^
+
+^Heading2^Заголовок 2^Heading2^
+
+^Heading3^Заголовок 3^Heading3^
+
+^Heading4^Заголовок 4^Heading4^
+
+^Heading5^Заголовок 5^Heading5^
+
+^Heading6^Заголовок 6^Heading6^
+
+^Help^Допомога^Help^
+
+^HelpClose^Близько^HelpClose^
+
+^HelpFullScreen^Full Screen^HelpFullScreen^
+
+^Hide^приховувати^Hide^
+
+^HideAdvancedSearch^Приховати Розширений пошук^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Переключити на плоский список^HierarchyTreeModeToggle^
+
+^Highlighter^Хайлайтер^Highlighter^
+
+^History^Історія^History^
+
+^HistoryToolTip^Переглянути історію раніше вибраних записів^HistoryToolTip^
+
+^HistoryUnavailable^Історія не доступні.^HistoryUnavailable^
+
+^Home^Додому^Home^
+
+^IdleUser^Ви все ще там? Будь ласка, Увійти знову.^IdleUser^
+
+^ImportActionDescription^Завантажити CSV, XLS, XLSX або запису file<br/>to імпорту.^ImportActionDescription^
+
+^ImportActionHeaderText^Імпорт з файлу^ImportActionHeaderText^
+
+^ImportAutoDetect^(Автоматичне визначення)^ImportAutoDetect^
+
+^ImportComplete^повний^ImportComplete^
+
+^ImportDone^завершено імпортування^ImportDone^
+
+^ImportDownloadTemplate^Завантажити шаблон файлу імпорту.^ImportDownloadTemplate^
+
+^ImportDuplicates^дублікати^ImportDuplicates^
+
+^ImportEmail^Надіслати імпорту лог за наступними адресами електронної пошти (не обов&#39;язково)^ImportEmail^
+
+^ImportEmailNotSpecified^Одержувач імпорту лог не був зазначений. Все одно продовжити?^ImportEmailNotSpecified^
+
+^ImportExpected^передбачається завершити^ImportExpected^
+
+^ImportFileStats^Є <b>{0}</b> записи в файлі <b>{1}</b> готовий до обробки. Будь ласка, збігаються імена полів.^ImportFileStats^
+
+^Importing^імпорт^Importing^
+
+^ImportMappingInstruction^Є <b>{0}</b> записи (їй) в файлі <b>{1}</b> готовий до processed.<br/>Please карті імпорту полів з файлу даних у додатку поля та натисніть кнопку <i>Import</i>, щоб почати обробку.^ImportMappingInstruction^
+
+^ImportNotSupported^Формат даних &quot;{0}&quot; не підтримується.^ImportNotSupported^
+
+^ImportProcessing^Обробки файлу імпорту був початий. Імпортованих записів даних стане відома після успішної обробки. Можливо, вам доведеться оновити відповідні погляди / сторінок, щоб побачити імпортованих записів.^ImportProcessing^
+
+^ImportRemaining^передбачається завершити^ImportRemaining^
+
+^ImportSelectFile^Виберіть файл даних в CSV, XLS, XLSX або формат.^ImportSelectFile^
+
+^ImportStartButton^Імпорт^ImportStartButton^
+
+^ImportUploading^Ваш файл завантажений на сервер. Будь ласка, почекайте ...^ImportUploading^
+
+^ImportUploadInstruction^Будь ласка, виберіть файл для завантаження. Файл повинен бути в <b>CSV</b>, <b>XLS</b> або <b>XLSX</b> форматі.^ImportUploadInstruction^
+
+^In^в^In^
+
+^Includes^Включає в себе^Includes^
+
+^Indent^Відступ^Indent^
+
+^InfoBarAnd^і^InfoBarAnd^
+
+^InfoBarEmpty^порожній^InfoBarEmpty^
+
+^InfoBarEqualTo^дорівнює^InfoBarEqualTo^
+
+^InfoBarGreaterThan^більше^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^більше або дорівнює^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^менше^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^менше або дорівнює^InfoBarLessThanOrEqual^
+
+^InfoBarLike^подібно^InfoBarLike^
+
+^InfoBarOr^або^InfoBarOr^
+
+^InfoBarQuickFind^Всі поля містить^InfoBarQuickFind^
+
+^InfoBarStartsWith^починається з^InfoBarStartsWith^
+
+^InitialListMode^Початковий режим Список^InitialListMode^
+
+^InlineEditing^Вбудоване редагування^InlineEditing^
+
+^InsertActionHeaderText^ОК^InsertActionHeaderText^
+
+^InsertHorizontalRule^Вставте Горизонтальна лінія^InsertHorizontalRule^
+
+^InsertingRecords^вставка записів^InsertingRecords^
+
+^InsertOrderedList^Вставте Нумерований список^InsertOrderedList^
+
+^InsertUnorderedList^Вставити невпорядкований список^InsertUnorderedList^
+
+^Into^в^Into^
+
+^InvalidUserNameAndPassword^Ваше ім&#39;я користувача та пароль недійсні.^InvalidUserNameAndPassword^
+
+^Italic^Курсив^Italic^
+
+^ItemsPerPage^Товарів на сторінці:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} Елементи, вибрані^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Обраний елемент^ItemsSelectedOne^
+
+^JustDatesNow^Прямо зараз^JustDatesNow^
+
+^JustifyCenter^Вирівняти по центру^JustifyCenter^
+
+^JustifyFull^У всю ширину^JustifyFull^
+
+^JustifyLeft^Обгрунтуйте Зліва^JustifyLeft^
+
+^JustifyRight^Вирівняти праворуч^JustifyRight^
+
+^KeepOriginalSel^зберегти оригінальний вибір^KeepOriginalSel^
+
+^LabelsInList^Етикетки в списку^LabelsInList^
+
+^Lacquer^Лак^Lacquer^
+
+^Laminate^Ламінат^Laminate^
+
+^Landscape^Пейзаж^Landscape^
+
+^Large^Великий^Large^
+
+^LastMonth^За останній місяць^LastMonth^
+
+^LastQuarter^Остання чверть^LastQuarter^
+
+^LastWeek^За останній тиждень^LastWeek^
+
+^LastYear^Торік^LastYear^
+
+^Less^Менше^Less^
+
+^LessThan^Менше ніж^LessThan^
+
+^LessThanOrEqual^Менше або дорівнює^LessThanOrEqual^
+
+^Lichen^Лишайник^Lichen^
+
+^LightTheme^Світло^LightTheme^
+
+^Line^лінія^Line^
+
+^List^Список^List^
+
+^ListOneColumn^Список (один стовпець)^ListOneColumn^
+
+^ListViewStyle^Список^ListViewStyle^
+
+^Loading^Завантаження ...^Loading^
+
+^Logical^Логічний^Logical^
+
+^LoginButton^Увійти^LoginButton^
+
+^LoginLink^Увійти^LoginLink^
+
+^Logout^Вихід^Logout^
+
+^LookupInstruction^Будь ласка, виберіть <b>{0}</b> в списку.^LookupInstruction^
+
+^LookupOriginalSelection^Оригінальний вибір <b> &quot;{0}&quot; </b>.^LookupOriginalSelection^
+
+^ManageAccounts^Служба захисту^ManageAccounts^
+
+^Map^Карта^Map^
+
+^MatchAll^Підходимо всі умови^MatchAll^
+
+^MatchAllPastTense^Узгоджені всі умови^MatchAllPastTense^
+
+^MatchAny^Шукати будь-які умови^MatchAny^
+
+^MatchAnyPastTense^Узгоджені будь-яких умов^MatchAnyPastTense^
+
+^Matched^Узгоджені^Matched^
+
+^MaxAggregate^Макс: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Максимум {0}^MaxAggregateToolTip^
+
+^Maximize^Розширювати^Maximize^
+
+^MaximumOf^Максимум^MaximumOf^
+
+^Medium^Середа^Medium^
+
+^Menu^Меню^Menu^
+
+^MinAggregate^Час: {0}^MinAggregate^
+
+^MinAggregateToolTip^Мінімум {0}^MinAggregateToolTip^
+
+^Minimize^Колапс^Minimize^
+
+^MinimumOf^Мінімум^MinimumOf^
+
+^Mission^Місія^Mission^
+
+^ModeBrowsing^Перегляд^ModeBrowsing^
+
+^ModeEditing^Редагування^ModeEditing^
+
+^ModeEntering^Вхідний^ModeEntering^
+
+^ModeLookup^Пошук^ModeLookup^
+
+^Modern^Модерн^Modern^
+
+^ModernRose^Сучасні Роуз^ModernRose^
+
+^ModeViewing^Перегляд^ModeViewing^
+
+^Month^Місяць^Month^
+
+^More^Більш^More^
+
+^MultiSelection^мульти Вибір^MultiSelection^
+
+^Municipal^Муніципальний^Municipal^
+
+^MyAccount^Мої дані^MyAccount^
+
+^Never^Ніколи не^Never^
+
+^NewActionHeaderText^Новий^NewActionHeaderText^
+
+^NewItem^Новий предмет^NewItem^
+
+^NewRow^Нова рядок^NewRow^
+
+^NewRowLink^Клікніть тут, щоб створити новий запис.^NewRowLink^
+
+^NewToolTip^Нові {0}^NewToolTip^
+
+^Next^Наступний^Next^
+
+^Next2^Наступний^Next2^
+
+^NextMonth^Наступний місяць^NextMonth^
+
+^NextQuarter^У наступному кварталі^NextQuarter^
+
+^NextWeek^Наступний тиждень^NextWeek^
+
+^NextYear^У майбутньому році^NextYear^
+
+^No^Немає^No^
+
+^NoMatches^Немає матчів.^NoMatches^
+
+^None^жоден^None^
+
+^Noon^Полудень^Noon^
+
+^NoRecords^Записи не знайдені.^NoRecords^
+
+^NoteDeleteConfirm^Видалити?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^видаляти^NoteDeleteLabel^
+
+^NoteEditLabel^редагувати^NoteEditLabel^
+
+^NotEmpty^Чи не Пусто^NotEmpty^
+
+^NotMatched^(Не відповідає)^NotMatched^
+
+^NullValue^Н/Д^NullValue^
+
+^NullValueInForms^Н/Д^NullValueInForms^
+
+^Number^Кількість^Number^
+
+^NumberFilterText^Кількість фільтрів^NumberFilterText^
+
+^NumberIsExpected^Число, як очікується.^NumberIsExpected^
+
+^OdpCommitting^Завантаження транзакцій ...^OdpCommitting^
+
+^OdpDone^Зроблено.^OdpDone^
+
+^OdpDownloadingBlob^Завантаження двійкових даних для {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^Завантаження даних для {0}...^OdpDownloadingData^
+
+^OdpInitializing^Ініціалізація ...^OdpInitializing^
+
+^OdpInvalidResponse^Недійсна відповідь від сервера.^OdpInvalidResponse^
+
+^OdpLastRefresh^Останнє оновлення: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Дані не оновлювались.^OdpNotRefreshed^
+
+^OdpOfflineState^Ви працюєте в режимі офлайн.^OdpOfflineState^
+
+^OdpOnlineRequired^Необхідне підключення до Інтернету.^OdpOnlineRequired^
+
+^OdpPending^Очікують зміни^OdpPending^
+
+^OdpReconRequired^Потрібне примирення^OdpReconRequired^
+
+^OdpReconTxDelete^Видалити цю зміну з журналу?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^У журналі видалено першу очікувану транзакцію.^OdpReconTxDeleted^
+
+^OdpRefresh^Оновити дані^OdpRefresh^
+
+^OdpRefreshData^Оновити дані^OdpRefreshData^
+
+^OdpRefreshLast^Дані оновлені^OdpRefreshLast^
+
+^OdpSave^Збережіть усі зміни.^OdpSave^
+
+^OdpSaveAndSync^Збережіть усі зміни та виберіть параметр Синхронізувати в контекстному меню.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Сервер додатків недоступний.^OdpServerUnavailable^
+
+^OdpStatus^Статус^OdpStatus^
+
+^OdpSync^Синхронізувати^OdpSync^
+
+^OdpSynced^Синхронізовано^OdpSynced^
+
+^OdpSyncLast^Остання синхронізація^OdpSyncLast^
+
+^OdpSyncLong^Синхронізуйте, щоб завантажити зміни.^OdpSyncLong^
+
+^OdpSyncUploadFailed^Не вдалося завантажити {0} файлів.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Завантаження {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Видалити неможливо. {1} залежних предметів у {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Неможливо виконати.^OdpUnableToExec^
+
+^OdpUnableToProcess^Не вдається обробити транзакції.^OdpUnableToProcess^
+
+^OdpUnableToSave^Неможливо зберегти зміни.^OdpUnableToSave^
+
+^OdpUploadFailed^Не вдалося завантажити файли.^OdpUploadFailed^
+
+^OdpUploadingFiles^Завантаження {0} файлів ...^OdpUploadingFiles^
+
+^OK^ОК^OK^
+
+^OnHover^При наведенні курсора^OnHover^
+
+^OnOrAfter^Або після^OnOrAfter^
+
+^OnOrBefore^Або до^OnOrBefore^
+
+^OpenActionHeaderText^Відкрити^OpenActionHeaderText^
+
+^Optional^опціональний^Optional^
+
+^Orientation^орієнтація^Orientation^
+
+^Other^Інший^Other^
+
+^Outdent^Виступ^Outdent^
+
+^Page^Сторінка^Page^
+
+^Paragraph^Абзац^Paragraph^
+
+^Password^Пароль^Password^
+
+^Past^Минуле^Past^
+
+^Paste^Паста^Paste^
+
+^Pen^Ручка^Pen^
+
+^PerformAdvancedSearch^Пошук^PerformAdvancedSearch^
+
+^Permalink^Постійне посилання^Permalink^
+
+^PermalinkToolTip^Створити постійну посилання для обраної записи^PermalinkToolTip^
+
+^PermalinkUnavailable^Постійне посилання недоступна. Будь ласка, виберіть запис.^PermalinkUnavailable^
+
+^Petal^Пелюстка^Petal^
+
+^Pinnate^Пір&#39;ястий^Pinnate^
+
+^Plastic^Пластик^Plastic^
+
+^Portrait^Портрет^Portrait^
+
+^PresentationStyle^Виберіть стиль представлення даних.^PresentationStyle^
+
+^Prev2^Попередня^Prev2^
+
+^Previous^Попередній^Previous^
+
+^PromoteActions^Сприяння дії^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^Чверть^Quarter^
+
+^Quarter1^Квартал 1^Quarter1^
+
+^Quarter2^Квартал 2^Quarter2^
+
+^Quarter3^3 квартал^Quarter3^
+
+^Quarter4^Квартал 4^Quarter4^
+
+^QuickFindDescription^Шукати в {0}^QuickFindDescription^
+
+^QuickFindScope^Пошук в ...^QuickFindScope^
+
+^QuickFindText^Швидкий пошук^QuickFindText^
+
+^QuickFindToolTip^Введіть пошуковий запит запису і натисніть Enter^QuickFindToolTip^
+
+^Quotation^Цитата^Quotation^
+
+^Reading^Читання ...^Reading^
+
+^ReadingPane^Панель читання^ReadingPane^
+
+^ReadOnly^{0} є лише для читання.^ReadOnly^
+
+^Recent^Останній^Recent^
+
+^Redo^Переробляти^Redo^
+
+^Refresh^Оновлення^Refresh^
+
+^Refreshed^Оновлено^Refreshed^
+
+^RememberMe^Запам&#39;ятати мене наступного разу^RememberMe^
+
+^RemoveCondition^Видалити умову^RemoveCondition^
+
+^RemoveFormat^Видалити формат^RemoveFormat^
+
+^ReportActionDescription^Візуалізація звіту в форматі PDF^ReportActionDescription^
+
+^ReportActionHeaderText^Звіт^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Перегляд елементів у таблиці formatted<br/>Microsoft Excel.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Таблиця^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Перегляд елементів, як зображення багатосторінковий TIFF.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Багатосторінкові зображення^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Переглянути предмети, як Adobe PDF document.<br/>Requires сумісних читача.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^Документ PDF^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Перегляд елементів в документі слова formatted<br/>Microsoft.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Требуется^Required^
+
+^RequiredField^Це поле є обов&#39;язковим для заповнення.^RequiredField^
+
+^RequiredFiledMarkerFootNote^позначає обов&#39;язкові поля^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Скидання^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Скинути умови пошуку?^ResetSearchConfirm^
+
+^ResolvingReferences^вирішуючи посилання^ResolvingReferences^
+
+^ResumeBrowsing^Резюме Сидячи^ResumeBrowsing^
+
+^ResumeEditing^Відновити редагування^ResumeEditing^
+
+^ResumeEntering^Резюме Введення^ResumeEntering^
+
+^ResumeLookup^Резюме перегляду Кількість^ResumeLookup^
+
+^ResumeViewing^Продовжити перегляд^ResumeViewing^
+
+^Ricasso^Рікассо^Ricasso^
+
+^RolesTab^Ролі^RolesTab^
+
+^RootNodeText^Верхній рівень^RootNodeText^
+
+^Rotate^Обертати^Rotate^
+
+^RowCancelActionHeaderText^Скасувати^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Вставити^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Зберегти^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Update?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Оновити виділені^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Зберегти^Save^
+
+^SaveAndContinue^Збережіть і продовжуйте^SaveAndContinue^
+
+^SaveAndNew^Зберегти та Нью-^SaveAndNew^
+
+^Saved^Збережено - {0}^Saved^
+
+^ScanToConfirm^Будь ласка, скануйте ще раз, щоб підтвердити.^ScanToConfirm^
+
+^SeeAll^Дивитися все^SeeAll^
+
+^SeeAlso^Див також^SeeAlso^
+
+^SelectActionHeaderText^Вибирати^SelectActionHeaderText^
+
+^SelectAll^Вибрати всі^SelectAll^
+
+^SelectItem^Виберіть пункт^SelectItem^
+
+^SelectLink^(Вибір)^SelectLink^
+
+^SelectRow^Виберіть рядок^SelectRow^
+
+^SelectToolTip^Виберіть {0}^SelectToolTip^
+
+^Separator^Сепаратор^Separator^
+
+^Settings^Налаштування^Settings^
+
+^Show^шоу^Show^
+
+^ShowAdvancedSearch^Показати Розширений пошук^ShowAdvancedSearch^
+
+^ShowChart^Показати Chart^ShowChart^
+
+^ShowData^Показати дані^ShowData^
+
+^ShowingItems^Показані <b>{0}</b>-<b>{1}</b> від <b>{2}</b> пунктів^ShowingItems^
+
+^ShowingItemsInfo^Показані {0} пунктів.^ShowingItemsInfo^
+
+^ShowingItemsRange^Показані {0} від {1} пунктів^ShowingItemsRange^
+
+^ShowLess^Показати менше^ShowLess^
+
+^ShowMore^Показати більше^ShowMore^
+
+^ShowOptions^Показати параметри^ShowOptions^
+
+^ShowSystemButtons^Показати Системні кнопки^ShowSystemButtons^
+
+^Sidebar^Бічна панель^Sidebar^
+
+^Sign^Підпишіть тут^Sign^
+
+^SignedOut^виписався^SignedOut^
+
+^SignUpNow^Зареєструватися зараз^SignUpNow^
+
+^Simple^Простий^Simple^
+
+^SiteActions^Дії сайту^SiteActions^
+
+^SizeLabel^Розмір^SizeLabel^
+
+^Small^Невеликий^Small^
+
+^Social^Соціальний^Social^
+
+^Sort^Сортувати^Sort^
+
+^SortBy^Сортувати за {0}^SortBy^
+
+^SortByField^Виберіть поле, щоб змінити порядок сортування <b>{0}</b>.^SortByField^
+
+^SortByOptions^Виберіть порядок сортування <b>{0}</b> полем <b>{1}</b> в списку нижче варіантів.^SortByOptions^
+
+^Sorted^Сортований^Sorted^
+
+^SortedDefault^Стандартний порядок сортування.^SortedDefault^
+
+^StartImport^Start Import^StartImport^
+
+^StrikeThrough^Закреслювати^StrikeThrough^
+
+^StringSortAscending^Висхідний^StringSortAscending^
+
+^StringSortDescending^Спадний^StringSortDescending^
+
+^Submit^уявити^Submit^
+
+^Subscript^Сценарій до півдня^Subscript^
+
+^Suggestions^Пропозиції^Suggestions^
+
+^SumAggregate^Сума: {0}^SumAggregate^
+
+^SumAggregateToolTip^Сума {0}^SumAggregateToolTip^
+
+^Summary^Резюме^Summary^
+
+^Summer^Літо^Summer^
+
+^SumOf^Сума^SumOf^
+
+^Superscript^Супер сценарій^Superscript^
+
+^Sync^Синхронізація^Sync^
+
+^TaskResume^Резюме^TaskResume^
+
+^Tasks^Завдання^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^abc^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^гі^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^тув^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^тестування записи^TestingRecords^
+
+^Text^Текст^Text^
+
+^TextFilterText^Текстові фільтри^TextFilterText^
+
+^Theme^Тема^Theme^
+
+^ThisMonth^Цього місяця^ThisMonth^
+
+^ThisQuarter^У цьому кварталі^ThisQuarter^
+
+^ThisWeek^На цьому тижні^ThisWeek^
+
+^ThisYear^У цьому році^ThisYear^
+
+^Tiny^крихітний^Tiny^
+
+^Today^Сьогодні^Today^
+
+^Tomorrow^Завтра^Tomorrow^
+
+^Top^топ^Top^
+
+^ToThisWebsite^на цей сайт^ToThisWebsite^
+
+^TouchUINotSupported^Touch UI не дозволені в цьому браузері.^TouchUINotSupported^
+
+^TransitionFade^В&#39;янути^TransitionFade^
+
+^TransitionFlip^Фліп^TransitionFlip^
+
+^TransitionFlow^Потік^TransitionFlow^
+
+^TransitionNone^Жоден^TransitionNone^
+
+^TransitionPop^Поп^TransitionPop^
+
+^Transitions^Переходи^Transitions^
+
+^TransitionSlide^Слайд^TransitionSlide^
+
+^TransitionSlideDown^Ковзати вниз^TransitionSlideDown^
+
+^TransitionSlideUp^Слайд вгору^TransitionSlideUp^
+
+^TransitionTurn^Поворот^TransitionTurn^
+
+^TreeActionDescription^Показати ієрархічні відносини.^TreeActionDescription^
+
+^TreeActionHeaderText^Показати Ієрархія^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Отримайте код перевірки^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Додаток Authenticator^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Якщо ви не можете надати код підтвердження, введіть замість нього резервний код.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^одноразовий код^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Резервний код^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Виклик здійснено на номер^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^Електронний лист було надіслано на адресу^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^Текстове повідомлення надіслано на адресу^TwoFaCodeSentSms^
+
+^TwoFaConsent^Згода^TwoFaConsent^
+
+^TwoFaEnterPassword^Введіть ваш пароль^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Зателефонуйте мені за номером^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^я подзвоню^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^Надішліть мені електронного листа на^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^Напишіть мені на адресу^TwoFaGetCodeSms^
+
+^TwoFaMethod^Метод^TwoFaMethod^
+
+^TwoFaMsgChanged^Двофакторну автентифікацію змінено.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^Двофакторну автентифікацію вимкнено.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Вимкнути двофакторну автентифікацію?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^Увімкнено двофакторну автентифікацію.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Будь ласка, введіть {0}-значний код підтвердження.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Недійсний пароль.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Недійсний код підтвердження.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 - це ваш {0} код підтвердження.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^Я не можу відсканувати QR -код.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Мені потрібна допомога щодо встановлення програми автентифікації.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^У мене є програма автентифікації на мобільному пристрої.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^Одноразові резервні коди дозволять вам увійти, якщо ви не можете надати код підтвердження.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Резервні коди^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Я введу код підтвердження після успішного входу.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Введіть ключ налаштування у програмі^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Методи перевірки^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Відскануйте QR -код за допомогою камери^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Відскануйте QR -код у додатку^TwoFaSetupScanQrCode^
+
+^TwoFaText^Двофакторна автентифікація^TwoFaText^
+
+^TwoFaTrustThisDevice^Довіряйте цьому пристрою^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Код підтвердження^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Я отримаю код підтвердження за допомогою програми автентифікації.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Я отримаю автоматичний дзвінок на свій телефон.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Код підтвердження буде надіслано електронною поштою.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Код підтвердження буде доставлений у текстовому повідомленні.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Введіть пошуковий запит^TypeToSearch^
+
+^Underline^Підкреслення^Underline^
+
+^Undo^Анулювати^Undo^
+
+^Undock^Отстикуется^Undock^
+
+^Unfreeze^Розморожувати^Unfreeze^
+
+^UnGrouped^Групування було видалено^UnGrouped^
+
+^UnLink^Роз&#39;єднувати^UnLink^
+
+^UnSelect^Відмінити вибір^UnSelect^
+
+^UpdateActionHeaderText^ОК^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Update?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Оновити виділені^UpdateActionInBatchModeHeaderText^
+
+^Upload^Завантажити^Upload^
+
+^UploadDescription^Завантажте кілька файлів.^UploadDescription^
+
+^Uploading^Завантаження {0}...^Uploading^
+
+^UpOneLevel^На один рівень вгору^UpOneLevel^
+
+^UseLEV^Вставити &quot;{0}&quot;^UseLEV^
+
+^UserName^Ім&#39;я користувача^UserName^
+
+^UsersInRole^Користувачі в ролі^UsersInRole^
+
+^UsersTab^Користувачі^UsersTab^
+
+^Vantage^Перевага^Vantage^
+
+^Verdant^Зелений^Verdant^
+
+^Verify^Перевірити^Verify^
+
+^View^Вид^View^
+
+^Viewpoint^Точка зору^Viewpoint^
+
+^Wait^Будь ласка, зачекайте ...^Wait^
+
+^Week^Тиждень^Week^
+
+^Welcome1^Ласкаво просимо^Welcome1^
+
+^Welcome2^Сьогодні^Welcome2^
+
+^WhiteSmoke^Білий дим^WhiteSmoke^
+
+^WithSelectedValues10^З вибираними значеннями (Top 10)^WithSelectedValues10^
+
+^WithSelectedValues5^З вибираними значеннями (Top 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^З заданими фільтрами^WithSpecifiedFilters^
+
+^Year^Рік^Year^
+
+^YearToDate^З початку року^YearToDate^
+
+^Yes^Та^Yes^
+
+^Yesterday^Вчора^Yesterday^
+
+^Yoshi^Йоші^Yoshi^
+
+^ZoomIn^Збільшення^ZoomIn^
+
+^ZoomOut^Зменшити^ZoomOut^
+

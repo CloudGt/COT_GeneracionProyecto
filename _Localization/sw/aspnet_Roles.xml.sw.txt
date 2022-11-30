@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Wajibu kuunda mpya ya uanachama wa rekodi.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Wajibu Mpya^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Mpya^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Kukamilisha fomu. Kuhakikisha kuingia katika nyanja zote zinazohitajika.^CreateFormCategory^
+
+^CreateFormHeaderText^Tafadhali jaza fomu hii na bonyeza OK kujenga uanachama majukumu rekodi. Bonyeza Ghairi kurudi screen uliopita.^CreateFormHeaderText^
+
+^DescriptionLabel^Description^DescriptionLabel^
+
+^EditViewCategory^Hizi ni mashamba ya rekodi ya uanachama nafasi ambayo inaweza kuwa mwisho.^EditViewCategory^
+
+^EditViewHeaderText^Tafadhali mapitio ya majukumu ya uanachama habari hapa chini. Click Edit na mabadiliko ya rekodi hii, bonyeza Futa kufuta rekodi, au bonyeza Cancel / Karibu na kurudi nyuma.^EditViewHeaderText^
+
+^GridViewHeaderText^Hii ni orodha ya majukumu ya uanachama.^GridViewHeaderText^
+
+^RoleNameLabel^Jukumu Jina^RoleNameLabel^
+

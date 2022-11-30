@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Назад^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Заврши^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Потврди нова лозинка^ConfirmNewPassword^
+
+^ConfirmPassword^Потврди Лозинка^ConfirmPassword^
+
+^Email^Е-пошта^Email^
+
+^ForgotYourPassword^Ја заборави лозинката?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Одговорете на следново прашање за да ја добиете вашата лозинка. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Потврда за идентитет^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Ве молиме пополнете го овој формулар и кликнете копчето Испрати за да ја вратите заборавената лозинка. Кликнете Откажи за да се вратите на претходниот екран.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Обнова на лозинка: Чекор 2 од 2^IdentityConfirmViewLabel^
+
+^LoginButton^Логирај Се^LoginButton^
+
+^LoginLink^Логирај Се^LoginLink^
+
+^LoginWithDNN^Пријавете се со DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Пријавете се со Фејсбук^LoginWithFacebook^
+
+^LoginWithGoogle^Пријавете се со Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Пријавете се со Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Пријавете се со SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Пријавете се со Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Одговор на лозинка (не е прикажан за ваша заштита)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Ве молиме внесете ја вашата тековна лозинка за да креирате нова лозинка, да ја ажурирате вашата email адреса или да го смените прашањето и одговорот за враќање на лозинката.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Тековна лозинка^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Ве молиме прегледајте ги вашите информации за членство подолу. Кликнете Update My Account за да го промените овој запис или кликнете Откажи за да се вратите назад.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Мојот акаунт^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Внесете нова лозинка. Забележете дека лозинката мора да биде долга најмалку 7 карактери и да вклучува еден не-алфанумерички карактер.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Нова лозинка (опционално)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^За време на наплата на заборавена лозинка од вас ќе биде побарано да го внесете вашето корисничко име. Ако постои корисничка сметка тогаш мора да се одговори на прашањето за лозинката. Точниот одговор ќе предизвика е-пошта со привремена лозинка која ќе ви ја испрати.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Е-пошта &amp; Обнова на лозинка (опционално)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^нова лозинка^NewPassword^
+
+^OldPassword^стара лозинка^OldPassword^
+
+^Password^Лозинка^Password^
+
+^PasswordAnswer^Одговор од лозинка^PasswordAnswer^
+
+^PasswordQuestion^Прашање за лозинка^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Внесете корисничко име. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Ја заборави лозинката?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Ве молиме пополнете го овој формулар и кликнете Продолжи копчето за да ја вратите заборавената лозинка. Кликнете Откажи за да се вратите на претходниот екран.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Обнова на лозинка: Чекор 1 од 2^PasswordRequestViewLabel^
+
+^RememberMe^Запомни ме следниот пат^RememberMe^
+
+^RequestPasswordActionHeaderText^Следно^RequestPasswordActionHeaderText^
+
+^SignUp^Регистрирај се^SignUp^
+
+^SignUpNow^Пријавете се сега^SignUpNow^
+
+^SignUpViewHeaderText^Ве молиме пополнете го овој формулар и кликнете на копчето &quot;ОК&quot; за да се регистрирате за сметка. Кликнете Откажи за да се вратите на претходниот екран.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Регистрирај се на сметката^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Внесете корисничко име и лозинка. Забележете дека лозинката мора да биде долга најмалку 7 карактери и да вклучува еден не-алфанумерички карактер. Само одобрени корисници ќе можат да се најават на веб-страницата.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Нови информации за корисникот^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Овие полиња се потребни за да ви помогнат да закрепнете заборавена лозинка. За време на процесот на наплата ќе биде побарано да внесете корисничко име. Ако постои корисничка сметка тогаш се бара да се одговори на безбедносно прашање. Точниот одговор ќе предизвика е-пошта со привремена лозинка испратена до регистрираната е-пошта.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Обновување на лозинка^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Ажурирај ја мојата сметка^UpdateMyAccountActionHeaderText^
+
+^UserName^Корисничко име^UserName^
+

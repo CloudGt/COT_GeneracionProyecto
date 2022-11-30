@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Buat catatan keanggotaan Peran baru.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Peran Baru^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Baru^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Lengkapi formulir. Pastikan untuk memasukkan semua bidang yang diperlukan.^CreateFormCategory^
+
+^CreateFormHeaderText^Silahkan mengisi formulir ini dan klik tombol OK untuk membuat catatan keanggotaan peran baru. Klik Batal untuk kembali ke layar sebelumnya.^CreateFormHeaderText^
+
+^DescriptionLabel^Deskripsi^DescriptionLabel^
+
+^EditViewCategory^Ini adalah bidang catatan peran keanggotaan yang dapat diedit.^EditViewCategory^
+
+^EditViewHeaderText^Harap tinjau informasi keanggotaan peran di bawah ini. Klik Edit untuk mengubah catatan ini, klik Hapus untuk menghapus catatan, atau klik Batal / Tutup untuk kembali.^EditViewHeaderText^
+
+^GridViewHeaderText^Ini adalah daftar peran keanggotaan.^GridViewHeaderText^
+
+^RoleNameLabel^Nama Peran^RoleNameLabel^
+

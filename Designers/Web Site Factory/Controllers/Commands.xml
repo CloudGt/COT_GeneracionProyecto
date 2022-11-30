@@ -1,0 +1,235 @@
+<dataController name="Commands" conflictDetection="overwriteChanges" label="Commands"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium" handler="CodeOnTime.Designer.DesignerBusinessRules">
+  <commands>
+    <command id="command1" type="Text">
+      <query href="Controllers.xml" select="//a:command" sort="Controller" dependencies="//a:fieldOutput,//a:view"/>
+      <template select="//a:dataController[@name=$Controller]/a:commands">
+        <command xmlns="urn:schemas-codeontime-com:data-aquarium">
+          <output/>
+        </command>
+      </template>
+    </command>
+  </commands>
+  <fields>
+    <field name="CommandId" type="String" select="@id" allowNulls="false" label="Id" isPrimaryKey="true">
+      <validate>
+        <expression type="RegularExpression" test="^[A-Za-z]\w*$" result="A command id must start with a letter and must contain only alpha-numeric characters."/>
+      </validate>
+    </field>
+    <field name="Controller" type="String" select="ancestor::a:dataController[1]/@name" allowNulls="false" isPrimaryKey="true" readOnly="true">
+      <items style="Lookup" dataController="Controllers" newDataView="createForm1" dataValueField="Name" dataTextField="Name"/>
+    </field>
+    <field name="Type" type="String" select="@type" allowNulls="false" label="Type" default="'Text'">
+      <items style="DropDownList">
+        <item value="Text" text="Text"/>
+        <!--<item value="StoredProcedure" text="Stored Procedure"/>-->
+      </items>
+      <visibility>
+        <expression type="ClientScript" test="false"/>
+      </visibility>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="Text"/>
+      </defaultValues>
+    </field>
+    <field name="Event" type="String" select="@event"  label="Event">
+      <items style="DropDownList">
+        <item value="" text="Select"/>
+        <!--<item value="Execute" text="Execute"/>-->
+        <item value="Inserting" text="Inserting"/>
+        <item value="Inserted" text="Inserted"/>
+        <!--<item value="Updating" text="Updating"/>
+				<item value="Updated" text="Updated"/>
+				<item value="Deleting" text="Deleting"/>
+				<item value="Deleted" text="Deleted"/>-->
+      </items>
+    </field>
+    <field name="Text" type="String" select="a:text" allowNulls="false" label="Text" allowSorting="false" allowQBE="false" editor="Designer$Code"/>
+    <field name="TableName" type="String" select="@tableName" allowNulls="true" label="Table Name" />
+    <field name="Custom" type="Boolean" select="@custom" allowNulls="false" label="The text of this command has not been produced by the model builder.">
+      <items style="CheckBox"/>
+    </field>
+  </fields>
+  <views>
+    <view id="grid1" type="Grid" commandId="command1" label="Commands">
+      <headerText>
+        <![CDATA[
+        <span class="HelpLink" title="Learn to work with Commands" onclick="$openUrl('http://codeontime.com/learn/development/project-designer/commands')"></span>
+		This is a list of data controller commands. 
+    ]]>
+      </headerText>
+      <dataFields>
+        <dataField fieldName="CommandId" readOnly="true"/>
+        <dataField fieldName="Controller"/>
+        <dataField fieldName="Type"/>
+        <dataField fieldName="Event"/>
+        <dataField fieldName="Custom">
+          <headerText>Custom</headerText>
+        </dataField>
+        <dataField fieldName="Text" columns="40" rows="8"/>
+      </dataFields>
+    </view>
+    <view id="editForm1" type="Form" commandId="command1" label="Command">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about Commands" onclick="$openUrl('http://codeontime.com/learn/data-controllers/commands/overview')"></span>
+        Click OK to save the command, or click Cancel to undo changes or return back.]]>
+      </headerText>
+      <categories>
+        <category headerText="General">
+          <description>
+            <![CDATA[
+          The <i>Id</i> of the command.<br/><br/>
+          The command belongs to the specified controller. Change the controller by <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/development/project-explorer/commands')" title="Learn how to manipulate commands in the Project Explorer.">dragging</a> in the Project Explorer.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="CommandId" columns="30" readOnly="true" hyperlinkFormatString="javascript:window.external.SyncAndRename()" toolTip="Click here to change the 'Id' of the Command."/>
+            <dataField fieldName="Controller"/>
+          </dataFields>
+        </category>
+        <category headerText="Text" id="catText">
+          <description>
+            <![CDATA[
+					  Specify the <i>Text</i> of the command.<br/><br/>
+            Indicate if this command was entered manually.
+						]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Text" columns="66" rows="6" />
+            <dataField fieldName="Custom" />
+          </dataFields>
+        </category>
+        <category headerText="Text">
+          <description>
+            <![CDATA[
+            Identify the <i>Event</i> that will cause the command to execute. Note that the only supported command type for <i>Select</i> commands is <i>Text</i>.<br/><br/>
+						Enter the table name that must be used at runtime in automatically constructed <i>insert</i>, <i>update</i>, and <i>delete</i> data manipulation operations.
+						]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Type" readOnly="true"/>
+            <dataField fieldName="Event"/>
+            <dataField fieldName="TableName" columns="40"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+    <view id="createForm1" type="Form" commandId="command1" label="New Command">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about Commands" onclick="$openUrl('http://codeontime.com/learn/data-controllers/commands/overview')"></span>
+        Please fill this form and click OK button to create a new command. Click Cancel to return to the previous screen.]]>
+      </headerText>
+      <categories>
+        <category headerText="General">
+          <description><![CDATA[Specify the <i>Id</i> of the command.]]></description>
+          <dataFields>
+            <dataField fieldName="CommandId" columns="30" />
+            <dataField fieldName="Controller" readOnly="false"/>
+          </dataFields>
+        </category>
+        <category headerText="Text" id="catText">
+          <description>
+            <![CDATA[
+						Specify the <i>Text</i> of the command.<br/><br/><br/><br/>
+            Indicate if this command was entered manually.
+						]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Text" columns="56" rows="16"/>
+            <dataField fieldName="Custom"/>
+          </dataFields>
+        </category>
+        <category headerText="Text">
+          <description>
+            <![CDATA[
+            Identify the <i>Event</i> that will cause the command to execute. Note that the only supported command type for <i>Select</i> commands is <i>Text</i>.<br/><br/>
+						Enter the table name that must be used at runtime in automatically constructed <i>insert</i>, <i>update</i>, and <i>delete</i> data manipulation operations.
+						]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Type" >
+              <!--<defaultValues>
+								<expression type="ClientScript" test="" result=""/>
+							</defaultValues>-->
+            </dataField>
+            <dataField fieldName="Event"/>
+            <dataField fieldName="TableName" columns="40"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+  </views>
+  <actions>
+    <actionGroup scope="Grid">
+      <!--<action commandName="Select" commandArgument="editForm1" />-->
+      <action commandName="Navigate" commandArgument="Command.htm?_returnController=Commands&amp;Controller={Controller}&amp;CommandId={CommandId}" headerText="View"/>
+      <action commandName="ClientScript" commandArgument="__syncDesigner(this)" headerText="Sync" cssClass="SyncIcon"/>
+      <action commandName="Edit" />
+      <action commandName="Select" commandArgument="editForm1" headerText="View"/>
+      <!--<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+    </actionGroup>
+    <actionGroup scope="Form">
+      <action commandName="Edit" />
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <action commandName="Cancel" headerText="Close" />
+      <action whenLastCommandName="Edit" commandName="Update" headerText="OK"/>
+      <!--<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />-->
+      <action whenLastCommandName="Edit" commandName="Cancel" />
+      <action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+      <action whenLastCommandName="New" commandName="Cancel" />
+    </actionGroup>
+    <actionGroup scope="ActionBar" headerText="New">
+      <action commandName="New" commandArgument="createForm1" headerText="New Command" description="Create a new command." />
+    </actionGroup>
+    <!--<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+			<action commandName="Custom" commandArgument="Preview" headerText="Quick View" description="Preview the data controller."  />
+		</actionGroup>-->
+    <!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+    <actionGroup scope="ActionBar" headerText="Record">
+      <action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+      <action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+    </actionGroup>
+    <actionGroup id="sync01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncDesigner()" headerText="Sync" cssClass="SyncIcon" description="Synchronize with Explorer (Ctrl+.)"/>
+    </actionGroup>
+    <actionGroup id="ag8" scope="Row">
+      <action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+      <action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+    </actionGroup>
+  </actions>
+  <businessRules>
+    <rule id="r1" commandName="Update" view="" type="JavaScript" phase="Before">
+      <![CDATA[
+      if ([Text.Modified] && !confirm(
+            'If you save changes now then you will not be able to take advantage\n' +
+            'of automatic command text generator after refreshing the database metadata.\n\n' + 
+            'Save command changes?'))
+          this.preventDefault();
+    ]]>
+    </rule>
+    <rule id="r2" commandName="Select|New" commandArgument="" type="JavaScript" phase="After">
+      <![CDATA[
+        $('td.catText.Category').hide();
+        var $fieldsCat = $('td.catText.Fields').attr('colspan', 2).css('background-color','#fff');
+        $('.Item.Text .Value textarea').css('width', ($fieldsCat.width() -50) + 'px').attr('wrap', 'off');
+        $('tr.CategoryRow.catText').css('visibility','visible');
+     ]]>
+    </rule>
+    <rule id="r3" commandName="Select" commandArgument="" view="editForm1" type="JavaScript" phase="After">
+      <![CDATA[
+        var $textArea = $('.Item.Text .Value textarea');
+        if ($textArea.length == 1) {
+          $textArea.focus();
+          Sys.UI.DomElement.setCaretPosition($textArea[0], 0);
+        }
+      ]]>
+    </rule>
+  </businessRules>
+</dataController>

@@ -1,0 +1,124 @@
+<dataController name="Styles" conflictDetection="overwriteChanges" label="Categories"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium" handler="CodeOnTime.Designer.DesignerBusinessRules">
+	<commands>
+		<command id="command1" type="Text">
+			<query href="Controllers.xml" select="//a:expression[parent::a:styles]" sort="Controller,ViewId,CssClass"/>
+			<template select="//a:dataController[@name=$Controller]/a:views/a:view[@id=$ViewId]/a:styles">
+				<expression type="ClientScript" xmlns="urn:schemas-codeontime-com:data-aquarium"/>
+			</template>
+		</command>
+	</commands>
+	<fields>
+		<field name="ViewId" type="String" select="ancestor::a:view[1]/@id" allowNulls="false" isPrimaryKey="true" label="View" contextFields="Controller" readOnly="true">
+			<items style="Lookup" dataController="Views" newDataView="createForm1" dataValueField="ViewId" dataTextField="ViewId"/>
+		</field>
+		<field name="Controller" type="String" select="ancestor::a:dataController[1]/@name" allowNulls="false" isPrimaryKey="true" readOnly="true">
+			<items style="Lookup" dataController="Controllers" newDataView="createForm1" dataValueField="Name" dataTextField="Name"/>
+		</field>
+		<field name="Test" type="String" select="@test" label="Test" allowNulls="false"/>
+		<field name="CssClass" type="String" select="@result" allowNulls="false" label="Css Class" isPrimaryKey="true" />
+	</fields>
+	<views>
+		<view id="grid1" type="Grid" commandId="command1" label="Styles">
+      <headerText>
+        <![CDATA[
+        <span class="HelpLink" title="Learn to work with view Styles" onclick="$openUrl('http://codeontime.com/learn/development/project-designer/styles')"></span>
+		This is a list of style expressions defined for the view. 
+    ]]>
+      </headerText>
+        <dataFields>
+        <dataField fieldName="CssClass"/>
+        <dataField fieldName="Test"/>
+        <dataField fieldName="ViewId" />
+				<dataField fieldName="Controller"/>
+			</dataFields>
+		</view>
+		<view id="editForm1" type="Form" commandId="command1" label="Style">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about view Styles" onclick="$openUrl('http://codeontime.com/learn/data-controllers/styles/overview')"></span>
+        Click OK to save the view style, click Delete to delete, or click Cancel to undo changes or return back.]]>
+      </headerText>
+      <categories>
+				<category headerText="General">
+					<description>
+						<![CDATA[
+					Specify a JavaScript test expression and the name of the CSS class.<br/><br/>
+					You can refer to the data field names of this view by enclosing the field name in square brackets.
+					]]>
+					</description>
+					<dataFields>
+            <dataField fieldName="CssClass"/>
+            <dataField fieldName="Test" columns="50" rows="6"/>
+            <dataField fieldName="ViewId" />
+						<dataField fieldName="Controller"/>
+					</dataFields>
+				</category>
+			</categories>
+		</view>
+		<view id="createForm1" type="Form" commandId="command1" label="New Style">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about view Styles" onclick="$openUrl('http://codeontime.com/learn/data-controllers/styles/overview')"></span>
+        Please fill this form and click OK button to create a new view style. Click Cancel to return to the previous screen.]]>
+      </headerText>
+      <categories>
+				<category headerText="General">
+					<description>
+						<![CDATA[
+					Specify a JavaScript test expression and the name of the CSS class.<br/><br/>
+					You can refer to the data field names of this view by enclosing the field name in square brackets.
+					]]>
+					</description>
+					<dataFields>
+            <dataField fieldName="CssClass"/>
+            <dataField fieldName="Test" columns="50" rows="6"/>
+						<dataField fieldName="ViewId" />
+						<dataField fieldName="Controller"/>
+					</dataFields>
+				</category>
+			</categories>
+		</view>
+	</views>
+	<actions>
+		<actionGroup scope="Grid">
+			<!--<action commandName="Select" commandArgument="editForm1" />-->
+			<action commandName="Edit" commandArgument="editForm1" headerText="Open" cssClass="NavigateIcon"/>
+			<action commandName="Edit" />
+			<action commandName="Delete" confirmation="Delete?" />
+      <!--<action/>
+			<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+		</actionGroup>
+		<actionGroup scope="Form">
+			<action commandName="Edit" />
+			<action commandName="Delete" confirmation="Delete?" />
+			<action commandName="Cancel" headerText="Close" />
+			<action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+			<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />
+			<action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+			<action whenLastCommandName="New" commandName="Cancel" />
+		</actionGroup>
+		<actionGroup scope="ActionBar" headerText="New">
+			<action commandName="New" commandArgument="createForm1" headerText="New Style" description="Create a new style." />
+		</actionGroup>
+		<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+			<action commandName="Custom" commandArgument="Preview" headerText="Quick View" description="Preview the data controller."  />
+		</actionGroup>
+		<!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+		<actionGroup scope="ActionBar" headerText="Record">
+			<action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+			<action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+		</actionGroup>
+		<actionGroup id="ag8" scope="Row">
+			<action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+		</actionGroup>
+	</actions>
+</dataController>

@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^एक नई सदस्यता भूमिका रिकॉर्ड बनाएँ.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^नई भूमिका^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^नया^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^प्रपत्र को पूरा करें. करने के लिए सभी आवश्यक फ़ील्ड दर्ज करना सुनिश्चित करें.^CreateFormCategory^
+
+^CreateFormHeaderText^इस फार्म को भरने और ठीक करने के लिए एक नई सदस्यता भूमिकाओं रिकॉर्ड बनाने के लिए बटन क्लिक करें. पिछले स्क्रीन पर लौटने के लिए रद्द करें क्लिक करें.^CreateFormHeaderText^
+
+^DescriptionLabel^वर्णन^DescriptionLabel^
+
+^EditViewCategory^इन सदस्यता भूमिका रिकार्ड है कि संपादित किया जा सकता के क्षेत्रों रहे हैं.^EditViewCategory^
+
+^EditViewHeaderText^सदस्यता भूमिकाओं नीचे दी गई जानकारी की समीक्षा करें. इस रिकॉर्ड बदलने के लिए संपादित करें, रिकॉर्ड करने के लिए हटाएँ हटाएँ क्लिक करें, या क्लिक करें रद्द करने के लिए / वापस बंद करें.^EditViewHeaderText^
+
+^GridViewHeaderText^इस सदस्यता भूमिकाओं की एक सूची है.^GridViewHeaderText^
+
+^RoleNameLabel^भूमिका नाम^RoleNameLabel^
+

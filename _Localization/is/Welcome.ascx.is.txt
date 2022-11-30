@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Stjórnar reikning^AdminDesc^
+
+^SignInHeader^Leiðbeiningar^SignInHeader^
+
+^SignInInstruction^Skráðu þig inn til að opna verndað efni á vefsvæðum.^SignInInstruction^
+
+^SignInPara1^Tveir staðall notandi reikningur sjálfkrafa til þegar forrit er frumstilla ef aðild kostur hefur verið valin fyrir þetta forrit.^SignInPara1^
+
+^SignInPara2^The stjórn reikningur <b>admin</b> er heimilt að fá aðgang að öllum svæðum á vefsíðunni og aðild framkvæmdastjóri. Hið staðlaða <b>user</b> reikningur er heimilt að fá aðgang að öllum svæðum á vefsíðunni, að undanskildum framkvæmdastjóri aðild.^SignInPara2^
+
+^SignInPara3^Færa músarbendilinn yfir tengilinn <i>Login til þennan vef site</i> á the réttur-hönd hlið efst á síðunni og skrá þig inn með einn af reikningum hér fyrir neðan.^SignInPara3^
+
+^UserDesc^Staðall notandi reikningur^UserDesc^
+

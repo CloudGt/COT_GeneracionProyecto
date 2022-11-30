@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Creu cofnod defnyddiwr newydd.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Defnyddiwr Newydd^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Newydd^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Yn ôl^BackToRequestPasswordActionHeaderText^
+
+^Comment^Sylw^Comment^
+
+^ConfirmIdentityActionHeaderText^Gorffen^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Cadarnhau Cyfrinair Newydd^ConfirmNewPassword^
+
+^ConfirmPassword^Cadarnhau Cyfrinair^ConfirmPassword^
+
+^CreateDate^Dyddiad Creu^CreateDate^
+
+^CreateFormCommentCategoryDescription^Rhowch unrhyw sylwadau ychwanegol am y cyfrif defnyddiwr. Sylw Nid yw weladwy i&#39;r defnyddiwr.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Sylwadau^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Rhowch enw defnyddiwr a chyfrinair. Sylwer bod rhaid cyfrinair fod o leiaf 7 cymeriad o hyd ac yn cynnwys un nad ydynt yn alffaniwmerig cymeriad. Dim ond defnyddwyr a gymeradwywyd yn gallu logio i mewn i&#39;r wefan.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Gwybodaeth Defnyddiwr Newydd^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Mae&#39;r meysydd hyn yn ofynnol i helpu defnyddwyr i adennill cyfrinair anghofio. Yn ystod y broses adfer y bydd y defnyddiwr yn gofyn i fynd i mewn enw defnyddiwr. Os yw cyfrif defnyddiwr yn bodoli, yna gwestiwn diogelwch yn cael cais i gael ei hateb. Bydd ateb cywir sbarduno e-bost gyda chyfrinair dros dro anfon at y defnyddiwr.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Adfer Cyfrinair^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Dewiswch rolau defnyddiwr sy&#39;n cyfateb orau chyfrifoldebau&#39;r defnyddiwr. Rolau rheoli mynediad i ardaloedd o&#39;r wefan hon. Cysylltwch â gweinyddwr system os mae&#39;n rhaid i gyfyngiadau mynediad rôl gael eu newid.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Rolau^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Dylech lenwi&#39;r ffurflen hon a chliciwch botwm OK i greu cofnod defnyddiwr aelodaeth newydd. Cliciwch Canslo i ddychwelyd i&#39;r sgrin flaenorol.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Defnyddiwr Newydd^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Bydd hyn yn cyfrif defnyddiwr yn cael ei greu cymeradwyo.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Dyblyg cyfeiriad e-bost.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Dyblyg allweddol darparwr.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Dyblyg enw defnyddiwr.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Ystadegau Gweithgarwch^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Mae&#39;r cyfrif defnyddiwr yn cael ei gymeradwyo^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Mae&#39;r rhain yn yr ystadegau o ymdrechion aflwyddiannus mewngofnodi gan y defnyddiwr. <br/> <br/> Bydd defnyddwyr yn cael ei gloi ar ôl cyrraedd nifer uchaf y cynigion mewngofnodi methu. <br/> <br/> Cloi allan bydd defnyddwyr yn gallu mewngofnodi eto ar ôl y dyddiad yn methu Cychwyn Ffenestri Rhoi cynnig ar Cyfrinair. <br/> <br/> Bydd defnyddwyr a fethodd ag adfer y cyfrinair yn gallu, felly ar ôl y dyddiad yn methu Cychwyn Cyfrinair Ateb Ffenest Rhoi cynnig. <br/> <br/> Gallwch adfer gallu&#39;r defnyddiwr i fewngofnodi trwy osod baner Cloi Allan i &#39;Na&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Ystadegau Mewngofnodi^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Yn ystod y adennill gyfrinair anghofio y bydd y defnyddiwr yn gofyn i fynd i mewn enw defnyddiwr. Os yw cyfrif defnyddiwr yn bodoli, yna gwestiwn diogelwch yn cael cais i gael ei hateb. Bydd ateb cywir sbarduno e-bost gyda chyfrinair dros dro anfon at y defnyddiwr. <br/><br/> Newid cloi allan faner i &#39;Nac ydy&#39; os yw&#39;r defnyddiwr wedi cael ei gloi ar ôl cyrraedd nifer uchaf y cynigion mewngofnodi wedi methu a ydych am i ganiatáu i ddefnyddwyr i mewngofnodi eto.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Adfer Cyfrinair^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Dewiswch rolau defnyddiwr sy&#39;n cyfateb orau chyfrifoldebau&#39;r defnyddiwr. Rolau rheoli mynediad i ardaloedd o&#39;r wefan hon. Cysylltwch â gweinyddwr system os mae&#39;n rhaid i gyfyngiadau mynediad rôl gael eu newid. <br/> <br/> Rhowch unrhyw sylwadau ychwanegol am y cyfrif defnyddiwr. Sylw Nid yw weladwy i&#39;r defnyddiwr.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Gwybodaeth Defnyddiwr^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Os gwelwch yn dda adolygu gwybodaeth aelodaeth defnyddiwr isod. Cliciwch Golygu i newid y cofnod hwn, cliciwch Dileu i ddileu&#39;r cofnod, neu cliciwch Diddymu / Yn agos i ddychwelyd yn ôl.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Adolygiad Defnyddiwr^EditFormViewLabel^
+
+^Email^E-bost^Email^
+
+^EnterCurrentPassword^Rhowch eich cyfrinair ar hyn o bryd.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Rhowch ateb cyfrinair.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Gwall arbed cyfrif defnyddiwr.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Methwyd Cyfrif Ateb Cyfrinair Rhoi cynnig ar^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Methwyd Cyfrinair Ateb Cychwyn Ffenestr Rhoi cynnig ar^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Methwyd Cyfrinair Cyfrif Rhoi cynnig ar^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Methwyd Cychwyn Rhoi cynnig ar Cyfrinair Ffenestr^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Mae hon yn rhestr o gofnodion defnyddwyr aelodaeth.^GridViewHeaderText^
+
+^GridViewLabel^Mae pob Defnyddwyr^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Atebwch y cwestiwn canlynol i dderbyn eich cyfrinair. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Cadarnhad Hunaniaeth^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Dylech lenwi&#39;r ffurflen hon a chlicio Cyflwyno botwm i adfer y cyfrinair anghofio. Cliciwch Canslo i ddychwelyd i&#39;r sgrin flaenorol.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Adfer Cyfrinair: Cam 2 o 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Annilys cyfrinair ateb adferiad.^InvalidAnswer^
+
+^InvalidEmail^Annilys cyfeiriad e-bost.^InvalidEmail^
+
+^InvalidPassword^Annilys cyfrinair.^InvalidPassword^
+
+^InvalidProviderUserKey^Annilys darparwr allweddol defnyddiwr.^InvalidProviderUserKey^
+
+^InvalidQuestion^Annilys cyfrinair cwestiwn adferiad.^InvalidQuestion^
+
+^InvalidUserName^Enw defnyddiwr annilys.^InvalidUserName^
+
+^IsApproved^A yw Cymeradwy^IsApproved^
+
+^IsLockedOut^A yw Cloi Allan^IsLockedOut^
+
+^LastLockoutDate^Dyddiad Streic Fawr diwethaf^LastLockoutDate^
+
+^LastLoginDate^Dyddiad Mewngofnodi diwethaf^LastLoginDate^
+
+^LastPasswordChangedDate^Newid Cyfrinair diwethaf Dyddiad^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Ateb Cyfrinair (ni ddangosir ar gyfer eich diogelu)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Rhowch eich cyfrinair ar hyn o bryd er mwyn creu cyfrinair newydd, diweddaru eich cyfeiriad e-bost, neu newid cyfrinair holi ac ateb adferiad.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Cyfrinair cyfredol^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Os gwelwch yn dda adolygu eich gwybodaeth aelodaeth isod. Cliciwch Diweddaru Fy Nghyfrif i newid y cofnod hwn, neu cliciwch Diddymu i ddychwelyd yn ôl.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Fy Nghyfrif^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Rhowch gyfrinair newydd. Sylwer bod rhaid cyfrinair fod o leiaf 7 cymeriad o hyd ac yn cynnwys un nad ydynt yn alffaniwmerig cymeriad.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Cyfrinair newydd (Dewisol)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Yn ystod y adennill cyfrinair angof, bydd yn gofyn i chi roi eich enw defnyddiwr. Os yw cyfrif defnyddiwr yn bodoli yna mae&#39;n rhaid i gwestiwn cyfrinair ei ateb. Bydd ateb cywir sbarduno e-bost gyda chyfrinair dros dro anfon atoch.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Adfer Ebost Cyfrinair &amp; (Dewisol)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Cyfrinair Newydd^NewPassword^
+
+^NewPasswordAlert^Mae cyfrinair newydd wedi cael ei e-bostio i&#39;r cyfeiriad ar ffeil.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Nid yw cyfrinair newydd a chadarnhad yn cyd-fynd.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Mae eich cyfrinair newydd yn annilys.^NewPasswordInvalid^
+
+^NewPasswordSubject^Cyfrinair newydd ar gyfer \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Cyfrinair Hen^OldPassword^
+
+^Password^Cyfrinair^Password^
+
+^PasswordAndConfirmationDoNotMatch^Nid yw Cyfrinair ac cadarnhad yn cyd-fynd.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Ateb Cyfrinair^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Nid yw eich cyfrinair yn cydweddu ein cofnodion.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Fformat Cyfrinair^PasswordFormat^
+
+^PasswordQuestion^Cwestiwn Cyfrinair^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Rhowch enw defnyddiwr. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Wedi anghofio eich cyfrinair?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Dylech lenwi&#39;r ffurflen hon a chliciwch y botwm Parhau i adfer y cyfrinair anghofio. Cliciwch Canslo i ddychwelyd i&#39;r sgrin flaenorol.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Adfer Cyfrinair: Cam 1 o 2^PasswordRequestViewLabel^
+
+^ProviderError^Darparwr gwall.^ProviderError^
+
+^RequestPasswordActionHeaderText^Nesaf^RequestPasswordActionHeaderText^
+
+^Roles^Rolau^Roles^
+
+^SelfRegisteredUser^Hunan-gofrestru defnyddiwr.^SelfRegisteredUser^
+
+^SignUp^Sign Up^SignUp^
+
+^SignUpViewHeaderText^Dylech lenwi&#39;r ffurflen hon a chliciwch botwm OK i gofrestru am gyfrif. Cliciwch Canslo i ddychwelyd i&#39;r sgrin flaenorol.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Cofrestru Cyfrif^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Rhowch enw defnyddiwr a chyfrinair. Sylwer bod rhaid cyfrinair fod o leiaf 7 cymeriad o hyd ac yn cynnwys un nad ydynt yn alffaniwmerig cymeriad. Dim ond defnyddwyr a gymeradwywyd yn gallu logio i mewn i&#39;r wefan.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Gwybodaeth Defnyddiwr Newydd^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Mae&#39;r meysydd hyn yn ofynnol i helpu chi i adennill cyfrinair anghofio. Yn ystod y broses adfer byddwn yn gofyn i fynd i mewn enw defnyddiwr. Os yw cyfrif defnyddiwr yn bodoli, yna gwestiwn diogelwch yn cael cais i gael ei hateb. Bydd ateb cywir sbarduno e-bost gyda chyfrinair dros dro anfon at yr e-bost cofrestredig.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Adfer Cyfrinair^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Diweddaru Fy Nghyfrif^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Ni ellir Defnyddiwr eu cloi allan. Os ydych am i atal hyn defnyddiwr rhag gallu mewngofnodi, yna dim ond nodi defnyddiwr fel &#39;na-cymeradwy&#39;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^&#39;{0}&#39; Defnyddiwr wedi cael ei ddileu.^UserHasBeenDeleted^
+
+^UserName^Enw Defnyddiwr^UserName^
+
+^UserNameDoesNotExist^Nid yw enw defnyddiwr yn bodoli.^UserNameDoesNotExist^
+
+^UserNotFound^Defnyddiwr not found.^UserNotFound^
+
+^UserRejected^Defnyddiwr wedi cael ei wrthod.^UserRejected^
+
+^UsersInRolesGridHeaderText^Mae hon yn rhestr o gofnodion defnyddwyr aelodaeth sy&#39;n perthyn i rôl a ddewiswyd.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Defnyddwyr yn y Rôl^UsersInRolesGridLabel^
+

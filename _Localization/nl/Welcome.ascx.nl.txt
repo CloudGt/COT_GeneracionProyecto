@@ -1,0 +1,21 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Administratieve account^AdminDesc^
+
+^SignInHeader^Instructies^SignInHeader^
+
+^SignInInstruction^Meld u aan bij de deze beschermde site.^SignInInstruction^
+
+^SignInPara1^Twee standaard user accounts worden automatisch gemaakt wanneer toepassing is geïnitialiseerd indien het lidmaatschap optie is geselecteerd voor deze toepassing.^SignInPara1^
+
+^SignInPara2^Het administratieve account <b>admin</b> is bevoegd tot alle onderdelen van de website en de lidmaatschap manager. Het standaard <b>user</b> account is toegestaan voor alle delen van de website toegang, met uitzondering van de lidmaatschap manager.^SignInPara2^
+
+^SignInPara3^Beweeg de muisaanwijzer over de koppeling <i>Login om deze website site</i> aan de rechterkant aan de bovenkant van de pagina en meld je aan met een van de accounts die hieronder zijn vermeld.^SignInPara3^
+
+^UserDesc^Standaard user account^UserDesc^
+

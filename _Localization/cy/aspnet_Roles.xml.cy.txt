@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Creu cofnod Rôl aelodau newydd.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Rôl Newydd^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Newydd^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Cwblhewch y ffurflen. Gwnewch yn siwr i fynd i mewn yr holl feysydd gofynnol.^CreateFormCategory^
+
+^CreateFormHeaderText^Dylech lenwi&#39;r ffurflen hon a chliciwch botwm OK i greu cofnod rolau aelodau newydd. Cliciwch Canslo i ddychwelyd i&#39;r sgrin flaenorol.^CreateFormHeaderText^
+
+^DescriptionLabel^Disgrifiad^DescriptionLabel^
+
+^EditViewCategory^Dyma&#39;r meysydd y rôl aelodaeth cofnod y gellir eu golygu.^EditViewCategory^
+
+^EditViewHeaderText^Os gwelwch yn dda adolygu aelodaeth rolau wybodaeth isod. Cliciwch Golygu i newid y cofnod hwn, cliciwch Dileu i ddileu&#39;r cofnod, neu cliciwch Diddymu / Yn agos i ddychwelyd yn ôl.^EditViewHeaderText^
+
+^GridViewHeaderText^Mae hon yn rhestr o rolau aelodaeth.^GridViewHeaderText^
+
+^RoleNameLabel^Enw Rôl^RoleNameLabel^
+

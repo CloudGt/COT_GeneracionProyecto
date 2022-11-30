@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Maak een nieuwe gebruiker op te nemen.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nieuwe gebruiker^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nieuw^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Terug^BackToRequestPasswordActionHeaderText^
+
+^Comment^Commentaar^Comment^
+
+^ConfirmIdentityActionHeaderText^Afwerking^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Nieuw wachtwoord bevestigen^ConfirmNewPassword^
+
+^ConfirmPassword^Bevestig Wachtwoord^ConfirmPassword^
+
+^CreateDate^Maak Datum^CreateDate^
+
+^CreateFormCommentCategoryDescription^Eventueel aanvullende opmerkingen over dit gebruikeraccount. Reactie is niet zichtbaar voor de gebruiker.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Reacties^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Vul gebruikersnaam en wachtwoord in. Merk op dat wachtwoord minimaal 7 tekens lang zijn en een niet-alfanumeriek teken moet bevatten. Alleen goedgekeurde gebruikers zullen in staat zijn om in te loggen op de website.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Informatie nieuwe gebruiker^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Deze velden zijn verplicht om een ​​gebruiker een ​​vergeten wachtwoord terug te laten halen. Tijdens het herstelproces van de gebruiker wordt gevraagd om een ​​gebruikersnaam in te voeren. Als een gebruikersaccount bestaat dan wordt een beveiligingsvraag gesteld om te worden beantwoord. Bij een correct antwoord zal een e-mail met een tijdelijk wachtwoord naar de gebruiker worden gestuurd.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Selecteer rollen van gebruikers die het meest overeenkomen met de verantwoordelijkheden van de gebruiker . Rollen de toegang tot het delen van deze website. Neem contact op met de systeembeheerder als de rechten moeten worden veranderd.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Rollen^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Vul dit formulier in en druk op de OK-knop om een ​​nieuw gebruikerslidmaatschap aan te maken. Klik op Annuleren om terug te keren naar het vorige scherm.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Nieuwe gebruiker^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Dit gebruikersaccount is aangemaakt en goedgekeurd.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Dubbel e-mailadres.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Dubbele provider.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Dubbele gebruikersnaam.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Activiteit Statistieken^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Dit genruikersaccountaccount is goedgekeurd^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Dit zijn de statistieken van mislukte inlog pogingen van deze gebruiker. <br/> <br/> Gebruiker zal worden geblokkeerd na het bereiken van een maximum aantal mislukte inlog pogingen. <br/> <br/> Gesloten op gebruikers in staat zal zijn om opnieuw inloggen na de datum in Failed Password poging venster te starten. <br/> <br/> Gebruikers die niet om het wachtwoord te herstellen zal in staat zo te zijn na de datum in Failed Password Antwoord poging venster te starten. <br/> <br/> Je kan de gebruiker in staat om in te loggen door het instellen van Locked Out vlag om 'nee' te herstellen.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Login Statistieken^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Tijdens het herstellen van een vergeten wachtwoord van de gebruiker wordt gevraagd om een ​​gebruikersnaam in te voeren. Als een gebruikersaccount bestaat, dan wordt er gevraagd om een beveiligingsvraag te beantwoord. Bij een correct antwoord zal een e-mail met een tijdelijk wachtwoord naar de gebruiker worden gestuurd. <br/><br/> Change geblokkeerd vlag om 'Nee' als de gebruiker is geblokkeerd na het bereiken van een maximum aantal mislukte login pogingen en u wilt dat de gebruiker opnieuw moet inloggen.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Selecteer rollen van gebruikers die het meest overeenkomen met de gebruiker verantwoordelijkheden. Rollen de toegang tot het delen van deze website. Neem contact op met de systeembeheerder als de rol toegangsbeperkingen moeten worden veranderd. <br/> <br/> Geef eventueel aanvullende opmerkingen over deze gebruiker account. Reactie is niet zichtbaar voor de gebruiker.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Gebruikersinformatie^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Gelieve de onderstaande gebruikers informatie. Klik op Bewerken om dit record te wijzigen, klikt u op Verwijderen om de record te verwijderen, of klik op Annuleren / Close om terug te keren.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Beoordeling Gebruiker^EditFormViewLabel^
+
+^Email^E-mail^Email^
+
+^EnterCurrentPassword^Geef uw huidige wachtwoord in.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Voer een wachtwoord in.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Fout bij het opslaan van het gebruikersaccount.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Mislukte poging Wachtwoord Antwoord Aantal^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Mislukte Wachtwoord Antwoord poging venster te starten^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Mislukte poging Wachtwoord aantal^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Mislukte poging Password venster te starten^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Dit is een lijst van het lidmaatschap gebruiker records.^GridViewHeaderText^
+
+^GridViewLabel^Alle gebruikers^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Beantwoord de volgende vraag om uw wachtwoord te ontvangen. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Bevestiging identiteit^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Vul dit formulier in en klik op de knop om het vergeten wachtwoord te achterhalen op Verzenden. Klik op Annuleren om terug te keren naar het vorige scherm.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: Stap 2 van 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Ongeldig wachtwoord herstel te beantwoorden.^InvalidAnswer^
+
+^InvalidEmail^Ongeldig e-mailadres.^InvalidEmail^
+
+^InvalidPassword^Ongeldig wachtwoord.^InvalidPassword^
+
+^InvalidProviderUserKey^Ongeldige provider de gebruiker te drukken.^InvalidProviderUserKey^
+
+^InvalidQuestion^Ongeldig wachtwoord herstel vraag.^InvalidQuestion^
+
+^InvalidUserName^Ongeldige gebruikersnaam.^InvalidUserName^
+
+^IsApproved^Is goedgekeurd^IsApproved^
+
+^IsLockedOut^Is gesloten Out^IsLockedOut^
+
+^LastLockoutDate^Laatste Lockout Datum^LastLockoutDate^
+
+^LastLoginDate^Laatst ingelogd Datum^LastLoginDate^
+
+^LastPasswordChangedDate^Laatste Wachtwoord gewijzigde datum^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Wachtwoord Antwoord (niet weergegeven voor uw bescherming)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Geef uw huidige wachtwoord in om nieuw wachtwoord aan te maken, update uw e-mailadres of wachtwoord wijzigen recovery vraag en antwoord.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Huidig ​​wachtwoord^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Gelieve de onderstaande informatie uw lidmaatschap. Klik op Update Mijn account om dit record te wijzigen, of klik op Annuleren om terug te keren.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Mijn account^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Vul een nieuw wachtwoord. Merk op dat wachtwoord moet minimaal 7 tekens lang zijn en omvatten een niet-alfanumeriek teken.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nieuw wachtwoord (optioneel)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Tijdens het herstel van een vergeten wachtwoord wordt u gevraagd om uw gebruikersnaam in te voeren. Als een gebruiker account bestaat dan een wachtwoord vraag moet worden beantwoord. Een juist antwoord zullen leiden tot een e-mail met een tijdelijk wachtwoord naar u sturen.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-mail &amp; Password Recovery (optioneel)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nieuwe wachtwoord^NewPassword^
+
+^NewPasswordAlert^Een nieuw wachtwoord is per e-mail naar het adres in ons bestand.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Nieuwe wachtwoord en de bevestiging komen niet overeen.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Uw nieuwe wachtwoord is ongeldig.^NewPasswordInvalid^
+
+^NewPasswordSubject^Nieuw wachtwoord voor \'{0} \ '.^NewPasswordSubject^
+
+^OldPassword^Oud wachtwoord^OldPassword^
+
+^Password^Wachtwoord^Password^
+
+^PasswordAndConfirmationDoNotMatch^Wachtwoord en bevestiging komen niet overeen.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Wachtwoord Antwoord^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Uw wachtwoord komt niet overeen met onze gegevens.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Wachtwoord formaat^PasswordFormat^
+
+^PasswordQuestion^Vraag wachtwoord^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Vul een gebruikersnaam in. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Wachtwoord vergeten?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Vul dit formulier in en klik op de knop Doorgaan om het vergeten wachtwoord te achterhalen. Klik op Annuleren om terug te keren naar het vorige scherm.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: Stap 1 van 2^PasswordRequestViewLabel^
+
+^ProviderError^Provider fout.^ProviderError^
+
+^RequestPasswordActionHeaderText^Volgende^RequestPasswordActionHeaderText^
+
+^Roles^Rollen^Roles^
+
+^SelfRegisteredUser^Self-geregistreerde gebruiker.^SelfRegisteredUser^
+
+^SignUp^Aanmelden^SignUp^
+
+^SignUpViewHeaderText^Vul dit formulier in en druk op OK-knop aan te melden voor een account klik. Klik op Annuleren om terug te keren naar het vorige scherm.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Account Aanmelden^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Vul gebruikersnaam en wachtwoord. Merk op dat wachtwoord moet minimaal 7 tekens lang zijn en omvatten een niet-alfanumeriek teken. Alleen goedgekeurde gebruikers in staat zal zijn om in te loggen op de website.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Nieuwe User Information^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Deze velden zijn verplicht om u te helpen een vergeten wachtwoord te achterhalen. Tijdens het herstelproces wordt u gevraagd om een ​​gebruikersnaam in te voeren. Als een gebruiker account bestaat dan een beveiligingsvraag is gevraagd te worden beantwoord. Een correcte antwoord zullen leiden tot een e-mail met een tijdelijk wachtwoord te sturen naar de geregistreerde e-mail.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Update Mijn account^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Gebruiker kan niet worden vergrendeld. Als u wilt voorkomen dat deze gebruiker niet in staat om in te loggen dan gewoon markeren gebruiker als 'niet-akkoord'.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Gebruiker'{0}' is verwijderd.^UserHasBeenDeleted^
+
+^UserName^Gebruikersnaam^UserName^
+
+^UserNameDoesNotExist^Gebruikersnaam bestaat niet.^UserNameDoesNotExist^
+
+^UserNotFound^Gebruiker niet gevonden.^UserNotFound^
+
+^UserRejected^Gebruiker is afgewezen.^UserRejected^
+
+^UsersInRolesGridHeaderText^Dit is een lijst van het lidmaatschap gebruiker records die behoren tot een geselecteerde rol.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Gebruikers in Role^UsersInRolesGridLabel^
+

@@ -1,0 +1,297 @@
+<dataController name="Controllers" conflictDetection="overwriteChanges" label="Controllers"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium" handler="CodeOnTime.Designer.DesignerBusinessRules">
+  <commands>
+    <command id="command1" type="Text">
+      <query href="Controllers.xml" select="//a:dataController" sort="Name" dependencies="//a:command,//a:fieldOutput,//a:field,//a:view,//a:dataField,//a:action,//app:dataView,//a:rule,//a:actionGroup,//a:category,//a:expression[parent::a:styles],//app:dataView"/>
+      <template select="/a:dataControllerCollection">
+        <dataController xmlns="urn:schemas-codeontime-com:data-aquarium" >
+          <commands/>
+          <fields/>
+          <views/>
+          <actions/>
+        </dataController>
+      </template>
+    </command>
+  </commands>
+  <fields>
+    <field name="Name" type="String" select="@name" allowNulls="false" isPrimaryKey="true">
+      <validate>
+        <expression type="RegularExpression" test="^[A-Za-z]\w*$" result="A controller name must start with a letter and must contain only alpha-numeric characters."/>
+        <!--<expression type="ClientScript" test="[Name] != null &amp;&amp; [Name].length > 3" result="The length of the expression must be at least 3 characters"/>-->
+      </validate>
+    </field>
+    <field name="Text" type="String" select="@text" allowNulls="true" />
+    <field name="Controller" type="String" select="@name"/>
+    <field name="ConflictDetection" type="String" select="@conflictDetection" allowNulls="false" label="Conflict Detection" >
+      <items style="RadioButtonList">
+        <item value="overwriteChanges" text="Overwrite Changes"/>
+        <item value="compareAllValues" text="Compare All Values"/>
+      </items>
+    </field>
+    <field name="ConnectionStringName" type="String" select="@connectionStringName" allowNulls="true" label="Connection String Name"/>
+    <!--<field name="Generate" type="Boolean" select="@generate" allowNulls="false" default="true()" label="Generate">
+      <items style="CheckBox"/>
+    </field>-->
+    <field name="Handler" type="String" select="@handler">
+      <validate>
+        <expression type="RegularExpression" test="^([A-Za-z][\w\.]*)*$" result="An optional business rules handler name must start with a letter and contain only alpha-numeric characters and '.' to designate the namespace of the business rules class."/>
+      </validate>
+    </field>
+    <field name="GenerateDataAccessObjects" type="Boolean" allowNulls="false" select="@generateDataAccessObjects" label="Generate Data Access Objects">
+      <items style="CheckBox"/>
+    </field>
+    <field name="AllowAnnotations" type="Boolean" select="@allowAnnotations" allowNulls="true" label="Allow Annotations">
+    </field>
+    <field name="StatusBar" type="String" allowNulls="true" select="a:statusBar" label="Status Bar"/>
+    <field name="CommandCount" type="Int32" select="count(a:commands/a:command)" allowNulls="true"/>
+    <field name="HasRules" type="String" select="a:businessRules/a:rule[1]/@id" allowNulls="true" readOnly="true"/>
+    <field name="RestConfig" type="String" select="a:restConfig" allowNulls="true" label="Representational State Transfer (REST) Configuration"/>
+    <field name="BlobAdapterConfig" type="String" select="a:blobAdapterConfig" allowNulls="true" label="BLOB Adapter Configuration"/>
+  </fields>
+  <views>
+    <view id="grid1" type="Grid" commandId="command1" label="Controllers">
+      <headerText>
+        <![CDATA[
+    <span class="HelpLink" title="Learn to work with Data Controllers" onclick="$openUrl('http://codeontime.com/learn/development/project-designer/controllers')"></span>
+		This is a list of data controllers. 
+		]]>
+      </headerText>
+      <dataFields>
+        <dataField fieldName="Name" columns="30" readOnly="true"/>
+        <dataField fieldName="Controller" hidden="true"/>
+        <!--<dataField fieldName="Generate"/>-->
+        <dataField fieldName="ConflictDetection">
+          <items style="DropDownList">
+            <item value="overwriteChanges" text="Overwrite Changes"/>
+            <item value="compareAllValues" text="Compare All Values"/>
+          </items>
+        </dataField>
+        <dataField fieldName="Handler"/>
+        <dataField fieldName="AllowAnnotations">
+          <headerText>Annotations</headerText>
+        </dataField>
+        <dataField fieldName="CommandCount" hidden="true"/>
+        <dataField fieldName="HasRules" hidden="true"/>
+      </dataFields>
+      <!--<styles>
+        <expression type="ClientScript" test="[Generate] != true" result="ExcludedFromGeneration"/>
+      </styles>-->
+    </view>
+    <view id="editForm1" type="Form" commandId="command1" label="Controller">
+      <headerText>
+        <![CDATA[
+        <span class="HelpLink" title="Learn about Data Controllers" onclick="$openUrl('http://codeontime.com/learn/data-controllers/overview')"></span>
+        Click OK to save the data controller, or click Cancel to undo changes or return back.
+        ]]>
+      </headerText>
+      <categories>
+        <category headerText="General">
+          <description>
+            <![CDATA[
+          Name of the data controller. <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/development/project-explorer/controllers')" title="Learn about manipulating controllers in the Project Explorer.">Rename</a> using the Project Explorer.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Controller" hidden="true" />
+            <dataField fieldName="Name" columns="50" readOnly="true" hyperlinkFormatString="javascript:window.external.SyncAndRename()" toolTip="Click here to rename the Data Controller.">
+              <headerText>Controller Name</headerText>
+            </dataField>
+            <!--<dataField fieldName="Generate">
+							<headerText>Include in code generation</headerText>
+						</dataField>-->
+          </dataFields>
+        </category>
+        <category headerText="Miscellaneous">
+          <description>
+            <![CDATA[
+              Specify a conflict detection strategy. <br/><br/>
+              Specify a connection string name if the controller is working with the database other than the one selected for this project.<br/><br/>
+              Enter the text representing a user-friendly name of the controller.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="ConflictDetection" />
+            <dataField fieldName="ConnectionStringName" />
+            <dataField fieldName="Text" columns="50" />
+          </dataFields>
+        </category>
+        <category headerText="Business Rules">
+          <description>
+            <![CDATA[
+            Specify the name of a <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/business-rules/custom-business-rules')" title="Learn how to create and implement a business rule handler.">business rules</a> class that can be extended to respond to the controller actions.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Handler"/>
+            <dataField fieldName="GenerateDataAccessObjects"/>
+          </dataFields>
+        </category>
+        <category headerText="Annotations &amp; Status Bar">
+          <description>
+            <![CDATA[
+            Specify if free form notes and attachments can be assigned to any data row by end-users at run-time. <br/><br/>
+            The <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/business-rules/wizards-and-status-bars')" title="Learn how to implement a status bar.">status bar</a> is displayed in form views to provide a visualization of the <i>Status</i> field. Use the following format
+            when describing individual status values. Note that <i>ControllerName</i> and <i>ViewId</i> are optional.<br/><br/>
+            <i>Example:</i><br/>
+            ControllerName.ViewId.<b>Status</b>: <b>Value</b><br/>
+            Past Status 1 > Past Status 2 > [Current Status] > Future Status >
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="AllowAnnotations"/>
+            <dataField fieldName="StatusBar" columns="55" rows="9"/>
+          </dataFields>
+        </category>
+        <category headerText="Configuration" id="configCat">
+          <description>
+            <![CDATA[Specify configuration parameters of the data controller. <br/><br/>
+          <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/rest/security')" title="Learn to configure REST support for data controllers.">Representational State Transfer Configuration</a> may define multiple URIs with properites that control supported HTTP methods, users, roles, SSL, and ouptut data format (JSON or XML).
+          <br/><br/><br/><br/>
+          BLOB Adapter Configuration may include definition of virtual binary fields that are physically stored in the 
+          <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/upload-download/blob-adapters/file-system')" title="Learn to configure Upload/Download Adapter for File System">File System</a>, 
+          <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/upload-download/blob-adapters/windows-azure-storage')" title="Learn to configure Upload/Download Adapter for Windows Azure Storage">Windows Azure Storage</a>, or 
+          <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/upload-download/blob-adapters/amazon-s3')"  title="Learn to configure Upload/Download Adapter for Amazon S3">Amazon S3</a>.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="RestConfig" rows="7" columns="55"/>
+            <dataField fieldName="BlobAdapterConfig" rows="7" columns="55"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+    <view id="createForm1" type="Form" commandId="command1" label="New Controller">
+      <headerText>
+        <![CDATA[
+        <span class="HelpLink" title="Learn about Data Controllers" onclick="$openUrl('http://codeontime.com/learn/data-controllers/overview')"></span>
+        Please fill this form and click OK button to create a new data controller record. Click Cancel to return to the previous screen.
+      ]]>
+      </headerText>
+      <categories>
+        <category headerText="New Data Controller">
+          <description>
+            <![CDATA[
+            Specify a name for the controller.<br/><br/>
+            Choose the conflict detection strategy.<br/><br/>
+            Specify the name of a <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/business-rules/custom-business-rules')" title="Learn how to create and implement a business rule handler.">business rules</a> class that can be extended to respond to the controller actions.<br/><br/>
+            Specify if a data access object needs to be implemented for this controoller.<br/><br/>
+            Enter the text representing a user-friendly name of the controller.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Name" columns="50" />
+            <dataField fieldName="ConflictDetection">
+              <defaultValues>
+                <expression type="ClientScript" test="" result="overwriteChanges"/>
+              </defaultValues>
+            </dataField>
+            <dataField fieldName="Handler"/>
+            <!--<dataField fieldName="Generate">
+							<headerText>Include in code generation</headerText>
+							<defaultValues>
+								<expression type="ClientScript" test="true"/>
+							</defaultValues>
+						</dataField>-->
+            <dataField fieldName="GenerateDataAccessObjects"/>
+            <dataField fieldName="Text" columns="50" />
+          </dataFields>
+        </category>
+        <category headerText="Annotations &amp; Status Bar">
+          <description>
+            <![CDATA[
+            Specify if free form notes and attachments can be assigned to any data row by end-users at run-time. <br/><br/>
+            The <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/business-rules/wizards-and-status-bars')" title="Learn how to implement a status bar.">status bar</a> is displayed in form views to provide a visualization of the <i>Status</i> field. Use the following format
+            when describing individual status values. Note that <i>ControllerName</i> and <i>ViewId</i> are optional.<br/><br/>
+            <i>Example:</i><br/>
+            ControllerName.ViewId.<b>Status</b>: <b>Value</b><br/>
+            Past Status 1 > Past Status 2 > [Current Status] > Future Status >
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="AllowAnnotations"/>
+            <dataField fieldName="StatusBar" columns="55" rows="9"/>
+          </dataFields>
+        </category>
+        <category headerText="Configuration" id="configCat">
+          <description>
+            <![CDATA[Specify configuration parameters of the data controller. <br/><br/>
+          <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/rest/security')" title="Learn to configure REST support for data controllers.">Representational State Transfer Configuration</a> may define multiple URIs with properites that control supported HTTP methods, users, roles, SSL, and ouptut data format (JSON or XML).
+          <br/><br/><br/><br/>
+          BLOB Adapter Configuration may include definition of virtual binary fields that are physically stored in the 
+          <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/upload-download/blob-adapters/file-system')" title="Learn to configure Upload/Download Adapter for File System">File System</a>, 
+          <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/upload-download/blob-adapters/windows-azure-storage')" title="Learn to configure Upload/Download Adapter for Windows Azure Storage">Windows Azure Storage</a>, or 
+          <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/upload-download/blob-adapters/amazon-s3')"  title="Learn to configure Upload/Download Adapter for Amazon S3">Amazon S3</a>.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="RestConfig" rows="7" columns="55"/>
+            <dataField fieldName="BlobAdapterConfig" rows="7" columns="55"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+  </views>
+  <actions>
+    <actionGroup scope="Grid">
+      <!--<action commandName="Select" commandArgument="editForm1" />-->
+      <action commandName="Navigate" commandArgument="Controller.htm?_returnController=Controllers&amp;Controller={Name}" headerText="Open"/>
+      <action commandName="ClientScript" commandArgument="__syncDesigner(this)" headerText="Sync" cssClass="SyncIcon"/>
+      <action commandName="Edit" />
+      <!--<action commandName="Delete"/>-->
+      <action commandName="Select" commandArgument="editForm1" headerText="View"/>
+      <!--<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+    </actionGroup>
+    <actionGroup scope="Form">
+      <action commandName="Edit" />
+      <!--<action commandName="Delete" />-->
+      <action commandName="Cancel" headerText="Close" />
+      <action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+      <!--<action whenLastCommandName="Edit" commandName="Delete"  />-->
+      <action whenLastCommandName="Edit" commandName="Cancel" />
+      <action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+      <action whenLastCommandName="New" commandName="Cancel" />
+    </actionGroup>
+    <actionGroup scope="ActionBar" headerText="New">
+      <action commandName="New" commandArgument="createForm1" headerText="New Controller" description="Create a new data controller." />
+    </actionGroup>
+    <actionGroup scope="ActionBar" headerText="N/A" flat="true">
+      <action commandName="Custom" commandArgument="Preview" headerText="Quick View" description="Preview the data controller."  whenKeySelected="true"/>
+    </actionGroup>
+    <!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+    <actionGroup scope="ActionBar" headerText="Record">
+      <action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+      <action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+    </actionGroup>
+    <actionGroup id="sync01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncDesigner()" headerText="Sync" cssClass="SyncIcon" description="Synchronize with Explorer (Ctrl+.)"/>
+    </actionGroup>
+    <actionGroup id="rules01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncAndEdit('Edit', 'Handler')" whenClientScript="!String.isNullOrEmpty([Handler])" headerText="Edit Handler" description="Edit Handler in Visual Studio"/>
+    </actionGroup>
+    <actionGroup id="ag8" scope="Row">
+      <action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+      <action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+    </actionGroup>
+  </actions>
+  <businessRules>
+    <rule id="r1" commandName="Update" view="editForm1" type="JavaScript" phase="Before">
+      <![CDATA[
+          var handlerObj = this.selectFieldValueObject('Handler');
+          if (handlerObj && handlerObj.Modified) {
+            var handler = $row.Handler;
+            if (!handler)
+              handler = 'BusinessRules';
+            $app.alert('Please note that any existing C#/Visual Basic business rules must be modified to inherit from the class "' + handler + '".');
+          }
+     ]]>
+    </rule>
+  </businessRules>
+</dataController>

@@ -1,0 +1,11 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in TableOfContents.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^TocHeader^Mappa del sito^TocHeader^
+
+^TocInstruction^Si prega di selezionare un link nella pagina del sommario sottostante.^TocInstruction^
+

@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Lumikha ng isang bagong tala ng user.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Bagong Gumagamit^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Bago^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Likod^BackToRequestPasswordActionHeaderText^
+
+^Comment^Puna^Comment^
+
+^ConfirmIdentityActionHeaderText^Tapusin^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Kumpirmahin ang Bagong Password^ConfirmNewPassword^
+
+^ConfirmPassword^Kumpirmahin ang Password^ConfirmPassword^
+
+^CreateDate^Lumikha ng Petsa^CreateDate^
+
+^CreateFormCommentCategoryDescription^Magpasok ng anumang mga karagdagang komento tungkol sa mga gumagamit ng account na ito. Komento ay hindi makikita sa gumagamit.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Komento^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Mangyaring ipasok ang user name at password. Tandaan na ang password ay dapat na ng hindi bababa sa 7 mga character ang haba at isama isa di-alphanumeric character. Tanging naaprubahan mga gumagamit ay magagawang sa pag-login sa website.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Bagong User Impormasyon^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Ang mga patlang na ito ay kinakailangan upang matulungan ang isang gumagamit upang mabawi ang isang nakalimutan na password. Sa panahon ng proseso ng pagbawi ng gumagamit ang hihingiin na magpasok ng isang user name. Kung ang isang user account umiiral pagkatapos ng isang tanong sa seguridad ay humiling na maging nasagot. Ang tamang sagot ay magpapalitaw ng isang email na may isang pansamantalang password ipadala sa gumagamit.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Mangyaring piliin ang mga papel ng gumagamit na pinakamalapit na tumutugma sa pananagutan gumagamit. Mga tungkulin control ng access sa mga lugar ng web site na ito. Mangyaring makipag-ugnay sa system administrator kung ang papel access paghihigpit ay dapat baguhin.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Tungkulin^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Mangyaring punan ang form na ito at i-click ang OK na pindutan upang lumikha ng isang bagong user na membership record. I-click ang Kanselahin upang bumalik sa nakaraang screen.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Bagong Gumagamit^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Ang user account na ito ay nilikha bilang naaprubahan.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Nauulit na email address.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Nauulit na provider key.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Nauulit na user name.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Aktibidad ng Istatistika^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Ang user account na ito ay naaprubahan^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Ito ay ang mga istatistika ng mga nabigong pagtatangka ng login ng user na ito. <br/> <br/> Gumagamit ay naka-lock out pagkatapos maabot ang isang maximum na bilang ng mga nabigong mga pagtatangka sa pag-login. <br/> <br/> Naka-lock ang mga gumagamit ay makakapag-log in muli pagkatapos ng petsa sa Nabigong Magsimula ng Password pagtatangka Window. <br/> <br/> Gumagamit na nabigong makuha ang password ay sa gayon pagkatapos ng petsa sa Nabigong Password Sagot Simulan pagtatangka Window. <br/> <br/> Maaari mong ibalik ang kakayahan ng gumagamit upang mag-login sa pamamagitan ng pagtatakda ng Naka-lock out flag sa &#39;Hindi&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Login Istatistika^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Sa panahon ng pagbawi ng isang nakalimutan na password ng gumagamit ay ay tatanungin upang magpasok ng isang user name. Kung ang isang user account umiiral pagkatapos ng isang tanong sa seguridad ay humiling na maging nasagot. Ang tamang sagot ay magpapalitaw ng isang email na may isang pansamantalang password ipadala sa gumagamit. <br/><br/> Baguhin ang lock out flag sa &#39;Hindi&#39; kung ang gumagamit ay nai-lock out pagkatapos maabot ang isang maximum na bilang ng mga nabigong mga pagtatangka sa pag-login at nais mong payagan ang mga gumagamit upang mag-login muli.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Mangyaring piliin ang mga papel ng gumagamit na pinakamalapit na tumutugma sa pananagutan gumagamit. Mga tungkulin control ng access sa mga lugar ng web site na ito. Mangyaring makipag-ugnay sa system administrator kung ang papel access paghihigpit ay dapat baguhin. <br/> <br/> Ipasok ang anumang karagdagang mga komento tungkol sa mga gumagamit ng account na ito. Komento ay hindi makikita sa gumagamit.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Impormasyon ng gumagamit^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Mangyaring suriin ang impormasyon ng gumagamit membership sa ibaba. I-click ang I-edit upang baguhin ito record, i-click ang Tanggalin upang tanggalin ang tala, o i-click ang Kanselahin / Isara ang buwelta.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Suriin ang User^EditFormViewLabel^
+
+^Email^Email^Email^
+
+^EnterCurrentPassword^Mangyaring ipasok ang iyong kasalukuyang password.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Mangyaring magpasok ng isang password answer.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Error sa pag-save ng user account.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Nabigong Password Bilang ng pagtatangka ng Sagot^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Nabigong Password Sagot pagtatangka Window Start^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Nabigong Bilang ng pagtatangka ng Password^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Nabigong na pagtatangka ng Password Window Start^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Ito ay isang listahan ng mga talaan ng gumagamit ng membership.^GridViewHeaderText^
+
+^GridViewLabel^Lahat ng mga gumagamit^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Sagutin ang mga sumusunod na katanungan upang matanggap ang iyong password. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identity Kumpirmasyon^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Mangyaring punan ang form na ito at i-click ang Isumite ang pindutan upang mabawi ang mga nakalimutan na password. I-click ang Kanselahin upang bumalik sa nakaraang screen.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: Hakbang 2 ng 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Hindi wastong pagbawi ng password answer.^InvalidAnswer^
+
+^InvalidEmail^Hindi wastong email address.^InvalidEmail^
+
+^InvalidPassword^Hindi wastong password.^InvalidPassword^
+
+^InvalidProviderUserKey^Hindi wastong gumagamit ng key ng provider.^InvalidProviderUserKey^
+
+^InvalidQuestion^Hindi wastong tanong ng pagbawi ng password.^InvalidQuestion^
+
+^InvalidUserName^Hindi wastong user name.^InvalidUserName^
+
+^IsApproved^Ay Naaprubahan^IsApproved^
+
+^IsLockedOut^Ay Naka-lock out^IsLockedOut^
+
+^LastLockoutDate^Huling Lockout Petsa^LastLockoutDate^
+
+^LastLoginDate^Huling Login Petsa^LastLoginDate^
+
+^LastPasswordChangedDate^Huling Password Binagong Petsa^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Sagot ng Password (hindi ipinapakita para sa iyong proteksyon)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Mangyaring ipasok ang iyong kasalukuyang password upang lumikha ng bagong password, i-update ang iyong email address, o baguhin ang pagbawi ng password sa tanong at sagot.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Kasalukuyang Password^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Mangyaring suriin ang iyong impormasyon sa pagsapi sa ibaba. I-click ang I-update ang Aking Account upang baguhin ito sa talaan, o i-click ang Kanselahin upang bumalik pabalik.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Aking Account^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Mangyaring magpasok ng bagong password. Tandaan na ang password ay dapat na ng hindi bababa sa 7 mga character ang haba at isama isa di-alphanumeric character.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Bagong Password (Opsyonal)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Sa panahon ng pagbawi ng isang nakalimutan na password ay tatanungin ka upang ipasok ang iyong user name. Kung ang isang user account umiiral pagkatapos ng isang password katanungan ay dapat sumagot. Ang tamang sagot ay magpapalitaw ng isang email na may isang pansamantalang password na magpadala sa iyo.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Password Recovery (Opsyonal)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Bagong Password^NewPassword^
+
+^NewPasswordAlert^Isang bagong password ay na-email sa address sa file.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Bagong password at kumpirmasyon ay hindi tumutugma.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Ang iyong bagong password ay hindi wasto.^NewPasswordInvalid^
+
+^NewPasswordSubject^Bagong password para sa \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Lumang Password^OldPassword^
+
+^Password^Password^Password^
+
+^PasswordAndConfirmationDoNotMatch^Password at kumpirmasyon ay hindi tugma.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Password Sagot^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Ang iyong password ay hindi tumutugma sa aming mga rekord.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Password Format^PasswordFormat^
+
+^PasswordQuestion^Password Tanong^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Mangyaring magpasok ng isang user name. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Nakalimutan mo ang iyong password?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Mangyaring punan ang form na ito at i-click ang pindutang Magpatuloy upang mabawi ang mga nakalimutan na password. I-click ang Kanselahin upang bumalik sa nakaraang screen.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: Hakbang 1 ng 2^PasswordRequestViewLabel^
+
+^ProviderError^Provider error.^ProviderError^
+
+^RequestPasswordActionHeaderText^Susunod^RequestPasswordActionHeaderText^
+
+^Roles^Tungkulin^Roles^
+
+^SelfRegisteredUser^Self-rehistradong gumagamit.^SelfRegisteredUser^
+
+^SignUp^Mag-sign Up^SignUp^
+
+^SignUpViewHeaderText^Mangyaring punan ang form na ito at i-click ang OK button upang mag-sign up para sa isang account. I-click ang Kanselahin upang bumalik sa nakaraang screen.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Account Mag-sign Up^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Mangyaring ipasok ang user name at password. Tandaan na ang password ay dapat na ng hindi bababa sa 7 mga character ang haba at isama isa di-alphanumeric character. Tanging naaprubahan mga gumagamit ay magagawang sa pag-login sa website.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Bagong User Impormasyon^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Ang mga patlang na ito ay kinakailangan upang makatulong sa iyo na mabawi ang isang nakalimutan password. Sa panahon ng proseso ng pagbawi ay hihilingin kang magpasok ng isang user name. Kung ang isang user account umiiral pagkatapos ng isang tanong sa seguridad ay humiling na maging nasagot. Ang tamang sagot ay magpapalitaw ng isang email na may isang pansamantalang password ipadala sa sa mga nakarehistrong email.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^I-update ang Aking Account^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^User ay hindi maaaring-lock out. Kung nais mong maiwasan ang gumagamit na ito mula sa sa pag-login pagkatapos lamang markahan ang gumagamit ng &#39;hindi-naaprubahan&#39;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Ang User&#39;{0}&#39; ay tinanggal na.^UserHasBeenDeleted^
+
+^UserName^User name^UserName^
+
+^UserNameDoesNotExist^Pangalan ng gumagamit ay hindi umiiral.^UserNameDoesNotExist^
+
+^UserNotFound^Hindi natagpuan ang User.^UserNotFound^
+
+^UserRejected^User ay tinanggihan.^UserRejected^
+
+^UsersInRolesGridHeaderText^Ito ay isang listahan ng mga talaan ng pagiging miyembro ng gumagamit na nabibilang sa isang napiling papel.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Mga gumagamit sa Role^UsersInRolesGridLabel^
+

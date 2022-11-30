@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Crear un registre de pertinença a funcions noves.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nou Rol^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nou^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Completar el formulari. Assegureu-vos d&#39;entrar tots els camps obligatoris.^CreateFormCategory^
+
+^CreateFormHeaderText^Si us plau, ompli aquest formulari i feu clic al botó D&#39;acord per crear una nova membresía registre rols. Feu clic a Cancel · la per tornar a la pantalla anterior.^CreateFormHeaderText^
+
+^DescriptionLabel^Descripció^DescriptionLabel^
+
+^EditViewCategory^Aquests són els camps del registre de la pertinença a funcions que es poden editar.^EditViewCategory^
+
+^EditViewHeaderText^, Llegiu membres informació sobre les funcions a continuació. Feu clic a Edita per canviar aquest registre, feu clic a Suprimeix per eliminar el registre, o feu clic a Cancel · lar / Tanca per tornar enrere.^EditViewHeaderText^
+
+^GridViewHeaderText^Aquesta és una llista dels rols de pertinença.^GridViewHeaderText^
+
+^RoleNameLabel^Nom de funció^RoleNameLabel^
+

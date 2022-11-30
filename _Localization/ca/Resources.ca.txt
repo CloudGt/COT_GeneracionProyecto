@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Anotar^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b> {1}</b>{2} Adjunta a^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Fixació^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Escriu una nota opcional i adjuntar arxius.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Notes i Annexos^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} {1} Escrit en^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Notes^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Notes^AnnotationTab^
+
+^BlobClearConfirm^És clar?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Ha estat esborrada.^BlobCleared^
+
+^BlobClearText^És clar^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> {0} No s&#39;ha pogut carregar. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Clic^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^aquí^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^per pujar o esborrar arxius {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} S&#39;ha carregat correctament. <b>It Pot trigar uns minuts {1} de la imatge per reflectir la pujada content.</b>^BlobUploded^
+
+^Copyright^Tots els drets reservats.^Copyright^
+
+^RecordChangedByAnotherUser^El registre ha estat canviat per un altre usuari.^RecordChangedByAnotherUser^
+

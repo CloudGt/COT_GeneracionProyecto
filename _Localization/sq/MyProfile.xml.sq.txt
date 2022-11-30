@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^prapa^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^finish^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Konfirmo fjalëkalimin e ri^ConfirmNewPassword^
+
+^ConfirmPassword^Konfirmo fjalëkalimin^ConfirmPassword^
+
+^Email^Email^Email^
+
+^ForgotYourPassword^Keni harruar fjalëkalimin tuaj?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Përgjigjuni pyetjes vijuese për të marrë fjalëkalimin tuaj. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Konfirmimi i Identitetit^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Ju lutemi plotësoni këtë formular dhe klikoni butonin Submit për të rimarrë fjalëkalimin e harruar. Kliko Cancel për t&#39;u kthyer në ekranin e mëparshëm.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Rikuperimi i Fjalëkalimit: Hapi 2 i 2^IdentityConfirmViewLabel^
+
+^LoginButton^hyrje^LoginButton^
+
+^LoginLink^hyrje^LoginLink^
+
+^LoginWithDNN^Identifikohu me DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Identifikohu me Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Identifikohu me Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Identifikohu me Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Identifikohu me SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Identifikohu me Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Përgjigje Fjalëkalimi (nuk shfaqet për mbrojtjen tuaj)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Ju lutemi shkruani fjalëkalimin tuaj të tanishëm për të krijuar fjalëkalim të ri, për të përditësuar adresën tuaj të postës elektronike ose për të ndryshuar pyetje dhe përgjigje për rimëkëmbjen e fjalëkalimeve^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Fjalëkalimi aktual^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Ju lutem kontrolloni informacionin tuaj të anëtarësimit më poshtë. Klikoni Update Llogaria ime për të ndryshuar këtë rekord, ose kliko Cancel për t&#39;u kthyer prapa.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Llogaria ime^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Ju lutemi shkruani fjalëkalimin e ri. Vini re se fjalëkalimi duhet të jetë së paku 7 shkronja dhe të përfshijë një karakter jo-alfanumerik.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Fjalëkalimi i ri (opsional)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Gjatë rikthimit të një fjalëkalimi të harruar, do t&#39;ju kërkohet të shkruani emrin tuaj të përdoruesit. Nëse ekziston një llogari përdorues atëherë një pyetje fjalëkalimi duhet të përgjigjet. Një përgjigje e saktë do të shkaktojë një email me një fjalëkalim të përkohshëm që ju dërgon.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Rimëkëmbja e Fjalorit (Opsionale)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^fjalekalim i ri^NewPassword^
+
+^OldPassword^Fjalëkalimi i vjetër^OldPassword^
+
+^Password^fjalëkalim^Password^
+
+^PasswordAnswer^Përgjigje Fjalëkalimi^PasswordAnswer^
+
+^PasswordQuestion^Fjalëkalimi Pyetje^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Ju lutemi shkruani një emër përdoruesi. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Keni harruar fjalëkalimin tuaj?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Ju lutemi plotësoni këtë formular dhe klikoni butonin Continue për të rimarrë fjalëkalimin e harruar. Kliko Cancel për t&#39;u kthyer në ekranin e mëparshëm.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Rimëkëmbja e fjalëkalimeve: Hapi 1 i 2^PasswordRequestViewLabel^
+
+^RememberMe^Mos harro herën tjetër^RememberMe^
+
+^RequestPasswordActionHeaderText^tjetër^RequestPasswordActionHeaderText^
+
+^SignUp^Regjistrohu^SignUp^
+
+^SignUpNow^Regjistrohu tani^SignUpNow^
+
+^SignUpViewHeaderText^Ju lutemi plotësoni këtë formular dhe klikoni butonin OK për të nënshkruar një llogari. Kliko Cancel për t&#39;u kthyer në ekranin e mëparshëm.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Llogari Regjistrohu^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Ju lutemi shkruani emrin e përdoruesit dhe fjalëkalimin. Vini re se fjalëkalimi duhet të jetë së paku 7 shkronja dhe të përfshijë një karakter jo-alfanumerik. Vetëm përdoruesit e aprovuar do të jenë në gjendje të hyjnë në faqen e internetit.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Informacion i ri i përdoruesit^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Këto fusha janë të nevojshme për t&#39;ju ndihmuar të mbuloni një fjalëkalim të harruar. Gjatë procesit të rimëkëmbjes do t&#39;ju kërkohet të shkruani një emër përdoruesi. Nëse ekziston një llogari përdorues atëherë kërkohet një pyetje sigurie për t&#39;u përgjigjur. Një përgjigje e saktë do të shkaktojë një email me një fjalëkalim të përkohshëm dërgoni në emailin e regjistruar.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Rikuperim i fjalekalimit^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Përditëso llogarinë time^UpdateMyAccountActionHeaderText^
+
+^UserName^Emri i përdoruesit^UserName^
+

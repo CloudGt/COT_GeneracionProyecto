@@ -1,0 +1,27 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Creare un nuovo ruolo.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nuovo ruolo^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nuovo^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Compilare il modulo. Assicurati di inserire tutti i campi richiesti.^CreateFormCategory^
+
+^CreateFormHeaderText^Vi preghiamo di compilare questo modulo e fare clic sul pulsante OK per creare un nuovo ruolo. Fare clic su Annulla per tornare alla schermata precedente.^CreateFormHeaderText^
+
+^DescriptionLabel^Descrizione^DescriptionLabel^
+
+^EditViewCategory^Questi sono i campi del ruolo che possono essere modificati.^EditViewCategory^
+
+^EditViewHeaderText^Leggere le informazioni del ruolo qui di seguito. Fare clic su Modifica per cambiare questo record, fare clic su Elimina per eliminare il record, o su Annulla / Chiudi per tornare indietro.^EditViewHeaderText^
+
+^GridViewHeaderText^Questo e’ un elenco di ruoli.^GridViewHeaderText^
+
+^RoleNameLabel^Nome Ruolo^RoleNameLabel^
+

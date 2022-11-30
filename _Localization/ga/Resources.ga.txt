@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Anótáil^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b> {1}</b>{2} Ceangailte ag^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Iatán^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Cuir isteach nótaí roghnach agus comhaid ceangail.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Nótaí agus Ceangaltáin^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} {1} Scríofa ag^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Nótaí^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Nótaí^AnnotationTab^
+
+^BlobClearConfirm^Soiléir?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Curtha glanta.^BlobCleared^
+
+^BlobClearText^Glan^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Theip {0} a uaslódáil. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Cliceáil^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^anseo^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^a uaslódáil nó soiléir comhad {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Curtha uaslódáil go rathúil. Is féidir <b>It dtógfadh sé suas le {1} nóiméad do na thumbnail chun léiriú a uaslódáil content.</b>^BlobUploded^
+
+^Copyright^Gach ceart ar cosaint.^Copyright^
+
+^RecordChangedByAnotherUser^Tá an taifead a athrú ag úsáideoir eile.^RecordChangedByAnotherUser^
+

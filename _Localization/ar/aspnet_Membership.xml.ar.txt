@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^إنشاء سجل مستخدم جديد.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^العضو الجديد^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^جديد^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^ظهر^BackToRequestPasswordActionHeaderText^
+
+^Comment^تعليق^Comment^
+
+^ConfirmIdentityActionHeaderText^نهاية^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^تأكيد كلمة السر الجديدة^ConfirmNewPassword^
+
+^ConfirmPassword^تأكيد كلمة السر^ConfirmPassword^
+
+^CreateDate^تاريخ إنشاء^CreateDate^
+
+^CreateFormCommentCategoryDescription^إدخال أي تعليقات إضافية حول هذا الحساب مستخدم. التعليق غير مرئية للمستخدم.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^تعليقات^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^من فضلك ادخل اسم المستخدم وكلمة السر. علما أن كلمة السر يجب أن لا يقل عن 7 حرفا وتشمل واحدة غير أبجدية الحرف. وافق فقط للمستخدمين أن تكون قادرة على الدخول الى الموقع.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^معلومات المستخدم الجديدة^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^هذه الحقول مطلوبة لمساعدة المستخدم لاستعادة كلمة المرور المنسية. وأثناء عملية الاسترداد أن يطلب من المستخدم إدخال اسم المستخدم. إذا كان حساب مستخدم موجود ثم يتم طلب سؤال الأمان إلى إجابة. وسوف يؤدي الى الجواب الصحيح البريد الإلكتروني مع كلمة سر مؤقتة ترسل للمستخدم.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^كلمة السر الانتعاش^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^يرجى تحديد أدوار المستخدمين أن معظم المسؤوليات عن كثب مباراة المستخدم. أدوار التحكم في الوصول إلى مناطق من هذا الموقع. الرجاء الاتصال بمسؤول النظام إذا كان يجب تغيير القيود المفروضة على الوصول الدور.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^الأدوار^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^يرجى ملء هذا النموذج وانقر على زر موافق لإنشاء مستخدم جديد تسجيل عضوية. فوق إلغاء للعودة الى الشاشة السابقة.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^العضو الجديد^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^سيتم إنشاء حساب المستخدم هذا كما وافقت.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^عنوان البريد الإلكتروني مكررة.^DuplicateEmail^
+
+^DuplicateProviderUserKey^مكررة مفتاح الموفر.^DuplicateProviderUserKey^
+
+^DuplicateUserName^تكرار اسم المستخدم.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^النشاط الاحصائيات^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^تمت الموافقة على هذا الحساب المستخدم^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^هذه هي الإحصاءات من محاولات الدخول الفاشلة التي قام بها لهذا المستخدم. وسوف يكون مؤمنا <br/> <br/> المستخدم الخروج بعد التوصل إلى الحد الأقصى لعدد محاولات تسجيل الدخول الفاشلة. <br/> <br/> مغلق من المستخدمين سوف تكون قادرة على الدخول مرة أخرى بعد التاريخ في كلمة فشل محاولة بدء إطار. <br/> <br/> المستخدمين الذين فشلوا في استعادة كلمة السر سوف تكون قادرة على ذلك بعد تاريخ البدء في فشل محاولة الإجابة كلمة نافذة. <br/> <br/> يمكنك استعادة قدرة المستخدم لتسجيل الدخول عن طريق وضع إشارة تأمين إلى &#39;لا&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^إحصائيات الدخول^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^وخلال استرداد كلمة مرور منسية أن يطلب من المستخدم إدخال اسم المستخدم. إذا كان حساب مستخدم موجود ثم يتم طلب سؤال الأمان إلى إجابة. وسوف يؤدي الى الجواب الصحيح البريد الإلكتروني مع كلمة سر مؤقتة ترسل للمستخدم. <br/><br/> مبعدون تغيير العلم إلى &#39;لا&#39; إذا تم تأمين خروج المستخدم بعد التوصل إلى الحد الأقصى لعدد محاولات تسجيل الدخول الفاشلة وتريد تسمح للمستخدم لتسجيل الدخول مرة أخرى.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^كلمة السر الانتعاش^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^يرجى تحديد أدوار المستخدمين أن معظم المسؤوليات عن كثب مباراة المستخدم. أدوار التحكم في الوصول إلى مناطق من هذا الموقع. الرجاء الاتصال بمسؤول النظام إذا كان يجب تغيير القيود المفروضة على الوصول الدور. <br/> <br/> أدخل أي تعليقات إضافية حول هذا الحساب مستخدم. التعليق غير مرئية للمستخدم.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^معلومات المستخدم^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^يرجى مراجعة معلومات المستخدم عضوية أدناه. انقر على تحرير لتغيير هذا السجل ، انقر فوق حذف لحذف السجل ، أو انقر فوق إلغاء / إغلاق للعودة الى الوراء.^EditFormViewHeaderText^
+
+^EditFormViewLabel^استعراض المستخدم^EditFormViewLabel^
+
+^Email^البريد الإلكتروني^Email^
+
+^EnterCurrentPassword^الرجاء إدخال كلمة المرور الحالية.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^الرجاء إدخال كلمة المرور الإجابة.^EnterPasswordAnswer^
+
+^ErrorSavingUser^خطأ حساب التوفير المستخدم.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^فشل محاولة الإجابة كلمة الكونت^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^فشل محاولة الإجابة كلمة نافذة ابدأ^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^فشل محاولة الكونت المرور^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^فشل محاولة نافذة كلمة ابدأ^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^هذه هي قائمة من السجلات المستخدم عضوية.^GridViewHeaderText^
+
+^GridViewLabel^جميع المستخدمين^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^الإجابة على السؤال التالي لتلقي كلمة السر الخاصة بك. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^تأكيد الهوية^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^يرجى ملء هذا النموذج وانقر فوق الزر إرسال لاستعادة كلمة المرور المنسية. فوق إلغاء للعودة الى الشاشة السابقة.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^استعادة كلمة المرور : الخطوة 2 من 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^إجابة غير صالحة كلمة السر الانتعاش.^InvalidAnswer^
+
+^InvalidEmail^عنوان بريد إلكتروني صالح.^InvalidEmail^
+
+^InvalidPassword^صالح كلمة المرور.^InvalidPassword^
+
+^InvalidProviderUserKey^صالح مفتاح مزود المستخدم.^InvalidProviderUserKey^
+
+^InvalidQuestion^السؤال غير صالحة كلمة السر الانتعاش.^InvalidQuestion^
+
+^InvalidUserName^اسم مستخدم غير صالح.^InvalidUserName^
+
+^IsApproved^غير المعتمدة^IsApproved^
+
+^IsLockedOut^ومبعدون^IsLockedOut^
+
+^LastLockoutDate^تأمين مشاركة تاريخ^LastLockoutDate^
+
+^LastLoginDate^تاريخ آخر دخول^LastLoginDate^
+
+^LastPasswordChangedDate^تغيير كلمة المرور مشاركة تاريخ^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^جواب كلمة السر (لا يتم عرض لحمايتك)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^الرجاء إدخال كلمة المرور الحالية لإنشاء كلمة مرور جديدة ، وتحديث عنوان البريد الإلكتروني الخاص بك ، أو تغيير السؤال والإجابة استرداد كلمة المرور.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. كلمة السر الحالية^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^يرجى مراجعة المعلومات الخاصة بك عضوية أدناه. فوق تحديث حسابي لتغيير هذا السجل ، أو انقر فوق إلغاء للعودة الى الوراء.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^حسابي^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^الرجاء إدخال كلمة المرور الجديدة. علما أن كلمة السر يجب أن لا يقل عن 7 حرفا وتشمل واحدة غير أبجدية الحرف.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. كلمة السر الجديدة (اختياري)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^وخلال استرداد كلمة مرور منسية سيطلب منك إدخال اسم المستخدم الخاص بك. إذا يجب أن حساب مستخدم موجود ثم يمكن الإجابة على سؤال كلمة السر. وسوف يؤدي الى الجواب الصحيح البريد الإلكتروني مع كلمة سر مؤقتة ترسل لك.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. استعادة كلمة السر البريد الإلكتروني &amp; (اختياري)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^كلمة السر الجديدة^NewPassword^
+
+^NewPasswordAlert^وقد عبر البريد الالكتروني وكلمة السر الجديدة إلى العنوان الموجود في الملف.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^كلمة السر الجديدة وتأكيد ليست متطابقة.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^كلمة المرور الجديدة غير صالحة.^NewPasswordInvalid^
+
+^NewPasswordSubject^كلمة مرور جديدة ل \ &#39;\&#39;{0}.^NewPasswordSubject^
+
+^OldPassword^كلمة السر القديمة^OldPassword^
+
+^Password^كلمة السر^Password^
+
+^PasswordAndConfirmationDoNotMatch^كلمة السر وتأكيد ليست متطابقة.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^جواب كلمة السر^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^كلمة السر لا يطابق سجلاتنا.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^تنسيق كلمة المرور^PasswordFormat^
+
+^PasswordQuestion^كلمة السر السؤال^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^الرجاء إدخال اسم المستخدم. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^نسيت كلمة السر؟^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^يرجى ملء هذا النموذج وانقر فوق الزر متابعة لاستعادة كلمة المرور المنسية. فوق إلغاء للعودة الى الشاشة السابقة.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^استعادة كلمة المرور : الخطوة 1 من 2^PasswordRequestViewLabel^
+
+^ProviderError^مزود الخطأ.^ProviderError^
+
+^RequestPasswordActionHeaderText^التالي^RequestPasswordActionHeaderText^
+
+^Roles^الأدوار^Roles^
+
+^SelfRegisteredUser^الذاتي المسجلة للمستخدم.^SelfRegisteredUser^
+
+^SignUp^إشترك^SignUp^
+
+^SignUpViewHeaderText^يرجى ملء هذا النموذج وانقر على زر موافق لتسجيل للحصول على حساب. فوق إلغاء للعودة الى الشاشة السابقة.^SignUpViewHeaderText^
+
+^SignUpViewLabel^حساب تسجيل^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^من فضلك ادخل اسم المستخدم وكلمة السر. علما أن كلمة السر يجب أن لا يقل عن 7 حرفا وتشمل واحدة غير أبجدية الحرف. وافق فقط للمستخدمين أن تكون قادرة على الدخول الى الموقع.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^معلومات المستخدم الجديدة^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^مطلوبة هذه الحقول لمساعدتك لاستعادة كلمة المرور المنسية. وأثناء عملية الاسترداد سيطلب منك إدخال اسم المستخدم. إذا كان حساب مستخدم موجود ثم يتم طلب سؤال الأمان إلى إجابة. وسوف يؤدي الى الجواب الصحيح البريد الإلكتروني مع كلمة سر مؤقتة ترسل إلى البريد الإلكتروني المسجل.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^كلمة السر الانتعاش^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^تحديث حسابي^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^لا يمكن أن يكون المستخدم مبعدون. إذا أردت منع هذا المستخدم من القدرة على الدخول ثم وضع علامة ببساطة مستخدم باسم &quot;لا وافق عليها&quot;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^تم حذف &#39;{0}&#39;المستخدم.^UserHasBeenDeleted^
+
+^UserName^اسم المستخدم^UserName^
+
+^UserNameDoesNotExist^اسم المستخدم غير موجود.^UserNameDoesNotExist^
+
+^UserNotFound^لم يتم العثور على المستخدم.^UserNotFound^
+
+^UserRejected^وقد تم رفض المستخدم.^UserRejected^
+
+^UsersInRolesGridHeaderText^هذه هي قائمة من السجلات المستخدم العضوية التي تنتمي إلى الدور المحدد.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^المستخدمين في دور^UsersInRolesGridLabel^
+

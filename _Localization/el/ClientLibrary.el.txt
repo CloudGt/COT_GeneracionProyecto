@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Περίπου^About^
+
+^Accent^Προφορά^Accent^
+
+^ActionBarActionsHeaderText^Δράσεις^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Ακύρωση^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Ακύρωση όλων των αλλαγών ρεκόρ.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Ακύρωση νέο ρεκόρ.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Αποθήκευση νέο ρεκόρ για τη βάση δεδομένων.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Εκτός^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Δημιουργήστε ένα νέο ρεκόρ {0}.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^Νέα {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Νέος^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Ρεκόρ^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Έκθεση^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Αποθηκεύστε τις αλλαγές στη βάση δεδομένων.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Εκτός^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Προσθήκη λογαριασμού^AddAccount^
+
+^AddCondition^Προσθήκη Κατάσταση^AddCondition^
+
+^AddConditionText^Προσθήκη όρο αναζήτησης^AddConditionText^
+
+^AddItem^Πρόσθεσε είδος^AddItem^
+
+^AddMatchingGroup^Προσθήκη ταιριάζουν ομάδα^AddMatchingGroup^
+
+^AddSearchBarField^Περισσότερα πεδία αναζήτησης^AddSearchBarField^
+
+^AddSystemIdentity^Προσθέστε Συστήματος Ταυτότητας^AddSystemIdentity^
+
+^AddToFavorites^Προσθήκη στα αγαπημένα^AddToFavorites^
+
+^AdvancedSearch^Σύνθετη Αναζήτηση^AdvancedSearch^
+
+^AdvancedSearchInstruction^Εισάγετε τους όρους που πρέπει να συνδυαστεί και πατήστε το κουμπί αναζήτησης.^AdvancedSearchInstruction^
+
+^After^Μετά^After^
+
+^Agenda^Ημερήσια διάταξη^Agenda^
+
+^AlignedLeft^Αδεσμεύτων Αριστερά^AlignedLeft^
+
+^AlignedRight^Αδεσμεύτων Δεξιά^AlignedRight^
+
+^AllDatesInPreriod^Όλες οι ημερομηνίες στην περίοδο^AllDatesInPreriod^
+
+^AlternativeView^Επιλέξτε μια εναλλακτική άποψη των δεδομένων.^AlternativeView^
+
+^Always^Πάντοτε^Always^
+
+^AnyValue^(όποιος)^AnyValue^
+
+^Apply^Εφαρμογή^Apply^
+
+^Apps^εφαρμογές^Apps^
+
+^Aquarium^Ενυδρείο^Aquarium^
+
+^Auto^Αυτόματη^Auto^
+
+^AutoOpenNextItem^Αυτόματο άνοιγμα επόμενου στοιχείου^AutoOpenNextItem^
+
+^AverageOf^Μέσος όρος του^AverageOf^
+
+^AvgAggregate^Avg: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Μέσος όρος των {0}^AvgAggregateToolTip^
+
+^Azure^Γαλανός^Azure^
+
+^Back^Πίσω^Back^
+
+^BackColor^Χρώμα Πίσω^BackColor^
+
+^BatchEditActionHeaderText^Μαζική επεξεργασία^BatchEditActionHeaderText^
+
+^BatchEdited^{0} ΕΠΙΚΑΙΡΟΠΟΙΗΜΕΝΟ^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Μαζική επεξεργασία (Έντυπο)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^ενημέρωση^BatchUpdate^
+
+^Before^Προτού^Before^
+
+^BeginsWith^Αρχίζει με^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^Μούρο^Berry^
+
+^Between^Μεταξύ^Between^
+
+^Bittersweet^Γλυκόπικρος^Bittersweet^
+
+^Blank^Κενό^Blank^
+
+^BlankPassword^Κωδικός πρόσβασης δεν μπορεί να είναι κενό.^BlankPassword^
+
+^BlankUserName^Το όνομα χρήστη δεν μπορεί να είναι κενό.^BlankUserName^
+
+^BlankValue^(Λευκά)^BlankValue^
+
+^BlobDownloadHint^Κάντε κλικ εδώ για να κατεβάσετε το αρχικό αρχείο.^BlobDownloadHint^
+
+^BlobDownloadLink^Download^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Αγγίξτε την εικόνα για να πραγματοποιήσετε λήψη του αρχικού αρχείου.^BlobDownloadOriginalHint^
+
+^Blur^Θολούρα^Blur^
+
+^Bold^Τολμηρός^Bold^
+
+^BooleanFilterText^Λογική Φίλτρα^BooleanFilterText^
+
+^BooleanIsExpected^Μια λογική τιμή είναι το αναμενόμενο.^BooleanIsExpected^
+
+^ButtonShapes^Σχήμα κουμπιά^ButtonShapes^
+
+^By^με^By^
+
+^Calendar^Ημερολόγιο^Calendar^
+
+^Cancel^Ακύρωση^Cancel^
+
+^Cards^Κάρτες^Cards^
+
+^Cay^Χαμηλό αμμώδες ή κοραλιογενές νησί^Cay^
+
+^ChangeYourLanguage^Αλλάξτε τη γλώσσα σας^ChangeYourLanguage^
+
+^Charts^Γραφήματα^Charts^
+
+^Citrus^Εσπεριδοειδές^Citrus^
+
+^Classic^Classic^Classic^
+
+^ClearFilter^Απαλοιφή φίλτρου από {0}^ClearFilter^
+
+^ClearFilter2^Απαλοιφή φίλτρου^ClearFilter2^
+
+^ClearText^Αίθριος Κείμενο^ClearText^
+
+^ClearToolTip^Clear {0}^ClearToolTip^
+
+^Close^Κοντά^Close^
+
+^Comfortable^Άνετος^Comfortable^
+
+^Compact^Συμπαγής^Compact^
+
+^Condensed^Συνοπτικές^Condensed^
+
+^ConfirmContinue^Να συνεχίσει?^ConfirmContinue^
+
+^ConfirmReload^Ανανέωση;^ConfirmReload^
+
+^ConnectionLost^Η σύνδεση δικτύου έχει χαθεί. Δοκιμάστε ξανά;^ConnectionLost^
+
+^Construct^Κατασκευάστε^Construct^
+
+^Contains^Περιέχει^Contains^
+
+^Convention^Σύμβαση^Convention^
+
+^Copy^Αντιγραφή^Copy^
+
+^CountAggregate^Count: {0}^CountAggregate^
+
+^CountAggregateToolTip^Μέτρηση της {0}^CountAggregateToolTip^
+
+^CountOf^Καταμέτρηση των^CountOf^
+
+^CreateLink^Δημιουργία σύνδεσης^CreateLink^
+
+^CustomFilterOption^Φίλτρο ...^CustomFilterOption^
+
+^Cut^Κόβω^Cut^
+
+^DarkKnight^Dark Knight^DarkKnight^
+
+^DarkTheme^Σκοτάδι^DarkTheme^
+
+^DataSheetActionDescription^Εμφάνιση στοιχείων με τη χρήση sheet<br/>format δεδομένων.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Δείτε το Δελτίο Δεδομένων^DataSheetActionHeaderText^
+
+^DataWarning^Ο μέγιστος αριθμός των ειδών με τη διαδικασία είναι {0: d}. Κάντε κλικ εδώ για να φιλτράρετε τα αποτελέσματα.^DataWarning^
+
+^Date^Ημερομηνία^Date^
+
+^DateFilterText^Φίλτρα Ημερομηνία^DateFilterText^
+
+^DateIsExpected^Μια ημερομηνία που αναμένεται.^DateIsExpected^
+
+^DatesAMinAgo^πριν από ένα λεπτό^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^σε ένα λεπτό^DatesInAMin^
+
+^DatesInHour^σε μια ώρα^DatesInHour^
+
+^DatesInMin^σε {0} λεπτά^DatesInMin^
+
+^DatesLast^Τελευταίο^DatesLast^
+
+^DatesMinAgo^{0} Λεπτά πριν^DatesMinAgo^
+
+^DatesNext^Επόμενος^DatesNext^
+
+^DatesNow^τώρα^DatesNow^
+
+^DatesOneHour^πριν από μία ώρα^DatesOneHour^
+
+^DateSortAscending^Η πιο παλιά στην κορυφή^DateSortAscending^
+
+^DateSortDescending^Latest on Top^DateSortDescending^
+
+^DatesSmart^Smart Ημερομηνίες^DatesSmart^
+
+^DatesToday^σήμερα^DatesToday^
+
+^DatesTomorrow^αύριο^DatesTomorrow^
+
+^DatesYesterday^εχθές^DatesYesterday^
+
+^Day^Ημέρα^Day^
+
+^DefaultCancelActionHeaderText^Κοντά^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Συμπληρώστε την παρακάτω φόρμα και κάντε κλικ στο κουμπί OK για να δημιουργήσετε μια νέα εγγραφή {0}. Κάντε κλικ στο κουμπί Άκυρο για να επιστρέψετε στην προηγούμενη οθόνη.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^Αυτά είναι τα πεδία της εγγραφής {0} που μπορεί να επεξεργαστεί.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Παρακαλούμε διαβάστε {0} παρακάτω πληροφορίες. Κάντε κλικ στο κουμπί Επεξεργασία για να αλλάξετε αυτό το αρχείο, κάντε κλικ στο Διαγραφή για να διαγράψετε την εγγραφή, ή κάντε κλικ στο Άκυρο / Κλείσιμο για να επιστρέψετε πίσω.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Αυτή είναι μια λίστα των {0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Συμπληρώστε τη φόρμα. Σιγουρευτείτε για να εισάγετε όλα τα απαιτούμενα πεδία.^DefaultNewDescription^
+
+^DefaultOption^κανονικός^DefaultOption^
+
+^DefaultReferenceDescription^Πρόσθετες λεπτομέρειες σχετικά με {0} παρέχονται στο τμήμα πληροφοριών αναφοράς.^DefaultReferenceDescription^
+
+^Delete^Διαγραφή^Delete^
+
+^DeleteActionConfirmation^Διαγραφή;^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Διαγραφή^DeleteActionHeaderText^
+
+^Deleted^{$ selected} διαγράφηκε^Deleted^
+
+^DeleteOriginalSel^διαγράψτε την αρχική επιλογή^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Διαγραφή)^DeleteSearchBarField^
+
+^DetailsToolTip^Δείτε λεπτομέρειες για {0}^DetailsToolTip^
+
+^DevelopExplorer^Εξερεύνηση έργου^DevelopExplorer^
+
+^DevelopFormLayout^Διάταξη φόρμας^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^Επιλέξτε μεγέθη οθόνης που θα συμπεριληφθούν στη διάταξη.^DevelopFormLayoutInstr^
+
+^DevelopTools^Εργαλεία προγραμματιστή^DevelopTools^
+
+^Device^Συσκευή^Device^
+
+^DeviceLoginPrompt^Συνδεθείτε για να επιτρέψετε την πρόσβαση σε αυτήν τη συσκευή.^DeviceLoginPrompt^
+
+^DidNotMatch^Δεν ταιριάζει^DidNotMatch^
+
+^Directions^Οδηγίες^Directions^
+
+^DiscardChanges^Απορρίψετε τις αλλαγές?^DiscardChanges^
+
+^DisplayDensity^Εμφάνιση Πυκνότητα^DisplayDensity^
+
+^DisplayedAbove^Εμφανίσεις Πάνω^DisplayedAbove^
+
+^DisplayedBelow^Παρακάτω εμφανίζονται^DisplayedBelow^
+
+^Dock^συνδέω^Dock^
+
+^DoesNotBeginWith^Δεν ξεκινά με^DoesNotBeginWith^
+
+^DoesNotContain^Δεν περιέχει^DoesNotContain^
+
+^DoesNotEndWith^Δεν τελειώνει με^DoesNotEndWith^
+
+^DoesNotEqual^Δεν είναι ίσο με^DoesNotEqual^
+
+^DoesNotInclude^Δεν περιλαμβάνουν^DoesNotInclude^
+
+^DoNotMatchAll^Δεν ταιριάζουν με όλους τους όρους^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Δεν ταιριάζει με όλες τις προϋποθέσεις^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Δεν ταιριάζουν με οποιουσδήποτε όρους^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Δεν ταιριάζει με οποιουσδήποτε όρους^DoNotMatchAnyPastTense^
+
+^Download^Κατεβάστε^Download^
+
+^Draw^Σχεδιάζω^Draw^
+
+^DuplicateActionHeaderText^Αντίγραφο^DuplicateActionHeaderText^
+
+^DuplicateItem^Διπλότυπο στοιχείο^DuplicateItem^
+
+^DuplicateRow^Διπλή σειρά^DuplicateRow^
+
+^EditActionHeaderText^Επεξεργασία^EditActionHeaderText^
+
+^EditItem^Επεξεργασία στοιχείου^EditItem^
+
+^EditModeCancelActionHeaderText^Ακύρωση^EditModeCancelActionHeaderText^
+
+^EditRow^Επεξεργασία γραμμής^EditRow^
+
+^Empty^Κενό^Empty^
+
+^EmptyContext^Οι δράσεις δεν είναι διαθέσιμα.^EmptyContext^
+
+^EmptyValue^(Κενό)^EmptyValue^
+
+^Enable^επιτρέπω^Enable^
+
+^EndsWith^Τελειώνει με^EndsWith^
+
+^Equals^Ισούται^Equals^
+
+^Eraser^Γόμα^Eraser^
+
+^Error^Λάθος^Error^
+
+^Exit^Εξοδος^Exit^
+
+^ExitFullscreen^έξοδος από πλήρη οθόνη^ExitFullscreen^
+
+^ExportCsvActionDescription^Λήψη στοιχείων σε μορφή CSV.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Λήψη^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Αναλύστε τα στοιχεία με spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Εξαγωγή σε υπολογιστικό φύλλο^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Στοιχεία Syndicate με έναν αναγνώστη RSS.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^Δείτε τα RSS Feed^ExportRssActionHeaderText^
+
+^Favorites^Αγαπημένα^Favorites^
+
+^Felt^Τσόχα^Felt^
+
+^FileCleared^Η τιμή θα διαγραφεί κατά την αποθήκευση^FileCleared^
+
+^FilesBytes^bytes^FilesBytes^
+
+^FilesClear^Σαφής^FilesClear^
+
+^FilesClearConfirm^Σαφή;^FilesClearConfirm^
+
+^FilesClick^Κάντε κλικ για να επιλέξετε ένα αρχείο^FilesClick^
+
+^FilesClickMany^Κάντε κλικ για να επιλέξετε τα αρχεία^FilesClickMany^
+
+^FilesDrop^Drop ένα αρχείο εδώ^FilesDrop^
+
+^FilesDropMany^Drop τα αρχεία εδώ^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Πατήστε για να επιλέξετε ένα αρχείο^FilesTap^
+
+^FilesTapMany^Πατήστε για να επιλέξετε τα αρχεία^FilesTapMany^
+
+^Filter^φιλτράρω^Filter^
+
+^FilterApplied^Ένα φίλτρο έχει εφαρμοστεί.^FilterApplied^
+
+^FilterByField^Επιλέξτε ένα πεδίο για να εφαρμόσετε ένα φίλτρο για να <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Επιλέξτε μία ή περισσότερες επιλογές στην παρακάτω λίστα και πατήστε <b>{2}</b> να φιλτράρουν <b>{0}</b> από το πεδίο <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Διαγράφηκαν όλα τα φίλτρα.^FilterCleared^
+
+^FilterLabelAnd^και^FilterLabelAnd^
+
+^FilterLabelClear^Σαφής^FilterLabelClear^
+
+^FilterLabelEquals^ισούται^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Αλλαγή^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^περιλαμβάνει^FilterLabelIncludes^
+
+^FilterLabelOr^ή^FilterLabelOr^
+
+^FilterLabelSelectAll^(Επιλογή όλων)^FilterLabelSelectAll^
+
+^FilterSiteMap^Φίλτρο χάρτη της περιοχής...^FilterSiteMap^
+
+^Finish^Φινίρισμα^Finish^
+
+^FitToWidth^Fit με το πλάτος^FitToWidth^
+
+^FlatTreeToggle^Αλλαγή σε Ιεραρχία^FlatTreeToggle^
+
+^FontName^Όνομα γραμματοσειράς^FontName^
+
+^FontSize^Μέγεθος γραμματοσειράς^FontSize^
+
+^ForeColor^Χρώμα Fore^ForeColor^
+
+^Forget^Ξεχνάμε^Forget^
+
+^ForgotYourPassword^Ξεχάσατε τον κωδικό σας;^ForgotYourPassword^
+
+^Format^Μορφή^Format^
+
+^Freeze^Πάγωμα^Freeze^
+
+^From^από^From^
+
+^Fullscreen^ΠΛΗΡΗΣ ΟΘΟΝΗ^Fullscreen^
+
+^Future^Μέλλον^Future^
+
+^GeneralTabText^Γενικός^GeneralTabText^
+
+^Generate^Παράγω^Generate^
+
+^GenericNewToolTip^Δημιουργία νέου^GenericNewToolTip^
+
+^GenericSortAscending^Ο μικρότερος στην κορυφή^GenericSortAscending^
+
+^GenericSortDescending^Διαθέτει το μεγαλύτερο on Top^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Μεγάλο Σύνολα^GrandTotals^
+
+^Granite^Γρανίτης^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Βαρύτητα^Gravity^
+
+^GreaterThan^Μεγαλύτερο από^GreaterThan^
+
+^GreateThanOrEqual^Μεγαλύτερο ή ίσο^GreateThanOrEqual^
+
+^Grid^Πλέγμα^Grid^
+
+^GridActionDescription^Εμφάνιση στοιχείων της standard<br/>list μορφή.^GridActionDescription^
+
+^GridActionHeaderText^Εμφάνιση σε Κανονική προβολή^GridActionHeaderText^
+
+^Group^Ομάδα^Group^
+
+^GroupByField^Επιλέξτε ένα πεδίο στην ομάδα <b>{0}</b>.^GroupByField^
+
+^Grouped^Ομαδοποιημένο^Grouped^
+
+^GroupedBy^Ομαδοποιημένα κατά^GroupedBy^
+
+^GroupedDefault^Η ομαδοποίηση έχει καταργηθεί^GroupedDefault^
+
+^Heading1^Κατηγορία 1^Heading1^
+
+^Heading2^Κατηγορία 2^Heading2^
+
+^Heading3^Κατηγορία 3^Heading3^
+
+^Heading4^Κατηγορία 4^Heading4^
+
+^Heading5^Κατηγορία 5^Heading5^
+
+^Heading6^Τίτλος 6^Heading6^
+
+^Help^Βοήθεια^Help^
+
+^HelpClose^Κοντά^HelpClose^
+
+^HelpFullScreen^Πλήρης Οθόνη^HelpFullScreen^
+
+^Hide^Κρύβω^Hide^
+
+^HideAdvancedSearch^Απόκρυψη Σύνθετη Αναζήτηση^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Αλλαγή σε Flat List^HierarchyTreeModeToggle^
+
+^Highlighter^Highlighter^Highlighter^
+
+^History^Ιστορία^History^
+
+^HistoryToolTip^Προβολή ιστορικού προηγουμένως επιλεγμένες εγγραφές^HistoryToolTip^
+
+^HistoryUnavailable^Η ιστορία δεν είναι διαθέσιμη.^HistoryUnavailable^
+
+^Home^Σπίτι^Home^
+
+^IdleUser^Είσαι ακόμα εκεί; Παρακαλούμε συνδεθείτε πάλι.^IdleUser^
+
+^ImportActionDescription^Καταχωρήστε μια CSV, XLS, XLSX ή αρχεία εισαγωγή file<br/>to.^ImportActionDescription^
+
+^ImportActionHeaderText^Εισαγωγή Από Αρχείο^ImportActionHeaderText^
+
+^ImportAutoDetect^(Αυτόματη ανίχνευση)^ImportAutoDetect^
+
+^ImportComplete^πλήρης^ImportComplete^
+
+^ImportDone^ολοκληρώθηκε εισαγωγή^ImportDone^
+
+^ImportDownloadTemplate^Κατεβάστε την εισαγωγή πρότυπο αρχείο.^ImportDownloadTemplate^
+
+^ImportDuplicates^Αντίγραφα^ImportDuplicates^
+
+^ImportEmail^Στείλτε το αρχείο καταγραφής των εισαγωγών στις ακόλουθες διευθύνσεις ηλεκτρονικού ταχυδρομείου (προαιρετικά)^ImportEmail^
+
+^ImportEmailNotSpecified^Παραλήπτης του ημερολογίου εισαγωγής δεν έχει καθοριστεί. Συνεχίστε έτσι κι αλλιώς;^ImportEmailNotSpecified^
+
+^ImportExpected^Αναμένεται να ολοκληρωθεί^ImportExpected^
+
+^ImportFileStats^Υπάρχουν <b>{0}</b> εγγραφές του αρχείου <b>{1}</b> έτοιμο προς επεξεργασία. Παρακαλείστε να ταιριάζουν με τα ονόματα τομέα.^ImportFileStats^
+
+^Importing^εισαγωγή^Importing^
+
+^ImportMappingInstruction^Υπάρχουν ρεκόρ <b>{0}</b> (ες) στο <b>{1}</b> αρχείο έτοιμο να processed.<br/>Please χάρτη στους τομείς των εισαγωγών από το αρχείο δεδομένων για τα πεδία εφαρμογής και κάντε κλικ <i>Import</i> να αρχίσει την επεξεργασία.^ImportMappingInstruction^
+
+^ImportNotSupported^μορφή των δεδομένων του &quot;{0}&quot; δεν υποστηρίζεται.^ImportNotSupported^
+
+^ImportProcessing^Εισαγωγή επεξεργασίας αρχείων έχει ξεκινήσει. Τα εισαγόμενα αρχεία δεδομένων θα είναι διαθέσιμη μετά την επιτυχή επεξεργασία. Μπορεί να χρειαστεί να ανανεώσετε τις σχετικές απόψεις / σελίδες για να δείτε τα εισαγόμενα αρχεία.^ImportProcessing^
+
+^ImportRemaining^Αναμένεται να ολοκληρωθεί^ImportRemaining^
+
+^ImportSelectFile^Επιλέξτε ένα αρχείο δεδομένων σε CSV, XLS, ή μορφή XLSX.^ImportSelectFile^
+
+^ImportStartButton^Εισαγωγή^ImportStartButton^
+
+^ImportUploading^Το αρχείο σας είναι να είναι φορτωμένα στον εξυπηρετητή. Παρακαλώ περιμένετε ...^ImportUploading^
+
+^ImportUploadInstruction^Παρακαλώ επιλέξτε το αρχείο για να φορτώσετε. Το αρχείο πρέπει να είναι σε <b>CSV</b>, τη μορφή <b>XLS</b>, ή <b>XLSX</b>.^ImportUploadInstruction^
+
+^In^σε^In^
+
+^Includes^Περιλαμβάνει^Includes^
+
+^Indent^Περίπτωση^Indent^
+
+^InfoBarAnd^και^InfoBarAnd^
+
+^InfoBarEmpty^άδειο^InfoBarEmpty^
+
+^InfoBarEqualTo^είναι ίση με^InfoBarEqualTo^
+
+^InfoBarGreaterThan^είναι μεγαλύτερη από^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^είναι μεγαλύτερο ή ίσο με^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^είναι μικρότερη από^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^είναι μικρότερη ή ίση με^InfoBarLessThanOrEqual^
+
+^InfoBarLike^Είναι σαν να^InfoBarLike^
+
+^InfoBarOr^ή^InfoBarOr^
+
+^InfoBarQuickFind^Οποιοδήποτε πεδίο περιέχει^InfoBarQuickFind^
+
+^InfoBarStartsWith^ξεκινά με^InfoBarStartsWith^
+
+^InitialListMode^Αρχική Λειτουργία Λίστα^InitialListMode^
+
+^InlineEditing^Ενσωματωμένη επεξεργασία^InlineEditing^
+
+^InsertActionHeaderText^OK^InsertActionHeaderText^
+
+^InsertHorizontalRule^Εισαγωγή οριζόντιας Κανόνας^InsertHorizontalRule^
+
+^InsertingRecords^Τοποθέτηση αρχείων^InsertingRecords^
+
+^InsertOrderedList^Εισαγωγή ταξινομημένη λίστα^InsertOrderedList^
+
+^InsertUnorderedList^Εισαγωγή μη ταξινομημένες λίστες^InsertUnorderedList^
+
+^Into^σε^Into^
+
+^InvalidUserNameAndPassword^Όνομα χρήστη και τον κωδικό πρόσβασης σας δεν είναι έγκυρα.^InvalidUserNameAndPassword^
+
+^Italic^Πλάγια^Italic^
+
+^ItemsPerPage^Προϊόντα ανά σελίδα:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} Στοιχεία που επιλέγονται^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Επιλεγμένο στοιχείο^ItemsSelectedOne^
+
+^JustDatesNow^Μόλις τώρα^JustDatesNow^
+
+^JustifyCenter^Στοίχιση Κέντρο^JustifyCenter^
+
+^JustifyFull^Πλήρης Στοίχιση^JustifyFull^
+
+^JustifyLeft^Στοίχιση αριστερά^JustifyLeft^
+
+^JustifyRight^Στοίχιση Δεξιά^JustifyRight^
+
+^KeepOriginalSel^διατηρήστε την αρχική επιλογή^KeepOriginalSel^
+
+^LabelsInList^Ετικετών στη λίστα^LabelsInList^
+
+^Lacquer^Βερνίκι^Lacquer^
+
+^Laminate^Laminate^Laminate^
+
+^Landscape^Τοπίο^Landscape^
+
+^Large^Μεγάλο^Large^
+
+^LastMonth^Τελευταίος μήνας^LastMonth^
+
+^LastQuarter^Τελευταίο Τέταρτο^LastQuarter^
+
+^LastWeek^Τελευταία εβδομάδα^LastWeek^
+
+^LastYear^Πέρυσι^LastYear^
+
+^Less^Μείον^Less^
+
+^LessThan^Μικρότερο από^LessThan^
+
+^LessThanOrEqual^Μικρότερο ή ίσο^LessThanOrEqual^
+
+^Lichen^Λειχήνα^Lichen^
+
+^LightTheme^Φως^LightTheme^
+
+^Line^Γραμμή^Line^
+
+^List^Λίστα^List^
+
+^ListOneColumn^Λίστα (Μία στήλη)^ListOneColumn^
+
+^ListViewStyle^Κατάλογος^ListViewStyle^
+
+^Loading^Φόρτωση ...^Loading^
+
+^Logical^Λογικός^Logical^
+
+^LoginButton^Σύνδεση^LoginButton^
+
+^LoginLink^Σύνδεση^LoginLink^
+
+^Logout^Αποσύνδεση^Logout^
+
+^LookupInstruction^Παρακαλώ επιλέξτε <b>{0}</b> στη λίστα.^LookupInstruction^
+
+^LookupOriginalSelection^Η αρχική επιλογή είναι <b> &quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^Διαχείριση λογαριασμών^ManageAccounts^
+
+^Map^Χάρτης^Map^
+
+^MatchAll^Ταιριάξτε όλες τις συνθήκες^MatchAll^
+
+^MatchAllPastTense^Συμφωνήθηκε όλες τις συνθήκες^MatchAllPastTense^
+
+^MatchAny^Ταιριάξτε οποιεσδήποτε συνθήκες^MatchAny^
+
+^MatchAnyPastTense^Συμφωνήθηκε οποιεσδήποτε συνθήκες^MatchAnyPastTense^
+
+^Matched^Συμφωνήθηκε^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Μέγιστο {0}^MaxAggregateToolTip^
+
+^Maximize^Ανάπτυξη^Maximize^
+
+^MaximumOf^Μέγιστο^MaximumOf^
+
+^Medium^Μέσον^Medium^
+
+^Menu^Μενού^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^Ελάχιστος {0}^MinAggregateToolTip^
+
+^Minimize^Κατάρρευση^Minimize^
+
+^MinimumOf^Ελάχιστο^MinimumOf^
+
+^Mission^Αποστολή^Mission^
+
+^ModeBrowsing^Περιήγηση^ModeBrowsing^
+
+^ModeEditing^αλλάζω^ModeEditing^
+
+^ModeEntering^Εισαγωγή^ModeEntering^
+
+^ModeLookup^Αναζήτηση^ModeLookup^
+
+^Modern^Σύγχρονος^Modern^
+
+^ModernRose^Σύγχρονη Rose^ModernRose^
+
+^ModeViewing^Προβολή^ModeViewing^
+
+^Month^Μήνας^Month^
+
+^More^Περισσότερο^More^
+
+^MultiSelection^πολυ επιλογής^MultiSelection^
+
+^Municipal^Του δήμου^Municipal^
+
+^MyAccount^Ο λογαριασμός μου^MyAccount^
+
+^Never^Ποτέ^Never^
+
+^NewActionHeaderText^Νέος^NewActionHeaderText^
+
+^NewItem^Νέο αντικείμενο^NewItem^
+
+^NewRow^Νέα γραμμή^NewRow^
+
+^NewRowLink^Κάντε κλικ εδώ για να δημιουργήσετε μια νέα εγγραφή.^NewRowLink^
+
+^NewToolTip^Νέα {0}^NewToolTip^
+
+^Next^Επόμενη^Next^
+
+^Next2^Επόμενος^Next2^
+
+^NextMonth^Τον επόμενο μήνα^NextMonth^
+
+^NextQuarter^Επόμενο Τρίμηνο^NextQuarter^
+
+^NextWeek^Επόμενη Εβδομάδα^NextWeek^
+
+^NextYear^Του χρόνου^NextYear^
+
+^No^Όχι^No^
+
+^NoMatches^Δεν αγώνες.^NoMatches^
+
+^None^Κανένας^None^
+
+^Noon^Μεσημέρι^Noon^
+
+^NoRecords^Δεν βρέθηκαν εγγραφές.^NoRecords^
+
+^NoteDeleteConfirm^Διαγραφή;^NoteDeleteConfirm^
+
+^NoteDeleteLabel^διαγράψετε^NoteDeleteLabel^
+
+^NoteEditLabel^edit^NoteEditLabel^
+
+^NotEmpty^Δεν είναι κενή^NotEmpty^
+
+^NotMatched^(Δεν ταιριάζουν)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^Αριθμός^Number^
+
+^NumberFilterText^Φίλτρα αριθμών^NumberFilterText^
+
+^NumberIsExpected^Ένας αριθμός αυτός αναμένεται.^NumberIsExpected^
+
+^OdpCommitting^Μεταφόρτωση συναλλαγών ...^OdpCommitting^
+
+^OdpDone^Εγινε.^OdpDone^
+
+^OdpDownloadingBlob^Λήψη δυαδικών δεδομένων για {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^Λήψη δεδομένων για {0}...^OdpDownloadingData^
+
+^OdpInitializing^Αρχικοποίηση ...^OdpInitializing^
+
+^OdpInvalidResponse^Μη έγκυρη απάντηση από το διακομιστή.^OdpInvalidResponse^
+
+^OdpLastRefresh^Τελευταία ανανέωση: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Τα δεδομένα δεν έχουν ανανεωθεί.^OdpNotRefreshed^
+
+^OdpOfflineState^Εργάζεστε σε κατάσταση εκτός σύνδεσης.^OdpOfflineState^
+
+^OdpOnlineRequired^Απαιτείται σύνδεση στο διαδίκτυο.^OdpOnlineRequired^
+
+^OdpPending^Εκκρεμείς αλλαγές^OdpPending^
+
+^OdpReconRequired^Απαιτείται συμφιλίωση^OdpReconRequired^
+
+^OdpReconTxDelete^Διαγραφή αυτής της αλλαγής από το αρχείο καταγραφής;^OdpReconTxDelete^
+
+^OdpReconTxDeleted^Διαγράφηκε η πρώτη εκκρεμείς συναλλαγή στο αρχείο καταγραφής.^OdpReconTxDeleted^
+
+^OdpRefresh^Ανανέωση δεδομένων^OdpRefresh^
+
+^OdpRefreshData^Ανανέωση δεδομένων^OdpRefreshData^
+
+^OdpRefreshLast^Ανανεώθηκαν τα δεδομένα^OdpRefreshLast^
+
+^OdpSave^Αποθηκεύστε όλες τις αλλαγές.^OdpSave^
+
+^OdpSaveAndSync^Αποθηκεύστε όλες τις αλλαγές και επιλέξτε Συγχρονισμός στο μενού περιβάλλοντος.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Ο διακομιστής εφαρμογών δεν είναι διαθέσιμος.^OdpServerUnavailable^
+
+^OdpStatus^Κατάσταση^OdpStatus^
+
+^OdpSync^Συγχρονίζω^OdpSync^
+
+^OdpSynced^Συγχρονισμένη^OdpSynced^
+
+^OdpSyncLast^Τελευταίος συγχρονισμός^OdpSyncLast^
+
+^OdpSyncLong^Συγχρονισμός για μεταφόρτωση αλλαγών.^OdpSyncLong^
+
+^OdpSyncUploadFailed^Αποτυχία μεταφόρτωσης {0} αρχείων.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Μεταφόρτωση {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Δεν είναι δυνατή η διαγραφή. {1} εξαρτώμενα στοιχεία σε {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Δεν είναι δυνατή η εκτέλεση.^OdpUnableToExec^
+
+^OdpUnableToProcess^Δεν είναι δυνατή η επεξεργασία συναλλαγών.^OdpUnableToProcess^
+
+^OdpUnableToSave^Δεν είναι δυνατή η αποθήκευση αλλαγών.^OdpUnableToSave^
+
+^OdpUploadFailed^Αποτυχία μεταφόρτωσης αρχείων.^OdpUploadFailed^
+
+^OdpUploadingFiles^Μεταφόρτωση {0} αρχείων ...^OdpUploadingFiles^
+
+^OK^OK^OK^
+
+^OnHover^Σε Hover^OnHover^
+
+^OnOrAfter^Την ή μετά την^OnOrAfter^
+
+^OnOrBefore^Στις ή πριν^OnOrBefore^
+
+^OpenActionHeaderText^Ανοιχτό^OpenActionHeaderText^
+
+^Optional^Προαιρετικός^Optional^
+
+^Orientation^Προσανατολισμός^Orientation^
+
+^Other^Άλλος^Other^
+
+^Outdent^Outdent^Outdent^
+
+^Page^Σελίδα^Page^
+
+^Paragraph^Παράγραφος^Paragraph^
+
+^Password^Κωδικού πρόσβασης^Password^
+
+^Past^Το παρελθόν^Past^
+
+^Paste^Πάστα^Paste^
+
+^Pen^Στυλό^Pen^
+
+^PerformAdvancedSearch^Έρευνα^PerformAdvancedSearch^
+
+^Permalink^Permalink^Permalink^
+
+^PermalinkToolTip^Δημιουργήστε μια μόνιμη σύνδεση για επιλεγμένες ρεκόρ^PermalinkToolTip^
+
+^PermalinkUnavailable^Μόνιμη σύνδεση δεν είναι διαθέσιμη. Παρακαλώ επιλέξτε ένα αρχείο.^PermalinkUnavailable^
+
+^Petal^Πέταλο^Petal^
+
+^Pinnate^Πτεροειδής^Pinnate^
+
+^Plastic^Πλαστική ύλη^Plastic^
+
+^Portrait^Πορτρέτο^Portrait^
+
+^PresentationStyle^Επιλέξτε ένα στυλ παρουσίασης δεδομένων.^PresentationStyle^
+
+^Prev2^Προηγούμενο^Prev2^
+
+^Previous^Προηγούμενη^Previous^
+
+^PromoteActions^Προώθηση Δράσεις^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^Τέταρτο^Quarter^
+
+^Quarter1^Τρίμηνο 1^Quarter1^
+
+^Quarter2^Τρίμηνο 2^Quarter2^
+
+^Quarter3^Τρίμηνο 3^Quarter3^
+
+^Quarter4^4ο τρίμηνο^Quarter4^
+
+^QuickFindDescription^Αναζήτηση σε {0}^QuickFindDescription^
+
+^QuickFindScope^Αναζήτηση σε ...^QuickFindScope^
+
+^QuickFindText^Αναζήτηση^QuickFindText^
+
+^QuickFindToolTip^Πληκτρολογήστε για αναζήτηση των αρχείων και πατήστε Enter^QuickFindToolTip^
+
+^Quotation^Προσφορά^Quotation^
+
+^Reading^ΑΝΑΓΝΩΣΗ...^Reading^
+
+^ReadingPane^Πλαίσιο ανάγνωσης^ReadingPane^
+
+^ReadOnly^{0} είναι μόνο για ανάγνωση.^ReadOnly^
+
+^Recent^Πρόσφατος^Recent^
+
+^Redo^Ξανακάνω^Redo^
+
+^Refresh^Ανανέωση^Refresh^
+
+^Refreshed^Ξεκούραστος^Refreshed^
+
+^RememberMe^Να με θυμάσαι την επόμενη φορά^RememberMe^
+
+^RemoveCondition^Κατάργηση Κατάσταση^RemoveCondition^
+
+^RemoveFormat^Αφαίρεση Μορφοποίησης^RemoveFormat^
+
+^ReportActionDescription^Καθιστούν αδύνατη μια έκθεση σε μορφή PDF^ReportActionDescription^
+
+^ReportActionHeaderText^Έκθεση^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Δείτε τα στοιχεία σε ένα υπολογιστικό φύλλο Excel formatted<br/>Microsoft.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Υπολογιστικών φύλλων^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Δείτε τα στοιχεία ως εικόνα πολυσέλιδο αρχείο TIFF.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Πολυσέλιδα εικόνας^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Δείτε τα στοιχεία, όπως το Adobe PDF document.<br/>Requires μια συμβατή συσκευή ανάγνωσης.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^PDF Document^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Δείτε τα στοιχεία σε ένα έγγραφο του Word formatted<br/>Microsoft.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Το Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Απαραίτητα^Required^
+
+^RequiredField^Αυτό το πεδίο είναι υποχρεωτικό.^RequiredField^
+
+^RequiredFiledMarkerFootNote^υποδεικνύει υποχρεωτικό πεδίο^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Επαναφορά^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Επαναφέρετε τις συνθήκες αναζήτησης;^ResetSearchConfirm^
+
+^ResolvingReferences^επίλυση αναφορές^ResolvingReferences^
+
+^ResumeBrowsing^Συνέχιση περιήγησης^ResumeBrowsing^
+
+^ResumeEditing^Συνέχιση Επεξεργασία^ResumeEditing^
+
+^ResumeEntering^Συνέχιση Εισαγωγή^ResumeEntering^
+
+^ResumeLookup^Συνέχιση αναζήτησης^ResumeLookup^
+
+^ResumeViewing^Συνέχιση προβολής^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Ρόλοι^RolesTab^
+
+^RootNodeText^Ανώτατο επίπεδο^RootNodeText^
+
+^Rotate^Περιστροφή^Rotate^
+
+^RowCancelActionHeaderText^Ακύρωση^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Εισαγωγή^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Εκτός^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Ενημέρωση;^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Ενημέρωση επιλογής^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Εκτός^Save^
+
+^SaveAndContinue^Αποθήκευση και συνέχεια^SaveAndContinue^
+
+^SaveAndNew^Αποθήκευση και Νέα^SaveAndNew^
+
+^Saved^Αποθηκεύτηκε - {0}^Saved^
+
+^ScanToConfirm^Σαρώστε ξανά για επιβεβαίωση.^ScanToConfirm^
+
+^SeeAll^Δείτε όλα^SeeAll^
+
+^SeeAlso^Δείτε επίσης^SeeAlso^
+
+^SelectActionHeaderText^Επιλέξτε^SelectActionHeaderText^
+
+^SelectAll^Επιλέξτε All^SelectAll^
+
+^SelectItem^Επιλέξτε αντικείμενο^SelectItem^
+
+^SelectLink^(Επιλέξτε)^SelectLink^
+
+^SelectRow^Επιλέξτε Γραμμή^SelectRow^
+
+^SelectToolTip^Επιλέξτε {0}^SelectToolTip^
+
+^Separator^Διαχωριστής^Separator^
+
+^Settings^Ρυθμίσεις^Settings^
+
+^Show^προβολή^Show^
+
+^ShowAdvancedSearch^Εμφάνιση Σύνθετη Αναζήτηση^ShowAdvancedSearch^
+
+^ShowChart^Εμφάνιση Διάγραμμα^ShowChart^
+
+^ShowData^Εμφάνιση Δεδομένων^ShowData^
+
+^ShowingItems^Εμφάνιση-<b>{0}</b> <b>{1}</b> <b>{2}</b> των στοιχείων^ShowingItems^
+
+^ShowingItemsInfo^Εμφάνιση {0} αντικείμενα.^ShowingItemsInfo^
+
+^ShowingItemsRange^Εμφάνιση {0} {1} των στοιχείων^ShowingItemsRange^
+
+^ShowLess^Δείξε λιγότερο^ShowLess^
+
+^ShowMore^Δείτε περισσότερα^ShowMore^
+
+^ShowOptions^Εμφάνιση επιλογών^ShowOptions^
+
+^ShowSystemButtons^Εμφάνιση κουμπιών Σύστημα^ShowSystemButtons^
+
+^Sidebar^Sidebar^Sidebar^
+
+^Sign^Εγγραφείτε εδώ^Sign^
+
+^SignedOut^Αποσυνδέθηκε^SignedOut^
+
+^SignUpNow^Εγγραφείτε τώρα^SignUpNow^
+
+^Simple^Απλός^Simple^
+
+^SiteActions^Ενέργειες τοποθεσίας^SiteActions^
+
+^SizeLabel^Μέγεθος^SizeLabel^
+
+^Small^Μικρό^Small^
+
+^Social^Κοινωνικός^Social^
+
+^Sort^κανονίζω^Sort^
+
+^SortBy^Ταξινόμηση κατά {0}^SortBy^
+
+^SortByField^Επιλέξτε ένα πεδίο για να αλλάξετε τη σειρά ταξινόμησης των <b>{0}</b>.^SortByField^
+
+^SortByOptions^Επιλέξτε τη σειρά ταξινόμησης των <b>{0}</b> από το πεδίο <b>{1}</b> στον κατάλογο των παρακάτω επιλογές.^SortByOptions^
+
+^Sorted^Ταξινόμησε^Sorted^
+
+^SortedDefault^Προεπιλεγμένη σειρά ταξινόμησης.^SortedDefault^
+
+^StartImport^έναρξη εισαγωγής^StartImport^
+
+^StrikeThrough^Απεργία Μέσω^StrikeThrough^
+
+^StringSortAscending^Αύξουσα^StringSortAscending^
+
+^StringSortDescending^Φθίνουσα^StringSortDescending^
+
+^Submit^υποβάλλουν^Submit^
+
+^Subscript^Υπο Script^Subscript^
+
+^Suggestions^Προτάσεις^Suggestions^
+
+^SumAggregate^Άθροισμα: {0}^SumAggregate^
+
+^SumAggregateToolTip^Άθροισμα {0}^SumAggregateToolTip^
+
+^Summary^Περίληψη^Summary^
+
+^Summer^Καλοκαίρι^Summer^
+
+^SumOf^Άθροισμα^SumOf^
+
+^Superscript^Super Script^Superscript^
+
+^Sync^Συγχρονισμός^Sync^
+
+^TaskResume^συνεχίζω^TaskResume^
+
+^Tasks^Εργασίες^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^αλφάβητο^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^γκι^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^αρχεία δοκιμές^TestingRecords^
+
+^Text^Κείμενο^Text^
+
+^TextFilterText^Φίλτρα κειμένου^TextFilterText^
+
+^Theme^Θέμα^Theme^
+
+^ThisMonth^Αυτό το Μήνα^ThisMonth^
+
+^ThisQuarter^Αυτό το τρίμηνο^ThisQuarter^
+
+^ThisWeek^Αυτή την εβδομάδα^ThisWeek^
+
+^ThisYear^Αυτό το έτος^ThisYear^
+
+^Tiny^Μικροσκοπικός^Tiny^
+
+^Today^Σήμερα^Today^
+
+^Tomorrow^Αύριο^Tomorrow^
+
+^Top^κορυφή^Top^
+
+^ToThisWebsite^σε αυτή την ιστοσελίδα^ToThisWebsite^
+
+^TouchUINotSupported^Touch UI δεν υποστηρίζεται σε αυτό το πρόγραμμα περιήγησης.^TouchUINotSupported^
+
+^TransitionFade^Fade^TransitionFade^
+
+^TransitionFlip^Flip^TransitionFlip^
+
+^TransitionFlow^Ροή^TransitionFlow^
+
+^TransitionNone^Κανένας^TransitionNone^
+
+^TransitionPop^Pop^TransitionPop^
+
+^Transitions^Μεταβάσεις^Transitions^
+
+^TransitionSlide^Τσουλήθρα^TransitionSlide^
+
+^TransitionSlideDown^Σύρετε Down^TransitionSlideDown^
+
+^TransitionSlideUp^Σύρετε Up^TransitionSlideUp^
+
+^TransitionTurn^Στροφή^TransitionTurn^
+
+^TreeActionDescription^Εμφάνιση ιεραρχικές σχέσεις.^TreeActionDescription^
+
+^TreeActionHeaderText^Εμφάνιση Ιεραρχία^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Λήψη κωδικού επαλήθευσης^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Εφαρμογή ελέγχου ταυτότητας^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Εάν δεν μπορείτε να δώσετε τον κωδικό επαλήθευσης, πληκτρολογήστε τον εφεδρικό κωδικό.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^κωδικός εφάπαξ^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Εφεδρικός κώδικας^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Η κλήση πραγματοποιήθηκε σε^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^Το email στάλθηκε στη διεύθυνση^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^Το μήνυμα κειμένου στάλθηκε στη διεύθυνση^TwoFaCodeSentSms^
+
+^TwoFaConsent^Συγκατάθεση^TwoFaConsent^
+
+^TwoFaEnterPassword^Εισάγετε τον κωδικό σας^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Καλέστε με στο^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^θα καλέσω^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^Στείλτε μου email στο^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^Στείλε μου μήνυμα στο^TwoFaGetCodeSms^
+
+^TwoFaMethod^Μέθοδος^TwoFaMethod^
+
+^TwoFaMsgChanged^Ο έλεγχος ταυτότητας 2 παραγόντων άλλαξε.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^Ο έλεγχος ταυτότητας 2 παραγόντων έχει απενεργοποιηθεί.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Απενεργοποίηση ελέγχου ταυτότητας δύο παραγόντων;^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^Ο έλεγχος ταυτότητας 2 παραγόντων έχει ενεργοποιηθεί.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Εισαγάγετε τον {0} ψήφιο κωδικό επαλήθευσης.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Λανθασμένος κωδικός.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Μη έγκυρος κωδικός επαλήθευσης.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^Ο 000000 είναι ο {0} κωδικός επαλήθευσης.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^Δεν μπορώ να σαρώσω τον κωδικό QR.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Χρειάζομαι βοήθεια για την εγκατάσταση της εφαρμογής ελέγχου ταυτότητας.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Έχω μια εφαρμογή ελέγχου ταυτότητας σε μια κινητή συσκευή.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^Οι εφάπαξ εφεδρικοί κωδικοί χρήσης θα σας επιτρέψουν να συνδεθείτε εάν δεν μπορείτε να δώσετε έναν κωδικό επαλήθευσης.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Εφεδρικοί κωδικοί^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Θα εισαγάγω έναν κωδικό επαλήθευσης μετά την επιτυχή σύνδεση.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Εισαγάγετε το κλειδί εγκατάστασης στην εφαρμογή^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Μέθοδοι επαλήθευσης^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Σαρώστε τον κωδικό QR με την κάμερα^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Σάρωση του κωδικού QR στην εφαρμογή^TwoFaSetupScanQrCode^
+
+^TwoFaText^Έλεγχος ταυτότητας 2 παραγόντων^TwoFaText^
+
+^TwoFaTrustThisDevice^Εμπιστευτείτε αυτήν τη συσκευή^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Κωδικός επαλήθευσης^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Θα χρησιμοποιήσω μια εφαρμογή ελέγχου ταυτότητας για να λάβω τον κωδικό επαλήθευσης.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Θα λάβω μια αυτοματοποιημένη κλήση στο τηλέφωνό μου.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Ο κωδικός επαλήθευσης θα παραδοθεί μέσω email.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Ο κωδικός επαλήθευσης θα παραδοθεί μέσω μηνύματος κειμένου.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Πληκτρολογήστε για αναζήτηση^TypeToSearch^
+
+^Underline^Υπογραμμίζω^Underline^
+
+^Undo^Αναίρεση^Undo^
+
+^Undock^Αποσυνδέω^Undock^
+
+^Unfreeze^Ξεπάγωμα^Unfreeze^
+
+^UnGrouped^Η ομαδοποίηση έχει καταργηθεί^UnGrouped^
+
+^UnLink^Unlink^UnLink^
+
+^UnSelect^καταργήστε την επιλογή^UnSelect^
+
+^UpdateActionHeaderText^OK^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Ενημέρωση;^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Ενημέρωση επιλογής^UpdateActionInBatchModeHeaderText^
+
+^Upload^Μεταφόρτωση^Upload^
+
+^UploadDescription^Ανεβάστε πολλά αρχεία.^UploadDescription^
+
+^Uploading^Μεταφόρτωση {0}...^Uploading^
+
+^UpOneLevel^Ένα επίπεδο επάνω^UpOneLevel^
+
+^UseLEV^Επικόλληση &quot;{0}&quot;^UseLEV^
+
+^UserName^Όνομα χρήστη^UserName^
+
+^UsersInRole^Χρήστες σε Ρόλος^UsersInRole^
+
+^UsersTab^Χρήστες^UsersTab^
+
+^Vantage^Πλεονεκτική θέση^Vantage^
+
+^Verdant^Καταπράσινο^Verdant^
+
+^Verify^Επαληθεύω^Verify^
+
+^View^Άποψη^View^
+
+^Viewpoint^Άποψη^Viewpoint^
+
+^Wait^Παρακαλώ περιμένετε...^Wait^
+
+^Week^Εβδομάδα^Week^
+
+^Welcome1^Καλωσόρισμα^Welcome1^
+
+^Welcome2^Σήμερα είναι^Welcome2^
+
+^WhiteSmoke^Λευκό καπνό^WhiteSmoke^
+
+^WithSelectedValues10^Με επιλεγμένες τιμές (Top 10)^WithSelectedValues10^
+
+^WithSelectedValues5^Με επιλεγμένες τιμές (Top 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^Με Καθορισμένα φίλτρα^WithSpecifiedFilters^
+
+^Year^Έτος^Year^
+
+^YearToDate^Την αρχή του έτους^YearToDate^
+
+^Yes^Ναί^Yes^
+
+^Yesterday^Χτες^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Ζουμ^ZoomIn^
+
+^ZoomOut^Σμίκρυνση^ZoomOut^
+

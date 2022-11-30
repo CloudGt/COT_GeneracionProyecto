@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^назад^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Конец^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Подтвердите новый пароль^ConfirmNewPassword^
+
+^ConfirmPassword^Подтвердите Пароль^ConfirmPassword^
+
+^Email^Эл. адрес^Email^
+
+^ForgotYourPassword^Забыли пароль?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Ответьте на следующий вопрос, чтобы получить ваш пароль. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Подтверждение личности^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Заполните эту форму и нажмите кнопку «Отправить», чтобы восстановить забытый пароль. Нажмите «Отмена», чтобы вернуться к предыдущему экрану.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Восстановление пароля: Шаг 2 из 2^IdentityConfirmViewLabel^
+
+^LoginButton^Авторизоваться^LoginButton^
+
+^LoginLink^Авторизоваться^LoginLink^
+
+^LoginWithDNN^Войти с DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Войти с Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Вход в Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Войти в Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Вход с SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Вход с Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Пароль (не отображается для вашей защиты)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Введите текущий пароль для создания нового пароля, обновления своего адреса электронной почты или изменения пароля и ответа на вопрос.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Текущий пароль^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Ознакомьтесь с информацией о вашем членстве ниже. Нажмите «Обновить мою учетную запись», чтобы изменить эту запись, или нажмите «Отмена», чтобы вернуться назад.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Мой аккаунт^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Введите новый пароль. Обратите внимание, что пароль должен иметь длину не менее 7 символов и содержать один символ без буквенно-цифровых символов.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Новый пароль (необязательно)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Во время восстановления забытого пароля вам будет предложено ввести ваше имя пользователя. Если учетная запись пользователя существует, необходимо ответить на вопрос о пароле. Правильный ответ приведет к отправке электронной почты с временным паролем.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Электронная почта &amp; Восстановление пароля (необязательно)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^новый пароль^NewPassword^
+
+^OldPassword^Старый пароль^OldPassword^
+
+^Password^пароль^Password^
+
+^PasswordAnswer^Ответ пароля^PasswordAnswer^
+
+^PasswordQuestion^Пароль вопрос^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Пожалуйста введите имя пользователя. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Забыли пароль?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Заполните эту форму и нажмите кнопку «Продолжить», чтобы восстановить забытый пароль. Нажмите «Отмена», чтобы вернуться к предыдущему экрану.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Восстановление пароля: Шаг 1 из 2^PasswordRequestViewLabel^
+
+^RememberMe^Запомнить меня в следующий раз^RememberMe^
+
+^RequestPasswordActionHeaderText^следующий^RequestPasswordActionHeaderText^
+
+^SignUp^Зарегистрироваться^SignUp^
+
+^SignUpNow^Зарегистрироваться сейчас^SignUpNow^
+
+^SignUpViewHeaderText^Пожалуйста, заполните эту форму и нажмите кнопку «ОК», чтобы зарегистрироваться для учетной записи. Нажмите «Отмена», чтобы вернуться к предыдущему экрану.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Регистрация учетной записи^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Введите имя пользователя и пароль. Обратите внимание, что пароль должен иметь длину не менее 7 символов и содержать один символ без буквенно-цифровых символов. Только одобренные пользователи смогут войти на сайт.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Новая информация о пользователе^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Эти поля необходимы, чтобы помочь вам восстановить забытый пароль. Во время процесса восстановления вам будет предложено ввести имя пользователя. Если учетная запись пользователя существует, запрашивается вопрос безопасности. Правильный ответ вызовет электронное письмо с временной отправкой пароля на зарегистрированное электронное письмо.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Восстановление пароля^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Обновить мою учетную запись^UpdateMyAccountActionHeaderText^
+
+^UserName^Имя пользователя^UserName^
+

@@ -1,0 +1,11 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Membership.aspx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^MembershipAbout^Trang này cho phép quản lý các vai trò và người sử dụng.^MembershipAbout^
+
+^MembershipTitle^Thành viên quản lý^MembershipTitle^
+

@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Administracinę sąskaitą^AdminDesc^
+
+^SignInHeader^Instrukcijos^SignInHeader^
+
+^SignInInstruction^Prisijunkite prieigą prie saugomų svetainės turinio.^SignInInstruction^
+
+^SignInPara1^Dviejų standartinių vartotojo sąskaitos yra automatiškai sukuriamas, kai yra rengiami, jei narystės galimybė buvo pasirinkta ši paraiška.^SignInPara1^
+
+^SignInPara2^Administracinę sąskaitą <b>admin</b> yra leidžiama prieiti prie visų interneto svetainėje ir narystės valdytojas. Standartas <b>user</b> sąskaita leidžiama naudotis visose svetainės srityse, išskyrus narystę vadybininkas.^SignInPara2^
+
+^SignInPara3^Perkelkite pelės žymiklį virš nuorodos <i>Login šioje interneto site</i> puslapio viršuje dešinėje pusėje, ir pasirašyti su viena iš toliau išvardytų sąskaitų.^SignInPara3^
+
+^UserDesc^Standartinį vartotojo abonementą^UserDesc^
+

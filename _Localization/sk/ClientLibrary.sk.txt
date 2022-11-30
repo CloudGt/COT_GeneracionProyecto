@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^O^About^
+
+^Accent^prízvuk^Accent^
+
+^ActionBarActionsHeaderText^Akcia^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Zrušiť^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Zrušiť všetky zmeny záznamu.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Zrušiť Nový rekord.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Uložiť nový záznam do databázy.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Uložiť^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Vytvoriť nový rekord {0}.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^Nové {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Nový^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Záznam^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Správa^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Uložiť zmeny do databázy.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Uložiť^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Pridať účet^AddAccount^
+
+^AddCondition^Pridať podmienku^AddCondition^
+
+^AddConditionText^Pridať vyhľadávania stavu^AddConditionText^
+
+^AddItem^Pridať položku^AddItem^
+
+^AddMatchingGroup^Pridajte zodpovedajúce skupinu^AddMatchingGroup^
+
+^AddSearchBarField^Ďalšie vyhľadávacie pole^AddSearchBarField^
+
+^AddSystemIdentity^Pridať System Identity^AddSystemIdentity^
+
+^AddToFavorites^Pridať k obľúbeným^AddToFavorites^
+
+^AdvancedSearch^Advanced Search^AdvancedSearch^
+
+^AdvancedSearchInstruction^Zadajte podmienky, ktoré musia byť uzavreté a stlačte tlačidlo pre vyhľadávanie.^AdvancedSearchInstruction^
+
+^After^Po^After^
+
+^Agenda^Program rokovania^Agenda^
+
+^AlignedLeft^Vyrovnané Ľavé^AlignedLeft^
+
+^AlignedRight^Vyrovnané Pravá^AlignedRight^
+
+^AllDatesInPreriod^Všetky dáta v období^AllDatesInPreriod^
+
+^AlternativeView^Vyberte alternatívny pohľad na dáta.^AlternativeView^
+
+^Always^Vždy^Always^
+
+^AnyValue^(akýkoľvek)^AnyValue^
+
+^Apply^Použiť^Apply^
+
+^Apps^aplikácie^Apps^
+
+^Aquarium^Akvárium^Aquarium^
+
+^Auto^Auto^Auto^
+
+^AutoOpenNextItem^Automaticky otvoriť ďalšiu položku^AutoOpenNextItem^
+
+^AverageOf^Priemer^AverageOf^
+
+^AvgAggregate^AVG: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Priemer {0}^AvgAggregateToolTip^
+
+^Azure^Blankyt^Azure^
+
+^Back^Návrat^Back^
+
+^BackColor^Back Color^BackColor^
+
+^BatchEditActionHeaderText^Hromadná úprava^BatchEditActionHeaderText^
+
+^BatchEdited^{0} aktualizované^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Hromadná úprava (formulár)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^aktualizovať^BatchUpdate^
+
+^Before^Pred^Before^
+
+^BeginsWith^Začína^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^Bobule^Berry^
+
+^Between^Medzi^Between^
+
+^Bittersweet^Bittersweet^Bittersweet^
+
+^Blank^Prázdny^Blank^
+
+^BlankPassword^Heslo nemôže byť prázdne.^BlankPassword^
+
+^BlankUserName^Užívateľské meno nemôže byť prázdne.^BlankUserName^
+
+^BlankValue^(Prázdna)^BlankValue^
+
+^BlobDownloadHint^Kliknite tu pre stiahnutie pôvodného súboru.^BlobDownloadHint^
+
+^BlobDownloadLink^k stiahnutiu^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Klepnutím na obrázok prevezmite pôvodný súbor.^BlobDownloadOriginalHint^
+
+^Blur^Rozmazať^Blur^
+
+^Bold^Tučný^Bold^
+
+^BooleanFilterText^Logické filtre^BooleanFilterText^
+
+^BooleanIsExpected^Logická hodnota sa očakáva.^BooleanIsExpected^
+
+^ButtonShapes^Tvary tlačidiel^ButtonShapes^
+
+^By^podľa^By^
+
+^Calendar^Kalendár^Calendar^
+
+^Cancel^Zrušiť^Cancel^
+
+^Cards^Karty^Cards^
+
+^Cay^Cay^Cay^
+
+^ChangeYourLanguage^Zmeňte svoj jazyk^ChangeYourLanguage^
+
+^Charts^Grafy^Charts^
+
+^Citrus^Citrus^Citrus^
+
+^Classic^Klasický^Classic^
+
+^ClearFilter^Vymazať filter z {0}^ClearFilter^
+
+^ClearFilter2^Clear Filter^ClearFilter2^
+
+^ClearText^Vyprázdnite textu^ClearText^
+
+^ClearToolTip^Vymazať {0}^ClearToolTip^
+
+^Close^Zavrieť^Close^
+
+^Comfortable^Pohodlný^Comfortable^
+
+^Compact^Kompaktné^Compact^
+
+^Condensed^Kondenzované^Condensed^
+
+^ConfirmContinue^Ďalej?^ConfirmContinue^
+
+^ConfirmReload^Osviežiť?^ConfirmReload^
+
+^ConnectionLost^Pripojenie k sieti bolo stratené. Skúste to znova?^ConnectionLost^
+
+^Construct^Postaviť^Construct^
+
+^Contains^Obsahuje^Contains^
+
+^Convention^Konvencie^Convention^
+
+^Copy^Kopírovať^Copy^
+
+^CountAggregate^Gróf: {0}^CountAggregate^
+
+^CountAggregateToolTip^Počet {0}^CountAggregateToolTip^
+
+^CountOf^Počet^CountOf^
+
+^CreateLink^Vytvoriť odkaz^CreateLink^
+
+^CustomFilterOption^Filter ...^CustomFilterOption^
+
+^Cut^Znížiť^Cut^
+
+^DarkKnight^Temný rytier^DarkKnight^
+
+^DarkTheme^Tmavý^DarkTheme^
+
+^DataSheetActionDescription^Zobrazenie položiek pomocou dátového sheet<br/>format.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Zobraziť v liste^DataSheetActionHeaderText^
+
+^DataWarning^Maximálny počet položiek na procese je {0: d}. Kliknite tu filtrovať výsledok.^DataWarning^
+
+^Date^Dátum^Date^
+
+^DateFilterText^Dátum filtre^DateFilterText^
+
+^DateIsExpected^Dátum sa očakáva.^DateIsExpected^
+
+^DatesAMinAgo^pred minútou^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}^DatesCommaMinute^
+
+^DatesInAMin^o minútu^DatesInAMin^
+
+^DatesInHour^za hodinu^DatesInHour^
+
+^DatesInMin^V {0} min^DatesInMin^
+
+^DatesLast^posledný^DatesLast^
+
+^DatesMinAgo^Pred {0} min^DatesMinAgo^
+
+^DatesNext^Ďalšie^DatesNext^
+
+^DatesNow^teraz^DatesNow^
+
+^DatesOneHour^pred hodinou^DatesOneHour^
+
+^DateSortAscending^Najskôr na začiatok^DateSortAscending^
+
+^DateSortDescending^Najnovšie hore^DateSortDescending^
+
+^DatesSmart^inteligentný Termíny^DatesSmart^
+
+^DatesToday^dnes^DatesToday^
+
+^DatesTomorrow^zajtra^DatesTomorrow^
+
+^DatesYesterday^včera^DatesYesterday^
+
+^Day^Day^Day^
+
+^DefaultCancelActionHeaderText^Zavrieť^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Vyplňte prosím tento formulár a kliknite na tlačidlo OK vytvoríte nový rekord {0}. Kliknite na tlačidlo Zrušiť sa vrátite na predchádzajúcu obrazovku.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^To sú oblasti {0} záznam, ktorý je možné upravovať.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Prečítajte si prosím nižšie uvedené informácie {0}. Kliknite na tlačidlo Upraviť pre zmenu tento záznam, kliknite na tlačidlo Odstrániť pre vymazanie záznamu, alebo kliknite na tlačidlo Zrušiť / Zavrieť a vrátiť sa späť.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Toto je zoznam {0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Vyplňte formulár. Uistite sa, že zadanie všetky požadované polia.^DefaultNewDescription^
+
+^DefaultOption^Štandardné^DefaultOption^
+
+^DefaultReferenceDescription^Ďalšie podrobnosti o {0} sú uvedené v sekcii referenčné informácie.^DefaultReferenceDescription^
+
+^Delete^Vymazať^Delete^
+
+^DeleteActionConfirmation^Zmazať?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Vymazať^DeleteActionHeaderText^
+
+^Deleted^{$ selected} bolo odstránené^Deleted^
+
+^DeleteOriginalSel^odstrániť pôvodný výber^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Zmazať)^DeleteSearchBarField^
+
+^DetailsToolTip^Zobraziť podrobnosti o {0}^DetailsToolTip^
+
+^DevelopExplorer^Prieskumník projektu^DevelopExplorer^
+
+^DevelopFormLayout^Rozloženie formulára^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^Vyberte rozmery obrazovky, ktoré sa majú zahrnúť do rozloženia.^DevelopFormLayoutInstr^
+
+^DevelopTools^Nástroje pre vývojárov^DevelopTools^
+
+^Device^Zariadenie^Device^
+
+^DeviceLoginPrompt^Ak chcete povoliť prístup na toto zariadenie, prihláste sa.^DeviceLoginPrompt^
+
+^DidNotMatch^Nezodpovedali^DidNotMatch^
+
+^Directions^Inštrukcie^Directions^
+
+^DiscardChanges^Zrušiť zmeny?^DiscardChanges^
+
+^DisplayDensity^Zobraziť Hustota^DisplayDensity^
+
+^DisplayedAbove^Zobrazené Nad^DisplayedAbove^
+
+^DisplayedBelow^Zobrazené Pod^DisplayedBelow^
+
+^Dock^Doku^Dock^
+
+^DoesNotBeginWith^Nezačína^DoesNotBeginWith^
+
+^DoesNotContain^Neobsahuje^DoesNotContain^
+
+^DoesNotEndWith^Nekončí^DoesNotEndWith^
+
+^DoesNotEqual^Nerovná^DoesNotEqual^
+
+^DoesNotInclude^Neobsahuje^DoesNotInclude^
+
+^DoNotMatchAll^Nezhodujú všetky podmienky^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Nezodpovedali všetky podmienky^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Nezodpovedajú žiadne podmienky^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Nezodpovedajú žiadne podmienky^DoNotMatchAnyPastTense^
+
+^Download^Stiahnuť ▼^Download^
+
+^Draw^Nakreslite^Draw^
+
+^DuplicateActionHeaderText^Duplikát^DuplicateActionHeaderText^
+
+^DuplicateItem^Duplicitná položka^DuplicateItem^
+
+^DuplicateRow^Duplicitný riadok^DuplicateRow^
+
+^EditActionHeaderText^Upraviť^EditActionHeaderText^
+
+^EditItem^Upraviť položku^EditItem^
+
+^EditModeCancelActionHeaderText^Zrušiť^EditModeCancelActionHeaderText^
+
+^EditRow^Upraviť riadok^EditRow^
+
+^Empty^Prázdny^Empty^
+
+^EmptyContext^Akcie nie sú k dispozícii.^EmptyContext^
+
+^EmptyValue^(Prázdny)^EmptyValue^
+
+^Enable^Povoliť^Enable^
+
+^EndsWith^Končí^EndsWith^
+
+^Equals^Rovná^Equals^
+
+^Eraser^Guma^Eraser^
+
+^Error^Chyba^Error^
+
+^Exit^VÝCHOD^Exit^
+
+^ExitFullscreen^Exit Fullscreen^ExitFullscreen^
+
+^ExportCsvActionDescription^Stiahnuť položiek vo formáte CSV.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Na stiahnutie^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Analyzujte položky spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Exportovať do tabuľky^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Syndicate položky s RSS čítačkou.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^Zobraziť RSS Feed^ExportRssActionHeaderText^
+
+^Favorites^Obľúbené^Favorites^
+
+^Felt^Plsť^Felt^
+
+^FileCleared^Hodnota sa pri uložení vymaže^FileCleared^
+
+^FilesBytes^bajtov^FilesBytes^
+
+^FilesClear^Jasný^FilesClear^
+
+^FilesClearConfirm^Clear?^FilesClearConfirm^
+
+^FilesClick^Kliknutím vyberte súbor^FilesClick^
+
+^FilesClickMany^Kliknutím vyberte súbory^FilesClickMany^
+
+^FilesDrop^Drop súboru tu^FilesDrop^
+
+^FilesDropMany^Drop súborov tu^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Kliknutím vyberte súbor^FilesTap^
+
+^FilesTapMany^Kliknutím vyberte súbory^FilesTapMany^
+
+^Filter^Filter^Filter^
+
+^FilterApplied^Filter bol aplikovaný.^FilterApplied^
+
+^FilterByField^Vyberte polia, ktoré chcete použiť filter <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Vyberte jednu alebo viac možností z nižšie uvedeného zoznamu a stlačte <b>{2}</b> filtrovať <b>{0}</b> poľom <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Vymazali všetky filtre.^FilterCleared^
+
+^FilterLabelAnd^a^FilterLabelAnd^
+
+^FilterLabelClear^Jasný^FilterLabelClear^
+
+^FilterLabelEquals^sa rovná^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Zmena^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^zahŕňa^FilterLabelIncludes^
+
+^FilterLabelOr^alebo^FilterLabelOr^
+
+^FilterLabelSelectAll^(Vybrať všetko)^FilterLabelSelectAll^
+
+^FilterSiteMap^Mapa stránok Filter ...^FilterSiteMap^
+
+^Finish^Skončiť^Finish^
+
+^FitToWidth^prispôsobiť šírke^FitToWidth^
+
+^FlatTreeToggle^Prepnúť na hierarchiu^FlatTreeToggle^
+
+^FontName^Názov písma^FontName^
+
+^FontSize^Veľkosť písma^FontSize^
+
+^ForeColor^Predné Color^ForeColor^
+
+^Forget^zabudnúť^Forget^
+
+^ForgotYourPassword^Zabudli ste heslo?^ForgotYourPassword^
+
+^Format^formát^Format^
+
+^Freeze^Zmraziť^Freeze^
+
+^From^od^From^
+
+^Fullscreen^Celá obrazovka^Fullscreen^
+
+^Future^Budúcnosť^Future^
+
+^GeneralTabText^Všeobecný^GeneralTabText^
+
+^Generate^Generovať^Generate^
+
+^GenericNewToolTip^Vytvoriť nový^GenericNewToolTip^
+
+^GenericSortAscending^Najmenší na začiatok^GenericSortAscending^
+
+^GenericSortDescending^Najväčšie hore^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Celkové súčty^GrandTotals^
+
+^Granite^Žula^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Gravitácia^Gravity^
+
+^GreaterThan^Väčší ako^GreaterThan^
+
+^GreateThanOrEqual^Väčší alebo rovné^GreateThanOrEqual^
+
+^Grid^Mriežka^Grid^
+
+^GridActionDescription^Zobrazenie položiek v standard<br/>list formáte.^GridActionDescription^
+
+^GridActionHeaderText^Zobraziť v štandardnom zobrazení^GridActionHeaderText^
+
+^Group^Group^Group^
+
+^GroupByField^Vyberte pole k skupine <b>{0}</b>.^GroupByField^
+
+^Grouped^zoskupené^Grouped^
+
+^GroupedBy^Zoskupil^GroupedBy^
+
+^GroupedDefault^Zoskupenie bolo odstránené^GroupedDefault^
+
+^Heading1^Okruh 1^Heading1^
+
+^Heading2^Okruh 2^Heading2^
+
+^Heading3^Okruh 3^Heading3^
+
+^Heading4^Okruh 4^Heading4^
+
+^Heading5^Okruh 5^Heading5^
+
+^Heading6^Položka 6^Heading6^
+
+^Help^Pomoc^Help^
+
+^HelpClose^Zavrieť^HelpClose^
+
+^HelpFullScreen^Na celú obrazovku^HelpFullScreen^
+
+^Hide^skryť^Hide^
+
+^HideAdvancedSearch^Jednoduché hľadanie^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Prepnúť na Obyčajný zoznam^HierarchyTreeModeToggle^
+
+^Highlighter^Zvýrazňovač^Highlighter^
+
+^History^História^History^
+
+^HistoryToolTip^Zobraziť históriu skôr vybraných záznamov^HistoryToolTip^
+
+^HistoryUnavailable^História nie je k dispozícii.^HistoryUnavailable^
+
+^Home^Domáce^Home^
+
+^IdleUser^Si tam ešte? Prosím prihláste sa znova.^IdleUser^
+
+^ImportActionDescription^Pridať CSV, XLS, XLSX alebo file<br/>to import záznamov.^ImportActionDescription^
+
+^ImportActionHeaderText^Import zo súboru^ImportActionHeaderText^
+
+^ImportAutoDetect^(Auto Detect)^ImportAutoDetect^
+
+^ImportComplete^kompletné^ImportComplete^
+
+^ImportDone^dokončená import^ImportDone^
+
+^ImportDownloadTemplate^Stiahnuť súbor importu šablóny.^ImportDownloadTemplate^
+
+^ImportDuplicates^duplikáty^ImportDuplicates^
+
+^ImportEmail^Pošlite import log na tieto e-mailových adries (na želanie)^ImportEmail^
+
+^ImportEmailNotSpecified^Príjemca dovážaného log nebola stanovená. Napriek tomu pokračovať?^ImportEmailNotSpecified^
+
+^ImportExpected^Očakáva sa, že dokončenie^ImportExpected^
+
+^ImportFileStats^Existujú <b>{0}</b> záznamy v súbore <b>{1}</b> pripravené na spracovanie. Prosím zodpovedajú názvy polí.^ImportFileStats^
+
+^Importing^import^Importing^
+
+^ImportMappingInstruction^Existujú <b>{0}</b> záznam (y) v súbore <b>{1}</b> pripravený na processed.<br/>Please máp import pole z dátového súboru do oblasti použitia a kliknite na tlačidlo <i>Import</i> na začatie spracovanie.^ImportMappingInstruction^
+
+^ImportNotSupported^Dátový formát &quot;{0}&quot; nie je podporovaný.^ImportNotSupported^
+
+^ImportProcessing^Dovoz spracovanie súborov bola zahájená. Dovezené dátové záznamy budú k dispozícii po úspešnom spracovaní. Možno budete musieť obnoviť príslušné názory / pages vidieť importovaných záznamov.^ImportProcessing^
+
+^ImportRemaining^Očakáva sa, že dokončenie^ImportRemaining^
+
+^ImportSelectFile^Vyberte dátový súbor vo formáte CSV, XLS, XLSX alebo vo formáte.^ImportSelectFile^
+
+^ImportStartButton^Import^ImportStartButton^
+
+^ImportUploading^Váš súbor sa nahráva na server. Čakajte prosím ...^ImportUploading^
+
+^ImportUploadInstruction^Prosím, vyberte súbor, ktorý chcete nahrať. Súbor musí byť vo <b>CSV</b>, <b>XLS</b> alebo <b>XLSX</b> formáte.^ImportUploadInstruction^
+
+^In^v^In^
+
+^Includes^Obsahuje^Includes^
+
+^Indent^Odsadenie^Indent^
+
+^InfoBarAnd^a^InfoBarAnd^
+
+^InfoBarEmpty^prázdny^InfoBarEmpty^
+
+^InfoBarEqualTo^sa rovná^InfoBarEqualTo^
+
+^InfoBarGreaterThan^je väčší ako^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^je väčší alebo rovný^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^je menšia než^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^je menšie alebo rovné^InfoBarLessThanOrEqual^
+
+^InfoBarLike^je ako^InfoBarLike^
+
+^InfoBarOr^alebo^InfoBarOr^
+
+^InfoBarQuickFind^Všetky polia obsahuje^InfoBarQuickFind^
+
+^InfoBarStartsWith^začína^InfoBarStartsWith^
+
+^InitialListMode^Mode prvotný zoznam^InitialListMode^
+
+^InlineEditing^Inline editácia^InlineEditing^
+
+^InsertActionHeaderText^OK^InsertActionHeaderText^
+
+^InsertHorizontalRule^Vložte Vodorovná čiara^InsertHorizontalRule^
+
+^InsertingRecords^vkladanie záznamov^InsertingRecords^
+
+^InsertOrderedList^Vložte zoradený zoznam^InsertOrderedList^
+
+^InsertUnorderedList^Vložiť Netriediť zoznam^InsertUnorderedList^
+
+^Into^do^Into^
+
+^InvalidUserNameAndPassword^Vaše užívateľské meno a heslo sú neplatné.^InvalidUserNameAndPassword^
+
+^Italic^Kurzívní^Italic^
+
+^ItemsPerPage^Položiek na stránke:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} Vybrané položky^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Vybraná položka^ItemsSelectedOne^
+
+^JustDatesNow^Práve teraz^JustDatesNow^
+
+^JustifyCenter^Zarovnať Center^JustifyCenter^
+
+^JustifyFull^Zarovnať Full^JustifyFull^
+
+^JustifyLeft^Zarovnať doľava^JustifyLeft^
+
+^JustifyRight^Zarovnať pravé^JustifyRight^
+
+^KeepOriginalSel^zachovať pôvodný výber^KeepOriginalSel^
+
+^LabelsInList^Štítky v zozname^LabelsInList^
+
+^Lacquer^Lak^Lacquer^
+
+^Laminate^Laminát^Laminate^
+
+^Landscape^Krajina^Landscape^
+
+^Large^Veľký^Large^
+
+^LastMonth^Minulý mesiac^LastMonth^
+
+^LastQuarter^Posledný štvrťrok^LastQuarter^
+
+^LastWeek^Minulý týždeň^LastWeek^
+
+^LastYear^Vlani^LastYear^
+
+^Less^Menej^Less^
+
+^LessThan^Menej ako^LessThan^
+
+^LessThanOrEqual^Menšie alebo rovné^LessThanOrEqual^
+
+^Lichen^Lišajník^Lichen^
+
+^LightTheme^Svetlo^LightTheme^
+
+^Line^riadok^Line^
+
+^List^Zoznam^List^
+
+^ListOneColumn^Zoznam (jeden stĺpec)^ListOneColumn^
+
+^ListViewStyle^Zoznam^ListViewStyle^
+
+^Loading^Nahrávám ...^Loading^
+
+^Logical^Logický^Logical^
+
+^LoginButton^Prihlásenie^LoginButton^
+
+^LoginLink^Prihlásenie^LoginLink^
+
+^Logout^Odhlásiť^Logout^
+
+^LookupInstruction^Vyberte <b>{0}</b> v zozname.^LookupInstruction^
+
+^LookupOriginalSelection^Pôvodný výber je <b>&quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^správa účtov^ManageAccounts^
+
+^Map^Mapa^Map^
+
+^MatchAll^Zodpovedať všetky podmienky^MatchAll^
+
+^MatchAllPastTense^Uzavreté všetky podmienky^MatchAllPastTense^
+
+^MatchAny^Zápas žiadne podmienky^MatchAny^
+
+^MatchAnyPastTense^Uzavreté žiadne podmienky^MatchAnyPastTense^
+
+^Matched^Uzavreté^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Maximálne {0}^MaxAggregateToolTip^
+
+^Maximize^Rozšíriť^Maximize^
+
+^MaximumOf^Maximum^MaximumOf^
+
+^Medium^Stredná^Medium^
+
+^Menu^Menu^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^Minimálna {0}^MinAggregateToolTip^
+
+^Minimize^Kolaps^Minimize^
+
+^MinimumOf^Minimálne^MinimumOf^
+
+^Mission^Misie^Mission^
+
+^ModeBrowsing^Prehľadávanie^ModeBrowsing^
+
+^ModeEditing^Editácia^ModeEditing^
+
+^ModeEntering^Vytváranie^ModeEntering^
+
+^ModeLookup^Vyhľadávanie^ModeLookup^
+
+^Modern^Moderné^Modern^
+
+^ModernRose^Moderné Rose^ModernRose^
+
+^ModeViewing^Zobrazenie^ModeViewing^
+
+^Month^Mesiac^Month^
+
+^More^Viac^More^
+
+^MultiSelection^multi Selection^MultiSelection^
+
+^Municipal^Obecné^Municipal^
+
+^MyAccount^Môj účet^MyAccount^
+
+^Never^Nikdy^Never^
+
+^NewActionHeaderText^Nový^NewActionHeaderText^
+
+^NewItem^Nová vec^NewItem^
+
+^NewRow^Nový riadok^NewRow^
+
+^NewRowLink^Kliknite tu pre vytvorenie nového záznamu.^NewRowLink^
+
+^NewToolTip^Nové {0}^NewToolTip^
+
+^Next^Ďalšie^Next^
+
+^Next2^Budúci^Next2^
+
+^NextMonth^Budúci mesiac^NextMonth^
+
+^NextQuarter^V budúcom štvrťroku^NextQuarter^
+
+^NextWeek^Budúci týždeň^NextWeek^
+
+^NextYear^Budúci rok^NextYear^
+
+^No^Nie^No^
+
+^NoMatches^Žiadna zhoda.^NoMatches^
+
+^None^nikto^None^
+
+^Noon^Noon^Noon^
+
+^NoRecords^Neboli nájdené žiadne záznamy.^NoRecords^
+
+^NoteDeleteConfirm^Zmazať?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^vymazať^NoteDeleteLabel^
+
+^NoteEditLabel^editovať^NoteEditLabel^
+
+^NotEmpty^Nie je prázdny^NotEmpty^
+
+^NotMatched^(Nezodpovedá)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^Číslo^Number^
+
+^NumberFilterText^Filtre čísel^NumberFilterText^
+
+^NumberIsExpected^Číslo sa očakáva.^NumberIsExpected^
+
+^OdpCommitting^Odovzdávajú sa transakcie ...^OdpCommitting^
+
+^OdpDone^Hotový.^OdpDone^
+
+^OdpDownloadingBlob^Sťahovanie binárnych údajov pre {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^Sťahujú sa údaje pre {0}...^OdpDownloadingData^
+
+^OdpInitializing^Inicializácia ...^OdpInitializing^
+
+^OdpInvalidResponse^Neplatná odpoveď zo servera.^OdpInvalidResponse^
+
+^OdpLastRefresh^Posledná aktualizácia: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Údaje neboli obnovené.^OdpNotRefreshed^
+
+^OdpOfflineState^Pracujete v režime offline.^OdpOfflineState^
+
+^OdpOnlineRequired^Vyžaduje sa online pripojenie.^OdpOnlineRequired^
+
+^OdpPending^Čakajúce zmeny^OdpPending^
+
+^OdpReconRequired^Vyžaduje sa zmierenie^OdpReconRequired^
+
+^OdpReconTxDelete^Odstrániť túto zmenu z denníka?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^V protokole bola odstránená prvá čakajúca transakcia.^OdpReconTxDeleted^
+
+^OdpRefresh^Obnoviť údaje^OdpRefresh^
+
+^OdpRefreshData^Obnoviť údaje^OdpRefreshData^
+
+^OdpRefreshLast^Údaje boli obnovené^OdpRefreshLast^
+
+^OdpSave^Uložte všetky zmeny.^OdpSave^
+
+^OdpSaveAndSync^Uložte všetky zmeny a v kontextovej ponuke vyberte možnosť Synchronizovať.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Aplikačný server nie je k dispozícii.^OdpServerUnavailable^
+
+^OdpStatus^Postavenie^OdpStatus^
+
+^OdpSync^synchronizovať^OdpSync^
+
+^OdpSynced^synchronizované^OdpSynced^
+
+^OdpSyncLast^Posledná synchronizácia^OdpSyncLast^
+
+^OdpSyncLong^Synchronizujte a odovzdajte zmeny.^OdpSyncLong^
+
+^OdpSyncUploadFailed^Nepodarilo sa nahrať súbory {0}.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Nahrávanie {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Nie je možné odstrániť. {1} závislé položky v {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Nemožno vykonať.^OdpUnableToExec^
+
+^OdpUnableToProcess^Nemožno spracovať transakcie.^OdpUnableToProcess^
+
+^OdpUnableToSave^Zmeny sa nepodarilo uložiť.^OdpUnableToSave^
+
+^OdpUploadFailed^Nahranie súborov zlyhalo.^OdpUploadFailed^
+
+^OdpUploadingFiles^Nahrávajú sa {0} súbory ...^OdpUploadingFiles^
+
+^OK^OK^OK^
+
+^OnHover^na Hover^OnHover^
+
+^OnOrAfter^Alebo po^OnOrAfter^
+
+^OnOrBefore^On alebo pred^OnOrBefore^
+
+^OpenActionHeaderText^Otvorené^OpenActionHeaderText^
+
+^Optional^voliteľný^Optional^
+
+^Orientation^orientácia^Orientation^
+
+^Other^Ďalší^Other^
+
+^Outdent^Odsadenie^Outdent^
+
+^Page^Strana^Page^
+
+^Paragraph^Odsek^Paragraph^
+
+^Password^Heslo^Password^
+
+^Past^Okolo^Past^
+
+^Paste^Pasta^Paste^
+
+^Pen^Pero^Pen^
+
+^PerformAdvancedSearch^Hľadanie^PerformAdvancedSearch^
+
+^Permalink^Permalink^Permalink^
+
+^PermalinkToolTip^Vytvorte si trvalý odkaz na vybraný záznam^PermalinkToolTip^
+
+^PermalinkUnavailable^Permalink nie je k dispozícii. Prosím, vyberte záznam.^PermalinkUnavailable^
+
+^Petal^Okvetné lístok^Petal^
+
+^Pinnate^Sperené^Pinnate^
+
+^Plastic^Umelá hmota^Plastic^
+
+^Portrait^Portrét^Portrait^
+
+^PresentationStyle^Vyberte štýl prezentácie dát.^PresentationStyle^
+
+^Prev2^Predchádzajúci^Prev2^
+
+^Previous^Predchádzajúci^Previous^
+
+^PromoteActions^Podporovať akcie^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^Štvrťrok^Quarter^
+
+^Quarter1^1. štvrťrok^Quarter1^
+
+^Quarter2^Za 2. štvrťrok^Quarter2^
+
+^Quarter3^Za 3. štvrťrok^Quarter3^
+
+^Quarter4^Štvrťrok 4^Quarter4^
+
+^QuickFindDescription^Hľadať v {0}^QuickFindDescription^
+
+^QuickFindScope^Hľadanie v ...^QuickFindScope^
+
+^QuickFindText^Rýchle vyhľadávanie^QuickFindText^
+
+^QuickFindToolTip^Typ pre vyhľadávanie záznamov a stlačte Enter^QuickFindToolTip^
+
+^Quotation^citát^Quotation^
+
+^Reading^Čítanie...^Reading^
+
+^ReadingPane^Podokno čítania^ReadingPane^
+
+^ReadOnly^{0} je iba na čítanie.^ReadOnly^
+
+^Recent^Nedávny^Recent^
+
+^Redo^Prerobiť^Redo^
+
+^Refresh^Osviežiť^Refresh^
+
+^Refreshed^osvieženie^Refreshed^
+
+^RememberMe^Pamätaj si ma nabudúce^RememberMe^
+
+^RemoveCondition^Odstrániť stav^RemoveCondition^
+
+^RemoveFormat^Odstrániť formátovanie^RemoveFormat^
+
+^ReportActionDescription^Render správa vo formáte PDF^ReportActionDescription^
+
+^ReportActionHeaderText^Správa^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Zobrazenie položiek v tabuľke formatted<br/>Microsoft Excel.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Tabuľkový procesor^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Zobraziť položky ako obraz viacstránkový TIFF.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Viacstránkové obrázku^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Zobraziť položky ako Adobe PDF document.<br/>Requires čítačky kariet.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^PDF dokumentov^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Zobrazenie položiek v dokumente Word formatted<br/>Microsoft.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Požadovaný^Required^
+
+^RequiredField^Toto pole je povinné.^RequiredField^
+
+^RequiredFiledMarkerFootNote^označuje povinné pole^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Reset^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Obnoviť podmienky vyhľadávania?^ResetSearchConfirm^
+
+^ResolvingReferences^riešenie referencie^ResolvingReferences^
+
+^ResumeBrowsing^Pokračovať v prehliadaní^ResumeBrowsing^
+
+^ResumeEditing^Pokračovať v úpravách^ResumeEditing^
+
+^ResumeEntering^Pokračovať Zadanie^ResumeEntering^
+
+^ResumeLookup^Pokračovať Lookup^ResumeLookup^
+
+^ResumeViewing^Pokračovať Prehliadanie^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Úloha^RolesTab^
+
+^RootNodeText^Najvyššia úroveň^RootNodeText^
+
+^Rotate^Striedať^Rotate^
+
+^RowCancelActionHeaderText^Zrušiť^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Vložiť^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Uložiť^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Update?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Aktualizovať výber^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Uložiť^Save^
+
+^SaveAndContinue^Uložiť a pokračovať^SaveAndContinue^
+
+^SaveAndNew^Uložiť a nový^SaveAndNew^
+
+^Saved^Uložené - {0}^Saved^
+
+^ScanToConfirm^Skenujte znova a potvrďte.^ScanToConfirm^
+
+^SeeAll^Zobraziť všetky^SeeAll^
+
+^SeeAlso^Pozri tiež^SeeAlso^
+
+^SelectActionHeaderText^Vybrať^SelectActionHeaderText^
+
+^SelectAll^Vybrať všetko^SelectAll^
+
+^SelectItem^Vybrať položku^SelectItem^
+
+^SelectLink^(Výber)^SelectLink^
+
+^SelectRow^Vyberte riadok^SelectRow^
+
+^SelectToolTip^Vyberte {0}^SelectToolTip^
+
+^Separator^Oddeľovač^Separator^
+
+^Settings^Nastavenie^Settings^
+
+^Show^show^Show^
+
+^ShowAdvancedSearch^Zobraziť pokročilé vyhľadávanie^ShowAdvancedSearch^
+
+^ShowChart^Show Chart^ShowChart^
+
+^ShowData^Show dát^ShowData^
+
+^ShowingItems^Zobrazené <b>{0}</b> <b>{1}</b>-z <b>{2}</b> položiek^ShowingItems^
+
+^ShowingItemsInfo^Zobrazujem {0} položky.^ShowingItemsInfo^
+
+^ShowingItemsRange^Ukazujúci {0} z {1} kusov^ShowingItemsRange^
+
+^ShowLess^Zobraziť menej^ShowLess^
+
+^ShowMore^Zobraziť viac^ShowMore^
+
+^ShowOptions^Zobraziť možnosti^ShowOptions^
+
+^ShowSystemButtons^Show System Tlačidlá^ShowSystemButtons^
+
+^Sidebar^Sidebar^Sidebar^
+
+^Sign^Prihlásiť sa tu^Sign^
+
+^SignedOut^odhlásený^SignedOut^
+
+^SignUpNow^Zaregistrujte sa teraz^SignUpNow^
+
+^Simple^Jednoduchý^Simple^
+
+^SiteActions^Akcie lokality^SiteActions^
+
+^SizeLabel^Veľkosť^SizeLabel^
+
+^Small^Malý^Small^
+
+^Social^Sociálna^Social^
+
+^Sort^Triediť^Sort^
+
+^SortBy^Zoradiť podľa {0}^SortBy^
+
+^SortByField^Vyberte pole, ktoré chcete zmeniť poradie zoradenia. <b>{0}</b>^SortByField^
+
+^SortByOptions^Vyberte poradie zoraďovania <b>{0}</b> poľom <b>{1}</b> v nasledujúcom zozname zariadení.^SortByOptions^
+
+^Sorted^radené^Sorted^
+
+^SortedDefault^Predvolený poradie triedenia.^SortedDefault^
+
+^StartImport^spustiť import^StartImport^
+
+^StrikeThrough^Prečiarknuté^StrikeThrough^
+
+^StringSortAscending^Vzostupne^StringSortAscending^
+
+^StringSortDescending^Klesajúci^StringSortDescending^
+
+^Submit^Predložiť^Submit^
+
+^Subscript^Sub Script^Subscript^
+
+^Suggestions^Návrhy^Suggestions^
+
+^SumAggregate^Súčet: {0}^SumAggregate^
+
+^SumAggregateToolTip^Súčet {0}^SumAggregateToolTip^
+
+^Summary^Prehľad^Summary^
+
+^Summer^Leto^Summer^
+
+^SumOf^Súčet^SumOf^
+
+^Superscript^Super Script^Superscript^
+
+^Sync^Sync^Sync^
+
+^TaskResume^Pokračovať^TaskResume^
+
+^Tasks^Úlohy^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^abc^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^skúšobné záznamy^TestingRecords^
+
+^Text^Text^Text^
+
+^TextFilterText^Text filtre^TextFilterText^
+
+^Theme^Téma^Theme^
+
+^ThisMonth^Tento mesiac^ThisMonth^
+
+^ThisQuarter^Tohto štvrťroka^ThisQuarter^
+
+^ThisWeek^Tento týždeň^ThisWeek^
+
+^ThisYear^Tento rok^ThisYear^
+
+^Tiny^maličký^Tiny^
+
+^Today^Dnes^Today^
+
+^Tomorrow^Zajtra^Tomorrow^
+
+^Top^top^Top^
+
+^ToThisWebsite^na túto stránku^ToThisWebsite^
+
+^TouchUINotSupported^Dotykové užívateľské rozhranie nie je podporovaný v tomto prehliadači.^TouchUINotSupported^
+
+^TransitionFade^Zvädnúť^TransitionFade^
+
+^TransitionFlip^Hodiť si^TransitionFlip^
+
+^TransitionFlow^Flow^TransitionFlow^
+
+^TransitionNone^Žiadny^TransitionNone^
+
+^TransitionPop^Šampanské^TransitionPop^
+
+^Transitions^Prechody^Transitions^
+
+^TransitionSlide^Šmykľavka^TransitionSlide^
+
+^TransitionSlideDown^Posuňte nadol^TransitionSlideDown^
+
+^TransitionSlideUp^Slide Up^TransitionSlideUp^
+
+^TransitionTurn^Zákruta^TransitionTurn^
+
+^TreeActionDescription^Displej hierarchické vzťahy.^TreeActionDescription^
+
+^TreeActionHeaderText^Zobraziť hierarchiu^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Získajte overovací kód^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Aplikácia Authenticator^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Ak nemôžete poskytnúť overovací kód, zadajte namiesto toho záložný kód.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^jednorazový kód^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Záložný kód^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Hovor bol uskutočnený na^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^E -mail bol odoslaný na adresu^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^Textová správa bola odoslaná na adresu^TwoFaCodeSentSms^
+
+^TwoFaConsent^Súhlas^TwoFaConsent^
+
+^TwoFaEnterPassword^Zadajte svoje heslo^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Zavolajte mi na^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^zavolám^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^Pošlite mi e -mail na adresu^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^Napíšte mi na^TwoFaGetCodeSms^
+
+^TwoFaMethod^Metóda^TwoFaMethod^
+
+^TwoFaMsgChanged^2-faktorové overenie bolo zmenené.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^Dvojfaktorové overenie bolo zakázané.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Zakázať dvojfaktorové overenie totožnosti?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^Bola povolená dvojfaktorová autentifikácia.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Zadajte {0}-miestny overovací kód.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Nesprávne heslo.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Neplatný verifikačný kód.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 je váš {0} overovací kód.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^Nemôžem skenovať QR kód.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Potrebujem pomoc s inštaláciou aplikácie autentifikátora.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Na mobilnom zariadení mám aplikáciu autentifikátora.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^Jednorazové záložné kódy vám umožnia prihlásiť sa, ak nemôžete poskytnúť overovací kód.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Záložné kódy^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Po úspešnom prihlásení zadám overovací kód.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Zadajte inštalačný kľúč do aplikácie^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Metódy overovania^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Naskenujte QR kód pomocou fotoaparátu^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Naskenujte QR kód v aplikácii^TwoFaSetupScanQrCode^
+
+^TwoFaText^2-faktorová autentifikácia^TwoFaText^
+
+^TwoFaTrustThisDevice^Dôverujte tomuto zariadeniu^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Overovací kód^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Na získanie overovacieho kódu použijem aplikáciu autentifikátora.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Prijmem automatický hovor na môj telefón.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Overovací kód bude doručený e -mailom.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Overovací kód bude doručený prostredníctvom textovej správy.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Sem na vyhľadávanie^TypeToSearch^
+
+^Underline^Zdôrazniť^Underline^
+
+^Undo^Zrušiť^Undo^
+
+^Undock^Zrušenie ukotvenia^Undock^
+
+^Unfreeze^Uvoľniť^Unfreeze^
+
+^UnGrouped^Zoskupenie bolo odstránené^UnGrouped^
+
+^UnLink^Rozpojiť^UnLink^
+
+^UnSelect^Zrušenie výberu^UnSelect^
+
+^UpdateActionHeaderText^OK^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Update?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Aktualizovať výber^UpdateActionInBatchModeHeaderText^
+
+^Upload^Nahrať^Upload^
+
+^UploadDescription^Odovzdajte viac súborov.^UploadDescription^
+
+^Uploading^Nahrávanie {0}...^Uploading^
+
+^UpOneLevel^O úroveň vyššie^UpOneLevel^
+
+^UseLEV^Vložiť &quot;{0}&quot;^UseLEV^
+
+^UserName^Užívateľské meno^UserName^
+
+^UsersInRole^Užívatelia v úlohe^UsersInRole^
+
+^UsersTab^Užívatelia^UsersTab^
+
+^Vantage^Výhoda^Vantage^
+
+^Verdant^Zelenajúce sa^Verdant^
+
+^Verify^Overiť^Verify^
+
+^View^Pohľad^View^
+
+^Viewpoint^Hľadisko^Viewpoint^
+
+^Wait^Prosím čakajte...^Wait^
+
+^Week^Týždeň^Week^
+
+^Welcome1^Vitajte^Welcome1^
+
+^Welcome2^Dnes je^Welcome2^
+
+^WhiteSmoke^Biely dym^WhiteSmoke^
+
+^WithSelectedValues10^S vybranými hodnotami (Top 10)^WithSelectedValues10^
+
+^WithSelectedValues5^S vybranými hodnotami (Top 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^So špecifikovanými filtrami^WithSpecifiedFilters^
+
+^Year^Rok^Year^
+
+^YearToDate^Od začiatku roka^YearToDate^
+
+^Yes^Áno^Yes^
+
+^Yesterday^Včera^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Priblížiť^ZoomIn^
+
+^ZoomOut^Oddialenie^ZoomOut^
+

@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Magkomentaryo^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Nakalakip <b>{1}</b> sa {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Attachment^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Magpasok ng mga opsyonal na mga tala at maglakip ng mga file.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Mga Tala at Attachment^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Nakasulat sa {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Mga Tala^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Mga Tala^AnnotationTab^
+
+^BlobClearConfirm^Maaliwalas?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Ay nai-clear.^BlobCleared^
+
+^BlobClearText^Malinaw^BlobClearText^
+
+^BlobUploadError^Nabigo ang <b>Error :</b> upang i-upload ang {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^I-click ang^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^dito^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^upang mag-upload o malinaw {0} file.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Ay matagumpay na-upload na. <b>It Maaaring tumagal ng hanggang sa mga minuto ng {1} para sa thumbnail upang ipakita ang upload na content.</b>^BlobUploded^
+
+^Copyright^Nakareserba ang lahat ng karapatan.^Copyright^
+
+^RecordChangedByAnotherUser^Record ay nabago sa pamamagitan ng isa pang gumagamit.^RecordChangedByAnotherUser^
+

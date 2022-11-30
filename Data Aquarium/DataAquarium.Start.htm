@@ -1,0 +1,1274 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Data Aquarium</title>
+    <link href="../_System/CodeOnTime.css" type="text/css" rel="Stylesheet" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript" src="../Data Aquarium/Scripts/_System.js"></script>
+    <script type="text/javascript" language="javascript" src="../_System/MicrosoftAjax.js"></script>
+    <script type="text/javascript" language="javascript" src="../_System/CodeOnTime.Client.js"></script>
+    <script type="text/javascript" language="javascript">
+        var project = null;
+        var codeDomProvider = null;
+
+        function saveProject() {
+            var oldProject = CodeOnTime.Client.loadFromProject('DataAquarium.Project.xml');
+            if (oldProject.xml != project.xml) {
+                CodeOnTime.Client.prepareFileToWrite(project.url);
+                project.save(project.url);
+                window.external.UpdateProjectVariables();
+            }
+        }
+
+        $(document).on('click', '#ProjectLocationPath', function () {
+            window.external.OpenProjectFolder(); return false;
+        });
+
+        $(window).resize(function () {
+            var visibleContent = $('.Heading:visible:first').next();
+            if (visibleContent.length) {
+                var wh = $(window).height();
+                var visibleContentTop = visibleContent.offset().top;
+                var tabViewHeight = wh - visibleContentTop - 60;
+                $('table.TabView tr td.Body div.Views').height(tabViewHeight);
+                var dataModels = $('#dataModelLists');
+                if (dataModels.is(':visible')) {
+                    var dataModelsTop = dataModels.offset().top - visibleContentTop;
+                    $('#dataModelLists > div').height(tabViewHeight - dataModelsTop - 3);
+                }
+            }
+        });
+
+        function pageLoad() {
+            Sys.UI.DomElement.setVisible($get('WebSiteSplash'), !(IsClassLibrary() || IsWebSiteFactory() || IsWebAppFactory() || IsMobileFactory()));
+            Sys.UI.DomElement.setVisible($get('ClassLibrarySplash'), IsClassLibrary());
+            Sys.UI.DomElement.setVisible($get('MobileFactorySplash'), IsMobileFactory());
+            Sys.UI.DomElement.setVisible($get('WebSiteFactorySplash'), IsWebSiteFactory() && !IsMobileFactory());
+            Sys.UI.DomElement.setVisible($get('WebAppFactorySplash'), IsWebAppFactory() && !IsAzureFactory() && !IsDotNetNukeFactory() && !IsSharePointFactory());
+            Sys.UI.DomElement.setVisible($get('AzureFactorySplash'), IsAzureFactory());
+            Sys.UI.DomElement.setVisible($get('DotNetNukeFactorySplash'), IsDotNetNukeFactory());
+            Sys.UI.DomElement.setVisible($get('SharePointFactorySplash'), IsSharePointFactory());
+            project = CodeOnTime.Client.loadFromProject('DataAquarium.Project.xml');
+            var namespace = project.selectSingleNode('p:project/p:namespace').text;
+            $get('Namespace').value = namespace;
+            var displayName = project.selectSingleNode('p:project/@displayName');
+            if (displayName)
+                $('#DisplayName').val(displayName.text);
+            var group = project.selectSingleNode('p:project/@group');
+            if (displayName)
+                $('#ProjectGroup').val(group ? group.text : '');
+            $('#ProjectLocationPath').text(window.external.FullProjectPath);
+            codeDomProvider = CodeOnTime.Client.get_codeDomProvider(CodeOnTime.Client.readProperty(project, 'p:project/@codeDomProvider', ''));
+            window.external.ResetTestBench();
+            $get('CodeDomProvider').innerHTML = codeDomProvider == 'CSharp' ? 'C#' : 'Visual Basic';
+
+
+            // we are using NetFramework45PlusVersionForAzure instead of NetFramework45PlusVersion to ensure that the project is not ahead of Microsoft Azure App Services
+
+            var framework = project.selectSingleNode('p:project/@targetFramework') ? project.selectSingleNode('p:project/@targetFramework').text : '';
+            if (framework.length == '') {
+                framework = project.selectSingleNode('p:project/p:connectionString').text.length == 0 ? window.external.NetFramework45PlusVersionForAzure : '3.5';
+                if (IsAzureFactory())
+                    framework = '4.5';
+            }
+
+            $get('TargetFramework').value = framework;
+
+            if (IsSharePointFactory() && !CodeOnTime.Client.get_variable('MicrosoftNET35'))
+                alert('Installation of Microsoft.NET 3.5 is required to access this project.');
+
+            var dataModelRequired = CodeOnTime.Client.readProperty(project, 'p:project/@dataModel', '') == 'required';
+
+            var userInterface = project.selectSingleNode('p:project/@userInterface') ? project.selectSingleNode('p:project/@userInterface').text : '';
+            if (userInterface.length == '')
+                userInterface = project.selectSingleNode('p:project/p:connectionString').text.length == 0 ? 'TouchUI' : 'Desktop';
+            $get('UserInterface').value = userInterface;
+
+
+            var pageImplementation = project.selectSingleNode('p:project/@pageImplementation') ? project.selectSingleNode('p:project/@pageImplementation').text : '';
+            if (pageImplementation.length == '')
+                pageImplementation = project.selectSingleNode('p:project/p:connectionString').text.length == 0 ? 'html' : 'aspx';
+            $get('PageImplementation').value = pageImplementation;
+
+            var sourceControlNode = project.selectSingleNode('p:project/@sourceControl'),
+                sourceControl = sourceControlNode ? sourceControlNode.text : '';
+            $get('SourceControl').value = sourceControl;
+            CodeOnTime.Client._oldSourceControl = sourceControl;
+            var connectionStringValue = CodeOnTime.Client.readProperty(project, 'p:project/p:connectionString', '');
+            var sessionStateMode = CodeOnTime.Client.readProperty(project, 'p:project/p:connectionString/@sessionStateMode', '');
+            if (sessionStateMode == '') {
+                if (IsAzureFactory() && connectionStringValue != '')
+                    sessionStateMode = 'ASPNET';
+                else
+                    sessionStateMode = 'None';
+            }
+            var lastConnectionError = CodeOnTime.Client.initializeDatabaseConnectionDialog(
+                'Data controller descriptors are automatically built from your database and are easy to maintain with the provided XML schemas.',
+                CodeOnTime.Client.readProperty(project, 'p:project/p:providerName', ''),
+                connectionStringValue,
+                CodeOnTime.Client.readProperty(project, 'p:project/p:databaseObjectFilter', ''),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:databaseObjectFilter/@generate', 'ControllersAndPages'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:connectionString/@hostDatabaseSharing', 'false'),
+                'DataAquarium.Metadata.xml',
+                sessionStateMode,
+                [{ name: 'Back', script: 'Continue("Namespace")' }, { name: 'Next', script: 'Continue("BLL")' }]);
+
+            CodeOnTime.Client.initializeBusinessLogicLayerDialog(
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/@normalizeModelNames', 'true'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/@discoveryDepth', '3'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/p:fieldMap', ''),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/p:keys', ''),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/@labelFormatExpression', ''),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/p:fieldsToIgnore', ''),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/p:fieldsToHide', ''),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/p:customLabels', ''),
+                false,
+                //CodeOnTime.Client.readProperty(project, 'p:project/p:bll/@generate', 'false'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/@selectMethod', 'Select'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/@selectSingleMethod', 'SelectSingle'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/@insertMethod', 'Insert'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/@updateMethod', 'Update'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/@deleteMethod', 'Delete'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/@generateSharedBusinessRules', 'false'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/@includeViews', 'true'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:bll/@tabViewSelection', '0'),
+                [{ name: 'Back', script: 'Continue("Connection")' }, { name: 'Next', script: 'Continue("Reports")' }]);
+
+            CodeOnTime.Client.initializeReportsDialog(CodeOnTime.Client.readProperty(project, 'p:project/p:reports/@enabled', 'false'),
+                [{ name: 'Back', script: 'Continue("BLL")' }, { name: 'Next', script: CodeOnTime.Client.get_isHostedFactory() ? 'Continue("Features")' : 'Continue("Membership")' }]);
+
+            var membershipConnectionString = CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@connectionString', '');
+            $('#MembershipCS_Different_Warning').toggle(membershipConnectionString != '' && membershipConnectionString != connectionStringValue);
+            CodeOnTime.Client.initializeMembershipDialog(
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@enabled', 'false'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@providerName', ''),
+                membershipConnectionString,
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@windowsAuthentication', IsSharePointFactory() ? 'true' : 'false'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@activeDirectory', 'false'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/p:adConfig', ''),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@customSecurity', 'false'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/p:config', ''),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@dedicatedLogin', 'false'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@displayRememberMe', 'true'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@rememberMeSet', 'false'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@displayPasswordRecovery', 'true'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@displaySignUp', 'true'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@displayMyAccount', 'true'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@displayHelp', 'true'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@idleUserDetectionTimeout', -1),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@tabViewSelection', '0'),
+                [{ name: 'Back', script: 'Continue("Reports")' }, { name: 'Next', script: 'Continue("Features")' }]);
+
+            CodeOnTime.Client.initializeFeaturesDialog(
+                {
+                    pageHeader: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@pageHeader', ''),
+                    copyright: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@copyright', ''),
+                    annotations: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@annotations', 'false'),
+                    annotationsPath: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@annotationsPath', ''),
+                    newColumn: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@newColumn', 'true'),
+                    floating: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@floating', 'false'),
+                    desktopDisplayDensity: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:touch/@desktopDisplayDensity', 'Condensed'),
+                    mobileDisplayDensity: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:touch/@mobileDisplayDensity', 'Auto'),
+                    transitions: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:touch/@transitions', ''),
+                    sidebar: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:touch/@sidebar', 'true'),
+                    labelsInList: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:touch/@labelsInList', 'DisplayedBelow'),
+                    initialListMode: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:touch/@initialListMode', 'SeeAll'),
+                    menuLocation: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:touch/@menu', 'toolbar'),
+                    promoteActions: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:touch/@promoteActions', 'true'),
+                    smartDates: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:touch/@smartDates', 'true'),
+                    mapApiIdentifier: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:touch/@mapApiIdentifier', ''),
+                    mapApiIdentifierMobile: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:touch/@mapApiIdentifierMobile', ''),
+                    searchEngine: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:cms/@searchEngine', ''),
+                    analysisEngine: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:cms/@analysisEngine', ''),
+                    analysisOnDataPages: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:cms/@analysisOnDataPages', 'false'),
+                    maxGridFields: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@maxGridFields', dataModelRequired ? '100' : '10'),
+                    multiSelect: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@multiSelect', 'false'),
+                    batchEdit: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@batchEdit', 'false'),
+                    advancedSearch: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@advancedSearch', 'false'),
+                    advancedLookup: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@advancedLookup', 'false'),
+                    relationshipExplorer: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@relationshipExplorer', 'false'),
+                    permalinks: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@enablePermalinks', 'false'),
+                    historyEnabled: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@enableHistory', 'false'),
+                    enableTransactions: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@enableTransactions', 'false'),
+                    showModalForms: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@showModalForms', window.external.IsPremium ? 'true' : 'false'),
+                    useSaveAndNew: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@useSaveAndNew', 'false'),
+                    tabViewSelection: CodeOnTime.Client.readProperty(project, 'p:project/p:features/@tabViewSelection', '0'),
+                    urlHashing: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:ease/@urlHashing', 'false'),
+                    detectUnderscoreSeparatedSchema: CodeOnTime.Client.readProperty(project, 'p:project/p:features/p:navigation/@detectUnderscoreSeparatedSchema', 'true'),
+                    menuStyle: CodeOnTime.Client.readProperty(project, 'p:project/p:layout/@menuStyle', 'MultiLevel')
+                },
+                project.selectSingleNode('p:project/p:features'),
+                [
+                    { name: 'Back', script: CodeOnTime.Client.get_isHostedFactory() ? 'Continue("Reports")' : 'Continue("Membership")' },
+                    { name: 'Next', script: IsFactory() && !dataModelRequired ? 'Continue("Layout")' : 'Continue("Theme")' }
+                ]
+            );
+
+            if (IsFactory())
+                CodeOnTime.Client.initializeLayoutDialog(
+                    project,
+                    [{ name: 'Back', script: 'Continue("Features")' }, { name: 'Next', script: 'Continue("Theme")' }]);
+            else {
+                $get('TargetFramework').disabled = true;
+                $get('TargetFramework').value = '3.5';
+            }
+
+            if (IsWebAppFactory()) {
+                //$get('TargetFramework').disabled = true;
+                // $get('TargetFramework').value = '3.5';
+            }
+
+            if (IsAzureFactory()) {
+                //$get('TargetFramework').disabled = true;
+                var targetFramework = $get('TargetFramework');
+                targetFramework.removeChild(targetFramework.options[3]);
+                //targetFramework.value = '4.5';
+            }
+
+            if (CodeOnTime.Client.get_isHostedFactory()) {
+                var ns = $get('Namespace');
+                if (ns.value.match(/^\w+$/))
+                    ns.value += '.' + CodeOnTime.Client.get_variable('ProjectName').replace(/[^\w\d]/, '_');
+            }
+
+            if (IsDotNetNukeFactory()) {
+                $get('DnnPath').value = CodeOnTime.Client.readProperty(project, 'p:project/p:host/@path', '');
+                $get('TargetFramework').disabled = true;
+                $get('UserInterface').disabled = true;
+                $get('UserInterface').value = "Desktop";
+                $get('PageImplementation').disabled = true;
+                $get('PageImplementation').value = "aspx";
+                $get('SourceControl').disabled = true;
+            }
+
+            if (IsSharePointFactory()) {
+                $get('SharePointWebsite').value = CodeOnTime.Client.readProperty(project, 'p:project/p:host/@url', '');
+                $get('TargetFramework').disabled = true;
+                $get('TargetFramework').value = '3.5';
+                $get('UserInterface').disabled = true;
+                $get('UserInterface').value = "Desktop";
+                $get('PageImplementation').disabled = true;
+                $get('PageImplementation').value = "aspx";
+                $get('SourceControl').disabled = true;
+            }
+
+            if (IsMobileFactory()) {
+                //$get('TargetFramework').disabled = true;
+                targetFramework = $get('TargetFramework');
+                targetFramework.removeChild(targetFramework.options[2]);
+                targetFramework.removeChild(targetFramework.options[1]);
+                $get('UserInterface').disabled = true;
+                $get('UserInterface').value = "TouchUI";
+                //targetFramework.value = '4.5';
+            }
+
+            Sys.UI.DomElement.setVisible($get('DatabaseConnectionDialog_HostDatabaseSharingOptions'), CodeOnTime.Client.get_isHostedFactory() && IsDotNetNukeFactory());
+            var defaultTheme = 'Aquarium';
+            if (IsSharePointFactory())
+                defaultTheme = 'Modern';
+            else if (IsDotNetNukeFactory())
+                defaultTheme = 'Gravity';
+            CodeOnTime.Client.initializeThemeDialog(
+                CodeOnTime.Client.readProperty(project, 'p:project/p:theme/@name', defaultTheme),
+                [{ name: 'Back', script: 'Continue("Features")' }, { name: 'Next', script: IsFactory() ? 'Continue("Globalization")' : 'Continue("Generate")' }]
+            );
+
+            CodeOnTime.Client.initializeGlobalizationDialog(
+                CodeOnTime.Client.readProperty(project, 'p:project/p:globalization/@uiCulture', ''),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:globalization/@culture', ''),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:globalization/@enableClientBasedCulture', 'false'),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:globalization/@supportedCultures', ''),
+                CodeOnTime.Client.readProperty(project, 'p:project/p:globalization/@googleTranslateApiKey', ''),
+                [{ name: 'Back', script: 'Continue("Theme")' }, { name: 'Next', script: IsWebServerEnabled() ? 'Continue("WebServer")' : 'Continue("Generate")' }]);
+
+            CodeOnTime.Client.initializeWebServerDialog({
+                port: CodeOnTime.Client.readProperty(project, 'p:project/p:webServer/@port', ''),
+                run: CodeOnTime.Client.readProperty(project, 'p:project/p:webServer/@run', 'true'),
+                preview: CodeOnTime.Client.readProperty(project, 'p:project/p:webServer/@preview', 'Browser'),
+                client: CodeOnTime.Client.readProperty(project, 'p:project/p:webServer/@client', 'W7'),
+                webConfig: CodeOnTime.Client.readProperty(project, 'p:project/p:webServer/p:webConfig', '')
+            },
+                [{ name: 'Back', script: IsFactory() ? 'Continue("Globalization")' : 'Continue("Theme")' }, { name: 'Next', script: 'Continue("Generate")' }]);
+
+            Sys.UI.DomElement.setVisible($get('WebServerDialog_WebConfigSection'), IsWebSiteFactory() || IsWebAppFactory());
+            //            if (IsWebAppFactory())
+            //                Sys.UI.DomElement.setVisible($get('WebServerDialog_WebServceParameters'), false);
+            $get('MembershipDialog_PremiumFeatures').disabled = !CodeOnTime.Client.get_isPremium();
+
+            if (!CodeOnTime.Client.get_isStandard()) {
+                $get('FeaturesDialog_AnnotationsSection').disabled = true;
+                $get('FeaturesDialog_Annotations').disabled = true;
+                $get('FeaturesDialog_AnnotationsPath').disabled = true;
+                var ll = $get('LayoutDialog_Layout');
+                for (var i = 3; i < ll.options.length; i++)
+                    ll.options[i].disabled = true;
+                var themeList = $get('ThemeDialog_Theme');
+
+                function disableAllBut(option) {
+                    var i, op;
+                    for (i = 0; i < themeList.options.length; i++) {
+                        op = themeList.options[i];
+                        op.disabled = (op.value != option);
+                    }
+                }
+
+                if (IsDotNetNukeFactory())
+                    disableAllBut('Gravity');
+                else if (IsSharePointFactory())
+                    disableAllBut('Modern');
+                else
+                    disableAllBut('Aquarium');
+                $get('WebServerDialog_WebConfig').disabled = true;
+                Sys.UI.DomElement.setVisible($get('WebServerDialog_WebConfigSection'), true);
+                $get('WebServerDialog_WebConfigSection').disabled = true;
+                $get('MembershipDialog_SubscriberFeatures').disabled = true;
+                $get('FeaturesDialog_GridSubscriberFeatures').disabled = true;
+                $get('FeaturesDialog_MiscellaneousFeatures').disabled = true;
+                $get('FeaturesDialog_Copyright').disabled = true;
+                $get('BusinessLogicLayerDialog_SharedBusinessRules').disabled = true;
+                $get('BusinessLogicLayerDialog_SharedBusinessRulesLabel').disabled = true;
+            }
+
+            if (!CodeOnTime.Client.get_isPremium()) {
+                $get('MembershipDialog_IdleUserDetection_Container').disabled = true;
+                $get('FeaturesDialog_RelationshipExplorer').disabled = true;
+                $get('FeaturesDialog_RelationshipExplorerLabel').disabled = true;
+                $get('FeaturesDialog_EnablePermalinks').disabled = true;
+                $get('FeaturesDialog_EnablePermalinksLabel').disabled = true;
+                $get('FeaturesDialog_EnableHistory').disabled = true;
+                $get('FeaturesDialog_EnableHistoryLabel').disabled = true;
+            }
+
+            if (!CodeOnTime.Client.get_isUnlimited()) {
+                $('#UserInterface option[value="Both"]').attr('disabled', true);
+            }
+
+            if (namespace == 'FreeTrial' && window.external.IsFreeTrial) {
+                $get('Namespace').setAttribute('disabled', 'disabled');
+                $get('TargetFramework').setAttribute('disabled', 'disabled');
+                $get('PageImplementation').setAttribute('disabled', 'disabled');
+                $get('MembershipDialog_ActiveDirectory').setAttribute('disabled', 'disabled');
+                $get('MembershipDialog_ActiveDirectoryLabel').setAttribute('disabled', 'disabled');
+                $get('MembershipDialog_WindowsAuthentication').setAttribute('disabled', 'disabled');
+                $get('MembershipDialog_WindowsAuthenticationLabel').setAttribute('disabled', 'disabled');
+                $get('UserInterface').setAttribute('disabled', 'disabled');
+            }
+
+            var nextStep = CodeOnTime.Client.get_property('NextStep');
+            CodeOnTime.Client.set_property('NextStep', '');
+            if (!lastConnectionError)
+                if (nextStep == 'WebServer') {
+                    if (IsWebServerEnabled())
+                        CodeOnTime.Client.showDialog('WebServerDialog');
+                    else if (IsClassLibrary())
+                        Continue('Theme');
+                    else
+                        Continue('Theme');
+                    CodeOnTime.Client.set_property('NextStep', '');
+                    saveProject();
+                }
+                else if (nextStep == 'BLL') {
+                    window.external.projectAction = 'Settings,BLL';
+                    if (IsWebServerEnabled())
+                        CodeOnTime.Client.showDialog('BusinessLogicLayerDialog');
+                    else
+                        Continue('Theme');
+                    CodeOnTime.Client.set_property('NextStep', '');
+                    saveProject();
+                }
+                else
+                    if (IsDotNetNukeFactory())
+                        $get('DnnPath').focus();
+                    else if (IsSharePointFactory()) {
+                        var sharePointWebsite = $get('SharePointWebsite');
+                        if (sharePointWebsite.value == '')
+                            sharePointWebsite.value = 'http://' + CodeOnTime.Client.get_computerName().toLowerCase();
+                        sharePointWebsite.focus();
+                    }
+                    else
+                        $get('Namespace').focus();
+            // enable shortcuts
+            var connectionString = project.selectSingleNode('p:project/p:connectionString').text
+            if (connectionString && connectionString.length > 0 && false) {
+                Sys.UI.DomElement.setVisible($get('ShortcutButtons'), true);
+                Sys.UI.DomElement.setVisible($get('ShortcutButtonsInfo'), true);
+            }
+            CodeOnTime.Client.resizeDialog();
+
+            var projectAction = window.external.ProjectAction;
+            window.external.ProjectAction = null;
+
+            var settings = projectAction && projectAction.match(/^Settings,/) ? projectAction.match(/^Settings,(\w+)$/)[1] : null;
+            if (CodeOnTime.Client.fileExists(CodeOnTime.Client._metadataFileName) || dataModelRequired) {
+                var selectTables2 = $get('DatabaseConnectionDialog_SelectTables2');
+                if (selectTables2) {
+                    Sys.UI.DomElement.setVisible(selectTables2, false);
+                }
+                Sys.UI.DomElement.setVisible($get('CreateControllersRadioButtonList'), false);
+                if (!dataModelRequired)
+                    Sys.UI.DomElement.setVisible($get('DatabaseConnectionDialog_ProjectRefresh'), true);
+            }
+            Sys.UI.DomElement.setVisible($get('DatabaseConnectionDialog_SelectTables'), false);
+            if (settings) {
+                var buttons = document.body.getElementsByTagName('button');
+                for (i = 0; i < buttons.length; i++) {
+                    var buttonElem = buttons[i];
+                    if (buttonElem.innerText.match(/^\s*Next\s*$/)) {
+                        var finishButton = document.createElement('button');
+                        finishButton.innerHTML = 'Finish';
+                        finishButton.onclick = function (e) { Generate() };
+                        //span.innerHTML = '<button onclick="Generate()">Finish</button>';
+                        buttonElem.parentNode.appendChild(finishButton);
+                    }
+                }
+                Continue(settings);
+            }
+            else if (projectAction == 'Design')
+                Design();
+            else if (projectAction == 'Refresh')
+                Refresh();
+            else if (projectAction == 'GenerateAll') {
+                window.external.ProjectAction = 'GenerateAll'
+                Generate();
+            }
+            else if (projectAction == 'Summary')
+                Generate();
+        }
+
+        function Continue(step) {
+            if (event && event.shiftLeft && event.srcElement && event.srcElement.innerText == 'Next') {
+                Generate();
+                return;
+            }
+
+            switch (step) {
+                case 'Namespace':
+                    CodeOnTime.Client.hideDialog();
+                    break;
+                case 'Connection':
+                    CodeOnTime.Client.showDatabaseConnectionDialog(true);
+                    break;
+                case 'BLL':
+                    CodeOnTime.Client.showBusinessLogicLayerDialog(true);
+                    break;
+                case 'Reports':
+                    CodeOnTime.Client.showReportsDialog(true);
+                    break;
+                case 'Membership':
+                    CodeOnTime.Client.showMembershipDialog(true);
+                    break;
+                case "Features":
+                    CodeOnTime.Client.showFeaturesDialog(true);
+                    break;
+                case 'Layout':
+                    CodeOnTime.Client.showLayoutDialog(true);
+                    break;
+                case 'Theme':
+                    CodeOnTime.Client.showThemeDialog(true);
+                    break;
+                case 'Globalization':
+                    CodeOnTime.Client.showGlobalizationDialog(true);
+                    break;
+                case 'WebServer':
+                    CodeOnTime.Client.showWebServerDialog(true);
+                    break;
+                case 'Generate':
+                    Generate();
+                    break;
+            }
+        }
+
+        function EnsureFrameworkRequirements(select) {
+            if (select == null)
+                select = $get('TargetFramework');
+            var selected = select.options[select.selectedIndex].value,
+                ui = $get('UserInterface').value,
+                message = '';
+            if (ui == 'TouchUI' || ui == 'Both') {
+                if (selected < '4.5') {
+                    message += 'Touch UI is only supported with .NET Framework 4.5 and above.\n\n';
+                    $get('UserInterface').value = 'Desktop';
+                }
+            }
+            if ($get('PageImplementation').value == 'html') {
+                if (selected < '4.5') {
+                    message += 'Single Page Apps (*.html) page implementation is only supported with .NET Framework 4.5 and above.\n\n';
+                    $get('PageImplementation').value = 'aspx';
+                }
+            }
+            var pageImplementation = project.selectSingleNode('p:project/@pageImplementation')
+            if (pageImplementation && $get('PageImplementation').value != pageImplementation.text) {
+                message += 'Refresh your project prior to code generation to ensure compatibility with the selected page implementation.\n\n';
+            }
+
+            if (IsAzureFactory() && selected == '4.6')
+                message += "The project targets .NET Framework 4.6. To make sure that the role starts, this version of the .NET Framework must be installed on the virtual machine for this role. You can use a startup task to install the required version, if it is not already installed as part of the Microsoft Azure guest OS. For more details, see http://go.microsoft.com/fwlink/?LinkId=309796.\n\n";
+
+            if (message.length > 0)
+                alert(message);
+        }
+
+        function NotifyUser(from) {
+            if (from && from.id == 'Namespace') {
+                var project = CodeOnTime.Client.loadFromProject('DataAquarium.Project.xml'),
+                    oldNamespace = CodeOnTime.Client.readProperty(project, 'p:project/p:namespace', ''),
+                    hasBeenGenerated = CodeOnTime.Client.readProperty(project, 'p:project/p:connectionString', '') ? true : false,
+                    newNamespace = from.value;
+                if (hasBeenGenerated && oldNamespace != newNamespace)
+                    if (!confirm('Changing the namespace will require you to update any files not maintained by Code On Time generator, such as business rules and custom code. Proceed?'))
+                        from.value = oldNamespace;
+            }
+        }
+
+        function IsWebServerEnabled() {
+            return !window.location.href.match('webServer=false');
+        }
+
+        function IsClassLibrary() {
+            return window.location.href.match('splash=ClassLibrary') != null;
+        }
+
+        function IsFactory() {
+            return IsWebAppFactory() || IsWebSiteFactory();
+        }
+
+        function IsWebSiteFactory() {
+            return window.location.href.match('splash=(WebSite|Mobile)Factory') != null;
+        }
+
+        function IsWebAppFactory() {
+            return window.location.href.match('splash=(WebApp|Azure|DotNetNuke|SharePoint)Factory') != null;
+        }
+
+        function IsAzureFactory() {
+            return window.location.href.match('splash=AzureFactory') != null;
+        }
+
+        function IsDotNetNukeFactory() {
+            return window.location.href.match('splash=DotNetNukeFactory') != null;
+        }
+
+        function IsSharePointFactory() {
+            return window.location.href.match('splash=SharePointFactory') != null;
+        }
+
+        function IsMobileFactory() {
+            return window.location.href.match('splash=MobileFactory') != null;
+        }
+
+        function Design() {
+            CodeOnTime.Client.set_property('NextStep', 'Design');
+            Generate();
+        }
+
+        function Refresh() {
+            if (CodeOnTime.Client.deleteMetadata(true)) {
+                CodeOnTime.Client.set_property('NextStep', 'Refresh');
+                Generate()
+            }
+        }
+
+        function Generate() {
+            var ns = $get('Namespace').value;
+            if (CodeOnTime.Client.get_isHostedFactory()) {
+                if (!ns.match(/^[A-Za-z]\w*\.[A-Za-z]\w*$/)) {
+                    Continue('Namespace');
+                    alert('Please enter a valid identifier for the namespace. The valid identifier is composed of two words separated by a single period. Only alpha-numeric characters are allowed in words. Both words in the namespace must start with a letter.\n\nExample:\nMyCompany.ProjectName');
+                    $get('Namespace').focus();
+                    return;
+                }
+            }
+            else
+                if (!ns.match(/^[A-Za-z]\w*$/)) {
+                    Continue('Namespace');
+                    alert('Please enter a valid identifier for the namespace. Only alpha-numeric characters are allowed. The namespace must start with a letter.');
+                    $get('Namespace').focus();
+                    return;
+                }
+            if (IsDotNetNukeFactory() && $get('DnnPath').value.match(/^\s*$/)) {
+                Continue('Namespace');
+                alert('Please enter a path to a valid DotNetNuke portal instance.');
+                $get('DnnPath').focus();
+                return;
+            }
+            if (IsSharePointFactory() && $get('SharePointWebsite').value.match(/^\s*$/)) {
+                Continue('Namespace');
+                alert('Please enter a path to a valid local SharePoint site.');
+                $get('SharePointWebsite').focus();
+                return;
+            }
+
+            var displayName = $('#DisplayName').val();
+            //if (displayName.match(/^\s$/)) {
+            //    Continue('Namespace');
+            //    alert('Display Name cannot be blank.')
+            //    $('#DisplayName').focus();
+            //    return;
+            //}
+            var projectGroup = $('#ProjectGroup').val();
+
+
+            if (!CodeOnTime.Client.validateWebServerPort()) return;
+            if (!CodeOnTime.Client.validateDatabaseConnectionString()) return;
+
+            var dataModelRequired = CodeOnTime.Client.readProperty(project, 'p:project/@dataModel', '') == 'required',
+                dataModelsRequireRefresh = CodeOnTime.Client.modelRefreshRequired && CodeOnTime.Client.fileExists('Controllers.Baseline.xml'),
+                syncRequiresRefresh = !(CodeOnTime.Client.fileExists('Controllers.Log.xml') || CodeOnTime.Client.fileExists('Application.Log.xml')) && CodeOnTime.Client.fileExistsByPattern('Sync.*.xml');
+            if (syncRequiresRefresh || (dataModelsRequireRefresh && !dataModelRequired))
+                CodeOnTime.Client.refreshMetadata(null, null, false, false);
+            else if (dataModelsRequireRefresh) {
+                CodeOnTime.Client.traceWriteLine('Rebuilding controllers from data models.');
+                CodeOnTime.Client.fileDelete('Controllers.Baseline.xml');
+                CodeOnTime.Client.fileDelete('Controllers.Cache.xml');
+                CodeOnTime.Client.fileDelete('Application.Baseline.xml');
+                CodeOnTime.Client.fileDelete('Application.Cache.xml');
+            }
+
+            var newTargetFramework = $get('TargetFramework').value;
+            var runWebServer = CodeOnTime.Client.get_webServerRun();
+            var preview = runWebServer ? CodeOnTime.Client.get_preview() : 'None';
+            var client = CodeOnTime.Client.get_client();
+            var reportsEnabled = CodeOnTime.Client.get_reportsEnabled();
+            if (!window.external.VerifyPrerequisites(newTargetFramework, preview, client, reportsEnabled == 'true')) return;
+
+            var oldNamespace = CodeOnTime.Client.readProperty(project, 'p:project/p:namespace', '');
+            if (oldNamespace != ns)
+                window.external.ChangeNamespace(oldNamespace, ns);
+
+            CodeOnTime.Client.writeProperty(project, "p:project/@subscriptionLevel", CodeOnTime.Client.get_subscriptionLevel());
+            CodeOnTime.Client.writeProperty(project, "p:project/@name", window.external.ProjectName);
+            CodeOnTime.Client.writeProperty(project, "p:project/@prettyName", window.external.PrettyText(window.external.ProjectName));
+            CodeOnTime.Client.writeProperty(project, "p:project/@type", window.external.ProjectType);
+            CodeOnTime.Client.writeProperty(project, "p:project/@subscriptionLevel", CodeOnTime.Client.get_subscriptionLevel());
+            CodeOnTime.Client.writeProperty(project, "p:project/@displayName", displayName);
+            CodeOnTime.Client.writeProperty(project, "p:project/@group", projectGroup);
+            CodeOnTime.Client.writeProperty(project, "p:project/@appGenVersion", window.external.AppGenVersion);
+
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:namespace', ns);
+            var newUserInterface = $get('UserInterface').value;
+            var targetFramework = CodeOnTime.Client.readProperty(project, 'p:project/@targetFramework', newTargetFramework);
+            if (targetFramework != newTargetFramework)
+                CodeOnTime.Client.restartIISExpress();
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:host/@path', $get('DnnPath').value);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:host/@url', $get('SharePointWebsite').value);
+            CodeOnTime.Client.writeProperty(project, 'p:project/@codeDomProvider', codeDomProvider);
+            CodeOnTime.Client.writeProperty(project, 'p:project/@targetFramework', newTargetFramework);
+            CodeOnTime.Client.writeProperty(project, 'p:project/@userInterface', newUserInterface);
+            CodeOnTime.Client.writeProperty(project, 'p:project/@pageImplementation', $get('PageImplementation').value);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:connectionString', CodeOnTime.Client.get_databaseConnectionString());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:providerName', CodeOnTime.Client.get_databaseConnectionProvider());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:connectionString/@hostDatabaseSharing', CodeOnTime.Client.get_databaseConnectionHostDatabaseSharing());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:connectionString/@sessionStateMode', CodeOnTime.Client.get_sessionStateMode());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:databaseObjectFilter', CodeOnTime.Client.get_databaseObjectFilter());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:databaseObjectFilter/@generate', CodeOnTime.Client.get_databaseObjectGeneration());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:webServer/@run', runWebServer);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:webServer/@port', CodeOnTime.Client.get_webServerPort());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:webServer/@preview', preview);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:webServer/@client', client);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:webServer/p:webConfig', CodeOnTime.Client.get_webServerWebConfig());
+
+            var bllSettings = CodeOnTime.Client.get_businessLogicLayerSettings();
+            if (bllSettings._error) {
+                Continue('BLL');
+                $get(bllSettings._error.id).focus();
+                var error = $get(bllSettings._error.id + 'Error');
+                error.innerHTML = bllSettings._error.text;
+                Sys.UI.DomElement.setVisible(error, true);
+                return;
+            }
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/@normalizeModelNames', bllSettings.normalizeModelNames);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/@discoveryDepth', bllSettings.discoveryDepth);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/p:fieldMap', bllSettings.fieldMap);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/p:keys', bllSettings.keys);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/@labelFormatExpression', bllSettings.labelFormatExpression);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/p:fieldsToIgnore', bllSettings.fieldsToIgnore);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/p:fieldsToHide', bllSettings.fieldsToHide);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/p:customLabels', bllSettings.customLabels);
+            //CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/@generate', bllSettings.generate);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/@selectMethod', bllSettings.selectMethod);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/@selectSingleMethod', bllSettings.selectSingleMethod);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/@insertMethod', bllSettings.insertMethod);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/@updateMethod', bllSettings.updateMethod);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/@deleteMethod', bllSettings.deleteMethod);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/@generateSharedBusinessRules', bllSettings.generateSharedBusinessRules);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/@includeViews', bllSettings.includeViews);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/@tabViewSelection', CodeOnTime.Client._get_tabViewSelection('BusinessLogicLayerDialog_TabView'));
+
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:reports/@enabled', reportsEnabled);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:reports/@version', reportsEnabled == 'true' ? window.external.GetRequiredReportViewerVersion(targetFramework) : '');
+
+
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@enabled', CodeOnTime.Client.get_membershipEnabled());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@providerName', CodeOnTime.Client.get_membershipProviderName());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@connectionString', CodeOnTime.Client.get_membershipConnectionString());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@windowsAuthentication', CodeOnTime.Client.get_membershipWindowsAuthentication());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@activeDirectory', CodeOnTime.Client.get_membershipActiveDirectory());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/p:adConfig', CodeOnTime.Client.get_membershipActiveDirectoryConfig());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@customSecurity', CodeOnTime.Client.get_membershipCustomSecurity());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/p:config', CodeOnTime.Client.get_membershipConfig());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@dedicatedLogin', CodeOnTime.Client.get_membershipDedicatedLogin());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@displayRememberMe', CodeOnTime.Client.get_membershipDisplayRememberMe());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@rememberMeSet', CodeOnTime.Client.get_membershipRememberMeSet());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@displaySignUp', CodeOnTime.Client.get_membershipDisplaySignUp());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@displayPasswordRecovery', CodeOnTime.Client.get_membershipDisplayPasswordRecovery());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@displayMyAccount', CodeOnTime.Client.get_membershipDisplayMyAccount());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@displayHelp', CodeOnTime.Client.get_membershipDisplayHelp());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@idleUserDetectionTimeout', CodeOnTime.Client.get_membershipIdleUserDetectionTimeout());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@tabViewSelection', CodeOnTime.Client._get_tabViewSelection('MembershipDialog_TabView'));
+
+            var validationKey = CodeOnTime.Client.readProperty(project, 'p:project/p:membership/@validationKey', '');
+            if (validationKey == '')
+                CodeOnTime.Client.writeProperty(project, 'p:project/p:membership/@validationKey', CodeOnTime.Client.generateValidationKey());
+
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@pageHeader', CodeOnTime.Client.get_pageHeaderFeature());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@copyright', CodeOnTime.Client.get_copyrightFeature());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@annotations', CodeOnTime.Client.get_annotationsFeature());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@annotationsPath', CodeOnTime.Client.get_annotationsPathFeature());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@newColumn', CodeOnTime.Client.get_newColumnFeature());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@floating', CodeOnTime.Client.get_floatingFeature());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@maxGridFields', CodeOnTime.Client.get_maxGridFieldsFeature());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@multiSelect', CodeOnTime.Client.get_multiSelectFeature());
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@batchEdit', CodeOnTime.Client.get_batchEditFeature());
+
+            var features = CodeOnTime.Client.get_features();
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@advancedSearch', features.advancedSearch);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@advancedLookup', features.advancedLookup);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@relationshipExplorer', features.relationshipExplorer);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:grid/@actionColumn', features.actionColumn);
+
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:touch/@desktopDisplayDensity', features.desktopDisplayDensity);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:touch/@mobileDisplayDensity', features.mobileDisplayDensity);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:touch/@transitions', features.transitions);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:touch/@sidebar', features.sidebar);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:touch/@labelsInList', features.labelsInList);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:touch/@initialListMode', features.initialListMode);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:touch/@menu', features.menuLocation);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:touch/@promoteActions', features.promoteActions);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:touch/@smartDates', features.smartDates);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:touch/@mapApiIdentifier', features.mapApiIdentifier);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:touch/@mapApiIdentifierMobile', features.mapApiIdentifierMobile)
+
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:cms/@searchEngine', features.searchEngine);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:cms/@analysisEngine', features.analysisEngine);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:cms/@analysisOnDataPages', features.analysisOnDataPages);
+
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@enablePermalinks', features.permalinks);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@enableHistory', features.history);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@enableTransactions', features.enableTransactions);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@showModalForms', features.showModalForms);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@useSaveAndNew', features.useSaveAndNew);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:ease/@urlHashing', features.urlHashing);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:navigation/@detectUnderscoreSeparatedSchema', features.detectUnderscoreSeparatedSchema);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:packageProperties', features.packageProperties);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:ease/p:auditing', features.easeAuditing);
+
+
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:smtp/@deliveryMethod', features.deliveryMethod);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:smtp/@deliveryFormat', features.deliveryFormat);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:smtp/@from', features.from);
+            if (features.deliveryMethod == 'Network') {
+                CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:smtp/@clientDomain', features.clientDomain);
+                CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:smtp/@targetName', features.targetName);
+                CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:smtp/@host', features.host);
+                CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:smtp/@port', features.port);
+                CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:smtp/@defaultCredentials', features.defaultCredentials);
+                CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:smtp/@enableSsl', features.enableSsl);
+                CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:smtp/@username', features.username);
+                CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:smtp/@password', features.password);
+            }
+            else if (features.deliveryMethod == 'SpecifiedPickupDirectory')
+                CodeOnTime.Client.writeProperty(project, 'p:project/p:features/p:smtp/@pickupDirectoryLocation', features.pickupDirectoryLocation);
+
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:features/@tabViewSelection', CodeOnTime.Client._get_tabViewSelection('FeaturesDialog_TabView'));
+
+            CodeOnTime.Client.persistAddons(project);
+
+
+            var globalizationSettings = CodeOnTime.Client.get_globalizatinSettings();
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:globalization/@uiCulture', globalizationSettings.uiCulture);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:globalization/@culture', globalizationSettings.culture);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:globalization/@enableClientBasedCulture', globalizationSettings.enableClientBasedCulture);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:globalization/@supportedCultures', globalizationSettings.supportedCultures);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:globalization/@googleTranslateApiKey', globalizationSettings.googleTranslateApiKey);
+
+            if (IsFactory()) {
+                CodeOnTime.Client.writeProperty(project, 'p:project/p:layout/@name', CodeOnTime.Client.get_layout());
+                CodeOnTime.Client.writeProperty(project, 'p:project/p:layout/@menuStyle', CodeOnTime.Client.get_menuStyle());
+            }
+            var sourceControl = CodeOnTime.Client.get_sourceControl();
+            if (!!sourceControl && !CodeOnTime.Client._oldSourceControl)
+                CodeOnTime.Client.InitSync();
+            CodeOnTime.Client.writeProperty(project, 'p:project/@sourceControl', sourceControl);
+
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:theme/@name', CodeOnTime.Client.get_theme());
+
+            saveProject();
+            CodeOnTime.Client.proceed();
+        }
+
+
+        /**/</script>
+    <!-- page body -->
+    <div id="Main" title="Source Code and UI">
+        <div style="padding: 0px;" id="WebSiteSplash">
+            <div class="Content ContentBar">
+                You are about to generate an ASP.NET web application based on the <b>Data Aquarium Framework</b>.
+            </div>
+            <div class="Heading Logo">
+                <span>About This Project</span>
+                <div class="Icon Help">
+                </div>
+            </div>
+            <div class="Content">
+                <a href="http://codeontime.com/blog/2008/05/data-aquarium-framework" target="_blank"
+                   title="Data Aquarium Framework">
+                    <!--<img src="Data-Controller-Descriptor.gif" style="float: right; border: 0px;" alt="" />-->
+                </a>The
+                framework in the foundation of this project includes a collection of code files,
+                a single web service, and a few JavaScript components. The framework relies on <i>XML</i>
+                data controller descriptors that combine <i>SQL</i> queries, data fields, views,
+                and actions to render an advanced <b>AJAX</b>-powered presentation. Follow the <a href="http://codeontime.com/blog/label/Data%20Aquarium%20Framework" title="Navigate to Data Aquarium Framework resources"
+                                                                                                  target="_blank">link</a> to learn about the framework architecture and capabilities.<br />
+                <br />
+                Your web application will incorporate the entire framework source code without any
+                external dependencies.
+            </div>
+            <div id="Tasks" style="padding-bottom: 8px;">
+                <div class="Task">
+                    Review a <a href="http://codeontime.com/products" title="Learn more about Code On Time products"
+                                target="_blank">complete feature list</a> of this project.
+                </div>
+                <div class="Task">
+                    Try a <a href="http://www.codeontime.com/demo" title="Try live demo of projects now"
+                             target="_blank">live demo</a> now.
+                </div>
+            </div>
+        </div>
+        <div style="margin: 0px" id="ClassLibrarySplash">
+            <div class="Content">
+                You are about to generate an ASP.NET 3.5 a class library <b>Aquarium in a Box</b>.
+            </div>
+            <div class="Heading Logo">
+                <span>About This Project</span>
+                <div class="Icon Help">
+                </div>
+            </div>
+            <div class="Content">
+                <a href="http://codeontime.com/blog/2008/05/data-aquarium-framework" target="_blank"
+                   title="Data Aquarium Framework">
+                    <img src="Data-Controller-Descriptor.gif" style="float: right; border: 0px;" alt="" />
+                </a>
+                <a href="http://codeontime.com/blog/label/Data%20Aquarium%20Framework" title="Navigate to Data Aquarium Framework resources"
+                   target="_blank">Data Aquarium Framework</a> is in the foundation of this class
+                library. The project includes a collection of code files, a single web service,
+                and a few JavaScript components. The framework relies on <i>XML</i> data controller
+                descriptors that combine <i>SQL</i> queries, data fields, views, and actions to
+                render an advanced <b>AJAX</b>-powered presentation.
+                <br />
+                <br />
+                This class library will incorporate the entire framework source code without any
+                external dependencies. All images, JavaScript files, cascading stylesheets, and
+                data controller descriptor files will be incorporated in the library as embedded
+                resources.
+            </div>
+            <div id="Div2" style="padding-bottom: 8px;">
+                <div class="Task">
+                    Review a <a href="http://codeontime.com/productsdaf.aspx" title="Learn more about Data Aquarium Framework"
+                                target="_blank">complete feature list</a> of this project.
+                </div>
+                <div class="Task">
+                    Try a <a href="http://dev.codeontime.com/demo/nwblob" title="Try live demo of Data Aquarium Framework"
+                             target="_blank">live demo</a> now.
+                </div>
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <div style="margin: 0px" id="WebSiteFactorySplash">
+            <div class="Content ContentBar">
+                You are about to generate an app.
+            </div>
+        </div>
+        <div style="margin: 0px" id="WebAppFactorySplash">
+            <div class="Content ContentBar">
+                You are about to generate an app.
+            </div>
+        </div>
+        <div style="margin: 0px" id="AzureFactorySplash">
+            <div class="Content">
+                You are about to generate a cloud solution <b>Azure Factory</b>.
+            </div>
+            <div class="Heading Logo">
+                <span>About This Project</span>
+                <div class="Icon Help">
+                </div>
+            </div>
+            <div class="Content">
+                <a href="http://codeontime.com/blog/2008/05/data-aquarium-framework" target="_blank"
+                   title="Data Aquarium Framework">
+                    <img src="..\Azure Factory\AzureFactory.png" style="float: right; border: 0px; margin-bottom: 4px;
+                        margin-left: 4px;" alt="" />
+                </a> <a href="javascript:" onclick="return $openUrl('http://codeontime.com/blog')"
+                        title="Navigate to Data Aquarium Framework resources" target="_blank">
+                    Data Aquarium
+                    Framework
+                </a> is in the foundation of this <i>Visual Studio Solution</i>.
+                The project includes a collection of code files, a single web service, and a few
+                JavaScript components. The framework relies on <i>XML</i> data controller descriptors
+                that combine <i>SQL</i> queries, data fields, views, and actions to render an advanced
+                <b>AJAX</b>-powered presentation.
+                <br />
+                <br />
+                A class library of the generated web application will incorporate the entire framework
+                source code without any external dependencies. All images, JavaScript files, cascading
+                stylesheets, and data controller descriptor files will be incorporated in the library
+                as embedded resources.
+                <br />
+                <br />
+                A cloud web role will implement a web site that hosts pages with data controller
+                views. Publish your application and have it up and running in <a href="javascript:"
+                                                                                 onclick="return $openUrl('http://microsoft.com/windowsazure')" title="Learn more about Windows Azure">
+                    Windows Azure
+                </a> cloud in 15 minutes. You can place custom user controls on
+                the pages of your web application and perform any imaginable arrangement of application
+                pages and navigation system.
+            </div>
+            <div id="Div5" style="padding-bottom: 8px;">
+                <div class="Task-None" style="margin-bottom: 8px;">
+                    <a href="javascript:" onclick="return $openUrl('https://azure.microsoft.com/downloads/')"
+                       style="font-weight: bold; background-color: Yellow; padding: 4px;" title="Microsoft Windows Azure SDK is required to generate, run, and publish Azure Factory projects.">
+                        Download Windows Azure SDK
+                    </a>
+                </div>
+                <div class="Task">
+                    Publish your finished application to <a href="javascript:" onclick="return $openUrl('https://azure.microsoft.com/marketplace/')"
+                                                            title="The Windows Azure Marketplace is a global online market for customers and partners to share, buy, and sell finished SaaS applications and premium datasets.">
+                        Windows Azure Marketplace
+                    </a>.
+                </div>
+                <div class="Task">
+                    Review a <a href="javascript:" onclick="return $openUrl('http://codeontime.com/products')"
+                                title="Learn more about Code On Time products" target="_blank">
+                        complete feature
+                        matrix
+                    </a> of our products.
+                </div>
+                <div class="Task">
+                    Try <a href="javascript:" onclick="return $openUrl('http://www.codeontime.com/demo')"
+                           title="Try live demo projects now!" target="_blank">live demo projects</a> and
+                    see AJAX magic in action.
+                </div>
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <div style="margin: 0px" id="DotNetNukeFactorySplash">
+            <div class="Content">
+                You are about to generate an ASP.NET/AJAX solution <b>DotNetNuke Factory</b> .
+            </div>
+            <div class="Heading Logo">
+                <span>About This Project</span>
+                <div class="Icon Help">
+                </div>
+            </div>
+            <div class="Content">
+                <a href="http://www.codeontime.com/2008/05/data-aquarium-framework.html" target="_blank"
+                   title="DotNetNuke Factory">
+                    <img src="../DotNetNuke Factory/Theme/Logo.png" style="float: right; border: 0px;
+                        margin-bottom: 4px; margin-left: 4px;" alt="" />
+                </a> This project generates
+                application pages as controls with data views. Controls are incorporated in a <a href="javascript:" onclick="$openUrl('http://dotnetnuke.com')">DotNetNuke</a>
+                module. Published module can be hosted in a <i>DotNetNuke</i> portal and configured
+                by end users. Integrate your line-of-business database application with a popular
+                open source web content management system in minutes.<br />
+                <br />
+                <a href="javascript:" onclick="return $openUrl('http://codeontime.com/blog')" title="Navigate to Data Aquarium Framework resources"
+                   target="_blank">Data Aquarium Framework</a> is in the foundation of this <i>
+                    Visual Studio
+                    Solution
+                </i>. The project includes a collection of code files, a single
+                web service, and a few JavaScript components. The framework relies on <i>XML</i>
+                data controller descriptors that combine <i>SQL</i> queries, data fields, views,
+                and actions to render an advanced <b>AJAX</b>-powered presentation.
+            </div>
+            <div style="clear: both;">
+            </div>
+            <div class="Heading Logo">
+                DotNetNuke Location<div class="Icon Location">
+                </div>
+            </div>
+            <div class="Content">
+                Please specify a location of DotNetNuke portal instance that will be used for development
+                and testing.
+                <div class="Field">
+                    <label for="DnnPath" class="Label">
+                        Path to DotNetNuke Installation:
+                    </label>
+                    <input type="text" id="DnnPath" style="width: 450px" onchange="CodeOnTime.Client.configureHost('DotNetNuke', this.value)" />
+                    <button onclick="if(CodeOnTime.Client.configureHost('DotNetNuke'))$get('DnnPath').focus();"
+                            title="Select a path to the DotNetNuke portal instance.">
+                        ...
+                    </button><br />
+                </div>
+            </div>
+        </div>
+        <div style="margin: 0px" id="SharePointFactorySplash">
+            <div class="Content">
+                You are about to generate an ASP.NET/AJAX solution <b>SharePoint Factory</b> .
+            </div>
+            <div class="Heading Logo">
+                <span>About This Project</span>
+                <div class="Icon Help">
+                </div>
+            </div>
+            <div class="Content">
+                <a href="http://sharepoint.microsoft.com" target="_blank" title="DotNetNuke Factory">
+                    <!--<img src="../SharePoint Factory/SharePointFactory.png" style="float: right; border: 0px;
+                    margin-bottom: 4px; margin-left: 4px;" alt="" />-->
+                </a> Create a collection
+                of application pages implemented as user controls; package them for deployment as
+                <a href="javascript:" onclick="return $openUrl('http://sharepoint.microsoft.com');"
+                   title="Learn more about Microsoft SharePoint">Microsoft SharePoint 2010</a>
+                Feature with a single Web Part. Integrate a line-of-business database application
+                with a widely adopted corporate web content management system.<br />
+                <br />
+                <a href="javascript:" onclick="return $openUrl('http://codeontime.com/blog')" title="Navigate to Data Aquarium Framework resources"
+                   target="_blank">Data Aquarium Framework</a> is in the foundation of this <i>
+                    Visual Studio
+                    Solution
+                </i>. The project includes a collection of code files, a single
+                web service, and a few JavaScript components. The framework relies on <i>XML</i>
+                data controller descriptors that combine <i>SQL</i> queries, data fields, views,
+                and actions to render an advanced <b>AJAX</b>-powered presentation.
+            </div>
+            <div style="clear: both;">
+            </div>
+            <div class="Heading Logo">
+                SharePoint Site<div class="Icon Website">
+                </div>
+            </div>
+            <div class="Content">
+                What local site do you want to use for debugging?
+                <div class="Field">
+                    <label for="SharePointWebsite" class="Label">
+                        Local Site URL:
+                    </label>
+                    <input type="text" id="SharePointWebsite" style="width: 300px; margin-right: 4px;"
+                           onchange="" />
+                    <button onclick="var spw =$get('SharePointWebsite');CodeOnTime.Client.validateWebsite('SharePoint',spw.value);spw.focus();"
+                            title="Validate the local site URL">
+                        Validate
+                    </button><br />
+                </div>
+            </div>
+        </div>
+        <div style="margin: 0px" id="MobileFactorySplash">
+            <div class="Content">
+                You are about to generate an ASP.NET/AJAX project <b>Mobile Factory</b>.
+            </div>
+            <div class="Heading Logo">
+                <span>About This Project</span>
+                <div class="Icon Help">
+                </div>
+            </div>
+            <div class="Content">
+                <a href="http://codeontime.com/blog/2008/05/data-aquarium-framework" target="_blank"
+                   title="Data Aquarium Framework">
+                    <!--<img src="..\Mobile Factory\MobileFactory.png" style="float: right; border: 0px;
+                    margin-bottom: 4px; margin-left: 4px;" alt="" />-->
+                </a> <a href="javascript:" onclick="return $openUrl('http://codeontime.com/blog')"
+                        title="Navigate to Data Aquarium Framework resources" target="_blank">
+                    Data Aquarium
+                    Framework
+                </a> is in the foundation of this web site project. This project
+                allows creating a web site exclusively for touch-enabled devices such as tablets
+                and smartphones.<br />
+                The touch-enabled user interface is also displayed in HTML5-compatible desktop browsers.
+                <br />
+                <br />
+                The project includes a collection of code files, a single web service, and a few
+                JavaScript components. The framework relies on <i>XML</i> data controller descriptors
+                that combine <i>SQL</i> queries, data fields, views, and actions to render an advanced
+                <b>AJAX</b>-powered presentation.
+            </div>
+            <div id="Div6" style="padding-bottom: 8px;">
+                <div class="Task">
+                    Review a <a href="javascript:" onclick="return $openUrl('http://codeontime.com/products')"
+                                title="Learn more about Code On Time products" target="_blank">
+                        complete feature
+                        matrix
+                    </a> of our products.
+                </div>
+                <div class="Task">
+                    Try <a href="javascript:" onclick="return $openUrl('http://www.codeontime.com/demo')"
+                           title="Try live demo projects now!" target="_blank">live demo projects</a> and
+                    see AJAX magic in action.
+                </div>
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+
+
+        <div class="Heading Logo">
+            Namespace and Framework
+            <div class="Icon Namespace">
+            </div>
+        </div>
+        <div class="Content">
+            <div>
+                <span id="CodeDomProvider" style="font-weight: bold;">CodeDomProvider</span> is
+                the programming language of this project. The application framework code will be
+                implemented in a custom namespace.
+            </div>
+            <div class="Field">
+                <label for="Namespace" class="Label">
+                    Namespace:
+                </label>
+                <input type="text" id="Namespace" style="width: 200px" onchange="NotifyUser(this);" />
+            </div>
+            <div>
+                The same identifier will be also used to name the web application theme and the
+                connection string in the configuration file.<br />
+                <br />
+            </div>
+            <div class="FrameworkAndImplementation">
+                <div class="Field">
+                    <label for="TargetFramework" class="Label">
+                        Framework:
+                    </label>
+                    <!-- https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/how-to-determine-which-versions-are-installed -->
+                    <select id="TargetFramework" onchange="EnsureFrameworkRequirements(this);">
+                        <option value="4.8">.NET Framework 4.8</option>
+                        <option value="4.7.2">.NET Framework 4.7.2</option>
+                        <option value="4.7.1">.NET Framework 4.7.1</option>
+                        <option value="4.7">.NET Framework 4.7</option>
+                        <option value="4.6.2">.NET Framework 4.6.2</option>
+                        <option value="4.6.1">.NET Framework 4.6.1</option>
+                        <option value="4.6">.NET Framework 4.6</option>
+                        <option value="4.5.2">.NET Framework 4.5.2</option>
+                        <option value="4.5.1">.NET Framework 4.5.1</option>
+                        <option value="4.5">.NET Framework 4.5</option>
+                        <option value="4.0">.NET Framework 4.0</option>
+                        <option value="3.5">.NET Framework 3.5</option>
+                    </select>
+                </div>
+                <div class="Field">
+                    <label for="PageImplementation" class="Label">
+                        Page Implementation:
+                    </label>
+                    <select id="PageImplementation" onchange="EnsureFrameworkRequirements();">
+                        <option value="aspx">Active Server Pages (*.aspx)</option>
+                        <option value="html">Single Page Apps (*.html)</option>
+                    </select>
+                </div>
+                <div class="Field" style="margin-left: 48px">
+                    <label for="SourceControl" class="Label">
+                        Source Control (<a href="#" onclick="CodeOnTime.Client.LearnMoreSourceControl();return false;" title="Learn more about source control.">
+                            learn
+                            more
+                        </a>):
+                    </label>
+                    <select id="SourceControl">
+                        <option value="">None</option>
+                        <option value="git">Git</option>
+                        <option value="tfs">Team Foundation Services (TFS)</option>
+                        <!--<option value="svn">Subversion (svn)</option>-->
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div style="padding-top:20px;">
+                This project is located in <a href="#" id="ProjectLocationPath" title="Click here to open the project folder.">[path]</a> folder.
+            </div>
+
+            <div style="padding-top:20px;">
+                Use display name to identify your project. Enter a group to organize the related projects.
+            </div>
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <div class="Field">
+                            <label for="DisplayName" class="Label">
+                                Display Name:
+                            </label>
+                            <input type="text" id="DisplayName" style="width: 300px" />
+                        </div>
+                    </td>
+                    <td style="padding-left:20px;">
+                        <div class="Field">
+                            <label for="ProjectGroup" class="Label">
+                                Group:
+                            </label>
+                            <input type="text" id="ProjectGroup" style="width: 300px" />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="Heading Logo">
+            User Interface
+            <div class="Icon Layout">
+            </div>
+        </div>
+        <div>
+            Select the User Interface for your application using the dropdown below.
+            <div style="padding-bottom: 8px">
+                <div class="Field">
+                    <select id="UserInterface" onchange="EnsureFrameworkRequirements();">
+                        <option value="TouchUI">Touch UI</option>
+                        <option value="Desktop">Classic</option>
+                        <option value="Both">Touch UI + Classic (as backup)</option>
+                    </select>
+                </div><div style="padding-bottom: 8px; padding-top: 8px">
+                    <div class="Task">
+                        <b>Touch UI</b> is mouse and keyboard friendly, works great on modern desktop computers, as well as
+                        mobile devices, tablets, and touchscreen PCs. The responsive UI will adapt to any screen.
+                        <!-- <a href="http://codeontime.com/learn/mobile/responsive-design"
+                        target="_blank">Learn more about Touch UI here</a>.-->
+                    </div>
+                    <div class="Task">
+                        <b>Classic</b> user interface is compatible with the browsers of older computers equipped with a mouse
+                        and keyboard. Recommended for end users with Internet Explorer 9 and earlier.
+                    </div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+            <div lang="Content">
+                <div id="ShortcutButtonsInfo" style="display: none;">
+                    <div class="Task">
+                        Click <i>Refresh</i> button if the database has changed.
+                    </div>
+                    <div class="Task">
+                        Click <i>Design</i> button to go straight to <b>Code OnTime Designer</b>.
+                    </div>
+                    <div class="Task">
+                        Click <i>Skip</i> button to skip project feature configuration steps.
+                    </div>
+                </div>
+            </div>
+            <div class="Buttons">
+                <button onclick="CodeOnTime.Client.cancel()">
+                    Cancel
+                </button>
+                <span id="ShortcutButtons" style="display: none">
+                    <button onclick="Refresh()">
+                        Refresh
+                    </button>
+                    <button onclick="Design()">
+                        Design
+                    </button>
+                    <button onclick="Generate()">
+                        Skip
+                    </button>
+                </span>
+                <button onclick="Continue('Connection')">
+                    Next
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

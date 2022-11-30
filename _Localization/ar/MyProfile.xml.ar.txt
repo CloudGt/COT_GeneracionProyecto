@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^الى الخلف^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^إنهاء^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^تأكيد كلمة المرور الجديدة^ConfirmNewPassword^
+
+^ConfirmPassword^تأكيد كلمة المرور^ConfirmPassword^
+
+^Email^البريد الإلكتروني^Email^
+
+^ForgotYourPassword^نسيت رقمك السري؟^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^أجب عن السؤال التالي لتلقي كلمة المرور. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^تأكيد الهوية^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^يرجى ملء هذا النموذج وانقر على زر إرسال لاستعادة كلمة المرور المنسية. انقر فوق إلغاء للعودة إلى الشاشة السابقة.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^استعادة كلمة المرور: الخطوة 2 من 2^IdentityConfirmViewLabel^
+
+^LoginButton^تسجيل الدخول^LoginButton^
+
+^LoginLink^تسجيل الدخول^LoginLink^
+
+^LoginWithDNN^تسجيل الدخول مع دوتنتنوك^LoginWithDNN^
+
+^LoginWithFacebook^تسجيل الدخول باستخدام الفيسبوك^LoginWithFacebook^
+
+^LoginWithGoogle^تسجيل الدخول باستخدام غوغل^LoginWithGoogle^
+
+^LoginWithMicrosoft^تسجيل الدخول مع ميكروسوفت^LoginWithMicrosoft^
+
+^LoginWithSharePoint^تسجيل الدخول باستخدام شاريبوانت^LoginWithSharePoint^
+
+^LoginWithWindowsLive^تسجيل الدخول مع ويندوز لايف^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^كلمة المرور الإجابة (غير معروضة لحمايتك)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^الرجاء إدخال كلمة المرور الحالية لإنشاء كلمة مرور جديدة أو تحديث عنوان بريدك الإلكتروني أو تغيير سؤال استرداد كلمة المرور والإجابة عنه.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. كلمة المرور الحالية^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^يرجى مراجعة معلومات العضوية أدناه. انقر فوق تحديث حسابي لتغيير هذا السجل، أو انقر فوق إلغاء للعودة.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^حسابي^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^الرجاء إدخال كلمة مرور جديدة. لاحظ أن كلمة المرور يجب أن تتكون من 7 أحرف على الأقل وأن تتضمن حرفا غير أبجدي رقمي واحد.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. كلمة المرور الجديدة (اختياري)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^أثناء استعادة كلمة المرور المنسية سوف يطلب منك إدخال اسم المستخدم الخاص بك. في حالة وجود حساب مستخدم، يجب الإجابة على سؤال كلمة المرور. وهناك إجابة صحيحة تؤدي رسالة بريد إلكتروني مع كلمة مرور مؤقتة ترسل لك.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. البريد الإلكتروني &amp; استعادة كلمة المرور (اختياري)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^كلمة السر الجديدة^NewPassword^
+
+^OldPassword^كلمة المرور القديمة^OldPassword^
+
+^Password^كلمه السر^Password^
+
+^PasswordAnswer^كلمة المرور^PasswordAnswer^
+
+^PasswordQuestion^كلمة المرور سؤال^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^الرجاء إدخال اسم مستخدم. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^نسيت رقمك السري؟^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^يرجى ملء هذا النموذج وانقر على زر متابعة لاستعادة كلمة المرور المنسية. انقر فوق إلغاء للعودة إلى الشاشة السابقة.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^استعادة كلمة المرور: الخطوة 1 من 2^PasswordRequestViewLabel^
+
+^RememberMe^تذكرني في المرة القادمة^RememberMe^
+
+^RequestPasswordActionHeaderText^التالى^RequestPasswordActionHeaderText^
+
+^SignUp^سجل^SignUp^
+
+^SignUpNow^أفتح حساب الأن^SignUpNow^
+
+^SignUpViewHeaderText^يرجى ملء هذا النموذج وانقر على زر موافق للاشتراك للحصول على حساب. انقر فوق إلغاء للعودة إلى الشاشة السابقة.^SignUpViewHeaderText^
+
+^SignUpViewLabel^حساب الاشتراك^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^الرجاء إدخال اسم المستخدم وكلمة المرور. لاحظ أن كلمة المرور يجب أن تتكون من 7 أحرف على الأقل وأن تتضمن حرفا غير أبجدي رقمي واحد. فقط المستخدمين المعتمدين سوف تكون قادرة على تسجيل الدخول إلى الموقع.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^معلومات المستخدم الجديد^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^هذه الحقول مطلوبة لمساعدتك على استعادة كلمة المرور المنسية. أثناء عملية الاسترداد سوف يطلب منك إدخال اسم المستخدم. في حالة وجود حساب مستخدم ثم يطلب سؤال أمان للإجابة. وهناك إجابة صحيحة تؤدي رسالة بريد إلكتروني مع كلمة مرور مؤقتة إرسالها إلى البريد الإلكتروني المسجل.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^استعادة كلمة السر^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^تحديث حسابي^UpdateMyAccountActionHeaderText^
+
+^UserName^اسم المستخدم^UserName^
+

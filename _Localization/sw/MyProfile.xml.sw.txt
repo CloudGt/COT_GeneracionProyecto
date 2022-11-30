@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Rudi^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Kumaliza^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Thibitisha Nenosiri Mpya^ConfirmNewPassword^
+
+^ConfirmPassword^Thibitisha nenosiri^ConfirmPassword^
+
+^Email^Barua pepe^Email^
+
+^ForgotYourPassword^Umesahau nenosiri yako?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Jibu swali linalofuata ili kupokea nenosiri lako. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Uthibitisho wa Identity^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Tafadhali jaza fomu hii na bonyeza Bonyeza kifungo ili upate nenosiri lililosahau. Bonyeza Kufuta kurudi kwenye skrini iliyopita.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Upyaji wa nenosiri: Hatua ya 2 ya 2^IdentityConfirmViewLabel^
+
+^LoginButton^Ingia^LoginButton^
+
+^LoginLink^Ingia^LoginLink^
+
+^LoginWithDNN^Ingia na DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Ingia na Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Ingia na Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Ingia na Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Ingia na SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Ingia na Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Jibu la nenosiri (halionyeshwa kwa ulinzi wako)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Tafadhali ingiza nenosiri lako la sasa ili kuunda nenosiri mpya, sasisha anwani yako ya barua pepe, au ubadili swali la kupona nenosiri na jibu.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Nywila ya sasa^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Tafadhali kagua maelezo yako ya uanachama hapa chini. Bonyeza Mwisho Akaunti Yangu kubadili rekodi hii, au bonyeza Cancel ili kurudi.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Akaunti yangu^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Tafadhali ingiza nenosiri mpya. Kumbuka kwamba nenosiri linapaswa kuwa angalau wahusika 7 na kuingiza tabia moja isiyo ya alphanumeric.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nenosiri Mpya (Hiari)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Wakati wa kurejesha nenosiri lililosahau utaombwa kuingia jina lako la mtumiaji. Ikiwa akaunti ya mtumiaji ipopo swali la nenosiri linapaswa kujibiwa. Jibu sahihi litasababisha barua pepe yenye nenosiri la muda mfupi kutuma kwako.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Barua pepe ya kurudia nenosiri la &amp; (kwa hiari)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nywila mpya^NewPassword^
+
+^OldPassword^namba ya siri ya zamani^OldPassword^
+
+^Password^Nenosiri^Password^
+
+^PasswordAnswer^Jibu la siri^PasswordAnswer^
+
+^PasswordQuestion^Swali la siri^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Tafadhali ingiza jina la mtumiaji. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Umesahau nenosiri yako?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Tafadhali jaza fomu hii na bofya Endelea kifungo ili upate nenosiri lililosahau. Bonyeza Kufuta kurudi kwenye skrini iliyopita.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Upyaji wa nenosiri: Hatua ya 1 ya 2^PasswordRequestViewLabel^
+
+^RememberMe^Kumbuka mimi wakati ujao^RememberMe^
+
+^RequestPasswordActionHeaderText^Ifuatayo^RequestPasswordActionHeaderText^
+
+^SignUp^Ingia^SignUp^
+
+^SignUpNow^Jiunge sasa^SignUpNow^
+
+^SignUpViewHeaderText^Tafadhali jaza fomu hii na bofya kifungo cha OK ili ujiandikishe kwa akaunti. Bonyeza Kufuta kurudi kwenye skrini iliyopita.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Akaunti Ingia^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Tafadhali ingiza jina la mtumiaji na nenosiri. Kumbuka kwamba nenosiri linapaswa kuwa angalau wahusika 7 na kuingiza tabia moja isiyo ya alphanumeric. Watumiaji walioidhinishwa tu wataweza kuingia kwenye tovuti.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Maelezo ya Mtumiaji Mpya^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Mashamba haya yanatakiwa kukusaidia kurejesha nenosiri lililosahau. Wakati wa mchakato wa kurejesha utaulizwa kuingia jina la mtumiaji. Ikiwa akaunti ya mtumiaji ipopo swali la usalama linaombwa kujibu. Jibu sahihi itasababisha barua pepe yenye nenosiri la muda mfupi kutuma barua pepe iliyosajiliwa.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Upyaji wa nenosiri^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Sasisha Akaunti Yangu^UpdateMyAccountActionHeaderText^
+
+^UserName^Jina la Mtumiaji^UserName^
+

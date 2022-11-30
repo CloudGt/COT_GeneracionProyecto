@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Назад^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Заврши^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Потврдите нову лозинку^ConfirmNewPassword^
+
+^ConfirmPassword^Потврди лозинку^ConfirmPassword^
+
+^Email^Емаил^Email^
+
+^ForgotYourPassword^Заборавили сте лозинку?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Одговорите на следеће питање да бисте добили своју лозинку. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Потврда идентитета^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Молимо попуните овај образац и кликните на дугме Пошаљи да бисте повратили заборављену лозинку. Кликните на дугме Откажи да бисте се вратили на претходни екран.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Пассворд Рецовери: Корак 2 од 2^IdentityConfirmViewLabel^
+
+^LoginButton^Пријавите се^LoginButton^
+
+^LoginLink^Пријавите се^LoginLink^
+
+^LoginWithDNN^Пријавите се са ДотНетНуке^LoginWithDNN^
+
+^LoginWithFacebook^Пријавите се са Фацебоок-ом^LoginWithFacebook^
+
+^LoginWithGoogle^Пријавите се са Гоогле-ом^LoginWithGoogle^
+
+^LoginWithMicrosoft^Пријава са Мицрософтом^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Пријавите се са СхареПоинт^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Пријавите се са Виндовс Ливе^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Лозинка Одговор (није приказан за вашу заштиту)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Унесите тренутну лозинку да бисте креирали нову лозинку, ажурирали своју е-адресу или променили питање и одговор на враћање лозинке.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Тренутна лозинка^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Молимо погледајте своје податке о чланству у наставку. Кликните на дугме Ажурирај мој налог да бисте променили овај запис или кликните на дугме Откажи да бисте се вратили.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Мој налог^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Молимо унесите нову лозинку. Имајте на уму да лозинка мора бити дуга најмање 7 знакова и укључити један не-алфанумерички знак.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Нова лозинка (опционално)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Током опоравка заборављене лозинке од вас ће бити затражено да унесете своје корисничко име. Ако постоји кориснички рачун онда се мора одговорити на питање за лозинку. Тачан одговор ће покренути е-пошту са привременом лозинком која ће вам бити послата.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Емаил &amp; Опоравак лозинке (опционално)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Нова лозинка^NewPassword^
+
+^OldPassword^стара шифра^OldPassword^
+
+^Password^Лозинка^Password^
+
+^PasswordAnswer^Лозинка Одговор^PasswordAnswer^
+
+^PasswordQuestion^Лозинка Питање^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Унесите корисничко име. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Заборавили сте лозинку?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Молимо попуните овај образац и кликните на дугме Настави да бисте повратили заборављену лозинку. Кликните на дугме Откажи да бисте се вратили на претходни екран.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Пассворд Рецовери: Корак 1 од 2^PasswordRequestViewLabel^
+
+^RememberMe^Запамти ме следећи пут^RememberMe^
+
+^RequestPasswordActionHeaderText^Следећи^RequestPasswordActionHeaderText^
+
+^SignUp^Пријави се^SignUp^
+
+^SignUpNow^Пријавите се сада^SignUpNow^
+
+^SignUpViewHeaderText^Молимо попуните овај образац и кликните на дугме У реду да бисте се пријавили за налог. Кликните на дугме Откажи да бисте се вратили на претходни екран.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Пријавите се на налог^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Молимо унесите корисничко име и лозинку. Имајте на уму да лозинка мора бити дуга најмање 7 знакова и укључити један не-алфанумерички знак. Само одобрени корисници ће моћи да се пријављују на веб страници.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Нове информације о кориснику^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Ова поља су обавезна да вам помогну да повратите заборављену лозинку. Током процеса опоравка од вас ће се тражити да унесете корисничко име. Ако постоји кориснички рачун онда се захтева одговор на безбедносно питање. Тачан одговор ће покренути е-пошту са привременом лозинком послати на регистровану е-пошту.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Повратак изгубљене шифре^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Ажурирајте Мој налог^UpdateMyAccountActionHeaderText^
+
+^UserName^Корисничко име^UserName^
+

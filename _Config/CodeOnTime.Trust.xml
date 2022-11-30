@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<trust>
+  <project type="SharePoint Factory" config="wss_minimaltrust.config, wss_mediumtrust.config">
+    <!-- Ensure trust for System.Data.SqlClient -->
+    <provider name="System.Data.SqlClient">
+      <ensure select="/configuration/mscorlib/security/policy/PolicyLevel/SecurityClasses/SecurityClass[@Name='SqlClientPermission']"
+              target="/configuration/mscorlib/security/policy/PolicyLevel/SecurityClasses"
+              description="SQL Client">
+        <!-- Added by Code On Time to allow SQL Server access for SharePoint Factory Web Apps -->
+        <SecurityClass Name="SqlClientPermission" Description="System.Data.SqlClient.SqlClientPermission, System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+      </ensure>
+      <ensure select="/configuration/mscorlib/security/policy/PolicyLevel/SecurityClasses/SecurityClass[@Name='FileIOPermission']"
+              target="/configuration/mscorlib/security/policy/PolicyLevel/SecurityClasses" 
+              description="File Input/Output">
+        <!-- Added by Code On Time to allow File Input/Output for SharePoint Factory Web Apps -->
+        <SecurityClass Name="FileIOPermission" Description="System.Security.Permissions.FileIOPermission, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+      </ensure>
+      <ensure select="/configuration/mscorlib/security/policy/PolicyLevel/NamedPermissionSets/PermissionSet[@Name='SPRestricted']/IPermission[@class='SqlClientPermission']"
+              target="/configuration/mscorlib/security/policy/PolicyLevel/NamedPermissionSets/PermissionSet[@Name='SPRestricted']"
+              description="SQL Client">
+        <!-- Added by Code On Time to allow SQL Server access for SharePoint Factory Web Apps -->
+        <IPermission class="SqlClientPermission" version="1" Unrestricted="true" />
+      </ensure>
+      <ensure select="/configuration/mscorlib/security/policy/PolicyLevel/NamedPermissionSets/PermissionSet[@Name='SPRestricted']/IPermission[@class='FileIOPermission']"
+              target="/configuration/mscorlib/security/policy/PolicyLevel/NamedPermissionSets/PermissionSet[@Name='SPRestricted']"
+              description="File Input/Output">
+        <!-- Added by Code On Time to allow File Input/Output for SharePoint Factory Web Apps -->
+        <IPermission class="FileIOPermission" version="1" Read="$AppDir$" Write="$AppDir$" Append="$AppDir$" PathDiscovery="$AppDir$" />
+      </ensure>
+    </provider>
+  </project>
+</trust>

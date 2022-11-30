@@ -1,0 +1,2286 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Data Aquarium</title>
+    <link href="../_System/CodeOnTime.css" type="text/css" rel="Stylesheet" />
+</head>
+<body>
+    <script type="text/javascript" language="javascript" src="../Data Aquarium/Scripts/_System.js"></script>
+    <!-- page body -->
+    <div id="Main" data-title="Source Code and UI" style="margin-bottom: 50px">
+        <div style="padding: 0px;" id="Home" data-title="Publish">
+            <div class="Content Header">
+                Publish your app to the file system, to a server via FTP, or directory to an Azure App Service.
+            </div>
+            <div class="Heading Logo">
+                <span>Publish</span>
+                <div class="Icon x32 PublishAllWebsites"></div>
+            </div>
+            <div class="Content">
+                Please select a publishing option below.
+                <ul class="publish-options" id="publish-options">
+                    <li class="publish-file-system">
+                        <a onclick="showPage('PublishFileSystem'); return false;">
+                            <div class="Icon QueryFolder x32"></div>
+                            <h4>File System</h4>
+                            <span>Compile and publish the project to a folder in the local file system.</span>
+                        </a>
+                        <ul class="browse-options" style="display: none">
+                            <li id="Browse_FileSystem">
+                                <span class="label">Preview</span>
+                                <a href="#" title="Browse Preview" class="preview-link">https://northwind-catalog.azurewebsites.net</a>
+                                <div><img class="browse-qr-code" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" /></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="publish-ftp">
+                        <a onclick="showPage('PublishFTP'); return false;">
+                            <div class="Icon x32 FTPSites"></div>
+                            <h4>FTP</h4>
+                            <span>Compile, publish the project to a folder, and deploy to a server using FTP protocol.</span>
+                        </a>
+                        <ul class="browse-options" style="display: none">
+                            <li id="Browse_FTP">
+                                <span class="label">Preview</span>
+                                <a href="#" title="Browse Preview" class="preview-link">https://northwind-catalog.azurewebsites.net</a>
+                                <div class="qr-code-container"><img class="browse-qr-code" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" /></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="publish-azure">
+                        <a onclick="AzureController.show(); return false;">
+                            <div class="Icon AzureBlue x32"></div>
+                            <h4>Azure</h4>
+                            <span>Compile and publish the project to an Azure App Service.</span>
+                        </a>
+                        <ul class="browse-options" style="display: none">
+                            <li id="Browse_Prod">
+                                <span class="label">Production</span>
+                                <a href="#" title="Browse Production" class="preview-link">https://northwind-catalog.azurewebsites.net</a>
+                                <div class="qr-code-container"><img class="browse-qr-code" style="display:none" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" /></div>
+                            </li>
+                            <li id="Browse_Staging" style="display: none">
+                                <span class="label">Staging</span>
+                                <a href="#" title="Browse Staging" class="preview-link">https://northwind-catalog-staging.azurewebsites.net</a>
+                                <div class="qr-code-container"><img class="browse-qr-code" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" /></div>
+                            </li>
+                            <li id="Browse_Private" style="display: none">
+                                <span class="label">Private (Dev)</span>
+                                <a href="#" title="Browse Private" class="preview-link">https://northwind-catalog-dev.azurewebsites.net</a>
+                                <div class="qr-code-container"><img class="browse-qr-code" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" /></div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="publish-amazon">
+                        <a class="disabled2" onclick="showLearnMore(); return false;">
+                            <div class="Icon AmazonVPC x32"></div>
+                            <h4>Amazon Compute</h4>
+                            <span>Compile and publish the project to an Amazon EC2 instance.</span>
+                        </a>
+                    </li>
+                    <li class="publish-google-cloud">
+                        <a class="disabled2" onclick="showLearnMore(); return false;">
+                            <div class="Icon GoogleContainerEngine x32"></div>
+                            <h4>Google Cloud</h4>
+                            <span>Compile and publish the project to a Google Cloud instance.</span>
+                        </a>
+                    </li>
+                    <li class="publish-app-store">
+                        <a class="disabled2" onclick="downloadNativeApp(); return false;">
+                            <div class="Icon Phone x32"></div>
+                            <h4>App Store</h4>
+                            <span>Download the native app for Windows, iOS, Mac OS, or Android platform.</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="publish-options-alt-container" style="display:none">
+                    <div class="Heading Logo">
+                        <span>Other Publishing Opttions</span>
+                        <div class="Icon x32 PublishAllWebsites"></div>
+                    </div>
+                    <ul class="publish-options" id="publish-options-alt"></ul>
+                </div>
+                <div id="Tasks" class="tasks">
+                    <div class="Task">
+                        Learn about the available
+                        <a href="#" onclick="$openUrl('https://www.youtube.com/watch?v=zv7d0UeAmX0&list=PLy2g3SjvDe2YbSdvoXilUh9BvkllO50jh'); return false;">deployment options</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="padding: 0px; display:none" id="PublishFileSystem" data-onshow="FileSystemController.loadPublish()" data-title="Publish - File System" data-actions="Publish">
+            <div class="Content Header">
+                Publish your app to a folder.
+            </div>
+            <div class="Heading Logo">
+                <span>Publish to File System</span>
+                <div class="Icon QueryFolder x32"></div>
+            </div>
+            <div class="Content">
+                Press 'Publish' to begin deployment to the specified directory. Optionally specify a path to copy published app.
+                <div class="Field">
+                    <label for="FileSystem_Path" class="Label">Path</label>
+                    <input id="FileSystem_Path" name="FileSystem_Path" style="width: 300px" placeholder="Enter an alternative location for published files" /> <button onclick="selectFolder($('#FileSystem_Path')); return false">Browse...</button>
+                </div>
+                <div class="Field">
+                    <label for="FileSystem_Preview_URL" class="Label">Preview URL</label>
+                    <input id="FileSystem_Preview_URL" name="FileSystem_Preview_URL" style="width: 300px" placeholder="Enter a URL to open after publish" />
+                </div>
+                <div class="Field" style="margin-left: 1em; margin-top: 1em; padding-left: 1em;border-left: solid 2px #ccc">
+                    <div id="FileSystem_WebConfig_Customization"></div>
+                </div>
+            </div>
+        </div>
+        <div style="padding: 0px; display:none" id="PublishFTP" data-onshow="FTPController.loadPublish()" data-title="Publish - FTP" data-actions="Publish">
+            <div class="Content Header">
+                Publish your app to a server via FTP.
+            </div>
+            <div class="Heading Logo">
+                <span>Publish to FTP</span>
+                <div class="Icon FTPSites"></div>
+            </div>
+            <div class="Content">
+                Please enter your settings below and press 'Publish' to start Deploy via FTP.
+                <div class="Field">
+                    <label for="FTP_URL" class="Label">URL</label>
+                    <input id="FTP_URL" name="FTP_URL" style="width: 300px" />
+                </div>
+                <div class="Field">
+                    <label for="FTP_Username" class="Label">Username</label>
+                    <input id="FTP_Username" name="FTP_Username" style="width: 300px" />
+                </div>
+                <div class="Field">
+                    <label for="FTP_Password" class="Label">Password</label>
+                    <input id="FTP_Password" name="FTP_Password" type="password" style="width: 300px" />
+                </div>
+                <div class="Field">
+                    <label for="FTP_Preview_URL" class="Label">URL</label>
+                    <input id="FTP_Preview_URL" name="FTP_Preview_URL" style="width: 300px" placeholder="Enter a URL to open after publish" />
+                </div>
+                <div class="Field" style="margin-left: 1em; margin-top: 1em; padding-left: 1em;border-left: solid 2px #ccc">
+                    <div id="FTP_WebConfig_Customization"></div>
+                </div>
+            </div>
+        </div>
+        <div style="padding: 0px; display:none" id="AuthenticateAzure" data-onshow="AzureController.loadAuth()" data-title="Authenticate Azure" data-actions="Authenticate">
+            <div class="Content Header">
+                Please follow the instructions below to enable publishing to Azure cloud.
+            </div>
+            <div class="Heading Logo">
+                <span>Configure Microsoft Azure for Publishing</span>
+                <div class="Icon AzureBlue x32"></div>
+            </div>
+            <div class="Content" style="max-width:600px">
+                <div class="Field">
+                    <div style="padding: 8px 0">
+                        <b>1.</b> <a href="#" onclick="$openUrl('https://www.youtube.com/watch?v=P2CFzgNkJd0&list=PLy2g3SjvDe2YbSdvoXilUh9BvkllO50jh&index=2&t=0s'); return false;" title="Click here to watch how to configure publishing to Microsoft Azure.">Watch</a> a brief tutorial explaining steps 2-7.
+                        <a href="#" onclick="$openUrl('https://www.youtube.com/watch?v=qLSpWBZB08M&list=PLy2g3SjvDe2YbSdvoXilUh9BvkllO50jh&index=3'); return false;" title="Click here to learn about deployment of apps to Microsoft Azure.">Learn</a> about deploying to Microsoft Azure.
+                        <a href="#" onclick="$openUrl('https://azure.microsoft.com/en-us/free/'); return false;" title="Sign up for new Microsoft Azure account">Sign up</a> for an account.
+                    </div>
+                </div>
+                <div class="Field">
+                    <div style="padding: 8px 0">
+                        <b>2.</b> <a href="#" onclick="$openUrl('https://portal.azure.com'); return false;" title="Click here to navigate to Azure portal.">Navigate</a> to Azure portal and sign in.
+                        Select "Azure Active Directory" section in the menu, choose "Properties", copy "<b>Directory ID</b>", and paste below.
+                    </div>
+                    <input id="Azure_TenantID" name="Azure_TenantID" style="width:300px" placeholder="Directory ID" title="Directory ID" />
+                </div>
+                <div class="Field" style="margin-top: 4px">
+                    <div style="margin: 4px 0">
+                        <b>3.</b> Copy the value below to the clipboard and go to "App registrations" in the Azure Active Directory section of the portal.
+                    </div>
+                    <input id="Azure_RedirectUri" name="Azure_RedirectUri" style="width:300px" value="https://codeontime.com/publish/azure" disabled="disabled" />
+                    <a href="#" onclick="copyToClipboard($('#Azure_RedirectUri')); return false;">copy</a>
+                </div>
+                <div class="Field" style="margin-top: 4px">
+                    <div style="margin: 4px 0">
+                        <b>4.</b> Start a new registration. Enter "Code On Time" in the "Name", and paste "Sign-on URL" from the clipboard.
+                        Press "Create". Select the registration with "Code On Time" in the Display Name. Copy "<b>Application ID</b>" to the clipboard and paste the value below.
+                    </div>
+                    <input id="Azure_ClientID" name="Azure_ClientID" style="width:300px" placeholder="Application ID" title="Application ID" />
+                </div>
+                <div class="Field" style="margin-top: 4px">
+                    <div style="margin: 4px 0">
+                        <b>5.</b>  Select "Required permissions", and add "<b>Windows Azure Service Management API</b>".
+                        Select permission "<b>Access Azure Service Management as organization users</b>", and save changes.
+                    </div>
+                </div>
+                <div class="Field" style="margin-top: 4px">
+                    <div style="margin: 4px 0">
+                        <b>6.</b> Close "Required permissions" and select "Keys".
+                        Enter "Publish" in the "Key description", set "Duration", and save the key.
+                        Copy the <b>Key Value</b> into the clipboard, and paste the value below.
+                    </div>
+                    <input id="Azure_ClientSecret" name="Azure_ClientSecret" style="width:300px" placeholder="Application Key Value" title="Application Key Value" />
+                </div>
+                <div class="Field">
+                    <div style="padding: 8px 0">
+                        <b>7.</b> Press "Authenticate" and sign in to your Azure account.
+                    </div>
+                </div>
+                <div class="tasks">
+                </div>
+            </div>
+        </div>
+        <div style="padding: 0px; display:none" id="PublishAzure" data-onshow="AzureController.loadPublish()" data-title="Publish - Azure" data-actions="Publish">
+            <div class="Content Header">
+                Publish app to Azure App Service.
+            </div>
+            <div class="Heading Logo">
+                <span>Publish To Azure</span>
+                <div class="Icon AzureBlue x32"></div>
+            </div>
+            <div class="Content" id="Azure_Mode_Container">
+                <div>Please select your Azure subscription, app service, and deployment, and press "Publish".</div>
+                <div class="Field" style="display: inline-block; margin-left: -3px">
+                    <label for="Azure_Subscription" class="Label" style="margin-left:1px">Subscription</label>
+                    <select id="Azure_Subscription" class="azure-option" name="Azure_Subscription" onchange="AzureController.set_Subscription($(this).val())">
+                        <option>Loading...</option>
+                    </select>
+                </div>
+                <div class="Field" id="Azure_AppService_Container" style="display: inline-block; padding-left: 1em">
+                    <label for="Azure_AppService" class="Label" style="margin-left:1px">App Service</label>
+                    <select id="Azure_AppService" class="azure-option" name="Azure_AppService" onchange="AzureController.set_AppService($(this).val())">
+                        <option>Loading...</option>
+                    </select>
+                    <div id="Refresh_Azure" title="Refresh"></div>
+                </div>
+                <div class="Field" style="display: inline-block; padding-left: 3em" title="Enter an optional custom domain name for your app.">
+                    <label for="Azure_Preview_URL" class="Label" style="margin-left:1px">Custom Domain (optional)</label>
+                    <input id="Azure_Preview_URL" name="Azure_Preview_URL" style="width: 243px" placeholder2="optional production domain name" />
+                </div>
+                <br />
+                <div class="Field">
+                    <label class="Label">Deployment Options:</label>
+                    <div class="radio-outer-container">
+                        <div class="radio-container">
+                            <label for="Azure_Mode_Production" style="width: 500px">
+                                <input type="radio" name="Azure_Mode" value="production" id="Azure_Mode_Production" checked="checked" onchange="AzureController.loadDeployments()">
+                                <span class="radio-header">Deploy to Production</span>
+                                <span>This option will compile the app and deploy it to the production slot.</span>
+
+                            </label>
+                            <div class="deploy-options" style="display: none">
+                                <span id="Azure_Production_WebConfigCustomizations"></span>
+                            </div>
+                        </div>
+                        <div class="radio-container">
+                            <div id="Staging_Warning" class="warning" style="display: none; width: 400px">
+                                Staging and private deployments are not available in Free and Shared service plans.
+                            </div>
+                            <label for="Azure_Mode_Staging" style="width: 500px">
+                                <input type="radio" name="Azure_Mode" value="staging" id="Azure_Mode_Staging" onchange="AzureController.loadDeployments()">
+                                <span class="radio-header staging-exists" style="display: none">Deploy to Staging</span>
+                                <span class="radio-header staging-dne">Create Staging and Deploy</span>
+                                <span>This option will compile the app and deploy it to the staging slot.</span>
+                                <a id="Delete_Staging_Link" href="#" onclick="AzureController.deleteStaging(); return false;" style="display:none">Delete Staging Slot</a>
+                            </label>
+                            <div class="deploy-options" style="display: none">
+                                <div class="warning" style="width:400px">Staging and production slots share the same configuration settings.</div>
+                                <span id="Azure_Staging_WebConfigCustomizations"></span>
+                            </div>
+                        </div>
+                        <div class="radio-container">
+                            <label for="Azure_Mode_Staging_Swap" style="width: 500px">
+                                <input type="radio" name="Azure_Mode" value="swap" id="Azure_Mode_Staging_Swap" onchange="AzureController.loadDeployments()">
+                                <span class="radio-header">Swap Production and Staging</span>
+                                <span>This option will swap the production and staging slots.</span>
+                            </label>
+                            <span class="deploy-options" style="display: none">
+                                <label for="Azure_Delete_Staging" title="Uncheck this box to keep the staging slot running after swap. This will make it possible to restore the original version when necessary.">
+                                    <input type="checkbox" id="Azure_Delete_Staging" name="Azure_Delete_Staging" />
+                                    Delete staging instance.
+                                </label>
+                            </span>
+                        </div>
+                        <div class="radio-container">
+                            <label for="Azure_Mode_Private" style="width: 500px">
+                                <input type="radio" name="Azure_Mode" value="private" id="Azure_Mode_Private" onchange="AzureController.loadDeployments()">
+                                <span class="radio-header private-exists" style="display: none">Deploy to Private</span>
+                                <span class="radio-header private-dne">Create Private and Deploy</span>
+                                <span>This option will compile the app and deploy it to a specified slot.</span>
+                            </label>
+                            <div class="deploy-options" style="display: none">
+                                <span id="Azure_Private_PrivateCustomizations"></span>
+                                <span id="Azure_Private_WebConfigCustomizations"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <div class="tasks">
+                    <div class="Task">
+                        <a href="#" onclick="$openUrl('https://portal.azure.com'); return false;">Open Azure Portal</a>
+                    </div>
+                    <div class="Task">
+                        <a href="#" onclick="$openUrl('https://www.youtube.com/watch?v=P2CFzgNkJd0&list=PLy2g3SjvDe2YbSdvoXilUh9BvkllO50jh&index=2&t=0s'); return false;">Configuring Azure Cloud for Publishing</a>
+                    </div>
+                    <div class="Task">
+                        <a href="#" onclick="$openUrl('https://www.youtube.com/watch?v=qLSpWBZB08M&list=PLy2g3SjvDe2YbSdvoXilUh9BvkllO50jh&index=3'); return false;">Publishing Apps to Azure</a>
+                    </div>
+                    <div class="Task">
+                        <a href="#" onclick="AzureController.remove(); return false;">Clear configuration</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="padding: 0px; display: none" id="Loading" data-title="Publishing...">
+            <div class="Content Header">Publish your app to Azure App Service.</div>
+            <div class="Heading">
+                Working...
+            </div><div class="Content">
+                Your app is being published.
+                <div class="radial-progress-container">
+                    <div class="radial-progress">
+                        <div class="circle">
+                            <div class="mask full">
+                                <div class="fill"></div>
+                            </div>
+                            <div class="mask half">
+                                <div class="fill"></div>
+                                <div class="fill fix"></div>
+                            </div>
+                            <div class="shadow"></div>
+                        </div>
+                        <div class="inset">
+                            <span class="progress-message"><span class="value">0</span><span class="percent">%</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Buttons" style="opacity:.85">
+            <button id="Cancel_Button">Cancel</button>
+            <button id="Publish_Button">Publish</button>
+            <button id="Azure_Auth_Button">Authenticate</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" language="javascript" src="../_System/MicrosoftAjax.js"></script>
+    <script type="text/javascript" language="javascript" src="../_System/CodeOnTime.Client.js"></script>
+    <script type="text/javascript" language="javascript">
+        var project = null,
+            page = 'Home',
+            azureConfig = null,
+            azureInfo = { subscriptions: [] },
+            ftpConfig = null,
+            webConfig = null,
+            fileSystemConfig = null,
+            storeInExternalFile = null;
+
+        var AzureController = {
+            save: function () {
+                if (page == 'PublishAzure') {
+                    azureConfig.deleteStaging = AzureController.deleteStagingCheck.is(':checked');
+                    var deployMode = this.get_DeployMode();
+                    if (deployMode == 'production') {
+                        azureConfig.webConfigCustomizations.production = WebConfigCustomizer.save($('#Azure_Production_WebConfigCustomizations'));
+                    }
+                    else if (deployMode == 'staging') {
+                        azureConfig.webConfigCustomizations.production = WebConfigCustomizer.save($('#Azure_Staging_WebConfigCustomizations'));
+                    }
+                    else if (deployMode == 'private') {
+                        var private = azureConfig.privateConfiguration = PrivateCustomizer.save($('#Azure_Private_PrivateCustomizations'));
+                        if (private["PrivateSlotName"]) {
+                            if (!private["PrivateSlot"])
+                                private["PrivateSlot"] = private["PrivateSlotName"];
+                            delete private["PrivateSlotName"];
+                        }
+
+                        var privateSlot = private["PrivateSlot"];
+                        if (privateSlot != '')
+                            azureConfig.webConfigCustomizations.private[privateSlot] = WebConfigCustomizer.save($('#Azure_Private_WebConfigCustomizations'));
+                    }
+                    azureConfig.overrideUrl = $('#Azure_Preview_URL').val();
+                }
+            },
+            write: function () {
+                if (this._external === '') {
+                    this._external = !$confirm('Will you or other team members use the same publishing settings on another development machine?', 'Azure Publish', 'YesNo', 'Question') ? 'true' : 'false';
+                    CodeOnTime.Client.writeProperty(project, "p:project/p:publish/p:azure/@external", this._external);
+                }
+                if (this._external == 'true')
+                    window.external.writeAllText(String.format('{0}/Projects/{1}/{2}/DataAquarium.Publish.Azure.json', window.external.Root, window.external.ProjectType, window.external.ProjectName), JSON.stringify(azureConfig));
+                else
+                    CodeOnTime.Client.writeProperty(project, "p:project/p:publish/p:azure", JSON.stringify(azureConfig));
+            },
+            load: function () {
+                this._external = CodeOnTime.Client.readProperty(project, 'p:project/p:publish/p:azure/@external', '')
+                if (this._external === '' || this._external === 'false')
+                    azureConfig = CodeOnTime.Client.readProperty(project, 'p:project/p:publish/p:azure', '');
+                else
+                    azureConfig = window.external.ReadAllText(String.format('{0}\\Projects\\{1}\\{2}\\DataAquarium.Publish.Azure.json', window.external.Root, window.external.ProjectType, window.external.ProjectName));
+
+                if (azureConfig && azureConfig[0] == '{') {
+                    azureConfig = JSON.parse(azureConfig);
+                    if (azureConfig.productionUrl) {
+                        $('.publish-azure .browse-options').show();
+                        $('.publish-azure #Browse_Prod a').text(azureConfig.overrideUrl || azureConfig.productionUrl);
+                        $('.publish-azure #Browse_Prod .browse-qr-code').attr('src', 'data:image/png;base64,' + window.external.ToQRCode(azureConfig.overrideUrl || azureConfig.productionUrl)).show();
+                        if (azureConfig.stagingUrl) {
+                            $('.publish-azure #Browse_Staging').show().find('a').text(azureConfig.stagingUrl);
+                            $('.publish-azure #Browse_Staging .browse-qr-code').attr('src', 'data:image/png;base64,' + window.external.ToQRCode(azureConfig.stagingUrl));
+                        }
+                        if (azureConfig.privateUrl) {
+                            var private = $('.publish-azure #Browse_Private').show();
+                            private.find('a').text(azureConfig.privateUrl);
+                            var label = AzureController.get_PrivateSlotName() + ' (Private)';
+                            private.find('a').attr('title', 'Browse ' + label);
+                            private.find('span').text(label);
+                            $('.publish-azure #Browse_Private .browse-qr-code').attr('src', 'data:image/png;base64,' + window.external.ToQRCode(azureConfig.privateUrl));
+
+                        }
+                    }
+                }
+                if (azureConfig)
+                    $('#Azure_Preview_URL').val(azureConfig.overrideUrl);
+                this.ensure();
+            },
+            ensure: function () {
+                if (!azureConfig)
+                    azureConfig = {};
+                if (!azureConfig.webConfigCustomizations)
+                    azureConfig.webConfigCustomizations = { production: {}, private: {} };
+            },
+            show: function () {
+                if (!azureConfig || !azureConfig.AccessToken)
+                    showPage('AuthenticateAzure');
+                else
+                    showPage('PublishAzure');
+            },
+            test: function () {
+                var appService = this.get_AppService(),
+                    deployMode = this.get_DeployMode();
+                if (appService) {
+                    AzureController.get_PublishProfile(appService, deployMode == 'Staging' ? AzureController.get_Deployment('Staging') : null, function (result) {
+                        CodeOnTime.Client.testFTP({
+                            url: result.publishUrl,
+                            username: result.userName,
+                            password: result.password
+                        }, function (result) {
+                            alert('The app service \"' + appService.label + '\" is available.');
+                        }, function (result) {
+                            alert('Failure!');
+                        });
+                    }, function (error) {
+                        alert('No publish profile found.\n\n' + error);
+                    });
+                }
+                else
+                    alert('Please specify an app service.');
+            },
+            remove: function () {
+                if ($confirm('All Azure Publish settings will be cleared for this project. Continue?')) {
+                    CodeOnTime.Client.writeProperty(project, "p:project/p:publish/p:azure/@external", null);
+                    CodeOnTime.Client.writeProperty(project, "p:project/p:publish/p:azure", null);
+                    continueNavigate('Azure', true);
+                }
+            },
+            loadAuth: function () {
+                if (!!azureConfig && !!azureConfig.TenantID) {
+                    $('#Azure_TenantID').val(azureConfig.TenantID);
+                    $('#Azure_ClientID').val(azureConfig.ClientID);
+                    $('#Azure_ClientSecret').val(azureConfig.ClientSecret);
+                }
+                else {
+                    var initial = window.external.ReadAllText(window.external.Root + '\\Publish.Azure.json');
+                    if (initial && initial[0] == '{') {
+                        initial = JSON.parse(initial);
+                        if (initial.TenantID)
+                            $('#Azure_TenantID').val(initial.TenantID);
+                        if (initial.ClientID)
+                            $('#Azure_ClientID').val(initial.ClientID);
+                        if (initial.ClientSecret)
+                            $('#Azure_ClientSecret').val(initial.ClientSecret);
+                    }
+                }
+            },
+            loadPublish: function () {
+                AzureController.subscriptionSelect = $('#Azure_Subscription');
+                AzureController.appServiceSelect = $('#Azure_AppService');
+                AzureController.deploymentSelect = $('#Azure_Deployment');
+                AzureController.deleteStagingCheck = $('input[name="Azure_Delete_Staging"]').prop('checked', !(azureConfig.deleteStaging == false));
+
+                AzureController.loadSubscriptions();
+            },
+            authenticate: function () {
+                azureConfig.TenantID = $('#Azure_TenantID').val();
+                if (!azureConfig.TenantID) {
+                    alert('Directory ID is required.');
+                    $('#Azure_TenantID').focus();
+                    return;
+                }
+                azureConfig.ClientID = $('#Azure_ClientID').val();
+                if (!azureConfig.ClientID) {
+                    alert('Application ID is required.');
+                    $('#Azure_ClientID').focus();
+                    return;
+                }
+                azureConfig.ClientSecret = $('#Azure_ClientSecret').val();
+                if (!azureConfig.ClientSecret) {
+                    alert('Application Key is required.');
+                    $('#Azure_ClientSecret').focus();
+                    return;
+                }
+                CodeOnTime.Client.authenticateAzure({ config: azureConfig }, function (result) {
+                    if (result && result.AccessToken) {
+                        azureConfig = result;
+                        AzureController.ensure();
+
+                        window.external.writeAllText(window.external.Root + '\\Publish.Azure.json', JSON.stringify({
+                            TenantID: azureConfig.TenantID,
+                            ClientID: azureConfig.ClientID,
+                            ClientSecret: azureConfig.ClientSecret
+                        }));
+
+                        showPage('PublishAzure');
+                    }
+                }, function (result) {
+                    if (result.error_description)
+                        alert('Unable to obtain access token. Please make sure application key is correct and permission "Windows Azure Service Management API" is granted.\n\n' + result.error_description);
+                });
+            },
+            refresh: function () {
+                azureInfo.subscriptions = [];
+                AzureController.loadSubscriptions();
+            },
+            publish: function (forceRefresh) {
+                var sub = this.get_Subscription(),
+                    appService = this.get_AppService();
+                if (appService) {
+                    AzureController.save();
+                    var deployMode = AzureController.get_DeployMode(),
+                        deleteStaging = deployMode == 'swap' && AzureController.deleteStagingCheck.is(':checked'),
+                        stagingDeployment = AzureController.get_Deployment('Staging'),
+                        private = AzureController.get_PrivateSlotName(),
+                        privateDeployment = private && AzureController.get_Deployment(private);
+                    azureConfig.lastDeployMode = deployMode;
+
+                    function publishApp(dep) {
+                        var slot = dep || appService;
+                        function doPublishApp() {
+                            AzureController.get_PublishProfile(appService, dep, function (profile) {
+                                CodeOnTime.Client.testFTP({
+                                    url: profile.publishUrl,
+                                    username: profile.userName,
+                                    password: profile.password
+                                }, function (result) {
+                                    azureConfig.previewUrl = dep ? dep.url : appService.url;
+                                    if (deployMode == 'production' && azureConfig.overrideUrl)
+                                        azureConfig.previewUrl = azureConfig.overrideUrl;
+                                    azureConfig.ftp = profile;
+                                    if (forceRefresh)
+                                        azureConfig.ftp.force = forceRefresh;
+                                    azureConfig.ftp.slot = deployMode;
+                                    AzureController.write();
+                                    continueNavigate('Azure');
+                                }, function (result) {
+                                    alert('Unable to access FTP server for app service. Please make sure FTP Deploy is enabled.');
+                                });
+                            }, function (error) {
+                                alert('No FTP Publish profile found.Please make sure FTP publishing is enabled for the app service.\n\n' + error);
+                            });
+                        }
+
+                        if (slot.data.properties.state == 'Running')
+                            doPublishApp();
+                        else
+                            AzureController.startSlot(slot, doPublishApp, function () {
+                                alert('Failed to start app service!');
+                            });
+
+                    }
+
+                    switch (deployMode) {
+                        case 'production':
+                            publishApp(null);
+                            break;
+                        case 'staging':
+                            if (!stagingDeployment) {
+                                showPage('Loading', true);
+                                showProgressMarquee();
+                                AzureController.createSlot(appService, 'Staging', function (dep) {
+                                    stagingDeployment = dep;
+                                    azureConfig.stagingUrl = dep.url;
+                                    publishApp(dep);
+                                });
+                            }
+                            else
+                                publishApp(stagingDeployment);
+                            break;
+                        case 'private':
+                            if (private) {
+                                if (!privateDeployment) {
+                                    showPage('Loading', true);
+                                    showProgressMarquee();
+                                    AzureController.createSlot(appService, private, function (dep) {
+                                        privateDeployment = dep;
+                                        azureConfig.privateUrl = dep.url;
+                                        publishApp(dep);
+                                    });
+                                }
+                                else
+                                    publishApp(privateDeployment);
+                            }
+                            else {
+                                alert('Please specify a private deployment name.');
+                                Customizer.inputFocus($('#Azure_Private_PrivateCustomizations div[data-prop="PrivateSlotName"] .prop-label'));
+                            }
+                            break;
+                        case 'swap':
+                            if (stagingDeployment) {
+                                azureConfig.previewUrl = azureConfig.overrideUrl || azureConfig.productionUrl;
+                                showPage('Loading');
+                                showProgressMarquee();
+                                AzureController.swap(stagingDeployment, appService, function () {
+                                    if (deleteStaging) {
+                                        azureConfig.stagingUrl = null;
+                                        AzureController.deleteSlot(stagingDeployment, function () { });
+                                    }
+                                    $openUrl(validatePreviewUrl(azureConfig.previewUrl));
+                                    AzureController.write();
+                                    continueNavigate('Azure', true);
+                                }, function (result) {
+                                    showPage('Azure', true);
+                                    alert(result.Message || result);
+                                });
+                            }
+                            else
+                                alert('No staging deployment found.');
+                            break;
+                    }
+                }
+                else {
+                    if (!this.get_Subscription()) {
+                        alert('Please specify a subscription.');
+                        AzureController.subscriptionSelect.focus();
+                    }
+                    else {
+                        alert('Please specify an app service.');
+                        AzureController.appServiceSelect.focus();
+                    }
+                }
+            },
+            swap: function (from, to, success, failure) {
+                CodeOnTime.Client.queryAzure({
+                    config: azureConfig,
+                    method: 'POST',
+                    endpoint: from.data.id + '/slotsswap',
+                    contentType: 'application/json',
+                    apiVersion: '2016-08-01',
+                    data: {
+                        slotSwapEntity: {
+                            targetSlot: to.data.id
+                        }
+                    }
+                }, function () {
+                    function check() {
+                        setTimeout(function () {
+                            CodeOnTime.Client.queryAzure({
+                                config: azureConfig,
+                                endpoint: to.data.id,
+                                apiVersion: '2016-08-01'
+                            }, function (result) {
+                                if (result.properties.state == 'Running' && !result.properties.targetSwapSlot)
+                                    success();
+                                else
+                                    check();
+                            });
+                        }, 1000);
+                    }
+                    check();
+                }, failure);
+            },
+            waitUntilRunning: function (slot, complete) {
+                function check() {
+                    setTimeout(function () {
+                        CodeOnTime.Client.queryAzure({
+                            config: azureConfig,
+                            endpoint: slot.data.id,
+                            apiVersion: '2016-08-01'
+                        }, function (result) {
+                            debugger;
+                            if (result.properties.state == 'Running' && result.properties.slotSwapStatus == null)
+                                complete();
+                            else
+                                check();
+                        });
+                    }, 1000);
+                }
+                check();
+            },
+            createSlot: function (appService, slotName, success) {
+                CodeOnTime.Client.queryAzure({
+                    config: azureConfig,
+                    method: 'PUT',
+                    endpoint: appService.id + '/slots/' + slotName,
+                    data: {
+                        location: appService.data.location,
+                        properties: {}
+                    },
+                    apiVersion: '2016-08-01',
+                    contentType: 'application/json'
+                }, function (dep) {
+                    if (dep.properties && dep.properties.state == 'Running') {
+                        var deployment = {
+                            id: dep.id,
+                            url: (AzureController.supportsHttps(appService.data) ? 'https://' : 'http://') + dep.properties.defaultHostName,
+                            data: dep
+                        };
+                        appService.deployments.push(deployment);
+                        if (success)
+                            success(deployment);
+                    }
+                    else
+                        alert('Failed creating staging deployment slot: ' + (dep.error ? dep.error.message : JSON.stringify(dep)));
+                });
+            },
+            startSlot: function (slot, success, failure) {
+                CodeOnTime.Client.queryAzure({
+                    config: azureConfig,
+                    method: 'POST',
+                    endpoint: slot.id + '/start',
+                    apiVersion: '2016-08-01'
+                }, function (result) {
+                    if (result == '200')
+                        success(result);
+                    else if (failure)
+                        failure(result);
+                })
+            },
+            stopSlot: function (slot, success, failure) {
+                CodeOnTime.Client.queryAzure({
+                    config: azureConfig,
+                    method: 'POST',
+                    endpoint: slot.id + '/stop',
+                    apiVersion: '2016-08-01'
+                }, function (result) {
+                    if (result == '200')
+                        success(result);
+                    else if (failure)
+                        failure(result);
+                });
+            },
+            deleteSlot: function (slot, success) {
+                CodeOnTime.Client.queryAzure({
+                    config: azureConfig,
+                    method: 'DELETE',
+                    endpoint: slot.id,
+                    apiVersion: '2016-08-01'
+                }, function (result) {
+                    if (result == '200') {
+                        var appService = AzureController.get_AppService(),
+                            index = appService.deployments.indexOf(slot);
+                        if (index > -1)
+                            appService.deployments.splice(index, 1);
+                        success(result);
+                    }
+                }, function (result) {
+                    alert(result.Message || result);
+                });
+            },
+            deleteStaging: function () {
+                if ($confirm('Are you sure you wish to delete staging slot?')) {
+                    var dep = this.get_Deployment('Staging');
+                    this.deleteSlot(dep, function () {
+                        AzureController.loadDeployments();
+                    });
+                }
+            },
+            deletePrivate: function () {
+                var private = AzureController.get_PrivateSlotName();
+                if (!private) {
+                    alert('Please specify a private slot name.');
+                    $('#Azure_Private_Name').focus();
+                }
+                else if ($confirm('Are you sure you wish to delete slot "' + private + '"?')) {
+                    var dep = this.get_Deployment(private);
+                    this.deleteSlot(dep, function () {
+                        AzureController.loadDeployments();
+                    });
+                }
+            },
+            loadSubscriptions: function () {
+                AzureController.subscriptionSelect.empty().append('<option>Loading...</option>');
+                AzureController.appServiceSelect.empty();
+                CodeOnTime.Client.queryAzure({
+                    config: azureConfig,
+                    endpoint: 'subscriptions'
+                }, function (result) {
+                    var subs = result.value;
+                    AzureController.subscriptionSelect.empty().append('<option value="">Please select a subscription.</option>');
+                    for (var i in subs) {
+                        var sub = subs[i],
+                            subInfo = {
+                                id: sub.subscriptionId,
+                                data: sub,
+                                appServices: []
+                            };
+                        azureInfo.subscriptions.push(subInfo);
+
+                        var o = $('<option value="' + subInfo.id + '">' + subInfo.data.displayName + '</option>').appendTo(AzureController.subscriptionSelect);
+
+                        if (subInfo.id == azureConfig.subscription) {
+                            o.prop('selected', true);
+                        }
+                    }
+
+                    if (subs.length == 1) {
+                        azureConfig.subscription = subs[0].id;
+                        var first = AzureController.subscriptionSelect.find('option:eq(1)').prop('selected', true);
+                        azureConfig.subscription = first.val();
+                    }
+                    else if (subs.length == 0)
+                        AzureController.subscriptionSelect.find('option').text('No subscriptions found.');
+
+                    AzureController.loadAppServices();
+                });
+            },
+            loadAppServices: function () {
+                var sub = this.get_Subscription();
+                AzureController.appServiceSelect.empty().append('<option>Loading...</option>');
+                if (sub) {
+                    $('#Azure_AppService_Container').show();
+                    function renderAppServiceOptions() {
+                        AzureController.appServiceSelect.empty().append('<option value="" selected="true">Please select an app service.</option>');
+
+                        for (i in sub.appServices) {
+                            var app = sub.appServices[i],
+                                name = app.data.name;
+                            if (app.data.properties.state == 'Stopped')
+                                name += ' (Stopped)';
+                            var o = $('<option value="' + app.id + '">' + app.label + '</option>').appendTo(AzureController.appServiceSelect);
+                            if (app.id == azureConfig.appService)
+                                o.prop('selected', true);
+                        }
+
+                        if (sub.appServices.length == 1)
+                            AzureController.appServiceSelect.find('option:eq(1)').prop('selected', true);
+
+                        AzureController.set_AppService();
+                    }
+
+                    if (sub.appServices.length)
+                        renderAppServiceOptions();
+                    else {
+                        CodeOnTime.Client.queryAzure({
+                            config: azureConfig,
+                            endpoint: 'subscriptions/' + sub.id + '/providers/Microsoft.Web/sites',
+                            apiVersion: '2016-08-01'
+                        }, function (result) {
+                            var apps = result.value;
+                            for (var i in apps) {
+                                var app = apps[i],
+                                    appInfo = {
+                                        id: app.id,
+                                        label: app.name,
+                                        url: (AzureController.supportsHttps(app) ? 'https://' : 'http://') + app.properties.defaultHostName,
+                                        data: app,
+                                        deployments: []
+                                    }
+                                sub.appServices.push(appInfo);
+                            }
+
+                            renderAppServiceOptions();
+                        });
+                    }
+                }
+                else {
+                    $('#Azure_AppService_Container').hide();
+                }
+            },
+            loadDeployments: function (appService) {
+                if (!appService)
+                    appService = this.get_AppService();
+                if (appService) {
+
+                    function refreshDeploymentOptions() {
+                        var supportsSlots = !!appService.data.properties.sku.match(/Standard|Premium/),
+                            stagingDeployment = supportsSlots && AzureController.get_Deployment('Staging'),
+                            private = AzureController.get_PrivateSlotName(),
+                            privateDeployment = supportsSlots && !!private && AzureController.get_Deployment(private),
+                            gettingServiceInfo = $.Deferred();
+
+                        if (!supportsSlots || AzureController._initialized)
+                            gettingServiceInfo.resolve();
+
+                        // check correct option
+                        if (AzureController._initialized)
+                            gettingServiceInfo.resolve();
+                        else if (!supportsSlots) {
+                            $('input#Azure_Mode_Production').prop('checked', true);
+                            gettingServiceInfo.resolve();
+                        }
+                        else {
+                            $.when(
+                                AzureController.get_Manifest(appService),
+                                AzureController.get_Manifest(stagingDeployment)
+                            ).then(function (prodManifest, stagingManifest) {
+                                function selectOption(option) {
+                                    $('input#' + option).prop('checked', true).closest('.radio-container').prependTo($('#PublishAzure .radio-outer-container'));
+                                }
+                                if (azureConfig.lastDeployMode == 'private')
+                                    selectOption('Azure_Mode_Private');
+                                else if (!prodManifest || !prodManifest.date)
+                                    selectOption('Azure_Mode_Production');
+                                else {
+                                    var controllerModified = window.external.GetFileModifiedDate('Controllers.Cache.xml'),
+                                        appModified = window.external.GetFileModifiedDate('Application.Cache.xml');
+                                    if (appModified != '' && (controllerModified == '' || appModified > controllerModified))
+                                        controllerModified = appModified;
+                                    if (!stagingManifest || !stagingManifest.date || controllerModified > stagingManifest.date || stagingManifest.date < prodManifest.date)
+                                        selectOption('Azure_Mode_Staging');
+                                    else
+                                        selectOption('Azure_Mode_Staging_Swap');
+                                }
+                                gettingServiceInfo.resolve();
+                            }, function (error) {
+                                if (typeof (error) == 'object')
+                                    error = JSON.stringify(error);
+                                alert(error);
+                            });
+                        }
+
+                        AzureController._initialized = true;
+                        gettingServiceInfo.done(function () {
+                            var selectedRadio = $('input[name="Azure_Mode"]:checked'),
+                                selectedValue = selectedRadio.val(),
+                                showDeleteStaging = supportsSlots && selectedValue == 'swap';
+
+                            // update deploy options
+                            $('#Azure_Mode_Container .deploy-options').hide();
+                            selectedRadio.closest('.radio-container').find('.deploy-options').show();
+
+                            // update slots
+                            $('input#Azure_Mode_Staging,input#Azure_Mode_Private').attr('disabled', !supportsSlots);
+                            $('label[for="Azure_Mode_Staging"],label[for="Azure_Mode_Private"]').toggleClass('disabled', !supportsSlots);
+                            $('#Staging_Warning').toggle(!supportsSlots);
+
+                            // update staging slot
+                            $('input#Azure_Mode_Staging_Swap').attr('disabled', !stagingDeployment);
+                            $('label[for="Azure_Mode_Staging_Swap"]').toggleClass('disabled', !stagingDeployment);
+
+                            $('.staging-exists').toggle(!!stagingDeployment);
+                            $('.staging-dne').toggle(!stagingDeployment);
+                            $('#Delete_Staging_Link').toggle(!!stagingDeployment);
+                            azureConfig.stagingUrl = stagingDeployment ? stagingDeployment.url : null;
+
+                            // update private slot
+                            $('.private-exists').toggle(!!privateDeployment);
+                            $('.private-dne').toggle(!privateDeployment);
+                            $('#Delete_Private_Link').toggle(!!privateDeployment);
+                            azureConfig.privateUrl = privateDeployment ? privateDeployment.url : null;
+
+                            // update web config customizations
+                            if (selectedValue == 'production')
+                                WebConfigCustomizer.load(azureConfig.webConfigCustomizations.production, webConfig, $('#Azure_Production_WebConfigCustomizations'));
+                            else if (selectedValue == 'staging')
+                                WebConfigCustomizer.load(azureConfig.webConfigCustomizations.production, webConfig, $('#Azure_Staging_WebConfigCustomizations'));
+                            else if (selectedValue == 'private')
+                                AzureController.loadPrivateSlotConfig();
+                        });
+
+                    }
+
+                    if (appService.deployments.length)
+                        refreshDeploymentOptions();
+                    else {
+                        CodeOnTime.Client.queryAzure({
+                            config: azureConfig,
+                            endpoint: appService.id + '/slots',
+                            apiVersion: '2016-08-01'
+                        }, function (result) {
+                            var deps = result.value;
+                            for (var i in deps) {
+                                var dep = deps[i],
+                                    depInfo = {
+                                        id: dep.id,
+                                        url: dep.properties.defaultHostName,
+                                        data: dep
+                                    }
+                                appService.deployments.push(depInfo);
+                            }
+
+                            refreshDeploymentOptions();
+                        });
+                    }
+                }
+            },
+            loadPrivateSlotConfig: function () {
+                PrivateCustomizer.load(azureConfig.privateConfiguration, webConfig, $('#Azure_Private_PrivateCustomizations'));
+                var slot = azureConfig.privateConfiguration ? azureConfig.privateConfiguration["PrivateSlot"] : '',
+                    slotConfig = slot ? azureConfig.webConfigCustomizations.private[slot] : {};
+                WebConfigCustomizer.load(slotConfig, webConfig, $('#Azure_Private_WebConfigCustomizations'));
+            },
+            get_PublishProfile: function (appService, dep, success, failure) {
+                var profileFor = dep || appService;
+                if (profileFor) {
+                    if (profileFor.publishProfile)
+                        success(profileFor.publishProfile);
+                    else
+                        CodeOnTime.Client.queryAzure({
+                            config: azureConfig,
+                            endpoint: profileFor.id + '/publishxml',
+                            apiVersion: '2016-08-01',
+                            method: 'POST',
+                            contentType: 'application/json'
+                        }, function (result) {
+                            if (result && result[0] == '<') {
+                                var xml = $($.parseXML(result)),
+                                    ftp = xml.find('publishProfile[publishMethod="FTP"]'),
+                                    profile = {
+                                        slotType: dep ? 'Deployment' : 'Production',
+                                        slotId: dep ? dep.id : appService.id,
+                                        publishUrl: ftp.attr('publishUrl'),
+                                        userName: ftp.attr('userName'),
+                                        password: ftp.attr('userPWD')
+                                    };
+                                profileFor.publishProfile = profile;
+                                success(profile);
+                            }
+                            else
+                                failure(result);
+                        }, failure);
+                }
+            },
+            get_Manifest: function (slot) {
+                var def = $.Deferred();
+                if (!slot)
+                    def.resolve(null);
+                else if (slot.manifest)
+                    def.resolve(slot.manifest);
+                else
+                    this.get_PublishProfile(slot, null, function (profile) {
+                        CodeOnTime.Client.enumerateFTP({
+                            mode: 'FTP',
+                            url: profile.publishUrl,
+                            username: profile.userName,
+                            password: profile.password
+                        }, function (manifest) {
+                            slot.manifest = manifest;
+                            def.resolve(manifest);
+                        });
+                    }, function (error) {
+                        def.reject(error);
+                    });
+
+                return def;
+            },
+            get_Subscription: function (subId) {
+                subId = subId || azureConfig.subscription;
+                if (!subId)
+                    return null;
+                for (s in azureInfo.subscriptions)
+                    if (azureInfo.subscriptions[s].id == subId)
+                        return azureInfo.subscriptions[s];
+            },
+            set_Subscription: function (subId) {
+                if (azureConfig.subscription != subId) {
+                    azureConfig.subscription = subId;
+                    azureConfig.appService = azureConfig.deployment = null;
+                    this.loadAppServices();
+                }
+            },
+            get_AppService: function (appServiceName) {
+                appServiceName = appServiceName || azureConfig.appService;
+                var sub = this.get_Subscription();
+                if (!appServiceName || !sub)
+                    return null;
+                for (a in sub.appServices)
+                    if (sub.appServices[a].id == appServiceName)
+                        return sub.appServices[a];
+            },
+            set_AppService: function (appServiceName) {
+                if (!appServiceName)
+                    appServiceName = this.appServiceSelect.val();
+                azureConfig.appService = appServiceName;
+                if (appServiceName) {
+                    var appService = this.get_AppService(appServiceName);
+                    azureConfig.productionUrl = appService.url;
+                    this.loadDeployments();
+                }
+            },
+            get_Deployment: function (name) {
+                var appService = this.get_AppService();
+                if (appService)
+                    for (var d in appService.deployments)
+                        if (appService.deployments[d].data.name.indexOf(name) != -1)
+                            return appService.deployments[d];
+                return null;
+            },
+            get_PrivateSlotName: function () {
+                var private = azureConfig.privateConfiguration;
+                return private && (private["PrivateSlot"] || private["PrivateSlotName"]);
+            },
+            get_DeployMode: function () {
+                return $('input[name="Azure_Mode"]:checked').val();
+            },
+            supportsHttps: function (appService) {
+                return appService != null;// && appService.properties.sku != 'Free';
+            }
+        };
+
+        var FTPController = {
+            save: function () {
+                ftpConfig = {
+                    url: $('#FTP_URL').val(),
+                    username: $('#FTP_Username').val(),
+                    password: $('#FTP_Password').val(),
+                    previewUrl: $('#FTP_Preview_URL').val(),
+                    webConfigCustomizations: WebConfigCustomizer.save($('#FTP_WebConfig_Customization'))
+                };
+
+                if (this._external === '') {
+                    this._external = !$confirm('Will you or other team members be using the same publishing settings on other machines?', 'FTP Publish', 'YesNo', 'Question') ? 'true' : 'false';
+                    CodeOnTime.Client.writeProperty(project, "p:project/p:publish/p:ftp/@external", this._external);
+                }
+                if (this._external === 'true')
+                    window.external.writeAllText(String.format('{0}/Projects/{1}/{2}/DataAquarium.Publish.FTP.json', window.external.Root, window.external.ProjectType, window.external.ProjectName), JSON.stringify(ftpConfig));
+                else
+                    CodeOnTime.Client.writeProperty(project, "p:project/p:publish/p:ftp", JSON.stringify(ftpConfig));
+            },
+            load: function () {
+                this._external = CodeOnTime.Client.readProperty(project, 'p:project/p:publish/p:ftp/@external', '');
+                if (this._external === '' || this._external === 'false')
+                    ftpConfig = CodeOnTime.Client.readProperty(project, 'p:project/p:publish/p:ftp', '');
+                else
+                    ftpConfig = window.external.ReadAllText(String.format('{0}\\Projects\\{1}\\{2}\\DataAquarium.Publish.FTP.json', window.external.Root, window.external.ProjectType, window.external.ProjectName));
+
+                if (ftpConfig && ftpConfig[0] == '{') {
+                    ftpConfig = JSON.parse(ftpConfig);
+                    if (ftpConfig.previewUrl) {
+                        $('.publish-ftp .browse-options').show().find('a').text(ftpConfig.previewUrl);
+                        $('.publish-ftp .browse-qr-code').attr('src', 'data:image/png;base64,' + window.external.ToQRCode(ftpConfig.previewUrl));
+                    }
+                }
+            },
+            loadPublish: function () {
+                if (ftpConfig) {
+                    $('#FTP_URL').val(ftpConfig.url);
+                    $('#FTP_Username').val(ftpConfig.username);
+                    $('#FTP_Password').val(ftpConfig.password);
+                    $('#FTP_Preview_URL').val(ftpConfig.previewUrl);
+                }
+                WebConfigCustomizer.load(ftpConfig ? ftpConfig.webConfigCustomizations : {}, webConfig, $('#FTP_WebConfig_Customization'));
+            },
+            test: function () {
+                this.save();
+                CodeOnTime.Client.testFTP(ftpConfig, function () {
+                    alert('The FTP server is available.');
+                }, function (result) {
+                    alert('Failure!');
+                });
+            },
+            publish: function () {
+                this.save();
+                if (!ftpConfig.url || !ftpConfig.username || !ftpConfig.password)
+                    alert('Please specify FTP configuration.');
+                else {
+                    CodeOnTime.Client.testFTP(ftpConfig, function () {
+                        continueNavigate('FTP');
+                    }, function (result) {
+                        alert('Unable to access FTP server.');
+                    });
+                }
+            }
+        }
+
+        var FileSystemController = {
+            save: function () {
+                fileSystemConfig = {
+                    path: $('#FileSystem_Path').val(),
+                    previewUrl: $('#FileSystem_Preview_URL').val(),
+                    webConfigCustomizations: WebConfigCustomizer.save($('#FileSystem_WebConfig_Customization'))
+                };
+
+                if (this._external === '') {
+                    this._external = !$confirm('Will you or other team members be using the same publishing settings on other machines?', 'File System Publish', 'YesNo', 'Question') ? 'true' : 'false';
+                    CodeOnTime.Client.writeProperty(project, "p:project/p:publish/p:fileSystem/@external", this._external);
+                }
+                if (this._external === 'true')
+                    window.external.writeAllText(String.format('{0}/Projects/{1}/{2}/DataAquarium.Publish.FileSystem.json', window.external.Root, window.external.ProjectType, window.external.ProjectName), JSON.stringify(fileSystemConfig));
+                else
+                    CodeOnTime.Client.writeProperty(project, "p:project/p:publish/p:fileSystem", JSON.stringify(fileSystemConfig));
+            },
+            load: function () {
+                this._external = CodeOnTime.Client.readProperty(project, 'p:project/p:publish/p:fileSystem/@external', '')
+                if (this._external === '' || this._external === 'false')
+                    fileSystemConfig = CodeOnTime.Client.readProperty(project, 'p:project/p:publish/p:fileSystem', '');
+                else
+                    fileSystemConfig = window.external.ReadAllText(String.format('{0}\\Projects\\{1}\\{2}\\DataAquarium.Publish.FileSystem.json', window.external.Root, window.external.ProjectType, window.external.ProjectName));
+
+                if (fileSystemConfig) {
+                    fileSystemConfig = JSON.parse(fileSystemConfig);
+
+                    if (fileSystemConfig.previewUrl) {
+                        $('.publish-file-system .browse-options').show().find('a').text(fileSystemConfig.previewUrl);
+                        $('.publish-file-system .browse-qr-code').attr('src', 'data:image/png;base64,' + window.external.ToQRCode(fileSystemConfig.previewUrl));
+                    }
+                }
+            },
+            loadPublish: function () {
+                if (fileSystemConfig) {
+                    $('#FileSystem_Path').val(fileSystemConfig.path);
+                    $('#FileSystem_Preview_URL').val(fileSystemConfig.previewUrl);
+                }
+                WebConfigCustomizer.load(fileSystemConfig ? fileSystemConfig.webConfigCustomizations : {}, webConfig, $('#FileSystem_WebConfig_Customization'));
+            },
+            publish: function () {
+                this.save();
+                continueNavigate('FileSystem');
+            }
+        };
+
+        var Customizer = function (properties) {
+            var thisCustomizer = this;
+            this.Properties = properties || [];
+
+            this.defaultShow = function (val, elem, prop, isOriginal) {
+                if (!val && isOriginal)
+                    elem.text('N/A');
+                else
+                    elem.text(val || prop.placeholder);
+            }
+
+            this.defaultVisibleWhen = function (defaultVal, defaults, customVal, customs) {
+                return defaultVal && (!$.isArray(defaultVal) || defaultVal.length > 0);
+            }
+
+            this.init = function () {
+                try {
+                    var path = String.format('../../Projects/{0}/{1}/DataAquarium.Publish.js', window.external.ProjectType, window.external.ProjectName);
+                    if (window.external.IsDevelopmentMode)
+                        path = String.format('../../../../../../Code OnTime/Projects/{0}/{1}/DataAquarium.Publish.js', window.external.ProjectType, window.external.ProjectName);
+                    $('<script type="text/javascript" language="javascript" src="' + path + '"><' + '/script>').appendTo($('body'));
+                }
+                catch (ex) {
+                }
+            }
+
+            this.getDefaults = function (webConfig) {
+                var properties = thisCustomizer.defaults,
+                    i;
+                if (!!properties)
+                    return properties;
+                else {
+                    properties = {};
+
+                    for (i in thisCustomizer.Properties) {
+                        var prop = thisCustomizer.Properties[i];
+
+                        if (typeof prop.get == 'function')
+                            properties[prop.name] = prop.get();
+                        else if (!prop.multiple)
+                            properties[prop.name] = webConfig.readProperty(prop.select + '/' + prop.value, null);
+                        else {
+                            var nodes = webConfig.selectNodes(prop.select),
+                                field = properties[prop.name] = [],
+                                exclude = prop.exclude && new RegExp(prop.exclude);
+
+                            for (i = 0; i < nodes.length; i++) {
+                                var node = nodes.get(i),
+                                    text = node.readProperty(prop.text, 'ERROR'),
+                                    value = node.readProperty(prop.value, null);
+
+                                if (!exclude || !exclude.test(text))
+                                    field.push({ text: text, value: value });
+                            }
+                        }
+                    }
+                    return thisCustomizer.defaults = properties;
+                }
+            }
+
+            this.save = function (container) {
+                var config = {};
+                for (i in thisCustomizer.Properties) {
+                    var prop = thisCustomizer.Properties[i],
+                        val = null,
+                        propContainer = container.find('[data-prop="' + prop.name + '"]');
+
+                    if (!prop.multiple) {
+                        val = propContainer.find('.prop-input').val();
+                        if (typeof prop.set == 'function')
+                            prop.set(val);
+                    }
+                    else {
+                        var vals = {}, textVal;
+                        propContainer.find('[data-text]').each(function () {
+                            var inputContainer = $(this),
+                                text = inputContainer.data('text'),
+                                input = inputContainer.find('.prop-input'),
+                                textVal = input.val();
+
+                            if (!!textVal)
+                                vals[text] = textVal;
+                        })
+
+                        val = !$.isEmptyObject(vals) ? vals : null;
+                    }
+
+                    if (!!val)
+                        config[prop.name] = val;
+                }
+                if (typeof config.DebugMode != 'undefined')
+                    CodeOnTime.Client.publishDebugMode(config.DebugMode);
+                return config;
+            }
+
+            this.load = function (config, webConfig, container) {
+                if (!container.is('.web-config-customizer')) {
+                    container.addClass('web-config-customizer');
+                    container.data('customizer', thisCustomizer);
+                    if (!config)
+                        config = {};
+                    var defaults = this.getDefaults(webConfig),
+                        lastGroup = null,
+                        groupContainer = null;
+                    thisCustomizer._skipSet = true;
+                    for (i in thisCustomizer.Properties) {
+                        var prop = thisCustomizer.Properties[i],
+                            show = prop.show || this.defaultShow,
+                            defaultVal = defaults[prop.name],
+                            customVal = config[prop.name],
+                            propContainer = $('<div data-prop="' + prop.name + '"></div>');
+
+                        if (!!prop.label)
+                            $('<div class="prop-name"></div>').text(prop.label).appendTo(propContainer);
+
+                        if (!prop.options && typeof prop.getOptions == 'function')
+                            prop.options = prop.getOptions(container, defaultVal, customVal);
+
+                        function addInput(text, origV, newV) {
+                            var inputContainer = $('<div class="prop-value"></div>'),
+                                nameCont = $('<div class="prop-text"></div>').text(text).appendTo(inputContainer).toggle(!!text),
+                                original = $('<div class="prop-original" title="Original configuration value"></div>').appendTo(inputContainer);
+
+                            inputContainer.toggleClass('is-overriden', !!newV);
+                            if (!prop.options) {
+                                var tooltip = prop.tooltip || prop.placeholder,
+                                    label = $('<div class="prop-label"></div>').appendTo(inputContainer),
+                                    input = $('<input class="prop-input" type="text"/>').attr('placeholder', prop.placeholder).hide().appendTo(inputContainer);
+
+                                if (tooltip) {
+                                    label.attr('title', tooltip + '. Click here to change.');
+                                    input.attr('title', tooltip);
+                                }
+
+                                if (!!origV)
+                                    show(origV, original, prop);
+                                else
+                                    original.hide();
+                                input.val(newV);
+                                show(newV, label, prop);
+                            }
+                            else {
+                                var input = $('<select class="prop-input"></select').appendTo(inputContainer);
+                                for (j in prop.options) {
+                                    var option = prop.options[j];
+                                    input.append('<option value="' + prop.options[j].value + '">' + prop.options[j].text + '</option>');
+                                }
+                                input.val(newV);
+                            }
+
+                            if (prop.actions && prop.actions.length > 0) {
+                                var actionContainer = $('<div class="prop-action-container"></div>').appendTo(inputContainer);
+                                for (i in prop.actions) {
+                                    var action = prop.actions[i];
+                                    $('<a href="#" data-action="' + action.id + '" class="prop-action">' + action.text + '</a>').click(function (e) {
+                                        action.callback(input);
+                                        return false;
+                                    }).appendTo(actionContainer);
+                                }
+                            }
+
+                            return inputContainer;
+                        }
+
+                        if (!prop.multiple)
+                            addInput('', defaultVal, customVal).appendTo(propContainer);
+                        else {
+                            propContainer.addClass('prop-multiple');
+                            for (i in defaultVal) {
+                                var def = defaultVal[i],
+                                    cus = customVal && customVal[def.text];
+                                addInput(def.text, def.value, cus || '').attr('data-text', def.text).appendTo(propContainer);
+                            }
+                        }
+
+                        if (!prop.group)
+                            propContainer.appendTo(container);
+                        else {
+                            var groups = prop.group.split('/'),
+                                parent = container,
+                                groupContainer;
+                            for (g in groups) {
+                                var group = groups[g].trim();
+                                groupContainer = parent.children('div[data-prop-group="' + group + '"]');
+                                if (groupContainer.length == 0)
+                                    groupContainer = $('<div data-prop-group="' + group + '"><div class="prop-group-header">' + group + '</div></div>').appendTo(parent);
+                                parent = groupContainer;
+                            }
+                            propContainer.appendTo(groupContainer);
+                        }
+                    }
+                    setTimeout(function () {
+                        thisCustomizer.refreshVisibility(container);
+                    });
+                    return config;
+                }
+                thisCustomizer._skipSet = false;
+            }
+
+            this.loadConfig = function (config, container) {
+                thisCustomizer._skipSet = true;
+                var defaults = this.getDefaults(webConfig);
+                for (i in thisCustomizer.Properties) {
+                    var prop = thisCustomizer.Properties[i],
+                        show = prop.show || this.defaultShow,
+                        defaultVal = defaults[prop.name],
+                        customVal = config[prop.name],
+                        propContainer = container.find('[data-prop="' + prop.name + '"]');
+
+                    function setInput(inputContainer, value) {
+                        inputContainer.toggleClass('is-overriden', !!value);
+
+                        if (!prop.options) {
+                            inputContainer.find('input').val(value);
+                            show(value, inputContainer.find('.prop-label'), prop);
+                        }
+                        else {
+                            inputContainer.find('select').val(value);
+                            if (prop.show)
+                                prop.show(value, inputContainer.find('select'), prop);
+                        }
+
+                        return inputContainer;
+                    }
+
+                    if (!prop.multiple)
+                        setInput(propContainer.find('.prop-value'), customVal);
+                    else {
+                        for (i in defaultVal) {
+                            var def = defaultVal[i],
+                                cus = customVal && customVal[def.text];
+                            setInput(propContainer.find('[data-text="' + def.text + '"]'), cus || '');
+                        }
+                    }
+                }
+            }
+
+            this.refreshVisibility = function (container) {
+                var defaults = this.getDefaults(webConfig),
+                    customs = this.save(container);
+                for (i in thisCustomizer.Properties) {
+                    var prop = thisCustomizer.Properties[i],
+                        defaultVal = defaults[prop.name],
+                        customVal = customs[prop.name],
+                        propContainer = container.find('[data-prop="' + prop.name + '"]'),
+                        visibleWhen = prop.visibleWhen || thisCustomizer.defaultVisibleWhen;
+
+                    propContainer.toggleClass('prop-hidden', !(visibleWhen === true || visibleWhen(defaultVal, defaults, customVal, customs, container)));
+
+                    if (prop.actions) {
+                        for (a in prop.actions) {
+                            var action = prop.actions[a];
+                            if (action.visibleWhen)
+                                propContainer.find('[data-action="' + action.id + '"]').toggle(action.visibleWhen === true || action.visibleWhen(defaultVal, defaults, customVal, customs));
+                        }
+                    }
+                }
+                container.find('div[data-prop-group]').each(function () {
+                    var group = $(this);
+                    group.toggle(!!group.find('div[data-prop]:not(.prop-hidden)').length);
+                });
+            }
+
+            this.write = function (config, webConfig) {
+                for (i in thisCustomizer.Properties) {
+                    var prop = thisCustomizer.Properties[i],
+                        customVal = config[prop.name];
+
+                    if (prop.select && customVal && (!$.isArray(customVal) || customVal.length > 0)) {
+                        if (!prop.multiple) {
+                            webConfig.writeProperty(prop.select + '/' + prop.value, customVal);
+                        }
+                        else {
+                            for (j in customVal) {
+                                var val = customVal[j],
+                                    node = webConfig.selectSingleNode(String.format('{0}[{1}="{2}"]', prop.select, prop.text, j));
+                                node.writeProperty(prop.value, val);
+                            }
+                        }
+                    }
+                }
+            }
+
+            this.getProperty = function (propName) {
+                for (i in thisCustomizer.Properties)
+                    if (thisCustomizer.Properties[i].name == propName)
+                        return thisCustomizer.Properties[i];
+                return null;
+            }
+
+        };
+
+
+        Customizer.inputFocus = function (label) {
+            var input = label.parent().find('input');
+            label.hide();
+            input.data('value', input.val()).show().focus();
+        }
+
+        Customizer.inputBlur = function (input) {
+            var customizer = input.closest('.web-config-customizer').data('customizer');
+            propContainer = input.closest('[data-prop]'),
+                prop = customizer.getProperty(propContainer.attr('data-prop')),
+                label = input.parent().find('.prop-label'),
+                val = input.val();
+            if (prop) {
+                var show = prop.show || customizer.defaultShow;
+                input.hide().val(val);
+                show(val, label, prop);
+                label.show().closest('.prop-value').toggleClass('is-overriden', !!val);
+            }
+        }
+
+
+
+        var WebConfigCustomizer = new Customizer([
+            {
+                name: 'DebugMode',
+                label: '',
+                select: '/configuration/system.web/compilation',
+                tooltip: 'Debug Mode',
+                value: '@debug',
+                getOptions: function (container, def, val) {
+                    var compileOption = def == 'false' ? 'optimized' : 'development';
+                    CodeOnTime.Client.publishDebugMode(def);
+                    return [
+                        { text: 'Include ' + compileOption + ' application front end as specified in web.config file', value: '' },
+                        { text: 'Include optimized version of the application front end', value: 'false' },
+                        { text: 'Include development version of the application front end', value: 'true' }
+                    ]
+                },
+                //options: [
+                //    { text: 'Use web.config compile option', value: 'false' },
+                //    { text: 'Compile for release', value: 'false' },
+                //    { text: 'Compile for debugging (use debug scripts and stylesheets)', value: 'true' }
+                //],
+                visibleWhen: true
+            },
+            {
+                name: 'CustomErrors',
+                select: '/configuration/system.web/customErrors',
+                tooltip: 'Custom Errors',
+                value: '@mode',
+                options: [
+                    { text: 'Hide details of runtime errors from Internet users (default)', value: '' }, // value = RemoteOnly
+                    { text: 'Show details of runtime errors to all users', value: 'Off' },
+                    { text: 'Hide details of runtime errors from all users', value: 'On' }
+                ],
+                show: function (val, elem, prop) {
+                    alert(val)
+                    if (val)
+                        elem.text(val == 'Off' ? 'Enabled' : 'Disabled');
+                    else
+                        elem.text(prop.placeholder);
+                },
+                visibleWhen: true
+            },
+            {
+                name: 'ConnectionStrings',
+                label: 'Database Connection Strings',
+                placeholder: 'Enter an alternative connection string',
+                tooltip: 'Alternative connection string',
+                select: '/configuration/connectionStrings/add',
+                multiple: true,
+                join: true, // TODO
+                text: '@name',
+                value: '@connectionString',
+                show: function (val, elem, prop) {
+                    if (val) {
+                        var m = CodeOnTime.Client.ConnectionStringRegex.exec(val);
+                        if (m && !m[3].match(/^\*+$/)) {
+                            elem.data('pw', m[3]);
+                            val = val.replace(CodeOnTime.Client.ConnectionStringRegex, '$1*****$4');
+                        }
+                        val = val.replace(/(^|;)((Data Source|DataSource|Server)=([^;]+))($|;)/, '$1$3=<span class="cs-server">$4</span>$5');
+                        val = val.replace(/(^|;)((Initial Catalog|Database|location)=([^;]+))($|;)/, '$1$3=<span class="cs-db">$4</span>$5');
+                        val = val.replace(/;/g, '; ');
+                        elem.html(val);
+                    }
+                    else
+                        elem.text(prop.placeholder);
+                },
+                actions: [
+                    {
+                        id: 'a1',
+                        text: 'Test Connection',
+                        callback: function (input) {
+                            var cstring = input.val(),
+                                provider = CodeOnTime.Client.readProperty(project, 'p:project/p:providerName', '');
+                            if (cstring && provider)
+                                CodeOnTime.Client.testConnectionString(provider, cstring);
+                            else
+                                alert('Please specify a connection string.');
+                        }, visibleWhen: function (defaultVal, defaults, customVal, customs) {
+                            return !!customVal;
+                        }
+                    }
+                ]
+            },
+            {
+                name: 'AppSettings',
+                label: 'App Settings',
+                placeholder: 'Override the app setting',
+                tooltip: 'App Setting',
+                select: '/configuration/appSettings/add',
+                multiple: true,
+                text: '@key',
+                value: '@value',
+                exclude: /^ChartImageHandler$/
+            },
+            {
+                name: 'SMTPDelivery',
+                group: 'SMTP',
+                label: 'Delivery Method',
+                tooltip: 'Delivery Method',
+                select: '/configuration/system.net/mailSettings/smtp',
+                value: '@deliveryMethod',
+                options: [
+                    { text: 'N/A', value: '' },
+                    { text: 'Network', value: 'network' },
+                    { text: 'Pickup Directory From IIS', value: 'pickupDirectoryFromIis' },
+                    { text: 'Specified Pickup Directory', value: 'specifiedPickupDirectory' }
+                ]
+            },
+            {
+                name: 'SMTPFrom',
+                group: 'SMTP',
+                label: 'From Address',
+                placeholder: 'Override the SMTP from address',
+                tooltip: 'SMTP From Address',
+                select: '/configuration/system.net/mailSettings/smtp',
+                value: '@from',
+                visibleWhen: function (defaultVal, defaults, customVal, customs) {
+                    return customs["SMTPDelivery"] && customs["SMTPDelivery"] != '';
+                }
+            },
+            {
+                name: 'SMTPNetworkHost',
+                group: 'SMTP / Network',
+                label: 'Host',
+                placeholder: 'Override the SMTP network host',
+                tooltip: 'SMTP Network Host',
+                select: '/configuration/system.net/mailSettings/smtp/network',
+                value: '@host',
+                visibleWhen: function (defaultVal, defaults, customVal, customs) {
+                    return customs["SMTPDelivery"] == 'network';
+                }
+            },
+            {
+                name: 'SMTPDefaultCredentials',
+                group: 'SMTP / Network',
+                label: 'Default Credentials',
+                placeholder: 'Override the SMTP network default credentials/network',
+                tooltip: 'SMTP Network Default Credentials',
+                select: '/configuration/system.net/mailSettings/smtp',
+                value: '@defaultCredentials',
+                options: [
+                    { text: 'N/A', value: '' },
+                    { text: 'Yes', value: 'true' },
+                    { text: 'No', value: 'false' }
+                ],
+                visibleWhen: function (defaultVal, defaults, customVal, customs) {
+                    return customs["SMTPDelivery"] == 'network';
+                }
+            },
+            {
+                name: 'SMTPNetworkUserName',
+                group: 'SMTP / Network / Credentials',
+                label: 'User Name',
+                placeholder: 'Override the SMTP network credentials user name',
+                tooltip: 'SMTP Network Credentials User Name',
+                select: '/configuration/system.net/mailSettings/smtp/network',
+                value: '@userName',
+                visibleWhen: function (defaultVal, defaults, customVal, customs) {
+                    return customs["SMTPDelivery"] == 'network' && customs["SMTPDefaultCredentials"] == 'false';
+                }
+            },
+            {
+                name: 'SMTPNetworkPassword',
+                group: 'SMTP / Network / Credentials',
+                label: 'Password',
+                placeholder: 'Override the SMTP network credentials password',
+                tooltip: 'SMTP Network Credentials Password',
+                select: '/configuration/system.net/mailSettings/smtp/network',
+                value: '@password',
+                visibleWhen: function (defaultVal, defaults, customVal, customs) {
+                    return customs["SMTPDelivery"] == 'network' && customs["SMTPDefaultCredentials"] == 'false';
+                }
+            },
+            {
+                name: 'SMTPEnableSSL',
+                group: 'SMTP / Network',
+                label: 'Enable SSL',
+                placeholder: 'Override the SMTP Network Enable SSL',
+                tooltip: 'SMTP Network Enable SSL',
+                select: '/configuration/system.net/mailSettings/smtp/network',
+                value: '@enableSsl',
+                options: [
+                    { text: 'N/A', value: '' },
+                    { text: 'Yes', value: 'true' },
+                    { text: 'No', value: 'false' }
+                ],
+                visibleWhen: function (defaultVal, defaults, customVal, customs) {
+                    return customs["SMTPDelivery"] == 'network';
+                }
+            },
+            {
+                name: 'SMTPNetworkPort',
+                group: 'SMTP / Network',
+                label: 'Port',
+                placeholder: 'Override the SMTP Network Port',
+                tooltip: 'SMTP Network Port',
+                select: '/configuration/system.net/mailSettings/smtp/network',
+                value: '@port',
+                visibleWhen: function (defaultVal, defaults, customVal, customs) {
+                    return customs["SMTPDelivery"] == 'network';
+                }
+            },
+            {
+                name: 'SMTPClientDomain',
+                group: 'SMTP / Network',
+                label: 'Client Domain',
+                placeholder: 'Override the SMTP Network Client Domain',
+                tooltip: 'SMTP Network Client Domain',
+                select: '/configuration/system.net/mailSettings/smtp/network',
+                value: '@clientDomain',
+                visibleWhen: function (defaultVal, defaults, customVal, customs) {
+                    return customs["SMTPDelivery"] == 'network';
+                }
+            },
+            {
+                name: 'SMTPNetworkTargetName',
+                group: 'SMTP / Network',
+                label: 'Target Name',
+                placeholder: 'Override the SMTP Network Target Name',
+                tooltip: 'SMTP Network Target Name',
+                select: '/configuration/system.net/mailSettings/smtp/network',
+                value: '@targetName',
+                visibleWhen: function (defaultVal, defaults, customVal, customs) {
+                    return customs["SMTPDelivery"] == 'network';
+                }
+            },
+            {
+                name: 'SMTPPickupDirectoryLocation',
+                group: 'SMTP',
+                label: 'Pickup Directory',
+                placeholder: 'Override the SMTP Pickup Directory Location',
+                tooltip: 'SMTP Pickup Directory Location',
+                select: '/configuration/system.net/mailSettings/smtp/specifiedPickupDirectory',
+                value: '@pickupDirectoryLocation',
+                visibleWhen: function (defaultVal, defaults, customVal, customs) {
+                    return customs["SMTPDelivery"] == 'pickupDirectoryFromIis' || customs["SMTPDelivery"] == 'specifiedPickupDirectory';
+                }
+            }
+        ]);
+
+        var PrivateCustomizer = new Customizer([
+            {
+                name: 'PrivateSlot',
+                label: 'Private Slot',
+                tooltip: 'Private Slot',
+                getOptions: function (container) {
+                    var options = [],
+                        appService = AzureController.get_AppService();
+                    if (!container.is('#Azure_Private_PrivateCustomizations'))
+                        return null;
+                    for (d in appService.deployments) {
+                        var dep = appService.deployments[d],
+                            depName = dep.data.name.split('/')[1];
+                        if (depName != 'Staging')
+                            options.push({ text: depName, value: depName });
+                    }
+                    options.push({ text: '(new slot)', value: '' });
+                    return options;
+                },
+                set: function (val) {
+                    var oldPrivateSlot = AzureController.get_PrivateSlotName() || '';
+                    if (val != oldPrivateSlot) {
+                        azureConfig.privateConfiguration['PrivateSlot'] = val;
+                        var config = azureConfig.webConfigCustomizations.private[val] || {};
+                        WebConfigCustomizer.loadConfig(config, $('#Azure_Private_WebConfigCustomizations'));
+                    }
+                },
+                visibleWhen: function (defaultVal, defaults, customVal, customs, container) {
+                    var appService = AzureController.get_AppService();
+                    for (d in appService.deployments) {
+                        var dep = appService.deployments[d],
+                            depName = dep.data.name.split('/')[1];
+                        if (depName != 'Staging')
+                            return true;
+                    }
+                    return false;
+                },
+                actions: [{
+                    id: 'a1',
+                    text: 'Delete Private Slot',
+                    callback: function (input) {
+                        var slot = input.val(),
+                            dep = AzureController.get_Deployment(slot);
+                        if (dep && $confirm('Are you sure you wish to delete deployment slot "' + slot + '"?')) {
+                            AzureController.deleteSlot(dep, function () {
+                                input.find('option[value="' + slot + '"]').remove();
+                                PrivateCustomizer.refreshVisibility(input.closest('.web-config-customizer'));
+                                alert('Slot "' + slot + '" has been deleted!');
+                                azureConfig.privateUrl = null;
+                                AzureController.save();
+                                AzureController.write();
+                            });
+                        }
+                    },
+                    visibleWhen: function (defaultVal, defaults, customVal, customs) {
+                        return !!customVal;
+                    }
+
+                }]
+            },
+            {
+                name: 'PrivateSlotName',
+                label: 'Name of the new private slot',
+                placeholder: 'Enter a private slot name (e.g. "Dev")',
+                tooltip: 'Private Slot Name',
+                visibleWhen: function (defaultVal, defaults, customVal, customs, container) {
+                    return !customs["PrivateSlot"];
+                }
+            }
+        ]);
+
+        $(document).on('mousedown', '.prop-label,input.prop-input', function (e) {
+            Customizer._skipBlur = true;
+        }).on('click', '.prop-label', function (e) {
+            var target = $(e.target).closest('.prop-label');
+            if (!target.is(':focus'))
+                Customizer.inputFocus(target);
+            return false;
+        }).on('click', '.prop-original', function (e) {
+            var target = $(e.target).closest('[data-prop],[prop-value]').find('.prop-label');
+            if (!target.is(':focus'))
+                Customizer.inputFocus(target);
+            return false;
+        }).on('blur', 'input.prop-input', function (e) {
+            var target = $(e.target);
+            setTimeout(function () {
+                if (!target.is(':focus'))
+                    Customizer.inputBlur(target);
+            }, 250);
+            return false;
+        }).on('keydown', '.prop-value input', function (e) {
+            var input = $(e.target);
+            if (e.which == 13) {
+                Customizer.inputBlur(input);
+                return false;
+            }
+            else if (e.which == 27) {
+                var oldVal = input.data('value');
+                input.val(oldVal);
+                Customizer.inputBlur(input);
+                return false;
+            }
+        }).on('change', '.web-config-customizer', function (e) {
+            if (Customizer._skipSet)
+                return;
+            var target = $(e.target),
+                container = target.closest('.web-config-customizer'),
+                customizer = container.data('customizer');
+            if (customizer)
+                customizer.refreshVisibility(container);
+        });
+
+        function publish(options) {
+            showPage('Loading');
+
+            if (options.webConfigCustomizations) {
+                var publishWebConfig = CodeOnTime.Client.loadFromPublish('web.config');
+                if (publishWebConfig.IsEmpty()) {
+                    alert('No web.config file found in the publish directory! Has the project been generated with no compilation errors?');
+                    return;
+                }
+                else {
+                    WebConfigCustomizer.write(options.webConfigCustomizations, publishWebConfig);
+                    CodeOnTime.Client.saveToPublishRoot('web.config', publishWebConfig);
+                }
+            }
+
+            if (options.mode == 'FTP') {
+                CodeOnTime.Client.enumerateDirectory(function (localManifest) {
+                    if (!localManifest) {
+                        alert('No local files detected.');
+                        CodeOnTime.Client.cancel();
+                        return;
+                    }
+
+                    CodeOnTime.Client.enumerateFTP(options, function (remoteManifest) {
+                        var opInfo = { size: 0, operations: [] },
+                            operations = opInfo.operations;
+
+                        operations.push({ type: 'file', path: '_publishManifest.json', op: 'delete', size: 1 });
+                        if (!remoteManifest || options.force) {
+                            // add all dirs, files
+                            operations.push({ op: 'clean' });
+                            opInfo.size++;
+                            for (d in localManifest.directories) {
+                                operations.push({ type: 'directory', path: localManifest.directories[d].path, op: 'write' });
+                                opInfo.size++;
+                            }
+                            for (f in localManifest.files) {
+                                var file = localManifest.files[f];
+                                operations.push({ type: 'file', path: file.path, op: 'write', size: file.size });
+                                opInfo.size += file.size;
+                            }
+                        }
+                        else {
+                            // remove extra files
+                            for (f in remoteManifest.files) {
+                                var remoteFile = remoteManifest.files[f],
+                                    localFile = $.grep(localManifest.files, function (elem) { return elem.path == remoteFile.path })[0];
+
+                                if (!localFile && remoteFile.path != '_publishManifest.json') {
+                                    operations.push({ type: 'file', path: remoteFile.path, op: 'delete' });
+                                    opInfo.size++;
+                                }
+                            }
+
+                            // remove extra folders
+                            for (d in remoteManifest.directories.reverse()) {
+                                var remoteDir = remoteManifest.directories[d],
+                                    localDir = $.grep(localManifest.directories, function (elem) { return elem.path == remoteDir.path })[0];
+
+                                if (!localDir) {
+                                    operations.push({ type: 'directory', path: remoteDir.path, op: 'delete' });
+                                    opInfo.size++;
+                                }
+                            }
+
+                            // add new folders
+                            for (d in localManifest.directories) {
+                                var localDir = localManifest.directories[d],
+                                    remoteDir = $.grep(remoteManifest.directories, function (elem) { return elem.path == localDir.path })[0];
+
+                                if (!remoteDir) {
+                                    operations.push({ type: 'directory', path: localDir.path, op: 'write' });
+                                    opInfo.size++;
+                                }
+                            }
+
+                            // add new/modified files
+                            for (f in localManifest.files) {
+                                var localFile = localManifest.files[f],
+                                    remoteFile = $.grep(remoteManifest.files, function (elem) { return elem.path == localFile.path })[0];
+
+                                if (!remoteFile || remoteFile.md5 != localFile.md5) {
+                                    operations.push({ type: 'file', path: localFile.path, op: 'write', size: localFile.size });
+                                    opInfo.size += localFile.size;
+                                }
+                            }
+                        }
+                        operations.push({ type: 'file', path: '_publishManifest.json', op: 'write', size: 1 });
+                        options.data = JSON.stringify(opInfo);
+
+                        CodeOnTime.Client.publish(options);
+
+                        var publishInterval = setInterval(function () {
+                            if (CodeOnTime.Client.uiBusy())
+                                updateProgress(CodeOnTime.Client.uiProgress());
+                            else {
+                                updateProgress(true);
+                                clearInterval(publishInterval);
+
+                                setTimeout(function () {
+                                    function finishCallback() {
+                                        if (options.previewUrl)
+                                            $openUrl(validatePreviewUrl(options.previewUrl));
+                                        persistProject();
+                                        CodeOnTime.Client.proceed();
+                                    }
+
+                                    if (options.success)
+                                        options.success(finishCallback);
+                                    else
+                                        finishCallback();
+                                }, 250);
+
+                            }
+                        }, 100);
+                    });
+                });
+            }
+            else if (options.mode == 'FileSystem') {
+                var publishPath = String.format('{0}\\Publish\\{1}\\{2}\\_server', window.external.Root, window.external.ProjectType, window.external.ProjectName),
+                    openPath = options.path || publishPath;
+                if (!!options.path)
+                    CodeOnTime.Client.cloneDirectory(publishPath, options.path);
+                updateProgress(true);
+                setTimeout(function () {
+                    $openUrl(openPath);
+                    if (options.previewUrl)
+                        $openUrl(validatePreviewUrl(options.previewUrl));
+                    CodeOnTime.Client.proceed();
+                }, 750);
+                // publish to zip
+                //            var publishPath = String.format('{0}\\Publish\\{1}\\{2}\\_server', window.external.Root, window.external.ProjectType, window.external.ProjectName),
+                //                    backupPublishPath = CodeOnTime.Client.get_variable("$BackupPublishPath"),
+                //                    zip = backupPublishPath + '.zip',
+                //                    openPath = options.path;
+
+                //                if (openPath) {
+                //                    var parts = zip.split('\\');
+                //                    openPath += '\\' + parts[parts.length - 1];
+                //                }
+                //                else
+                //                    openPath = zip;
+
+                //                CodeOnTime.Client.zipDirectory(publishPath, zip);
+                //                if (!!options.path)
+                //                    CodeOnTime.Client.copyFile(zip, openPath);
+                //                updateProgress(true);
+                //                setTimeout(function () {
+                //                    CodeOnTime.Client.openFolderWithSelection(openPath);
+                //                    if (options.previewUrl)
+                //                        $openUrl(validatePreviewUrl(options.previewUrl));
+                //                    CodeOnTime.Client.proceed();
+                //                }, 750);
+            }
+        }
+
+        function pageLoad() {
+            window.external.ProjectDisplayName = CodeOnTime.Client.displayName(window.external.ProjectName);
+            showPage('Home');
+            project = CodeOnTime.Client.loadFromProject('DataAquarium.Project.xml');
+            var publishMode = CodeOnTime.Client.publishMode(),
+                lastPublishMode = CodeOnTime.Client.readProperty(project, 'p:project/p:publish/@mode', '');
+            FTPController.load();
+            AzureController.load();
+            FileSystemController.load();
+            WebConfigCustomizer.init();
+            CodeOnTime.Client.resizeDialog();
+            if (publishMode == 'FileSystem') {
+                publish({
+                    mode: 'FileSystem',
+                    path: fileSystemConfig.path,
+                    previewUrl: fileSystemConfig.previewUrl,
+                    webConfigCustomizations: fileSystemConfig.webConfigCustomizations
+                });
+            }
+            else if (publishMode == 'FTP') {
+                publish({
+                    mode: 'FTP',
+                    url: ftpConfig.url,
+                    username: ftpConfig.username,
+                    password: ftpConfig.password,
+                    previewUrl: ftpConfig.previewUrl,
+                    webConfigCustomizations: ftpConfig.webConfigCustomizations
+                });
+            }
+            else if (publishMode == 'Azure') {
+                var wcCustom = azureConfig.webConfigCustomizations.production,
+                    privateSlot = AzureController.get_PrivateSlotName();
+
+                if (azureConfig.ftp.slot == 'private' && privateSlot)
+                    wcCustom = azureConfig.webConfigCustomizations.private[privateSlot];
+                publish({
+                    mode: 'FTP',
+                    url: azureConfig.ftp.publishUrl,
+                    username: azureConfig.ftp.userName,
+                    password: azureConfig.ftp.password,
+                    previewUrl: azureConfig.previewUrl,
+                    force: azureConfig.ftp.force,
+                    webConfigCustomizations: wcCustom,
+                    success: function (finishCallback) {
+                        delete azureConfig.ftp;
+                        AzureController.save();
+                        AzureController.write();
+                        finishCallback();
+                    }
+                });
+            }
+            else {
+                if (!window.external.ProjectType.match('^(Web Site|Web App)')) {
+                    alert('Project type not supported.');
+                    return;
+                }
+                var appFolder = CodeOnTime.Client.get_variable('$AppFolder');
+                webConfig = CodeOnTime.Client.loadFromProject(appFolder + '\\web.config');
+                if (webConfig.IsEmpty()) {
+                    alert('Your project has failed to compile. Please consult the log at the bottom of the screen for errors reported by the compiler, and resolve these issues before attempting to publish again.');
+                    return;
+                }
+                // most recently used at top
+                if (!lastPublishMode)
+                    $('.publish-app-store').hide();
+                else {
+                    var lastUsed = null;
+                    if (lastPublishMode == 'FileSystem')
+                        lastUsed = 'file-system';
+                    else if (lastPublishMode == 'FTP')
+                        lastUsed = 'ftp';
+                    else if (lastPublishMode == 'Azure')
+                        lastUsed = 'azure';
+                    $('.publish-options-alt-container').show();
+                    $('#publish-options > li:not(.publish-' + lastUsed + '):not(.publish-app-store)').appendTo($('#publish-options-alt'));
+                    $('#publish-options > li.publish-' + lastUsed).addClass('last-used');
+                }
+            }
+        }
+
+        function showPage(newPage, skipOnShow) {
+            page = newPage;
+            $('#Main > div:not(.Buttons)').hide();
+            var next = $('#Main > #' + newPage).show(),
+                title = next.data('title');
+            if (!skipOnShow && next.attr('data-onshow'))
+                eval(next.attr('data-onshow'));
+            if (!!title)
+                window.external.title = title;
+
+            var actions = next.data('actions') || '';
+            $('#Publish_Button').css('display', actions.indexOf('Publish') > -1 ? '' : 'none');
+            $('#Azure_Auth_Button').css('display', actions.indexOf('Authenticate') > -1 ? '' : 'none');
+        }
+
+        function continueNavigate(mode, skipPublish) {
+            CodeOnTime.Client.publishMode(skipPublish ? '' : mode);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:publish/@mode', mode);
+            persistProject();
+            CodeOnTime.Client.proceed();
+        }
+
+        function persistProject() {
+            var oldProject = CodeOnTime.Client.loadFromProject('DataAquarium.Project.xml');
+            if (oldProject.xml != project.xml) {
+                CodeOnTime.Client.prepareFileToWrite(project.url);
+                project.save(project.url);
+                window.external.UpdateProjectVariables();
+            }
+        }
+
+        $('#Cancel_Button').click(function (e) {
+            persistProject();
+            if (page == 'Home')
+                CodeOnTime.Client.cancel();
+            else if (page == 'Loading') {
+                CodeOnTime.Client.uiBusy(false);
+                CodeOnTime.Client.cancel();
+            }
+            else
+                showPage('Home');
+            return false;
+        });
+
+        //        $('#Test_Button').click(function (e) {
+        //            if (page == 'PublishAzure')
+        //                AzureController.test(e.shiftKey);
+        //            else if (page == 'PublishFTP')
+        //                FTPController.test();
+        //            return false;
+        //        });
+
+        $('#Publish_Button').click(function (e) {
+            if ($('body > .cover').length)
+                return false;
+            if (page == 'PublishAzure')
+                AzureController.publish(e.shiftKey);
+            else if (page == 'PublishFTP')
+                FTPController.publish();
+            else if (page == 'PublishFileSystem')
+                FileSystemController.publish();
+            return false;
+        });
+
+        $('#Azure_Auth_Button').click(function () {
+            if ($('body > .cover').length)
+                return false;
+            if (page == 'AuthenticateAzure')
+                AzureController.authenticate();
+            return false;
+        });
+
+        $('.preview-link').click(function (e) {
+            var link = $(e.target);
+            $openUrl(validatePreviewUrl(link.text()));
+            return false;
+        });
+
+        $('#Refresh_Azure').click(function (e) {
+            AzureController.refresh();
+            return false;
+        });
+
+        function showLearnMore() {
+            if ($confirm('This feature is coming soon. Do you want to be notified when it becomes available?', 'Learn More', null, 'Information'))
+                $openUrl('https://www.youtube.com/subscription_center?add_user=codeontime');
+        }
+
+        function downloadNativeApp() {
+            $openUrl('https://my.codeontime.com/appstore');
+        }
+
+        function updateProgress(progress) {
+            if (progress === true) {
+                progress = 1;
+                $('.radial-progress').addClass('complete');
+            }
+
+            progress = Math.floor(progress * 1000) / 10;
+            $('.radial-progress .progress-message .value').text(String.format('{0:n1}', progress));
+
+            var fill_rotation = progress * 1.8,
+                fix_rotation = fill_rotation * 2;
+
+            $('.circle .fill, .circle .mask.full').css('transform', 'rotate(' + fill_rotation + 'deg)');
+            $('.circle .fill.fix').show().css('transform', 'rotate(' + fix_rotation + 'deg)');
+        }
+
+        var progressMarqueeInterval = null,
+            progressMarquee = 0;
+        function showProgressMarquee() {
+            $('.radial-progress .progress-message').hide();
+            progressMarqueeInterval = setInterval(function () {
+                progressMarquee += 0.5;
+                var fill_rotation = progressMarquee * 18,
+                    fix_rotation = fill_rotation * 2;
+
+                $('.circle .fill, .circle .mask.full').css('transform', 'rotate(' + fill_rotation + 'deg)');
+                $('.circle .fill.fix').show().css('transform', 'rotate(' + fix_rotation + 'deg)');
+                if (progressMarquee > 360)
+                    progressMarquee = 0;
+            }, 100);
+        }
+
+        function copyToClipboard(element) {
+            element.css({ 'background-color': '#3399FF', color: '#fff' });
+            CodeOnTime.Client.copyToClipboard(element.val());
+            setTimeout(function () {
+                element.css({ 'background-color': '', color: '' });
+            }, 250);
+        }
+
+        function selectFolder(input) {
+            input.val(window.external.SelectFolder('Please select a publish folder.'));
+        }
+
+        function validatePreviewUrl(url) {
+            if (url && !url.startsWith('http'))
+                url = (url.match(/\.azurewebsites\.net/) ? 'https://' : 'http://') + url;
+            return url;
+        }
+        $('.browse-qr-code').on('click', function (e) {
+            window.external.CopyImageToClipboard($(e.target).attr('src'));
+        }).attr('title', 'Scan QR code to connect Cloud On Time app or click to copy to clipboard.');
+    </script>
+</body>
+</html>

@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Sobre^About^
+
+^Accent^acento^Accent^
+
+^ActionBarActionsHeaderText^Accións^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Cancelar^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Cancelar todos os cambios de rexistro.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Cancelar nova marca.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Gardar novo rexistro para a base de datos.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Gardar^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Crear un rexistro novo {0}.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^New {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Novo^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Rexistro^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Informe^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Gardar os cambios na base de datos.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Gardar^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Engadir conta^AddAccount^
+
+^AddCondition^Engadir condición^AddCondition^
+
+^AddConditionText^Engadir condición de investigación^AddConditionText^
+
+^AddItem^Engadir elemento^AddItem^
+
+^AddMatchingGroup^Engadir grupo de harmonización^AddMatchingGroup^
+
+^AddSearchBarField^Máis campos de investigación^AddSearchBarField^
+
+^AddSystemIdentity^Agregar System Identity^AddSystemIdentity^
+
+^AddToFavorites^Engadir a favoritos^AddToFavorites^
+
+^AdvancedSearch^Busca avanzada^AdvancedSearch^
+
+^AdvancedSearchInstruction^Entre as condicións que deben ser combinados e prema o botón de busca.^AdvancedSearchInstruction^
+
+^After^Despois^After^
+
+^Agenda^Axenda^Agenda^
+
+^AlignedLeft^Aliñado á esquerda^AlignedLeft^
+
+^AlignedRight^Aliñado á dereita^AlignedRight^
+
+^AllDatesInPreriod^Todas as datas no período^AllDatesInPreriod^
+
+^AlternativeView^Seleccione unha visión alternativa de datos.^AlternativeView^
+
+^Always^Sempre^Always^
+
+^AnyValue^(Calquera)^AnyValue^
+
+^Apply^Aplique^Apply^
+
+^Apps^aplicacións^Apps^
+
+^Aquarium^Acuario^Aquarium^
+
+^Auto^Automático^Auto^
+
+^AutoOpenNextItem^Abrir automaticamente o seguinte elemento^AutoOpenNextItem^
+
+^AverageOf^Media de^AverageOf^
+
+^AvgAggregate^Avg: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Media de {0}^AvgAggregateToolTip^
+
+^Azure^Azul^Azure^
+
+^Back^Voltar^Back^
+
+^BackColor^Back Color^BackColor^
+
+^BatchEditActionHeaderText^Lote Editar^BatchEditActionHeaderText^
+
+^BatchEdited^{0} actualizado^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Batch Edit (Form)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^actualizar^BatchUpdate^
+
+^Before^Antes^Before^
+
+^BeginsWith^Comeza con^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^Baga^Berry^
+
+^Between^Entre^Between^
+
+^Bittersweet^Agridoce^Bittersweet^
+
+^Blank^Baleiro^Blank^
+
+^BlankPassword^O contrasinal non pode estar en branco.^BlankPassword^
+
+^BlankUserName^Nome de usuario non pode estar en branco.^BlankUserName^
+
+^BlankValue^(En branco)^BlankValue^
+
+^BlobDownloadHint^Prema aquí para baixar o arquivo orixinal.^BlobDownloadHint^
+
+^BlobDownloadLink^descargar^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Toca a imaxe para descargar o ficheiro orixinal.^BlobDownloadOriginalHint^
+
+^Blur^Desenfocar^Blur^
+
+^Bold^Negriña^Bold^
+
+^BooleanFilterText^Filtros lóxica^BooleanFilterText^
+
+^BooleanIsExpected^Un valor lóxico é esperar.^BooleanIsExpected^
+
+^ButtonShapes^Formas de botón^ButtonShapes^
+
+^By^por^By^
+
+^Calendar^Calendario^Calendar^
+
+^Cancel^Cancelar^Cancel^
+
+^Cards^Tarxetas^Cards^
+
+^Cay^Illote^Cay^
+
+^ChangeYourLanguage^Cambia o seu idioma^ChangeYourLanguage^
+
+^Charts^Charts^Charts^
+
+^Citrus^Cítrico^Citrus^
+
+^Classic^Clásico^Classic^
+
+^ClearFilter^Borrar filtro de {0}^ClearFilter^
+
+^ClearFilter2^Limpar Filtro^ClearFilter2^
+
+^ClearText^Borrar Text^ClearText^
+
+^ClearToolTip^{0} Claras^ClearToolTip^
+
+^Close^Pechar^Close^
+
+^Comfortable^Cómodo^Comfortable^
+
+^Compact^Compacto^Compact^
+
+^Condensed^Condensado^Condensed^
+
+^ConfirmContinue^Continuar?^ConfirmContinue^
+
+^ConfirmReload^Actualizar?^ConfirmReload^
+
+^ConnectionLost^A conexión de rede foi perdida. Probe de novo?^ConnectionLost^
+
+^Construct^Construír^Construct^
+
+^Contains^Contén^Contains^
+
+^Convention^Convenio^Convention^
+
+^Copy^Copie^Copy^
+
+^CountAggregate^Count: {0}^CountAggregate^
+
+^CountAggregateToolTip^Conta de {0}^CountAggregateToolTip^
+
+^CountOf^Conde de^CountOf^
+
+^CreateLink^Crear ligazón^CreateLink^
+
+^CustomFilterOption^Filtro ...^CustomFilterOption^
+
+^Cut^Cortar^Cut^
+
+^DarkKnight^Dark Knight^DarkKnight^
+
+^DarkTheme^Escuro^DarkTheme^
+
+^DataSheetActionDescription^Ver elementos usando un sheet<br/>format datos.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Show en Folla de Datos^DataSheetActionHeaderText^
+
+^DataWarning^O número máximo de elementos para proceso é {0: d}. Prema aquí para filtrar o resultado.^DataWarning^
+
+^Date^Data^Date^
+
+^DateFilterText^Filtros de Data^DateFilterText^
+
+^DateIsExpected^A data é esperada.^DateIsExpected^
+
+^DatesAMinAgo^un minuto^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^nun minuto^DatesInAMin^
+
+^DatesInHour^de aquí a unha hora^DatesInHour^
+
+^DatesInMin^en min {0}^DatesInMin^
+
+^DatesLast^pasado^DatesLast^
+
+^DatesMinAgo^{0} Min atrás^DatesMinAgo^
+
+^DatesNext^seguinte^DatesNext^
+
+^DatesNow^agora^DatesNow^
+
+^DatesOneHour^unha hora^DatesOneHour^
+
+^DateSortAscending^Primeiros no Top^DateSortAscending^
+
+^DateSortDescending^Últimas en Top^DateSortDescending^
+
+^DatesSmart^datas intelixentes^DatesSmart^
+
+^DatesToday^hoxe^DatesToday^
+
+^DatesTomorrow^mañá^DatesTomorrow^
+
+^DatesYesterday^onte^DatesYesterday^
+
+^Day^Día^Day^
+
+^DefaultCancelActionHeaderText^Pechar^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Por favor, enche este formulario e prema no botón Aceptar para crear un rexistro novo {0}. Prema en Cancelar para volver á pantalla anterior.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^Estes son os campos do rexistro {0} que se pode editar.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Por favor, revise a información {0} a continuación. Prema en Editar para cambiar este rexistro, prema en Eliminar para eliminar o rexistro, ou prema en Cancelar / Pechar para volver atrás.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Esta é unha lista de {0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Encher o formulario. Asegúrese de poñerse todos os campos necesarios.^DefaultNewDescription^
+
+^DefaultOption^Omisión^DefaultOption^
+
+^DefaultReferenceDescription^Detalles adicionais sobre {0} son proporcionados na sección de información de referencia.^DefaultReferenceDescription^
+
+^Delete^Borrar^Delete^
+
+^DeleteActionConfirmation^Borrar?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Borrar^DeleteActionHeaderText^
+
+^Deleted^{$ selected} eliminado^Deleted^
+
+^DeleteOriginalSel^eliminar a selección orixinal^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Delete)^DeleteSearchBarField^
+
+^DetailsToolTip^Ver detalles para {0}^DetailsToolTip^
+
+^DevelopExplorer^Project Explorer^DevelopExplorer^
+
+^DevelopFormLayout^esquema do formulario^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^tamaños seleccionar a pantalla para ser incluído no esquema.^DevelopFormLayoutInstr^
+
+^DevelopTools^Ferramentas de Desenvolvemento^DevelopTools^
+
+^Device^dispositivo^Device^
+
+^DeviceLoginPrompt^Inicia sesión para autorizar o acceso a este dispositivo.^DeviceLoginPrompt^
+
+^DidNotMatch^Non se atoparon^DidNotMatch^
+
+^Directions^Instrucións^Directions^
+
+^DiscardChanges^Descartar os cambios?^DiscardChanges^
+
+^DisplayDensity^Amosar Densidade^DisplayDensity^
+
+^DisplayedAbove^Exhibida anterior^DisplayedAbove^
+
+^DisplayedBelow^Exhibido baixo^DisplayedBelow^
+
+^Dock^Conectarse^Dock^
+
+^DoesNotBeginWith^Non comeza con^DoesNotBeginWith^
+
+^DoesNotContain^Non contén^DoesNotContain^
+
+^DoesNotEndWith^Non remata coa^DoesNotEndWith^
+
+^DoesNotEqual^Non é igual a^DoesNotEqual^
+
+^DoesNotInclude^Non ten incluído^DoesNotInclude^
+
+^DoNotMatchAll^Non corresponder a todas as condicións^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Non se atoparon todas as condicións^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Non atoparon condicións^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Non se atoparon condicións^DoNotMatchAnyPastTense^
+
+^Download^Descargar^Download^
+
+^Draw^Debuxar^Draw^
+
+^DuplicateActionHeaderText^Duplicado^DuplicateActionHeaderText^
+
+^DuplicateItem^Elemento duplicado^DuplicateItem^
+
+^DuplicateRow^Duplo Row^DuplicateRow^
+
+^EditActionHeaderText^Editar^EditActionHeaderText^
+
+^EditItem^Editar elemento^EditItem^
+
+^EditModeCancelActionHeaderText^Cancelar^EditModeCancelActionHeaderText^
+
+^EditRow^Editar fila^EditRow^
+
+^Empty^Baleiro^Empty^
+
+^EmptyContext^As accións non están dispoñibles.^EmptyContext^
+
+^EmptyValue^(Baleiro)^EmptyValue^
+
+^Enable^Activar^Enable^
+
+^EndsWith^Termina con^EndsWith^
+
+^Equals^É igual a^Equals^
+
+^Eraser^Goma de borrar^Eraser^
+
+^Error^erro^Error^
+
+^Exit^Saída^Exit^
+
+^ExitFullscreen^fullscreen Exit^ExitFullscreen^
+
+^ExportCsvActionDescription^Cousas para descargar en formato CSV.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Descargar^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Analizar elementos con spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Exportar a folla de cálculo^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Elementos sindicato cun lector de RSS.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^Ver RSS Feed^ExportRssActionHeaderText^
+
+^Favorites^Favoritos^Favorites^
+
+^Felt^Sentido^Felt^
+
+^FileCleared^O valor borrarase ao aforrar^FileCleared^
+
+^FilesBytes^bytes^FilesBytes^
+
+^FilesClear^Claro^FilesClear^
+
+^FilesClearConfirm^Clear?^FilesClearConfirm^
+
+^FilesClick^Clic para seleccionar un ficheiro^FilesClick^
+
+^FilesClickMany^Clic para seleccionar ficheiros^FilesClickMany^
+
+^FilesDrop^Caída dun ficheiro aquí^FilesDrop^
+
+^FilesDropMany^Solte os ficheiros aquí^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Preme para seleccionar un ficheiro^FilesTap^
+
+^FilesTapMany^Preme para seleccionar ficheiros^FilesTapMany^
+
+^Filter^Filtro^Filter^
+
+^FilterApplied^Un filtro foi aplicado.^FilterApplied^
+
+^FilterByField^Seleccione un campo para aplicar un filtro de <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Seleccione unha ou máis opcións da lista de abaixo e prema <b>{2}</b> para filtrar <b>{0}</b> polo campo <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Borrou todos os filtros.^FilterCleared^
+
+^FilterLabelAnd^e^FilterLabelAnd^
+
+^FilterLabelClear^Por suposto^FilterLabelClear^
+
+^FilterLabelEquals^é igual a^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Cambio^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^inclúe^FilterLabelIncludes^
+
+^FilterLabelOr^ou^FilterLabelOr^
+
+^FilterLabelSelectAll^(Select All)^FilterLabelSelectAll^
+
+^FilterSiteMap^Mapa web Filter ...^FilterSiteMap^
+
+^Finish^acabado^Finish^
+
+^FitToWidth^Axustar á largura^FitToWidth^
+
+^FlatTreeToggle^Cambiar a Hierarchy^FlatTreeToggle^
+
+^FontName^Nome da Fonte^FontName^
+
+^FontSize^Tamaño da Fonte^FontSize^
+
+^ForeColor^Cor Fore^ForeColor^
+
+^Forget^esquecer^Forget^
+
+^ForgotYourPassword^Esqueceches o contrasinal?^ForgotYourPassword^
+
+^Format^Formato^Format^
+
+^Freeze^Conxelar^Freeze^
+
+^From^desde^From^
+
+^Fullscreen^Pantalla completa^Fullscreen^
+
+^Future^Futuro^Future^
+
+^GeneralTabText^Xeral^GeneralTabText^
+
+^Generate^Xerar^Generate^
+
+^GenericNewToolTip^Crear un novo^GenericNewToolTip^
+
+^GenericSortAscending^Menor na parte superior^GenericSortAscending^
+
+^GenericSortDescending^Maior no Arriba^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Totais xerais^GrandTotals^
+
+^Granite^Granito^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Gravidade^Gravity^
+
+^GreaterThan^Maior que^GreaterThan^
+
+^GreateThanOrEqual^Maior ou igual^GreateThanOrEqual^
+
+^Grid^Reixa^Grid^
+
+^GridActionDescription^Ver elementos en formato standard<br/>list.^GridActionDescription^
+
+^GridActionHeaderText^Show en Vista por defecto^GridActionHeaderText^
+
+^Group^Grupo^Group^
+
+^GroupByField^Seleccione un campo para grupo <b>{0}</b>.^GroupByField^
+
+^Grouped^Agrupados^Grouped^
+
+^GroupedBy^Agrupados por^GroupedBy^
+
+^GroupedDefault^Eliminouse a agrupación^GroupedDefault^
+
+^Heading1^Título 1^Heading1^
+
+^Heading2^Título 2^Heading2^
+
+^Heading3^Título 3^Heading3^
+
+^Heading4^Título 4^Heading4^
+
+^Heading5^Título 5^Heading5^
+
+^Heading6^Título 6^Heading6^
+
+^Help^Axuda^Help^
+
+^HelpClose^Pechar^HelpClose^
+
+^HelpFullScreen^Pantalla completa^HelpFullScreen^
+
+^Hide^ocultar^Hide^
+
+^HideAdvancedSearch^Agochar Procura avanzada^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Pasar á Lista plana^HierarchyTreeModeToggle^
+
+^Highlighter^Marcador^Highlighter^
+
+^History^Historia^History^
+
+^HistoryToolTip^Ver o historial dos rexistros previamente seleccionados^HistoryToolTip^
+
+^HistoryUnavailable^A historia non está dispoñible.^HistoryUnavailable^
+
+^Home^Casa^Home^
+
+^IdleUser^Aínda está aí? Faga o login de novo.^IdleUser^
+
+^ImportActionDescription^Subir un ficheiro CSV, xls, XLSX ou importar rexistros file<br/>to.^ImportActionDescription^
+
+^ImportActionHeaderText^Importación de Arquivo^ImportActionHeaderText^
+
+^ImportAutoDetect^(Auto detectar)^ImportAutoDetect^
+
+^ImportComplete^completo^ImportComplete^
+
+^ImportDone^importación rematada^ImportDone^
+
+^ImportDownloadTemplate^Descargar modelo de ficheiro de importación.^ImportDownloadTemplate^
+
+^ImportDuplicates^duplicados^ImportDuplicates^
+
+^ImportEmail^Envía o rexistro de importación ao seguinte enderezo de correo electrónico (opcional)^ImportEmail^
+
+^ImportEmailNotSpecified^Beneficiario do rexistro de importación non foi especificado. Desexa continuar aínda así?^ImportEmailNotSpecified^
+
+^ImportExpected^Espera para completar^ImportExpected^
+
+^ImportFileStats^Existen rexistros no ficheiro <b>{0}</b> <b>{1}</b> listo para ser procesada. Por favor, corresponden aos nomes de campo.^ImportFileStats^
+
+^Importing^importador^Importing^
+
+^ImportMappingInstruction^Hai rexistro <b>{0}</b> (s) <b>{1}</b> no arquivo listo para ser processed.<br/>Please mapear os campos de importación de ficheiro de datos para os campos de aplicación e prema en <i>Import</i> para iniciar o procesamento.^ImportMappingInstruction^
+
+^ImportNotSupported^Formato de datos do &quot;{0}&quot; non está soportado.^ImportNotSupported^
+
+^ImportProcessing^Procesamento de ficheiro de importación foi iniciada. Os rexistros importados datos estarán dispoñibles despois do procesamento éxito. Pode actualizar os puntos de vista relevantes / pages para ver os rexistros importados.^ImportProcessing^
+
+^ImportRemaining^Espera para completar^ImportRemaining^
+
+^ImportSelectFile^Seleccione un arquivo de datos en CSV, xls, xlsx ou formato.^ImportSelectFile^
+
+^ImportStartButton^Importación^ImportStartButton^
+
+^ImportUploading^O arquivo está a ser cargado para o servidor. Por favor, agarde ...^ImportUploading^
+
+^ImportUploadInstruction^Escolla o arquivo a subir. O arquivo debe estar no <b>CSV</b>, formato <b>XLS</b>, ou <b>XLSX</b>.^ImportUploadInstruction^
+
+^In^en^In^
+
+^Includes^Inclúe^Includes^
+
+^Indent^Parágrafo^Indent^
+
+^InfoBarAnd^e^InfoBarAnd^
+
+^InfoBarEmpty^baleiro^InfoBarEmpty^
+
+^InfoBarEqualTo^é igual a^InfoBarEqualTo^
+
+^InfoBarGreaterThan^é maior que^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^é maior o igual a^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^sexa inferior a^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^é menor ou igual a^InfoBarLessThanOrEqual^
+
+^InfoBarLike^é como^InfoBarLike^
+
+^InfoBarOr^ou^InfoBarOr^
+
+^InfoBarQuickFind^Calquera campo contén^InfoBarQuickFind^
+
+^InfoBarStartsWith^comeza con^InfoBarStartsWith^
+
+^InitialListMode^Modo lista inicial^InitialListMode^
+
+^InlineEditing^Edición en liña^InlineEditing^
+
+^InsertActionHeaderText^Aceptar^InsertActionHeaderText^
+
+^InsertHorizontalRule^Inserir Liña Horizontal^InsertHorizontalRule^
+
+^InsertingRecords^inserindo rexistros^InsertingRecords^
+
+^InsertOrderedList^Insire lista ordenada^InsertOrderedList^
+
+^InsertUnorderedList^Inserir Lista non ordenada^InsertUnorderedList^
+
+^Into^en^Into^
+
+^InvalidUserNameAndPassword^O seu nome de usuario eo contrasinal non son válidos.^InvalidUserNameAndPassword^
+
+^Italic^Cursiva^Italic^
+
+^ItemsPerPage^Elementos por páxina:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} Elementos seleccionados^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Elemento seleccionado^ItemsSelectedOne^
+
+^JustDatesNow^Agora mesmo^JustDatesNow^
+
+^JustifyCenter^Centro de xustificar^JustifyCenter^
+
+^JustifyFull^Xustificar completa^JustifyFull^
+
+^JustifyLeft^Xustificar á esquerda &#39;^JustifyLeft^
+
+^JustifyRight^Xustificar á dereita^JustifyRight^
+
+^KeepOriginalSel^manter a selección orixinal^KeepOriginalSel^
+
+^LabelsInList^Marcadores na lista^LabelsInList^
+
+^Lacquer^Laca^Lacquer^
+
+^Laminate^Laminado^Laminate^
+
+^Landscape^Paisaxe^Landscape^
+
+^Large^Gran^Large^
+
+^LastMonth^Mes pasado^LastMonth^
+
+^LastQuarter^Cuarto minguante^LastQuarter^
+
+^LastWeek^Semana pasada^LastWeek^
+
+^LastYear^Ano pasado^LastYear^
+
+^Less^Menos^Less^
+
+^LessThan^Less Than^LessThan^
+
+^LessThanOrEqual^Menor ou igual^LessThanOrEqual^
+
+^Lichen^Lique^Lichen^
+
+^LightTheme^Luz^LightTheme^
+
+^Line^liña^Line^
+
+^List^Lista^List^
+
+^ListOneColumn^List (unha columna)^ListOneColumn^
+
+^ListViewStyle^Lista^ListViewStyle^
+
+^Loading^Loading ...^Loading^
+
+^Logical^Lóxico^Logical^
+
+^LoginButton^Iniciar sesión^LoginButton^
+
+^LoginLink^Iniciar sesión^LoginLink^
+
+^Logout^Saír^Logout^
+
+^LookupInstruction^Escolla <b>{0}</b> na lista.^LookupInstruction^
+
+^LookupOriginalSelection^A selección orixinal é <b>&quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^xestionar contas^ManageAccounts^
+
+^Map^Mapa^Map^
+
+^MatchAll^Combinar todas as condicións^MatchAll^
+
+^MatchAllPastTense^Matched todas as condicións^MatchAllPastTense^
+
+^MatchAny^Combinar todas as condicións^MatchAny^
+
+^MatchAnyPastTense^Matched calquera condicións^MatchAnyPastTense^
+
+^Matched^Matched^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Máximo de {0}^MaxAggregateToolTip^
+
+^Maximize^Expandir^Maximize^
+
+^MaximumOf^Máximo de^MaximumOf^
+
+^Medium^Medio^Medium^
+
+^Menu^Menú^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^Mínimo de {0}^MinAggregateToolTip^
+
+^Minimize^Colapso^Minimize^
+
+^MinimumOf^Mínimo de^MinimumOf^
+
+^Mission^Misión^Mission^
+
+^ModeBrowsing^Navegación^ModeBrowsing^
+
+^ModeEditing^Edición^ModeEditing^
+
+^ModeEntering^Entrando^ModeEntering^
+
+^ModeLookup^Busca^ModeLookup^
+
+^Modern^Moderno^Modern^
+
+^ModernRose^Rose Modern^ModernRose^
+
+^ModeViewing^Exame^ModeViewing^
+
+^Month^Mes^Month^
+
+^More^Máis^More^
+
+^MultiSelection^Selección de varias^MultiSelection^
+
+^Municipal^Municipal^Municipal^
+
+^MyAccount^A miña conta^MyAccount^
+
+^Never^Nunca^Never^
+
+^NewActionHeaderText^Novo^NewActionHeaderText^
+
+^NewItem^Novo elemento^NewItem^
+
+^NewRow^Nova fila^NewRow^
+
+^NewRowLink^Prema aquí para crear un novo rexistro.^NewRowLink^
+
+^NewToolTip^New {0}^NewToolTip^
+
+^Next^Seguinte^Next^
+
+^Next2^Preto^Next2^
+
+^NextMonth^Mes seguinte^NextMonth^
+
+^NextQuarter^Seguinte Trimestre^NextQuarter^
+
+^NextWeek^Próxima Semana^NextWeek^
+
+^NextYear^Ano^NextYear^
+
+^No^Non^No^
+
+^NoMatches^Investigación sen resultados.^NoMatches^
+
+^None^ningún^None^
+
+^Noon^Mediodía^Noon^
+
+^NoRecords^Ningún rexistro atopou.^NoRecords^
+
+^NoteDeleteConfirm^Borrar?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^eliminar^NoteDeleteLabel^
+
+^NoteEditLabel^editar^NoteEditLabel^
+
+^NotEmpty^Non baleiro^NotEmpty^
+
+^NotMatched^(Non combinado)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^Número^Number^
+
+^NumberFilterText^Filtros número^NumberFilterText^
+
+^NumberIsExpected^Un número é expected.^NumberIsExpected^
+
+^OdpCommitting^Cargando transaccións ...^OdpCommitting^
+
+^OdpDone^Feito^OdpDone^
+
+^OdpDownloadingBlob^Descargando datos binarios para {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^Descargando datos para {0} ...^OdpDownloadingData^
+
+^OdpInitializing^Inicializando ...^OdpInitializing^
+
+^OdpInvalidResponse^Resposta non válida do servidor.^OdpInvalidResponse^
+
+^OdpLastRefresh^Último refresco: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Non se actualizaron os datos.^OdpNotRefreshed^
+
+^OdpOfflineState^Traballa en modo sen conexión.^OdpOfflineState^
+
+^OdpOnlineRequired^É necesaria a conexión en liña.^OdpOnlineRequired^
+
+^OdpPending^Cambios pendentes^OdpPending^
+
+^OdpReconRequired^Reconciliación é necesaria^OdpReconRequired^
+
+^OdpReconTxDelete^Eliminar este cambio do rexistro?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^Eliminouse a primeira transacción pendente no rexistro.^OdpReconTxDeleted^
+
+^OdpRefresh^Actualizar datos^OdpRefresh^
+
+^OdpRefreshData^Actualizar datos^OdpRefreshData^
+
+^OdpRefreshLast^Actualización de datos^OdpRefreshLast^
+
+^OdpSave^Garda todos os cambios.^OdpSave^
+
+^OdpSaveAndSync^Garda todos os cambios e elixe a opción Sincronizar no menú contextual.^OdpSaveAndSync^
+
+^OdpServerUnavailable^O servidor de aplicacións non está dispoñible.^OdpServerUnavailable^
+
+^OdpStatus^Estado^OdpStatus^
+
+^OdpSync^Sincronizar^OdpSync^
+
+^OdpSynced^Sincronizado^OdpSynced^
+
+^OdpSyncLast^Última sincronización^OdpSyncLast^
+
+^OdpSyncLong^Sincronizar para cargar cambios.^OdpSyncLong^
+
+^OdpSyncUploadFailed^Erro ao cargar {0} ficheiros.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Cargando {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Non se pode eliminar. {1} elementos dependentes en {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Non se puido executar^OdpUnableToExec^
+
+^OdpUnableToProcess^Non se poden procesar transaccións.^OdpUnableToProcess^
+
+^OdpUnableToSave^Non se poden gardar os cambios^OdpUnableToSave^
+
+^OdpUploadFailed^Erro ao cargar ficheiros.^OdpUploadFailed^
+
+^OdpUploadingFiles^Cargando {0} ficheiros ...^OdpUploadingFiles^
+
+^OK^Aceptar-^OK^
+
+^OnHover^en Hover^OnHover^
+
+^OnOrAfter^En ou despois^OnOrAfter^
+
+^OnOrBefore^En ou Antes^OnOrBefore^
+
+^OpenActionHeaderText^Aberto^OpenActionHeaderText^
+
+^Optional^opcional^Optional^
+
+^Orientation^orientación^Orientation^
+
+^Other^Outro^Other^
+
+^Outdent^Outdent^Outdent^
+
+^Page^Páxina^Page^
+
+^Paragraph^Párrafo^Paragraph^
+
+^Password^Contrasinal^Password^
+
+^Past^Pasado^Past^
+
+^Paste^Pegar^Paste^
+
+^Pen^Bolígrafo^Pen^
+
+^PerformAdvancedSearch^Busca^PerformAdvancedSearch^
+
+^Permalink^Permalink^Permalink^
+
+^PermalinkToolTip^Crea unha ligazón permanente rexistro seleccionado^PermalinkToolTip^
+
+^PermalinkUnavailable^Permalink non está dispoñible. Escolla unha marca.^PermalinkUnavailable^
+
+^Petal^Pétalos^Petal^
+
+^Pinnate^Pinnate^Pinnate^
+
+^Plastic^Plástico^Plastic^
+
+^Portrait^Retrato^Portrait^
+
+^PresentationStyle^Seleccione un estilo de presentación de datos.^PresentationStyle^
+
+^Prev2^Anterior^Prev2^
+
+^Previous^Anterior^Previous^
+
+^PromoteActions^Promover accións^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^Trimestre^Quarter^
+
+^Quarter1^1 º trimestre de^Quarter1^
+
+^Quarter2^2 º trimestre^Quarter2^
+
+^Quarter3^Trimestre 3^Quarter3^
+
+^Quarter4^Trimestre 4^Quarter4^
+
+^QuickFindDescription^Busca en {0}^QuickFindDescription^
+
+^QuickFindScope^Buscar en ...^QuickFindScope^
+
+^QuickFindText^Busca Rápida^QuickFindText^
+
+^QuickFindToolTip^Escriba para investigar os rexistros e prema Intro^QuickFindToolTip^
+
+^Quotation^Cita^Quotation^
+
+^Reading^Lendo ...^Reading^
+
+^ReadingPane^Pane de lectura^ReadingPane^
+
+^ReadOnly^{0} é de só lectura.^ReadOnly^
+
+^Recent^Recente^Recent^
+
+^Redo^Refacer^Redo^
+
+^Refresh^Recargar^Refresh^
+
+^Refreshed^Actualizado^Refreshed^
+
+^RememberMe^Lembrar de min a próxima vez^RememberMe^
+
+^RemoveCondition^Eliminar Condición^RemoveCondition^
+
+^RemoveFormat^Eliminar Format^RemoveFormat^
+
+^ReportActionDescription^Procesar un informe en formato PDF^ReportActionDescription^
+
+^ReportActionHeaderText^Informe^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Ver elementos nunha folla de Excel formatted<br/>Microsoft.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Folla de cálculo^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Ver elementos como a imaxe TIFF de varias páxinas.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Imaxe multipage^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Ver elementos como Adobe PDF document.<br/>Requires un lector compatible.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^Documento PDF^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Ver elementos nun documento de Word formatted<br/>Microsoft.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Necesario^Required^
+
+^RequiredField^Este campo é obrigatorio.^RequiredField^
+
+^RequiredFiledMarkerFootNote^indica un campo obrigatorio^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Restablecer^ResetAdvancedSearch^
+
+^ResetSearchConfirm^¿Restablecer as condicións de busca?^ResetSearchConfirm^
+
+^ResolvingReferences^resolver referencias^ResolvingReferences^
+
+^ResumeBrowsing^Recuperar Navegación^ResumeBrowsing^
+
+^ResumeEditing^Recuperar Edición^ResumeEditing^
+
+^ResumeEntering^Recuperar Entrando^ResumeEntering^
+
+^ResumeLookup^Recuperar Lookup^ResumeLookup^
+
+^ResumeViewing^Recuperar Viewing^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Papeis^RolesTab^
+
+^RootNodeText^Nivel superior^RootNodeText^
+
+^Rotate^Xirar^Rotate^
+
+^RowCancelActionHeaderText^Cancelar^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Inserir^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Gardar^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Update?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Selección de actualización^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Gardar^Save^
+
+^SaveAndContinue^Garda e continúa^SaveAndContinue^
+
+^SaveAndNew^Gardar e novo^SaveAndNew^
+
+^Saved^Gardado - {0}^Saved^
+
+^ScanToConfirm^Escanea de novo para confirmar.^ScanToConfirm^
+
+^SeeAll^Ver todos^SeeAll^
+
+^SeeAlso^Vexa tamén^SeeAlso^
+
+^SelectActionHeaderText^Seleccionar^SelectActionHeaderText^
+
+^SelectAll^Seleccionar todo^SelectAll^
+
+^SelectItem^Seleccionar elemento^SelectItem^
+
+^SelectLink^(Seleccione)^SelectLink^
+
+^SelectRow^Seleccionar fila^SelectRow^
+
+^SelectToolTip^Seleccione {0}^SelectToolTip^
+
+^Separator^Separador^Separator^
+
+^Settings^Configuración^Settings^
+
+^Show^mostra^Show^
+
+^ShowAdvancedSearch^Amosar busca avanzada^ShowAdvancedSearch^
+
+^ShowChart^Amosar Gráfico^ShowChart^
+
+^ShowData^Concerto Data^ShowData^
+
+^ShowingItems^Amosando <b>{0}</b> <b>{1}</b> <b>{2}</b> de elementos^ShowingItems^
+
+^ShowingItemsInfo^Amosando {0} elementos.^ShowingItemsInfo^
+
+^ShowingItemsRange^Mostrando {0} de {1} elementos^ShowingItemsRange^
+
+^ShowLess^concerto Menos^ShowLess^
+
+^ShowMore^Amosar máis^ShowMore^
+
+^ShowOptions^amosar opcións^ShowOptions^
+
+^ShowSystemButtons^Amosar botóns de sistema^ShowSystemButtons^
+
+^Sidebar^Sidebar^Sidebar^
+
+^Sign^Asine aquí^Sign^
+
+^SignedOut^asinado Fóra^SignedOut^
+
+^SignUpNow^¡Rexístrate xa^SignUpNow^
+
+^Simple^Simple^Simple^
+
+^SiteActions^Accións do Sitio^SiteActions^
+
+^SizeLabel^Tamaño^SizeLabel^
+
+^Small^Pequeno^Small^
+
+^Social^Social^Social^
+
+^Sort^Clasificar^Sort^
+
+^SortBy^Ordenar por {0}^SortBy^
+
+^SortByField^Seleccione un campo para cambiar a orde de clasificación de <b>{0}</b>.^SortByField^
+
+^SortByOptions^Seleccione a orde de clasificación de <b>{0}</b> polo campo <b>{1}</b> na lista de opcións de embaixo.^SortByOptions^
+
+^Sorted^Ordenado^Sorted^
+
+^SortedDefault^Orde de ordenación predeterminada.^SortedDefault^
+
+^StartImport^iniciar importación^StartImport^
+
+^StrikeThrough^Riscado^StrikeThrough^
+
+^StringSortAscending^Ascendente^StringSortAscending^
+
+^StringSortDescending^Descendente^StringSortDescending^
+
+^Submit^someter^Submit^
+
+^Subscript^Sub Script^Subscript^
+
+^Suggestions^Suxestións^Suggestions^
+
+^SumAggregate^Suma: {0}^SumAggregate^
+
+^SumAggregateToolTip^Suma de {0}^SumAggregateToolTip^
+
+^Summary^Resumo^Summary^
+
+^Summer^Verán^Summer^
+
+^SumOf^Suma de^SumOf^
+
+^Superscript^Super Script^Superscript^
+
+^Sync^Sincronización^Sync^
+
+^TaskResume^Continuar^TaskResume^
+
+^Tasks^Tarefas^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^abc^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^rexistros de proba^TestingRecords^
+
+^Text^Texto^Text^
+
+^TextFilterText^Filtros de texto^TextFilterText^
+
+^Theme^Tema^Theme^
+
+^ThisMonth^Este mes^ThisMonth^
+
+^ThisQuarter^Este Quarter^ThisQuarter^
+
+^ThisWeek^Semana^ThisWeek^
+
+^ThisYear^Este Ano^ThisYear^
+
+^Tiny^minúsculo^Tiny^
+
+^Today^Hoxe^Today^
+
+^Tomorrow^Mañá^Tomorrow^
+
+^Top^arriba^Top^
+
+^ToThisWebsite^a esta web^ToThisWebsite^
+
+^TouchUINotSupported^Touch UI non é compatible con este navegador.^TouchUINotSupported^
+
+^TransitionFade^Desvanecer^TransitionFade^
+
+^TransitionFlip^Sacudidela^TransitionFlip^
+
+^TransitionFlow^Fluxo^TransitionFlow^
+
+^TransitionNone^Ningún^TransitionNone^
+
+^TransitionPop^Estourido^TransitionPop^
+
+^Transitions^Transicións^Transitions^
+
+^TransitionSlide^Foto^TransitionSlide^
+
+^TransitionSlideDown^Deslice abaixo^TransitionSlideDown^
+
+^TransitionSlideUp^Slide Up^TransitionSlideUp^
+
+^TransitionTurn^Vez^TransitionTurn^
+
+^TreeActionDescription^Amosar relacións xerárquicas.^TreeActionDescription^
+
+^TreeActionHeaderText^Amosar Xerarquía^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Obter código de verificación^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Aplicación Authenticator^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Se non pode proporcionar o código de verificación, introduza o código de copia de seguridade.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^código único^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Código de copia de seguridade^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Chamouse a^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^Enviouse un correo electrónico a^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^Enviouse unha mensaxe de texto a^TwoFaCodeSentSms^
+
+^TwoFaConsent^Consentimento^TwoFaConsent^
+
+^TwoFaEnterPassword^Introduce o teu contrasinal^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Chamádeme ao^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^Vou chamar^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^Envíame un correo electrónico a^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^Envíame un mensaje de texto^TwoFaGetCodeSms^
+
+^TwoFaMethod^Método^TwoFaMethod^
+
+^TwoFaMsgChanged^Cambiouse a autenticación de 2 factores.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^Desactivouse a autenticación de 2 factores.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Desactivar a autenticación de dous factores?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^Activouse a autenticación de 2 factores.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Insire o código de verificación de {0} díxitos.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Contrasinal incorrecta.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Código de verificación non válido.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 é o teu código de verificación {0}.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^Non podo escanear o código QR.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Necesito axuda para instalar a aplicación de autenticación.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Teño unha aplicación de autenticación nun dispositivo móbil.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^O uso único de códigos de copia de seguridade permitiralle iniciar sesión se non pode proporcionar un código de verificación.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Códigos de copia de seguridade^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Introduza un código de verificación despois do inicio de sesión correcto.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Insira a clave de configuración na aplicación^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Métodos de verificación^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Escanee o código QR coa cámara^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Escanea o código QR na aplicación^TwoFaSetupScanQrCode^
+
+^TwoFaText^Autenticación de 2 factores^TwoFaText^
+
+^TwoFaTrustThisDevice^Confía neste dispositivo^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Código de verificación^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Usarei unha aplicación de autenticación para obter o código de verificación.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Recibirei unha chamada automática no meu teléfono.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^O código de verificación entregarase por correo electrónico.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^O código de verificación entregarase mediante mensaxe de texto.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Escriba para buscar^TypeToSearch^
+
+^Underline^Subliñado^Underline^
+
+^Undo^Desfacer^Undo^
+
+^Undock^Desencaixar^Undock^
+
+^Unfreeze^Descongelar^Unfreeze^
+
+^UnGrouped^Eliminouse a agrupación^UnGrouped^
+
+^UnLink^Apagar^UnLink^
+
+^UnSelect^Desmarcar^UnSelect^
+
+^UpdateActionHeaderText^Aceptar^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Update?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Selección de actualización^UpdateActionInBatchModeHeaderText^
+
+^Upload^Cargar^Upload^
+
+^UploadDescription^Carga varios ficheiros.^UploadDescription^
+
+^Uploading^Cargando {0} ...^Uploading^
+
+^UpOneLevel^Subir un nivel^UpOneLevel^
+
+^UseLEV^Pegar &quot;{0}&quot;^UseLEV^
+
+^UserName^Nome de usuario^UserName^
+
+^UsersInRole^Usuarios en Papel^UsersInRole^
+
+^UsersTab^Usuarios^UsersTab^
+
+^Vantage^Vantaxe^Vantage^
+
+^Verdant^Verdexante^Verdant^
+
+^Verify^Verificar^Verify^
+
+^View^Vista^View^
+
+^Viewpoint^Punto de vista^Viewpoint^
+
+^Wait^Agarda ...^Wait^
+
+^Week^Semana^Week^
+
+^Welcome1^Benvida^Welcome1^
+
+^Welcome2^Hoxe é^Welcome2^
+
+^WhiteSmoke^White Smoke^WhiteSmoke^
+
+^WithSelectedValues10^Con valores seleccionados (10)^WithSelectedValues10^
+
+^WithSelectedValues5^Con valores seleccionados (Top 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^Con filtros especificados^WithSpecifiedFilters^
+
+^Year^Ano^Year^
+
+^YearToDate^Ano para Data^YearToDate^
+
+^Yes^Si^Yes^
+
+^Yesterday^Onte^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Zoom^ZoomIn^
+
+^ZoomOut^Zoom out^ZoomOut^
+

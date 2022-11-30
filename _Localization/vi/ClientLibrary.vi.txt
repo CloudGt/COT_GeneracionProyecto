@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Giới^About^
+
+^Accent^giọng^Accent^
+
+^ActionBarActionsHeaderText^Hoạt động^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Hủy bỏ^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Hủy bỏ tất cả thay đổi kỷ lục.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Huỷ kỷ lục mới.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Lưu kỷ lục mới vào cơ sở dữ liệu.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Lưu^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Tạo một kỷ lục {0} mới.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^New {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^New^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Ghi^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Báo cáo^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Lưu các thay đổi cơ sở dữ liệu.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Lưu^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Thêm tài khoản^AddAccount^
+
+^AddCondition^Thêm Điều kiện^AddCondition^
+
+^AddConditionText^Thêm điều kiện tìm kiếm^AddConditionText^
+
+^AddItem^Thêm mục^AddItem^
+
+^AddMatchingGroup^Thêm nhóm phù hợp với^AddMatchingGroup^
+
+^AddSearchBarField^Tìm kiếm Fields^AddSearchBarField^
+
+^AddSystemIdentity^Thêm Hệ thống nhận dạng^AddSystemIdentity^
+
+^AddToFavorites^Thêm vào yêu thích^AddToFavorites^
+
+^AdvancedSearch^Tìm kiếm nâng cao^AdvancedSearch^
+
+^AdvancedSearchInstruction^Nhập điều kiện đó phải phù hợp và nút tìm kiếm báo chí.^AdvancedSearchInstruction^
+
+^After^Sau khi^After^
+
+^Agenda^Chương trình nghị sự^Agenda^
+
+^AlignedLeft^Liên kết trái^AlignedLeft^
+
+^AlignedRight^Liên kết phải^AlignedRight^
+
+^AllDatesInPreriod^Tất cả các Ngày trong thời kỳ^AllDatesInPreriod^
+
+^AlternativeView^Chọn một cách nhìn khác về dữ liệu.^AlternativeView^
+
+^Always^Luôn luôn^Always^
+
+^AnyValue^(bất kì)^AnyValue^
+
+^Apply^Áp dụng^Apply^
+
+^Apps^Apps^Apps^
+
+^Aquarium^Hồ cá^Aquarium^
+
+^Auto^Xe hơi^Auto^
+
+^AutoOpenNextItem^Tự động mở mục tiếp theo^AutoOpenNextItem^
+
+^AverageOf^Trung bình^AverageOf^
+
+^AvgAggregate^Trung bình: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Trung bình của {0}^AvgAggregateToolTip^
+
+^Azure^Nhuộm^Azure^
+
+^Back^Trở lại^Back^
+
+^BackColor^Trở lại màu^BackColor^
+
+^BatchEditActionHeaderText^Batch Edit^BatchEditActionHeaderText^
+
+^BatchEdited^{0} Cập nhật^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Batch Edit (theo mẫu)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^cập nhật^BatchUpdate^
+
+^Before^Trước khi^Before^
+
+^BeginsWith^Bắt đầu với^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^Berry^Berry^
+
+^Between^Giữa^Between^
+
+^Bittersweet^Buồn vui lẫn lộn^Bittersweet^
+
+^Blank^Trắng^Blank^
+
+^BlankPassword^Mật khẩu không được để trống.^BlankPassword^
+
+^BlankUserName^Tên người dùng không được để trống.^BlankUserName^
+
+^BlankValue^(Blank)^BlankValue^
+
+^BlobDownloadHint^Click vào đây để tải về tập tin ban đầu.^BlobDownloadHint^
+
+^BlobDownloadLink^tải về^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Chạm vào hình ảnh để tải tập tin gốc.^BlobDownloadOriginalHint^
+
+^Blur^Mơ hồ^Blur^
+
+^Bold^Đậm^Bold^
+
+^BooleanFilterText^Hợp lý Bộ lọc^BooleanFilterText^
+
+^BooleanIsExpected^Một giá trị hợp lý được mong đợi.^BooleanIsExpected^
+
+^ButtonShapes^Hình dạng nút^ButtonShapes^
+
+^By^qua^By^
+
+^Calendar^Lịch^Calendar^
+
+^Cancel^Hủy bỏ^Cancel^
+
+^Cards^Thẻ^Cards^
+
+^Cay^Cồn san hô^Cay^
+
+^ChangeYourLanguage^Thay đổi ngôn ngữ của bạn^ChangeYourLanguage^
+
+^Charts^Bảng xếp hạng^Charts^
+
+^Citrus^Citrus^Citrus^
+
+^Classic^Cổ điển^Classic^
+
+^ClearFilter^Rõ ràng lọc từ {0}^ClearFilter^
+
+^ClearFilter2^Rõ ràng Lọc^ClearFilter2^
+
+^ClearText^Tiêu đề rõ ràng^ClearText^
+
+^ClearToolTip^Rõ ràng {0}^ClearToolTip^
+
+^Close^Đóng^Close^
+
+^Comfortable^Thoải mái^Comfortable^
+
+^Compact^Nhỏ gọn^Compact^
+
+^Condensed^Đặc^Condensed^
+
+^ConfirmContinue^Tiếp tục?^ConfirmContinue^
+
+^ConfirmReload^Nạp lại?^ConfirmReload^
+
+^ConnectionLost^Kết nối mạng đã bị mất. Hãy thử một lần nữa?^ConnectionLost^
+
+^Construct^Xây dựng^Construct^
+
+^Contains^Có^Contains^
+
+^Convention^Ước^Convention^
+
+^Copy^Sao chép^Copy^
+
+^CountAggregate^Count: {0}^CountAggregate^
+
+^CountAggregateToolTip^Count of {0}^CountAggregateToolTip^
+
+^CountOf^Tính của^CountOf^
+
+^CreateLink^Tạo liên kết^CreateLink^
+
+^CustomFilterOption^Bộ lọc ...^CustomFilterOption^
+
+^Cut^Cắt^Cut^
+
+^DarkKnight^Dark Knight^DarkKnight^
+
+^DarkTheme^Tối^DarkTheme^
+
+^DataSheetActionDescription^Hiển thị các mục bằng cách sử dụng một sheet<br/>format dữ liệu.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Hiển thị trong Bảng dữ liệu^DataSheetActionHeaderText^
+
+^DataWarning^Số lượng tối đa của các mục để quá trình là {0: d}. Nhấn vào đây để lọc kết quả.^DataWarning^
+
+^Date^Ngày^Date^
+
+^DateFilterText^Ngày Bộ lọc^DateFilterText^
+
+^DateIsExpected^Một ngày mong đợi.^DateIsExpected^
+
+^DatesAMinAgo^một phút trước^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^trong một phút^DatesInAMin^
+
+^DatesInHour^trong một tiếng nữa^DatesInHour^
+
+^DatesInMin^trong {0} phút^DatesInMin^
+
+^DatesLast^Cuối cùng^DatesLast^
+
+^DatesMinAgo^{0} Phút trước^DatesMinAgo^
+
+^DatesNext^Kế tiếp^DatesNext^
+
+^DatesNow^hiện nay^DatesNow^
+
+^DatesOneHour^Một tiếng trước^DatesOneHour^
+
+^DateSortAscending^Cũ nhất trên đầu^DateSortAscending^
+
+^DateSortDescending^On Top^DateSortDescending^
+
+^DatesSmart^Ngày thông minh^DatesSmart^
+
+^DatesToday^hôm nay^DatesToday^
+
+^DatesTomorrow^Ngày mai^DatesTomorrow^
+
+^DatesYesterday^hôm qua^DatesYesterday^
+
+^Day^Ngày^Day^
+
+^DefaultCancelActionHeaderText^Đóng^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Xin vui lòng điền mẫu này và nhấn nút OK để tạo một bản ghi {0} mới. Nhấp vào Cancel để quay trở lại màn hình trước đó.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^Đây là những lĩnh vực của hồ sơ {0} rằng có thể được chỉnh sửa.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Vui lòng xem lại {0} thông tin dưới đây. Nhấp vào Chỉnh sửa để thay đổi hồ sơ này, nhấn Delete để xóa các bản ghi, hoặc nhấn vào Cancel / Close để trở về.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Đây là một danh sách các {0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Hoàn thành mẫu đơn. Hãy chắc chắn để vào tất cả các lĩnh vực cần thiết.^DefaultNewDescription^
+
+^DefaultOption^Bình thường^DefaultOption^
+
+^DefaultReferenceDescription^Thêm chi tiết về {0} được cung cấp trong phần thông tin tham khảo.^DefaultReferenceDescription^
+
+^Delete^Xóa^Delete^
+
+^DeleteActionConfirmation^Xóa?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Xóa^DeleteActionHeaderText^
+
+^Deleted^Đã xóa {$ chọn}^Deleted^
+
+^DeleteOriginalSel^xóa lựa chọn ban đầu^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Xóa)^DeleteSearchBarField^
+
+^DetailsToolTip^Xem chi tiết cho {0}^DetailsToolTip^
+
+^DevelopExplorer^Project Explorer^DevelopExplorer^
+
+^DevelopFormLayout^Giao diện Mẫu^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^Chọn kích cỡ màn hình để được bao gồm trong bố cục.^DevelopFormLayoutInstr^
+
+^DevelopTools^Những công cụ phát triển^DevelopTools^
+
+^Device^Thiết bị^Device^
+
+^DeviceLoginPrompt^Hãy đăng nhập để cho phép truy cập vào thiết bị này.^DeviceLoginPrompt^
+
+^DidNotMatch^Không phù hợp^DidNotMatch^
+
+^Directions^Hướng^Directions^
+
+^DiscardChanges^Loại bỏ những thay đổi?^DiscardChanges^
+
+^DisplayDensity^Mật độ hiển thị^DisplayDensity^
+
+^DisplayedAbove^Hiển thị trên^DisplayedAbove^
+
+^DisplayedBelow^Dưới đây hiển thị^DisplayedBelow^
+
+^Dock^Vào bến^Dock^
+
+^DoesNotBeginWith^Không bắt đầu bằng^DoesNotBeginWith^
+
+^DoesNotContain^Không chứa^DoesNotContain^
+
+^DoesNotEndWith^Không kết thúc bằng^DoesNotEndWith^
+
+^DoesNotEqual^Không bình đẳng^DoesNotEqual^
+
+^DoesNotInclude^Không bao gồm^DoesNotInclude^
+
+^DoNotMatchAll^Không phù hợp với tất cả các điều kiện^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Không phù hợp với tất cả các điều kiện^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Không phù hợp với bất kỳ điều kiện^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Không phù hợp với bất kỳ điều kiện^DoNotMatchAnyPastTense^
+
+^Download^Tải về^Download^
+
+^Draw^Vẽ^Draw^
+
+^DuplicateActionHeaderText^Duplicate^DuplicateActionHeaderText^
+
+^DuplicateItem^Mục trùng lặp^DuplicateItem^
+
+^DuplicateRow^Hàng trùng lặp^DuplicateRow^
+
+^EditActionHeaderText^Chỉnh sửa^EditActionHeaderText^
+
+^EditItem^Chỉnh sửa mục^EditItem^
+
+^EditModeCancelActionHeaderText^Hủy bỏ^EditModeCancelActionHeaderText^
+
+^EditRow^Chỉnh sửa hàng^EditRow^
+
+^Empty^Trống^Empty^
+
+^EmptyContext^Hành động không có sẵn.^EmptyContext^
+
+^EmptyValue^(Trống)^EmptyValue^
+
+^Enable^Cho phép^Enable^
+
+^EndsWith^Kết thúc Với^EndsWith^
+
+^Equals^Equals^Equals^
+
+^Eraser^Cục gôm^Eraser^
+
+^Error^lỗi^Error^
+
+^Exit^Lối thoát^Exit^
+
+^ExitFullscreen^Thoát toàn màn hình^ExitFullscreen^
+
+^ExportCsvActionDescription^Tải về các mục trong định dạng CSV.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Tải về^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Phân tích mục có spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Xuất để bảng tính^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Syndicate mục với một trình đọc RSS.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^View RSS Feed^ExportRssActionHeaderText^
+
+^Favorites^Yêu thích^Favorites^
+
+^Felt^Cảm thấy^Felt^
+
+^FileCleared^Giá trị sẽ bị xóa khi lưu^FileCleared^
+
+^FilesBytes^byte^FilesBytes^
+
+^FilesClear^Trong sáng^FilesClear^
+
+^FilesClearConfirm^Rõ ràng?^FilesClearConfirm^
+
+^FilesClick^Nhấn vào đây để chọn một tập tin^FilesClick^
+
+^FilesClickMany^Nhấn vào đây để chọn các tập tin^FilesClickMany^
+
+^FilesDrop^Thả một tập tin ở đây^FilesDrop^
+
+^FilesDropMany^Thả các tập tin ở đây^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Bấm để chọn một tập tin^FilesTap^
+
+^FilesTapMany^Bấm để chọn file^FilesTapMany^
+
+^Filter^Bộ lọc^Filter^
+
+^FilterApplied^Một bộ lọc đã được áp dụng.^FilterApplied^
+
+^FilterByField^Chọn một lĩnh vực để áp dụng một bộ lọc để <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Chọn một hoặc nhiều lựa chọn trong danh sách dưới đây và nhấn <b>{2}</b> để lọc <b>{0}</b> bởi lĩnh vực này <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Đã xóa tất cả bộ lọc.^FilterCleared^
+
+^FilterLabelAnd^và^FilterLabelAnd^
+
+^FilterLabelClear^Rõ ràng^FilterLabelClear^
+
+^FilterLabelEquals^bằng^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Thay đổi^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^bao gồm^FilterLabelIncludes^
+
+^FilterLabelOr^hoặc^FilterLabelOr^
+
+^FilterLabelSelectAll^(Select All)^FilterLabelSelectAll^
+
+^FilterSiteMap^Bản đồ trang web lọc...^FilterSiteMap^
+
+^Finish^Hoàn thành^Finish^
+
+^FitToWidth^Vừa với chiều rộng^FitToWidth^
+
+^FlatTreeToggle^Chuyển đến Hierarchy^FlatTreeToggle^
+
+^FontName^Tên phông chữ^FontName^
+
+^FontSize^Kích thước phông chữ^FontSize^
+
+^ForeColor^Fore màu^ForeColor^
+
+^Forget^Quên^Forget^
+
+^ForgotYourPassword^Quên mật khẩu của bạn?^ForgotYourPassword^
+
+^Format^định dạng^Format^
+
+^Freeze^Đóng băng^Freeze^
+
+^From^từ^From^
+
+^Fullscreen^Toàn màn hình^Fullscreen^
+
+^Future^Tương lai^Future^
+
+^GeneralTabText^Tổng^GeneralTabText^
+
+^Generate^Phát ra^Generate^
+
+^GenericNewToolTip^Tạo mới^GenericNewToolTip^
+
+^GenericSortAscending^Nhỏ nhất trên Top^GenericSortAscending^
+
+^GenericSortDescending^Lớn nhất trên đầu^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Đại Totals^GrandTotals^
+
+^Granite^Đá granit^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Nguy cơ^Gravity^
+
+^GreaterThan^Lớn hơn^GreaterThan^
+
+^GreateThanOrEqual^Greater Than Or Equal^GreateThanOrEqual^
+
+^Grid^Lưới^Grid^
+
+^GridActionDescription^Hiển thị các mục trong các định dạng standard<br/>list.^GridActionDescription^
+
+^GridActionHeaderText^Hiện tại Xem tiêu chuẩn^GridActionHeaderText^
+
+^Group^Nhóm^Group^
+
+^GroupByField^Chọn một lĩnh vực để nhóm <b>{0}</b>.^GroupByField^
+
+^Grouped^Nhóm^Grouped^
+
+^GroupedBy^Được nhóm theo^GroupedBy^
+
+^GroupedDefault^Nhóm đã được gỡ bỏ^GroupedDefault^
+
+^Heading1^Tiêu đề 1^Heading1^
+
+^Heading2^Tiêu đề 2^Heading2^
+
+^Heading3^Tiêu đề 3^Heading3^
+
+^Heading4^Tiêu đề 4^Heading4^
+
+^Heading5^Tiêu đề 5^Heading5^
+
+^Heading6^Tiêu đề 6^Heading6^
+
+^Help^Trợ giúp^Help^
+
+^HelpClose^Đóng^HelpClose^
+
+^HelpFullScreen^Full Screen^HelpFullScreen^
+
+^Hide^Ẩn giấu^Hide^
+
+^HideAdvancedSearch^Ẩn Tìm kiếm nâng cao^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Chuyển sang Danh sách phẳng^HierarchyTreeModeToggle^
+
+^Highlighter^Bút đánh dấu^Highlighter^
+
+^History^Lịch sử^History^
+
+^HistoryToolTip^Xem lịch sử của các hồ sơ đã chọn trước đó^HistoryToolTip^
+
+^HistoryUnavailable^Lịch sử là không có sẵn.^HistoryUnavailable^
+
+^Home^Quê hương^Home^
+
+^IdleUser^Bạn vẫn có? Xin vui lòng đăng nhập lại.^IdleUser^
+
+^ImportActionDescription^Tải lên một CSV, XLS, hoặc hồ sơ nhập khẩu XLSX file<br/>to.^ImportActionDescription^
+
+^ImportActionHeaderText^Nhập khẩu từ tập tin^ImportActionHeaderText^
+
+^ImportAutoDetect^(Tự động phát hiện)^ImportAutoDetect^
+
+^ImportComplete^hoàn thành^ImportComplete^
+
+^ImportDone^nhập khẩu đã hoàn thành^ImportDone^
+
+^ImportDownloadTemplate^Tải tập tin mẫu nhập khẩu.^ImportDownloadTemplate^
+
+^ImportDuplicates^Bản sao^ImportDuplicates^
+
+^ImportEmail^Gửi các bản ghi nhập khẩu đến các địa chỉ email sau đây (tùy chọn)^ImportEmail^
+
+^ImportEmailNotSpecified^Người nhận các bản ghi nhập khẩu chưa được quy định. Tiến hành nào?^ImportEmailNotSpecified^
+
+^ImportExpected^Dự kiến ​​sẽ hoàn thành^ImportExpected^
+
+^ImportFileStats^Có hồ sơ <b>{0}</b> trong file <b>{1}</b> sẵn sàng để được xử lý. Hãy kết hợp các tên trường.^ImportFileStats^
+
+^Importing^nhập khẩu^Importing^
+
+^ImportMappingInstruction^Có <b>{0}</b> kỷ lục (s) trong những <b>{1}</b> tập tin đã sẵn sàng để được processed.<br/>Please bản đồ các lĩnh vực nhập khẩu từ tập tin dữ liệu các lĩnh vực ứng dụng và nhấn <i>Import</i> để bắt đầu chế biến.^ImportMappingInstruction^
+
+^ImportNotSupported^định dạng dữ liệu của &quot;{0}&quot; không được hỗ trợ.^ImportNotSupported^
+
+^ImportProcessing^Nhập khẩu xử lý tập tin đã được bắt đầu. Hồ sơ dữ liệu nhập khẩu sẽ trở nên có sẵn sau khi xử lý thành công. Bạn có thể cần phải làm mới các quan điểm có liên quan / các trang web để xem các hồ sơ nhập khẩu.^ImportProcessing^
+
+^ImportRemaining^Dự kiến ​​sẽ hoàn thành^ImportRemaining^
+
+^ImportSelectFile^Chọn một tập tin dữ liệu trong CSV, XLS, XLSX hoặc định dạng.^ImportSelectFile^
+
+^ImportStartButton^Nhập khẩu^ImportStartButton^
+
+^ImportUploading^Tập tin của bạn đang được tải lên máy chủ. Xin vui lòng chờ ...^ImportUploading^
+
+^ImportUploadInstruction^Xin vui lòng chọn tập tin để tải lên. Các tập tin phải được trong <b>CSV</b> định dạng <b>XLS</b>, hoặc <b>XLSX</b>,.^ImportUploadInstruction^
+
+^In^trong^In^
+
+^Includes^Bao gồm^Includes^
+
+^Indent^Lịnh sung công^Indent^
+
+^InfoBarAnd^và^InfoBarAnd^
+
+^InfoBarEmpty^trống^InfoBarEmpty^
+
+^InfoBarEqualTo^bằng^InfoBarEqualTo^
+
+^InfoBarGreaterThan^lớn hơn^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^lớn hơn hoặc bằng^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^ít hơn^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^nhỏ hơn hoặc bằng^InfoBarLessThanOrEqual^
+
+^InfoBarLike^giống như^InfoBarLike^
+
+^InfoBarOr^hoặc^InfoBarOr^
+
+^InfoBarQuickFind^Lĩnh vực nào có chứa^InfoBarQuickFind^
+
+^InfoBarStartsWith^bắt đầu với^InfoBarStartsWith^
+
+^InitialListMode^Danh sách ban đầu chế độ^InitialListMode^
+
+^InlineEditing^Chỉnh sửa Nội tuyến^InlineEditing^
+
+^InsertActionHeaderText^OK^InsertActionHeaderText^
+
+^InsertHorizontalRule^Quy tắc chèn ngang^InsertHorizontalRule^
+
+^InsertingRecords^chèn hồ sơ^InsertingRecords^
+
+^InsertOrderedList^Danh sách thứ tự chèn^InsertOrderedList^
+
+^InsertUnorderedList^Danh sách không có thứ tự chèn^InsertUnorderedList^
+
+^Into^trong^Into^
+
+^InvalidUserNameAndPassword^Tên người dùng và mật khẩu không hợp lệ.^InvalidUserNameAndPassword^
+
+^Italic^Nghiêng^Italic^
+
+^ItemsPerPage^Mục mỗi trang:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} Mục đã chọn^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Mục được chọn^ItemsSelectedOne^
+
+^JustDatesNow^chỉ cần bây giờ^JustDatesNow^
+
+^JustifyCenter^Canh giữa^JustifyCenter^
+
+^JustifyFull^Biện minh cho toàn^JustifyFull^
+
+^JustifyLeft^Biện minh cho trái^JustifyLeft^
+
+^JustifyRight^Lề phải^JustifyRight^
+
+^KeepOriginalSel^giữ lựa chọn ban đầu^KeepOriginalSel^
+
+^LabelsInList^Nhãn Trong Danh sách^LabelsInList^
+
+^Lacquer^Sơn mài^Lacquer^
+
+^Laminate^Laminate^Laminate^
+
+^Landscape^Cảnh^Landscape^
+
+^Large^Lớn^Large^
+
+^LastMonth^Tháng trước^LastMonth^
+
+^LastQuarter^Bán nguyệt^LastQuarter^
+
+^LastWeek^Tuần^LastWeek^
+
+^LastYear^Năm ngoái^LastYear^
+
+^Less^Ít hơn^Less^
+
+^LessThan^Ít hơn^LessThan^
+
+^LessThanOrEqual^Nhỏ hơn hoặc bằng^LessThanOrEqual^
+
+^Lichen^Một loài rêu^Lichen^
+
+^LightTheme^Ánh sáng^LightTheme^
+
+^Line^Hàng^Line^
+
+^List^Danh sách^List^
+
+^ListOneColumn^Danh sách (Một Cột)^ListOneColumn^
+
+^ListViewStyle^Danh sách^ListViewStyle^
+
+^Loading^Loading ...^Loading^
+
+^Logical^Logical^Logical^
+
+^LoginButton^Đăng nhập^LoginButton^
+
+^LoginLink^Đăng nhập^LoginLink^
+
+^Logout^Đăng xuất^Logout^
+
+^LookupInstruction^Vui lòng chọn <b>{0}</b> trong danh sách.^LookupInstruction^
+
+^LookupOriginalSelection^Việc lựa chọn ban đầu là <b>&quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^Quản lý tài khoản^ManageAccounts^
+
+^Map^Bản đồ^Map^
+
+^MatchAll^Phù hợp với tất cả các điều kiện^MatchAll^
+
+^MatchAllPastTense^Phù hợp với tất cả các điều kiện^MatchAllPastTense^
+
+^MatchAny^Phù hợp với bất kỳ điều kiện^MatchAny^
+
+^MatchAnyPastTense^Phù hợp với bất kỳ điều kiện^MatchAnyPastTense^
+
+^Matched^Phù hợp^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Tối đa của {0}^MaxAggregateToolTip^
+
+^Maximize^Mở rộng^Maximize^
+
+^MaximumOf^Tối đa^MaximumOf^
+
+^Medium^Trung bình^Medium^
+
+^Menu^Đơn^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^Tối thiểu của {0}^MinAggregateToolTip^
+
+^Minimize^Collapse^Minimize^
+
+^MinimumOf^Tối thiểu^MinimumOf^
+
+^Mission^Nhiệm vụ^Mission^
+
+^ModeBrowsing^Duyệt^ModeBrowsing^
+
+^ModeEditing^Chỉnh sửa^ModeEditing^
+
+^ModeEntering^Mảnh ghép^ModeEntering^
+
+^ModeLookup^Tra cứu^ModeLookup^
+
+^Modern^Hiện đại^Modern^
+
+^ModernRose^Rose hiện đại^ModernRose^
+
+^ModeViewing^Xem^ModeViewing^
+
+^Month^Tháng^Month^
+
+^More^Hơn^More^
+
+^MultiSelection^Lựa chọn nhiều^MultiSelection^
+
+^Municipal^Thành phố^Municipal^
+
+^MyAccount^Tài khoản của tôi^MyAccount^
+
+^Never^Không bao giờ^Never^
+
+^NewActionHeaderText^New^NewActionHeaderText^
+
+^NewItem^Vật phẩm mới^NewItem^
+
+^NewRow^Hàng mới^NewRow^
+
+^NewRowLink^Click vào đây để tạo ra một kỷ lục mới.^NewRowLink^
+
+^NewToolTip^New {0}^NewToolTip^
+
+^Next^Tiếp theo^Next^
+
+^Next2^Bên cạnh^Next2^
+
+^NextMonth^Tháng sau^NextMonth^
+
+^NextQuarter^Tiếp theo quý^NextQuarter^
+
+^NextWeek^Tuần tiếp theo^NextWeek^
+
+^NextYear^Vào năm tới^NextYear^
+
+^No^Không có^No^
+
+^NoMatches^Không có trận đấu.^NoMatches^
+
+^None^không ai^None^
+
+^Noon^Buổi trưa^Noon^
+
+^NoRecords^Không có hồ sơ được tìm thấy.^NoRecords^
+
+^NoteDeleteConfirm^Xóa?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^xóa^NoteDeleteLabel^
+
+^NoteEditLabel^chỉnh sửa^NoteEditLabel^
+
+^NotEmpty^Không rỗng^NotEmpty^
+
+^NotMatched^(không phù hợp)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^Số^Number^
+
+^NumberFilterText^Số Bộ lọc^NumberFilterText^
+
+^NumberIsExpected^Một số dự kiến.^NumberIsExpected^
+
+^OdpCommitting^Đang tải lên giao dịch ...^OdpCommitting^
+
+^OdpDone^Làm xong.^OdpDone^
+
+^OdpDownloadingBlob^Tải xuống dữ liệu nhị phân cho {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^Đang tải xuống dữ liệu cho {0}...^OdpDownloadingData^
+
+^OdpInitializing^Đang khởi tạo ...^OdpInitializing^
+
+^OdpInvalidResponse^Phản hồi không hợp lệ từ máy chủ.^OdpInvalidResponse^
+
+^OdpLastRefresh^Làm mới lần cuối: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Dữ liệu chưa được làm mới.^OdpNotRefreshed^
+
+^OdpOfflineState^Bạn đang làm việc trong chế độ ngoại tuyến.^OdpOfflineState^
+
+^OdpOnlineRequired^Kết nối trực tuyến là bắt buộc.^OdpOnlineRequired^
+
+^OdpPending^Các thay đổi đang chờ xử lý^OdpPending^
+
+^OdpReconRequired^Cần có sự hòa giải^OdpReconRequired^
+
+^OdpReconTxDelete^Xóa thay đổi này khỏi nhật ký?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^Đã xóa giao dịch đang chờ xử lý đầu tiên trong nhật ký.^OdpReconTxDeleted^
+
+^OdpRefresh^Làm mới dữ liệu^OdpRefresh^
+
+^OdpRefreshData^Làm mới dữ liệu^OdpRefreshData^
+
+^OdpRefreshLast^Dữ liệu được làm mới^OdpRefreshLast^
+
+^OdpSave^Hãy lưu tất cả các thay đổi.^OdpSave^
+
+^OdpSaveAndSync^Lưu tất cả các thay đổi và chọn tùy chọn Đồng bộ hóa trong menu ngữ cảnh.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Máy chủ ứng dụng không có sẵn.^OdpServerUnavailable^
+
+^OdpStatus^Trạng thái^OdpStatus^
+
+^OdpSync^Làm cho đồng bộ^OdpSync^
+
+^OdpSynced^Đã đồng bộ hóa^OdpSynced^
+
+^OdpSyncLast^Đồng bộ hóa lần cuối^OdpSyncLast^
+
+^OdpSyncLong^Đồng bộ hóa để tải lên các thay đổi.^OdpSyncLong^
+
+^OdpSyncUploadFailed^Không thể tải lên các tập tin {0}.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Đang tải lên ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Không thể xóa. {1} các mục phụ thuộc trong {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Không thể thực hiện.^OdpUnableToExec^
+
+^OdpUnableToProcess^Không thể xử lý giao dịch.^OdpUnableToProcess^
+
+^OdpUnableToSave^Không thể lưu thay đổi.^OdpUnableToSave^
+
+^OdpUploadFailed^Không thể tải lên tập tin.^OdpUploadFailed^
+
+^OdpUploadingFiles^Đang tải lên các tập tin {0} ...^OdpUploadingFiles^
+
+^OK^OK^OK^
+
+^OnHover^Mở Hover^OnHover^
+
+^OnOrAfter^Trên hay Sau^OnOrAfter^
+
+^OnOrBefore^Bật hoặc Trước^OnOrBefore^
+
+^OpenActionHeaderText^Mở^OpenActionHeaderText^
+
+^Optional^Không bắt buộc^Optional^
+
+^Orientation^Sự định hướng^Orientation^
+
+^Other^Khác^Other^
+
+^Outdent^Nhô lề^Outdent^
+
+^Page^Trang^Page^
+
+^Paragraph^Đoạn văn^Paragraph^
+
+^Password^Mật khẩu^Password^
+
+^Past^Quá khứ^Past^
+
+^Paste^Dán^Paste^
+
+^Pen^Cái bút^Pen^
+
+^PerformAdvancedSearch^Tìm kiếm^PerformAdvancedSearch^
+
+^Permalink^Cố định^Permalink^
+
+^PermalinkToolTip^Tạo một liên kết thường trực cho các hồ sơ được lựa chọn^PermalinkToolTip^
+
+^PermalinkUnavailable^Đường dẫn cố định là không có sẵn. Hãy chọn một kỷ lục.^PermalinkUnavailable^
+
+^Petal^Cánh hoa^Petal^
+
+^Pinnate^Chung quanh lá cuống^Pinnate^
+
+^Plastic^Nhựa^Plastic^
+
+^Portrait^Chân dung^Portrait^
+
+^PresentationStyle^Chọn một phong cách trình bày dữ liệu.^PresentationStyle^
+
+^Prev2^Prev^Prev2^
+
+^Previous^Trước^Previous^
+
+^PromoteActions^Thúc đẩy hành động^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^Phần tư^Quarter^
+
+^Quarter1^Khu phố 1^Quarter1^
+
+^Quarter2^Khu phố 2^Quarter2^
+
+^Quarter3^Khu phố 3^Quarter3^
+
+^Quarter4^Khu phố 4^Quarter4^
+
+^QuickFindDescription^Tìm kiếm ở {0}^QuickFindDescription^
+
+^QuickFindScope^Tìm kiếm trong ...^QuickFindScope^
+
+^QuickFindText^Tìm nhanh^QuickFindText^
+
+^QuickFindToolTip^Nhập để tìm kiếm các hồ sơ và nhấn Enter^QuickFindToolTip^
+
+^Quotation^Bảng báo giá^Quotation^
+
+^Reading^Đọc hiểu...^Reading^
+
+^ReadingPane^Ngăn đọc^ReadingPane^
+
+^ReadOnly^{0} là chỉ đọc.^ReadOnly^
+
+^Recent^Mới đây^Recent^
+
+^Redo^Làm lại^Redo^
+
+^Refresh^Làm mới^Refresh^
+
+^Refreshed^Đã làm mới^Refreshed^
+
+^RememberMe^Ghi nhớ lần sau^RememberMe^
+
+^RemoveCondition^Hủy bỏ Điều kiện^RemoveCondition^
+
+^RemoveFormat^Loại bỏ định dạng^RemoveFormat^
+
+^ReportActionDescription^Render một báo cáo ở định dạng PDF^ReportActionDescription^
+
+^ReportActionHeaderText^Báo cáo^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Xem các mục trong một bảng tính Excel formatted<br/>Microsoft.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Bảng tính^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Xem các mục như là một hình ảnh TIFF nhiều trang.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Nhiều trang hình ảnh^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Xem các mục như Adobe PDF document.<br/>Requires một đầu đọc tương thích.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^PDF Document^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Xem các mục trong một tài liệu Word formatted<br/>Microsoft.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Yêu cầu^Required^
+
+^RequiredField^Trường này là bắt buộc.^RequiredField^
+
+^RequiredFiledMarkerFootNote^cho biết một trường bắt buộc^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Thiết lập lại^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Đặt lại các điều kiện tìm kiếm?^ResetSearchConfirm^
+
+^ResolvingReferences^giải quyết tài liệu tham khảo^ResolvingReferences^
+
+^ResumeBrowsing^Tiếp tục duyệt^ResumeBrowsing^
+
+^ResumeEditing^Tiếp tục chỉnh sửa^ResumeEditing^
+
+^ResumeEntering^Bước tiếp tục^ResumeEntering^
+
+^ResumeLookup^Tiếp tục Lookup^ResumeLookup^
+
+^ResumeViewing^Xem lại^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Vai trò^RolesTab^
+
+^RootNodeText^Top Level^RootNodeText^
+
+^Rotate^Quay^Rotate^
+
+^RowCancelActionHeaderText^Hủy bỏ^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Chèn^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Lưu^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Cập nhật?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Cập nhật lựa chọn^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Lưu^Save^
+
+^SaveAndContinue^Lưu lại và tiếp tục^SaveAndContinue^
+
+^SaveAndNew^Lưu và New^SaveAndNew^
+
+^Saved^Đã lưu - {0}^Saved^
+
+^ScanToConfirm^Vui lòng quét lại để xác nhận.^ScanToConfirm^
+
+^SeeAll^Xem tất cả^SeeAll^
+
+^SeeAlso^Xem thêm^SeeAlso^
+
+^SelectActionHeaderText^Chọn^SelectActionHeaderText^
+
+^SelectAll^Chọn tất cả^SelectAll^
+
+^SelectItem^Chọn mục^SelectItem^
+
+^SelectLink^(Lựa chọn)^SelectLink^
+
+^SelectRow^Chọn hàng^SelectRow^
+
+^SelectToolTip^Chọn {0}^SelectToolTip^
+
+^Separator^Phân cách^Separator^
+
+^Settings^Thiết lập^Settings^
+
+^Show^Chỉ^Show^
+
+^ShowAdvancedSearch^Hiển thị Tìm kiếm nâng cao^ShowAdvancedSearch^
+
+^ShowChart^Hiện Chart^ShowChart^
+
+^ShowData^Hiển thị dữ liệu^ShowData^
+
+^ShowingItems^Xếp <b>{0}</b> <b>{1}</b> mục <b>{2}</b>^ShowingItems^
+
+^ShowingItemsInfo^Hiện {0} mục.^ShowingItemsInfo^
+
+^ShowingItemsRange^Hiển thị {0} {1} của mục^ShowingItemsRange^
+
+^ShowLess^Hiện ít hơn^ShowLess^
+
+^ShowMore^Cho xem nhiều hơn^ShowMore^
+
+^ShowOptions^Show Options^ShowOptions^
+
+^ShowSystemButtons^Buttons Hiện hệ thống^ShowSystemButtons^
+
+^Sidebar^Sidebar^Sidebar^
+
+^Sign^Đăng ở đây^Sign^
+
+^SignedOut^Đã đăng xuất^SignedOut^
+
+^SignUpNow^Đăng ký ngay^SignUpNow^
+
+^Simple^Đơn giản^Simple^
+
+^SiteActions^Site Actions^SiteActions^
+
+^SizeLabel^Kích thước^SizeLabel^
+
+^Small^Nhỏ^Small^
+
+^Social^Xã hội^Social^
+
+^Sort^Loại^Sort^
+
+^SortBy^Sắp xếp bởi {0}^SortBy^
+
+^SortByField^Chọn một trường để thay đổi thứ tự sắp xếp của <b>{0}</b>.^SortByField^
+
+^SortByOptions^Chọn thứ tự sắp xếp của <b>{0}</b> bởi sân <b>{1}</b> trong danh sách các tùy chọn dưới đây.^SortByOptions^
+
+^Sorted^Phân loại^Sorted^
+
+^SortedDefault^Thứ tự sắp xếp mặc định.^SortedDefault^
+
+^StartImport^Bắt đầu nhập^StartImport^
+
+^StrikeThrough^Thông qua tấn công^StrikeThrough^
+
+^StringSortAscending^Tăng dần^StringSortAscending^
+
+^StringSortDescending^Giảm dần^StringSortDescending^
+
+^Submit^Đệ trình^Submit^
+
+^Subscript^Phụ Script^Subscript^
+
+^Suggestions^Gợi ý^Suggestions^
+
+^SumAggregate^Tổng: {0}^SumAggregate^
+
+^SumAggregateToolTip^Tổng của {0}^SumAggregateToolTip^
+
+^Summary^Tóm tắt thông tin^Summary^
+
+^Summer^Mùa hè^Summer^
+
+^SumOf^Sum của^SumOf^
+
+^Superscript^Siêu Script^Superscript^
+
+^Sync^Đồng bộ hóa^Sync^
+
+^TaskResume^Tiếp tục^TaskResume^
+
+^Tasks^Nhiệm vụ^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^abc^TelHints2^
+
+^TelHints3^phản đối^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^biên bản thử nghiệm^TestingRecords^
+
+^Text^Bản văn^Text^
+
+^TextFilterText^Văn bản Bộ lọc^TextFilterText^
+
+^Theme^Chủ đề^Theme^
+
+^ThisMonth^Tháng này^ThisMonth^
+
+^ThisQuarter^Quý này^ThisQuarter^
+
+^ThisWeek^Tuần này^ThisWeek^
+
+^ThisYear^Năm nay^ThisYear^
+
+^Tiny^Nhỏ bé^Tiny^
+
+^Today^Hôm nay^Today^
+
+^Tomorrow^Mai^Tomorrow^
+
+^Top^đỉnh^Top^
+
+^ToThisWebsite^trang web này^ToThisWebsite^
+
+^TouchUINotSupported^Giao diện cảm ứng không được hỗ trợ trong trình duyệt này.^TouchUINotSupported^
+
+^TransitionFade^Phai^TransitionFade^
+
+^TransitionFlip^Lật^TransitionFlip^
+
+^TransitionFlow^Dòng chảy^TransitionFlow^
+
+^TransitionNone^Không ai^TransitionNone^
+
+^TransitionPop^Pop^TransitionPop^
+
+^Transitions^Quá trình chuyển đổi^Transitions^
+
+^TransitionSlide^Trượt^TransitionSlide^
+
+^TransitionSlideDown^Trượt xuống^TransitionSlideDown^
+
+^TransitionSlideUp^Slide Up^TransitionSlideUp^
+
+^TransitionTurn^Phiên^TransitionTurn^
+
+^TreeActionDescription^Hiển thị các mối quan hệ thứ bậc.^TreeActionDescription^
+
+^TreeActionHeaderText^Hiện Hierarchy^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Nhận mã xác minh^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Ứng dụng Authenticator^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Nếu bạn không thể cung cấp mã xác minh, hãy nhập mã dự phòng để thay thế.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^mã một lần^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Mã dự phòng^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Cuộc gọi đã được thực hiện tới^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^Email đã được gửi đến^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^Tin nhắn văn bản đã được gửi tới^TwoFaCodeSentSms^
+
+^TwoFaConsent^Đồng ý^TwoFaConsent^
+
+^TwoFaEnterPassword^Nhập mật khẩu của bạn^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Gọi cho tôi theo số^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^tôi sẽ gọi^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^Gửi email cho tôi tới^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^Nhắn tin cho tôi theo số^TwoFaGetCodeSms^
+
+^TwoFaMethod^Phương pháp^TwoFaMethod^
+
+^TwoFaMsgChanged^Xác thực 2 yếu tố đã được thay đổi.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^Xác thực 2 yếu tố đã bị tắt.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Tắt xác thực hai yếu tố?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^Xác thực 2 yếu tố đã được bật.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Vui lòng nhập mã xác minh gồm {0} chữ số.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Mật khẩu không hợp lệ.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Mã xác minh không hợp lệ.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 là mã xác minh {0} của bạn.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^Tôi không thể quét mã QR.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Tôi cần trợ giúp để cài đặt ứng dụng xác thực.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Tôi có một ứng dụng xác thực trên thiết bị di động.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^Mã dự phòng sử dụng một lần sẽ cho phép bạn đăng nhập nếu bạn không thể cung cấp mã xác minh.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Mã dự phòng^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Tôi sẽ nhập mã xác minh sau khi đăng nhập thành công.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Nhập khóa cài đặt trong ứng dụng^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Phương pháp xác minh^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Quét mã QR bằng máy ảnh^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Quét mã QR trong ứng dụng^TwoFaSetupScanQrCode^
+
+^TwoFaText^Xác thực 2 yếu tố^TwoFaText^
+
+^TwoFaTrustThisDevice^Tin tưởng thiết bị này^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Mã xác nhận^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Tôi sẽ sử dụng ứng dụng xác thực để lấy mã xác minh.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Tôi sẽ nhận được một cuộc gọi tự động trên điện thoại của mình.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Mã xác minh sẽ được gửi qua email.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Mã xác minh sẽ được gửi qua tin nhắn văn bản.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Nhập tìm kiếm^TypeToSearch^
+
+^Underline^Nhấn mạnh^Underline^
+
+^Undo^Lùi lại^Undo^
+
+^Undock^Tháo ra^Undock^
+
+^Unfreeze^Làm cho lỏng ra^Unfreeze^
+
+^UnGrouped^Nhóm đã được gỡ bỏ^UnGrouped^
+
+^UnLink^Tháo vải lót^UnLink^
+
+^UnSelect^Bỏ chọn^UnSelect^
+
+^UpdateActionHeaderText^OK^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Cập nhật?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Cập nhật lựa chọn^UpdateActionInBatchModeHeaderText^
+
+^Upload^Tải lên^Upload^
+
+^UploadDescription^Tải lên nhiều tập tin.^UploadDescription^
+
+^Uploading^Đang tải lên^Uploading^
+
+^UpOneLevel^Lên một bậc^UpOneLevel^
+
+^UseLEV^Dán &quot;{0}&quot;^UseLEV^
+
+^UserName^User Name^UserName^
+
+^UsersInRole^Người sử dụng trong vai trò^UsersInRole^
+
+^UsersTab^Người sử dụng^UsersTab^
+
+^Vantage^Điều lợi^Vantage^
+
+^Verdant^Cỏ xanh tươi^Verdant^
+
+^Verify^Xác nhận^Verify^
+
+^View^Xem^View^
+
+^Viewpoint^Quan điểm^Viewpoint^
+
+^Wait^Vui lòng chờ...^Wait^
+
+^Week^Tuần^Week^
+
+^Welcome1^Chào mừng^Welcome1^
+
+^Welcome2^Hôm nay là^Welcome2^
+
+^WhiteSmoke^Trắng khói^WhiteSmoke^
+
+^WithSelectedValues10^Với các giá trị được chọn (Top 10)^WithSelectedValues10^
+
+^WithSelectedValues5^Với các giá trị được chọn (Top 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^Với các bộ lọc được chỉ định^WithSpecifiedFilters^
+
+^Year^Năm^Year^
+
+^YearToDate^Năm nay^YearToDate^
+
+^Yes^Có^Yes^
+
+^Yesterday^Hôm qua^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Phóng to^ZoomIn^
+
+^ZoomOut^Thu nhỏ^ZoomOut^
+

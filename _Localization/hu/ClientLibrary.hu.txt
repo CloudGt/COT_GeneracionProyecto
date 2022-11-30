@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Tipp^About^
+
+^Accent^Hangsúly^Accent^
+
+^ActionBarActionsHeaderText^Tevékenységek^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Mégsem^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Minden változás visszavonása.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Új rekord visszavonása.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Új rekord mentése.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Mentés^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Új rekord létrehozása: {0}.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^Új {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Új^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Rekord^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Riport^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Változások mentése.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Mentés^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Fiók hozzáadása^AddAccount^
+
+^AddCondition^Helyezze állapotban^AddCondition^
+
+^AddConditionText^Helyezze keresési feltétel^AddConditionText^
+
+^AddItem^Elem hozzáadása^AddItem^
+
+^AddMatchingGroup^Add illő csoport^AddMatchingGroup^
+
+^AddSearchBarField^További kereső mezők^AddSearchBarField^
+
+^AddSystemIdentity^Add System Identity^AddSystemIdentity^
+
+^AddToFavorites^Hozzáadás kedvencekhez^AddToFavorites^
+
+^AdvancedSearch^Részletes keresés^AdvancedSearch^
+
+^AdvancedSearchInstruction^Adja feltételnek kell egyeztetni, és nyomja meg a keresés gombot.^AdvancedSearchInstruction^
+
+^After^Után^After^
+
+^Agenda^Napirend^Agenda^
+
+^AlignedLeft^Balra igazítva^AlignedLeft^
+
+^AlignedRight^Jobbra igazított^AlignedRight^
+
+^AllDatesInPreriod^Időszak valamennyi dátuma^AllDatesInPreriod^
+
+^AlternativeView^Válasszon ki egy másik nézet az adatokat.^AlternativeView^
+
+^Always^Mindig^Always^
+
+^AnyValue^(bármilyen)^AnyValue^
+
+^Apply^Alkalmazza^Apply^
+
+^Apps^Alkalmazások^Apps^
+
+^Aquarium^Akvárium^Aquarium^
+
+^Auto^Kocsi^Auto^
+
+^AutoOpenNextItem^A következő elem automatikus megnyitása^AutoOpenNextItem^
+
+^AverageOf^Átlagosan^AverageOf^
+
+^AvgAggregate^Átlag: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^{0} átlaga^AvgAggregateToolTip^
+
+^Azure^Égszínkék^Azure^
+
+^Back^Visszaad^Back^
+
+^BackColor^Back Color^BackColor^
+
+^BatchEditActionHeaderText^Tömeges szerkesztés^BatchEditActionHeaderText^
+
+^BatchEdited^{0} frissítve^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Tömeges szerkesztés (Űrlap)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^módosítás^BatchUpdate^
+
+^Before^Előtt^Before^
+
+^BeginsWith^Eleje^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^Bogyó^Berry^
+
+^Between^Között^Between^
+
+^Bittersweet^Bittersweet^Bittersweet^
+
+^Blank^Üres^Blank^
+
+^BlankPassword^Jelszó nem lehet üres.^BlankPassword^
+
+^BlankUserName^Felhasználói név nem lehet üres.^BlankUserName^
+
+^BlankValue^(Üres)^BlankValue^
+
+^BlobDownloadHint^Klikkeljen ide az eredeti fájl letöltéséhez.^BlobDownloadHint^
+
+^BlobDownloadLink^letöltés^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Érintse meg a képet az eredeti fájl letöltéséhez.^BlobDownloadOriginalHint^
+
+^Blur^Elhomályosít^Blur^
+
+^Bold^Bátor^Bold^
+
+^BooleanFilterText^Szűrők^BooleanFilterText^
+
+^BooleanIsExpected^Logikai kifejezés szükséges.^BooleanIsExpected^
+
+^ButtonShapes^Gomb alakzatok^ButtonShapes^
+
+^By^által^By^
+
+^Calendar^Naptár^Calendar^
+
+^Cancel^Mégsem^Cancel^
+
+^Cards^Kártyák^Cards^
+
+^Cay^Homokzátony^Cay^
+
+^ChangeYourLanguage^A nyelv módosítása^ChangeYourLanguage^
+
+^Charts^Táblázatok^Charts^
+
+^Citrus^Citrom-és narancsfélék^Citrus^
+
+^Classic^Klasszikus^Classic^
+
+^ClearFilter^Szűrő törlése {0}^ClearFilter^
+
+^ClearFilter2^Clear Filter^ClearFilter2^
+
+^ClearText^Clear Text^ClearText^
+
+^ClearToolTip^Törlés {0}^ClearToolTip^
+
+^Close^Bezár^Close^
+
+^Comfortable^Kényelmes^Comfortable^
+
+^Compact^Kompakt^Compact^
+
+^Condensed^Sűrített^Condensed^
+
+^ConfirmContinue^Folytatni?^ConfirmContinue^
+
+^ConfirmReload^Felüdít?^ConfirmReload^
+
+^ConnectionLost^A hálózati kapcsolat megszakadt. Próbálja meg újra?^ConnectionLost^
+
+^Construct^Épít^Construct^
+
+^Contains^Tartalmazza^Contains^
+
+^Convention^Konvenció^Convention^
+
+^Copy^Másolás^Copy^
+
+^CountAggregate^Darabszám: {0}^CountAggregate^
+
+^CountAggregateToolTip^{0} darabszáma^CountAggregateToolTip^
+
+^CountOf^Gróf^CountOf^
+
+^CreateLink^Hivatkozás létrehozása^CreateLink^
+
+^CustomFilterOption^Szűrő...^CustomFilterOption^
+
+^Cut^Vágott^Cut^
+
+^DarkKnight^Dark Knight^DarkKnight^
+
+^DarkTheme^Sötét^DarkTheme^
+
+^DataSheetActionDescription^Adatok megjelenítése munkalapon<br/>.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Megjelenítés minkalapon^DataSheetActionHeaderText^
+
+^DataWarning^Az elemek maximális száma a folyamat {0: d}. Kattintson ide, hogy kiszűrje az eredmény.^DataWarning^
+
+^Date^Dátum^Date^
+
+^DateFilterText^Dátum szűrők^DateFilterText^
+
+^DateIsExpected^Dátum megadása szükséges.^DateIsExpected^
+
+^DatesAMinAgo^egy perce^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^Egy perc^DatesInAMin^
+
+^DatesInHour^egy óra múlva^DatesInHour^
+
+^DatesInMin^a {0} min^DatesInMin^
+
+^DatesLast^Utolsó^DatesLast^
+
+^DatesMinAgo^{0} Perce^DatesMinAgo^
+
+^DatesNext^Következő^DatesNext^
+
+^DatesNow^Most^DatesNow^
+
+^DatesOneHour^egy órája^DatesOneHour^
+
+^DateSortAscending^Legkorábbi felül^DateSortAscending^
+
+^DateSortDescending^Legkésőbbi felül^DateSortDescending^
+
+^DatesSmart^Intelligens időpontok^DatesSmart^
+
+^DatesToday^Ma^DatesToday^
+
+^DatesTomorrow^holnap^DatesTomorrow^
+
+^DatesYesterday^tegnap^DatesYesterday^
+
+^Day^Nap^Day^
+
+^DefaultCancelActionHeaderText^Bezár^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Töltse ki az űrlapot, és nyomja meg a Rendben gombot az új {0} rekord létrehozásához. Visszatéréshez nyomja meg a Mégsem gombot.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^A {0} rekord mezői módosíthatók.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Ellenőrizze a {0} információt. Módosításhoz nyomja meg a Szerkeszt gombot, rekord törléséhez a Töröl gombot, vagy visszatéréshez nyomja meg a Mégsem/Bezár gombot.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^{0} lista.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Töltse ki az űrlapot. Minden kötelező mezőt töltsön ki.^DefaultNewDescription^
+
+^DefaultOption^Standard^DefaultOption^
+
+^DefaultReferenceDescription^További {0} részletek a referencia információ részben.^DefaultReferenceDescription^
+
+^Delete^Töröl^Delete^
+
+^DeleteActionConfirmation^Törlés?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Töröl^DeleteActionHeaderText^
+
+^Deleted^{$ selected} törölve^Deleted^
+
+^DeleteOriginalSel^törölje az eredeti választást^DeleteOriginalSel^
+
+^DeleteSearchBarField^(törlés)^DeleteSearchBarField^
+
+^DetailsToolTip^{0} részletei^DetailsToolTip^
+
+^DevelopExplorer^Project Explorer^DevelopExplorer^
+
+^DevelopFormLayout^Form elrendezés^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^Válassza képátlóval felveendő az elrendezés.^DevelopFormLayoutInstr^
+
+^DevelopTools^Fejlesztői eszközök^DevelopTools^
+
+^Device^Eszköz^Device^
+
+^DeviceLoginPrompt^Kérjük, jelentkezzen be, hogy engedélyezze a hozzáférést ezen az eszközön.^DeviceLoginPrompt^
+
+^DidNotMatch^Nem egyezik^DidNotMatch^
+
+^Directions^Directions^Directions^
+
+^DiscardChanges^Módosítások elvetése?^DiscardChanges^
+
+^DisplayDensity^Kijelző Density^DisplayDensity^
+
+^DisplayedAbove^Fölött látható^DisplayedAbove^
+
+^DisplayedBelow^Alatt jelenik meg^DisplayedBelow^
+
+^Dock^összekapcsol^Dock^
+
+^DoesNotBeginWith^Nem eleje^DoesNotBeginWith^
+
+^DoesNotContain^Nem tartalmazza^DoesNotContain^
+
+^DoesNotEndWith^Nem vége^DoesNotEndWith^
+
+^DoesNotEqual^Nem egyenlő^DoesNotEqual^
+
+^DoesNotInclude^Nem tartalmazza^DoesNotInclude^
+
+^DoNotMatchAll^Nem egyeznek minden körülmények között^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Nem egyezik minden körülmények között^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Nem tartozik egyetlen feltételek^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Nincs találat feltételek^DoNotMatchAnyPastTense^
+
+^Download^Letöltés^Download^
+
+^Draw^Húz^Draw^
+
+^DuplicateActionHeaderText^Megkettőz^DuplicateActionHeaderText^
+
+^DuplicateItem^Duplikált tétel^DuplicateItem^
+
+^DuplicateRow^Duplikált sor^DuplicateRow^
+
+^EditActionHeaderText^Szerkeszt^EditActionHeaderText^
+
+^EditItem^Elem szerkesztése^EditItem^
+
+^EditModeCancelActionHeaderText^Mégsem^EditModeCancelActionHeaderText^
+
+^EditRow^Sor szerkesztése^EditRow^
+
+^Empty^Üres^Empty^
+
+^EmptyContext^Intézkedések nem állnak rendelkezésre.^EmptyContext^
+
+^EmptyValue^(üres)^EmptyValue^
+
+^Enable^Engedélyezze^Enable^
+
+^EndsWith^Vége^EndsWith^
+
+^Equals^Egyenlő^Equals^
+
+^Eraser^Radír^Eraser^
+
+^Error^Hiba^Error^
+
+^Exit^Kijárat^Exit^
+
+^ExitFullscreen^Kilépés Nagyítás^ExitFullscreen^
+
+^ExportCsvActionDescription^Adatok letöltése CSV formátumban.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Letöltés^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Adatok vizsgálata táblázatkezelő<br/>alkalmazással.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Exportálás táblázatkezelőbe^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Tételek közzététele RSS olvasóban.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^RSS olvasó áttekintése^ExportRssActionHeaderText^
+
+^Favorites^Kedvencek^Favorites^
+
+^Felt^Érzett^Felt^
+
+^FileCleared^Az érték mentéskor törlődik^FileCleared^
+
+^FilesBytes^bytes^FilesBytes^
+
+^FilesClear^Világos^FilesClear^
+
+^FilesClearConfirm^Világos?^FilesClearConfirm^
+
+^FilesClick^Kattintson egy fájlt^FilesClick^
+
+^FilesClickMany^Kattintson a fájlok kiválasztásához^FilesClickMany^
+
+^FilesDrop^Dobd el a fájlt ide^FilesDrop^
+
+^FilesDropMany^Drop fájlokat itt^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Válassza ki a megfelelő fájlt^FilesTap^
+
+^FilesTapMany^Válassza ki, fájlokat^FilesTapMany^
+
+^Filter^Szűrő^Filter^
+
+^FilterApplied^Szűrő alkalmazva.^FilterApplied^
+
+^FilterByField^Válasszon ki egy mezőt kell alkalmazni a szűrőt <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Válasszon ki egy vagy több lehetőséget a listából, majd nyomja meg <b>{2}</b> szűrni <b>{0}</b> a mező <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Törölte az összes szűrőt.^FilterCleared^
+
+^FilterLabelAnd^és^FilterLabelAnd^
+
+^FilterLabelClear^Töröl^FilterLabelClear^
+
+^FilterLabelEquals^egyenlő^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Módosít^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^tartalmazza^FilterLabelIncludes^
+
+^FilterLabelOr^vagy^FilterLabelOr^
+
+^FilterLabelSelectAll^(Mindent kiválaszt)^FilterLabelSelectAll^
+
+^FilterSiteMap^Szűrő oldaltérkép ...^FilterSiteMap^
+
+^Finish^Befejez^Finish^
+
+^FitToWidth^Fit szélesség^FitToWidth^
+
+^FlatTreeToggle^Átváltás hierarchiára^FlatTreeToggle^
+
+^FontName^Betűkészlet neve^FontName^
+
+^FontSize^Betűméret^FontSize^
+
+^ForeColor^Fore Color^ForeColor^
+
+^Forget^Elfelejt^Forget^
+
+^ForgotYourPassword^Elfelejtette jelszavát?^ForgotYourPassword^
+
+^Format^Formátum^Format^
+
+^Freeze^Fagy^Freeze^
+
+^From^tól től^From^
+
+^Fullscreen^Teljes képernyő^Fullscreen^
+
+^Future^Jövő^Future^
+
+^GeneralTabText^Általános^GeneralTabText^
+
+^Generate^generál^Generate^
+
+^GenericNewToolTip^Új létrehozása^GenericNewToolTip^
+
+^GenericSortAscending^Legkisebb felül^GenericSortAscending^
+
+^GenericSortDescending^Legnagyobb felül^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Grand összesítések^GrandTotals^
+
+^Granite^Gránit^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Súly^Gravity^
+
+^GreaterThan^Nagyobb, mint^GreaterThan^
+
+^GreateThanOrEqual^Nagyobb vagy egyenlő^GreateThanOrEqual^
+
+^Grid^Rács^Grid^
+
+^GridActionDescription^Tételek megjelenítése <br/>lista nézetben.^GridActionDescription^
+
+^GridActionHeaderText^Szokásos nézet^GridActionHeaderText^
+
+^Group^Csoport^Group^
+
+^GroupByField^Válassza ki a mezőt csoport <b>{0}</b>.^GroupByField^
+
+^Grouped^csoportosított^Grouped^
+
+^GroupedBy^Csoportosítva^GroupedBy^
+
+^GroupedDefault^A csoportosítás eltávolításra került^GroupedDefault^
+
+^Heading1^1. címsor^Heading1^
+
+^Heading2^2. fejezet^Heading2^
+
+^Heading3^3. fejezet^Heading3^
+
+^Heading4^4. fejezet^Heading4^
+
+^Heading5^5. fejezet^Heading5^
+
+^Heading6^6. címsor^Heading6^
+
+^Help^Súgó^Help^
+
+^HelpClose^Bezár^HelpClose^
+
+^HelpFullScreen^Teljes képernyő^HelpFullScreen^
+
+^Hide^Elrejt^Hide^
+
+^HideAdvancedSearch^Összetett keresés eltüntetése^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Átváltás lista nézetre^HierarchyTreeModeToggle^
+
+^Highlighter^Kiemelő^Highlighter^
+
+^History^Napló^History^
+
+^HistoryToolTip^A korábban választott rekordok naplója.^HistoryToolTip^
+
+^HistoryUnavailable^Napló nem elérhető.^HistoryUnavailable^
+
+^Home^Otthon^Home^
+
+^IdleUser^Itt van még? Jelentkezzen be újra.^IdleUser^
+
+^ImportActionDescription^CSV, XLS, vagy XLSX fájlok feltöltése<br/>rekordok importolására.^ImportActionDescription^
+
+^ImportActionHeaderText^Import fájlból^ImportActionHeaderText^
+
+^ImportAutoDetect^(automatikus)^ImportAutoDetect^
+
+^ImportComplete^teljes^ImportComplete^
+
+^ImportDone^befejezett importáló^ImportDone^
+
+^ImportDownloadTemplate^Import fájl minta letöltése.^ImportDownloadTemplate^
+
+^ImportDuplicates^ismétlődések^ImportDuplicates^
+
+^ImportEmail^Küldje el az import naplót a következő email címre (opcionális)^ImportEmail^
+
+^ImportEmailNotSpecified^Az import napló címzettje hiányzik. Folytatja?^ImportEmailNotSpecified^
+
+^ImportExpected^Várható, hogy teljes^ImportExpected^
+
+^ImportFileStats^Vannak <b>{0}</b> rekordok fájl <b>{1}</b> feldolgozásra kész. Kérjük egyezik a mezőnevek.^ImportFileStats^
+
+^Importing^importálása^Importing^
+
+^ImportMappingInstruction^<b>{0}</b> rekordot tartalmaz a fájl <b>{1}</b> feldolgozásra kész.<br/>Képezze le az import fájl adatait az alkalmazás mezőire, és nyomja meg az <i>Import</i> gombot a feldolgozáshoz.^ImportMappingInstruction^
+
+^ImportNotSupported^Az adatok formátuma &quot;{0}&quot; nem támogatott.^ImportNotSupported^
+
+^ImportProcessing^Import fájl feldolgozás folyamatban. Az importált adatok a sikeres feldolgozás lezárás után érhetőek el. Lehetséges, hogy frissítenie kell a kérdéses oldalakat, hogy lássa az importált adatokat.^ImportProcessing^
+
+^ImportRemaining^Várható, hogy teljes^ImportRemaining^
+
+^ImportSelectFile^Válasszon ki egy fájlt CSV, XLS, vagy XLSX formátumban.^ImportSelectFile^
+
+^ImportStartButton^Import^ImportStartButton^
+
+^ImportUploading^Fájl feltöltés a szerverre folyamatban. Kérjük, várjon...^ImportUploading^
+
+^ImportUploadInstruction^Válassza ki a feltöltendő fájlt. A fájlnak <b>CSV</b>, <b>XLS</b>, vagy <b>XLSX</b> formátumú lehet.^ImportUploadInstruction^
+
+^In^-ban^In^
+
+^Includes^Tartalmazza^Includes^
+
+^Indent^Bekezdés^Indent^
+
+^InfoBarAnd^és^InfoBarAnd^
+
+^InfoBarEmpty^üres^InfoBarEmpty^
+
+^InfoBarEqualTo^egyenlő^InfoBarEqualTo^
+
+^InfoBarGreaterThan^nagyobb^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^nagyobb egyenlő^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^kisebb^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^kisebb egyenlő^InfoBarLessThanOrEqual^
+
+^InfoBarLike^olyan, mint^InfoBarLike^
+
+^InfoBarOr^vagy^InfoBarOr^
+
+^InfoBarQuickFind^Bármely mező tartalmazza^InfoBarQuickFind^
+
+^InfoBarStartsWith^eleje^InfoBarStartsWith^
+
+^InitialListMode^A lista első Mode^InitialListMode^
+
+^InlineEditing^Inline szerkesztés^InlineEditing^
+
+^InsertActionHeaderText^Rendben^InsertActionHeaderText^
+
+^InsertHorizontalRule^Helyezze Vízszintes vonal^InsertHorizontalRule^
+
+^InsertingRecords^behelyezése bejegyzések^InsertingRecords^
+
+^InsertOrderedList^Számozott felsorolás beszúrása^InsertOrderedList^
+
+^InsertUnorderedList^Insert Rendezetlen lista^InsertUnorderedList^
+
+^Into^-ba^Into^
+
+^InvalidUserNameAndPassword^Érvénytelen felhasználó név és jelszó.^InvalidUserNameAndPassword^
+
+^Italic^Kurzív^Italic^
+
+^ItemsPerPage^Elemek száma oldalanként:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} Elem kiválasztva^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Kiválasztott elem^ItemsSelectedOne^
+
+^JustDatesNow^Pont most^JustDatesNow^
+
+^JustifyCenter^Indokolja Center^JustifyCenter^
+
+^JustifyFull^Sorkizárás^JustifyFull^
+
+^JustifyLeft^Indokolja Bal^JustifyLeft^
+
+^JustifyRight^Indokolja Right^JustifyRight^
+
+^KeepOriginalSel^tartsa meg az eredeti választást^KeepOriginalSel^
+
+^LabelsInList^Címkék listája^LabelsInList^
+
+^Lacquer^Lakk^Lacquer^
+
+^Laminate^Laminált^Laminate^
+
+^Landscape^Táj^Landscape^
+
+^Large^Nagy^Large^
+
+^LastMonth^Előző hónap^LastMonth^
+
+^LastQuarter^Előző negyedév^LastQuarter^
+
+^LastWeek^Előző hét^LastWeek^
+
+^LastYear^Előző év^LastYear^
+
+^Less^Kevésbé^Less^
+
+^LessThan^Kisebb^LessThan^
+
+^LessThanOrEqual^Kisebb vagy egyenlő^LessThanOrEqual^
+
+^Lichen^Zuzmó^Lichen^
+
+^LightTheme^Fény^LightTheme^
+
+^Line^Vonal^Line^
+
+^List^Lista^List^
+
+^ListOneColumn^List (One Column)^ListOneColumn^
+
+^ListViewStyle^Lista^ListViewStyle^
+
+^Loading^Töltés...^Loading^
+
+^Logical^Logikus^Logical^
+
+^LoginButton^Bejelentkezés^LoginButton^
+
+^LoginLink^Bejelentkezés^LoginLink^
+
+^Logout^Kijelentkezés^Logout^
+
+^LookupInstruction^Válassza ki <b>{0}</b> a listán.^LookupInstruction^
+
+^LookupOriginalSelection^Az eredeti kiválasztás <b>&quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^Fiókok kezelése^ManageAccounts^
+
+^Map^Térkép^Map^
+
+^MatchAll^A mérkőzés minden körülmények között^MatchAll^
+
+^MatchAllPastTense^Egyeztetett minden körülmények között^MatchAllPastTense^
+
+^MatchAny^Bármelyik feltételek^MatchAny^
+
+^MatchAnyPastTense^Egyeztetett semmilyen körülmények között^MatchAnyPastTense^
+
+^Matched^Egyeztetett^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^{0} maximuma^MaxAggregateToolTip^
+
+^Maximize^Kinyit^Maximize^
+
+^MaximumOf^Legfeljebb^MaximumOf^
+
+^Medium^Közepes^Medium^
+
+^Menu^Étlap^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^{0} minimuma^MinAggregateToolTip^
+
+^Minimize^Bezár^Minimize^
+
+^MinimumOf^Legalább^MinimumOf^
+
+^Mission^Küldetés^Mission^
+
+^ModeBrowsing^Legelészés^ModeBrowsing^
+
+^ModeEditing^Szerkesztés^ModeEditing^
+
+^ModeEntering^Belépés^ModeEntering^
+
+^ModeLookup^Keresés^ModeLookup^
+
+^Modern^Modern^Modern^
+
+^ModernRose^Modern Rose^ModernRose^
+
+^ModeViewing^Megtekintése^ModeViewing^
+
+^Month^Hó^Month^
+
+^More^Több^More^
+
+^MultiSelection^Multi Selection^MultiSelection^
+
+^Municipal^Városi^Municipal^
+
+^MyAccount^Saját fiókom^MyAccount^
+
+^Never^Soha^Never^
+
+^NewActionHeaderText^Új^NewActionHeaderText^
+
+^NewItem^Új elem^NewItem^
+
+^NewRow^Új sor^NewRow^
+
+^NewRowLink^Klikkeljen ide új rekord létrehozásához.^NewRowLink^
+
+^NewToolTip^Új {0}^NewToolTip^
+
+^Next^Következő^Next^
+
+^Next2^Következő^Next2^
+
+^NextMonth^Következő hónap^NextMonth^
+
+^NextQuarter^Következő negyedév^NextQuarter^
+
+^NextWeek^Következő hét^NextWeek^
+
+^NextYear^Következő év^NextYear^
+
+^No^Nem^No^
+
+^NoMatches^Nincs egyezés.^NoMatches^
+
+^None^Egyik sem^None^
+
+^Noon^Dél^Noon^
+
+^NoRecords^Nincs rekord.^NoRecords^
+
+^NoteDeleteConfirm^Törlés?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^töröl^NoteDeleteLabel^
+
+^NoteEditLabel^szerkeszt^NoteEditLabel^
+
+^NotEmpty^Nem Üres^NotEmpty^
+
+^NotMatched^(Nem illesztett)^NotMatched^
+
+^NullValue^-^NullValue^
+
+^NullValueInForms^-^NullValueInForms^
+
+^Number^Szám^Number^
+
+^NumberFilterText^Szám szűrők^NumberFilterText^
+
+^NumberIsExpected^Szám beírása szükséges.^NumberIsExpected^
+
+^OdpCommitting^Tranzakciók feltöltése ...^OdpCommitting^
+
+^OdpDone^Kész.^OdpDone^
+
+^OdpDownloadingBlob^Bináris adatok letöltése {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^Adatok letöltése {0}...^OdpDownloadingData^
+
+^OdpInitializing^Indítás ...^OdpInitializing^
+
+^OdpInvalidResponse^Érvénytelen válasz a szerverről.^OdpInvalidResponse^
+
+^OdpLastRefresh^Utolsó frissítés: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Az adatok nem frissültek.^OdpNotRefreshed^
+
+^OdpOfflineState^Offline módban dolgozik.^OdpOfflineState^
+
+^OdpOnlineRequired^Online kapcsolat szükséges.^OdpOnlineRequired^
+
+^OdpPending^Függőben lévő változások^OdpPending^
+
+^OdpReconRequired^Egyeztetésre van szükség^OdpReconRequired^
+
+^OdpReconTxDelete^Törli ezt a változást a naplóból?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^Az első függőben lévő tranzakciót törölte a naplóból.^OdpReconTxDeleted^
+
+^OdpRefresh^Adatok frissítése^OdpRefresh^
+
+^OdpRefreshData^Adatok frissítése^OdpRefreshData^
+
+^OdpRefreshLast^Az adatok frissítve^OdpRefreshLast^
+
+^OdpSave^Kérjük, mentse az összes változást.^OdpSave^
+
+^OdpSaveAndSync^Mentse az összes változást, és válassza a helyi menüben a Szinkronizálás lehetőséget.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Az alkalmazáskiszolgáló nem érhető el.^OdpServerUnavailable^
+
+^OdpStatus^Állapot^OdpStatus^
+
+^OdpSync^Szinkronizálás^OdpSync^
+
+^OdpSynced^szinkronizált^OdpSynced^
+
+^OdpSyncLast^Utolsó szinkronizálás^OdpSyncLast^
+
+^OdpSyncLong^Szinkronizálás a változások feltöltéséhez.^OdpSyncLong^
+
+^OdpSyncUploadFailed^Nem sikerült feltölteni {0} fájlt.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Feltöltés {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Nem lehet törölni. {1} függő tétel {0}-ben.^OdpUnableToDelete^
+
+^OdpUnableToExec^Nem lehet végrehajtani.^OdpUnableToExec^
+
+^OdpUnableToProcess^Nem sikerült feldolgozni a tranzakciókat.^OdpUnableToProcess^
+
+^OdpUnableToSave^Nem sikerült menteni a változtatásokat.^OdpUnableToSave^
+
+^OdpUploadFailed^Nem sikerült feltölteni a fájlokat.^OdpUploadFailed^
+
+^OdpUploadingFiles^{0} fájl feltöltése ...^OdpUploadingFiles^
+
+^OK^Rendben^OK^
+
+^OnHover^a Hover^OnHover^
+
+^OnOrAfter^Jén vagy azt követően^OnOrAfter^
+
+^OnOrBefore^Én vagy azt megelőzően^OnOrBefore^
+
+^OpenActionHeaderText^Megnyit^OpenActionHeaderText^
+
+^Optional^Választható^Optional^
+
+^Orientation^Irányultság^Orientation^
+
+^Other^Más^Other^
+
+^Outdent^Behúzás csökkentése^Outdent^
+
+^Page^Oldal^Page^
+
+^Paragraph^Bekezdés^Paragraph^
+
+^Password^Jelszó^Password^
+
+^Past^Múlt^Past^
+
+^Paste^Paszta^Paste^
+
+^Pen^Toll^Pen^
+
+^PerformAdvancedSearch^Keres^PerformAdvancedSearch^
+
+^Permalink^Állandó link^Permalink^
+
+^PermalinkToolTip^Kiválasztott rekordhoz állandó link készítése^PermalinkToolTip^
+
+^PermalinkUnavailable^Állandó link nem elérhető. Válasszon rekordot.^PermalinkUnavailable^
+
+^Petal^Virágszirom^Petal^
+
+^Pinnate^Szárnyas^Pinnate^
+
+^Plastic^Műanyag^Plastic^
+
+^Portrait^Portré^Portrait^
+
+^PresentationStyle^Válasszon adatok bemutatása stílusban.^PresentationStyle^
+
+^Prev2^Előző^Prev2^
+
+^Previous^Előző^Previous^
+
+^PromoteActions^Fellépések támogatása^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^Negyed^Quarter^
+
+^Quarter1^1. negyedév^Quarter1^
+
+^Quarter2^2. negyedév^Quarter2^
+
+^Quarter3^3. negyedév^Quarter3^
+
+^Quarter4^4. negyedév^Quarter4^
+
+^QuickFindDescription^Keresni valamiben {0}^QuickFindDescription^
+
+^QuickFindScope^Keresés a ...^QuickFindScope^
+
+^QuickFindText^Gyors keresés^QuickFindText^
+
+^QuickFindToolTip^Írjon be egy részletet és nyomja meg az Entert^QuickFindToolTip^
+
+^Quotation^Idézet^Quotation^
+
+^Reading^Olvasás...^Reading^
+
+^ReadingPane^Olvasópanel^ReadingPane^
+
+^ReadOnly^{0} csak olvasható.^ReadOnly^
+
+^Recent^Új^Recent^
+
+^Redo^Helyrehoz^Redo^
+
+^Refresh^Frissít^Refresh^
+
+^Refreshed^Megújult^Refreshed^
+
+^RememberMe^Emlékezzen rám^RememberMe^
+
+^RemoveCondition^Vegye állapotban^RemoveCondition^
+
+^RemoveFormat^Formázás eltávolítása^RemoveFormat^
+
+^ReportActionDescription^Riport előállítása PDF formátumban^ReportActionDescription^
+
+^ReportActionHeaderText^Riport^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Tételek megtekintése formázott <br/>Microsoft Excel űrlapon.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Táblázatkezelő^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Tételek megtekintése többoldalas TIFF képfájlban.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Több képfájl^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Tételek megtekintése Adobe PDF dokumentumban.<br/>Kompatibilis olvasó szükséges.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^PDF Dokumentum^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Tételek megtekintése formázott<br/>Microsoft Word dokumentumban.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Kötelező^Required^
+
+^RequiredField^Kötelező mező.^RequiredField^
+
+^RequiredFiledMarkerFootNote^kötelező mező^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Visszaállít^ResetAdvancedSearch^
+
+^ResetSearchConfirm^A keresési feltételek visszaállítása?^ResetSearchConfirm^
+
+^ResolvingReferences^megoldása referenciák^ResolvingReferences^
+
+^ResumeBrowsing^Folytatás böngészés^ResumeBrowsing^
+
+^ResumeEditing^Önéletrajz szerkesztése^ResumeEditing^
+
+^ResumeEntering^Folytatása bevitele^ResumeEntering^
+
+^ResumeLookup^Folytatás keresése^ResumeLookup^
+
+^ResumeViewing^Önéletrajz megtekintése^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Szerepkörök^RolesTab^
+
+^RootNodeText^Felső szint^RootNodeText^
+
+^Rotate^Elforgat^Rotate^
+
+^RowCancelActionHeaderText^Mégsem^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Beszúr^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Ment^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Módosít?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Választás módosítása^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Kivéve^Save^
+
+^SaveAndContinue^Mentés és folytatás^SaveAndContinue^
+
+^SaveAndNew^Mentés és Új^SaveAndNew^
+
+^Saved^Mentett - {0}^Saved^
+
+^ScanToConfirm^Kérjük, ellenőrizze újra a megerősítéshez.^ScanToConfirm^
+
+^SeeAll^Minden^SeeAll^
+
+^SeeAlso^További infó^SeeAlso^
+
+^SelectActionHeaderText^Választ^SelectActionHeaderText^
+
+^SelectAll^Az összes kijelölése^SelectAll^
+
+^SelectItem^Tárgy kiválasztása^SelectItem^
+
+^SelectLink^(választ)^SelectLink^
+
+^SelectRow^Válasszon sorot^SelectRow^
+
+^SelectToolTip^{0} választás^SelectToolTip^
+
+^Separator^Szétválasztó^Separator^
+
+^Settings^Beállítások^Settings^
+
+^Show^Előadás^Show^
+
+^ShowAdvancedSearch^Kibővített keresés^ShowAdvancedSearch^
+
+^ShowChart^Diagram megjelenítése^ShowChart^
+
+^ShowData^Adatok megjelenítése^ShowData^
+
+^ShowingItems^Listázva <b>{0}</b>-<b>{1}</b> / <b>{2}</b> tétel^ShowingItems^
+
+^ShowingItemsInfo^A következő {0} elemeket.^ShowingItemsInfo^
+
+^ShowingItemsRange^A következő {0} A {1} tételek^ShowingItemsRange^
+
+^ShowLess^Mutass kevesebbet^ShowLess^
+
+^ShowMore^Mutass többet^ShowMore^
+
+^ShowOptions^Beállítások megjelenítése^ShowOptions^
+
+^ShowSystemButtons^Kiállítási rendszer gombok^ShowSystemButtons^
+
+^Sidebar^Sidebar^Sidebar^
+
+^Sign^Jelentkezz itt^Sign^
+
+^SignedOut^Kijelentkezett^SignedOut^
+
+^SignUpNow^Regisztráljon most^SignUpNow^
+
+^Simple^Egyszerű^Simple^
+
+^SiteActions^Alkalmazás tevékenységek^SiteActions^
+
+^SizeLabel^Méret^SizeLabel^
+
+^Small^Kis^Small^
+
+^Social^Társadalmi^Social^
+
+^Sort^Rendez^Sort^
+
+^SortBy^Rendezés {0}^SortBy^
+
+^SortByField^Válassza ki a mezőt a rendezési sorrendjének <b>{0}</b>.^SortByField^
+
+^SortByOptions^Válassza ki a rendezési sorrendjének <b>{0}</b> a mező <b>{1}</b> az opciók listáját az alábbiakban.^SortByOptions^
+
+^Sorted^Rendezés^Sorted^
+
+^SortedDefault^Alapértelmezett rendezési sorrend.^SortedDefault^
+
+^StartImport^Importálás indítása^StartImport^
+
+^StrikeThrough^Áthúzott^StrikeThrough^
+
+^StringSortAscending^Növekvő^StringSortAscending^
+
+^StringSortDescending^Csökkenő^StringSortDescending^
+
+^Submit^beküldése^Submit^
+
+^Subscript^Sub Script^Subscript^
+
+^Suggestions^Javaslatok^Suggestions^
+
+^SumAggregate^Össz: {0}^SumAggregate^
+
+^SumAggregateToolTip^Összesen {0}^SumAggregateToolTip^
+
+^Summary^Összesítés^Summary^
+
+^Summer^Nyári^Summer^
+
+^SumOf^Összege^SumOf^
+
+^Superscript^Super Script^Superscript^
+
+^Sync^Szinkronizál^Sync^
+
+^TaskResume^Folytatódik^TaskResume^
+
+^Tasks^Feladatok^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^ABC^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^tesztelés bejegyzések^TestingRecords^
+
+^Text^Szöveg^Text^
+
+^TextFilterText^Szöveg szűrők^TextFilterText^
+
+^Theme^Téma^Theme^
+
+^ThisMonth^Aktuális hónap^ThisMonth^
+
+^ThisQuarter^Aktuális negyedév^ThisQuarter^
+
+^ThisWeek^Aktuális hét^ThisWeek^
+
+^ThisYear^Aktuális év^ThisYear^
+
+^Tiny^Apró^Tiny^
+
+^Today^Ma^Today^
+
+^Tomorrow^Holnap^Tomorrow^
+
+^Top^felső^Top^
+
+^ToThisWebsite^erre az oldalra^ToThisWebsite^
+
+^TouchUINotSupported^Touch UI nem támogatja az ebben a böngészőben.^TouchUINotSupported^
+
+^TransitionFade^Halványul^TransitionFade^
+
+^TransitionFlip^Megfricskáz^TransitionFlip^
+
+^TransitionFlow^Flow^TransitionFlow^
+
+^TransitionNone^Semmi^TransitionNone^
+
+^TransitionPop^Pukkanás^TransitionPop^
+
+^Transitions^Transitions^Transitions^
+
+^TransitionSlide^Csúszik^TransitionSlide^
+
+^TransitionSlideDown^Lecsúszni^TransitionSlideDown^
+
+^TransitionSlideUp^Slide Up^TransitionSlideUp^
+
+^TransitionTurn^Fordulat^TransitionTurn^
+
+^TreeActionDescription^Hierarchikus kapcsolatok megjelenítése.^TreeActionDescription^
+
+^TreeActionHeaderText^Hierarchia mutatása^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Ellenőrző kód beszerzése^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Hitelesítő alkalmazás^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Ha nem tudja megadni az ellenőrző kódot, akkor írja be a tartalék kódot.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^egyszeri kód^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Biztonsági kód^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Hívták a következőt^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^E -mailt küldtünk a címre^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^Szöveges üzenetet küldtünk a címre^TwoFaCodeSentSms^
+
+^TwoFaConsent^Beleegyezés^TwoFaConsent^
+
+^TwoFaEnterPassword^Írd be a jelszavad^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Hívjon a^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^hívni fogok^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^Írjon nekem e -mailt^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^Írj nekem a címen^TwoFaGetCodeSms^
+
+^TwoFaMethod^Módszer^TwoFaMethod^
+
+^TwoFaMsgChanged^A kétfaktoros hitelesítés megváltozott.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^A kétfaktoros hitelesítés le van tiltva.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Letiltja a kétfaktoros hitelesítést?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^A kétfaktoros hitelesítés engedélyezve van.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Kérjük, adja meg a {0} jegyű ellenőrző kódot.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Érvénytelen jelszó.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Érvénytelen ellenörző kód.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^A 000000 az {0} ellenőrző kódja.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^Nem tudom beolvasni a QR -kódot.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Segítségre van szükségem a hitelesítő alkalmazás telepítéséhez.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Van egy hitelesítő alkalmazásom mobileszközön.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^Az egyszer használatos biztonsági kódok lehetővé teszik a bejelentkezést, ha nem tudja megadni az ellenőrző kódot.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Biztonsági kódok^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^A sikeres bejelentkezés után beírok egy ellenőrző kódot.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Adja meg a beállítási kulcsot az alkalmazásban^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Ellenőrzési módszerek^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Olvassa be a QR -kódot a kamerával^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Olvassa be a QR -kódot az alkalmazásban^TwoFaSetupScanQrCode^
+
+^TwoFaText^2-faktoros hitelesítés^TwoFaText^
+
+^TwoFaTrustThisDevice^Bízz ebben a készülékben^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Ellenőrző kód^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Hitelesítő alkalmazást fogok használni az ellenőrző kód megszerzéséhez.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Automatikus hívást fogok kapni a telefonomra.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Az ellenőrző kódot e -mailben küldjük el.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Az ellenőrző kódot szöveges üzenetben küldjük el.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Írja be a keresett^TypeToSearch^
+
+^Underline^Aláhúzás^Underline^
+
+^Undo^Kibont^Undo^
+
+^Undock^Válassza le^Undock^
+
+^Unfreeze^Kiolvaszt^Unfreeze^
+
+^UnGrouped^A csoportosítás eltávolításra került^UnGrouped^
+
+^UnLink^Kiold^UnLink^
+
+^UnSelect^Törölje^UnSelect^
+
+^UpdateActionHeaderText^Rendben^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Módosít?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Választás módosítása^UpdateActionInBatchModeHeaderText^
+
+^Upload^Feltöltés^Upload^
+
+^UploadDescription^Több fájl feltöltése.^UploadDescription^
+
+^Uploading^Feltöltés {0}...^Uploading^
+
+^UpOneLevel^Egy szinttel feljebb^UpOneLevel^
+
+^UseLEV^Beszúr "{0}"^UseLEV^
+
+^UserName^Felhasználó név^UserName^
+
+^UsersInRole^Felhasználók szerepe^UsersInRole^
+
+^UsersTab^Felhasználók^UsersTab^
+
+^Vantage^Előny^Vantage^
+
+^Verdant^Zöldellő^Verdant^
+
+^Verify^Ellenőrizze^Verify^
+
+^View^Nézet^View^
+
+^Viewpoint^Nézőpont^Viewpoint^
+
+^Wait^Kérlek várj...^Wait^
+
+^Week^Hét^Week^
+
+^Welcome1^Üdvözöljük^Welcome1^
+
+^Welcome2^Dátum:^Welcome2^
+
+^WhiteSmoke^Fehér füst^WhiteSmoke^
+
+^WithSelectedValues10^A kiválasztott értékekkel (Top 10)^WithSelectedValues10^
+
+^WithSelectedValues5^A kiválasztott értékekkel (Top 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^A megadott szűrő^WithSpecifiedFilters^
+
+^Year^Év^Year^
+
+^YearToDate^Idei^YearToDate^
+
+^Yes^Igen^Yes^
+
+^Yesterday^Tegnap^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Nagyítás^ZoomIn^
+
+^ZoomOut^Kicsinyítés^ZoomOut^
+

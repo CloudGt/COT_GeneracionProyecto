@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Criar um registro nova perfil de usuário.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Novo Perfil^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Novo^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Preencher o formulário. Certifique-se de entrar todos os campos necessários.^CreateFormCategory^
+
+^CreateFormHeaderText^Por favor, preencha este formulário e clique no botão OK para criar uma nova associação registro perfil. Clique em Cancelar para retornar à tela anterior.^CreateFormHeaderText^
+
+^DescriptionLabel^Descrição^DescriptionLabel^
+
+^EditViewCategory^Estes são os campos do registro perfil que pode ser editado.^EditViewCategory^
+
+^EditViewHeaderText^Por favor, reveja as informações perfil associação abaixo. Clique em Editar para alterar este registro, clique em Excluir para excluir o registro, ou clique em Cancelar / Fechar para voltar para trás.^EditViewHeaderText^
+
+^GridViewHeaderText^Esta é uma lista de funções do perfil.^GridViewHeaderText^
+
+^RoleNameLabel^Nome da Perfil^RoleNameLabel^
+

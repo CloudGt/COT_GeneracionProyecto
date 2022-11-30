@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Atgal^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Baigti^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Patvirtinti naują slaptažodį^ConfirmNewPassword^
+
+^ConfirmPassword^Patvirtinti slaptažodį^ConfirmPassword^
+
+^Email^El. Paštas^Email^
+
+^ForgotYourPassword^Pamiršai slaptažodį?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Atsakykite į šį klausimą, norėdami gauti savo slaptažodį. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Tapatybės patvirtinimas^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Prašome užpildyti šią formą ir paspausti mygtuką &quot;Pateikti&quot;, kad atkurtumėte pamirštą slaptažodį. Norėdami grįžti į ankstesnį ekraną, spustelėkite &quot;Atšaukti&quot;^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Slaptažodžio atkūrimas: 2 žingsnis iš 2^IdentityConfirmViewLabel^
+
+^LoginButton^Prisijungti^LoginButton^
+
+^LoginLink^Prisijungti^LoginLink^
+
+^LoginWithDNN^Prisijungti su DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Prisijungti su &quot;Facebook&quot;^LoginWithFacebook^
+
+^LoginWithGoogle^Prisijungti naudojant &quot;Google&quot;^LoginWithGoogle^
+
+^LoginWithMicrosoft^Prisijungti naudojant &quot;Microsoft&quot;^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Prisijunkite naudodami &quot;SharePoint&quot;^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Prisijungti naudojant &quot;Windows Live&quot;^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Atsakymas slaptažodis (nerodomas jūsų apsaugai)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Įveskite savo dabartinį slaptažodį, kad sukurtumėte naują slaptažodį, atnaujintumėte savo el. Pašto adresą arba pakeistumėte slaptažodžio atkūrimo klausimą ir atsakymą.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Dabartinis slaptažodis^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Prašome perskaityti savo narystės informaciją žemiau. Jei norite pakeisti šį įrašą, spustelėkite &quot;Atnaujinti mano paskyrą&quot;, arba spustelėkite &quot;Atšaukti&quot;, kad sugrįžtumėte^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Mano sąskaita^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Įveskite naują slaptažodį. Atkreipkite dėmesį, kad slaptažodis turi būti ne trumpesnis kaip 7 simboliai ir vienas ne raidinis skaitmeninis simbolis.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Naujas slaptažodis (neprivaloma)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Užmiršto slaptažodžio atkūrimo būsite paprašyta įvesti savo vartotojo vardą. Jei egzistuoja vartotojo abonementas, turi būti atsakyta į slaptažodį. Teisingas atsakymas suaktyvins el. Laišką su laikinu slaptažodžiu, kuris bus jums išsiųstas.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. El. Paštas &amp; Slaptažodžio atkūrimas (neprivaloma)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Naujas Slaptažodis^NewPassword^
+
+^OldPassword^Senas slaptažodis^OldPassword^
+
+^Password^Slaptažodis^Password^
+
+^PasswordAnswer^Atsakymas slaptažodžiu^PasswordAnswer^
+
+^PasswordQuestion^Slaptažodžio klausimas^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Įveskite vartotojo vardą. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Pamiršai slaptažodį?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Prašome užpildyti šią formą ir paspausti mygtuką Tęsti norėdami atkurti užmirštą slaptažodį. Norėdami grįžti į ankstesnį ekraną, spustelėkite &quot;Atšaukti&quot;^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Slaptažodžio atkūrimas: 1 žingsnis iš 2^PasswordRequestViewLabel^
+
+^RememberMe^Prisimink mane kitą kartą^RememberMe^
+
+^RequestPasswordActionHeaderText^Kitas^RequestPasswordActionHeaderText^
+
+^SignUp^Užsiregistruoti^SignUp^
+
+^SignUpNow^Užsiregistruokite dabar^SignUpNow^
+
+^SignUpViewHeaderText^Prašome užpildyti šią formą ir spustelėkite mygtuką Gerai, kad užsiregistruotumėte prie paskyros. Norėdami grįžti į ankstesnį ekraną, spustelėkite &quot;Atšaukti&quot;^SignUpViewHeaderText^
+
+^SignUpViewLabel^Paskyros registracija^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Prašome įvesti vartotojo vardą ir slaptažodį. Atkreipkite dėmesį, kad slaptažodis turi būti ne trumpesnis kaip 7 simboliai ir vienas ne raidinis skaitmeninis simbolis. Tik patvirtinti vartotojai galės prisijungti prie svetainės.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Nauja naudotojo informacija^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Šie laukai reikalingi, kad padėtų jums susigrąžinti pamirštą slaptažodį. Atkūrimo proceso metu bus paprašyta įvesti vartotojo vardą. Jei egzistuoja vartotojo abonementas, reikia atsakyti į saugumo klausimą. Teisingas atsakymas suaktyvins el. Laišką su laikinu slaptažodžiu, siunčiamu į registruotą el. Pašto adresą.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Slaptažodžio grąžinimas^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Atnaujinti mano paskyrą^UpdateMyAccountActionHeaderText^
+
+^UserName^Vartotojo vardas^UserName^
+

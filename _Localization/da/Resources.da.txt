@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Anmærke^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Fastgjort <b>{1}</b> på {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Attachment^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Indtast valgfri noter og vedhæfte filer.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Noter og vedhæftede filer^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Skrevet {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Noter^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Noter^AnnotationTab^
+
+^BlobClearConfirm^Klar?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Er blevet ryddet.^BlobCleared^
+
+^BlobClearText^Ryd^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Undladt at uploade {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Klik på^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^her^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^at uploade eller slette {0} fil.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Er blevet overført med succes. <b>It Kan tage op til {1} minutter for miniaturebilledet for at afspejle de uploadede content.</b>^BlobUploded^
+
+^Copyright^Alle rettigheder forbeholdt.^Copyright^
+
+^RecordChangedByAnotherUser^Pladen er blevet ændret af en anden bruger.^RecordChangedByAnotherUser^
+

@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Administratívny účet^AdminDesc^
+
+^SignInHeader^Inštrukcie^SignInHeader^
+
+^SignInInstruction^Prihláste sa pre prístup k chránenej obsahu webu.^SignInInstruction^
+
+^SignInPara1^Dva štandardné používateľské účty sú automaticky vytvorené pri inicializácii aplikácie v prípade členstva v voľba bola vybraná pre túto aplikáciu.^SignInPara1^
+
+^SignInPara2^Účet správcu <b>admin</b> je oprávnený k prístupu všetkých oblastí webové stránky a členstvo manažér. Štandardný <b>user</b> účet je povolený prístup všetkých oblastí webové stránky, s výnimkou členstva manažéra.^SignInPara2^
+
+^SignInPara3^Presuňte kurzor myši na odkaz <i>Login na tento web site</i> na pravej strane v hornej časti stránky a prihláste sa pomocou jednej z nižšie uvedených účtov.^SignInPara3^
+
+^UserDesc^Štandardný užívateľský účet^UserDesc^
+

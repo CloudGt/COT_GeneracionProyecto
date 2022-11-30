@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Geri^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Bitiş^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Yeni şifreyi onayla^ConfirmNewPassword^
+
+^ConfirmPassword^Şifreyi Onayla^ConfirmPassword^
+
+^Email^E-posta^Email^
+
+^ForgotYourPassword^Parolanızı mı unuttunuz?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Parolanızı almak için aşağıdaki soruyu yanıtlayın. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Kimlik Doğrulaması^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Unutulan parolayı kurtarmak için lütfen bu formu doldurun ve Gönder düğmesini tıklayın. Bir önceki ekrana dönmek için İptal düğmesine tıklayın.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Şifre Kurtarma: Adım 2/2^IdentityConfirmViewLabel^
+
+^LoginButton^Oturum aç^LoginButton^
+
+^LoginLink^Oturum aç^LoginLink^
+
+^LoginWithDNN^DotNetNuke ile Oturum Aç^LoginWithDNN^
+
+^LoginWithFacebook^Facebook ile giriş^LoginWithFacebook^
+
+^LoginWithGoogle^Google ile Giriş Yap^LoginWithGoogle^
+
+^LoginWithMicrosoft^Microsoft ile Oturum Aç^LoginWithMicrosoft^
+
+^LoginWithSharePoint^SharePoint ile Oturum Açma^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Windows Live ile Giriş^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Parola Cevap (koruma için gösterilmez)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Lütfen yeni şifrenizi oluşturmak, e-posta adresinizi güncellemek veya şifre kurtarma soru ve cevaplarını değiştirmek için mevcut şifrenizi girin.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Geçerli Şifre^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Lütfen üyelik bilgilerinizi aşağıda inceleyin. Bu kaydı değiştirmek için Hesabımı Güncelle&#39;yi tıklayın veya geri dönmek için İptal&#39;i tıklayın.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Hesabım^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Lütfen yeni şifre girin. Parolanın en az 7 karakter uzunluğunda olması ve alfasayısal olmayan bir karakter içermesi gerektiğini unutmayın.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Yeni Parola (İsteğe Bağlı)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Unutulan bir şifrenin düzeltilmesi sırasında kullanıcı adınızı girmeniz istenir. Bir kullanıcı hesabı varsa, bir şifre sorusunun yanıtlanması gerekir. Doğru bir cevap, size geçici bir şifre gönderen bir e-postayı tetikler.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-posta &amp; Şifre Kurtarma (İsteğe Bağlı)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Yeni Şifre^NewPassword^
+
+^OldPassword^eski şifre^OldPassword^
+
+^Password^Parola^Password^
+
+^PasswordAnswer^Şifre Cevap^PasswordAnswer^
+
+^PasswordQuestion^Şifre Sorusu^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Lütfen bir kullanıcı adı giriniz. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Parolanızı mı unuttunuz?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Lütfen unuttun şifreyi kurtarmak için bu formu doldurun ve Devam düğmesine tıklayın. Bir önceki ekrana dönmek için İptal düğmesine tıklayın.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Şifre Kurtarma: Adım 1/2^PasswordRequestViewLabel^
+
+^RememberMe^Beni bir dahaki sefere hatırla^RememberMe^
+
+^RequestPasswordActionHeaderText^Sonraki^RequestPasswordActionHeaderText^
+
+^SignUp^Kaydol^SignUp^
+
+^SignUpNow^Şimdi kayıt ol^SignUpNow^
+
+^SignUpViewHeaderText^Lütfen bir hesaba kaydolmak için bu formu doldurun ve Tamam düğmesini tıklayın. Bir önceki ekrana dönmek için İptal düğmesine tıklayın.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Hesap Kaydı^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Lütfen kullanıcı adı ve parola girin. Parolanın en az 7 karakter uzunluğunda olması ve alfasayısal olmayan bir karakter içermesi gerektiğini unutmayın. Sadece onaylanan kullanıcılar web sitesinde oturum açabilecektir.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Yeni Kullanıcı Bilgileri^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Bu alanlar, unutulmuş bir şifreyi kurtarmanız için gereklidir. Kurtarma işlemi sırasında bir kullanıcı adı girmeniz istenir. Bir kullanıcı hesabı varsa, bir güvenlik sorusunun yanıtlanması istenir. Doğru bir cevap, kayıtlı bir e-postaya geçici bir şifre gönderen bir e-postayı tetikler.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Şifre kurtarma^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Hesabımı Güncelle^UpdateMyAccountActionHeaderText^
+
+^UserName^Kullanıcı adı^UserName^
+

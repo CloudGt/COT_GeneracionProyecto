@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Membubuhi keterangan^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b> Terpasang di {1}</b>{2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Lampiran^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Masukkan catatan opsional dan melampirkan file.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Catatan dan Lampiran^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} {1} Ditulis pada^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Catatan^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Catatan^AnnotationTab^
+
+^BlobClearConfirm^Jelas?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Telah dibersihkan.^BlobCleared^
+
+^BlobClearText^Hapus^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Gagal untuk meng-upload {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Klik^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^di sini^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^untuk meng-upload atau menghapus file yang {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Telah berhasil diupload. <b>It Mungkin memerlukan waktu hingga menit {1} untuk thumbnail untuk mencerminkan content.</b> upload^BlobUploded^
+
+^Copyright^All rights reserved.^Copyright^
+
+^RecordChangedByAnotherUser^Rekor telah diubah oleh user lain.^RecordChangedByAnotherUser^
+

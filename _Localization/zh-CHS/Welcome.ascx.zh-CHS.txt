@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^管理帐户^AdminDesc^
+
+^SignInHeader^说明^SignInHeader^
+
+^SignInInstruction^登录访问受保护的网站内容。^SignInInstruction^
+
+^SignInPara1^两个标准用户帐户时自动创建应用程序初始化如果会员选项已被选定为这个应用程序。^SignInPara1^
+
+^SignInPara2^行政帐户<b>admin</b>被授权访问的网站和会员经理的各个领域。标准<b>user</b>帐户允许访问的成员除了经理对网站的各个领域。^SignInPara2^
+
+^SignInPara3^移动鼠标在链接<i>Login指向此网页site</i>在位于页面顶部右侧，并签署与下面列出的帐户1英寸^SignInPara3^
+
+^UserDesc^标准用户帐户^UserDesc^
+

@@ -1,0 +1,1171 @@
+***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Apie^About^
+
+^Accent^akcentas^Accent^
+
+^ActionBarActionsHeaderText^Veiksmai^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Atšaukti^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Atšaukti visų įrašų pakeitimus.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Atšaukti naują įrašą.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Įrašyti naują įrašą į duomenų bazę.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Sutaupyti^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Sukurti naują {0} rekordą.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^Naujas {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Naujas^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Įrašas^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Pranešimas^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Išsaugoti pakeitimus į duomenų bazę.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Sutaupyti^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Pridėti paskyrą^AddAccount^
+
+^AddCondition^Pridėti Būklė^AddCondition^
+
+^AddConditionText^Pridėti paieškos sąlygą^AddConditionText^
+
+^AddItem^Pridėti Prekę^AddItem^
+
+^AddMatchingGroup^Pridėti atitikimo grupę^AddMatchingGroup^
+
+^AddSearchBarField^Daugiau Paieškos laukai^AddSearchBarField^
+
+^AddSystemIdentity^Pridėti sistema tapatybę^AddSystemIdentity^
+
+^AddToFavorites^Pridėti į Favoritus^AddToFavorites^
+
+^AdvancedSearch^Detali paieška^AdvancedSearch^
+
+^AdvancedSearchInstruction^Įveskite sąlygas, kurios turi būti suderinta ir paspauskite paieškos mygtuką.^AdvancedSearchInstruction^
+
+^After^Po^After^
+
+^Agenda^Darbotvarkė^Agenda^
+
+^AlignedLeft^Rašomos kairėje^AlignedLeft^
+
+^AlignedRight^Suderinta Teisė^AlignedRight^
+
+^AllDatesInPreriod^Visi laikotarpio datas^AllDatesInPreriod^
+
+^AlternativeView^Pasirinkite alternatyvų požiūrį į duomenis.^AlternativeView^
+
+^Always^Visada^Always^
+
+^AnyValue^(Bet)^AnyValue^
+
+^Apply^Taikyti^Apply^
+
+^Apps^programos^Apps^
+
+^Aquarium^Akvariumas^Aquarium^
+
+^Auto^Auto^Auto^
+
+^AverageOf^Vidurkis^AverageOf^
+
+^AvgAggregate^Vid: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Iš {0} vidurkis^AvgAggregateToolTip^
+
+^Azure^Žydras^Azure^
+
+^Back^Atgal^Back^
+
+^BackColor^Atgal spalva^BackColor^
+
+^BatchEditActionHeaderText^Serija Redaguoti^BatchEditActionHeaderText^
+
+^BatchEdited^{0} atnaujinta^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Serija Redaguoti (forma)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^atnaujinti^BatchUpdate^
+
+^Before^Prieš^Before^
+
+^BeginsWith^Prasideda^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^Uoga^Berry^
+
+^Between^Tarp^Between^
+
+^Bittersweet^Bittersweet^Bittersweet^
+
+^Blank^Tuščias^Blank^
+
+^BlankPassword^Slaptažodis negali būti tuščias.^BlankPassword^
+
+^BlankUserName^Vartotojo vardas negali būti tuščias.^BlankUserName^
+
+^BlankValue^(Tuščias)^BlankValue^
+
+^BlobDownloadHint^Spauskite čia norėdami parsisiųsti originalaus failo.^BlobDownloadHint^
+
+^BlobDownloadLink^atsisiųsti^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Palieskite vaizdą, kad atsisiųstumėte pradinį failą.^BlobDownloadOriginalHint^
+
+^Bold^Drąsus^Bold^
+
+^BooleanFilterText^Loginiai Filtrai^BooleanFilterText^
+
+^BooleanIsExpected^Loginė reikšmė yra tikimasi.^BooleanIsExpected^
+
+^ButtonShapes^Mygtukas formos^ButtonShapes^
+
+^By^iki^By^
+
+^Calendar^Kalendorius^Calendar^
+
+^Cancel^Atšaukti^Cancel^
+
+^Cards^Kortelės^Cards^
+
+^Cay^Koralų rifas^Cay^
+
+^ChangeYourLanguage^Keisti savo kalbą^ChangeYourLanguage^
+
+^Charts^Grafikai^Charts^
+
+^Citrus^Citrusinių^Citrus^
+
+^Classic^Klasikinis^Classic^
+
+^ClearFilter^Išvalyti filtrą iš {0}^ClearFilter^
+
+^ClearFilter2^Išvalyti filtrą^ClearFilter2^
+
+^ClearText^Išvalyti tekstas^ClearText^
+
+^ClearToolTip^Aiškus {0}^ClearToolTip^
+
+^Close^Arti^Close^
+
+^Comfortable^Patogus^Comfortable^
+
+^Compact^Kompaktiškas^Compact^
+
+^Condensed^Kondensuotas^Condensed^
+
+^ConfirmContinue^Tęsti?^ConfirmContinue^
+
+^ConfirmReload^Perkrauti?^ConfirmReload^
+
+^ConnectionLost^Tinklo ryšys buvo prarastas. Bandykite dar kartą?^ConnectionLost^
+
+^Construct^Statyti^Construct^
+
+^Contains^Sudėtyje yra^Contains^
+
+^Convention^Konvencija^Convention^
+
+^Copy^Kopijuoti^Copy^
+
+^CountAggregate^Kiekis: {0}^CountAggregate^
+
+^CountAggregateToolTip^Skaičius {0}^CountAggregateToolTip^
+
+^CountOf^Grafas^CountOf^
+
+^CreateLink^Sukurti nuorodą^CreateLink^
+
+^CustomFilterOption^Filtras ...^CustomFilterOption^
+
+^Cut^Sumažinti^Cut^
+
+^DarkKnight^Tamsos riteris^DarkKnight^
+
+^DarkTheme^Tamsus^DarkTheme^
+
+^DataSheetActionDescription^Rodyti elementus, naudojant duomenis sheet<br/>format.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Rodyti duomenų lapas^DataSheetActionHeaderText^
+
+^DataWarning^Didžiausią jų pozicijų skaičių į procesą yra {0: D}. Spauskite čia norėdami filtruoti rezultatus.^DataWarning^
+
+^Date^Data^Date^
+
+^DateFilterText^Data Filtrai^DateFilterText^
+
+^DateIsExpected^Data, tikimasi.^DateIsExpected^
+
+^DatesAMinAgo^prieš minutę^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^per minutę^DatesInAMin^
+
+^DatesInHour^per valandą^DatesInHour^
+
+^DatesInMin^į {0} min^DatesInMin^
+
+^DatesLast^paskutinis^DatesLast^
+
+^DatesMinAgo^prieš {0} minutės^DatesMinAgo^
+
+^DatesNext^Kitas^DatesNext^
+
+^DatesNow^dabar^DatesNow^
+
+^DatesOneHour^prieš valandą^DatesOneHour^
+
+^DateSortAscending^Seniausi viršuje^DateSortAscending^
+
+^DateSortDescending^Naujas viršuje^DateSortDescending^
+
+^DatesSmart^Smart Datos^DatesSmart^
+
+^DatesToday^šiandien^DatesToday^
+
+^DatesTomorrow^rytoj^DatesTomorrow^
+
+^DatesYesterday^vakar^DatesYesterday^
+
+^Day^Diena^Day^
+
+^DefaultCancelActionHeaderText^Arti^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Prašome užpildyti šią formą ir spustelėkite OK mygtuką, kad sukurtumėte naują {0} įrašų. Spustelėkite Atšaukti, jei norite grįžti į ankstesnį ekraną.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^Tai yra {0} įrašo laukus, kurie gali būti redaguojama.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Prašome peržiūrėti žemiau {0} informacijos. Spustelėkite Redaguoti, jei norite pakeisti šį įrašą, spustelėkite Naikinti ištrinti įrašą, arba spustelėkite Atšaukti / Uždaryti grįžti atgal.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Tai yra {0} sąrašas.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Užpildykite formą. Įsitikinkite, kad įvesti visus būtinus laukus.^DefaultNewDescription^
+
+^DefaultOption^Standartas^DefaultOption^
+
+^DefaultReferenceDescription^Papildoma informacija apie {0} informacinių nuorodų skyrių.^DefaultReferenceDescription^
+
+^Delete^Panaikinti^Delete^
+
+^DeleteActionConfirmation^Ištrinti?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Panaikinti^DeleteActionHeaderText^
+
+^Deleted^{$ selected} ištrinta^Deleted^
+
+^DeleteSearchBarField^(Išbraukta)^DeleteSearchBarField^
+
+^DetailsToolTip^Peržiūrėti detales, {0}^DetailsToolTip^
+
+^DevelopExplorer^projektų Explorer &quot;^DevelopExplorer^
+
+^DevelopFormLayout^forma išdėstymas^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^Pasirinkite ekrano dydį turi būti įtrauktas į maketą.^DevelopFormLayoutInstr^
+
+^DevelopTools^Kurejo irankiai^DevelopTools^
+
+^Device^prietaisas^Device^
+
+^DeviceLoginPrompt^Prisijunkite, kad suteiktumėte prieigą šiame įrenginyje.^DeviceLoginPrompt^
+
+^DidNotMatch^Neatitiko^DidNotMatch^
+
+^Directions^Nurodymai^Directions^
+
+^DiscardChanges^Atsisakyti pakeitimų?^DiscardChanges^
+
+^DisplayDensity^Rodyti Tankis^DisplayDensity^
+
+^DisplayedAbove^Rodoma Virš^DisplayedAbove^
+
+^DisplayedBelow^Rodoma Žemiau^DisplayedBelow^
+
+^Dock^Sujungti^Dock^
+
+^DoesNotBeginWith^Nėra prasideda^DoesNotBeginWith^
+
+^DoesNotContain^Nėra^DoesNotContain^
+
+^DoesNotEndWith^Nesibaigia^DoesNotEndWith^
+
+^DoesNotEqual^Nėra lygi^DoesNotEqual^
+
+^DoesNotInclude^Neapima^DoesNotInclude^
+
+^DoNotMatchAll^Nesutampa visas sąlygas^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Neatitiko visų sąlygų,^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Neatitinka jokių sąlygos^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Neatitiko jokio sąlygos^DoNotMatchAnyPastTense^
+
+^Download^parsisiųsti^Download^
+
+^DuplicateActionHeaderText^Dublikatas^DuplicateActionHeaderText^
+
+^DuplicateItem^Pasikartojantis daiktas^DuplicateItem^
+
+^DuplicateRow^Pasikartojanti eilutė^DuplicateRow^
+
+^EditActionHeaderText^Redaguoti^EditActionHeaderText^
+
+^EditItem^Redaguoti elementą^EditItem^
+
+^EditModeCancelActionHeaderText^Atšaukti^EditModeCancelActionHeaderText^
+
+^EditRow^Redaguoti eilutę^EditRow^
+
+^Empty^Tuščias^Empty^
+
+^EmptyContext^Veiksmai nėra.^EmptyContext^
+
+^EmptyValue^(Tuščias)^EmptyValue^
+
+^EndsWith^Baigiasi^EndsWith^
+
+^Equals^Lygu^Equals^
+
+^Error^klaida^Error^
+
+^Exit^Išeiti^Exit^
+
+^ExitFullscreen^Išjungti viso ekrano režimą^ExitFullscreen^
+
+^ExportCsvActionDescription^Parsisiųsti elementus CSV formatu.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Parsisiųsti^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Analizuoti su spreadsheet<br/>application elementus.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Eksportuoti į lentelinę skaičiuoklę^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Sindikuoti elementų RSS skaitytuvą.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^Rodyti RSS kanalą^ExportRssActionHeaderText^
+
+^Favorites^Mėgstami^Favorites^
+
+^Felt^Veltinis^Felt^
+
+^FilesBytes^baitai^FilesBytes^
+
+^FilesClear^Aiškus^FilesClear^
+
+^FilesClearConfirm^Išvalyti?^FilesClearConfirm^
+
+^FilesClick^Spustelėkite norėdami pasirinkti failą^FilesClick^
+
+^FilesClickMany^Spauskite, kad pasirinktumėte failus^FilesClickMany^
+
+^FilesDrop^Drop failą čia^FilesDrop^
+
+^FilesDropMany^Upuść failus čia^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Bakstelėkite, norėdami pasirinkti failą^FilesTap^
+
+^FilesTapMany^Bakstelėkite, norėdami pasirinkti failai^FilesTapMany^
+
+^Filter^Filtras^Filter^
+
+^FilterApplied^Filtras buvo pritaikytas.^FilterApplied^
+
+^FilterByField^Pasirinkite lauką, kurį norite taikyti filtrą <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Pasirinkite vieną arba kelis variantus žemiau esančio sąrašo ir paspauskite <b>{2}</b> filtruoti <b>{0}</b> to lauko <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Išvalyti visi filtrai.^FilterCleared^
+
+^FilterLabelAnd^ir^FilterLabelAnd^
+
+^FilterLabelClear^Aiškiai^FilterLabelClear^
+
+^FilterLabelEquals^lygus^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Keisti^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^apima^FilterLabelIncludes^
+
+^FilterLabelOr^arba^FilterLabelOr^
+
+^FilterLabelSelectAll^(Žymėti viską)^FilterLabelSelectAll^
+
+^FilterSiteMap^Filtro struktūra ...^FilterSiteMap^
+
+^Finish^Baigti^Finish^
+
+^FitToWidth^Talpinti pločio^FitToWidth^
+
+^FlatTreeToggle^Perjungti į hierarchija^FlatTreeToggle^
+
+^FontName^Šrifto Vardas^FontName^
+
+^FontSize^Šrifto dydis^FontSize^
+
+^ForeColor^Priekinės spalva^ForeColor^
+
+^Forget^pamiršti^Forget^
+
+^ForgotYourPassword^Pamiršote slaptažodį?^ForgotYourPassword^
+
+^Format^Formatas^Format^
+
+^Freeze^Užšaldyti^Freeze^
+
+^Fullscreen^Per visą ekraną^Fullscreen^
+
+^Future^Ateitis^Future^
+
+^GeneralTabText^Bendras^GeneralTabText^
+
+^GenericNewToolTip^Sukurti naują^GenericNewToolTip^
+
+^GenericSortAscending^Mažiausias viršuje^GenericSortAscending^
+
+^GenericSortDescending^Didžiausias viršuje^GenericSortDescending^
+
+^Graham^Iš kvietinių miltų^Graham^
+
+^GrandTotals^Grand Bendros^GrandTotals^
+
+^Granite^Granitas^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Sunkumas^Gravity^
+
+^GreaterThan^Didesnis nei^GreaterThan^
+
+^GreateThanOrEqual^Didesnis nei arba lygus^GreateThanOrEqual^
+
+^Grid^Tinklelis^Grid^
+
+^GridActionDescription^Eksponatų standard<br/>list formatu.^GridActionDescription^
+
+^GridActionHeaderText^Rodyti Standartinis rodinys^GridActionHeaderText^
+
+^Group^Grupė^Group^
+
+^GroupByField^Pasirinkite lauką grupės <b>{0}</b>.^GroupByField^
+
+^Grouped^Grupuojami^Grouped^
+
+^GroupedBy^Grupuoti pagal^GroupedBy^
+
+^GroupedDefault^Grupavimas pašalintas^GroupedDefault^
+
+^Heading1^1 antraštė^Heading1^
+
+^Heading2^2 antraštė^Heading2^
+
+^Heading3^3 išlaidų kategorija^Heading3^
+
+^Heading4^4 išlaidų kategorija^Heading4^
+
+^Heading5^5 antraštė^Heading5^
+
+^Heading6^6 antraštė^Heading6^
+
+^Help^Padėti^Help^
+
+^HelpClose^Arti^HelpClose^
+
+^HelpFullScreen^Visas Ekranas^HelpFullScreen^
+
+^Hide^paslėpti^Hide^
+
+^HideAdvancedSearch^Slėpti Išplėstinė paieška^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Perjungti į Butas sąrašas^HierarchyTreeModeToggle^
+
+^History^Istorija^History^
+
+^HistoryToolTip^Peržiūrėti istoriją anksčiau pasirinktų įrašai^HistoryToolTip^
+
+^HistoryUnavailable^Istorija nėra.^HistoryUnavailable^
+
+^Home^Namai^Home^
+
+^IdleUser^Tu vis dar ten? Prašome prisijungti vėl.^IdleUser^
+
+^ImportActionDescription^Nusiųsti CSV, XLS, XLSX file<br/>to importo įrašus.^ImportActionDescription^
+
+^ImportActionHeaderText^Importuoti iš failo^ImportActionHeaderText^
+
+^ImportAutoDetect^(Auto Detect)^ImportAutoDetect^
+
+^ImportComplete^pilnas^ImportComplete^
+
+^ImportDone^užbaigtas importuoti^ImportDone^
+
+^ImportDownloadTemplate^Parsisiųsti importo failo šabloną.^ImportDownloadTemplate^
+
+^ImportDuplicates^dublikatai^ImportDuplicates^
+
+^ImportEmail^Siųsti importo žurnalo į šiuos elektroninio pašto adresai (neprivaloma)^ImportEmail^
+
+^ImportEmailNotSpecified^Importo istorija gavėjas nebuvo nurodyta. Vis tiek tęsti?^ImportEmailNotSpecified^
+
+^ImportExpected^Tikimasi baigti^ImportExpected^
+
+^ImportFileStats^Yra <b>{0}</b> įrašų failo <b>{1}</b> pasirengusi būti tvarkomi. Prašome suderinti laukų pavadinimus.^ImportFileStats^
+
+^Importing^importavimas^Importing^
+
+^ImportMappingInstruction^Yra <b>{0}</b> įrašą (-us) failą <b>{1}</b> pasiruošę processed.<br/>Please žemėlapis importo srityse iš duomenų failo taikymo sritys ir spustelėkite <i>Import</i> pradėti apdorojimo.^ImportMappingInstruction^
+
+^ImportNotSupported^Duomenų formatas &quot;{0}&quot; nepalaikomas.^ImportNotSupported^
+
+^ImportProcessing^Buvo pradėta importuoti failą apdorojimo. Importuotų duomenų įrašus, taps prieinama nuo sėkmingo duomenų tvarkymo. Jums gali prireikti atnaujinti atitinkamų peržiūrų / psl importuojamas įrašus.^ImportProcessing^
+
+^ImportRemaining^Tikimasi baigti^ImportRemaining^
+
+^ImportSelectFile^Pasirinkite duomenų failą CSV, XLS, XLSX ar formatu.^ImportSelectFile^
+
+^ImportStartButton^Importuoti^ImportStartButton^
+
+^ImportUploading^Jūsų failas yra įkeltas į serverį. Prašome palaukti ...^ImportUploading^
+
+^ImportUploadInstruction^Prašome pasirinkti failą įkėlimui. Byla turi būti <b>CSV</b>, <b>XLS</b>, ar <b>XLSX</b> formatu.^ImportUploadInstruction^
+
+^In^į^In^
+
+^Includes^Apima^Includes^
+
+^Indent^Įtrauka^Indent^
+
+^InfoBarAnd^ir^InfoBarAnd^
+
+^InfoBarEmpty^tuščias^InfoBarEmpty^
+
+^InfoBarEqualTo^yra lygus^InfoBarEqualTo^
+
+^InfoBarGreaterThan^yra didesnis nei^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^yra didesnis nei arba lygus^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^yra mažesnis nei^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^yra mažesnė arba lygi^InfoBarLessThanOrEqual^
+
+^InfoBarLike^yra kaip^InfoBarLike^
+
+^InfoBarOr^arba^InfoBarOr^
+
+^InfoBarQuickFind^Bet kurioje srityje yra^InfoBarQuickFind^
+
+^InfoBarStartsWith^prasideda su^InfoBarStartsWith^
+
+^InitialListMode^Pradinis sąrašas režimas^InitialListMode^
+
+^InlineEditing^Inline redagavimas^InlineEditing^
+
+^InsertActionHeaderText^Gerai^InsertActionHeaderText^
+
+^InsertHorizontalRule^Įterpti horizontalią taisyklę^InsertHorizontalRule^
+
+^InsertingRecords^įdėjimas įrašus^InsertingRecords^
+
+^InsertOrderedList^Įdėkite Užsakytas sąrašas^InsertOrderedList^
+
+^InsertUnorderedList^Įterpti Nenumetuotas sąrašas^InsertUnorderedList^
+
+^Into^į^Into^
+
+^InvalidUserNameAndPassword^Jūsų vartotojo vardas ir slaptažodis negalioja.^InvalidUserNameAndPassword^
+
+^Italic^Italikų^Italic^
+
+^ItemsPerPage^Rodyti puslapyje po:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} Elementai^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Punktas pasirinktas^ItemsSelectedOne^
+
+^JustDatesNow^Dabar^JustDatesNow^
+
+^JustifyCenter^Justify Center^JustifyCenter^
+
+^JustifyFull^Lygiuoti^JustifyFull^
+
+^JustifyLeft^Lygiuoti kairėje^JustifyLeft^
+
+^JustifyRight^Lygiuoti Teisė^JustifyRight^
+
+^LabelsInList^Etiketės sąraše^LabelsInList^
+
+^Lacquer^Lakas^Lacquer^
+
+^Laminate^Laminatas^Laminate^
+
+^Landscape^Kraštovaizdis^Landscape^
+
+^Large^Didelis^Large^
+
+^LastMonth^Paskutinis mėnuo^LastMonth^
+
+^LastQuarter^Paskutinį ketvirtį^LastQuarter^
+
+^LastWeek^Paskutinė savaitė^LastWeek^
+
+^LastYear^Pernai^LastYear^
+
+^Less^Mažesnis^Less^
+
+^LessThan^Mažiau nei^LessThan^
+
+^LessThanOrEqual^Mažesnis arba lygus^LessThanOrEqual^
+
+^Lichen^Kerpė^Lichen^
+
+^LightTheme^Šviesa^LightTheme^
+
+^Line^linija^Line^
+
+^List^Sąrašas^List^
+
+^ListOneColumn^Sąrašas (vienas stulpelis)^ListOneColumn^
+
+^ListViewStyle^Sąrašas^ListViewStyle^
+
+^Loading^Kraunama ...^Loading^
+
+^Logical^Logiškas^Logical^
+
+^LoginButton^Įėjimas^LoginButton^
+
+^LoginLink^Įėjimas^LoginLink^
+
+^Logout^Atsijungti^Logout^
+
+^LookupInstruction^Prašome pasirinkti <b>{0}</b> sąraše.^LookupInstruction^
+
+^LookupOriginalSelection^Originalus pasirinkimas yra <b>&quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^tvarkyti abonementus^ManageAccounts^
+
+^Map^Žemėlapis^Map^
+
+^MatchAll^Rungtynių visas sąlygas^MatchAll^
+
+^MatchAllPastTense^Sutampa visas sąlygas^MatchAllPastTense^
+
+^MatchAny^Su bet kuriuo sąlygas^MatchAny^
+
+^MatchAnyPastTense^Sutampa jokių sąlygų^MatchAnyPastTense^
+
+^Matched^Sutampa^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Daugiausia iš {0}^MaxAggregateToolTip^
+
+^Maximize^Plėsti^Maximize^
+
+^MaximumOf^Maksimalus^MaximumOf^
+
+^Medium^Vidutinis^Medium^
+
+^Menu^Meniu^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^Mažiausiai iš {0}^MinAggregateToolTip^
+
+^Minimize^Žlugimas^Minimize^
+
+^MinimumOf^Minimalus^MinimumOf^
+
+^Mission^Misija^Mission^
+
+^ModeBrowsing^Naršymas^ModeBrowsing^
+
+^ModeEditing^Redagavimas^ModeEditing^
+
+^ModeEntering^įterpiant^ModeEntering^
+
+^ModeLookup^Ieškoti^ModeLookup^
+
+^Modern^Modernus^Modern^
+
+^ModernRose^Šiuolaikinės Rose^ModernRose^
+
+^ModeViewing^Aprašymo^ModeViewing^
+
+^Month^Mėnesio^Month^
+
+^More^Daugiau^More^
+
+^MultiSelection^Daugiafunkciniai pasirinkimas^MultiSelection^
+
+^Municipal^Savivaldybės^Municipal^
+
+^MyAccount^Mano sąskaita^MyAccount^
+
+^Never^Niekada^Never^
+
+^NewActionHeaderText^Naujas^NewActionHeaderText^
+
+^NewItem^Naujas daiktas^NewItem^
+
+^NewRow^Naujoji eilutė^NewRow^
+
+^NewRowLink^Spauskite čia, jei norite sukurti naują įrašą.^NewRowLink^
+
+^NewToolTip^Naujas {0}^NewToolTip^
+
+^Next^Kitas^Next^
+
+^Next2^Kitas^Next2^
+
+^NextMonth^Kitas mėnuo^NextMonth^
+
+^NextQuarter^Kitas ketvirtis^NextQuarter^
+
+^NextWeek^Kitą savaitę^NextWeek^
+
+^NextYear^Kitąmet^NextYear^
+
+^No^Ne^No^
+
+^NoMatches^Nėra atitikimų.^NoMatches^
+
+^None^Nė vienas^None^
+
+^Noon^Pusiaudienis^Noon^
+
+^NoRecords^Nėra įrašų.^NoRecords^
+
+^NoteDeleteConfirm^Ištrinti?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^panaikinti^NoteDeleteLabel^
+
+^NoteEditLabel^redaguoti^NoteEditLabel^
+
+^NotEmpty^Neišleisti^NotEmpty^
+
+^NotMatched^(Neatitiko)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^Skaičius^Number^
+
+^NumberFilterText^Numeris Filtrai^NumberFilterText^
+
+^NumberIsExpected^Skaičius yra tikimasi.^NumberIsExpected^
+
+^OK^Gerai^OK^
+
+^OnHover^Dėl žymekliu^OnHover^
+
+^OnOrAfter^Nuo ar po^OnOrAfter^
+
+^OnOrBefore^Ar anksčiau^OnOrBefore^
+
+^OpenActionHeaderText^Atidaryti^OpenActionHeaderText^
+
+^Optional^neprivalomas^Optional^
+
+^Orientation^orientacija^Orientation^
+
+^Other^Kitas^Other^
+
+^Outdent^Outdent^Outdent^
+
+^Page^Puslapis^Page^
+
+^Paragraph^Punktas^Paragraph^
+
+^Password^Slaptažodis^Password^
+
+^Past^Praeities^Past^
+
+^Paste^Pasta^Paste^
+
+^PerformAdvancedSearch^Paieška^PerformAdvancedSearch^
+
+^Permalink^Nuolatinė nuoroda^Permalink^
+
+^PermalinkToolTip^Sukurti nuolatinį ryšį pasirinktas įrašas^PermalinkToolTip^
+
+^PermalinkUnavailable^Nuolatinė nuoroda yra neprieinama. Pasirinkite įrašą.^PermalinkUnavailable^
+
+^Petal^Vainiklapis^Petal^
+
+^Pinnate^Plunksninis^Pinnate^
+
+^Plastic^Plastmasinis^Plastic^
+
+^Portrait^Portretas^Portrait^
+
+^PresentationStyle^Pasirinkite duomenų pateikimo stilių.^PresentationStyle^
+
+^Prev2^Ankstesnis^Prev2^
+
+^Previous^Ankstesnis^Previous^
+
+^PromoteActions^Skatinti veiksmus^PromoteActions^
+
+^Q1^K1^Q1^
+
+^Q2^K2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^K4^Q4^
+
+^Quarter^Ketvirtis^Quarter^
+
+^Quarter1^Ketvirtį 1^Quarter1^
+
+^Quarter2^Ketvirtis 2^Quarter2^
+
+^Quarter3^Ketvirtį 3^Quarter3^
+
+^Quarter4^Ketvirtį 4^Quarter4^
+
+^QuickFindScope^Ieškoti ...^QuickFindScope^
+
+^QuickFindText^Greita paieška^QuickFindText^
+
+^QuickFindToolTip^Įveskite paieškos užklausą įrašus ir paspauskite klavišą Enter^QuickFindToolTip^
+
+^Quotation^Citata^Quotation^
+
+^ReadOnly^{0} yra tik skaitoma.^ReadOnly^
+
+^Recent^Naujas^Recent^
+
+^Redo^Perdaryti^Redo^
+
+^Refresh^Atnaujinti^Refresh^
+
+^Refreshed^Atnaujintas^Refreshed^
+
+^RememberMe^Prisiminti mane kitą kartą^RememberMe^
+
+^RemoveCondition^Pašalinti Būklė^RemoveCondition^
+
+^RemoveFormat^Panaikinti formatą^RemoveFormat^
+
+^ReportActionDescription^Užkrauta ataskaitą PDF formatu^ReportActionDescription^
+
+^ReportActionHeaderText^Pranešimas^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Peržiūrėti elementus formatted<br/>Microsoft skaičiuoklėje Excel.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Skaičiuoklės^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Rodyti Kelių lapų TIFF vaizdo elementų, kaip.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Kelių lapų Nuotraukos^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Peržiūrėti elementus, kaip Adobe PDF document.<br/>Requires suderinama skaitytuvas.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^PDF dokumentas^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Peržiūrėti elementus formatted<br/>Microsoft Word dokumentą.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^&quot;Microsoft Word&quot;^ReportAsWordActionHeaderText^
+
+^Required^Reikalinga^Required^
+
+^RequiredField^Šis laukas yra reikalingas.^RequiredField^
+
+^RequiredFiledMarkerFootNote^nurodo būtiną laukelį^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Atstatyti^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Atstatyti paieškos sąlygas?^ResetSearchConfirm^
+
+^ResolvingReferences^sprendžiant nuorodos^ResolvingReferences^
+
+^ResumeBrowsing^Pradėti naršyti^ResumeBrowsing^
+
+^ResumeEditing^Tęsti redagavimą^ResumeEditing^
+
+^ResumeEntering^Tęsti įvedimas^ResumeEntering^
+
+^ResumeLookup^Tęsti lookup^ResumeLookup^
+
+^ResumeViewing^Tęsti Peržiūri^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Vaidmenys^RolesTab^
+
+^RootNodeText^Aukščiausio lygio^RootNodeText^
+
+^Rotate^Sukti^Rotate^
+
+^RowCancelActionHeaderText^Atšaukti^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Įterpti^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Sutaupyti^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Atnaujinti?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Atnaujinti atranka^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Sutaupyti^Save^
+
+^SaveAndNew^Išsaugoti ir Naujosios^SaveAndNew^
+
+^Saved^Išsaugotas - {0}^Saved^
+
+^SeeAll^Žiūrėti^SeeAll^
+
+^SeeAlso^Taip pat žiūrėkite^SeeAlso^
+
+^SelectActionHeaderText^Pasirinkti^SelectActionHeaderText^
+
+^SelectAll^Pažymėti viską^SelectAll^
+
+^SelectItem^Pasirinkite elementą^SelectItem^
+
+^SelectLink^(Pasirinkite)^SelectLink^
+
+^SelectRow^Pasirinkite eilutę^SelectRow^
+
+^SelectToolTip^Pasirinkite {0}^SelectToolTip^
+
+^Separator^Separatorius^Separator^
+
+^Settings^Nustatymai^Settings^
+
+^Show^Rodyti^Show^
+
+^ShowAdvancedSearch^Rodyti Išplėstinė paieška^ShowAdvancedSearch^
+
+^ShowChart^Rodyti diagrama^ShowChart^
+
+^ShowData^Rodyti Duomenys^ShowData^
+
+^ShowingItems^Rodoma <b>{0}</b> <b>{1}</b> <b>{2}</b> elementus^ShowingItems^
+
+^ShowingItemsInfo^Rodoma {0} elementus.^ShowingItemsInfo^
+
+^ShowingItemsRange^Rodoma {0} nuo {1} daiktų^ShowingItemsRange^
+
+^ShowLess^Rodyti mažiau^ShowLess^
+
+^ShowMore^Rodyti daugiau^ShowMore^
+
+^ShowOptions^Rodyti parinktis^ShowOptions^
+
+^ShowSystemButtons^Rodyti sistemos mygtukais^ShowSystemButtons^
+
+^Sidebar^Sidebar^Sidebar^
+
+^Sign^Prisijunkite čia^Sign^
+
+^SignedOut^Išregistruotos^SignedOut^
+
+^SignUpNow^Prisijunkite dabar^SignUpNow^
+
+^Simple^Paprastas^Simple^
+
+^SiteActions^Svetainės veiksmai^SiteActions^
+
+^SizeLabel^Dydis^SizeLabel^
+
+^Small^Mažas^Small^
+
+^Social^Socialinis^Social^
+
+^Sort^Rūšiuoti^Sort^
+
+^SortBy^Rūšiuoti pagal {0}^SortBy^
+
+^SortByField^Pasirinkite lauką pakeisti rūšiavimo tvarką. <b>{0}</b>^SortByField^
+
+^SortByOptions^Pasirinkite rūšiavimo tvarką <b>{0}</b> iki <b>{1}</b> srityje į žemiau pateiktų variantų sąrašo.^SortByOptions^
+
+^Sorted^Rūšiuoti^Sorted^
+
+^SortedDefault^Numatytasis rūšiavimo tvarka.^SortedDefault^
+
+^StartImport^Pradėti Importas^StartImport^
+
+^StrikeThrough^Perbrauktas^StrikeThrough^
+
+^StringSortAscending^Didėjančia tvarka^StringSortAscending^
+
+^StringSortDescending^Mažėjimo tvarka^StringSortDescending^
+
+^Submit^Pateikti^Submit^
+
+^Subscript^Tarpinė Script&#39;o^Subscript^
+
+^Suggestions^Pasiūlymai^Suggestions^
+
+^SumAggregate^Suma: {0}^SumAggregate^
+
+^SumAggregateToolTip^Suma iš {0}^SumAggregateToolTip^
+
+^Summary^Santrauka^Summary^
+
+^Summer^Vasara^Summer^
+
+^SumOf^Suma^SumOf^
+
+^Superscript^Super Script&#39;o^Superscript^
+
+^Sync^Sinchronizavimo^Sync^
+
+^TaskResume^Atnaujinti^TaskResume^
+
+^Tasks^Užduotys^Tasks^
+
+^TestingRecords^testavimo įrašai^TestingRecords^
+
+^Text^Tekstas^Text^
+
+^TextFilterText^Tekstas Filtrai^TextFilterText^
+
+^Theme^Tema^Theme^
+
+^ThisMonth^Šį mėnesį^ThisMonth^
+
+^ThisQuarter^Šis ketvirtis^ThisQuarter^
+
+^ThisWeek^Šią savaitę^ThisWeek^
+
+^ThisYear^Šiemet^ThisYear^
+
+^Tiny^Mažas^Tiny^
+
+^Today^Šiandien^Today^
+
+^Tomorrow^Rytoj^Tomorrow^
+
+^Top^viršus^Top^
+
+^ToThisWebsite^į šią svetainę^ToThisWebsite^
+
+^TouchUINotSupported^Touch UI nepalaiko šios naršyklės.^TouchUINotSupported^
+
+^TransitionFade^Išblukinti^TransitionFade^
+
+^TransitionFlip^Apversti^TransitionFlip^
+
+^TransitionFlow^Srautas^TransitionFlow^
+
+^TransitionNone^Nė vienas^TransitionNone^
+
+^TransitionPop^Pop^TransitionPop^
+
+^Transitions^Perėjimai^Transitions^
+
+^TransitionSlide^Skaidrė^TransitionSlide^
+
+^TransitionSlideDown^Pastumkite žemyn^TransitionSlideDown^
+
+^TransitionSlideUp^Pristatymas Aukštyn^TransitionSlideUp^
+
+^TransitionTurn^Posūkis^TransitionTurn^
+
+^TreeActionDescription^Rodyti hierarchinių ryšių.^TreeActionDescription^
+
+^TreeActionHeaderText^Rodyti hierarchija^TreeActionHeaderText^
+
+^TypeToSearch^Įveskite į paieškos^TypeToSearch^
+
+^Underline^Pabrėžti^Underline^
+
+^Undo^Anuliuoti^Undo^
+
+^Undock^Oddokuj^Undock^
+
+^Unfreeze^Atitirpti^Unfreeze^
+
+^UnGrouped^Grupavimas pašalintas^UnGrouped^
+
+^UnLink^Atkabinti^UnLink^
+
+^UnSelect^Panaikinkite^UnSelect^
+
+^UpdateActionHeaderText^Gerai^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Atnaujinti?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Atnaujinti atranka^UpdateActionInBatchModeHeaderText^
+
+^UpOneLevel^Vienu lygiu aukštyn^UpOneLevel^
+
+^UseLEV^Pasta &quot;{0}&quot;^UseLEV^
+
+^UserName^Vartotojo vardas^UserName^
+
+^UsersInRole^Vartotojų vaidmuo^UsersInRole^
+
+^UsersTab^Vartotojai^UsersTab^
+
+^Vantage^Pranašumas^Vantage^
+
+^Verdant^Žaliuojantis^Verdant^
+
+^View^Peržiūrėti^View^
+
+^Viewpoint^Požiūris^Viewpoint^
+
+^Week^Savaitė^Week^
+
+^Welcome1^Pasveikinti^Welcome1^
+
+^Welcome2^Šiandien^Welcome2^
+
+^WhiteSmoke^Balta Rūkymas^WhiteSmoke^
+
+^WithSelectedValues10^Su pasirinkimais vertės (TOP 10)^WithSelectedValues10^
+
+^WithSelectedValues5^Su pasirinkimais vertės (Top 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^Su nurodytu Filtrai^WithSpecifiedFilters^
+
+^Year^Metai^Year^
+
+^YearToDate^Šiais metais^YearToDate^
+
+^Yes^Taip^Yes^
+
+^Yesterday^Vakar^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Priartinti^ZoomIn^
+
+^ZoomOut^Tolinti^ZoomOut^
+

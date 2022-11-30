@@ -1,0 +1,51 @@
+﻿========================================================================
+Web Site Factory/Main.master
+========================================================================
+
+^Copyright^All rights reserved.^Copyright^
+
+========================================================================
+Data Aquarium/App_Code/Data/Controller.codedom
+========================================================================
+
+^RecordChangedByAnotherUser^The record has been changed by another user.^RecordChangedByAnotherUser^
+
+========================================================================
+~/Data Aquarium/App_Code/Data/AnnotationPlugIn.codedom
+========================================================================
+
+^AnnotationNoteNewFieldLabel^Notes^AnnotationNoteNewFieldLabel^
+
+^AnnotationAttachmentNewFieldLabel^Attachment^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryHeaderText^Notes and Attachments^AnnotationCategoryHeaderText^
+
+^AnnotationCategoryDescription^Enter optional notes and attach files.^AnnotationCategoryDescription^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} written at {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} attached <b>{1}</b> at {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationTab^Notes & Attachments^AnnotationTab^
+
+^AnnotationActionHeaderText^Annotate^AnnotationActionHeaderText^
+
+========================================================================
+Data Aquarium/Blog.ashx.codedom
+========================================================================
+
+^BlobUploded^<b>Confirmation:</b> {0} has been uploaded successfully. <b>It may take up to {1} minutes for the thumbnail to reflect the uploaded content.</b>^BlobUploded^
+
+^BlobCleared^<b>Confirmation:</b> {0} has been cleared.^BlobCleared^
+
+^BlobUploadError^<b>Error:</b> failed to upload {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Click^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^here^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^to upload or clear {0} file.^BlobUploadLinkPart3^
+
+^BlobClearConfirm^Clear?^BlobClearConfirm^
+
+^BlobClearText^Clear^BlobClearText^

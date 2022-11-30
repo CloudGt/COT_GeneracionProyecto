@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Hát^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Befejez^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Erősítse meg az új jelszót^ConfirmNewPassword^
+
+^ConfirmPassword^Jelszó megerősítése^ConfirmPassword^
+
+^Email^Email^Email^
+
+^ForgotYourPassword^Elfelejtette a jelszavát?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Válaszolj a következő kérdésre a jelszó fogadásához. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Azonosító megerősítés^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Kérjük töltse ki ezt az űrlapot, és kattintson az Elküld gombra az elfelejtett jelszó helyreállításához. Kattintson a Mégse gombra az előző képernyőre való visszatéréshez.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Jelszó-helyreállítás: 2. lépés: 2^IdentityConfirmViewLabel^
+
+^LoginButton^Belépek^LoginButton^
+
+^LoginLink^Belépek^LoginLink^
+
+^LoginWithDNN^Bejelentkezés a DotNetNuke-val^LoginWithDNN^
+
+^LoginWithFacebook^Jelentkezz be facebookal^LoginWithFacebook^
+
+^LoginWithGoogle^Jelentkezzen be a Google-lal^LoginWithGoogle^
+
+^LoginWithMicrosoft^Belépés a Microsoftba^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Bejelentkezés a SharePoint programmal^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Bejelentkezés a Windows Live szolgáltatással^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Jelszómegadás (nem jelenik meg a védelemhez)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Kérjük, adja meg aktuális jelszavát új jelszó létrehozásához, frissítéséhez, vagy a jelszó-helyreállítási kérdés megválaszolásához.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Aktuális jelszó^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Kérjük, tekintse át az alábbi tagsági adatokat. Kattintson a Fiók frissítése lehetőségre a rekord módosításához, vagy kattintson a Mégse gombra a visszatéréshez.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^A fiókom^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Adjon meg új jelszót. Ne feledje, hogy a jelszónak legalább 7 karakter hosszúnak kell lennie, és tartalmaznia kell egy nem alfanumerikus karaktert.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Új jelszó (opcionális)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Az elfelejtett jelszó helyreállítása során fel kell kérni a felhasználónevét. Ha egy felhasználói fiók létezik, akkor a jelszó kérdésére választ kell adni. A helyes válasz elindít egy e-mailt, amelynek átmeneti jelszavát küldi el neked.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-mail &amp; Jelszó-helyreállítás (opcionális)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^új jelszó^NewPassword^
+
+^OldPassword^régi jelszó^OldPassword^
+
+^Password^Jelszó^Password^
+
+^PasswordAnswer^Jelszómegoldás^PasswordAnswer^
+
+^PasswordQuestion^Jelszó kérdése^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Adja meg a felhasználónevet. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Elfelejtette a jelszavát?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Kérjük töltse ki ezt az űrlapot, és kattintson a Folytatás gombra az elfelejtett jelszó helyreállításához. Kattintson a Mégse gombra az előző képernyőre való visszatéréshez.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Jelszó-helyreállítás: 1. lépés: 2^PasswordRequestViewLabel^
+
+^RememberMe^Emlékszel legközelebb^RememberMe^
+
+^RequestPasswordActionHeaderText^Következő^RequestPasswordActionHeaderText^
+
+^SignUp^Regisztrálj^SignUp^
+
+^SignUpNow^Iratkozz fel most^SignUpNow^
+
+^SignUpViewHeaderText^Kérjük, töltse ki ezt az űrlapot, és kattintson az OK gombra a fiók regisztrálásához. Kattintson a Mégse gombra az előző képernyőre való visszatéréshez.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Fiók regisztrálása^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Kérjük, adja meg a felhasználónevet és a jelszót. Ne feledje, hogy a jelszónak legalább 7 karakter hosszúnak kell lennie, és tartalmaznia kell egy nem alfanumerikus karaktert. Csak a jóváhagyott felhasználók férhetnek hozzá a weboldalhoz.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Új felhasználói információk^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Ezek a mezők szükségesek az elfelejtett jelszó helyreállításához. A helyreállítási folyamat során meg kell adnia egy felhasználónevet. Ha egy felhasználói fiók létezik, akkor egy biztonsági kérdésre kell választ adni. A helyes válasz a regisztrált e-mailben küldött ideiglenes jelszóval ellátott e-mailt indít.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Jelszó visszaállítás^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Saját fiók frissítése^UpdateMyAccountActionHeaderText^
+
+^UserName^Felhasználónév^UserName^
+

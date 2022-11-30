@@ -1,0 +1,45 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Annotare^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b>{1}</b> Allegata al {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Allegato^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Inserire le note opzionali e allegare file.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Note ed Allegati^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Scritto {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Note^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Note & Allegati^AnnotationTab^
+
+^BlobClearConfirm^Cancelli?^BlobClearConfirm^
+
+^BlobCleared^<b>Conferma :</b> {0} È stata cancellata.^BlobCleared^
+
+^BlobClearText^Cancella^BlobClearText^
+
+^BlobUploadError^<b>Errore:</b> Impossibile caricare {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Cliccare^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^qui^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^di caricare o cancellare file {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Conferma:</b> {0} È stato caricato con successo. <b>Si può aspettare fino a {1} minuti prima che l’ icona si aggiorni.</b> caricato^BlobUploded^
+
+^Copyright^Tutti i diritti riservati.^Copyright^
+
+^RecordChangedByAnotherUser^Il record è stato modificato da un altro utente.^RecordChangedByAnotherUser^
+

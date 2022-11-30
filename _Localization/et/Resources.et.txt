@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Annoteerida^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Lisatud <b>{1}</b> kell {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Kinnitus^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Enter vabatahtlik märkmeid ja faile manustada.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Märkmed ja manused^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Kirjutatud {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Notes^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Notes^AnnotationTab^
+
+^BlobClearConfirm^Selge?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} On vabaks lastud.^BlobCleared^
+
+^BlobClearText^Selge^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Mille saatmine ebaõnnestus {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Vajuta^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^siin^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^laadida või selge {0} faili.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} On saadetud. <b>It Võib kuluda kuni {1} minutit pisipiltide kajastada üleslaaditud content.</b>^BlobUploded^
+
+^Copyright^Kõik õigused reserveeritud.^Copyright^
+
+^RecordChangedByAnotherUser^Kirje on muutunud teine ​​kasutaja.^RecordChangedByAnotherUser^
+

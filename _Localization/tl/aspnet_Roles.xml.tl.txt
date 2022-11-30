@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Lumikha ng isang bagong pagiging miyembro Role record.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Bagong Role^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Bago^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Kumpletuhin ang form. Tiyaking ipasok ang lahat ng kinakailangang mga patlang.^CreateFormCategory^
+
+^CreateFormHeaderText^Mangyaring punan ang form na ito at i-click ang OK na pindutan upang lumikha ng isang bagong mga tungkulin ng pagiging miyembro ng record. I-click ang Kanselahin upang bumalik sa nakaraang screen.^CreateFormHeaderText^
+
+^DescriptionLabel^Paglalarawan^DescriptionLabel^
+
+^EditViewCategory^Ito ang mga larangan ng papel ng pagiging miyembro ng record na maaaring ma-edit.^EditViewCategory^
+
+^EditViewHeaderText^Mangyaring suriin ang pagiging miyembro papel impormasyon sa ibaba. I-click ang I-edit upang baguhin ito record, i-click ang Tanggalin upang tanggalin ang tala, o i-click ang Kanselahin / Isara ang buwelta.^EditViewHeaderText^
+
+^GridViewHeaderText^Ito ay isang listahan ng mga papel ng pagiging miyembro.^GridViewHeaderText^
+
+^RoleNameLabel^Role Pangalan^RoleNameLabel^
+

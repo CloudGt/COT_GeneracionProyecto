@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^späť^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Skončiť^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Potvrďte nové heslo^ConfirmNewPassword^
+
+^ConfirmPassword^Potvrď heslo^ConfirmPassword^
+
+^Email^e-mail^Email^
+
+^ForgotYourPassword^zabudol si heslo?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Odpovedzte na nasledujúcu otázku, aby ste dostali svoje heslo. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Potvrdenie totožnosti^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Vyplňte tento formulár a kliknite na tlačidlo Odoslať, aby ste získali zabudnuté heslo. Kliknutím na tlačidlo Zrušiť sa vrátite na predchádzajúcu obrazovku.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Obnova hesla: Krok 2 z 2^IdentityConfirmViewLabel^
+
+^LoginButton^Prihlásiť sa^LoginButton^
+
+^LoginLink^Prihlásiť sa^LoginLink^
+
+^LoginWithDNN^Prihlásenie pomocou služby DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Prihlásiť sa cez Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Prihlásiť sa pomocou služby Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Prihlásenie s^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Prihláste sa pomocou služby SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Prihláste sa pomocou služby Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Heslo Odpoveď (nezobrazuje sa pre vašu ochranu)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Zadajte svoje aktuálne heslo, ak chcete vytvoriť nové heslo, aktualizovať svoju e-mailovú adresu alebo zmeniť otázku a odpoveď na obnovenie hesla.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Aktuálne heslo^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Prečítajte si nižšie informácie o členstve. Kliknutím na položku Aktualizovať môj účet môžete tento záznam zmeniť, alebo kliknutím na tlačidlo Zrušiť sa vrátite späť.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Môj účet^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Zadajte nové heslo. Upozorňujeme, že heslo musí mať dĺžku najmenej 7 znakov a musí obsahovať jeden nealfanumerický znak.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nové heslo (voliteľné)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Počas obnovenia zabudnutého hesla budete vyzvaní na zadanie svojho používateľského mena. Ak existuje používateľský účet, musí sa odpovedať na otázku s heslom. Správna odpoveď spustí e-mail s dočasným heslom, ktoré vám bude zaslané.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-mail &amp; obnovenie hesla (voliteľné)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nové heslo^NewPassword^
+
+^OldPassword^Staré heslo^OldPassword^
+
+^Password^heslo^Password^
+
+^PasswordAnswer^Odozva hesla^PasswordAnswer^
+
+^PasswordQuestion^Heslo Otázka^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Zadajte používateľské meno. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^zabudol si heslo?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Vyplňte tento formulár a kliknite na tlačidlo Pokračovať, aby ste získali zabudnuté heslo. Kliknutím na tlačidlo Zrušiť sa vrátite na predchádzajúcu obrazovku.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Obnova hesla: Krok 1 z 2^PasswordRequestViewLabel^
+
+^RememberMe^Pamätaj si ma nabudúce^RememberMe^
+
+^RequestPasswordActionHeaderText^Ďalšie^RequestPasswordActionHeaderText^
+
+^SignUp^Prihlásiť Se^SignUp^
+
+^SignUpNow^Zaregistrujte sa teraz^SignUpNow^
+
+^SignUpViewHeaderText^Vyplňte tento formulár a kliknutím na tlačidlo OK sa zaregistrujte do svojho účtu. Kliknutím na tlačidlo Zrušiť sa vrátite na predchádzajúcu obrazovku.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Registrácia účtu^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Zadajte používateľské meno a heslo. Upozorňujeme, že heslo musí mať dĺžku najmenej 7 znakov a musí obsahovať jeden nealfanumerický znak. Na webovú stránku sa budú môcť prihlásiť iba schválení používatelia.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Nové informácie o používateľovi^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Tieto polia sú potrebné na to, aby vám pomohli obnoviť zabudnuté heslo. Počas procesu obnovy budete vyzvaní na zadanie používateľského mena. Ak existuje používateľský účet, potom sa vyžaduje, aby ste dostali odpoveď na bezpečnostnú otázku. Správna odpoveď spustí e-mail s dočasným heslom odoslaným na registrovaný e-mail.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Obnova hesla^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Aktualizujte svoj účet^UpdateMyAccountActionHeaderText^
+
+^UserName^Používateľské meno^UserName^
+

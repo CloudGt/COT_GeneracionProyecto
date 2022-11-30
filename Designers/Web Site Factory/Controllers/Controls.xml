@@ -1,0 +1,186 @@
+<dataController name="Fields" conflictDetection="overwriteChanges" label="Controls"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium"
+		xmlns:app="urn:schemas-codeontime-com:data-aquarium-application"  handler="CodeOnTime.Designer.DesignerBusinessRules"
+>
+  <commands>
+    <command id="command1" type="Text">
+      <query href="Application.xml" select="//app:control" sort="" dependencies="//app:userControl"/>
+      <template select="//app:page[@name=$Page]/app:controls">
+        <control xmlns="urn:schemas-codeontime-com:data-aquarium-application"  id="{generate-id('ControlId')}"/>
+      </template>
+    </command>
+  </commands>
+  <fields>
+    <field name="Page" type="String" select="ancestor::app:page[1]/@name" allowNulls="false" isPrimaryKey="true" readOnly="true">
+      <items style="Lookup" dataController="Pages" newDataView="createForm1" dataValueField="Name" dataTextField="Name"/>
+    </field>
+    <field name="ControlId" type="String" select="@id" allowNulls="false" isPrimaryKey="true" readOnly="true" label="Id"/>
+    <field name="ContainerId" type="String" select="@container" allowNulls="false" label="Container" contextFields="Page" isPrimaryKey="true" >
+      <items style="Lookup" dataController="Containers" dataTextField="ContainerId" dataValueField="ContainerId"/>
+    </field>
+    <field name="UserControl" type="String" select="@name" allowNulls="false" label="User Control">
+      <items style="Lookup" dataController="UserControls" dataTextField="Name" dataValueField="Name"  newDataView="createForm1"/>
+    </field>
+    <field name="Activator" type="String" select="@activator" label="Activator">
+      <items style="DropDownList">
+        <item value="" text="None"/>
+        <item value="Tab" text="Tab"/>
+        <item value="SideBarTask" text="Side Bar Task"/>
+        <item value="SiteAction" text="Site Action"/>
+      </items>
+    </field>
+    <field name="Text" type="String" select="@text" allowNulls="true" label="Text"/>
+    <field name="Sequence" type="Int32" select="@sequence"/>
+  </fields>
+  <views>
+    <view id="grid1" type="Grid" commandId="command1" label="Controls">
+      <headerText>
+        <![CDATA[
+      <span class="HelpLink" title="Learn to work with Controls" onclick="$openUrl('http://codeontime.com/learn/development/project-designer/controls')"></span>
+      This is a list of controls placed on the page. 
+      ]]>
+      </headerText>
+      <dataFields>
+        <dataField fieldName="ControlId" readOnly="true" columns="30"/>
+        <dataField fieldName="Page"/>
+        <dataField fieldName="ContainerId" readOnly="true"/>
+        <dataField fieldName="Sequence">
+          <headerText>Seq</headerText>
+        </dataField>
+        <dataField fieldName="UserControl"/>
+        <dataField fieldName="Activator"/>
+        <dataField fieldName="Text"/>
+      </dataFields>
+    </view>
+    <view id="editForm1" type="Form" commandId="command1" label="Control">
+      <headerText>
+        <![CDATA[
+      <span class="HelpLink" title="Learn about Controls" onclick="$openUrl('http://codeontime.com/learn/pages/controls/overview')"></span>
+      Click OK to save the page control, or click Cancel to undo changes or return back.
+      ]]>
+      </headerText>
+      <categories>
+        <category headerText="General" >
+          <description>
+            <![CDATA[ 
+            The <i>Page</i> property specifies the page that the control belongs to.<br/><br/>
+            The <i>Id</i> of the control can be changed using <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/development/project-designer/controls')" title="Learn how to manipulate controls in the Project Explorer.">Rename</a> context menu option in the Project Explorer.<br/><br/>
+            The <i>Container</i> specifies which container the control belongs to. It can be changed by dragging the control node in the Project Explorer.<br/><br/>
+            Select the <a href="javascript:" onclick="return $openUrl('http://codeontime.com/blog/2012/06/extending-pages-with-custom-content')" title="Learn about creating custom user controls.">user control</a>.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Page"/>
+            <dataField fieldName="ControlId" readOnly="true" columns="30" hyperlinkFormatString="javascript:window.external.SyncAndRename()" toolTip="Click here to change the 'Id' of the Control."/>
+            <dataField fieldName="ContainerId" readOnly="true"/>
+            <dataField fieldName="UserControl" />
+          </dataFields>
+        </category>
+        <category headerText="Activator">
+          <description>
+            <![CDATA[
+            Specify a method of view activation available to end users. The available options are Tab, Side Bar Task, Site Action.<br/><br/>
+            <i>Text</i> property represents the text displayed in the tab or menu option if an activator is specified. <br/><br/>
+            Use <i>Sequence</i> to order controls and data views placed in the same container.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Activator"/>
+            <dataField fieldName="Text"/>
+            <dataField fieldName="Sequence" columns="3"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+    <view id="createForm1" type="Form" commandId="command1" label="New Control">
+      <headerText>
+        <![CDATA[
+      <span class="HelpLink" title="Learn about Controls" onclick="$openUrl('http://codeontime.com/learn/pages/controls/overview')"></span>
+       fill this form and click OK button to create a new page control. Click Cancel to return to the previous screen.]]>
+      </headerText>
+      <categories>
+        <category headerText="General" >
+          <description>
+            <![CDATA[ 
+            Select the <a href="javascript:" onclick="return $openUrl('http://codeontime.com/blog/2012/06/extending-pages-with-custom-content')" title="Learn about creating custom user controls.">user control</a>.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Page"/>
+            <dataField fieldName="ControlId" readOnly="true" hidden="true"/>
+            <dataField fieldName="ContainerId"/>
+            <dataField fieldName="UserControl" />
+          </dataFields>
+        </category>
+        <category headerText="Activator">
+          <description>
+            <![CDATA[
+            Specify a method of view activation available to end users. The available options are Tab, Side Bar Task, Site Action.<br/><br/>
+            <i>Text</i> property represents the text displayed in the tab or menu option if an activator is specified. <br/><br/>
+            Use <i>Sequence</i> to order controls and data views placed in the same container.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Activator"/>
+            <dataField fieldName="Text"/>
+            <dataField fieldName="Sequence" columns="3"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+  </views>
+  <actions>
+    <actionGroup scope="Grid">
+      <action commandName="Navigate" commandArgument="Control.htm?_returnController=Controls&amp;Page={Page}&amp;ContainerId={ContainerId}&amp;ControlId={ControlId}"  cssClass="NavigateIcon" headerText="Open"/>
+      <!--<action commandName="Edit" commandArgument="editForm1" cssClass="NavigateIcon" headerText="Open"/>-->
+      <action commandName="ClientScript" commandArgument="__syncDesigner(this)" headerText="Sync" cssClass="SyncIcon"/>
+      <action commandName="Edit" />
+      <action commandName="Select" commandArgument="editForm1" headerText="View"/>
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <!--<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+      <!--<action/>
+			<action commandName="Custom" commandArgument="MakeFirst" headerText="Make First"/>
+			<action commandName="Custom" commandArgument="MoveUp" headerText="Move Up"/>
+			<action commandName="Custom" commandArgument="MoveDown" headerText="Move Down"/>
+			<action commandName="Custom" commandArgument="MakeLast" headerText="Make Last"/>-->
+      <!--<action/>
+			<action commandName="Select" commandArgument="editForm1" headerText="Properties"/>-->
+    </actionGroup>
+    <actionGroup scope="Form">
+      <action commandName="Edit" />
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <action commandName="Cancel" headerText="Close" />
+      <action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+      <!--<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />-->
+      <action whenLastCommandName="Edit" commandName="Cancel" />
+      <action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+      <action whenLastCommandName="New" commandName="Cancel" />
+    </actionGroup>
+    <actionGroup scope="ActionBar" headerText="New">
+      <action commandName="New" commandArgument="createForm1" headerText="New Control" description="Create a new control." />
+    </actionGroup>
+    <!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+    <actionGroup scope="ActionBar" headerText="Record">
+      <action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+      <action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+    </actionGroup>
+    <actionGroup id="sync01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncDesigner()" headerText="Sync" cssClass="SyncIcon" description="Synchronize with Explorer (Ctrl+.)"/>
+    </actionGroup>
+    <actionGroup id="rules01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncAndEdit('Edit', 'UserControl')" headerText="Edit User Control" description="Edit User Control in Visual Studio"/>
+    </actionGroup>
+    <actionGroup id="ag8" scope="Row">
+      <action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+      <action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+    </actionGroup>
+  </actions>
+</dataController>

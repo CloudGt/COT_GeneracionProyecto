@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Δημιουργήστε ένα νέο ρεκόρ ιδιότητα μέλους.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Νέος Ρόλος^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Νέος^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Συμπληρώστε τη φόρμα. Σιγουρευτείτε για να εισάγετε όλα τα απαιτούμενα πεδία.^CreateFormCategory^
+
+^CreateFormHeaderText^Συμπληρώστε την παρακάτω φόρμα και κάντε κλικ στο κουμπί OK για να δημιουργήσετε μια νέα εγγραφή μέλους ρόλους. Κάντε κλικ στο κουμπί Άκυρο για να επιστρέψετε στην προηγούμενη οθόνη.^CreateFormHeaderText^
+
+^DescriptionLabel^Περιγραφή^DescriptionLabel^
+
+^EditViewCategory^Αυτά είναι τα πεδία της εγγραφής μέλους ρόλο που μπορεί να επεξεργαστεί.^EditViewCategory^
+
+^EditViewHeaderText^Παρακαλούμε διαβάστε μέλους πληροφορίες ρόλους στη συνέχεια. Κάντε κλικ στο κουμπί Επεξεργασία για να αλλάξετε αυτό το αρχείο, κάντε κλικ στο Διαγραφή για να διαγράψετε την εγγραφή, ή κάντε κλικ στο Άκυρο / Κλείσιμο για να επιστρέψετε πίσω.^EditViewHeaderText^
+
+^GridViewHeaderText^Αυτή είναι μια λίστα των ρόλων μέλους.^GridViewHeaderText^
+
+^RoleNameLabel^Όνομα Ρόλος^RoleNameLabel^
+

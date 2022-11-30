@@ -1,0 +1,2 @@
+SELECT * FROM aspnet_Users
+WHERE ROWNUM <= 1

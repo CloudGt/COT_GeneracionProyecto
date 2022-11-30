@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Skapa en ny användare rekord.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Ny användare^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nya^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Tillbaka^BackToRequestPasswordActionHeaderText^
+
+^Comment^Kommentar^Comment^
+
+^ConfirmIdentityActionHeaderText^Slutför^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Bekräfta nytt lösenord^ConfirmNewPassword^
+
+^ConfirmPassword^Bekräfta lösenord^ConfirmPassword^
+
+^CreateDate^Skapa Datum^CreateDate^
+
+^CreateFormCommentCategoryDescription^Ange eventuella ytterligare kommentarer om detta användarkonto. Kommentar är inte synlig för användaren.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Kommentarer^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Fyll i användarnamn och lösenord. Observera att lösenordet måste vara minst 7 tecken långt och innehålla en icke-alfanumeriskt tecken. Endast godkända användare ska kunna logga in på webbplatsen.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Ny användarinformation^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Dessa fält är obligatoriska för att hjälpa användaren att återhämta ett glömt lösenord. Under återhämtningen användaren blir ombedd att ange ett användarnamn. Om ett användarkonto finns sedan en säkerhetsfråga begärs att besvara. En rätt svar kommer att utlösa ett mail med ett tillfälligt lösenord skickas till användaren.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Välj användarroller som bäst matchar användarens ansvar. Roller kontrollera tillträde till de områden av denna webbplats. Vänligen kontakta systemadministratören om rollen åtkomstbegränsningar måste ändras.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Roller^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Fyll i formuläret och klicka på OK-knappen för att skapa en ny post användare medlemskap. Klicka på Avbryt för att återgå till föregående skärm.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Ny användare^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Detta användarkonto kommer att skapas som godkänd.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplicera e-postadress.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Duplicera Provider.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplicera användarnamn.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Aktivitet Statistik^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Detta användarkonto är godkänd^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Dessa är statistik över misslyckade inloggningsförsök av denna användare. <br/> <br/> Användare kommer att vara låst ut efter att nå ett maximalt antal misslyckade inloggningsförsök. <br/> <br/> Spärrade användare ska kunna logga in igen efter datumet i Misslyckades Lösenord försök Fönster Start. <br/> <br/> Användare som misslyckades med att återställa lösenordet kommer att kunna så efter datumet i Misslyckades Lösenord Svar Försök Fönster Start. <br/> <br/> Du kan återställa användarens möjlighet att logga in genom att ställa utlåst flagga för att "nej".^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Logga in Statistik^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Under återvinning av ett glömt lösenord användaren ska uppmanas att ange ett användarnamn. Om ett användarkonto finns sedan en säkerhetsfråga begärs att besvara. En rätt svar kommer att utlösa ett mail med ett tillfälligt lösenord skickas till användaren. <br/><br/> Ändra utelåst flagga till "Nej" om användaren har låst ut efter att nå ett maximalt antal misslyckade inloggningsförsök och du vill tillåta användare att logga in igen.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Välj användarroller som bäst matchar användarens ansvar. Roller kontrollera tillträde till de områden av denna webbplats. Vänligen kontakta systemadministratören om rollen åtkomstbegränsningar måste ändras. <br/> <br/> Ange eventuella ytterligare kommentarer om detta användarkonto. Kommentar är inte synlig för användaren.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Användarinformation^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Läs informationen användaren medlemskap nedan. Klicka på Redigera för att ändra denna post, klicka på Radera för att radera posten, eller klicka på Avbryt / Stäng för att återvända tillbaka.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Översyn Användare^EditFormViewLabel^
+
+^Email^E^Email^
+
+^EnterCurrentPassword^Ange ditt nuvarande lösenord.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Ange ett lösenord för svar.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Fel vid sparande av användarkonto.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Misslyckades Lösenord Svar Försök Count^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Misslyckades Lösenord Svar Försök Start i Windows^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Misslyckades Lösenord Försök Count^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Misslyckades Lösenord Försök Start i Windows^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Detta är en lista med poster medlemskap användare.^GridViewHeaderText^
+
+^GridViewLabel^Alla användare^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Svara på följande fråga för att få ditt lösenord. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identitet Bekräftelse^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Fyll i formuläret och klicka på Skicka-knappen för att återställa bortglömda lösenord. Klicka på Avbryt för att återgå till föregående skärm.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: Steg 2 av 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Ogiltig lösenordshämtning svar.^InvalidAnswer^
+
+^InvalidEmail^Ogiltig e-postadress.^InvalidEmail^
+
+^InvalidPassword^Ogiltigt lösenord.^InvalidPassword^
+
+^InvalidProviderUserKey^Ogiltig leverantör användare nyckel.^InvalidProviderUserKey^
+
+^InvalidQuestion^Ogiltig lösenordshämtning fråga.^InvalidQuestion^
+
+^InvalidUserName^Ogiltigt användarnamn.^InvalidUserName^
+
+^IsApproved^Är godkänd^IsApproved^
+
+^IsLockedOut^Är utelåst^IsLockedOut^
+
+^LastLockoutDate^Senast Lockout Datum^LastLockoutDate^
+
+^LastLoginDate^Senaste inloggning Datum^LastLoginDate^
+
+^LastPasswordChangedDate^Senaste Lösenord Ändrat datum^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Lösenord Svar (visas inte för ditt skydd)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Ange ditt nuvarande lösenord för att skapa nya lösenord, uppdatera din e-postadress eller ändra lösenord återvinning frågor och svar.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Nuvarande lösenord^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Läs ditt medlemskap nedan. Klicka på Uppdatera Mitt konto för att ändra denna post, eller klicka Avbryt för att återvända tillbaka.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Mitt Konto^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Ange nytt lösenord. Observera att lösenordet måste vara minst 7 tecken långt och innehålla en icke-alfanumeriskt tecken.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nytt lösenord (valfritt)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Under återvinning av ett glömt lösenord blir du ombedd att ange ditt användarnamn. Om en användare konto finns sedan ett lösenord fråga måste besvaras. En rätt svar kommer att utlösa ett mail med ett tillfälligt lösenord skickas till dig.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E &amp; Password Recovery (tillval)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nytt lösenord^NewPassword^
+
+^NewPasswordAlert^Ett nytt lösenord har skickats till adressen på filen.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Nya lösenordet och bekräftelsen stämmer inte överens.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Ditt nya lösenord är ogiltigt.^NewPasswordInvalid^
+
+^NewPasswordSubject^Nytt lösenord för \'{0} \ '.^NewPasswordSubject^
+
+^OldPassword^Gammalt lösenord^OldPassword^
+
+^Password^Lösenord^Password^
+
+^PasswordAndConfirmationDoNotMatch^Lösenordet och bekräftelsen stämmer inte överens.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Lösenord Svara^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Lösenordet stämmer inte med våra register.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Lösenord Format^PasswordFormat^
+
+^PasswordQuestion^Lösenord Fråga^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Vänligen ange ett användarnamn. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Glömt ditt lösenord?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Fyll i formuläret och klicka på Fortsätt-knappen för att återställa bortglömda lösenord. Klicka på Avbryt för att återgå till föregående skärm.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: Steg 1 av 2^PasswordRequestViewLabel^
+
+^ProviderError^Provider fel.^ProviderError^
+
+^RequestPasswordActionHeaderText^Nästa^RequestPasswordActionHeaderText^
+
+^Roles^Roller^Roles^
+
+^SelfRegisteredUser^Self-registrerad användare.^SelfRegisteredUser^
+
+^SignUp^Anmäl dig^SignUp^
+
+^SignUpViewHeaderText^Fyll i formuläret och klicka på OK-knappen för att registrera dig för ett konto. Klicka på Avbryt för att återgå till föregående skärm.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Konto Köp^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Fyll i användarnamn och lösenord. Observera att lösenordet måste vara minst 7 tecken långt och innehålla en icke-alfanumeriskt tecken. Endast godkända användare ska kunna logga in på webbplatsen.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Ny användarinformation^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Dessa fält är obligatoriska för att hjälpa dig att återställa ett glömt lösenord. Under återhämtningen blir du ombedd att ange ett användarnamn. Om ett användarkonto finns sedan en säkerhetsfråga begärs att besvara. En rätt svar kommer att utlösa ett mail med ett tillfälligt lösenord skickas till den registrerade e-post.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Uppdatera Mitt Konto^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Användaren kan inte låsas ute. Om du vill hindra denna användare från att logga in då helt enkelt markera användaren som "inte-godkänd".^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Användare'{0}' har tagits bort.^UserHasBeenDeleted^
+
+^UserName^Användarnamn^UserName^
+
+^UserNameDoesNotExist^Användarnamn finns inte.^UserNameDoesNotExist^
+
+^UserNotFound^Användaren hittades inte.^UserNotFound^
+
+^UserRejected^Användaren har avvisats.^UserRejected^
+
+^UsersInRolesGridHeaderText^Detta är en lista med poster medlemskap användare som tillhör en viss roll.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Användare i Roll^UsersInRolesGridLabel^
+

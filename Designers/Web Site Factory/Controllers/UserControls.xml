@@ -1,0 +1,181 @@
+<dataController name="Controllers" conflictDetection="overwriteChanges" label="User Control"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium"
+		xmlns:app="urn:schemas-codeontime-com:data-aquarium-application" >
+  <commands>
+    <command id="command1" type="Text">
+      <query href="Application.xml" select="//app:userControl" sort="Name" dependencies="//app:control"/>
+      <template select="/app:application/app:userControls">
+        <userControl xmlns="urn:schemas-codeontime-com:data-aquarium-application" />
+      </template>
+    </command>
+  </commands>
+  <fields>
+    <field name="Name" type="String" select="@name" allowNulls="false" isPrimaryKey="true">
+      <validate>
+        <expression type="RegularExpression" test="^[A-Za-z]\w*$" result="A page name must start with a letter and must contain only alpha-numeric characters."/>
+      </validate>
+    </field>
+    <field name="Prefix" type="String" select="@prefix" allowNulls="false">
+      <validate>
+        <expression type="RegularExpression" test="^[A-Za-z]\w*$" result="A user control prefix must start with a letter and must contain only alpha-numeric characters."/>
+      </validate>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="uc"/>
+      </defaultValues>
+    </field>
+    <field name="Body" type="String" select="app:body" label="Markup" editor="Designer$Code"/>
+    <!--<field name="CodeBehind" type="Boolean" select="@codeBehind" allowNulls="false" default="true()"/>-->
+    <field name="Generate" type="String" select="@generate" allowNulls="false" label="Generate" default="'FirstTimeOnly'">
+      <items style="DropDownList">
+        <item value="FirstTimeOnly" text="First Time Only"/>
+        <item value="Always" text="Always"/>
+      </items>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="FirstTimeOnly"/>
+      </defaultValues>
+    </field>
+  </fields>
+  <views>
+    <view id="grid1" type="Grid" commandId="command1" label="User Controls">
+      <headerText>
+        <![CDATA[
+    <span class="HelpLink" title="Learn about User Controls" onclick="$openUrl('http://codeontime.com/learn/development/project-explorer/user-controls')"></span>
+		This is a list of application user controls. Intances of user controls can be placed on pages. 
+		]]>
+      </headerText>
+      <dataFields>
+        <dataField fieldName="Name" readOnly="true"/>
+        <dataField fieldName="Prefix"/>
+        <!--<dataField fieldName="CodeBehind"/>-->
+        <dataField fieldName="Generate"/>
+      </dataFields>
+    </view>
+    <view id="editForm1" type="Form" commandId="command1" label="User Control">
+      <headerText><![CDATA[Click OK to save the user control, or click Cancel to undo changes or return back.]]></headerText>
+      <categories>
+        <category id="c1" headerText="General">
+          <description>
+            <![CDATA[Name and code generation conditions of the user control.]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Name" columns="40" readOnly="true" hyperlinkFormatString="javascript:window.external.SyncAndRename()" toolTip="Click here to rename the User Control."/>
+            <dataField fieldName="Prefix" columns="5"/>
+            <!--<dataField fieldName="CodeBehind">
+							<visibility>
+								<expression type="ClientScript" test="[Generate]!='Always'" />
+							</visibility>
+						</dataField>-->
+            <dataField fieldName="Generate"/>
+          </dataFields>
+        </category>
+        <category id="catBody" headerText="Body">
+          <description>
+            <![CDATA[
+						Enter user control markup. 
+						]]>
+          </description>
+          <visibility>
+            <expression type="ClientScript" test="[Generate]=='Always'" />
+          </visibility>
+          <dataFields>
+            <dataField fieldName="Body" columns="55" rows="18"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+    <view id="createForm1" type="Form" commandId="command1" label="New User Control">
+      <headerText>Please fill this form and click OK button to create a new user control. Click Cancel to return to the previous screen.</headerText>
+      <categories>
+        <category id="c1" headerText="General">
+          <description>
+            <![CDATA[Name and code generation conditions of the user control.]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Name" columns="40"/>
+            <dataField fieldName="Prefix" columns="5"/>
+            <!--<dataField fieldName="CodeBehind">
+							<visibility>
+								<expression type="ClientScript" test="[Generate]!='Always'" />
+							</visibility>
+						</dataField>-->
+            <dataField fieldName="Generate"/>
+          </dataFields>
+        </category>
+        <category id="catBody" headerText="Body">
+          <description>
+            <![CDATA[
+						Enter user control markup. 
+						]]>
+          </description>
+          <visibility>
+            <expression type="ClientScript" test="[Generate]=='Always'" />
+          </visibility>
+          <dataFields>
+            <dataField fieldName="Body" columns="55" rows="18"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+  </views>
+  <actions>
+    <actionGroup scope="Grid">
+      <action commandName="Navigate" commandArgument="UserControl.htm?_returnController=UserControls&amp;Name={Name}" headerText="Open"/>
+      <!--<action commandName="Edit" commandArgument="editForm1" headerText="Open" cssClass="NavigateIcon"/>-->
+      <!--<action commandName="Navigate" commandArgument="UserControl.htm?UserControl={Name}" headerText="View"/>-->
+      <!--<action commandName="Edit" />-->
+      <action commandName="ClientScript" commandArgument="__syncDesigner(this)" headerText="Sync" cssClass="SyncIcon"/>
+      <action commandName="Edit" />
+      <action/>
+      <action commandName="Select" commandArgument="editForm1" headerText="View"/>
+      <!--<action/>-->
+      <!--<action commandName="Select" commandArgument="editForm1" headerText="Properties"/>-->
+      <!--<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+    </actionGroup>
+    <actionGroup scope="Form">
+      <action commandName="Edit" />
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <action commandName="Cancel" headerText="Close" />
+      <action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+      <!--<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />-->
+      <action whenLastCommandName="Edit" commandName="Cancel" />
+      <action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+      <action whenLastCommandName="New" commandName="Cancel" />
+    </actionGroup>
+    <actionGroup scope="ActionBar" headerText="New">
+      <action commandName="New" commandArgument="createForm1" headerText="New User Control" description="Create a new user control." />
+    </actionGroup>
+    <!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+    <actionGroup scope="ActionBar" headerText="Record">
+      <action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+      <action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+    </actionGroup>
+    <actionGroup id="sync01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncDesigner()" headerText="Sync" cssClass="SyncIcon" description="Synchronize with Explorer (Ctrl+.)"/>
+    </actionGroup>
+    <actionGroup id="rules01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncAndEdit('Edit', 'UserControl')" whenClientScript="[Generate]!='Always'" headerText="Edit User Control" description="Edit User Control in Visual Studio"/>
+    </actionGroup>
+    <actionGroup id="ag8" scope="Row">
+      <action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+      <action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+    </actionGroup>
+  </actions>
+  <businessRules>
+    <rule id="r2" commandName="Select|New" commandArgument="" type="JavaScript" phase="After">
+      <![CDATA[
+        $('td.catBody.Category').hide();
+        var $fieldsCat = $('td.catBody.Fields').attr('colspan', 2).css({backgroundColor:'#fff'});
+        $('.Item.Script .Value textarea').css('width', ($fieldsCat.width() - 50) + 'px').attr('wrap', 'off');
+        $('tr.CategoryRow.catBody').css('visibility','visible');
+     ]]>
+    </rule>
+  </businessRules>
+</dataController>

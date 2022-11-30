@@ -1,0 +1,1976 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(LogoBarEmpty.png);
+    background-repeat: repeat-x;
+}
+
+
+
+    body.Designer {
+        background-image: none;
+    }
+
+    body div {
+        display: none;
+    }
+
+::-ms-clear {
+    display: none;
+}
+
+table.Page {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    table.Page div {
+        display: block;
+    }
+
+.WizardWait {
+    background-image: url(wait.gif);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    background-position: left top;
+}
+
+table.Page tr td.OnTimeHeader {
+    /*background-image: url(LogoBar.gif);     background-repeat: no-repeat;*/
+    height: 40px;
+    font-family: "Segoe UI";
+    font-size: 8.5pt;
+    padding-left: 80px;
+}
+
+    table.Page tr td.OnTimeHeader div {
+        /*border: solid 1px red;*/
+        padding: 0px 4px 4px 4px;
+    }
+
+a.Button {
+    text-decoration: none; /*border2: solid 1px yellow;*/
+}
+
+    a.Button span {
+        display: inline-block;
+        cursor: pointer;
+        background-image: url(Support.png);
+        width: 52px;
+        height: 52px;
+    }
+
+    a.Button.Community span {
+        background-position: -52px top;
+    }
+
+    a.Button.YouTube span {
+        background-position: -104px top;
+    }
+
+    a.Button.Blog span {
+        background-position: -156px top;
+    }
+
+    a.Button.Partners span {
+        background-position: -208px top;
+    }
+
+    a.Button:hover span {
+        background-position-y: -51px;
+    }
+
+table.Page tr td.Body {
+    font-family: "Segoe UI";
+    font-size: 8.5pt;
+    padding: 8px;
+}
+
+table.Page tr td.OnTimeHeader span.Div {
+    color: #F5F5F5;
+    font-weight: normal;
+    font-family: "Segoe UI";
+    font-size: 7.5pt;
+    padding: 0px 4px;
+}
+
+div.ProjectType {
+    font-family: "Segoe UI";
+    font-size: 8.5pt;
+    border-bottom: dotted 1px silver;
+    padding: 3px 3px 3px 9px;
+    font-weight: bold;
+    color: black;
+}
+
+table.Projects {
+    border-collapse: collapse;
+    margin-bottom: 4px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+
+    table.Projects tr td {
+        font-family: "Segoe UI";
+        font-size: 8.5pt;
+    }
+
+
+        table.Projects tr td.Title {
+            font-weight: normal;
+            padding-right: 10px;
+            padding-left: 4px;
+            width: 180px;
+        }
+
+            table.Projects tr td.Title a .outer .inner {
+                font-size: 14px;
+            }
+
+    table.Projects tr td {
+        padding: 18px;
+    }
+
+.Projects tr:hover {
+    background-color: #ffecb5;
+    cursor: pointer;
+}
+
+.Projects tr td {
+    border-top: solid 1px transparent;
+    border-bottom: solid 1px transparent;
+}
+
+table.Projects tr.Divider td {
+    border-top: dotted 1px silver;
+}
+
+.Projects tr td.Title {
+    border-left: solid 1px transparent;
+}
+
+.Projects tr td.Description {
+    border-right: solid 1px transparent;
+}
+
+.Projects tr:hover td, .Projects tr.Divider:hover td {
+    border-color: #E5C365;
+    border-top-style: solid;
+}
+
+    .Projects tr:hover td a {
+        color: #000;
+        text-decoration: none;
+    }
+
+
+table.ReceptProjects {
+    border-collapse: collapse;
+}
+
+div#ProjectActionDialog_Menu {
+}
+
+    div#ProjectActionDialog_Menu div.ProjectName, div#ProjectSyncSettings div.ProjectName {
+        font-size: xx-large;
+        font-family: Calibri,Arial;
+        padding-bottom: 20px;
+        padding: 0px 0px 0px 12px;
+        font-weight: 600;
+        color: #333333;
+        background-position: 12px center;
+        background-repeat: no-repeat;
+    }
+
+        div#ProjectActionDialog_Menu div.ProjectName span, div#ProjectSyncSettings div.ProjectName span {
+            border-bottom: dotted 1px #000;
+            padding-right: 8px;
+        }
+
+    div#ProjectActionDialog_Menu div.ProjectId, div#ProjectSyncSettings div.ProjectId {
+        padding: 4px 0px 0px 10px;
+        font-weight: bold;
+        color: #808080;
+        font-size: 10pt;
+        text-transform: lowercase;
+        background-position: 12px 4px;
+        background-repeat: no-repeat;
+    }
+
+        div#ProjectActionDialog_Menu div.ProjectId span, div#ProjectSyncSettings div.ProjectId span {
+            padding-left: 20px;
+        }
+
+div.ProjectActionList {
+    padding: 0;
+    margin: 70px 0 0 0;
+}
+
+ul.ProjectAction {
+    float: left;
+    width: 25%;
+    padding: 0;
+    margin: 0 0 0 5%;
+}
+
+    ul.ProjectAction li {
+        padding: 4px 0px;
+    }
+
+        ul.ProjectAction li div.Action {
+            font-family: "Segoe UI";
+            font-size: 18pt;
+        }
+
+        ul.ProjectAction li div.Description {
+            color: Black;
+            font-family: Verdana;
+            font-size: 8.5pt;
+        }
+
+        ul.ProjectAction li a {
+            border: solid 1px transparent;
+            display: block;
+            padding: 8px 8px 8px 50px;
+        }
+
+            ul.ProjectAction li a div.Outer {
+                background-repeat: no-repeat;
+                background-position: 8px 4px;
+                margin-left: -50px;
+                padding-left: 50px;
+            }
+
+        ul.ProjectAction li.Open a div.Outer {
+            background-image: url(../_Images/Actions/Open.png);
+        }
+
+        ul.ProjectAction li.Browse a div.Outer {
+            background-image: url(../_Images/Actions/Browse.png);
+        }
+
+        ul.ProjectAction li.Run a div.Outer {
+            background-image: url(../_Images/Actions/Run.png);
+        }
+
+        ul.ProjectAction li.Publish a div.Outer {
+            background-image: url(../_Images/Actions/Publish.png);
+        }
+
+        ul.ProjectAction li.Develop a div.Outer {
+            background-image: url(../_Images/Actions/Develop.png);
+        }
+
+        ul.ProjectAction li.Settings a div.Outer {
+            background-image: url(../_Images/Actions/Settings.png);
+        }
+
+        ul.ProjectAction li.Refresh a div.Outer {
+            background-image: url(../_Images/Actions/Refresh.png);
+        }
+
+        ul.ProjectAction li.Sync a div.Outer {
+            background-image: url(../_Images/Actions/Sync.png);
+        }
+
+        ul.ProjectAction li.Design a div.Outer {
+            background-image: url(../_Images/Actions/Design.png);
+        }
+
+        ul.ProjectAction li.Delete a div.Outer {
+            background-image: url(../_Images/Actions/Delete.png);
+        }
+
+        ul.ProjectAction li.Model a div.Outer {
+            background-image: url(../_Images/Wizard/BLL.png);
+        }
+
+        ul.ProjectAction li a:hover {
+            /*border: solid 1px #D2B47A;     background-color: #FFE6A0;*/
+            background-color: #ffecb5;
+            border: solid 1px #E5C365;
+        }
+
+
+        ul.ProjectAction li a {
+            text-decoration: none;
+        }
+
+table.MyProjects {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border-bottom: solid 1px #BCC7D8;
+    width: 100%;
+}
+
+    table.MyProjects tr td {
+        font-family: Tahoma;
+        font-size: 8.5pt;
+        border-top: solid 1px #BCC7D8; /*border-left: solid 1px white;     border-right: solid 1px white;*/
+        padding: 2px 5px 2px 3px;
+    }
+
+    table.MyProjects tr th {
+        padding: 3px 5px 3px 3px;
+        font-family: Tahoma;
+        font-size: 8.5pt;
+        color: #465A7D;
+        font-weight: normal;
+    }
+
+        table.MyProjects tr th.ProjectTitle {
+            padding-left: 13px;
+        }
+
+
+    table.MyProjects .Check {
+        background-image: url('Check.gif' );
+        background-repeat: no-repeat;
+        width: 14px;
+        height: 14px;
+        display: block;
+        margin-left: 2px;
+    }
+
+    table.MyProjects .ProjectTitle {
+        padding-left: 8px;
+        padding-right: 0px !important;
+    }
+
+.Title a div span.outer {
+    padding-left: 22px !important;
+    background-repeat: no-repeat;
+    background-position: left center;
+    min-height: 14px;
+}
+
+div#ProjectActionDialog_Menu span.ProjectId {
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+div#ProjectActionDialog_Menu .ProjectId.web-site-factory, div#ProjectSyncSettings .ProjectId.web-site-factory, a.web-site-factory div span.outer {
+    background-image: url(../_Images/Projects/WebSiteFactory.png);
+}
+
+div#ProjectActionDialog_Menu .ProjectId.web-app-factory, div#ProjectSyncSettings .ProjectId.web-app-factory, a.web-app-factory div span.outer {
+    background-image: url(../_Images/Projects/WebAppFactory.png);
+}
+
+div#ProjectActionDialog_Menu .ProjectId.azure-factory, #ProjectSyncSettings div.ProjectId.azure-factory, a.azure-factory div span.outer {
+    background-image: url(../_Images/Projects/AzureFactory.png);
+}
+
+div#ProjectActionDialog_Menu .ProjectId.dotnetnuke-factory, #ProjectSyncSettings div.ProjectId.dotnetnuke-factory, a.dotnetnuke-factory div span.outer {
+    background-image: url(../_Images/Projects/DotNetNukeFactory.png);
+}
+
+div#ProjectActionDialog_Menu .ProjectId.sharepoint-factory, #ProjectSyncSettings div.ProjectId.sharepoint-factory, a.sharepoint-factory div span.outer {
+    background-image: url(../_Images/Projects/SharePointFactory.png);
+}
+
+div#ProjectActionDialog_Menu .ProjectId.mobile-factory, #ProjectSyncSettings div.ProjectId.mobile-factory, a.mobile-factory div span.outer {
+    background-image: url(../_Images/Projects/MobileFactory.png);
+}
+
+
+table.MyProjects .ProjectStatus {
+    padding: 0px 5px 0px 0px;
+}
+
+div.Heading {
+    font-weight: bold;
+    color: #fff;
+    background-color: #007ACC;
+    margin-bottom: 8px;
+    padding: 12px;
+    border: solid 1px #007ACC;
+    margin-left: -8px;
+    margin-right: -8px;
+    text-transform: uppercase;
+    padding-left: 12px;
+    min-height: 16px;
+    line-height: 16px;
+}
+
+.Content.ContentBar {
+    margin: -6px -8px 0 -8px;
+    padding: 2px 12px 8px 12px;
+    background-color: #007ACC;
+    background-color: #231F20;
+    color: #ccc;
+}
+
+#PageHeaderRow {
+    background: url(LogoBar.gif);
+    background-repeat: no-repeat;
+}
+
+    #PageHeaderRow td div {
+        padding-bottom: 0;
+    }
+
+div.Heading2 {
+    font-weight: bold;
+    border-bottom: solid 1px #ccc;
+    padding: 16px 4px 4px 0;
+    margin-bottom: 8px;
+}
+
+div.Heading table tr td {
+    font-size: 8.5pt;
+    font-family: "Segoe UI";
+    padding: 0px;
+}
+
+div.Content {
+    padding-left: 4px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+a:link, a:active, a:visited {
+    color: #006699;
+    text-decoration: none;
+    font-family: "Segoe UI";
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+div.Heading a {
+    text-decoration: underline;
+    color: White;
+}
+
+span#LiveDemoLink {
+    margin-top: -40px;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+    span#LiveDemoLink a {
+        color: lime;
+        font-size: 15pt;
+    }
+
+        span#LiveDemoLink a:hover {
+            text-decoration: underline;
+            color: Yellow;
+        }
+
+div#EducationalWarning {
+    color: #c7254e;
+    background-color: #f9f2f4;
+    padding: 6px;
+    margin: 4px;
+    display: inline-block;
+}
+
+div.Heading a:hover {
+    color: silver;
+}
+
+table.Page tr td.OnTimeHeader a {
+    color: #fff;
+}
+
+table.Page tr td.PageDialog {
+    padding: 8px;
+}
+
+    table.Page tr td.PageDialog div.Dialog {
+        font-family: "Segoe UI";
+        font-size: 12px;
+        display: none;
+    }
+
+input, button, select, textarea {
+    font-family: "Segoe UI";
+    font-size: 12px;
+}
+
+div.Buttons, div.Buttons2 {
+    z-index: 1001;
+    margin-top: 8px;
+    text-align: right;
+    padding-left: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 28px;
+    border-top: solid 1px gainsboro;
+    filter: alpha(opacity=85);
+}
+
+div.Buttons {
+    border-top: solid 1px #ccc;
+    background-color: #231f20; /*background-image: url(ButtonsBkg.gif);*/
+    background-color: #fff; /*background-image: url(ButtonsBkg.gif);*/
+    background-repeat: repeat-x;
+}
+
+div.Top {
+    padding-top: 4px;
+    margin-top: -8px;
+    border-top-style: none;
+    padding-bottom: 6px;
+}
+
+div.Buttons button, div.Buttons2 button {
+    filter: alpha(opacity=100);
+    margin-right: 8px;
+    padding: 6px;
+    font-size: 12px;
+    height: 22px;
+    color: Black;
+    font-family: "Segoe UI";
+    font-size: 12px !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    color: #fff !important;
+    color: #333 !important;
+    min-width: 0 !important;
+    width: auto;
+    display: inline-block;
+    position: relative;
+    height: 30px;
+}
+
+    div.Buttons button:hover, div.Buttons2 button:hover {
+        background-color: #352f30;
+        background-color: #f1f1f1;
+        cursor: pointer;
+    }
+
+button.Large {
+    width: 120px;
+    margin-right: 4px;
+    margin-left: 4px;
+    font-family: "Segoe UI";
+    font-size: 12px;
+    height: 22px;
+    color: Black;
+}
+
+button.Medium {
+    width: 85px;
+    margin-right: 4px;
+    margin-left: 4px;
+    font-family: "Segoe UI";
+    font-size: 12px;
+    height: 22px;
+    color: Black;
+}
+
+button.Small {
+    margin-right: 4px;
+    margin-left: 4px;
+    font-family: "Segoe UI";
+    font-size: 12px;
+    height: 22px;
+    color: Black;
+}
+
+td.Title a {
+    display: block;
+}
+
+    td.Title a div {
+        padding: 5px 25px 5px 5px;
+    }
+
+        td.Title a div span {
+            height: 13px;
+            display: inline-block;
+            padding: 1px 0px;
+            cursor: pointer;
+        }
+
+        td.Title a div.Current span span.inner {
+            background-image: url('Check.gif' );
+            background-position: right center;
+            background-repeat: no-repeat;
+            padding-right: 18px;
+        }
+
+.MyProjects td.Title a:hover {
+    background-color: #ffecb5;
+    border: solid 1px #E5C365;
+    text-decoration: none;
+}
+
+.MyProjects tr td {
+    border-style: none;
+    border-width: 0px;
+}
+
+.MyProjects td.Title a div {
+    padding: 2px 5px 3px 5px;
+}
+
+.MyProjects td.Title a:hover div {
+    padding: 1px 4px 2px 4px;
+}
+
+.Projects td.Title a div {
+    padding: 4px 5px 4px 5px;
+}
+
+
+table.MyProjects tr.Highlight td {
+    background-color: #ffecb5;
+    text-decoration: none;
+}
+
+div.Field {
+    padding-top: 4px;
+    padding-left: 0;
+    padding-bottom: 4px;
+}
+
+    div.Field label.Label {
+        color: #696969;
+        display: block;
+        padding-bottom: 2px;
+    }
+
+    div.Field div.Description {
+        padding-top: 2px;
+        padding-left: 2px;
+    }
+
+    div.Field div.Error {
+        display: none;
+        color: red;
+        padding-top: 2px;
+        padding-left: 2px;
+        white-space: normal;
+    }
+
+table.Field {
+    border-collapse: collapse;
+}
+
+    table.Field tr td {
+        font-family: "Segoe UI";
+        font-size: 12px;
+    }
+
+        table.Field tr td label {
+            color: Gray;
+        }
+
+div.ScrollBox {
+    border: solid 1px #BCC7D8;
+    overflow: auto;
+    padding: 2px 4px 2px 4px;
+    font-family: "Segoe UI";
+    font-size: 12px;
+}
+
+.InstallCurrent {
+    width: 9px;
+    height: 9px;
+    background-image: url('CurrentMark.gif');
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-right: 8px;
+}
+
+.InstallCompleted {
+    width: 9px;
+    height: 9px;
+    background-image: url('CheckMark.gif');
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-right: 8px;
+}
+
+div#InstallPlan {
+    padding-top: 8px;
+}
+
+div#InstallError {
+    color: Red;
+    white-space: pre;
+}
+
+div#NewProjectDialog_Description {
+    padding-bottom: 8px;
+}
+
+div#NewProjectDialog_Website {
+    margin-bottom: 8px;
+}
+
+    div#NewProjectDialog_Website a {
+        color: Green;
+        text-decoration: none;
+    }
+
+.FrameworkAndImplementation {
+    width: 100%;
+}
+
+    .FrameworkAndImplementation div {
+        display: inline-block;
+        width: 200px;
+        float: left;
+    }
+
+#PageImplementation {
+}
+
+.ClearFix {
+    clear: both;
+}
+
+.Cost {
+    color: Green;
+}
+
+.Task {
+    background-position: 8px 4px;
+    padding-top: 0px;
+    padding-bottom: 4px;
+    padding-left: 18px;
+    background-image: url(Bullet.gif);
+    background-repeat: no-repeat;
+}
+
+
+div.News, div#LatestNewsMessage {
+    border: solid 1px #BCC7D8;
+    font-family: "Segoe UI";
+    font-size: 12px;
+    width: 360px;
+    padding: 4px;
+    height: 450px;
+    overflow: auto;
+    margin-left: 4px;
+}
+
+div#LatestNewsMessage {
+    border-color: #fff;
+    padding-top: 0px;
+}
+
+
+div.News img {
+    border-style: none;
+    margin: 4px 0px;
+    display: block;
+}
+
+/*
+Option Menu
+*/
+
+table.TabView {
+    border-width: 0px;
+}
+
+    table.TabView tr td.Tabs {
+        width: 200px;
+        border: solid 1px silver;
+        padding: 4px 8px;
+        vertical-align: top;
+    }
+
+        table.TabView tr td.Tabs ul {
+        }
+
+            table.TabView tr td.Tabs ul li {
+                margin-left: -40px;
+                list-style-type: none;
+                padding: 1px 0px;
+            }
+
+        table.TabView tr td.Tabs a {
+            border: solid 1px transparent;
+            text-decoration: none;
+            color: Black;
+            padding: 5px 4px;
+            display: block;
+        }
+
+            table.TabView tr td.Tabs a:hover, table.TabView tr td.Tabs a.Selected {
+                background-color: #ffecb5;
+                border: solid 1px #E5C365;
+            }
+
+            table.TabView tr td.Tabs a.Selected {
+                font-weight: bold;
+            }
+
+    table.TabView tr td.Body {
+        vertical-align: top;
+        padding: 0px 0px 0px 8px;
+    }
+
+        table.TabView tr td.Body div.Views {
+            overflow-y: auto;
+            overflow-x: hidden;
+            height: 400px;
+        }
+
+select#ThemeDialog_Theme {
+    width: 150px;
+    height: 279px;
+}
+
+table.ThemePreviews {
+    margin-left: 12px;
+    color: #696969;
+}
+
+.Field.Theme .ThemePreview {
+    width: 340px;
+    height: 271px;
+    border: solid 1px silver;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.Field.Theme .MobileThemePreview {
+    width: 340px;
+    height: 271px;
+    border: solid 1px silver;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.Field.Theme .MobileThemePreview {
+    background-image: url(../_Images/Themes/_mobile-Default.png);
+}
+
+.Field.Theme.Light .ThemePreview, .Field.Theme.Dark .ThemePreview {
+    background-image: url(../_Images/Themes/Aquarium.png);
+}
+
+.Field.Theme.Light .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Light.png);
+}
+
+.Field.Theme.Dark .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Dark.png);
+}
+
+.Field.Theme.Aquarium .ThemePreview {
+    background-image: url(../_Images/Themes/Aquarium.png);
+}
+
+.Field.Theme.Aquarium .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Aquarium.png);
+}
+
+.Field.Theme.Azure .ThemePreview {
+    background-image: url(../_Images/Themes/Azure.png);
+}
+
+.Field.Theme.Azure .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Azure.png);
+}
+
+.Field.Theme.Belltown .ThemePreview {
+    background-image: url(../_Images/Themes/Belltown.png);
+}
+
+.Field.Theme.Belltown .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Belltown.png);
+}
+
+.Field.Theme.Berry .ThemePreview {
+    background-image: url(../_Images/Themes/Berry.png);
+}
+
+.Field.Theme.Berry .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Berry.png);
+}
+
+.Field.Theme.Bittersweet .ThemePreview {
+    background-image: url(../_Images/Themes/Bittersweet.png);
+}
+
+.Field.Theme.Bittersweet .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Bittersweet.png);
+}
+
+.Field.Theme.Cay .ThemePreview {
+    background-image: url(../_Images/Themes/Cay.png);
+}
+
+.Field.Theme.Cay .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Cay.png);
+}
+
+.Field.Theme.Citrus .ThemePreview {
+    background-image: url(../_Images/Themes/Citrus.png);
+}
+
+.Field.Theme.Citrus .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Citrus.png);
+}
+
+.Field.Theme.Classic .ThemePreview {
+    background-image: url(../_Images/Themes/Classic.png);
+}
+
+.Field.Theme.Classic .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Classic.png);
+}
+
+.Field.Theme.Construct .ThemePreview {
+    background-image: url(../_Images/Themes/Construct.png);
+}
+
+.Field.Theme.Construct .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Construct.png);
+}
+
+.Field.Theme.Convention .ThemePreview {
+    background-image: url(../_Images/Themes/Convention.png);
+}
+
+.Field.Theme.Convention .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Convention.png);
+}
+
+.Field.Theme.DarkKnight .ThemePreview {
+    background-image: url(../_Images/Themes/DarkKnight.png);
+}
+
+.Field.Theme.DarkKnight .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/DarkKnight.png);
+}
+
+.Field.Theme.Felt .ThemePreview {
+    background-image: url(../_Images/Themes/Felt.png);
+}
+
+.Field.Theme.Felt .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Felt.png);
+}
+
+.Field.Theme.Graham .ThemePreview {
+    background-image: url(../_Images/Themes/Graham.png);
+}
+
+.Field.Theme.Graham .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Graham.png);
+}
+
+.Field.Theme.Granite .ThemePreview {
+    background-image: url(../_Images/Themes/Granite.png);
+}
+
+.Field.Theme.Granite .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Granite.png);
+}
+
+.Field.Theme.Grapello .ThemePreview {
+    background-image: url(../_Images/Themes/Grapello.png);
+}
+
+.Field.Theme.Grapello .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Grapello.png);
+}
+
+.Field.Theme.Gravity .ThemePreview {
+    background-image: url(../_Images/Themes/Gravity.png);
+}
+
+.Field.Theme.Gravity .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Gravity.png);
+}
+
+.Field.Theme.Lacquer .ThemePreview {
+    background-image: url(../_Images/Themes/Lacquer.png);
+}
+
+.Field.Theme.Lacquer .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Lacquer.png);
+}
+
+.Field.Theme.Laminate .ThemePreview {
+    background-image: url(../_Images/Themes/Laminate.png);
+}
+
+.Field.Theme.Laminate .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Laminate.png);
+}
+
+.Field.Theme.Lichen .ThemePreview {
+    background-image: url(../_Images/Themes/Lichen.png);
+}
+
+.Field.Theme.Lichen .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Lichen.png);
+}
+
+.Field.Theme.Mission .ThemePreview {
+    background-image: url(../_Images/Themes/Mission.png);
+}
+
+.Field.Theme.Mission .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Mission.png);
+}
+
+.Field.Theme.Modern .ThemePreview {
+    background-image: url(../_Images/Themes/Modern.png);
+}
+
+.Field.Theme.Modern .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Modern.png);
+}
+
+.Field.Theme.ModernRose .ThemePreview {
+    background-image: url(../_Images/Themes/ModernRose.png);
+}
+
+.Field.Theme.ModernRose .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/ModernRose.png);
+}
+
+.Field.Theme.Municipal .ThemePreview {
+    background-image: url(../_Images/Themes/Municipal.png);
+}
+
+.Field.Theme.Municipal .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Municipal.png);
+}
+
+.Field.Theme.Petal .ThemePreview {
+    background-image: url(../_Images/Themes/Petal.png);
+}
+
+.Field.Theme.Petal .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Petal.png);
+}
+
+.Field.Theme.Pinnate .ThemePreview {
+    background-image: url(../_Images/Themes/Pinnate.png);
+}
+
+.Field.Theme.Pinnate .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Pinnate.png);
+}
+
+.Field.Theme.Plastic .ThemePreview {
+    background-image: url(../_Images/Themes/Plastic.png);
+}
+
+.Field.Theme.Plastic .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Plastic.png);
+}
+
+.Field.Theme.Ricasso .ThemePreview {
+    background-image: url(../_Images/Themes/Ricasso.png);
+}
+
+.Field.Theme.Ricasso .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Ricasso.png);
+}
+
+.Field.Theme.Simple .ThemePreview {
+    background-image: url(../_Images/Themes/Simple.png);
+}
+
+.Field.Theme.Simple .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Simple.png);
+}
+
+.Field.Theme.Social .ThemePreview {
+    background-image: url(../_Images/Themes/Social.png);
+}
+
+.Field.Theme.Social .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Social.png);
+}
+
+.Field.Theme.Summer .ThemePreview {
+    background-image: url(../_Images/Themes/Summer.png);
+}
+
+.Field.Theme.Summer .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Summer.png);
+}
+
+.Field.Theme.Vantage .ThemePreview {
+    background-image: url(../_Images/Themes/Vantage.png);
+}
+
+.Field.Theme.Vantage .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Vantage.png);
+}
+
+.Field.Theme.Verdant .ThemePreview {
+    background-image: url(../_Images/Themes/Verdant.png);
+}
+
+.Field.Theme.Verdant .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Verdant.png);
+}
+
+.Field.Theme.Viewpoint .ThemePreview {
+    background-image: url(../_Images/Themes/Viewpoint.png);
+}
+
+.Field.Theme.Viewpoint .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Viewpoint.png);
+}
+
+.Field.Theme.WhiteSmoke .ThemePreview {
+    background-image: url(../_Images/Themes/WhiteSmoke.png);
+}
+
+.Field.Theme.WhiteSmoke .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/WhiteSmoke.png);
+}
+
+.Field.Theme.Yoshi .ThemePreview {
+    background-image: url(../_Images/Themes/Yoshi.png);
+}
+
+.Field.Theme.Yoshi .MobileThemePreview {
+    background-image: url(../_Images/Themes/Mobile/Yoshi.png);
+}
+
+.Field.Theme.Mobile .DesktopPreview {
+    display: none;
+}
+
+
+/*
+.Heading div.Logo
+{
+    float:right;
+    width:32px;
+    height:32px;
+    margin-top:-40px;
+    margin-right:8px;
+    background-repeat:no-repeat;
+}
+*/
+
+.Heading.Logo {
+    padding-left: 48px;
+    position: relative;
+}
+
+    .Heading.Logo div.Icon {
+        float: left;
+        width: 32px;
+        height: 32px;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        margin-top: -16px;
+    }
+
+.Icon.Namespace, ul.Settings li.Namespace a div.Outer {
+    background-image: url(../_Images/Wizard/Namespace.png);
+}
+
+.Heading.Logo .Icon.Database, ul.Settings li.Connection a div.Outer {
+    background-image: url(../_Images/Wizard/DatabaseConnection.png);
+}
+
+.Heading.Logo .Icon.BLL, ul.Settings li.BLL a div.Outer {
+    background-image: url(../_Images/Wizard/BLL.png);
+}
+
+.Heading.Logo .Icon.Membership, ul.Settings li.Membership a div.Outer {
+    background-image: url(../_Images/Wizard/Membership.png);
+}
+
+.Heading.Logo .Icon.Reporting, ul.Settings li.Reports a div.Outer {
+    background-image: url(../_Images/Wizard/Reports.png);
+}
+
+.Heading.Logo .Icon.Features, ul.Settings li.Features a div.Outer {
+    background-image: url(../_Images/Wizard/Features2.png);
+}
+
+.Heading.Logo .Icon.Layout, ul.Settings li.Layout a div.Outer {
+    background-image: url(../_Images/Wizard/Layout.png);
+}
+
+.Heading.Logo .Icon.Theme, ul.Settings li.Theme a div.Outer {
+    background-image: url(../_Images/Wizard/Theme.png);
+}
+
+.Heading.Logo .Icon.Globalization, ul.Settings li.Globalization a div.Outer {
+    background-image: url(../_Images/Wizard/Globalization.png);
+}
+
+.Heading.Logo .Icon.WebServer, ul.Settings li.WebServer a div.Outer {
+    background-image: url(../_Images/Wizard/WebServer.png);
+}
+
+.Heading.Logo .Icon.Summary {
+    background-image: url(../_Images/Wizard/Summary.png);
+}
+
+.Heading.Logo .Icon.Help {
+    background-image: url(../_Images/Wizard/Help.png);
+}
+
+.Heading.Logo .Icon.Location, ul.Settings li.Namespace.Location a div.Outer {
+    background-image: url(../_Images/Wizard/Location.png);
+}
+
+.Heading.Logo .Icon.Sharing {
+    background-image: url(../_Images/Wizard/DatabaseSharing.png);
+}
+
+.Heading.Logo .Icon.Website, ul.Settings li.Namespace.Website a div.Outer {
+    background-image: url(../_Images/Actions/Browse.png);
+}
+
+ul.Settings li.Design a div.Outer {
+    background-image: url(../_Images/Actions/Design.png);
+}
+
+ul.Settings li.DataModel a div.Outer {
+    background-image: url(../_Images/Wizard/BLL.png);
+}
+
+ul.Settings li.Generate a div.Outer {
+    background-image: url(../_Images/Actions/Browse.png);
+}
+
+ul.Settings li.Refresh a div.Outer {
+    background-image: url(../_Images/Actions/Refresh.png);
+}
+
+ul.Settings li.Settings a div.Outer {
+    background-image: url(../_Images/Actions/Settings.png);
+}
+
+.Icon.Server-Local {
+    background-image: url(../_Images/Wizard/server_Local_32xLG.png);
+}
+
+.Icon.x32 {
+    background-size: 32px;
+}
+
+.Icon.x48 {
+    background-size: 48px;
+}
+
+.Icon.QueryFolder {
+    background-image: url(../_Images/SVG/VSO_QueryFolder_16x.svg);
+}
+
+.Icon.PublishAllWebsites {
+    background-image: url(../_Images/SVG/PublishAllWebsite_16x.svg);
+}
+
+.Icon.FTPSites {
+    background-image: url(../_Images/SVG/FTPSites_32x.svg);
+}
+
+
+.Icon.AzureBlue {
+    background-image: url(../_Images/SVG/Azure_blue_16x.svg);
+}
+
+.Icon.Cloud {
+    background-image: url(../_Images/SVG/Cloud_16x.svg);
+}
+
+.Icon.Package {
+    background-image: url(../_Images/SVG/Package_16x.svg);
+}
+
+.Icon.Phone {
+    background-image: url(../_Images/SVG/Phone_16x.svg);
+}
+
+.Icon.GoogleContainerEngine {
+    background-image: url(../_Images/SVG/Google-Container-Engine.svg);
+}
+
+.Icon.AmazonVPC {
+    background-image: url(../_Images/SVG/Compute_AmazonVPC_Internetgateway.svg);
+}
+
+.Icon.MobileWeb {
+    background-image: url(../_Images/Wizard/MobileWeb_16x.png);
+}
+
+
+ul.Settings {
+    margin-top: 50px;
+    float: left;
+    width: 40%;
+}
+
+    ul.Settings.Summary {
+        width: 80%;
+        margin-top: 0px;
+    }
+
+#ControllerList ul {
+    padding: 0;
+    margin: 0 20px;
+}
+
+    #ControllerList ul li {
+        margin: 4px 0;
+        padding: 0;
+        list-style-type: square;
+    }
+
+ul.Settings li {
+    padding: 0px;
+    list-style-type: none;
+}
+
+    ul.Settings li a div.Outer {
+        background-repeat: no-repeat;
+        background-position: 8px 3px;
+        margin-left: -50px;
+        padding-left: 50px;
+    }
+
+    ul.Settings li div.Text {
+        font-family: "Segoe UI";
+        font-size: 14pt;
+    }
+
+    ul.Settings li div.Description {
+        font-family: "Segoe UI";
+        font-size: 12px;
+        color: Black;
+    }
+
+    ul.Settings li a {
+        border: solid 1px transparent;
+        display: block;
+        padding: 4px 4px 4px 50px;
+        text-decoration: none;
+    }
+
+        ul.Settings li a:hover {
+            background-color: #ffecb5;
+            border: solid 1px #E5C365;
+        }
+
+div.info-box {
+    margin-top: 4px;
+    display: inline-block;
+    border: 1px solid #C0C0C0;
+    padding: 4px;
+    background-color: #FFFFE1;
+}
+
+.sync-settings .header {
+    background: url(../_Images/Actions/Sync.png) no-repeat -4px center;
+    padding: 0 0 0 40px;
+    margin: 0 0 8px 0;
+    font-size: xx-large;
+    font-family: Calibri,Arial;
+}
+
+table.TouchPropertiesTable {
+    width: 500px;
+}
+
+    table.TouchPropertiesTable td {
+        vertical-align: top;
+        padding-bottom: 8px;
+    }
+
+        table.TouchPropertiesTable td label {
+            color: #696969;
+        }
+
+#DataModel_SearchBox {
+    width: 98%;
+    color: #777;
+}
+
+    #DataModel_SearchBox:hover, #DataModel_SearchBox:focus, #DataModel_SearchBox:active {
+        color: #000;
+    }
+
+#BusinessLogicLayerDialog_TabView > div:first-of-type {
+    overflow: hidden;
+    border: solid 1px red;
+}
+
+#DataModelContainer {
+    overflow: hidden;
+}
+
+#dataModelLists {
+    /*white-space: nowrap;*/
+}
+
+    #dataModelLists > div {
+        border: solid 2px #ccc;
+        width: 48.5%;
+        overflow-y: auto;
+        white-space: normal;
+        float: left;
+        margin-top: 4px;
+        display: inline-block;
+    }
+
+div#dataModelList {
+    margin-right: 4px;
+    border-color: #38c;
+}
+
+div#businessEntityList {
+    margin-right: -1px;
+}
+
+#businessEntityList.fullWidth {
+    width: 99%;
+}
+
+#businessEntityList .emptyListMessage {
+    padding: 1em;
+    color: #333;
+}
+
+#dataModelLists .dataModel {
+    padding: 0.5em;
+    margin: 0.25em 0.25em 0.35em 0.25em;
+    cursor: pointer;
+    border: solid 1px #fff;
+}
+
+    #dataModelLists .dataModel:hover {
+        background-color: #ffecb5;
+        border-color: #E5C365;
+    }
+
+    #dataModelLists .dataModel .dataModelTables {
+        color: #555;
+        font-size: 1em;
+    }
+
+    #dataModelLists .dataModel.defineAllEntities {
+        color: #006699;
+    }
+
+        #dataModelLists .dataModel.defineAllEntities:hover {
+            color: #000;
+        }
+
+.dataModelHeader.defineAllHeader {
+    padding: 0 !important;
+}
+
+.dataModel span.disable {
+    font-size: 0.9em;
+    margin-left: 0.5em;
+    color: #333;
+}
+
+.dataModel.customModel .dataModelName {
+    font-weight: bold;
+}
+
+    .dataModel.customModel .dataModelName span {
+        font-weight: normal;
+    }
+
+#dataModelLists .dataModelHeader {
+    color: #999;
+    padding: 10px 0 4px 10px;
+    margin-top: -1px;
+    font-weight: bold;
+    text-decoration: none;
+    border-top: 1px solid #ccc;
+    text-transform: uppercase;
+}
+
+.button-more {
+    width: 24px;
+    font-family: Verdana;
+    height: 1.75em;
+    border: solid 1px ActiveBorder;
+    border-left-width: 0;
+}
+
+.radial-progress-container {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+    border: solid 1px #fff;
+    text-align: center;
+}
+
+.radial-progress {
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    background-color: #ade1ff;
+    border-radius: 50%;
+}
+
+    .radial-progress .circle .mask, .radial-progress .circle .fill, .radial-progress .circle .shadow {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        border-radius: 50%;
+    }
+
+    .radial-progress .circle .shadow {
+        /*box-shadow: 6px 6px 10px rgba(0,0,0,0.2) inset;*/
+    }
+
+    .radial-progress .circle .mask, .radial-progress .circle .fill {
+        transition: transform 1s;
+    }
+
+    .radial-progress .circle .mask {
+        clip: rect(0px, 150px, 150px, 75px);
+    }
+
+
+        .radial-progress .circle .mask .fill {
+            clip: rect(0px, 75px, 150px, 0px);
+            background-color: #38c;
+        }
+
+    .radial-progress .inset {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 15px;
+        background-color: #fff;
+        border-radius: 50%;
+        transition: background-color 200ms, background-image 200ms; /*box-shadow: 6px 6px 10px rgba(0,0,0,0.2);*/
+    }
+
+    .radial-progress .progress-message {
+        position: absolute;
+        line-height: 1;
+        width: 100%;
+        top: 50%;
+        margin-top: -0.5em;
+        font-size: 32px;
+        text-align: center;
+    }
+
+        .radial-progress .progress-message .percent {
+            margin-left: 2px;
+            font-size: 0.6em;
+            color: #333;
+        }
+
+    .radial-progress.complete .inset {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 60px;
+        background-color: #38c;
+        background-image: url('../_Images/SVG/VSO_Checkmark_16x.svg');
+    }
+
+    .radial-progress.complete .progress-message span {
+        display: none;
+    }
+
+.publish-options {
+    margin: 1em;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+}
+
+    .publish-options .Icon {
+        position: absolute;
+        left: 8px;
+        top: 50%;
+        height: 32px;
+        width: 32px;
+        margin-top: -16px;
+    }
+
+    .publish-options > li:first-of-type {
+        border-top: solid 1px #ddd;
+    }
+
+    .publish-options > li {
+        border-bottom: solid 1px #ddd;
+        padding: 6px 0 6px 10px;
+    }
+
+        .publish-options > li > a {
+            display: block;
+            padding: 6px 6px 6px 48px;
+            border: solid 1px #fff;
+            position: relative;
+        }
+
+            .publish-options > li > a:hover {
+                text-decoration: none;
+                cursor: pointer;
+                background-color: #ffecb5;
+                border-color: #E5C365;
+            }
+
+    .publish-options h4 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+
+    .publish-options .last-used {
+        position: relative;
+    }
+
+        .publish-options .last-used:before {
+            position: absolute;
+            left: 0;
+            width: 4px;
+            top: -1px;
+            bottom: -1px;
+            content: ' ';
+            background-color: #38c;
+        }
+
+.browse-options {
+    list-style: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 48px;
+    border: solid 1px transparent;
+}
+
+    .browse-options .label {
+        display: block;
+        font-size: 0.9em;
+        color: #999;
+        text-transform: uppercase;
+    }
+
+    .browse-options li {
+        display: inline-block;
+        padding-bottom: 3px;
+        padding-right: 2em;
+        vertical-align: top;
+    }
+
+
+.qr-code-container {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.browse-qr-code {
+    margin-left: -24px;
+    margin-bottom: -24px;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+.radio-header {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.radio-container > label {
+    display: inline-block;
+    border: solid 1px #fff;
+    padding: 0.5em 0.5em 0.5em 3em;
+    margin: 0.5em 0;
+    position: relative;
+    clear: both;
+    cursor: pointer;
+    max-width: 400px;
+}
+
+    .radio-container > label:not(.radio-disabled):hover {
+        background-color: #ffecb5;
+        border-color: #E5C365;
+    }
+
+    .radio-container > label input[type="radio"] {
+        position: absolute;
+        left: 1em;
+        top: 1em;
+    }
+
+label.radio-disabled {
+    color: #777;
+}
+
+.azure-option {
+    min-width: 250px;
+}
+
+.radio-container label > span {
+    display: block;
+}
+
+.deploy-options {
+    border-left: solid 2px #ccc;
+}
+
+.radio-container .deploy-options {
+    display: block;
+    padding-left: 1em;
+    margin-left: 3em;
+}
+
+.input-click-to-activate {
+    width: 600px;
+}
+
+.input-label {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+.radio-label {
+    display: inline-block;
+}
+
+.disabled {
+    color: #777 !important;
+    cursor: default !important;
+}
+
+    .disabled:hover {
+        background-color: transparent !important;
+        border-color: transparent !important;
+    }
+
+.tasks {
+    margin-bottom: 60px;
+    padding-top: 8px;
+}
+
+.cover {
+    display: block !important;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: wait;
+}
+
+    .cover:focus {
+        background-color: rgba(0,0,0,0.1);
+    }
+
+.warning {
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0.25em;
+    border-radius: 0.1825em;
+    font-weight: 500;
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border: solid 1px #faebcc;
+}
+
+.info {
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0.25em;
+    border-radius: 0.1825em;
+    font-weight: 500;
+    color: #31708f;
+    background-color: #d9edf7;
+    border: solid 1px #bce8f1;
+}
+
+.web-config-customizer {
+    display: inline-block !important;
+    width: 100%;
+}
+
+div[data-prop] .prop-name, div[data-prop-group] .prop-group-header {
+    color: #333;
+    font-weight: 600;
+    padding: 2px 0 4px;
+    margin-bottom: -2px;
+}
+
+div[data-prop].prop-hidden {
+    display: none;
+}
+
+div[data-prop] .prop-value {
+    color: #333;
+    padding-bottom: 1em;
+}
+
+div[data-prop].prop-multiple .prop-value {
+    padding-left: 2em;
+}
+
+div[data-prop-group] > div {
+    padding-left: 2em;
+}
+
+div[data-prop] .prop-text {
+    color: #111;
+    font-weight: 600;
+    padding: 0 0 0.75em 0;
+}
+
+div[data-prop] .prop-label {
+    padding: 3px;
+    margin-left: -3px;
+    cursor: pointer;
+}
+
+div[data-prop] .prop-value:not(.is-overriden) .prop-label {
+    color: #777;
+    font-style: italic;
+}
+
+div[data-prop] .is-overriden .prop-original {
+    color: #999;
+}
+
+.prop-original .cs-server, .prop-original .cs-db {
+    font-weight: bold;
+}
+
+.prop-label .cs-server, .prop-label .cs-db {
+    font-weight: bold;
+}
+
+div[data-prop] input {
+    width: 100%;
+    border-width: 0;
+    padding: 3px;
+    margin-left: -3px;
+}
+
+    div[data-prop] input:focus, div[data-prop] .prop-label:hover {
+        background-color: #e4f1f7;
+    }
+
+.prop-action-container a.prop-action {
+    display: inline-block;
+    border: solid 1px #38c;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 3px 6px;
+    margin: 4px 4px 4px 0;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+    .prop-action-container a.prop-action:hover {
+        background-color: #38c;
+        color: #fff;
+    }
+
+.small {
+    font-size: 12px;
+    color: #777;
+}
+
+#Refresh_Azure {
+    background: url(../_Images/SVG/CloudRefresh_16x.svg) no-repeat center;
+    background-size: 24px;
+    position: absolute;
+    cursor: pointer;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-top: -4px;
+}
+
+.special-links {
+    display: inline-block;
+    text-align: left;
+    max-height: 50px;
+    min-height: 50px;
+    padding-top: 2px;
+    vertical-align: bottom;
+    white-space: nowrap;
+}
+
+    .special-links a {
+        padding-left: 24px;
+        padding-top: 2px;
+        display: inline-block;
+        font-size: 12pt;
+        line-height: 50px;
+    }
+
+.hidden {
+    display: none !important;
+}
+
+.FieldHint {
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #333;
+}
+
+#Subscriptions {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+    #Subscriptions a {
+        color: #fff;
+        font-weight: bold;
+    }
+
+        #Subscriptions a:hover {
+            color: yellow;
+        }
+
+
+.Content.Header {
+    background-color: #231F20;
+    color: #ccc;
+    margin: -8px;
+    padding: 4px 8px 8px 12px;
+    margin-bottom: 0px;
+}
+
+.model-sort-button {
+    float: right;
+    margin-top: -16px;
+    margin-right: 8px;
+    text-transform: none;
+    font-weight: normal;
+    color: #333;
+    cursor: pointer;
+}
+
+    .model-sort-button:hover {
+        color: #38c;
+        text-decoration: underline;
+    }

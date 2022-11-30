@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Cruthaigh cuntas nua Ról ballraíochta.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Ról Nua^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nua^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Comhlánaigh an fhoirm. Bí cinnte chun dul isteach gach réimsí riachtanacha.^CreateFormCategory^
+
+^CreateFormHeaderText^Comhlánaigh an fhoirm seo agus cnaipe OK a chruthú ballraíocht róil nua taifead cliceáil. Cliceáil Cealaigh chun filleadh ar an scáileán roimhe sin.^CreateFormHeaderText^
+
+^DescriptionLabel^Cur Síos^DescriptionLabel^
+
+^EditViewCategory^Seo iad na réimsí an taifid ról ballraíochta is féidir a chur in eagar.^EditViewCategory^
+
+^EditViewHeaderText^Tabhair faoi athbhreithniú a dhéanamh ar bhallraíocht rólanna t-eolas thíos. Cliceáil Athraigh an taifead seo a athrú, cliceáil ar Scrios an taifead a scriosadh, nó cliceáil Cealaigh / Dún chun filleadh ar ais.^EditViewHeaderText^
+
+^GridViewHeaderText^Seo liosta de na rólanna ballraíochta.^GridViewHeaderText^
+
+^RoleNameLabel^Ainm Ról^RoleNameLabel^
+

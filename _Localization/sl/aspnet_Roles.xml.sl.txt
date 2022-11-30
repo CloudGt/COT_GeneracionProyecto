@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Ustvari nov rekord članstvo vlogo.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nova vloga^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^New^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Izpolnite obrazec. Poskrbite za vstop v vsa zahtevana polja.^CreateFormCategory^
+
+^CreateFormHeaderText^Prosimo, da izpolnite ta obrazec in kliknite na gumb OK, da ustvarite nov zapis članstvo vloge. Kliknite Prekliči, da se vrnete na prejšnji zaslon.^CreateFormHeaderText^
+
+^DescriptionLabel^Opis^DescriptionLabel^
+
+^EditViewCategory^To so polji zapisa članstva vlogo, ki jo je mogoče urejati.^EditViewCategory^
+
+^EditViewHeaderText^Prosimo, preglejte informacije članstvo vlog spodaj. Kliknite Uredi, da spremenite ta zapis, kliknite Izbriši, da izbrišete zapis, ali pa kliknite Cancel / Zapri, da se vrnete nazaj.^EditViewHeaderText^
+
+^GridViewHeaderText^To je seznam članstva vlog.^GridViewHeaderText^
+
+^RoleNameLabel^Vloga Ime^RoleNameLabel^
+

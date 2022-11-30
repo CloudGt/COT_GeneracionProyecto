@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Crea un nuevo registro de Usuario.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nuevo Usuario^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Agregar^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^De nuevo^BackToRequestPasswordActionHeaderText^
+
+^Comment^Comentario^Comment^
+
+^ConfirmIdentityActionHeaderText^Terminar^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Confirmar nueva contraseña^ConfirmNewPassword^
+
+^ConfirmPassword^Confirmar Contraseña^ConfirmPassword^
+
+^CreateDate^Fecha de Creación^CreateDate^
+
+^CreateFormCommentCategoryDescription^Escriba cualquier comentario adicional sobre esta cuenta de Usuario. El comentario no es visible para el Usuario.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Comentarios^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Por favor, introduzca nombre de Usuario y contraseña. Tenga en cuenta que la contraseña debe tener <b>al menos 7 caracteres</b> e <b>incluir un carácter no alfanumérico</b>. Sólo los Usuarios autorizados podrán iniciar sesión en el sitio web.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Información del Usuario nuevo^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Estos campos son necesarios para ayudar al Usuario a recuperar una contraseña olvidada. Durante el proceso de recuperación se le pedirá al Usuario que introduzca un nombre de Usuario. Si existe una cuenta de Usuario, entonces se le hará una pregunta de seguridad. Una respuesta correcta dará lugar a que el sistema envíe un e-mail con una contraseña temporal al Usuario.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Recuperación de Contraseña^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Por favor, seleccione las Funciones de Usuario que se acerquen más a las responsabilidades del Usuario. Funciones de control de acceso a las áreas de este sitio web. Por favor, póngase en contacto con el administrador del sistema si las restricciones de acceso deben ser cambiadas.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Funciones^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Por favor, llene este formulario y haga clic en el botón Aceptar para crear un nuevo registro de Usuario. Haga clic en Cancelar para volver a la pantalla anterior.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Nuevo Usuario^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Esta cuenta de Usuario se creará en cuanto sea aprobada.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Dirección de correo electrónico duplicada.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Clave duplicada.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Nombre de Usuario duplicado.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Estadísticas de la actividad^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Esta cuenta de Usuario ha sido aprobada^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Estas son las estadísticas de intentos fallidos de conexión de este Usuario. <br/> <br/> El Usuario quedará bloqueado tras llegar a un número máximo de intentos de acceso fallidos. <br/> <br/> Los Usuarios bloqueados serán capaces de conectarse de nuevo después de la fecha del intento fallido. <br/> <br/> Los Usuarios que necesiten recuperar la contraseña podrán hacerlo ingresando después de la fecha de su inetento fallido. <br/> <br/> Se puede restaurar la capacidad del Usuario para inicio de sesión mediante el establecimiento de la bandera Bloqueado en 'No'.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Ingresar Estadísticas^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Durante la recuperación de una contraseña olvidada se le pedirá al Usuario que introduzca un nombre de Usuario. Si una cuenta de Usuario existe, entonces se le har una pregunta de seguridad para ser contestada. Una respuesta correcta dará lugar a un e-mail con una contraseña temporal enviado al Usuario. <br/><br/> Cambie la bandera de bloqueo a 'No' si el Usuario ha sido bloqueado después de llegar a un número máximo de intentos fallidos de conexión y desea permitir al Usuario conectarse de nuevo.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Recuperación de contraseña^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Por favor, seleccione las Funciones de Usuario que se acerquen más a las responsabilidades del Usuario. Funciones de control de acceso a las áreas de este sitio web. Por favor, póngase en contacto con el administrador del sistema si las restricciones de acceso deben ser cambiado. <br/> <br/> Escriba cualquier comentario adicional sobre esta cuenta de Usuario. El comentario no es visible para el Usuario.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Información del Usuario^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Por favor revise la información del Usuario de miembro inferior. Haga clic en <b>Editar</b> para cambiar este registro, haga clic en <b>Borrar</b> para eliminar el registro, o haga clic en <b>Cancelar/Cerrar</b> para volver atrás.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Revisar Usuario^EditFormViewLabel^
+
+^Email^E-mail^Email^
+
+^EnterCurrentPassword^Por favor, introduzca su contraseña actual.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Por favor, introduzca una respuesta de contraseña.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Error al guardar la cuenta de Usuario.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Conteo de Respuesta a Contraseña fallida^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Respuesta Contraseña fallado intento de ventana de inicio^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Contraseña fallado intento de Conde^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Intento fallido ventana Contraseña de inicio^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Esta es una lista de los registros de Usuarios suscritos.^GridViewHeaderText^
+
+^GridViewLabel^Todos los Usuarios^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Responda la siguiente pregunta para recibir su contraseña. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Confirmación de la identidad^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Por favor, llene este formulario y haga clic en el botón Enviar para recuperar la contraseña olvidada. Haga clic en Cancelar para volver a la pantalla anterior.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Recuperación de la contraseña: Paso 2 de 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Inválida respuesta de recuperación de contraseña.^InvalidAnswer^
+
+^InvalidEmail^Dirección de correo electrónico no válida.^InvalidEmail^
+
+^InvalidPassword^Contraseña no válida.^InvalidPassword^
+
+^InvalidProviderUserKey^Clave de Usuario inválida.^InvalidProviderUserKey^
+
+^InvalidQuestion^Pregunta de recuperación de contraseña no válida.^InvalidQuestion^
+
+^InvalidUserName^Nombre de Usuario no válido.^InvalidUserName^
+
+^IsApproved^Está aprobado^IsApproved^
+
+^IsLockedOut^Está bloqueado^IsLockedOut^
+
+^LastLockoutDate^Fecha de Cierre última^LastLockoutDate^
+
+^LastLoginDate^Fecha Last Login^LastLoginDate^
+
+^LastPasswordChangedDate^Contraseña del último cambio Fecha^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Contraseña Respuesta (no se muestra para su protección)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Por favor, introduzca su contraseña actual para crear la nueva contraseña, actualizar su dirección de correo electrónico, o cambiar la contraseña de recuperación de la pregunta y respuesta.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Contraseña actual^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Por favor revise su información de miembro inferior. Haga clic en Actualizar mi cuenta para cambiar este registro, o haga clic en Cancelar para volver atrás.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Mi Cuenta^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Por favor, introduzca la contraseña nueva. Tenga en cuenta que la contraseña debe tener al menos 7 caracteres e incluir un carácter no alfanumérico.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nueva contraseña (opcional)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Durante la recuperación de una contraseña olvidada, se le pedirá que introduzca su nombre de Usuario. Si una cuenta de Usuario existe, entonces una pregunta de la contraseña deben ser contestadas. Una respuesta correcta dará lugar a un e-mail con una contraseña temporal enviaré.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Correo electrónico &amp; recuperación de la contraseña (Opcional)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nueva contraseña^NewPassword^
+
+^NewPasswordAlert^Una nueva contraseña ha sido enviada a la dirección registrada.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Nueva contraseña y la confirmación no coinciden.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^La nueva contraseña no es válida.^NewPasswordInvalid^
+
+^NewPasswordSubject^Nueva contraseña para \'{0} \ '.^NewPasswordSubject^
+
+^OldPassword^Contraseña anterior^OldPassword^
+
+^Password^Contraseña^Password^
+
+^PasswordAndConfirmationDoNotMatch^Contraseña y la confirmación no coinciden.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Contraseña Respuesta^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^La contraseña no coincide con nuestros registros.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Contraseña Formato^PasswordFormat^
+
+^PasswordQuestion^Contraseña Pregunta^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Por favor, introduzca un nombre de Usuario. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^¿Olvidaste tu contraseña?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Por favor, rellene este formulario y haga clic en el botón Continuar para recuperar la contraseña olvidada. Haga clic en Cancelar para volver a la pantalla anterior.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Recuperación de la contraseña: Paso 1 de 2^PasswordRequestViewLabel^
+
+^ProviderError^Proveedor de errores.^ProviderError^
+
+^RequestPasswordActionHeaderText^Próximo^RequestPasswordActionHeaderText^
+
+^Roles^Funciones^Roles^
+
+^SelfRegisteredUser^Auto-registro del Usuario.^SelfRegisteredUser^
+
+^SignUp^Regístrate^SignUp^
+
+^SignUpViewHeaderText^Por favor, rellene este formulario y haga clic en el botón Aceptar para registrarse en una cuenta. Haga clic en Cancelar para volver a la pantalla anterior.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Cuenta^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Por favor, introduzca nombre de Usuario y contraseña. Tenga en cuenta que la contraseña debe tener al menos 7 caracteres e incluir un carácter no alfanumérico. Sólo los Usuarios autorizados podrán iniciar sesión en el sitio web.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Información del Usuario nuevo^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Estos campos son necesarios para ayudar a recuperar una contraseña olvidada. Durante el proceso de recuperación, se le pedirá que introduzca un nombre de Usuario. Si una cuenta de Usuario existe, entonces una pregunta de seguridad es requerido para ser contestadas. Una respuesta correcta dará lugar a un e-mail con una contraseña temporal para enviar el correo electrónico registrada.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Recuperación de Contraseña^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Actualizar mi cuenta^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^El Usuario no puede ser bloqueado. Si desea evitar que este Usuario sea capaz de conectarte simplemente marca el Usuario como "no aprobado".^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^'{0}' Usuario se ha eliminado.^UserHasBeenDeleted^
+
+^UserName^Nombre de Usuario^UserName^
+
+^UserNameDoesNotExist^Nombre de Usuario no existe.^UserNameDoesNotExist^
+
+^UserNotFound^Usuario no encontrado.^UserNotFound^
+
+^UserRejected^El Usuario ha sido rechazado.^UserRejected^
+
+^UsersInRolesGridHeaderText^Esta es una lista de registros de Usuarios de miembros que pertenezcan a una Función seleccionada.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Usuarios en Funciones^UsersInRolesGridLabel^
+

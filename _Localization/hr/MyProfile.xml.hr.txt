@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Nazad^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Završi^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Potvrdi novu lozinku^ConfirmNewPassword^
+
+^ConfirmPassword^Potvrdi lozinku^ConfirmPassword^
+
+^Email^E-mail^Email^
+
+^ForgotYourPassword^Zaboravili ste lozinku?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Odgovorite na sljedeće pitanje da biste primili svoju zaporku. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Potvrda identiteta^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Ispunite ovaj obrazac i kliknite gumb Pošalji kako biste oporavili zaboravljenu lozinku. Kliknite Odustani za povratak na prethodni zaslon.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Oporavak lozinke: Korak 2 od 2^IdentityConfirmViewLabel^
+
+^LoginButton^Prijaviti se^LoginButton^
+
+^LoginLink^Prijaviti se^LoginLink^
+
+^LoginWithDNN^Prijavite se s DotNetNukeom^LoginWithDNN^
+
+^LoginWithFacebook^Prijavite se s Facebookom^LoginWithFacebook^
+
+^LoginWithGoogle^Prijavite se s Googleom^LoginWithGoogle^
+
+^LoginWithMicrosoft^Prijava s Microsoftom^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Prijavite se s SharePointom^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Prijavite se putem sustava Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Odgovor lozinkom (nije prikazan za vašu zaštitu)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Unesite trenutnu zaporku da biste izradili novu zaporku, ažurirali svoju adresu e-pošte ili promijenili pitanje i odgovor za oporavak zaporke.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Trenutna zaporka^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^U nastavku pregledajte podatke o članstvu. Kliknite Ažuriraj moj račun da biste promijenili taj zapis ili kliknite Odustani za povratak.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Moj račun^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Unesite novu zaporku. Napominjemo da zaporka mora biti duga najmanje 7 znakova i sadržavati jedan ne-alfanumerički znak.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nova lozinka (neobavezno)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Tijekom oporavka zaboravljene lozinke od vas će se tražiti da unesete svoje korisničko ime. Ako postoji korisnički račun, morate odgovoriti na pitanje lozinke. Ispravan odgovor potaknut će e-poštu s privremenom zaporkom koja vam je poslana.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-pošta &amp; Obnavljanje zaporke (neobavezno)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nova lozinka^NewPassword^
+
+^OldPassword^stara lozinka^OldPassword^
+
+^Password^Lozinka^Password^
+
+^PasswordAnswer^Odgovor lozinke^PasswordAnswer^
+
+^PasswordQuestion^Lozinka Pitanje^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Unesite korisničko ime. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Zaboravili ste lozinku?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Ispunite ovaj obrazac i kliknite gumb Nastavi da biste vratili zaboravljenu lozinku. Kliknite Odustani za povratak na prethodni zaslon.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Oporavak zaporke: Korak 1 od 2^PasswordRequestViewLabel^
+
+^RememberMe^Zapamti me sljedeći put^RememberMe^
+
+^RequestPasswordActionHeaderText^Sljedeći^RequestPasswordActionHeaderText^
+
+^SignUp^Prijavite se^SignUp^
+
+^SignUpNow^Prijavi se sad^SignUpNow^
+
+^SignUpViewHeaderText^Ispunite ovaj obrazac i kliknite gumb U redu da biste se prijavili za račun. Kliknite Odustani za povratak na prethodni zaslon.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Prijavite se^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Unesite korisničko ime i zaporku. Napominjemo da zaporka mora biti duga najmanje 7 znakova i sadržavati jedan ne-alfanumerički znak. Samo će odobreni korisnici moći pristupiti web stranici.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Nove korisničke informacije^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Ta polja su potrebna da vam pomognu da se oporavite zaboravljene lozinke. Tijekom postupka oporavka od vas će se tražiti da unesete korisničko ime. Ako postoji korisnički račun, traži se sigurnosno pitanje. Točan odgovor će pokrenuti e-poštu s privremenom lozinkom poslati na registriranu e-poštu.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Ažuriraj moj račun^UpdateMyAccountActionHeaderText^
+
+^UserName^Korisničko ime^UserName^
+

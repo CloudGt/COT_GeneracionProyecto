@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Creación dun rexistro de usuario.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Usuario novo^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Novo^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^De volta^BackToRequestPasswordActionHeaderText^
+
+^Comment^Comentario^Comment^
+
+^ConfirmIdentityActionHeaderText^Acabado^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Confirmar novo contrasinal^ConfirmNewPassword^
+
+^ConfirmPassword^Confirme o contrasinal^ConfirmPassword^
+
+^CreateDate^Data de Creación^CreateDate^
+
+^CreateFormCommentCategoryDescription^Introduza comentarios adicional sobre esta conta de usuario. Comentario non é visible para o usuario.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Comentarios^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Introduza o nome de usuario e contrasinal. Teña en conta que o contrasinal debe ter polo menos 7 caracteres e incluír un carácter non-alfanumérico. Só usuarios autorizados poden facer o login no sitio.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Información do Usuario novo^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Estes campos son necesarios para axudar ao usuario a recuperar un contrasinal esquecido. Durante o proceso de recuperación, o usuario será solicitada a escribir un nome de usuario. Se unha conta de usuario existe entón unha pregunta de seguridade é solicitada para ser respondidas. A resposta correcta pode desencadear un correo electrónico co código temporal que enviar para o usuario.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Perdeu o contrasinal?^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Escolla funcións de usuario que máis se aproximan responsabilidades do usuario. Funcións de control de acceso para as áreas desta web. Póñase en contacto co administrador do sistema se as restricións de acceso papel debe ser mudado.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Papeis^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Por favor, enche este formulario e prema no botón Aceptar para crear un rexistro de membro novo usuario. Prema en Cancelar para volver á pantalla anterior.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Usuario novo^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Esta conta de usuario será creado como aprobado.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplicar enderezo de correo electrónico.^DuplicateEmail^
+
+^DuplicateProviderUserKey^De clave duplicada do provedor.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplicar nome de usuario.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Estatísticas actividade^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Esta conta de usuario é aprobado^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Estas son as estatísticas de intentos de inicio de sesión, non por este usuario. <br/> <br/> De usuario será bloqueada tras acadar un número máximo de intentos de inicio de sesión fallou. <br/> <br/> Locked out usuarios serán capaces de sesión despois do inicio de Windows Fallo tentativa de contrasinal. <br/> <br/> Os usuarios que non conseguiron recuperar o contrasinal poderán así despois do fallo Contrasinal Iniciar do Windows Resposta Intento. <br/> <br/> Pode restaurar a capacidade do usuario de rexistro a través da creación de bandeira bloqueada para &#39;Non&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Entre para Estatísticas^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Durante a recuperación de contrasinal esquecido, o usuario será solicitada a escribir un nome de usuario. Se unha conta de usuario existe entón unha pregunta de seguridade é solicitada para ser respondidas. A resposta correcta pode desencadear un correo electrónico co código temporal que enviar para o usuario. <br/><br/> Cambiar bloqueado bandeira para &#39;Non&#39; se o usuario foi bloqueado despois de acadar un número máximo de intentos de login e queres facer que o usuario loguearse de novo.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Perdeu o contrasinal?^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Escolla funcións de usuario que máis se aproximan responsabilidades do usuario. Funcións de control de acceso para as áreas desta web. Póñase en contacto co administrador do sistema se as restricións de acceso papel debe ser mudado. <br/> <br/> Introduza comentarios adicional sobre esta conta de usuario. Comentario non é visible para o usuario.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Información de usuario^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Por favor, revise a información de participación do usuario abaixo. Prema en Editar para cambiar este rexistro, prema en Eliminar para eliminar o rexistro, ou prema en Cancelar / Pechar para volver atrás.^EditFormViewHeaderText^
+
+^EditFormViewLabel^User Review^EditFormViewLabel^
+
+^Email^Correo-e^Email^
+
+^EnterCurrentPassword^Por favor introduza o seu contrasinal actual.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Introduza unha resposta de contrasinal.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Erro ao gardar conta de usuario.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Fallo Contrasinal Conde Intento Resposta^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Fallo contrasinal Resposta Inicio de Windows Intento^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Conde tentativa fracasada Contrasinal^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Fallo Contrasinal Iniciar do Windows Intento^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Esta é unha lista de rexistros de usuario da asociación.^GridViewHeaderText^
+
+^GridViewLabel^Todos os usuarios^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Responder a seguinte pregunta para recibir o seu contrasinal. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Confirmación de identidade^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Por favor, enche este formulario e prema no botón Enviar para recuperar a seña esquecida. Prema en Cancelar para volver á pantalla anterior.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Perdeu o contrasinal?: Paso 2 de 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Válido resposta de recuperación de contrasinal.^InvalidAnswer^
+
+^InvalidEmail^Enderezo de correo válido.^InvalidEmail^
+
+^InvalidPassword^Contrasinal incorrecto.^InvalidPassword^
+
+^InvalidProviderUserKey^Válido clave de usuario do proveedor.^InvalidProviderUserKey^
+
+^InvalidQuestion^Válido cuestión de recuperación de contrasinal.^InvalidQuestion^
+
+^InvalidUserName^Válido nome de usuario.^InvalidUserName^
+
+^IsApproved^É Aprobado^IsApproved^
+
+^IsLockedOut^É bloqueada^IsLockedOut^
+
+^LastLockoutDate^Data Lockout última^LastLockoutDate^
+
+^LastLoginDate^Data Última conexión^LastLoginDate^
+
+^LastPasswordChangedDate^Contrasinal modificada por última Data^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Resposta contrasinal (e non se amosará para a súa protección)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Introduza o seu contrasinal actual para crear novo contrasinal, actualice o seu enderezo de correo electrónico, ou cambiar cuestión de recuperación de contrasinal e responder.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Contrasinal actual^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Por favor, revise a súa información de asociación abaixo. Prema en Actualizar miña conta para cambiar este rexistro, ou prema en Cancelar para volver.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^A miña conta^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Introduza o contrasinal nova. Teña en conta que o contrasinal debe ter polo menos 7 caracteres e incluír un carácter non-alfanumérico.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Novo contrasinal (opcional)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Durante a recuperación de contrasinal esquecido lle será solicitada a escribir o seu nome de usuario. Se unha conta de usuario existe entón unha pregunta do contrasinal deben ser respondidas. A resposta correcta pode desencadear un correo electrónico co código temporal que enviar para ti.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^Tres. A recuperación do contrasinal de correo-e &amp; (Opcional)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nova Contrasinal^NewPassword^
+
+^NewPasswordAlert^Un novo contrasinal foi enviado ao enderezo en arquivo.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Novo contrasinal e confirmación non coinciden.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^O teu novo contrasinal é incorrecto.^NewPasswordInvalid^
+
+^NewPasswordSubject^Novo contrasinal para \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Contrasinal Antiga^OldPassword^
+
+^Password^Contrasinal^Password^
+
+^PasswordAndConfirmationDoNotMatch^Contrasinal e confirmación non coinciden.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Resposta contrasinal^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^O seu contrasinal non coincide cos nosos rexistros.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Formato contrasinal^PasswordFormat^
+
+^PasswordQuestion^Pregunta contrasinal^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Escriba un nome de usuario. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Esqueceches o contrasinal?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Por favor, enche este formulario e prema en Continuar botón para recuperar a seña esquecida. Prema en Cancelar para volver á pantalla anterior.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Perdeu o contrasinal?: Paso 1 de 2^PasswordRequestViewLabel^
+
+^ProviderError^Erro no código da proveedor.^ProviderError^
+
+^RequestPasswordActionHeaderText^Seguinte^RequestPasswordActionHeaderText^
+
+^Roles^Papeis^Roles^
+
+^SelfRegisteredUser^Auto-usuario rexistrado.^SelfRegisteredUser^
+
+^SignUp^Rexístrate^SignUp^
+
+^SignUpViewHeaderText^Por favor, enche este formulario e prema no botón Aceptar para rexistrar a unha conta. Prema en Cancelar para volver á pantalla anterior.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Conta Registre-se^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Introduza o nome de usuario e contrasinal. Teña en conta que o contrasinal debe ter polo menos 7 caracteres e incluír un carácter non-alfanumérico. Só usuarios autorizados poden facer o login no sitio.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Información do Usuario novo^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Estes campos son necesarios para axudar a recuperar un contrasinal esquecido. Durante o proceso de recuperación, será solicitada a escribir un nome de usuario. Se unha conta de usuario existe entón unha pregunta de seguridade é solicitada para ser respondidas. A resposta correcta pode desencadear un correo electrónico co código temporal que enviar o correo electrónico rexistrado.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Perdeu o contrasinal?^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Actualización miña conta^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Usuario non pode ser protexida. Se quere evitar que este usuario poida entrar, pode marcar usuario como &quot;non aprobado&quot;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^&#39;{0}&#39; Usuario foi eliminada.^UserHasBeenDeleted^
+
+^UserName^Nome de usuario^UserName^
+
+^UserNameDoesNotExist^Nome de usuario non existe.^UserNameDoesNotExist^
+
+^UserNotFound^Usuario descoñecido.^UserNotFound^
+
+^UserRejected^Usuario foi rexeitada.^UserRejected^
+
+^UsersInRolesGridHeaderText^Esta é unha lista de rexistros de asociación de usuarios que pertencen a unha función seleccionada.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Usuarios en Papel^UsersInRolesGridLabel^
+

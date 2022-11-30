@@ -1,0 +1,348 @@
+<dataController name="Pages" conflictDetection="overwriteChanges" label="Pages"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium"
+		xmlns:app="urn:schemas-codeontime-com:data-aquarium-application" >
+  <commands>
+    <command id="command1" type="Text">
+      <query href="Application.xml" select="//app:page" sort="Index" dependencies="//app:container,//app:dataView,//app:control"/>
+      <template select="/app:application/app:pages">
+        <page xmlns="urn:schemas-codeontime-com:data-aquarium-application" >
+          <containers/>
+          <controls/>
+        </page>
+      </template>
+    </command>
+  </commands>
+  <fields>
+    <field name="Name" type="String" select="@name" allowNulls="false" isPrimaryKey="true">
+      <validate>
+        <expression type="RegularExpression" test="^[A-Za-z]\w*$" result="A page name must start with a letter and must contain only alpha-numeric characters."/>
+      </validate>
+    </field>
+    <field name="Page" type="String" select="@name"/>
+    <field name="Index" type="Int32" select="@index" />
+    <field name="Title" type="String" select="@title" allowNulls="true"/>
+    <field name="Description" type="String" select="@description" allowNulls="true"/>
+    <field name="Path" type="String" select="@path" allowNulls="true" contextFields="Name" calculated="true"/>
+    <field name="Style" type="String" select="@style" allowNulls="true" label="Style">
+      <items style="DropDownList">
+        <item value="" text="Generic"/>
+        <item value="AnnouncePage" text="Announce"/>
+        <item value="CategoriesPage" text="Categories"/>
+        <item value="CommentsPage" text="Comments"/>
+        <item value="ContactsPage" text="Contacts"/>
+        <item value="DiscussionsPage" text="Discussions"/>
+        <item value="EventsPage" text="Events"/>
+        <item value="FoldersPage" text="Folders"/>
+        <item value="HomePage" text="Home"/>
+        <item value="ImagesPage" text="Images"/>
+        <item value="MeetingPage" text="Meeting"/>
+        <item value="MemosPage" text="Memos"/>
+        <item value="MiscPage" text="Miscellaneous"/>
+        <item value="NotesPage" text="Notes"/>
+        <item value="ReferencesPage" text="References"/>
+        <item value="SettingsPage" text="Settings"/>
+        <item value="SolutionsPage" text="Solutions"/>
+        <item value="TasksPage" text="Tasks"/>
+        <item value="UsersPage" text="Users"/>
+      </items>
+    </field>
+    <field name="CustomStyle" type="String" select="@customStyle" allowNulls="true" label="Icon / Custom Style"/>
+    <field name="Roles" type="String" select="@roles" allowNulls="true">
+      <defaultValues>
+        <expression type="ClientScript" test="" result="*"/>
+      </defaultValues>
+    </field>
+    <field name="About" type="String" select="app:about" allowNulls="true" label="About This Page"/>
+    <field name="Url" type="String" select="@url" label="External Url"/>
+    <field name="Master" type="String" select="@master" allowNulls="true" label="Master Page"/>
+    <field name="Device" type="String" select="@device" allowNulls="true" label="User Interface">
+      <items style="DropDownList">
+        <item value="" text="Auto"/>
+        <item value="Touch UI" text="Touch UI"/>
+        <item value="Desktop" text="Desktop"/>
+      </items>
+    </field>
+    <field name="UseExtenders" type="Boolean" select="@useExtenders" allowNulls="false" label="Use data view extenders">
+      <items style="CheckBox"></items>
+    </field>
+    <field name="Offline" type="Boolean" select="@offline" allowNulls="false" label="Offline">
+      <items style="CheckBox"></items>
+    </field>
+    <field name="Kiosk" type="Boolean" select="@kiosk" allowNulls="false" label="Kiosk">
+      <items style="CheckBox"></items>
+    </field>
+    <field name="Generate" type="String" select="@generate" allowNulls="false" label="Generate" default="'Always'">
+      <items style="DropDownList">
+        <item value="FirstTimeOnly" text="First Time Only"/>
+        <item value="Always" text="Always"/>
+      </items>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="Always"/>
+      </defaultValues>
+    </field>
+    <field name="Template" type="String" select="@template" allowNulls="true">
+      <items style="DropDownList">
+        <item value="" text="(none)"/>
+        <item value="(blank)" text="(blank)"/>
+        <item value="Carousel" text="Carousel"/>
+        <item value="Featurettes" text="Featurettes"/>
+        <item value="Jumbotron" text="Jumbotron"/>
+        <item value="Marketing" text="Marketing"/>
+        <item value="Narrow Jumbotron" text="Narrow Jumbotron"/>
+        <item value="Responsive Grid" text="Responsive Grid"/>
+        <item value="Sections" text="Sections"/>
+        <item value="Sidebar" text="Sidebar"/>
+        <item value="Starter Template" text="Starter Template"/>
+        <item value="Three Columns" text="Three Columns"/>
+        <item value="Thumbnails" text="Thumbnails"/>
+      </items>
+    </field>
+  </fields>
+  <views>
+    <view id="grid1" type="Grid" commandId="command1" label="Pages">
+      <headerText>
+        <![CDATA[
+    <span class="HelpLink" title="Learn to work with Pages" onclick="$openUrl('http://codeontime.com/learn/development/project-designer/pages')"></span>
+		This is a list of application pages. 
+		]]>
+      </headerText>
+      <dataFields>
+        <dataField fieldName="Name"/>
+        <dataField fieldName="Index" readOnly="true"/>
+        <dataField fieldName="Title"/>
+        <dataField fieldName="Path" readOnly="true"/>
+        <dataField fieldName="Device">
+          <headerText>GUI</headerText>
+        </dataField>
+        <dataField fieldName="Style"/>
+        <dataField fieldName="Roles"/>
+        <dataField fieldName="Url" hidden="true"/>
+        <dataField fieldName="Generate" hidden="true"/>
+        <dataField fieldName="Template" hidden="true"/>
+      </dataFields>
+    </view>
+    <view id="editForm1" type="Form" commandId="command1" label="Page">
+      <headerText>
+        <![CDATA[
+          <span class="HelpLink" title="Learn about Pages" onclick="$openUrl('http://codeontime.com/learn/pages/overview')"></span>
+      Click OK to save the page, or click Cancel to undo changes or return back.]]>
+      </headerText>
+      <categories>
+        <category headerText="General">
+          <description>
+            <![CDATA[
+            The Name is assigned to the generated physical page.<br/><br/>
+            Index specifies the order of the page in the application navigation menu.<br/><br/>
+            The <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/external-url')" 
+            title="Learn to configure an External URL.">External URL</a> will create a menu link to an external web page. 
+            No page will be created when the External Url is specified. <br/><br/>
+            Specify the name of a custom <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/custom-master-page')" title="Learn to configure an custom master page.">Master Page</a>.<br/><br/>
+            Option <i>User Interface</i> specifies the presentation style for the page. <br/><br/>
+            Select a content <i>Template</i> for the page if the page will not be constructed with containers and data views.<br/><br/>
+            Set <i>Generate</i> to <i>First Time Only</i> if you will be changing the contents of the page directly.<br/><br/>
+            Data views will be declared as <i>div</i> elements with <i>"data-"</i> attributes in the page definition. Check <i>Use data view extenders</i> if you need to configure data views with the server-side code.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Name" />
+            <dataField fieldName="Index" columns="5" readOnly="true">
+              <footerText><![CDATA[Drag the page to the desired location to change the index.]]></footerText>
+            </dataField>
+            <dataField fieldName="Page" hidden="true"/>
+            <dataField fieldName="Url"/>
+            <dataField fieldName="Master"/>
+            <dataField fieldName="Device"/>
+            <dataField fieldName="Template"/>
+            <dataField fieldName="Generate"/>
+            <dataField fieldName="UseExtenders">
+              <visibility>
+                <expression type="ClientScript" test="[Template]==null"/>
+              </visibility>
+            </dataField>
+            <dataField fieldName="Offline"/>
+            <dataField fieldName="Kiosk"/>
+          </dataFields>
+        </category>
+        <category headerText="Presentation">
+          <description>
+            <![CDATA[
+						The Title will appear as the title in the browser window or tab.<br/><br/>
+            The Path specifies the location of the page in the navigation hierarchy. When left blank, the page will be hidden from the menu.<br/><br/>
+            Description is displayed as a tooltip for the page on the navigation menu.<br/><br/>
+            Choose a standard CSS Style to apply to the page. The standard stylesheets will change the icon displayed in the top left corner of the page in Desktop UI.<br/><br/>
+            Specify an <a href="javascript:" onclick="return $openUrl('http://demo.codeontime.com/northwind/css/icons.html')" 
+            title="Learn to configure an External URL.">icon name</a> and/or custom CSS classes to apply to this page, separated by commas. <br/><br/>
+            The text in About This Page will be displayed in the "About This Page" sidebar element. 
+						]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Title" columns="50"/>
+            <dataField fieldName="Path" columns="50" readOnly="true" hyperlinkFormatString="javascript:window.external.SyncAndRename()" toolTip="Click here to rename the path segment of the Page."/>
+            <dataField fieldName="Description" columns="50" rows="4"/>
+            <dataField fieldName="Style"/>
+            <dataField fieldName="CustomStyle"/>
+            <dataField fieldName="About" columns="50" rows="4"/>
+          </dataFields>
+        </category>
+        <category headerText="Security">
+          <description>
+            <![CDATA[
+          Make a comma-separated list of roles that are permitted access to the page.<br/><br/>
+          Use ? to allow anonymous access to the page. Use * to display the page on the menu for anonymous users, but require them to log in to access the page.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Roles" columns="50">
+            </dataField>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+    <view id="createForm1" type="Form" commandId="command1" label="New Page">
+      <headerText>
+        <![CDATA[
+          <span class="HelpLink" title="Learn about Pages" onclick="$openUrl('http://codeontime.com/learn/pages/overview')"></span>
+          Please fill this form and click OK button to create a new page record. Click Cancel to return to the previous screen.]]>
+      </headerText>
+      <categories>
+        <category headerText="General">
+          <description>
+            <![CDATA[
+            The Name is assigned to the generated physical page.<br/><br/>
+            Index specifies the order of the page in the application navigation menu.<br/><br/>
+            The <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/external-url')" 
+            title="Learn to configure an External URL.">External URL</a> will create a menu link to an external web page. 
+            No page will be created when the External Url is specified. <br/><br/>
+            Specify the name of a custom <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/pages/custom-master-page')" title="Learn to configure an custom master page.">Master Page</a>.<br/><br/>
+            Option <i>User Interface</i> specifies the presentation style for the page. <br/><br/>
+            Select a content <i>Template</i> for the page if the page will not be constructed with containers and data views.<br/><br/>
+            Set <i>Generate</i> to <i>First Time Only</i> if you will be changing the contents of the page directly.<br/><br/>
+            Data views will be declared as <i>div</i> elements with <i>"data-"</i> attributes in the page definition. Check <i>Use data view extenders</i> if you need to configure data views with the server-side code.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Name" />
+            <dataField fieldName="Index" columns="5">
+              <visibility>
+                <expression type="ClientScript" test="location.href.match(/_contextNodeSetPath=/)==null"/>
+              </visibility>
+            </dataField>
+            <dataField fieldName="Page" hidden="true"/>
+            <dataField fieldName="Url"/>
+            <dataField fieldName="Master" />
+            <dataField fieldName="Device"/>
+            <dataField fieldName="Template"/>
+            <dataField fieldName="Generate"/>
+            <dataField fieldName="UseExtenders">
+              <visibility>
+                <expression type="ClientScript" test="[Template]==null"/>
+              </visibility>
+            </dataField>
+            <dataField fieldName="Offline"/>
+            <dataField fieldName="Kiosk"/>
+          </dataFields>
+        </category>
+        <category headerText="Presentation">
+          <description>
+            <![CDATA[
+						The Title will appear as the title in the browser window or tab.<br/><br/>
+            The Path specifies the location of the page in the navigation hierarchy. When left blank, the page will be hidden from the menu.<br/><br/>
+            Description is displayed as a tooltip for the page on the navigation menu.<br/><br/>
+            Choose a standard CSS Style to apply to the page. The standard stylesheets will change the icon displayed in the top left corner of the page.<br/><br/>
+            Multiple custom Styles can be applied to the page in order to apply custom styling. The styles are space separated.<br/><br/>
+            The text in About This Page will be displayed in the "About This Page" sidebar element. 
+						]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Path" columns="50">
+              <visibility>
+                <expression type="ClientScript" test="location.href.match(/_contextNodeSetPath=/)==null"/>
+              </visibility>
+            </dataField>
+            <dataField fieldName="Title" columns="50"/>
+            <dataField fieldName="Description" columns="50" rows="4"/>
+            <dataField fieldName="Style"/>
+            <dataField fieldName="CustomStyle"/>
+            <dataField fieldName="About" columns="50" rows="4"/>
+          </dataFields>
+        </category>
+        <category headerText="Security">
+          <description>
+            <![CDATA[
+          Make a comma-separated list of roles that are permitted access to the page.<br/><br/>
+          Use ? to allow anonymous access to the page. Use * to display the page on the menu for anonymous users, but require them to log in to access the page.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Roles" columns="50">
+            </dataField>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+  </views>
+  <actions>
+    <actionGroup scope="Grid">
+      <!--<action commandName="Select" commandArgument="editForm1" />-->
+      <action commandName="Navigate" commandArgument="Page.htm?_returnController=Pages&amp;Page={Name}&amp;ThePage={Name} ({Path})" headerText="Open"/>
+      <action commandName="ClientScript" commandArgument="__syncDesigner(this)" headerText="Sync" cssClass="SyncIcon"/>
+      <action commandName="Edit" />
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <action commandName="Select" commandArgument="editForm1" headerText="View"/>
+      <!--<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+    </actionGroup>
+    <actionGroup scope="Form">
+      <action commandName="Edit" />
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <action commandName="Cancel" headerText="Close" />
+      <action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+      <!--<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />-->
+      <action whenLastCommandName="Edit" commandName="Cancel" />
+      <action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+      <action whenLastCommandName="New" commandName="Cancel" />
+    </actionGroup>
+    <actionGroup scope="ActionBar" headerText="New">
+      <action commandName="New" commandArgument="createForm1" headerText="New Page" description="Create a new page." />
+    </actionGroup>
+    <!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+    <actionGroup scope="ActionBar" headerText="Record">
+      <action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+      <action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+    </actionGroup>
+    <actionGroup id="sync01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncDesigner()" headerText="Sync" cssClass="SyncIcon" description="Synchronize with Explorer (Ctrl+.)"/>
+    </actionGroup>
+    <actionGroup id="ag8" scope="Row">
+      <action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+      <action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+    </actionGroup>
+  </actions>
+  <businessRules>
+    <rule id="r1" type="JavaScript" commandName="Calculate|Insert|Update" view="" phase="Execute">
+      <![CDATA[
+      if ([Name.Modified]) {
+          var pageName = [Name];
+          if (!String.isBlank(pageName)) {
+            if (!location.href.match(/_contextNodeSetPath/) && [Path] == null && [Title] == null)
+                [Path] = window.external.PrettyText(pageName);
+            if ([Title] == null)
+                [Title] = window.external.PrettyText(pageName);
+            if (pageName.match(/\s+/)) {
+                [Name] = pageName.replace(/\s+/g, '').replace(/\W/g, '_');
+            }
+          }
+      }
+      if (this.arguments().CommandName == 'Calculate')
+          this.preventDefault();
+    ]]>
+    </rule>
+  </businessRules>
+</dataController>

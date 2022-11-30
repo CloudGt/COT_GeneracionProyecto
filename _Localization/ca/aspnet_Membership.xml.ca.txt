@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Crea un nou registre d&#39;usuari.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nou usuari^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nou^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^De nou^BackToRequestPasswordActionHeaderText^
+
+^Comment^Comentari^Comment^
+
+^ConfirmIdentityActionHeaderText^Acabar^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Confirmar nova contrasenya^ConfirmNewPassword^
+
+^ConfirmPassword^Confirm Password^ConfirmPassword^
+
+^CreateDate^Data de creació^CreateDate^
+
+^CreateFormCommentCategoryDescription^Escrigui qualsevol comentari addicional sobre aquest compte d&#39;usuari. El comentari no és visible per l&#39;usuari.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Comentaris^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Si us plau, Introduïu el nom d&#39;usuari i contrasenya. Tingueu en compte que la contrasenya ha de tenir com a mínim 7 caràcters de longitud i inclouen un caràcter no alfanumèric. Només els usuaris autoritzats podran iniciar sessió al lloc web.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Informació de l&#39;usuari nou^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Aquests camps són necessaris per ajudar l&#39;usuari a recuperar una contrasenya oblidada. Durant el procés de recuperació l&#39;usuari se li demanarà que introdueixi un nom d&#39;usuari. Si un compte d&#39;usuari existeix llavors una qüestió de seguretat es demana que es respondre. Una resposta correcta donarà lloc a un correu electrònic amb una contrasenya temporal enviar a l&#39;usuari.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Si us plau, seleccioneu els rols d&#39;usuari que s&#39;acostin més a les responsabilitats de l&#39;usuari. Funcions de control d&#39;accés a les àrees d&#39;aquest lloc web. Si us plau, poseu-vos en contacte amb l&#39;administrador del sistema si les restriccions d&#39;accés paper ha de ser canviat.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Rols^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Si us plau, ompli aquest formulari i feu clic al botó D&#39;acord per crear un registre nou usuari subscrit. Feu clic a Cancel · la per tornar a la pantalla anterior.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Nou usuari^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Aquest compte d&#39;usuari es crearà segons l&#39;aprovat.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplicar adreça de correu electrònic.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Clau duplicada proveïdor.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplicar nom d&#39;usuari.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Estadístiques de l&#39;activitat^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Aquest compte d&#39;usuari ha estat aprovat^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Aquestes són les estadístiques d&#39;intents fallits de connexió d&#39;aquest usuari. <br/> <br/> Usuari es bloquejarà després d&#39;arribar a un nombre màxim d&#39;intents fallits de connexió. <br/> <br/> Bloquejat als usuaris seran capaços de connectar-se de nou després de la data d&#39;inici Error Contrasenya finestra d&#39;intent. <br/> <br/> Els usuaris que no per recuperar la contrasenya podran així que després de la data d&#39;inici Error resposta de contrasenya finestra d&#39;intent. <br/> <br/> Vostè pot restaurar la capacitat de l&#39;usuari per inici de sessió mitjançant l&#39;establiment de la bandera Bloquejat a &#39;No&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Ingressar Estadístiques^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Durant la recuperació d&#39;una contrasenya oblidada l&#39;usuari se li demanarà que introdueixi un nom d&#39;usuari. Si un compte d&#39;usuari existeix llavors una qüestió de seguretat es demana que es respondre. Una resposta correcta donarà lloc a un correu electrònic amb una contrasenya temporal enviar a l&#39;usuari. <br/><br/> Canvi bloquejat bandera de &#39;No&#39; si l&#39;usuari ha estat bloquejat després d&#39;arribar a un nombre màxim d&#39;intents fallits de connexió i desitja permetre que l&#39;usuari torni a connectar.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Si us plau, seleccioneu els rols d&#39;usuari que s&#39;acostin més a les responsabilitats de l&#39;usuari. Funcions de control d&#39;accés a les àrees d&#39;aquest lloc web. Si us plau, poseu-vos en contacte amb l&#39;administrador del sistema si les restriccions d&#39;accés paper ha de ser canviat. <br/> <br/> Escrigui qualsevol comentari addicional sobre aquest compte d&#39;usuari. El comentari no és visible per l&#39;usuari.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Informació de l&#39;usuari^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Si us plau, revisi la informació de l&#39;usuari de membre inferior. Feu clic a Edita per canviar aquest registre, feu clic a Suprimeix per eliminar el registre, o feu clic a Cancel · lar / Tanca per tornar enrere.^EditFormViewHeaderText^
+
+^EditFormViewLabel^User Review^EditFormViewLabel^
+
+^Email^E-mail^Email^
+
+^EnterCurrentPassword^Si us plau, introduïu la contrasenya actual.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Si us plau, introduïu una resposta de contrasenya.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Error en desar el compte d&#39;usuari.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Resposta va fallar l&#39;intent del Comte Contrasenya^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Resposta fracassat intent de contrasenya finestra d&#39;inici^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Contrasenya fracassat intent de Comte^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Intent fallit Contrasenya finestra d&#39;inici^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Aquesta és una llista dels registres d&#39;usuaris subscrits.^GridViewHeaderText^
+
+^GridViewLabel^Tots els usuaris^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Respondre a la pregunta següent per rebre la contrasenya. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Confirmació de la identitat^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Si us plau, ompli aquest formulari i feu clic al botó Enviar per recuperar la contrasenya oblidada. Feu clic a Cancel · la per tornar a la pantalla anterior.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Recuperació de la contrasenya: Pas 2 feb^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Resposta de recuperació de contrasenya no vàlida.^InvalidAnswer^
+
+^InvalidEmail^Direcció de correu electrònic no vàlida.^InvalidEmail^
+
+^InvalidPassword^Contrasenya no vàlida.^InvalidPassword^
+
+^InvalidProviderUserKey^No vàlid clau d&#39;usuari del proveïdor.^InvalidProviderUserKey^
+
+^InvalidQuestion^No vàlida la pregunta de recuperació de contrasenya.^InvalidQuestion^
+
+^InvalidUserName^No vàlid nom d&#39;usuari.^InvalidUserName^
+
+^IsApproved^És aprovat^IsApproved^
+
+^IsLockedOut^Es bloqueja^IsLockedOut^
+
+^LastLockoutDate^Data de Tancament última^LastLockoutDate^
+
+^LastLoginDate^Hora L&#39;últim inici de sessió^LastLoginDate^
+
+^LastPasswordChangedDate^Contrasenya Data de l&#39;últim canvi^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Resposta contrasenya (no es mostra per a la seva protecció)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Si us plau, introdueixi la seva contrasenya actual per crear la nova contrasenya, actualitzi la seva adreça de correu electrònic, o canviar la contrasenya de recuperació de la pregunta i resposta.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Contrasenya actual^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Si us plau revisi la seva informació de membre inferior. Feu clic a Actualitzar el meu compte per canviar aquest registre, o feu clic a Cancel · la per tornar enrere.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^El meu compte^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Si us plau, introduïu la nova contrasenya. Tingueu en compte que la contrasenya ha de tenir com a mínim 7 caràcters de longitud i inclouen un caràcter no alfanumèric.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nova contrasenya (opcional)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Durant la recuperació d&#39;una contrasenya oblidada, se li demanarà que introdueixi el seu nom d&#39;usuari. Si un compte d&#39;usuari existeix llavors una pregunta de la contrasenya han de ser contestades. Una resposta correcta donarà lloc a un correu electrònic amb una contrasenya temporal enviaré.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Correu electrònic &amp; recuperació de la contrasenya (opcional)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nova Contrasenya^NewPassword^
+
+^NewPasswordAlert^Una nova contrasenya ha estat enviat per correu electrònic a l&#39;adreça.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Nova contrasenya i la confirmació no coincideixen.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^La nova contrasenya no és vàlida.^NewPasswordInvalid^
+
+^NewPasswordSubject^Nova contrasenya per \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Contrasenya anterior^OldPassword^
+
+^Password^Contrasenya^Password^
+
+^PasswordAndConfirmationDoNotMatch^Contrasenya i la confirmació no coincideixen.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Contrasenya Resposta^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^La contrasenya no coincideix amb els nostres registres.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Contrasenya Format^PasswordFormat^
+
+^PasswordQuestion^Contrasenya Pregunta^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Si us plau, introdueixi un nom d&#39;usuari. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Heu perdut la contrasenya?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Si us plau, ompli aquest formulari i feu clic al botó Continua per recuperar la contrasenya oblidada. Feu clic a Cancel · la per tornar a la pantalla anterior.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Recuperació de la contrasenya: Pas 1 de 2^PasswordRequestViewLabel^
+
+^ProviderError^Proveïdor d&#39;error.^ProviderError^
+
+^RequestPasswordActionHeaderText^Pròxim^RequestPasswordActionHeaderText^
+
+^Roles^Rols^Roles^
+
+^SelfRegisteredUser^Auto-registre de l&#39;usuari.^SelfRegisteredUser^
+
+^SignUp^Registra&#39;t^SignUp^
+
+^SignUpViewHeaderText^Si us plau, ompli aquest formulari i feu clic al botó OK per signar cap amunt per un compte. Feu clic a Cancel · la per tornar a la pantalla anterior.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Compte Registra&#39;t^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Si us plau, Introduïu el nom d&#39;usuari i contrasenya. Tingueu en compte que la contrasenya ha de tenir com a mínim 7 caràcters de longitud i inclouen un caràcter no alfanumèric. Només els usuaris autoritzats podran iniciar sessió al lloc web.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Informació de l&#39;usuari nou^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Aquests camps són necessaris per ajudar a recuperar una contrasenya oblidada. Durant el procés de recuperació, se li demanarà que introdueixi un nom d&#39;usuari. Si un compte d&#39;usuari existeix llavors una qüestió de seguretat es demana que es respondre. Una resposta correcta donarà lloc a un correu electrònic amb una contrasenya temporal per enviar el correu electrònic registrat.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Actualitzar el meu compte^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^L&#39;usuari no pot ser bloquejat. Si voleu evitar que aquest usuari sigui capaç d&#39;iniciar sessió d&#39;usuari simplement marca com &quot;no aprovat&quot;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^&#39;{0}&#39; Usuari s&#39;ha eliminat.^UserHasBeenDeleted^
+
+^UserName^Nom d&#39;usuari^UserName^
+
+^UserNameDoesNotExist^Nom d&#39;usuari no existeix.^UserNameDoesNotExist^
+
+^UserNotFound^Usuari no trobat.^UserNotFound^
+
+^UserRejected^L&#39;usuari ha estat rebutjada.^UserRejected^
+
+^UsersInRolesGridHeaderText^Aquesta és una llista de registres d&#39;usuaris de membres que pertanyin a una funció seleccionada.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Els usuaris de Paper^UsersInRolesGridLabel^
+

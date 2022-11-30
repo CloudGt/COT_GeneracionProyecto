@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Anotēt^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Pievienota <b>{1}</b> uz {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Attachment^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Ievadiet papildu piezīmes un pievienot failus.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Piezīmes un papildinājumi^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Rakstīti uz {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Piezīmes^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Piezīmes^AnnotationTab^
+
+^BlobClearConfirm^Notīrīt?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Ir muitotas.^BlobCleared^
+
+^BlobClearText^Skaidrs^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Nav augšupielādētas {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Klikšķiniet^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^šeit^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^augšupielādēt vai notīrīt {0} failu.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Ir veiksmīgi augšupielādēts. <b>It Var aizņemt līdz {1} minūtēm sīktēla, lai atspoguļotu augšupielādēto content.</b>^BlobUploded^
+
+^Copyright^Visas tiesības aizsargātas.^Copyright^
+
+^RecordChangedByAnotherUser^Ieraksts ir mainīts cits lietotājs.^RecordChangedByAnotherUser^
+

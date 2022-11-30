@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^สร้างสถิติใหม่เป็นสมาชิกบทบาท^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^บทบาทใหม่^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^ใหม่^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^กรอกแบบฟอร์ม ให้แน่ใจว่าจะใส่ฟิลด์ที่จำเป็นทั้งหมด^CreateFormCategory^
+
+^CreateFormHeaderText^กรุณากรอกแบบฟอร์มนี้และคลิกปุ่ม OK เพื่อสร้างบันทึกใหม่สมาชิกบทบาท คลิกยกเลิกเพื่อกลับไปยังหน้าจอ^CreateFormHeaderText^
+
+^DescriptionLabel^คำอธิบาย^DescriptionLabel^
+
+^EditViewCategory^เหล่านี้เป็นเขตข้อมูลของระเบียนที่มีบทบาทเป็นสมาชิกที่สามารถแก้ไขได้^EditViewCategory^
+
+^EditViewHeaderText^กรุณาตรวจสอบข้อมูลสมาชิกบทบาทด้านล่าง คลิกที่แก้ไขเพื่อบัน​​ทึกการเปลี่ยนแปลงนี้ให้คลิกลบเพื่อลบการบันทึกหรือคลิกยกเลิก / ปิดเพื่อกลับกลับ^EditViewHeaderText^
+
+^GridViewHeaderText^นี่คือรายการของบทบาทการเป็นสมาชิก^GridViewHeaderText^
+
+^RoleNameLabel^ชื่อบทบาท^RoleNameLabel^
+

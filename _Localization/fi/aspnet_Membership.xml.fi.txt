@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Luo uusi käyttäjä ennätys.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Uusi käyttäjä^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Uusi^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Takaisin^BackToRequestPasswordActionHeaderText^
+
+^Comment^Kommentti^Comment^
+
+^ConfirmIdentityActionHeaderText^Viimeistely^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Vahvista uusi salasana^ConfirmNewPassword^
+
+^ConfirmPassword^Vahvista salasana^ConfirmPassword^
+
+^CreateDate^Luo pvm^CreateDate^
+
+^CreateFormCommentCategoryDescription^Vapaamuotoinen tästä käyttäjätili. Kommentti ei näy käyttäjälle.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Comments^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Anna käyttäjätunnus ja salasana. Huomioithan, että salasanan tulee olla vähintään 7 merkkiä pitkä ja sisältää yhden ei-aakkosnumeerinen merkki. Vain hyväksytty käyttäjät voivat kirjautua osaksi verkkosivuilla.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^New User Information^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Nämä kentät ovat pakollisia auttaa käyttäjä palauttaa unohtuneen salasanan. Aikana toipuminen käyttäjää pyydetään antamaan käyttäjätunnus. Jos käyttäjätilin olemassa sitten turvallisuus kysymys pyydetään vastausta. Oikea vastaus laukaisee sähköpostin tilapäinen salasana Lähetä käyttäjälle.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Valitse käyttäjän roolit että parhaiten vastaavat käyttäjän vastuuta. Roolit valvoa pääsyä alueille tämän sivuston. Ota yhteyttä järjestelmänvalvojaan, jos rooli käyttörajoituksia on vaihdettava.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Roolit^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Täytä lomake ja napsauta OK-painiketta luoda uuden käyttäjän jäsenyys ennätys. Valitsemalla Peruuta voit palata edelliseen näyttöön.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Uusi käyttäjä^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Tämä käyttäjätili luodaan hyväksytyksi.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Monista sähköpostiosoitteeseen.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Monista tarjoaja avain.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Monista käyttäjätunnus.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Kalastustoimia koskevien tilastojen^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Tämä käyttäjätili on hyväksytty^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Nämä tilastot ovat epäonnistuneet kirjautumisyrityksiä tämän käyttäjän. <br/> <br/> Käyttäjä lukitaan ulos päästyään maksimimäärästä epäonnistuneita kirjautumisyrityksiä. <br/> <br/> Lukittu käyttäjät voivat kirjautua uudelleen päivämäärän jälkeen epäonnistui Salasana Yritä Windowsin Käynnistä. <br/> <br/> Käyttäjät, jotka eivät ole takaisin salasanan pystyy niin päivämäärän jälkeen epäonnistui Salasana Vastaus Yritä Windowsin Käynnistä. <br/> <br/> Voit palauttaa käyttäjän kykyä Kirjaudu asettamalla lukittu lippu &quot;Ei&quot;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Kirjaudu sisään Tilastot^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Aikana elpymistä unohtuneen salasanan käyttäjää pyydetään antamaan käyttäjätunnus. Jos käyttäjätilin olemassa sitten turvallisuus kysymys pyydetään vastausta. Oikea vastaus laukaisee sähköpostin tilapäinen salasana Lähetä käyttäjälle. <br/><br/> Vaihda lukittu lippu &quot;Ei&quot;, jos käyttäjä on lukittu päästyään maksimimäärästä epäonnistuneita kirjautumisyrityksiä ja haluat sallia käyttäjän tarvitsee kirjautua uudelleen.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Valitse käyttäjän roolit että parhaiten vastaavat käyttäjän vastuuta. Roolit valvoa pääsyä alueille tämän sivuston. Ota yhteyttä järjestelmänvalvojaan, jos rooli käyttörajoituksia on vaihdettava. <br/> <br/> Vapaamuotoinen tästä käyttäjätili. Kommentti ei näy käyttäjälle.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Käyttäjän tiedot^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Lue käyttäjän tietoja jäsenyydestä alla. Klikkaa Muokkaa muuttaa tätä tietueen valitsemalla Poista voit poistaa tietueen tai valitse Peruuta / Sulje palataksesi takaisin.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Review Käyttäjä^EditFormViewLabel^
+
+^Email^Sähköposti^Email^
+
+^EnterCurrentPassword^Syötä nykyinen salasanasi.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Anna salasana vastausta.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Virhe tallennettaessa käyttäjätili.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Epäonnistui Salasana Vastaus Yritä Count^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Epäonnistui Salasana Vastaus Yritä Windowsin Käynnistä^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Epäonnistui Salasana Yritä Count^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Epäonnistui Salasana Yritä Windowsin Käynnistä^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Tämä on lista jäsenyyden käyttäjän kirjaa.^GridViewHeaderText^
+
+^GridViewLabel^Kaikki käyttäjät^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Vastaa seuraavaan kysymykseen saa salasanaa. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identity Vahvistus^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Täytä lomake ja paina Lähetä-painiketta palauttaa unohtuneen salasanan. Valitsemalla Peruuta voit palata edelliseen näyttöön.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: Vaihe 2 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Virheellinen salasanan palautus vastaus.^InvalidAnswer^
+
+^InvalidEmail^Virheellinen sähköpostiosoite.^InvalidEmail^
+
+^InvalidPassword^Virheellinen salasana.^InvalidPassword^
+
+^InvalidProviderUserKey^Virheellinen tarjoaja käyttäjän avain.^InvalidProviderUserKey^
+
+^InvalidQuestion^Virheellinen salasanan palautus kysymys.^InvalidQuestion^
+
+^InvalidUserName^Virheellinen käyttäjätunnus.^InvalidUserName^
+
+^IsApproved^On hyväksytty^IsApproved^
+
+^IsLockedOut^On lukittu^IsLockedOut^
+
+^LastLockoutDate^Viimeksi Lockout Päivämäärä^LastLockoutDate^
+
+^LastLoginDate^Last Login Päivämäärä^LastLoginDate^
+
+^LastPasswordChangedDate^Viimeksi Salasana vaihdettu Päivämäärä^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Salasana Vastaus (ei näytetä suojauksesi)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Kirjoita nykyinen salasana luoda uuden salasanan, päivittää sähköpostiosoitteesi tai muuttaa salasanan palautus kysymys ja vastaus.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Nykyinen salasana^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Tarkista kirjoittamasi jäsenyyden alla. Klikkaa tiliäni muuttaa tätä kirjaa, tai valitse Peruuta palataksesi takaisin.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Oma tilini^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Anna uusi salasana. Huomioithan, että salasanan tulee olla vähintään 7 merkkiä pitkä ja sisältää yhden ei-aakkosnumeerinen merkki.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Uusi salasana (valinnainen)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Aikana elpymistä unohtanut salasanan sinua pyydetään antamaan käyttäjätunnuksesi. Jos käyttäjätilin olemassa sitten salasana kysymykseen on vastattava. Oikea vastaus laukaisee sähköpostin väliaikainen salasana lähettää sinulle.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Sähköposti &amp; Password Recovery (valinnainen)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Uusi salasana^NewPassword^
+
+^NewPasswordAlert^Uusi salasana on lähetetään osoitteeseen tiedosto.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Uusi salasana ja vahvistus eivät täsmää.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Uusi salasana ei kelpaa.^NewPasswordInvalid^
+
+^NewPasswordSubject^Uusi salasana \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Vanha salasana^OldPassword^
+
+^Password^Salasana^Password^
+
+^PasswordAndConfirmationDoNotMatch^Salasana ja vahvistuksen eivät täsmää.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Salasana Vastaus^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Salasanasi ei täsmää tietomme.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Salasana Format^PasswordFormat^
+
+^PasswordQuestion^Salasana Kysymys^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Anna käyttäjän nimi. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Unohtuiko salasana?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Täytä lomake ja klikkaa Jatka takaisin unohtuneen salasanan. Valitsemalla Peruuta voit palata edelliseen näyttöön.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: Vaihe 1 2^PasswordRequestViewLabel^
+
+^ProviderError^Provider virhe.^ProviderError^
+
+^RequestPasswordActionHeaderText^Seuraava^RequestPasswordActionHeaderText^
+
+^Roles^Roolit^Roles^
+
+^SelfRegisteredUser^Itsestään rekisteröitynyt käyttäjä.^SelfRegisteredUser^
+
+^SignUp^Ilmoittautua^SignUp^
+
+^SignUpViewHeaderText^Täytä lomake ja napsauta OK-painiketta kirjautumaan tilille. Valitsemalla Peruuta voit palata edelliseen näyttöön.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Tili Sign Up^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Anna käyttäjätunnus ja salasana. Huomioithan, että salasanan tulee olla vähintään 7 merkkiä pitkä ja sisältää yhden ei-aakkosnumeerinen merkki. Vain hyväksytty käyttäjät voivat kirjautua osaksi verkkosivuilla.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^New User Information^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Nämä kentät ovat pakollisia auttaa sinua palauttaa unohtuneen salasanan. Aikana toipuminen sinua pyydetään antamaan käyttäjätunnus. Jos käyttäjätilin olemassa sitten turvallisuus kysymys pyydetään vastausta. Oikea vastaus laukaisee sähköpostin tilapäinen salasana Lähetä rekisteröidyn sähköpostin.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Tiliäni^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Käyttäjä ei voi lukita. Jos haluat estää tämän käyttäjän olemasta voi kirjautua sitten yksinkertaisesti merkki käyttäjän &#39;ei-hyväksytty &quot;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Käyttäjä&#39;{0}&#39; on poistettu.^UserHasBeenDeleted^
+
+^UserName^Käyttäjän nimi^UserName^
+
+^UserNameDoesNotExist^Käyttäjän nimi ei ole olemassa.^UserNameDoesNotExist^
+
+^UserNotFound^Käyttäjää ei löytynyt.^UserNotFound^
+
+^UserRejected^Käyttäjän on hylätty.^UserRejected^
+
+^UsersInRolesGridHeaderText^Tämä on lista jäsenyyden käyttäjän tietueiden kuuluvat valittu rooli.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Käyttäjät Rooli^UsersInRolesGridLabel^
+

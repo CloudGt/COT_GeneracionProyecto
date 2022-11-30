@@ -1,0 +1,278 @@
+<dataController name="BusinessRules" conflictDetection="overwriteChanges" label="Business Rules"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium" handler="CodeOnTime.Designer.DesignerBusinessRules">
+  <commands>
+    <command id="command1" type="Text">
+      <query href="Controllers.xml" select="//a:rule" sort="Controller" dependencies="//a:rule,//a:dataController"/>
+      <template select="//a:dataController[@name=$Controller]/a:businessRules">
+        <rule xmlns="urn:schemas-codeontime-com:data-aquarium"  id="{generate-id('RuleId')}"/>
+      </template>
+    </command>
+  </commands>
+  <fields>
+    <field name="Controller" type="String" select="ancestor::a:dataController[1]/@name" allowNulls="false" isPrimaryKey="true" readOnly="true">
+      <items style="Lookup" dataController="Controllers" newDataView="createForm1" dataValueField="Name" dataTextField="Name"/>
+    </field>
+    <field name="RuleId" type="String" select="@id" allowNulls="false" label="Id" readOnly="true" isPrimaryKey="true"/>
+    <field name="CommandName" type="String" select="@commandName" allowNulls="false" label="Command Name" />
+    <field name="CommandArgument" type="String" select="@commandArgument" allowNulls="true" label="Command Argument" />
+    <field name="View" type="String" select="@view" allowNulls="true" label="View" />
+    <field name="Type" type="String" select="@type" allowNulls="false" >
+      <items style="RadioButtonList">
+        <item value="Sql" text="SQL"/>
+        <item value="Code" text="C# / Visual Basic"/>
+        <item value="Email" text="Email"/>
+        <item value="JavaScript" text="JavaScript"/>
+      </items>
+    </field>
+    <field name="Phase" type="String" select="@phase" allowNulls="false" >
+      <items style="DropDownList">
+        <item value="Before" text="Before"/>
+        <item value="Execute" text="Execute"/>
+        <item value="After" text="After"/>
+      </items>
+    </field>
+    <field name="Script" type="String" select="." allowNulls="true" label="Script" editor="Designer$Code">
+      <visibility>
+        <expression type="ClientScript" test="[Type] != 'Code'"/>
+      </visibility>
+    </field>
+    <field name="Name" type="String" select="@name" allowNulls="true" label="Name"/>
+  </fields>
+  <views>
+    <view id="grid1" type="Grid" commandId="command1" label="Business Rules">
+      <headerText>
+        <![CDATA[
+       <span class="HelpLink" title="Learn to work with Controls" onclick="$openUrl('http://codeontime.com/learn/development/project-designer/business-rules')"></span>
+       This is a list of business rules. 
+      ]]>
+      </headerText>
+      <dataFields>
+        <dataField fieldName="CommandName" />
+        <dataField fieldName="CommandArgument" />
+        <dataField fieldName="View" />
+        <dataField fieldName="RuleId" readOnly="true"/>
+        <dataField fieldName="Name"/>
+        <dataField fieldName="Type" readOnly="true"/>
+        <dataField fieldName="Phase"/>
+        <dataField fieldName="Controller" />
+      </dataFields>
+    </view>
+    <view id="editForm1" type="Form" commandId="command1" label="Business Rule">
+      <headerText>
+        <![CDATA[
+      <span class="HelpLink" title="Learn about Pages" onclick="$openUrl('http://codeontime.com/learn/sql-business-rules/overview')"></span>
+      Click OK to save the rule, click Delete to delete, or click Cancel to undo changes or return back.]]></headerText>
+      <categories>
+        <category headerText="Rule Matching" >
+          <description>
+            <![CDATA[Application framework uses the <i>Command Name</i>, <i>Command Argument</i>, <i>View</i>, and <i>Phase</i> to determine if the rule is triggered.<br/><br/>
+            Properties <i>Command Name</i>, <i>Command Argument</i>, and <i>View</i> can be entered as an exact match or as a regular expression.
+            For example, if you want to match Insert, Update, and Delete actions then enter the following in the <i>Command Name</i> property.<br/><br/>
+            <i style="padding-left:4px;">Insert|Update|Delete</i>
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="CommandName" />
+            <dataField fieldName="CommandArgument" />
+            <dataField fieldName="View" />
+            <dataField fieldName="Controller" />
+          </dataFields>
+        </category>
+        <category headerText="Business Logic" id="catScript">
+          <description>
+            <![CDATA[
+          The script is transfered to the web browser if the rule type is <i>JavaScript</i>.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Script" columns="40" rows="15"/>
+          </dataFields>
+          <visibility>
+            <expression type="ClientScript" test="[Type]!='Code'"/>
+          </visibility>
+        </category>
+        <category headerText="Business Logic" id="catBusinessLogic">
+          <description>
+            <![CDATA[
+          Enter the rule <i>Name</i>, <i>Type</i>, <i>Phase</i>, and <i>Script</i>. <br/><br/>
+          Rule <i>Type</i> determines how the framework will interpret the <i>Script</i> property.<br/><br/>
+          This information remains on the server and is used by application framework for processing if the type of the rule is <i>SQL</i> or <i>Email</i>.<br/><br/>
+          The script is transfered to the web browser if the rule type is <i>JavaScript</i>.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="RuleId" readOnly="true" hyperlinkFormatString="javascript:window.external.SyncAndRename()" toolTip="Click here to change the 'Id' of the Business Rule."/>
+            <dataField fieldName="Name" columns="30"/>
+            <dataField fieldName="Type"  readOnly="true"/>
+            <dataField fieldName="Phase" />
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+    <view id="createForm1" type="Form" commandId="command1" label="New Business Rule">
+      <headerText>
+        <![CDATA[
+      <span class="HelpLink" title="Learn about Pages" onclick="$openUrl('http://codeontime.com/learn/sql-business-rules/overview')"></span>
+      Please fill this form and click OK button to create a new business rule. Click Cancel to return to the previous screen.]]> </headerText>
+      <categories>
+        <category headerText="Implementation">
+          <description>
+            <![CDATA[Select the rule type implementation type.<br/><br/><a href="javascript" onclick="return $openUrl('http://codeontime.com/learn/feature-tour/sql-business-rules')" title="Learn about SQL Business Rules">SQL</a>, 
+          <i>C# / Visual Basic</i>, and 
+          <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/feature-tour/email-business-rules')" title="Learn about Email Business Rules">Email</a> business rules are executed on the server. <br/><br/>
+          <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/feature-tour/javascript-business-rules')" title="Learn about JavaScript Business Rules">JavaScript</a> Business Rules are executed in the browser.]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Type"  />
+          </dataFields>
+        </category>
+        <category headerText="Rule Matching" >
+          <description>
+            <![CDATA[Application framework uses the <i>Command Name</i>, <i>Command Argument</i>, <i>View</i>, and <i>Phase</i> to determine if the rule is triggered.<br/><br/>
+            Properties <i>Command Name</i>, <i>Command Argument</i>, and <i>View</i> can be entered as an exact match or as a regular expression.
+            For example, if you want to match Insert, Update, and Delete actions then enter the following in the <i>Command Name</i> property.<br/><br/>
+            <i style="padding-left:4px;">Insert|Update|Delete</i>
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="CommandName" />
+            <dataField fieldName="CommandArgument" />
+            <dataField fieldName="View" />
+            <dataField fieldName="Controller" />
+            <dataField fieldName="RuleId" hidden="true"/>
+          </dataFields>
+        </category>
+        <category headerText="Business Logic">
+          <description>
+            <![CDATA[
+          Enter the rule <i>Name</i>, <i>Type</i>, <i>Phase</i>, and <i>Script</i>. <br/><br/>
+          Rule <i>Type</i> determines how the framework will interpret the <i>Script</i> property.<br/><br/>
+          This information remains on the server and is used by application framework for processing if the type of the rule is <i>SQL</i> or <i>Email</i>.<br/><br/>
+          The script is transfered to the web browser if the rule type is <i>JavaScript</i>.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Name" columns="30"/>
+            <dataField fieldName="Phase" columns="3">
+              <items style="RadioButtonList">
+                <item value="Before" text="Before"/>
+                <item value="Execute" text="Execute"/>
+                <item value="After" text="After"/>
+              </items>
+            </dataField>
+          </dataFields>
+        </category>
+        <category headerText="Business Logic" id="catScript">
+          <description>
+            <![CDATA[
+          The script is transfered to the web browser if the rule type is <i>JavaScript</i>.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Script" columns="40" rows="15"/>
+          </dataFields>
+        </category>      
+      </categories>
+    </view>
+  </views>
+  <actions>
+    <actionGroup scope="Grid">
+      <!--<action commandName="Navigate" commandArgument="Command.htm?_returnController=Commands&amp;Controller={Controller}&amp;CommandId={CommandId}" headerText="View"/>-->
+      <action commandName="Navigate" commandArgument="BusinessRule.htm?_returnController=BusinessRules&amp;Controller={Controller}&amp;RuleId={RuleId}&amp;TheRule={CommandName} {CommandArgument} {View} ({Type} / {Phase})" headerText="Open"/>
+      <action commandName="ClientScript" commandArgument="__syncDesigner(this)" headerText="Sync" cssClass="SyncIcon"/>
+      <action commandName="Edit" />
+      <action commandName="Select" commandArgument="editForm1" headerText="View"/>
+
+      <!--<action commandName="Select" commandArgument="editForm1" />-->
+      <!--<action commandName="Edit" />-->
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <!--<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+      <!--<action/>
+      <action commandName="Custom" commandArgument="MakeFirst" headerText="Make First"/>
+      <action commandName="Custom" commandArgument="MoveUp" headerText="Move Up"/>
+      <action commandName="Custom" commandArgument="MoveDown" headerText="Move Down"/>
+      <action commandName="Custom" commandArgument="MakeLast" headerText="Make Last"/>
+      <action/>
+      <action commandName="Select" commandArgument="editForm1" headerText="Properties"/>-->
+    </actionGroup>
+    <actionGroup scope="Form">
+      <action commandName="Edit" />
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <action commandName="Cancel" headerText="Close" />
+      <action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+      <!--<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />-->
+      <action whenLastCommandName="Edit" commandName="Cancel" />
+      <action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+      <action whenLastCommandName="New" commandName="Cancel" />
+    </actionGroup>
+    <actionGroup scope="ActionBar" headerText="New">
+      <action commandName="New" commandArgument="createForm1" headerText="New Rule" description="Create a new business rule." />
+    </actionGroup>
+    <!--<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+      <action commandName="Custom" commandArgument="Preview" headerText="Quick View" description="Preview the data controller." />
+    </actionGroup>-->
+    <!--<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+      <action commandName="Custom" commandArgument="MoveUp" headerText="Up" whenKeySelected="true" whenView="grid1" cssClass="MoveUpIcon"/>
+      <action commandName="Custom" commandArgument="MoveDown" headerText="Down" whenKeySelected="true" whenView="grid1" cssClass="MoveDownIcon"/>
+    </actionGroup>-->
+    <!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+    <actionGroup scope="ActionBar" headerText="Record">
+      <action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+      <action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+    </actionGroup>
+    <actionGroup id="sync01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncDesigner()" headerText="Sync" cssClass="SyncIcon" description="Synchronize with Explorer (Ctrl+.)"/>
+    </actionGroup>
+    <actionGroup id="rules01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncAndEdit('Edit', 'CodeFile')" whenClientScript="[Type]=='Code'" headerText="Edit Rule" description="Edit Rule in Visual Studio"/>
+    </actionGroup>
+    <actionGroup id="ag8" scope="Row">
+      <action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+      <action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+    </actionGroup>
+  </actions>
+  <businessRules>
+    <rule id="r1" commandName="Insert|Update" type="JavaScript" phase="Before">
+      <![CDATA[
+      if (!this.validateInput())
+          return;
+      if ([Type] != 'Code' && String.isNullOrEmpty([Script])) {
+          this.preventDefault();
+          this.result.showAlert('The script is required for this rule.');
+          this.result.focus('Script', 'The script is required for this rule.');
+      }
+      ]]>
+    </rule>
+    <rule id="r2" commandName="Select|New" commandArgument="" type="JavaScript" phase="After">
+      <![CDATA[
+        if ([Type] != 'Code') {
+            $('td.catScript').show();
+            $('td.catScript.Category').hide();
+            var $fieldsCat = $('td.catScript.Fields').attr('colspan', 2).css({backgroundColor:'#fff'});
+            $('.Item.Script .Value textarea').css('width', ($fieldsCat.width() - 50) + 'px').attr('wrap', 'off');
+            $('tr.CategoryRow.catScript').css('visibility','visible');
+        }
+        else
+            $('td.catScript').hide();
+          
+     ]]>
+    </rule>
+    <!--<rule id="r3" commandName="Select|New" commandArgument="" view="editForm1" type="JavaScript" phase="After">
+      <![CDATA[
+        var $textArea = $('.Item.Script .Value textarea');
+        if ($textArea.length == 1) {
+          Sys.UI.DomElement.setCaretPosition($textArea[0], 0);
+          $('.Item.CommandName input').focus();
+        }
+      ]]>
+    </rule>-->
+  </businessRules>
+</dataController>

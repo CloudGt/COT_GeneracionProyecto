@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Utwórz nowy rekord użytkownika.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nowy użytkownik^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nowy^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Z powrotem^BackToRequestPasswordActionHeaderText^
+
+^Comment^Komentarz^Comment^
+
+^ConfirmIdentityActionHeaderText^Wykończenie^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Potwierdź nowe hasło^ConfirmNewPassword^
+
+^ConfirmPassword^Potwierdź hasło^ConfirmPassword^
+
+^CreateDate^Data utworzenia^CreateDate^
+
+^CreateFormCommentCategoryDescription^Wprowadzić dodatkowe komentarze na temat tego konta użytkownika. Komentarz nie jest widoczne dla użytkownika.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Komentarze^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Proszę podać nazwę użytkownika i hasło. Należy pamiętać, że hasło musi mieć co najmniej 7 znaków i zawierać jeden nie-alfanumeryczne. Tylko zatwierdzone użytkownicy będą mogli zalogować się na stronie.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Informacje o nowym użytkowniku^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Pola te są obowiązkowe, aby pomóc użytkownikowi na odzyskanie zapomnianego hasła. Podczas procesu odzyskiwania użytkownik zostanie poproszony o podanie nazwy użytkownika. Jeśli konto użytkownika nie istnieje, kwestia bezpieczeństwa jest proszony o odpowiedzi. Poprawną odpowiedź spowoduje e-mail z tymczasowym hasłem wysłać do użytkownika.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Wybierz ról użytkowników, które najlepiej odpowiada użytkownika obowiązków. Role kontroli dostępu do obszarów tej strony. Skontaktuj się z administratorem systemu, jeżeli ograniczenia dostępu rolę muszą być zmienione.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Role^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Prosimy o wypełnienie formularza i kliknij przycisk OK, aby utworzyć nowy rekord członkostwa użytkownika. Kliknij przycisk Anuluj, aby powrócić do poprzedniego ekranu.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Nowy użytkownik^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^To konto użytkownika zostanie utworzony jako zatwierdzone.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplikaty adres e-mail.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Duplicate key dostawcy.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplikat nazwy użytkownika.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Statystyki aktywności^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^To konto użytkownika zostało zatwierdzone^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Są to statystyki nieudanych prób logowania użytkownika. <br/> <br/> Użytkownika zostanie zablokowane po osiągnięciu maksymalnej liczby nieudanych prób logowania. <br/> <br/> Zablokowane użytkownicy będą mogli zalogować się ponownie od daty, w nieudanej próbie Hasło Start systemu Windows. <br/> <br/> Użytkownicy, którzy nie odzyskać hasło będzie mógł tak po dniu w Failed Odpowiedź Hasło Spróbuj Start systemu Windows. <br/> <br/> Można przywrócić zdolność użytkownika do logowania przez ustawienie Locked Out flagę &quot;Nie&quot;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Zaloguj się Statystyki^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Podczas odzyskiwania zapomnianego hasła użytkownik zostanie poproszony o podanie nazwy użytkownika. Jeśli konto użytkownika nie istnieje, kwestia bezpieczeństwa jest proszony o odpowiedzi. Poprawną odpowiedź spowoduje e-mail z tymczasowym hasłem wysłać do użytkownika. <br/><br/> Zmień zablokowane flagę &quot;Nie&quot;, jeśli użytkownik został zablokowany po osiągnięciu maksymalnej liczby nieudanych prób logowania i chcesz, aby pozwolić użytkownikowi zalogować się ponownie.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Wybierz ról użytkowników, które najlepiej odpowiada użytkownika obowiązków. Role kontroli dostępu do obszarów tej strony. Skontaktuj się z administratorem systemu, jeżeli ograniczenia dostępu rolę muszą być zmienione. <br/> <br/> Wpisz wszelkie dodatkowe uwagi na temat tego konta użytkownika. Komentarz nie jest widoczne dla użytkownika.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Informacja o użytkowniku^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Zapoznaj się z informacji o członkostwie użytkownika poniżej. Kliknij przycisk Edytuj, aby zmienić ten wpis, kliknij przycisk Usuń, aby usunąć rekord, lub przycisk Anuluj / Zamknij, aby powrócić z powrotem.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Opinia użytkownika^EditFormViewLabel^
+
+^Email^E-mail^Email^
+
+^EnterCurrentPassword^Proszę wpisać swoje hasło.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Proszę wpisać odpowiedź hasło.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Błąd podczas zapisywania konta użytkownika.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Nie udało Odpowiedź Hasło Hrabia Próba^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Nie udało Odpowiedź Hasło Spróbuj Start systemu Windows^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Nie udało Hrabia Próba Hasło^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Nieudana próba Hasło Start systemu Windows^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Poniżej znajduje się lista rekordów użytkownika członkostwa.^GridViewHeaderText^
+
+^GridViewLabel^Wszystkich użytkowników^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Odpowiedz na poniższe pytanie, aby otrzymać hasło. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Potwierdzenie tożsamości^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Prosimy o wypełnienie formularza i kliknij przycisk Prześlij do odzyskiwania zapomnianego hasła. Kliknij przycisk Anuluj, aby powrócić do poprzedniego ekranu.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: Krok 2 z 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Nieprawidłowa odpowiedź odzyskiwania hasła.^InvalidAnswer^
+
+^InvalidEmail^Nieprawidłowy adres e-mail.^InvalidEmail^
+
+^InvalidPassword^Nieprawidłowe hasło.^InvalidPassword^
+
+^InvalidProviderUserKey^Nieprawidłowy klucz użytkownika dostawcy.^InvalidProviderUserKey^
+
+^InvalidQuestion^Nieprawidłowy pytanie odzyskiwania hasła.^InvalidQuestion^
+
+^InvalidUserName^Nieprawidłowa nazwa użytkownika.^InvalidUserName^
+
+^IsApproved^Jest zatwierdzony^IsApproved^
+
+^IsLockedOut^Jest zablokowany^IsLockedOut^
+
+^LastLockoutDate^Data ostatniego Lockout^LastLockoutDate^
+
+^LastLoginDate^Daty ostatniego logowania^LastLoginDate^
+
+^LastPasswordChangedDate^Ostatnio Hasło zmiana terminu^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Odpowiedź hasła (nie jest wyświetlana dla ochrony)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Wpisz aktualne hasło, aby utworzyć nowe hasło, aktualizacja adresu e-mail lub hasło pytanie zmiany odzysku i odpowiedzi.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Obecne hasło^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Prosimy o sprawdzenie informacji o członkostwie poniżej. Kliknij przycisk Aktualizuj Moje konto, aby zmienić ten wpis, lub przycisk Anuluj, aby powrócić.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Moje konto^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Proszę podać nowe hasło. Należy pamiętać, że hasło musi mieć co najmniej 7 znaków i zawierać jeden nie-alfanumeryczne.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nowe hasło (opcjonalnie)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Podczas odzyskiwania zapomnianego hasła zostaniesz poproszony o podanie nazwy użytkownika. Jeśli konto użytkownika nie istnieje, pytanie hasło należy odpowiedzieć. Poprawną odpowiedź spowoduje e-mail z tymczasowym hasłem wysłać do Ciebie.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email Password Recovery &amp; (opcja)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nowe hasło^NewPassword^
+
+^NewPasswordAlert^Nowe hasło zostało wysłane na adres pliku.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Nowe hasło i potwierdzenie nie pasują.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Nowe hasło jest nieprawidłowe.^NewPasswordInvalid^
+
+^NewPasswordSubject^Nowe hasło dla \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Stare hasło^OldPassword^
+
+^Password^Hasło^Password^
+
+^PasswordAndConfirmationDoNotMatch^Hasło i potwierdzenie nie pasują.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Odpowiedź hasło^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Twoje hasło nie pasuje do naszej bazy danych.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Format hasło^PasswordFormat^
+
+^PasswordQuestion^Pytanie hasło^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Proszę podać nazwę użytkownika. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Nie pamiętasz hasła?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Prosimy o wypełnienie formularza i kliknij przycisk Kontynuuj, aby odzyskać zapomniane hasło. Kliknij przycisk Anuluj, aby powrócić do poprzedniego ekranu.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: Krok 1 z 2^PasswordRequestViewLabel^
+
+^ProviderError^Błąd dostawcy.^ProviderError^
+
+^RequestPasswordActionHeaderText^Następny^RequestPasswordActionHeaderText^
+
+^Roles^Role^Roles^
+
+^SelfRegisteredUser^Self-zarejestrowany użytkownik.^SelfRegisteredUser^
+
+^SignUp^Zapisać się^SignUp^
+
+^SignUpViewHeaderText^Prosimy o wypełnienie formularza i kliknij przycisk OK, aby zapisać się na konto. Kliknij przycisk Anuluj, aby powrócić do poprzedniego ekranu.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Konto Zarejestruj się^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Proszę podać nazwę użytkownika i hasło. Należy pamiętać, że hasło musi mieć co najmniej 7 znaków i zawierać jeden nie-alfanumeryczne. Tylko zatwierdzone użytkownicy będą mogli zalogować się na stronie.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Informacje o nowym użytkowniku^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Pola te są obowiązkowe, aby pomóc Ci odzyskać zapomniane hasło. Podczas procesu odzyskiwania zostaniesz poproszony o podanie nazwy użytkownika. Jeśli konto użytkownika nie istnieje, kwestia bezpieczeństwa jest proszony o odpowiedzi. Poprawną odpowiedź spowoduje e-mail z tymczasowym hasłem przesyła e-mail zarejestrowany.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Aktualizacja Moje konto^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Użytkownik nie może zostać zablokowane. Jeśli chcesz, aby zapobiec tego użytkownika z będziesz mógł się zalogować a następnie po prostu znak użytkownika jako &quot;nie-zatwierdzony&quot;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^&#39;{0}&#39; Użytkownika zostało usunięte.^UserHasBeenDeleted^
+
+^UserName^Nazwa użytkownika^UserName^
+
+^UserNameDoesNotExist^Nazwa użytkownika nie istnieje.^UserNameDoesNotExist^
+
+^UserNotFound^Nie znaleziono użytkownika.^UserNotFound^
+
+^UserRejected^Użytkownik nie została odrzucona.^UserRejected^
+
+^UsersInRolesGridHeaderText^Poniżej znajduje się lista rekordów użytkownika członkostwa, które należą do wybranej roli.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Użytkownicy w roli^UsersInRolesGridLabel^
+

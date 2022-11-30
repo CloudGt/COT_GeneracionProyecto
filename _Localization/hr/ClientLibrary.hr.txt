@@ -1,0 +1,1385 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^O aplikaciji^About^
+
+^Accent^Naglasak^Accent^
+
+^ActionBarActionsHeaderText^Akcije^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Odustani^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Odustani od svih promjena zapisa.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Odustani od novog zapisa.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Spremi novi zapis u bazu podataka.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Spremi^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Napravite novi zapis {0}.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^Dodaj {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Dodaj^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Zapis^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Izvješće^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Spremi promjene u bazu podataka.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Spremi^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Dodaj račun^AddAccount^
+
+^AddCondition^Dodaj uvjet pretraživanja^AddCondition^
+
+^AddConditionText^Dodaj uvjet pretraživanja^AddConditionText^
+
+^AddItem^Dodaj stavku^AddItem^
+
+^AddMatchingGroup^Dodaj odgovara skupinu^AddMatchingGroup^
+
+^AddSearchBarField^Više polja za pretraživanje^AddSearchBarField^
+
+^AddSystemIdentity^Dodaj sustava identitet^AddSystemIdentity^
+
+^AddToFavorites^Dodaj u favorite^AddToFavorites^
+
+^AdvancedSearch^Napredna pretraga^AdvancedSearch^
+
+^AdvancedSearchInstruction^Unesite uvjete koji moraju biti usklađeni i pritisnite gumb za pretraživanje.^AdvancedSearchInstruction^
+
+^After^Nakon^After^
+
+^Agenda^Dnevni red^Agenda^
+
+^AlignedLeft^Lijevo poravnan^AlignedLeft^
+
+^AlignedRight^Desno poravnan^AlignedRight^
+
+^AllDatesInPreriod^Svi datumi u razdoblju^AllDatesInPreriod^
+
+^AlternativeView^Odaberite alternativni pogled na podatke.^AlternativeView^
+
+^Always^Uvijek^Always^
+
+^AnyValue^(Ima)^AnyValue^
+
+^Apply^Nanesite^Apply^
+
+^Apps^Aplikacije^Apps^
+
+^Aquarium^Akvarijum^Aquarium^
+
+^Auto^Auto^Auto^
+
+^AutoOpenNextItem^Automatski otvorite sljedeću stavku^AutoOpenNextItem^
+
+^AverageOf^Prosjek^AverageOf^
+
+^AvgAggregate^Pros: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Prosjek {0}^AvgAggregateToolTip^
+
+^Azure^Azure^Azure^
+
+^Back^Povratak^Back^
+
+^BackColor^Pozadinska boja^BackColor^
+
+^BatchEditActionHeaderText^Skupno uređivanje^BatchEditActionHeaderText^
+
+^BatchEdited^{0} ažuriran^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Skupno uređivanje (obrazac)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^ažuriranje^BatchUpdate^
+
+^Before^Prije^Before^
+
+^BeginsWith^Počinje sa^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^Bobica^Berry^
+
+^Between^Između^Between^
+
+^Bittersweet^Bittersweet^Bittersweet^
+
+^Blank^Prazan^Blank^
+
+^BlankPassword^Lozinka ne smije biti prazna.^BlankPassword^
+
+^BlankUserName^Korisničko ime ne smije biti prazno.^BlankUserName^
+
+^BlankValue^(Prazno)^BlankValue^
+
+^BlobDownloadHint^Kliknite ovdje za download izvorne datoteke.^BlobDownloadHint^
+
+^BlobDownloadLink^download^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Dodirnite sliku za preuzimanje izvorne datoteke.^BlobDownloadOriginalHint^
+
+^Blur^Zamućenje^Blur^
+
+^Bold^Podebljano^Bold^
+
+^BooleanFilterText^Logički Filteri^BooleanFilterText^
+
+^BooleanIsExpected^Logička vrijednost se očekuje.^BooleanIsExpected^
+
+^ButtonShapes^Oblici gumba^ButtonShapes^
+
+^By^po^By^
+
+^Calendar^Kalendar^Calendar^
+
+^Cancel^Odustani^Cancel^
+
+^Cards^Kartice^Cards^
+
+^Cay^Cay^Cay^
+
+^ChangeYourLanguage^Promijenite jezik^ChangeYourLanguage^
+
+^Charts^Karte^Charts^
+
+^Citrus^Citrus^Citrus^
+
+^Classic^Klasično^Classic^
+
+^ClearFilter^Brisanje filtera od {0}^ClearFilter^
+
+^ClearFilter2^Vedro Filter^ClearFilter2^
+
+^ClearText^Pobriši^ClearText^
+
+^ClearToolTip^Brisanje {0}^ClearToolTip^
+
+^Close^Zatvori^Close^
+
+^Comfortable^Udoban^Comfortable^
+
+^Compact^Kompaktni^Compact^
+
+^Condensed^Kondenzovan^Condensed^
+
+^ConfirmContinue^Nastaviti?^ConfirmContinue^
+
+^ConfirmReload^Reload?^ConfirmReload^
+
+^ConnectionLost^Mrežna veza je prekinuta. Pokušaj ponovo?^ConnectionLost^
+
+^Construct^Konstruirati^Construct^
+
+^Contains^Sadrži^Contains^
+
+^Convention^Konvencija^Convention^
+
+^Copy^Kopiraj^Copy^
+
+^CountAggregate^Točka: {0}^CountAggregate^
+
+^CountAggregateToolTip^Brojač {0}^CountAggregateToolTip^
+
+^CountOf^Točka^CountOf^
+
+^CreateLink^Napravite link^CreateLink^
+
+^CustomFilterOption^Filter ...^CustomFilterOption^
+
+^Cut^Izreži^Cut^
+
+^DarkKnight^Dark Knight^DarkKnight^
+
+^DarkTheme^Mrak^DarkTheme^
+
+^DataSheetActionDescription^Prikaz stavki korištenjem podataka u tabličnom <br/>formatu.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Prikaži u listi^DataSheetActionHeaderText^
+
+^DataWarning^Maksimalan broj stavki u procesu je {0: d}. Kliknite ovdje za filtriranje rezultata.^DataWarning^
+
+^Date^Datum^Date^
+
+^DateFilterText^Datum Filteri^DateFilterText^
+
+^DateIsExpected^Datum se očekuje.^DateIsExpected^
+
+^DatesAMinAgo^minute^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^u minuti^DatesInAMin^
+
+^DatesInHour^za sat vremena^DatesInHour^
+
+^DatesInMin^u {0} minuta^DatesInMin^
+
+^DatesLast^Posljednji^DatesLast^
+
+^DatesMinAgo^prije {0} min^DatesMinAgo^
+
+^DatesNext^Sljedeći^DatesNext^
+
+^DatesNow^sada^DatesNow^
+
+^DatesOneHour^Prije sat vremena^DatesOneHour^
+
+^DateSortAscending^Najstarije na vrh^DateSortAscending^
+
+^DateSortDescending^Najnovije na vrhu^DateSortDescending^
+
+^DatesSmart^Pametni Datumi^DatesSmart^
+
+^DatesToday^danas^DatesToday^
+
+^DatesTomorrow^sutra^DatesTomorrow^
+
+^DatesYesterday^jučer^DatesYesterday^
+
+^Day^Dan^Day^
+
+^DefaultCancelActionHeaderText^Zatvori^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Molimo vas da ispunite ovaj obrazac i kliknite na OK gumb za stvaranje novog {0} zapisa. Kliknite Odustani da biste se vratili na prethodni zaslon.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^To su područja {0} zapisa koji se mogu uređivati.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Molimo pregledajte {0} informacije u nastavku. Kliknite na Uredi da biste promijenili ovaj zapis, pritisnite Izbriši za brisanje zapisa, ili pritisnite Odustani za povratak.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Ovo je popis {0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Ispunite obrazac. Pobrinite se da unesete sva tražena polja.^DefaultNewDescription^
+
+^DefaultOption^Zadano^DefaultOption^
+
+^DefaultReferenceDescription^Dodatne pojedinosti o {0} nalaze se u sekciji referentne informacije.^DefaultReferenceDescription^
+
+^Delete^Izbriši^Delete^
+
+^DeleteActionConfirmation^Brisanje?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Izbriši^DeleteActionHeaderText^
+
+^Deleted^Izbrisan je {$ selected}^Deleted^
+
+^DeleteOriginalSel^izbriši izvorni odabir^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Brisanje)^DeleteSearchBarField^
+
+^DetailsToolTip^Prikaz detalja za {0}^DetailsToolTip^
+
+^DevelopExplorer^Project Explorer^DevelopExplorer^
+
+^DevelopFormLayout^Izgled obrasca^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^Odaberite veličine zaslona koji će biti uključeni u izgled.^DevelopFormLayoutInstr^
+
+^DevelopTools^Razvojni alati^DevelopTools^
+
+^Device^Uređaj^Device^
+
+^DeviceLoginPrompt^Prijavite se kako biste ovlastili pristup ovom uređaju.^DeviceLoginPrompt^
+
+^DidNotMatch^Zar ne podudaraju^DidNotMatch^
+
+^Directions^Upute^Directions^
+
+^DiscardChanges^Odbaciti promjene?^DiscardChanges^
+
+^DisplayDensity^Gustoća prikaza^DisplayDensity^
+
+^DisplayedAbove^Prikazano Iznad^DisplayedAbove^
+
+^DisplayedBelow^Prikazano Ispod^DisplayedBelow^
+
+^Dock^Priveži^Dock^
+
+^DoesNotBeginWith^Ne počinje s^DoesNotBeginWith^
+
+^DoesNotContain^Ne sadrži^DoesNotContain^
+
+^DoesNotEndWith^Ne završava s^DoesNotEndWith^
+
+^DoesNotEqual^Nije jednak^DoesNotEqual^
+
+^DoesNotInclude^Ne uključuje^DoesNotInclude^
+
+^DoNotMatchAll^Ne odgovaraju sve uvjete^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Zar ne odgovaraju sve uvjete^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Ne odgovaraju sve uvjete^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Zar ne odgovaraju nikakve uvjete^DoNotMatchAnyPastTense^
+
+^Download^Preuzimanje^Download^
+
+^Draw^crtati^Draw^
+
+^DuplicateActionHeaderText^Duplikat^DuplicateActionHeaderText^
+
+^DuplicateItem^Udvostručena stavka^DuplicateItem^
+
+^DuplicateRow^Dvostruki redak^DuplicateRow^
+
+^EditActionHeaderText^Uredi^EditActionHeaderText^
+
+^EditItem^Uredi stavku^EditItem^
+
+^EditModeCancelActionHeaderText^Odustani^EditModeCancelActionHeaderText^
+
+^EditRow^Uredi redak^EditRow^
+
+^Empty^Prazan^Empty^
+
+^EmptyContext^Akcije nisu dostupne.^EmptyContext^
+
+^EmptyValue^(Prazno)^EmptyValue^
+
+^Enable^Omogućiti^Enable^
+
+^EndsWith^Završava s^EndsWith^
+
+^Equals^Jednako^Equals^
+
+^Eraser^Gumica^Eraser^
+
+^Error^greška^Error^
+
+^Exit^Izlaz^Exit^
+
+^ExitFullscreen^Izlaz iz punog zaslona^ExitFullscreen^
+
+^ExportCsvActionDescription^Preuzimanje stavki u CSV formatu.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Preuzimanje^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Analizirajte stavke s tabličnom<br/>aplikacijom.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Izvoz u proračunsku tablicu^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Podaci za RSS čitač.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^Pregled RSS Feeda^ExportRssActionHeaderText^
+
+^Favorites^Omiljeno^Favorites^
+
+^Felt^Osjećaj^Felt^
+
+^FileCleared^Vrijednost će biti izbrisana uz uštedu^FileCleared^
+
+^FilesBytes^bajtova^FilesBytes^
+
+^FilesClear^Jasan^FilesClear^
+
+^FilesClearConfirm^Vedro?^FilesClearConfirm^
+
+^FilesClick^Kliknite da odaberete sliku^FilesClick^
+
+^FilesClickMany^Kliknite za odabir datoteke^FilesClickMany^
+
+^FilesDrop^Drop datoteke ovdje^FilesDrop^
+
+^FilesDropMany^Ispustiti datoteke ovdje^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Dodirnite za odabir datoteke^FilesTap^
+
+^FilesTapMany^Dodirnite za odabir datoteke^FilesTapMany^
+
+^Filter^Filter^Filter^
+
+^FilterApplied^Filter primijenjen.^FilterApplied^
+
+^FilterByField^Odaberite polje za primjenu filtera na <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Odaberite jedan ili više opcija u donjem popisu i pritisnite <b>{2}</b> do <b>{0}</b> filtrirati po terenu <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Izbrisan je sve filtre.^FilterCleared^
+
+^FilterLabelAnd^i^FilterLabelAnd^
+
+^FilterLabelClear^Briši^FilterLabelClear^
+
+^FilterLabelEquals^jednak^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Promjena^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^uključuje^FilterLabelIncludes^
+
+^FilterLabelOr^ili^FilterLabelOr^
+
+^FilterLabelSelectAll^(Odaberi sve)^FilterLabelSelectAll^
+
+^FilterSiteMap^Filter na mapu ...^FilterSiteMap^
+
+^Finish^Završi^Finish^
+
+^FitToWidth^Odgovara širini^FitToWidth^
+
+^FlatTreeToggle^Prebaci na hijerarhiju^FlatTreeToggle^
+
+^FontName^Font^FontName^
+
+^FontSize^Veličina fonta^FontSize^
+
+^ForeColor^Boja fonta^ForeColor^
+
+^Forget^Zaboraviti^Forget^
+
+^ForgotYourPassword^Zaboravili ste lozinku?^ForgotYourPassword^
+
+^Format^Format^Format^
+
+^Freeze^Zamrzni^Freeze^
+
+^From^iz^From^
+
+^Fullscreen^Puni zaslon^Fullscreen^
+
+^Future^Budućnost^Future^
+
+^GeneralTabText^Podaci zapisa^GeneralTabText^
+
+^Generate^Generirati^Generate^
+
+^GenericNewToolTip^Dodaj^GenericNewToolTip^
+
+^GenericSortAscending^Najmanji na vrh^GenericSortAscending^
+
+^GenericSortDescending^Najveći na vrh^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Grand Ukupan^GrandTotals^
+
+^Granite^Granite^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Gravity^Gravity^
+
+^GreaterThan^Veće od^GreaterThan^
+
+^GreateThanOrEqual^Veće ili jednako^GreateThanOrEqual^
+
+^Grid^Rešetka^Grid^
+
+^GridActionDescription^Prikaz stavki u standardnom<br/>formatu.^GridActionDescription^
+
+^GridActionHeaderText^Prikaži u Standardnom prikazu^GridActionHeaderText^
+
+^Group^Skupina^Group^
+
+^GroupByField^Odaberite polje za grupu <b>{0}</b>.^GroupByField^
+
+^Grouped^grupirane^Grouped^
+
+^GroupedBy^Grupiran po^GroupedBy^
+
+^GroupedDefault^Grupiranje je uklonjeno^GroupedDefault^
+
+^Heading1^Naslov 1^Heading1^
+
+^Heading2^Naslov 2^Heading2^
+
+^Heading3^Glava 3^Heading3^
+
+^Heading4^Glava 4^Heading4^
+
+^Heading5^Naslov 5^Heading5^
+
+^Heading6^Glava 6^Heading6^
+
+^Help^Pomoć^Help^
+
+^HelpClose^Zatvori^HelpClose^
+
+^HelpFullScreen^Cijeli zaslon^HelpFullScreen^
+
+^Hide^Sakriti^Hide^
+
+^HideAdvancedSearch^Sakrij Napredno pretraživanje^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Prebaci na popis hijerarhije^HierarchyTreeModeToggle^
+
+^Highlighter^Marker^Highlighter^
+
+^History^Povijest^History^
+
+^HistoryToolTip^Pregled povijesti prethodno odabranog zapisa^HistoryToolTip^
+
+^HistoryUnavailable^Povijest nije dostupna.^HistoryUnavailable^
+
+^Home^Početna^Home^
+
+^IdleUser^Jeste li još uvijek tamo? Molimo, prijavite se ponovno.^IdleUser^
+
+^ImportActionDescription^Učitaj CSV, XLS ili XLSX datoteku<br/>za uvoz zapisa.^ImportActionDescription^
+
+^ImportActionHeaderText^Uvoz Iz datoteke^ImportActionHeaderText^
+
+^ImportAutoDetect^(Automatsko otkrivanje)^ImportAutoDetect^
+
+^ImportComplete^potpun^ImportComplete^
+
+^ImportDone^Završeno uvoza^ImportDone^
+
+^ImportDownloadTemplate^Preuzmite datoteku predloška za uvoz.^ImportDownloadTemplate^
+
+^ImportDuplicates^Duplikati^ImportDuplicates^
+
+^ImportEmail^Pošaljite obavijest o uvozu na adresu e-pošte (opcija)^ImportEmail^
+
+^ImportEmailNotSpecified^Primatelj informacije na email nije određen. Svejedno nastavi?^ImportEmailNotSpecified^
+
+^ImportExpected^Očekuje se da će završiti^ImportExpected^
+
+^ImportFileStats^Postoje <b>{0}</b> zapisa u datoteci <b>{1}</b> spremno za obradu. Molimo odgovaraju nazive polja.^ImportFileStats^
+
+^Importing^Uvoz^Importing^
+
+^ImportMappingInstruction^Postoje <b>{0}</b> zapis(i) u datoteku <b>{1}</b> spremni za obradu.<br/>Molim označite polja iz podatkovne datoteke za uvoz i kliknite <i>Uvoz</i> za početak obrade.^ImportMappingInstruction^
+
+^ImportNotSupported^format podataka o &quot;{0}&quot; nije podržan.^ImportNotSupported^
+
+^ImportProcessing^Uvoz datoteke je pokrenut. Zapisi uvezene podatke će biti dostupni nakon uspješne obrade. Možda ćete morati osvježiti relevantne stranice kako biste vidjeli uvezene zapise.^ImportProcessing^
+
+^ImportRemaining^Očekuje se da će završiti^ImportRemaining^
+
+^ImportSelectFile^Odaberite datoteku podataka u CSV, XLS, XLSX ili formatu.^ImportSelectFile^
+
+^ImportStartButton^Uvoz^ImportStartButton^
+
+^ImportUploading^Vaša datoteka se učitala na poslužitelj. Molimo pričekajte ...^ImportUploading^
+
+^ImportUploadInstruction^Molimo odaberite datoteku za učitavanje. Datoteka mora biti u <b>CSV</b>, <b>XLS</b> ili <b>XLSX</b> formatu.^ImportUploadInstruction^
+
+^In^u^In^
+
+^Includes^Uključuje^Includes^
+
+^Indent^Uvuci^Indent^
+
+^InfoBarAnd^i^InfoBarAnd^
+
+^InfoBarEmpty^prazan^InfoBarEmpty^
+
+^InfoBarEqualTo^je jednako^InfoBarEqualTo^
+
+^InfoBarGreaterThan^je veći od^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^veći od ili jednak^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^je manje od^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^je manji od ili jednak^InfoBarLessThanOrEqual^
+
+^InfoBarLike^je poput^InfoBarLike^
+
+^InfoBarOr^ili^InfoBarOr^
+
+^InfoBarQuickFind^Bilo koje polje sadrži^InfoBarQuickFind^
+
+^InfoBarStartsWith^počinje s^InfoBarStartsWith^
+
+^InitialListMode^Početno Lista način^InitialListMode^
+
+^InlineEditing^Inline uređivanje^InlineEditing^
+
+^InsertActionHeaderText^OK^InsertActionHeaderText^
+
+^InsertHorizontalRule^Umetnite vodoravnu crtu^InsertHorizontalRule^
+
+^InsertingRecords^umetanje zapise^InsertingRecords^
+
+^InsertOrderedList^Umetni numerirani popis^InsertOrderedList^
+
+^InsertUnorderedList^Insert nenumerirani popis^InsertUnorderedList^
+
+^Into^u^Into^
+
+^InvalidUserNameAndPassword^Vaše korisničko ime i lozinka nisu važeći.^InvalidUserNameAndPassword^
+
+^Italic^Kurziv^Italic^
+
+^Items^stavke^Items^
+
+^ItemsPerPage^Stavke po stranici:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} Odabrane stavke^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Odabrana stavka^ItemsSelectedOne^
+
+^JustDatesNow^Upravo sad^JustDatesNow^
+
+^JustifyCenter^Centriraj^JustifyCenter^
+
+^JustifyFull^Razvuci^JustifyFull^
+
+^JustifyLeft^Poravnaj lijevo^JustifyLeft^
+
+^JustifyRight^Poravnaj desno^JustifyRight^
+
+^KeepOriginalSel^zadrži izvorni odabir^KeepOriginalSel^
+
+^LabelsInList^Oznaka na popisu^LabelsInList^
+
+^Lacquer^Lacquer^Lacquer^
+
+^Laminate^Laminate^Laminate^
+
+^Landscape^Pejzaž^Landscape^
+
+^Large^Veliki^Large^
+
+^LastMonth^Prošli mjesec^LastMonth^
+
+^LastQuarter^Zadnja četvrt^LastQuarter^
+
+^LastWeek^Prošli tjedan^LastWeek^
+
+^LastYear^Prošle godine^LastYear^
+
+^Less^Manje^Less^
+
+^LessThan^Manje od^LessThan^
+
+^LessThanOrEqual^Manji ili jednak^LessThanOrEqual^
+
+^Lichen^Lichen^Lichen^
+
+^LightTheme^Svjetlo^LightTheme^
+
+^Line^Crta^Line^
+
+^List^Popis^List^
+
+^ListOneColumn^Popis (jedan stupac)^ListOneColumn^
+
+^ListViewStyle^Popis^ListViewStyle^
+
+^Loading^Učitavanje ...^Loading^
+
+^Logical^Logičan^Logical^
+
+^LoginButton^Prijava^LoginButton^
+
+^LoginLink^Prijava^LoginLink^
+
+^Logout^Odjava^Logout^
+
+^LookupInstruction^Odaberite <b>{0}</b> na popisu.^LookupInstruction^
+
+^LookupOriginalSelection^Originalni izbor je <b>&quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^Upravljanje računima^ManageAccounts^
+
+^Map^Karta^Map^
+
+^MatchAll^Traži sve uvjete^MatchAll^
+
+^MatchAllPastTense^Uparen sve uvjete^MatchAllPastTense^
+
+^MatchAny^Klađenje nikakve uvjete^MatchAny^
+
+^MatchAnyPastTense^Uparen sve uvjete^MatchAnyPastTense^
+
+^Matched^Uparen^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Najviše {0}^MaxAggregateToolTip^
+
+^Maximize^Proširiti^Maximize^
+
+^MaximumOf^Najviše^MaximumOf^
+
+^Medium^Srednji^Medium^
+
+^Menu^Izbornik^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^Najmanje {0}^MinAggregateToolTip^
+
+^Minimize^Minimiziraj^Minimize^
+
+^MinimumOf^Minimalno^MinimumOf^
+
+^Mission^Misija^Mission^
+
+^ModeBrowsing^Mod preglednika^ModeBrowsing^
+
+^ModeEditing^Mod uređivanja^ModeEditing^
+
+^ModeEntering^Mod unosa^ModeEntering^
+
+^ModeLookup^Mod izbora^ModeLookup^
+
+^Modern^Modern^Modern^
+
+^ModernRose^Modern Rose^ModernRose^
+
+^ModeViewing^Mod gledanja^ModeViewing^
+
+^Month^Mjesec^Month^
+
+^More^Više^More^
+
+^MultiSelection^Multi izbor^MultiSelection^
+
+^Municipal^Općinski^Municipal^
+
+^MyAccount^Moj račun^MyAccount^
+
+^Never^Nikad^Never^
+
+^NewActionHeaderText^Dodaj^NewActionHeaderText^
+
+^NewItem^Nova stvar^NewItem^
+
+^NewRow^Novi redak^NewRow^
+
+^NewRowLink^Kliknite ovdje da biste stvorili novi zapis.^NewRowLink^
+
+^NewToolTip^Dodaj {0}^NewToolTip^
+
+^Next^Sljedeći^Next^
+
+^Next2^Sljedeće^Next2^
+
+^NextMonth^Sljedeći mjesec^NextMonth^
+
+^NextQuarter^U sljedećem kvartalu^NextQuarter^
+
+^NextWeek^Sljedeći tjedan^NextWeek^
+
+^NextYear^Sljedeća godina^NextYear^
+
+^No^Ne^No^
+
+^NoMatches^Nema rezultata.^NoMatches^
+
+^None^nijedan^None^
+
+^Noon^Podne^Noon^
+
+^NoRecords^Podaci nisu pronađeni.^NoRecords^
+
+^NoteDeleteConfirm^Brisanje?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^Izbriši^NoteDeleteLabel^
+
+^NoteEditLabel^uredi^NoteEditLabel^
+
+^NotEmpty^Nije prazan^NotEmpty^
+
+^NotMatched^(Ne podudaraju)^NotMatched^
+
+^NullValue^N/P^NullValue^
+
+^NullValueInForms^N/P^NullValueInForms^
+
+^Number^Broj^Number^
+
+^NumberFilterText^Broj Filtera^NumberFilterText^
+
+^NumberIsExpected^Broj se očekuje.^NumberIsExpected^
+
+^OdpCommitting^Prijenos transakcija ...^OdpCommitting^
+
+^OdpDone^Gotovo.^OdpDone^
+
+^OdpDownloadingBlob^Preuzimanje binarnih podataka za {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^Preuzimanje podataka za {0}...^OdpDownloadingData^
+
+^OdpInitializing^Pokreće se ...^OdpInitializing^
+
+^OdpInvalidResponse^Nevažeći odgovor poslužitelja.^OdpInvalidResponse^
+
+^OdpLastRefresh^Zadnje osvježenje: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Podaci nisu osvježeni.^OdpNotRefreshed^
+
+^OdpOfflineState^Radite u izvanmrežnom načinu rada.^OdpOfflineState^
+
+^OdpOnlineRequired^Internetska veza je obavezna.^OdpOnlineRequired^
+
+^OdpPending^Na čekanju promjena^OdpPending^
+
+^OdpReconRequired^Potrebno je pomirenje^OdpReconRequired^
+
+^OdpReconTxDelete^Želite li izbrisati ovu promjenu iz dnevnika?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^U dnevniku je izbrisana prva transakcija na čekanju.^OdpReconTxDeleted^
+
+^OdpRefresh^Osvježi podatke^OdpRefresh^
+
+^OdpRefreshData^Osvježi podatke^OdpRefreshData^
+
+^OdpRefreshLast^Podaci osvježeni^OdpRefreshLast^
+
+^OdpSave^Spremite sve promjene.^OdpSave^
+
+^OdpSaveAndSync^Spremite sve promjene i odaberite opciju Sinhronizacija u kontekstnom izborniku.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Poslužitelj aplikacija nije dostupan.^OdpServerUnavailable^
+
+^OdpStatus^Status^OdpStatus^
+
+^OdpSync^Sinkronizacija^OdpSync^
+
+^OdpSynced^Sinkronizirano^OdpSynced^
+
+^OdpSyncLast^Zadnja sinkronizacija^OdpSyncLast^
+
+^OdpSyncLong^Sinkronizirajte za prijenos promjena.^OdpSyncLong^
+
+^OdpSyncUploadFailed^Prijenos {0} datoteka nije uspio.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Prijenos {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Brisanje nije moguće {1} stavke ovisne u {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Nije moguće izvršiti.^OdpUnableToExec^
+
+^OdpUnableToProcess^Nije moguće obraditi transakcije.^OdpUnableToProcess^
+
+^OdpUnableToSave^Promjene nije moguće spremiti.^OdpUnableToSave^
+
+^OdpUploadFailed^Prijenos datoteka nije uspio.^OdpUploadFailed^
+
+^OdpUploadingFiles^Prijenos {0} datoteka ...^OdpUploadingFiles^
+
+^of^od^of^
+
+^OK^OK^OK^
+
+^OnHover^na položaju miša^OnHover^
+
+^OnOrAfter^Na dan ili nakon^OnOrAfter^
+
+^OnOrBefore^Na dan ili prije^OnOrBefore^
+
+^OpenActionHeaderText^Otvoreno^OpenActionHeaderText^
+
+^Optional^neobavezan^Optional^
+
+^Orientation^Orijentacija^Orientation^
+
+^Other^Drugo^Other^
+
+^Outdent^Izvuci^Outdent^
+
+^Page^Stranica^Page^
+
+^Paragraph^stav^Paragraph^
+
+^Password^Lozinka^Password^
+
+^Past^Prošlost^Past^
+
+^Paste^Zalijepi^Paste^
+
+^Pen^Olovka^Pen^
+
+^PerformAdvancedSearch^Traži^PerformAdvancedSearch^
+
+^Permalink^Permalink^Permalink^
+
+^PermalinkToolTip^Stvaranje stalne veze (permalink) za odabrani zapis^PermalinkToolTip^
+
+^PermalinkUnavailable^Permalink nije dostupan. Molimo odaberite zapis.^PermalinkUnavailable^
+
+^Petal^Petal^Petal^
+
+^Pinnate^Pinnate^Pinnate^
+
+^Plastic^Plastic^Plastic^
+
+^Portrait^Portret^Portrait^
+
+^PresentationStyle^Odaberite stil prezentacije podataka.^PresentationStyle^
+
+^Prev2^Prethodna^Prev2^
+
+^Previous^Prethodna^Previous^
+
+^PrintedOn^Tiskano^PrintedOn^
+
+^PromoteActions^Registracija Akcije^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^Četvrtina^Quarter^
+
+^Quarter1^Kvartal 1^Quarter1^
+
+^Quarter2^Kvartal 2^Quarter2^
+
+^Quarter3^Kvartal 3^Quarter3^
+
+^Quarter4^Kvartal 4^Quarter4^
+
+^QuickFindDescription^Traži u {0}^QuickFindDescription^
+
+^QuickFindScope^Traži u ...^QuickFindScope^
+
+^QuickFindText^Brzo traženje^QuickFindText^
+
+^QuickFindToolTip^Kucajte željeni tekst i pritisnite Enter^QuickFindToolTip^
+
+^Quotation^Citat^Quotation^
+
+^Reading^Čitanje...^Reading^
+
+^ReadingPane^Okno za čitanje^ReadingPane^
+
+^ReadOnly^{0} je samo za čitanje.^ReadOnly^
+
+^Recent^Nedavni^Recent^
+
+^Redo^Vratiti poništeno^Redo^
+
+^Refresh^Osvježiti^Refresh^
+
+^Refreshed^osvježen^Refreshed^
+
+^RememberMe^Zapamti me sljedeći put^RememberMe^
+
+^RemoveCondition^Ukloni uvjet^RemoveCondition^
+
+^RemoveFormat^Ukloni formatiranje^RemoveFormat^
+
+^ReportActionDescription^Prikaži izvješće u PDF formatu^ReportActionDescription^
+
+^ReportActionHeaderText^Izvješće^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Prikaz stavki u proračunsku tablicu programa Excel<br/>Microsoft.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Proračunske tablice^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Prikaz stavki kao više slika TIFF.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Kao više slika^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Pregled stavki kao Adobe PDF document.<br/>Zahtijeva kompatibilan čitač.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^PDF dokument^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Prikaz stavki u dokumentu<br/>Microsoft Word.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Obavezno^Required^
+
+^RequiredField^Ovo polje je obvezno.^RequiredField^
+
+^RequiredFiledMarkerFootNote^ukazuje na potrebno polje^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Reset^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Poništi uvjete pretraživanja?^ResetSearchConfirm^
+
+^ResolvingReferences^rješavanje reference^ResolvingReferences^
+
+^ResumeBrowsing^Nastavi pregledavanje^ResumeBrowsing^
+
+^ResumeEditing^Nastavi uređivanje^ResumeEditing^
+
+^ResumeEntering^Nastavi unos^ResumeEntering^
+
+^ResumeLookup^Nastavi odabir^ResumeLookup^
+
+^ResumeViewing^Nastavi pregledavanje^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Uloge^RolesTab^
+
+^RootNodeText^Top Level^RootNodeText^
+
+^Rotate^Rotirati^Rotate^
+
+^RowCancelActionHeaderText^Otkazati^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Umetnuti^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Spremiti^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Ažurirati?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Ažuriranje za odabir^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Snimi^Save^
+
+^SaveAndContinue^Spremite i nastavite^SaveAndContinue^
+
+^SaveAndNew^Snimi i Novo^SaveAndNew^
+
+^Saved^Spremljeno - {0}^Saved^
+
+^ScanToConfirm^Za potvrdu ponovno skenirajte.^ScanToConfirm^
+
+^SeeAll^Pogledaj sve^SeeAll^
+
+^SeeAlso^Vidi također^SeeAlso^
+
+^SelectActionHeaderText^Odabrati^SelectActionHeaderText^
+
+^SelectAll^Odaberi sve^SelectAll^
+
+^SelectItem^Odaberite stavku^SelectItem^
+
+^SelectLink^(Odaberite)^SelectLink^
+
+^SelectRow^Odaberite Row^SelectRow^
+
+^SelectToolTip^Odaberite {0}^SelectToolTip^
+
+^Separator^Separator^Separator^
+
+^Settings^Postavke^Settings^
+
+^Show^Pokazati^Show^
+
+^ShowAdvancedSearch^Prikaži Napredno pretraživanje^ShowAdvancedSearch^
+
+^ShowChart^Pokaži Chart^ShowChart^
+
+^ShowData^Pokaži podataka^ShowData^
+
+^ShowingItems^Prikazivanje <b>{0}</b> <b>{1}</b> od <b>{2}</b>-predmeta^ShowingItems^
+
+^ShowingItemsInfo^Prikazujem {0} stavaka.^ShowingItemsInfo^
+
+^ShowingItemsRange^Prikazivanje {0} od {1} predmeta^ShowingItemsRange^
+
+^ShowLess^Prikaži manje^ShowLess^
+
+^ShowMore^Prikaži više^ShowMore^
+
+^ShowOptions^Prikaži opcije^ShowOptions^
+
+^ShowSystemButtons^Prikaži gumbe sustava^ShowSystemButtons^
+
+^Sidebar^Bočni klizač^Sidebar^
+
+^Sign^Prijavite se ovdje^Sign^
+
+^SignedOut^Odjavljen^SignedOut^
+
+^SignUpNow^Prijavite se sada^SignUpNow^
+
+^Simple^Jednostavno^Simple^
+
+^SiteActions^Akcije web-mjesta^SiteActions^
+
+^SizeLabel^Veličina^SizeLabel^
+
+^Small^Mali^Small^
+
+^Social^Društven^Social^
+
+^Sort^Sortiraj^Sort^
+
+^SortBy^Sortiraj po {0}^SortBy^
+
+^SortByField^Sortiraj po polju <b>{0}</b>.^SortByField^
+
+^SortByOptions^Odaberite opcije sortiranja <b>{0}</b> po polju <b>{1}</b> na popisu opcija.^SortByOptions^
+
+^Sorted^Poredano^Sorted^
+
+^SortedDefault^Zadana vrsta poretka.^SortedDefault^
+
+^StartImport^Početak uvoz^StartImport^
+
+^StrikeThrough^Precrtaj^StrikeThrough^
+
+^StringSortAscending^Uzlazni^StringSortAscending^
+
+^StringSortDescending^Silazni^StringSortDescending^
+
+^Submit^podnijeti^Submit^
+
+^Subscript^Snizi^Subscript^
+
+^Suggestions^Prijedlozi^Suggestions^
+
+^SumAggregate^Zbroj: {0}^SumAggregate^
+
+^SumAggregateToolTip^Zbroj {0}^SumAggregateToolTip^
+
+^Summary^Rezime^Summary^
+
+^Summer^Summer^Summer^
+
+^SumOf^Zbroj^SumOf^
+
+^Superscript^Povisi^Superscript^
+
+^Sync^Sinkronizacija^Sync^
+
+^TaskResume^Nastaviti^TaskResume^
+
+^Tasks^Zadaci^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^abc^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^Ispitivanje zapisa^TestingRecords^
+
+^Text^Tekst^Text^
+
+^TextFilterText^Tekst Filteri^TextFilterText^
+
+^Theme^Tema^Theme^
+
+^ThisMonth^Ovaj mjesec^ThisMonth^
+
+^ThisQuarter^Ova četvrt^ThisQuarter^
+
+^ThisWeek^Ovaj tjedan^ThisWeek^
+
+^ThisYear^Ove godine^ThisYear^
+
+^Tiny^sićušan^Tiny^
+
+^Today^Danas^Today^
+
+^Tomorrow^Sutra^Tomorrow^
+
+^Top^vrh^Top^
+
+^ToThisWebsite^na ovu stranicu^ToThisWebsite^
+
+^TouchUINotSupported^Touch UI nije podržan u ovom pregledniku.^TouchUINotSupported^
+
+^TransitionFade^Uvenuti^TransitionFade^
+
+^TransitionFlip^Flip^TransitionFlip^
+
+^TransitionFlow^Prijelaz^TransitionFlow^
+
+^TransitionNone^Nijedno^TransitionNone^
+
+^TransitionPop^Iskakanje^TransitionPop^
+
+^Transitions^Prijelazi^Transitions^
+
+^TransitionSlide^Klizanje^TransitionSlide^
+
+^TransitionSlideDown^Klizanje dolje^TransitionSlideDown^
+
+^TransitionSlideUp^Klizanje gore^TransitionSlideUp^
+
+^TransitionTurn^Okret^TransitionTurn^
+
+^TreeActionDescription^Prikaz hijerarhijskih odnosa.^TreeActionDescription^
+
+^TreeActionHeaderText^Prikaži hijerarhiju^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Nabavite verifikacijski kod^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Aplikacija Authenticator^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Ako ne možete navesti kontrolni kôd, umjesto toga unesite zamjenski kôd.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^jednokratni kod^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Rezervni kôd^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Poziv je upućen na^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^E -pošta je poslana na^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^SMS je poslan na^TwoFaCodeSentSms^
+
+^TwoFaConsent^Pristanak^TwoFaConsent^
+
+^TwoFaEnterPassword^Unesite svoju lozinku^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Nazovi me na^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^nazvat ću^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^Pošaljite mi e -poruku na^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^Pošaljite mi poruku na^TwoFaGetCodeSms^
+
+^TwoFaMethod^Metoda^TwoFaMethod^
+
+^TwoFaMsgChanged^Dvofaktorska autentifikacija je promijenjena.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^Dvofaktorska provjera autentičnosti je onemogućena.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Onemogućiti dvofaktorsku provjeru autentičnosti?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^Omogućena je dvofaktorska provjera autentičnosti.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Molimo unesite {0} znamenkasti kontrolni kôd.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Netočna zaporka.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Nevažeći kontrolni kôd.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 je vaš {0} kontrolni kôd.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^Ne mogu skenirati QR kôd.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Trebam pomoć pri instaliranju aplikacije za provjeru autentičnosti.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Imam aplikaciju za provjeru autentičnosti na mobilnom uređaju.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^Rezervni kodovi za jednokratnu upotrebu omogućit će vam da se prijavite ako ne možete unijeti kontrolni kôd.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Sigurnosni kodovi^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Nakon uspješne prijave unijet ću kontrolni kôd.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Unesite ključ za postavljanje u aplikaciju^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Metode provjere^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Skenirajte QR kôd fotoaparatom^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Skenirajte QR kôd u aplikaciji^TwoFaSetupScanQrCode^
+
+^TwoFaText^Autentifikacija u 2 faktora^TwoFaText^
+
+^TwoFaTrustThisDevice^Vjerujte ovom uređaju^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Verifikacijski kod^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Koristit ću aplikaciju za provjeru autentičnosti za dobivanje kontrolnog koda.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Primit ću automatizirani poziv na svoj telefon.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Verifikacijski kôd bit će poslan putem e -pošte.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Verifikacijski kôd bit će poslan putem tekstualne poruke.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Upišite za pretraživanje^TypeToSearch^
+
+^Underline^Podcrtaj^Underline^
+
+^Undo^Poništi^Undo^
+
+^Undock^Odvoji^Undock^
+
+^Unfreeze^Odmrzni^Unfreeze^
+
+^UnGrouped^Grupiranje je uklonjeno^UnGrouped^
+
+^UnLink^Otkači^UnLink^
+
+^UnSelect^Deselektiraj^UnSelect^
+
+^UpdateActionHeaderText^OK^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Ažurirati?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Ažuriranje za odabir^UpdateActionInBatchModeHeaderText^
+
+^Upload^Učitaj^Upload^
+
+^UploadDescription^Prenesite više datoteka.^UploadDescription^
+
+^Uploading^Prijenos {0}...^Uploading^
+
+^UpOneLevel^Jednu razinu prema gore^UpOneLevel^
+
+^UseLEV^Zalijepi "{0}"^UseLEV^
+
+^UserName^Korisničko ime^UserName^
+
+^UsersInRole^Korisnici u ulozi^UsersInRole^
+
+^UsersTab^Korisnici^UsersTab^
+
+^Vantage^Vantage^Vantage^
+
+^Verdant^Verdant^Verdant^
+
+^Verify^Provjerite^Verify^
+
+^View^Pogled^View^
+
+^Viewpoint^Gledište^Viewpoint^
+
+^Wait^Molimo pričekajte ...^Wait^
+
+^Week^Tjedan^Week^
+
+^Welcome1^Dobrodošli^Welcome1^
+
+^Welcome2^Danas je^Welcome2^
+
+^WhiteSmoke^Whitesmoke^WhiteSmoke^
+
+^WithSelectedValues10^S odabranim vrijednostima (Top 10)^WithSelectedValues10^
+
+^WithSelectedValues5^S odabranim vrijednostima (prvih 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^S određenim filtrima^WithSpecifiedFilters^
+
+^Year^Godina^Year^
+
+^YearToDate^Početak godine do danas^YearToDate^
+
+^Yes^Da^Yes^
+
+^Yesterday^Jučer^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Povećaj^ZoomIn^
+
+^ZoomOut^Smanji^ZoomOut^
+

@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Kontijiet amministrattivi^AdminDesc^
+
+^SignInHeader^Istruzzjonijiet^SignInHeader^
+
+^SignInInstruction^Sinjal aċċess għall-kontenut tas-sit protett.^SignInInstruction^
+
+^SignInPara1^Żewġ kontijiet standard utent huma awtomatikament maħluqa meta l-applikazzjoni huwa initialized jekk l-għażla sħubija ġiet magħżula għal din l-applikazzjoni.^SignInPara1^
+
+^SignInPara2^Il-<b>admin</b> kont amministrattiva hija awtorizzata li jkollha aċċess oqsma kollha tal-web site u l-maniġer sħubija. Il-kont <b>user</b> istandard huwa permess għall-aċċess oqsma kollha tas-sit web bl-eċċezzjoni ta &#39;maniġer sħubija.^SignInPara2^
+
+^SignInPara3^Mexxi l-mouse pointer fuq il-<i>Login link għal dan site</i>-web fuq in-naħa tal-lemin fil-quċċata tal-paġna u sinjal ma &#39;wieħed mill-kontijiet elenkati hawn taħt.^SignInPara3^
+
+^UserDesc^Kont standard utent^UserDesc^
+

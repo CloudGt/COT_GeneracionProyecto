@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Skep &#39;n nuwe gebruiker rekord.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^New User^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nuwe^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Terug^BackToRequestPasswordActionHeaderText^
+
+^Comment^Kommentaar^Comment^
+
+^ConfirmIdentityActionHeaderText^Finish^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Bevestig nuwe wagwoord^ConfirmNewPassword^
+
+^ConfirmPassword^Bevestig wagwoord^ConfirmPassword^
+
+^CreateDate^Skep Datum^CreateDate^
+
+^CreateFormCommentCategoryDescription^Gee enige verdere kommentaar oor hierdie rekening. Kommentaar is nie sigbaar vir die gebruiker.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Kommentaar^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Gee gebruikersnaam en wagwoord. Let daarop dat die wagwoord moet ten minste 7 karakters lank en sluit &#39;n nie-alfa numeriese karakter. Slegs goedgekeurde gebruikers in staat sal wees om in die webwerf aan te meld.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^New User Information^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Hierdie velde is verpligtend om &#39;n gebruiker te help om&#39; n vergete wagwoord te herstel. Tydens die herstel proses is die gebruiker sal gevra word om &#39;n gebruiker se naam in te voer. Indien &#39;n rekening bestaan ​​dan&#39; n sekuriteits vraag is versoek om beantwoord te word. &#39;N korrekte antwoord sal&#39; n e-pos met &#39;n tydelike wagwoord stuur na die gebruiker aktiveer.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Password Recovery^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Kies asseblief rolle van gebruikers wat ten nouste ooreenstem met Gebruiker se verantwoordelikhede. Rolle beheer toegang tot die areas van hierdie webwerf. Let asseblief kontak die stelseladministrateur as rol toegang beperkinge moet verander word.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Rolle^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Vul asseblief hierdie vorm en kliek OK knoppie om &#39;n nuwe gebruiker lidmaatskap rekord te skep. Klik op Kanselleer om terug te keer na die vorige skerm.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^New User^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Hierdie rekening sal geskep word soos goedgekeur.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Dubbele e-posadres.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Dubbele verskaffer sleutel.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Dubbele gebruikersnaam.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Aktiwiteit Statistiek^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Hierdie rekening is goedgekeur^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Dit is die statistieke van mislukte aanlogpogingen deur hierdie gebruiker. <br/> <br/> Gebruiker sal gesluit word nadat &#39;n maksimum aantal van mislukte aanlogpogingen bereik. <br/> <br/> Geslote gebruikers in staat sal wees om om weer aan te meld na die datum in misluk Wagwoord Poging venster Begin wees. <br/> <br/> Gebruikers wat versuim het om die wagwoord te herstel sal in staat wees om dit na die datum in misluk wagwoord Antwoord Poging venster Start. <br/> <br/> Jy kan die gebruiker se vermoë om om aan te meld deur die instelling van uitgesluit vlag op &#39;Nee&#39; te herstel.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Login Stats^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Tydens die herstel van &#39;n vergete wagwoord van die gebruiker sal gevra word om&#39; n gebruiker se naam in te voer. Indien &#39;n rekening bestaan ​​dan&#39; n sekuriteits vraag is versoek om beantwoord te word. &#39;N korrekte antwoord sal&#39; n e-pos met &#39;n tydelike wagwoord stuur na die gebruiker aktiveer. <br/><br/> Verander toegesluit vlag te &quot;Nee&quot; As die gebruiker is uitgesluit nadat &#39;n maksimum aantal van mislukte aanlogpogingen bereik en jy wil toelaat dat die gebruiker om weer aan te meld.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Password Recovery^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Kies asseblief rolle van gebruikers wat ten nouste ooreenstem met Gebruiker se verantwoordelikhede. Rolle beheer toegang tot die areas van hierdie webwerf. Let asseblief kontak die stelseladministrateur as rol toegang beperkinge moet verander word. <br/> <br/> Voer enige bykomende kommentaar oor hierdie rekening. Kommentaar is nie sigbaar vir die gebruiker.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^User Information^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Kontroleer gebruiker lidmaatskap onderstaande inligting. Kliek op Verander om hierdie rekord te verander, kliek op Verwyder om die rekord te verwyder, of kliek op Kanselleer / Beslote om terug te keer.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Review User^EditFormViewLabel^
+
+^Email^E-pos^Email^
+
+^EnterCurrentPassword^Gee jou huidige wagwoord.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Voer &#39;n wagwoord antwoord.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Fout tydens stoor rekening.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Misluk Wagwoord Antwoord Poging Count^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Misluk wagwoord Antwoord Poging venster Begin^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Misluk Wagwoord Poging Count^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Misluk Wagwoord Poging venster Begin^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Dit is &#39;n lys van lidmaatskap gebruiker rekords.^GridViewHeaderText^
+
+^GridViewLabel^Alle gebruikers^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Beantwoord die volgende vraag aan om jou wagwoord te ontvang. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identity Bevestiging^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Vul asseblief hierdie vorm en klik op die knoppie om die vergete wagwoord te herstel indien. Klik op Kanselleer om terug te keer na die vorige skerm.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Password Recovery: Stap 2 van 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Ongeldige wagwoord herstel antwoord.^InvalidAnswer^
+
+^InvalidEmail^Ongeldige e-pos adres.^InvalidEmail^
+
+^InvalidPassword^Ongeldige wagwoord.^InvalidPassword^
+
+^InvalidProviderUserKey^Ongeldige verskaffer gebruiker sleutel.^InvalidProviderUserKey^
+
+^InvalidQuestion^Ongeldige wagwoord herstel vraag.^InvalidQuestion^
+
+^InvalidUserName^Ongeldige gebruikersnaam.^InvalidUserName^
+
+^IsApproved^Goedgekeur is^IsApproved^
+
+^IsLockedOut^Uitgesluit^IsLockedOut^
+
+^LastLockoutDate^Laaste uitsluiting Datum^LastLockoutDate^
+
+^LastLoginDate^Laaste Aanmelding Datum^LastLoginDate^
+
+^LastPasswordChangedDate^Laaste Wagwoord verander Datum^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Wagwoord Antwoord (word nie vertoon vir u beskerming)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Gee jou huidige wagwoord in om &#39;n nuwe wagwoord te skep, werk jou e-posadres of wagwoord verander herstel vraag en antwoord.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Huidige wagwoord^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Kontroleer jou lidmaatskap inligting hieronder. Kliek Werk my rekening om hierdie rekord te verander, of kliek Kanselleer om terug te keer.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^My Account^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Tik nuwe wagwoord. Let daarop dat die wagwoord moet ten minste 7 karakters lank en sluit &#39;n nie-alfa numeriese karakter.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nuwe Wagwoord (opsioneel)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Tydens die herstel van &#39;n vergete wagwoord sal jy gevra word om jou gebruikers naam te gee. Indien &#39;n rekening bestaan ​​dan&#39; n wagwoord vraag moet beantwoord word. &#39;N korrekte antwoord sal&#39; n e-pos met &#39;n tydelike wagwoord stuur aan jou sneller.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-pos &amp; Password Recovery (Opsioneel)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nuwe wagwoord^NewPassword^
+
+^NewPasswordAlert^&#39;N nuwe wagwoord per e-pos na die adres op die lêer.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Nuwe wagwoord en bevestiging nie ooreen nie.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^U nuwe wagwoord is ongeldig.^NewPasswordInvalid^
+
+^NewPasswordSubject^Nuwe wagwoord vir \&#39;{0} \ &quot;.^NewPasswordSubject^
+
+^OldPassword^Oud wagwoord^OldPassword^
+
+^Password^Wagwoord^Password^
+
+^PasswordAndConfirmationDoNotMatch^Wagwoord en die bevestiging kom nie ooreen nie.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Wagwoord Antwoord^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Jou wagwoord kom nie ooreen met ons rekords.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Wagwoord Grootte^PasswordFormat^
+
+^PasswordQuestion^Wagwoord Vraag^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Voer &#39;n gebruiker se naam. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Wagwoord vergeet?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Vul asseblief hierdie vorm in en klik op die knoppie voort om die vergete wagwoord te herstel. Klik op Kanselleer om terug te keer na die vorige skerm.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: Stap 1 van 2^PasswordRequestViewLabel^
+
+^ProviderError^Verskaffer fout.^ProviderError^
+
+^RequestPasswordActionHeaderText^Volgende^RequestPasswordActionHeaderText^
+
+^Roles^Rolle^Roles^
+
+^SelfRegisteredUser^Self-geregistreerde gebruiker.^SelfRegisteredUser^
+
+^SignUp^Om in^SignUp^
+
+^SignUpViewHeaderText^Vul asseblief hierdie vorm en kliek OK knoppie om aan te meld vir &#39;n rekening. Klik op Kanselleer om terug te keer na die vorige skerm.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Rekening Aanteken^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Gee gebruikersnaam en wagwoord. Let daarop dat die wagwoord moet ten minste 7 karakters lank en sluit &#39;n nie-alfa numeriese karakter. Slegs goedgekeurde gebruikers in staat sal wees om in die webwerf aan te meld.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^New User Information^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Hierdie velde is verpligtend om jou te help om &#39;n vergete wagwoord te herstel. Tydens die herstel proses, sal jy gevra word om &#39;n gebruiker se naam in te voer. Indien &#39;n rekening bestaan ​​dan&#39; n sekuriteits vraag is versoek om beantwoord te word. &#39;N korrekte antwoord sal&#39; n e-pos met &#39;n tydelike wagwoord stuur na die geregistreerde e-pos sneller.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Werk my account^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Gebruiker kan nie gesluit word. As jy wil hierdie gebruiker te verhoed om aan te meld, dan eenvoudig merk gebruiker as &#39;nie-goedgekeurde &quot;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Gebruikers&#39;{0}&#39; is verwyder.^UserHasBeenDeleted^
+
+^UserName^User Name^UserName^
+
+^UserNameDoesNotExist^User name bestaan ​​nie.^UserNameDoesNotExist^
+
+^UserNotFound^Gebruiker nie gevind nie.^UserNotFound^
+
+^UserRejected^Gebruikers is verwerp.^UserRejected^
+
+^UsersInRolesGridHeaderText^Dit is &#39;n lys van lidmaatskap gebruiker rekords wat behoort aan&#39; n geselekteerde rol.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Gebruikers in &#39;n rol^UsersInRolesGridLabel^
+

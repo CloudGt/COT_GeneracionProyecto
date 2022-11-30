@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Створіть новий рекорд Роль членства.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Нова роль^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Новий^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Заповніть форму. Переконайтеся в тому, щоб ввести всі необхідні поля.^CreateFormCategory^
+
+^CreateFormHeaderText^Будь ласка, заповніть цю форму та натисніть кнопку ОК, щоб створити новий склад ролей запису. Натисніть Скасувати, щоб повернутися до попереднього вигляду.^CreateFormHeaderText^
+
+^DescriptionLabel^Опис^DescriptionLabel^
+
+^EditViewCategory^Ці поля запису членство ролі, яку може редагувати.^EditViewCategory^
+
+^EditViewHeaderText^Будь ласка, ознайомтеся з інформацією членства ролей нижче. Натисніть Змінити, щоб змінити цей запис, натисніть кнопку Видалити, щоб видалити запис, або натисніть кнопку Відмінити / Закрити, щоб повернутися назад.^EditViewHeaderText^
+
+^GridViewHeaderText^Це список членства ролей.^GridViewHeaderText^
+
+^RoleNameLabel^Ім&#39;я ролі^RoleNameLabel^
+

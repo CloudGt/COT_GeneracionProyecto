@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Um^About^
+
+^Accent^Accent^Accent^
+
+^ActionBarActionsHeaderText^Aðgerðir^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Hætta við^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Hætta við öll met breytingar.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Hætta við ný met.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Vista nýtt met í gagnagrunninn.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Vista^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Búa til nýjan {0} met.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^Ný {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Nýtt^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Taka upp^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Skýrsla^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Vista breytingar á gagnagrunninum.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Vista^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Bæta við aðgangi^AddAccount^
+
+^AddCondition^Bæta hótels^AddCondition^
+
+^AddConditionText^Bæta við leit ástand^AddConditionText^
+
+^AddItem^Bæta Hlutir^AddItem^
+
+^AddMatchingGroup^Bæta passa hóp^AddMatchingGroup^
+
+^AddSearchBarField^Meira Leita Fields^AddSearchBarField^
+
+^AddSystemIdentity^Bæta System Identity^AddSystemIdentity^
+
+^AddToFavorites^Bæta við eftirlæti^AddToFavorites^
+
+^AdvancedSearch^Advanced Search^AdvancedSearch^
+
+^AdvancedSearchInstruction^Sláðu skilyrða sem þarf að passa og ýttu á hnappinn Leita.^AdvancedSearchInstruction^
+
+^After^Eftir^After^
+
+^Agenda^Dagskrá^Agenda^
+
+^AlignedLeft^Markviss stefna Vinstri^AlignedLeft^
+
+^AlignedRight^Markviss stefna Hægri^AlignedRight^
+
+^AllDatesInPreriod^Allar dagsetningar í Tímabil^AllDatesInPreriod^
+
+^AlternativeView^Veldu aðra sýn á gögn.^AlternativeView^
+
+^Always^Alltaf^Always^
+
+^AnyValue^(Einhver)^AnyValue^
+
+^Apply^Gilda^Apply^
+
+^Apps^forrit^Apps^
+
+^Aquarium^Aquarium^Aquarium^
+
+^Auto^Auto^Auto^
+
+^AutoOpenNextItem^Opna sjálfkrafa næsta atriði^AutoOpenNextItem^
+
+^AverageOf^Meðaltal^AverageOf^
+
+^AvgAggregate^Opna {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Meðaltal {0}^AvgAggregateToolTip^
+
+^Azure^Azure^Azure^
+
+^Back^Aftur^Back^
+
+^BackColor^Back Litur^BackColor^
+
+^BatchEditActionHeaderText^Hópur Breyta^BatchEditActionHeaderText^
+
+^BatchEdited^{0} uppfært^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Hópur Breyta (eyðublað)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^uppfæra^BatchUpdate^
+
+^Before^Áður en^Before^
+
+^BeginsWith^Hefst með^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^Berry^Berry^
+
+^Between^Milli^Between^
+
+^Bittersweet^Taívanska^Bittersweet^
+
+^Blank^Blank^Blank^
+
+^BlankPassword^Lykilorð geta ekki verið auð.^BlankPassword^
+
+^BlankUserName^Notandanafn er ekki hægt að eyða.^BlankUserName^
+
+^BlankValue^(Eyða)^BlankValue^
+
+^BlobDownloadHint^Smelltu hér til að sækja upprunalega skrá.^BlobDownloadHint^
+
+^BlobDownloadLink^download^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Pikkaðu á mynd til að hlaða niður upprunalegu skránni.^BlobDownloadOriginalHint^
+
+^Blur^Óskýrt^Blur^
+
+^Bold^Feitletrað^Bold^
+
+^BooleanFilterText^Logical Síur^BooleanFilterText^
+
+^BooleanIsExpected^A rökrétt gildi er gert ráð fyrir.^BooleanIsExpected^
+
+^ButtonShapes^Hnappinn form^ButtonShapes^
+
+^By^með^By^
+
+^Calendar^Dagatal^Calendar^
+
+^Cancel^Hætta við^Cancel^
+
+^Cards^Kort^Cards^
+
+^Cay^Cay^Cay^
+
+^ChangeYourLanguage^Breyta tungumál^ChangeYourLanguage^
+
+^Charts^Charts^Charts^
+
+^Citrus^Sítrus^Citrus^
+
+^Classic^Classic^Classic^
+
+^ClearFilter^Hreinsa Sía frá {0}^ClearFilter^
+
+^ClearFilter2^Hreinsa síu^ClearFilter2^
+
+^ClearText^Skýrum texta^ClearText^
+
+^ClearToolTip^Hreinsa {0}^ClearToolTip^
+
+^Close^Loka^Close^
+
+^Comfortable^Þægilegt^Comfortable^
+
+^Compact^Compact^Compact^
+
+^Condensed^Þéttur^Condensed^
+
+^ConfirmContinue^Halda áfram?^ConfirmContinue^
+
+^ConfirmReload^Uppfæra?^ConfirmReload^
+
+^ConnectionLost^The net tenging hefur rofnað. Reyna aftur?^ConnectionLost^
+
+^Construct^Teikna^Construct^
+
+^Contains^Inniheldur^Contains^
+
+^Convention^Venju^Convention^
+
+^Copy^Afrita^Copy^
+
+^CountAggregate^Count: {0}^CountAggregate^
+
+^CountAggregateToolTip^Telja af {0}^CountAggregateToolTip^
+
+^CountOf^Telja^CountOf^
+
+^CreateLink^Búa til tengil^CreateLink^
+
+^CustomFilterOption^Sía ...^CustomFilterOption^
+
+^Cut^Skera^Cut^
+
+^DarkKnight^Dark Knight^DarkKnight^
+
+^DarkTheme^Dark^DarkTheme^
+
+^DataSheetActionDescription^Sýna atriði með gögn sheet<br/>format.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Sýna í Data Sheet^DataSheetActionHeaderText^
+
+^DataWarning^Hámarksfjöldi atriði til ferli er {0: d}. Smelltu hér til að sía niðurstöður.^DataWarning^
+
+^Date^Dagsetning^Date^
+
+^DateFilterText^Date Síur^DateFilterText^
+
+^DateIsExpected^A dagsetning er gert ráð fyrir.^DateIsExpected^
+
+^DatesAMinAgo^mínútu síðan^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^í eina mínútu^DatesInAMin^
+
+^DatesInHour^innan við klukkutíma^DatesInHour^
+
+^DatesInMin^í {0} mín^DatesInMin^
+
+^DatesLast^Síðasta^DatesLast^
+
+^DatesMinAgo^{0} Min ago^DatesMinAgo^
+
+^DatesNext^næsta^DatesNext^
+
+^DatesNow^nú^DatesNow^
+
+^DatesOneHour^Fyrir klukkutíma síðan^DatesOneHour^
+
+^DateSortAscending^Fyrsta lagi á Top^DateSortAscending^
+
+^DateSortDescending^Nýjustu efst^DateSortDescending^
+
+^DatesSmart^Smart Dagsetningar^DatesSmart^
+
+^DatesToday^í dag^DatesToday^
+
+^DatesTomorrow^á morgun^DatesTomorrow^
+
+^DatesYesterday^í gær^DatesYesterday^
+
+^Day^Day^Day^
+
+^DefaultCancelActionHeaderText^Loka^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Vinsamlegast fyllið þetta form og smelltu á OK hnappinn til að búa til nýja {0} met. Smelltu á Hætta við til að fara aftur í fyrri skjá.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^Þetta eru reitir á {0} skrá sem hægt er að breyta.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Vinsamlega farðu {0} upplýsingar hér að neðan. Smelltu á Breyta til að breyta þessari skrá, smelltu Eyða til að eyða skrá, eða smelltu á Hætta við / Close til að fara aftur til baka.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Þetta er listi yfir {0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Fylltu út eyðublaðið. Gakktu úr skugga um að færa inn allar umbeðnar sviðum.^DefaultNewDescription^
+
+^DefaultOption^Staðall^DefaultOption^
+
+^DefaultReferenceDescription^Frekari upplýsingar um {0} er að finna í upplýsingum tilvísun kafla.^DefaultReferenceDescription^
+
+^Delete^Eyða^Delete^
+
+^DeleteActionConfirmation^Eyða?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Eyða^DeleteActionHeaderText^
+
+^Deleted^{$ valið} eytt^Deleted^
+
+^DeleteOriginalSel^eyða upprunalegu vali^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Eyða)^DeleteSearchBarField^
+
+^DetailsToolTip^Skoða upplýsingar um {0}^DetailsToolTip^
+
+^DevelopExplorer^Project Explorer^DevelopExplorer^
+
+^DevelopFormLayout^Form útlit^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^Veldu skjástærðina sem fylgja með í útliti.^DevelopFormLayoutInstr^
+
+^DevelopTools^Hönnuður Verkfæri^DevelopTools^
+
+^Device^Tæki^Device^
+
+^DeviceLoginPrompt^Vinsamlegast skráðu þig inn til að heimila aðgang að þessu tæki.^DeviceLoginPrompt^
+
+^DidNotMatch^Pössuðu ekki^DidNotMatch^
+
+^Directions^Áttir^Directions^
+
+^DiscardChanges^Hætta við breytingar?^DiscardChanges^
+
+^DisplayDensity^Sýna Density^DisplayDensity^
+
+^DisplayedAbove^Sýndar hér að ofan^DisplayedAbove^
+
+^DisplayedBelow^Birtist neðan^DisplayedBelow^
+
+^Dock^Tengja^Dock^
+
+^DoesNotBeginWith^Er ekki byrja með^DoesNotBeginWith^
+
+^DoesNotContain^Inniheldur ekki^DoesNotContain^
+
+^DoesNotEndWith^Endar ekki með^DoesNotEndWith^
+
+^DoesNotEqual^Er ekki jafnt^DoesNotEqual^
+
+^DoesNotInclude^Tekur ekki til^DoesNotInclude^
+
+^DoNotMatchAll^Passa ekki öll skilyrði^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Pössuðu ekki öll skilyrði^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Passa ekki öll skilyrði^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Fékk ekki neina skilyrði^DoNotMatchAnyPastTense^
+
+^Download^Sækja^Download^
+
+^Draw^Teikna^Draw^
+
+^DuplicateActionHeaderText^Afrit^DuplicateActionHeaderText^
+
+^DuplicateItem^Afrita liður^DuplicateItem^
+
+^DuplicateRow^Afrit Row^DuplicateRow^
+
+^EditActionHeaderText^Breyta^EditActionHeaderText^
+
+^EditItem^Breyta hlut^EditItem^
+
+^EditModeCancelActionHeaderText^Hætta við^EditModeCancelActionHeaderText^
+
+^EditRow^Breyta rad^EditRow^
+
+^Empty^Empty^Empty^
+
+^EmptyContext^Aðgerðir eru ekki í boði.^EmptyContext^
+
+^EmptyValue^(Tóm)^EmptyValue^
+
+^Enable^Virkja^Enable^
+
+^EndsWith^Endar með^EndsWith^
+
+^Equals^Jafnt^Equals^
+
+^Eraser^Strokleður^Eraser^
+
+^Error^Villa^Error^
+
+^Exit^Hætta^Exit^
+
+^ExitFullscreen^Hætta á öllum skjánum^ExitFullscreen^
+
+^ExportCsvActionDescription^Sækja atriði í CSV formi.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Sækja^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Greindu hluti með spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Flytja í töflureikni^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Syndicate atriði með RSS lesandi.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^Skoða RSS Feed^ExportRssActionHeaderText^
+
+^Favorites^Favorites^Favorites^
+
+^Felt^Fannst^Felt^
+
+^FileCleared^Gildi verður hreinsað við vista^FileCleared^
+
+^FilesBytes^bytes^FilesBytes^
+
+^FilesClear^Hreinsa^FilesClear^
+
+^FilesClearConfirm^Hreinsa?^FilesClearConfirm^
+
+^FilesClick^Smelltu til að velja skrá^FilesClick^
+
+^FilesClickMany^Smelltu til að velja skrár^FilesClickMany^
+
+^FilesDrop^Slepptu skrá hér^FilesDrop^
+
+^FilesDropMany^Sleppa skrám hér^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Pikkaðu til að velja skrá^FilesTap^
+
+^FilesTapMany^Pikkaðu til að velja skrár^FilesTapMany^
+
+^Filter^Sía^Filter^
+
+^FilterApplied^A sía hefur verið beitt.^FilterApplied^
+
+^FilterByField^Veldu reit til að beita síu til <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Veldu einn eða fleiri valkosti í listanum hér að neðan og ýttu á <b>{2}</b> að sía <b>{0}</b> því sviði <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Hreinsa allar síur.^FilterCleared^
+
+^FilterLabelAnd^og^FilterLabelAnd^
+
+^FilterLabelClear^Hreinsa^FilterLabelClear^
+
+^FilterLabelEquals^jafngildir^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Breyta^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^felur í sér^FilterLabelIncludes^
+
+^FilterLabelOr^eða^FilterLabelOr^
+
+^FilterLabelSelectAll^(Select All)^FilterLabelSelectAll^
+
+^FilterSiteMap^Sía Veftré ...^FilterSiteMap^
+
+^Finish^Ljúka^Finish^
+
+^FitToWidth^Fit að breidd^FitToWidth^
+
+^FlatTreeToggle^Skipta yfir í stigveldi^FlatTreeToggle^
+
+^FontName^Font Name^FontName^
+
+^FontSize^Leturstærð^FontSize^
+
+^ForeColor^Kúla Litur^ForeColor^
+
+^Forget^Gleymdu^Forget^
+
+^ForgotYourPassword^Gleymdirðu lykilorðinu þínu?^ForgotYourPassword^
+
+^Format^Format^Format^
+
+^Freeze^Frysta^Freeze^
+
+^From^frá^From^
+
+^Fullscreen^Fullscreen^Fullscreen^
+
+^Future^Framundan^Future^
+
+^GeneralTabText^Almennt^GeneralTabText^
+
+^Generate^Búa til^Generate^
+
+^GenericNewToolTip^Búa til nýja^GenericNewToolTip^
+
+^GenericSortAscending^Minnsta á Top^GenericSortAscending^
+
+^GenericSortDescending^Stærstu ofan^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Grand Samtölur^GrandTotals^
+
+^Granite^Granít^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Þyngdarafl^Gravity^
+
+^GreaterThan^Greater Than^GreaterThan^
+
+^GreateThanOrEqual^Stærra en eða jafnt^GreateThanOrEqual^
+
+^Grid^Rist^Grid^
+
+^GridActionDescription^Sýna atriði í standard<br/>list sniði.^GridActionDescription^
+
+^GridActionHeaderText^Sýna í Standard View^GridActionHeaderText^
+
+^Group^Group^Group^
+
+^GroupByField^Veldu reit og hópi <b>{0}</b>.^GroupByField^
+
+^Grouped^Flokkað^Grouped^
+
+^GroupedBy^Flokkaðar eftir^GroupedBy^
+
+^GroupedDefault^Flokkun hefur verið fjarlægð^GroupedDefault^
+
+^Heading1^Fyrirsögn 1^Heading1^
+
+^Heading2^Fyrirsögn 2^Heading2^
+
+^Heading3^Fyrirsögn 3^Heading3^
+
+^Heading4^Fyrirsögn 4^Heading4^
+
+^Heading5^Fyrirsögn 5^Heading5^
+
+^Heading6^Fyrirsögn 6^Heading6^
+
+^Help^Hjálp^Help^
+
+^HelpClose^Loka^HelpClose^
+
+^HelpFullScreen^Full Screen^HelpFullScreen^
+
+^Hide^fela^Hide^
+
+^HideAdvancedSearch^Fela Ítarleg leit^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Skipta yfir í Flat List^HierarchyTreeModeToggle^
+
+^Highlighter^Hápunktur^Highlighter^
+
+^History^Saga^History^
+
+^HistoryToolTip^Skoða sögu áður völdum færslum^HistoryToolTip^
+
+^HistoryUnavailable^Sagan er ekki í boði.^HistoryUnavailable^
+
+^Home^Forsíða^Home^
+
+^IdleUser^Ert þú enn þarna? Vinsamlegast skráðu þig inn aftur.^IdleUser^
+
+^ImportActionDescription^Hlaða upp CSV, XLS, eða XLSX file<br/>to flytja skrár.^ImportActionDescription^
+
+^ImportActionHeaderText^Flytja inn úr skrá^ImportActionHeaderText^
+
+^ImportAutoDetect^(Sjálfvirkt greina)^ImportAutoDetect^
+
+^ImportComplete^heill^ImportComplete^
+
+^ImportDone^lokið innflutningur^ImportDone^
+
+^ImportDownloadTemplate^Sækja flytja skrá sniðmát.^ImportDownloadTemplate^
+
+^ImportDuplicates^tvítekningar^ImportDuplicates^
+
+^ImportEmail^Senda inn skrá þig inn á eftirfarandi netföng (valfrjálst)^ImportEmail^
+
+^ImportEmailNotSpecified^Viðtakanda innflutningi þig inn hefur ekki verið tilgreint. Halda áfram samt?^ImportEmailNotSpecified^
+
+^ImportExpected^Gert ráð fyrir að ljúka^ImportExpected^
+
+^ImportFileStats^Það eru <b>{0}</b> færslur í skránni <b>{1}</b> tilbúinn til að vinna. Vinsamlegast passa heitum.^ImportFileStats^
+
+^Importing^Flyt^Importing^
+
+^ImportMappingInstruction^Það eru <b>{0}</b> skráð (ur) í skránni <b>{1}</b> tilbúinn til að processed.<br/>Please kort innflutning sviðum frá gögnum skrá um beitingu viðeigandi reiti og smelltu <i>Import</i> til að hefja vinnslu.^ImportMappingInstruction^
+
+^ImportNotSupported^Gögn snið &quot;{0}&quot; er ekki studd.^ImportNotSupported^
+
+^ImportProcessing^Flytja inn skrá vinnsla hefur verið hafin. The flutt gögn færslur verða í boði á vel vinnslu. Þú gætir þurft að uppfæra viðkomandi innlit / síður til að sjá innfluttar færslur.^ImportProcessing^
+
+^ImportRemaining^Gert ráð fyrir að ljúka^ImportRemaining^
+
+^ImportSelectFile^Veldu gögn skrá í CSV, XLS, eða XLSX sniði.^ImportSelectFile^
+
+^ImportStartButton^Innflutningur^ImportStartButton^
+
+^ImportUploading^Skráin er hlaðið upp á þjóninum. Vinsamlega bíðið ...^ImportUploading^
+
+^ImportUploadInstruction^Vinsamlegast veldu skrá til að hlaða. Skráin verður að vera í <b>CSV</b>, <b>XLS</b> eða <b>XLSX</b> sniði.^ImportUploadInstruction^
+
+^In^í^In^
+
+^Includes^Includes^Includes^
+
+^Indent^Undirlið^Indent^
+
+^InfoBarAnd^og^InfoBarAnd^
+
+^InfoBarEmpty^tómt^InfoBarEmpty^
+
+^InfoBarEqualTo^er jafnt og^InfoBarEqualTo^
+
+^InfoBarGreaterThan^er meiri en^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^er stærra en eða jafnt og^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^er minna en^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^er minna en eða jafnt og^InfoBarLessThanOrEqual^
+
+^InfoBarLike^er eins og^InfoBarLike^
+
+^InfoBarOr^eða^InfoBarOr^
+
+^InfoBarQuickFind^Hvaða sviði inniheldur^InfoBarQuickFind^
+
+^InfoBarStartsWith^byrjar með^InfoBarStartsWith^
+
+^InitialListMode^Byrjunar List Mode^InitialListMode^
+
+^InlineEditing^Inline Editing^InlineEditing^
+
+^InsertActionHeaderText^OK^InsertActionHeaderText^
+
+^InsertHorizontalRule^Setja Strik^InsertHorizontalRule^
+
+^InsertingRecords^innsetning færslur^InsertingRecords^
+
+^InsertOrderedList^Setja pantaði Listi^InsertOrderedList^
+
+^InsertUnorderedList^Setja inn upptalningu^InsertUnorderedList^
+
+^Into^í^Into^
+
+^InvalidUserNameAndPassword^Notandanafn þitt og lykilorð eru ekki gild.^InvalidUserNameAndPassword^
+
+^Italic^Skáletrað^Italic^
+
+^ItemsPerPage^Atriði á síðu:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} atriði valin^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Atriði valin^ItemsSelectedOne^
+
+^JustDatesNow^Rétt í þessu^JustDatesNow^
+
+^JustifyCenter^Rökstyðjið Center^JustifyCenter^
+
+^JustifyFull^Rökstyðjið Full^JustifyFull^
+
+^JustifyLeft^Rökstyðjið vinstri^JustifyLeft^
+
+^JustifyRight^Rökstyðjið Hægri^JustifyRight^
+
+^KeepOriginalSel^halda upprunalegu vali^KeepOriginalSel^
+
+^LabelsInList^Flokka í lista^LabelsInList^
+
+^Lacquer^Skúffu^Lacquer^
+
+^Laminate^Laminate^Laminate^
+
+^Landscape^Landscape^Landscape^
+
+^Large^Stór^Large^
+
+^LastMonth^Síðasta mánuð^LastMonth^
+
+^LastQuarter^Last Quarter^LastQuarter^
+
+^LastWeek^Síðasta vika^LastWeek^
+
+^LastYear^Síðasta ár^LastYear^
+
+^Less^Minna^Less^
+
+^LessThan^Minna en^LessThan^
+
+^LessThanOrEqual^Minna en eða jafnt^LessThanOrEqual^
+
+^Lichen^Flétta^Lichen^
+
+^LightTheme^Ljós^LightTheme^
+
+^Line^Lína^Line^
+
+^List^Listi^List^
+
+^ListOneColumn^Lista (einn dálk)^ListOneColumn^
+
+^ListViewStyle^List^ListViewStyle^
+
+^Loading^Loading ...^Loading^
+
+^Logical^Logical^Logical^
+
+^LoginButton^Innskráning^LoginButton^
+
+^LoginLink^Innskráning^LoginLink^
+
+^Logout^Útskrá^Logout^
+
+^LookupInstruction^Vinsamlegast veldu <b>{0}</b> á listanum.^LookupInstruction^
+
+^LookupOriginalSelection^Upprunalega val er <b>&quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^stjórna reikninga^ManageAccounts^
+
+^Map^Kort^Map^
+
+^MatchAll^Passa öll skilyrði^MatchAll^
+
+^MatchAllPastTense^Samþykkt öll skilyrði^MatchAllPastTense^
+
+^MatchAny^Passa öll skilyrði^MatchAny^
+
+^MatchAnyPastTense^Samþykkt öll skilyrði^MatchAnyPastTense^
+
+^Matched^Samþykkt^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Hámark á {0}^MaxAggregateToolTip^
+
+^Maximize^Stækka^Maximize^
+
+^MaximumOf^Hámark^MaximumOf^
+
+^Medium^Medium^Medium^
+
+^Menu^Valmynd^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^Lágmark {0}^MinAggregateToolTip^
+
+^Minimize^Collapse^Minimize^
+
+^MinimumOf^Lágmark^MinimumOf^
+
+^Mission^Mission^Mission^
+
+^ModeBrowsing^Beit^ModeBrowsing^
+
+^ModeEditing^Breyti^ModeEditing^
+
+^ModeEntering^Innsláttur^ModeEntering^
+
+^ModeLookup^Leita^ModeLookup^
+
+^Modern^Modern^Modern^
+
+^ModernRose^Modern Rose^ModernRose^
+
+^ModeViewing^Skoða^ModeViewing^
+
+^Month^Mánuður^Month^
+
+^More^Meira^More^
+
+^MultiSelection^multi Val^MultiSelection^
+
+^Municipal^Sveitarfélaga^Municipal^
+
+^MyAccount^Reikningurinn minn^MyAccount^
+
+^Never^Aldrei^Never^
+
+^NewActionHeaderText^Nýtt^NewActionHeaderText^
+
+^NewItem^Nýtt atriði^NewItem^
+
+^NewRow^New Row^NewRow^
+
+^NewRowLink^Smelltu hér til að búa til nýtt met.^NewRowLink^
+
+^NewToolTip^Ný {0}^NewToolTip^
+
+^Next^Næsta^Next^
+
+^Next2^Næsta^Next2^
+
+^NextMonth^Næsti mánuður^NextMonth^
+
+^NextQuarter^Næsta Quarter^NextQuarter^
+
+^NextWeek^Næsta vika^NextWeek^
+
+^NextYear^Næsta ár^NextYear^
+
+^No^Engin^No^
+
+^NoMatches^Engar samsvaranir.^NoMatches^
+
+^None^Enginn^None^
+
+^Noon^Noon^Noon^
+
+^NoRecords^Engar færslur fundust.^NoRecords^
+
+^NoteDeleteConfirm^Eyða?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^eyða^NoteDeleteLabel^
+
+^NoteEditLabel^breyta^NoteEditLabel^
+
+^NotEmpty^Ekki Empty^NotEmpty^
+
+^NotMatched^(Ekki samsvörun)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^Fjöldi^Number^
+
+^NumberFilterText^Fjöldi Síur^NumberFilterText^
+
+^NumberIsExpected^A tala er gert ráð fyrir.^NumberIsExpected^
+
+^OdpCommitting^Hleður inn viðskipti ...^OdpCommitting^
+
+^OdpDone^Lokið.^OdpDone^
+
+^OdpDownloadingBlob^Sækir tvöfaldur gögn fyrir {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^Sækir gögn fyrir {0}...^OdpDownloadingData^
+
+^OdpInitializing^Frumstilla ...^OdpInitializing^
+
+^OdpInvalidResponse^Ógilt svar frá þjóninum.^OdpInvalidResponse^
+
+^OdpLastRefresh^Síðasta hressing: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Gögn hafa ekki verið endurnærð.^OdpNotRefreshed^
+
+^OdpOfflineState^Þú ert að vinna í offline stillingu.^OdpOfflineState^
+
+^OdpOnlineRequired^Netsamband er krafist.^OdpOnlineRequired^
+
+^OdpPending^Breytingar í bið^OdpPending^
+
+^OdpReconRequired^Sátt er krafist^OdpReconRequired^
+
+^OdpReconTxDelete^Eyða þessari breytingu úr skránni?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^Fyrstu viðskiptum í bið í skránni eytt.^OdpReconTxDeleted^
+
+^OdpRefresh^Hressa gögn^OdpRefresh^
+
+^OdpRefreshData^Hressa gögn^OdpRefreshData^
+
+^OdpRefreshLast^Gögn hress^OdpRefreshLast^
+
+^OdpSave^Vinsamlegast vistaðu allar breytingar.^OdpSave^
+
+^OdpSaveAndSync^Vistaðu allar breytingar og veldu Samstilla valkost í samhengisvalmyndinni.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Forritamiðlarinn er ekki tiltækur.^OdpServerUnavailable^
+
+^OdpStatus^Staða^OdpStatus^
+
+^OdpSync^Samstilla^OdpSync^
+
+^OdpSynced^Samstillt^OdpSynced^
+
+^OdpSyncLast^Síðasta samstilling^OdpSyncLast^
+
+^OdpSyncLong^Samstilla til að hlaða upp breytingum.^OdpSyncLong^
+
+^OdpSyncUploadFailed^Ekki tókst að hlaða {0} skrám.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Hleður inn {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Ekki tókst að eyða. {1} háðir hlutir í {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Ófær um að framkvæma.^OdpUnableToExec^
+
+^OdpUnableToProcess^Ekki tókst að vinna úr viðskiptum.^OdpUnableToProcess^
+
+^OdpUnableToSave^Ekki tókst að vista breytingar.^OdpUnableToSave^
+
+^OdpUploadFailed^Mistókst að hlaða skrám upp.^OdpUploadFailed^
+
+^OdpUploadingFiles^Hleður inn {0} skrám ...^OdpUploadingFiles^
+
+^OK^OK^OK^
+
+^OnHover^á svifi^OnHover^
+
+^OnOrAfter^Eða síðar^OnOrAfter^
+
+^OnOrBefore^Á eða fyrir^OnOrBefore^
+
+^OpenActionHeaderText^Open^OpenActionHeaderText^
+
+^Optional^valfrjálst^Optional^
+
+^Orientation^Stefnumörkun^Orientation^
+
+^Other^Annað^Other^
+
+^Outdent^Draga út^Outdent^
+
+^Page^Page^Page^
+
+^Paragraph^Mgr^Paragraph^
+
+^Password^Lykilorð^Password^
+
+^Past^Past^Past^
+
+^Paste^Líma^Paste^
+
+^Pen^Penni^Pen^
+
+^PerformAdvancedSearch^Leita^PerformAdvancedSearch^
+
+^Permalink^Permalink^Permalink^
+
+^PermalinkToolTip^Búa til Varanlegur tengill fyrir valin hljómplata^PermalinkToolTip^
+
+^PermalinkUnavailable^Permalink er ekki í boði. Vinsamlegast veldu skrá.^PermalinkUnavailable^
+
+^Petal^Petal^Petal^
+
+^Pinnate^Pinnate^Pinnate^
+
+^Plastic^Plast^Plastic^
+
+^Portrait^Portrait^Portrait^
+
+^PresentationStyle^Veldu gagnakynningareyðublað stíl.^PresentationStyle^
+
+^Prev2^Prev^Prev2^
+
+^Previous^Fyrri^Previous^
+
+^PromoteActions^Efla aðgerðir^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^Quarter^Quarter^
+
+^Quarter1^Quarter 1^Quarter1^
+
+^Quarter2^Quarter 2^Quarter2^
+
+^Quarter3^Quarter 3^Quarter3^
+
+^Quarter4^Quarter 4^Quarter4^
+
+^QuickFindDescription^Leitaðu á {0}^QuickFindDescription^
+
+^QuickFindScope^Leita í ...^QuickFindScope^
+
+^QuickFindText^Fljótleg leit^QuickFindText^
+
+^QuickFindToolTip^Gerð til að leita á gögnum og ýta á Enter^QuickFindToolTip^
+
+^Quotation^Tilvitnun^Quotation^
+
+^Reading^Lestur ...^Reading^
+
+^ReadingPane^Lestrúðan^ReadingPane^
+
+^ReadOnly^{0} er eingöngu lesinn.^ReadOnly^
+
+^Recent^Nýleg^Recent^
+
+^Redo^Endurtaka^Redo^
+
+^Refresh^Endurnýja^Refresh^
+
+^Refreshed^Endurnýjuð^Refreshed^
+
+^RememberMe^Muna eftir mér næst^RememberMe^
+
+^RemoveCondition^Fjarlægja hótels^RemoveCondition^
+
+^RemoveFormat^Fjarlægja snið^RemoveFormat^
+
+^ReportActionDescription^Gefa skýrslu á PDF formi^ReportActionDescription^
+
+^ReportActionHeaderText^Skýrsla^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Skoða atriði í formatted<br/>Microsoft Excel töflureikni.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Töflureiknir^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Skoða atriði sem multipage TIFF mynd.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Multipage Image^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Skoða atriði sem Adobe PDF document.<br/>Requires samhæft lesandi.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^PDF Document^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Skoða atriði í formatted<br/>Microsoft Word skjal.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Krafist^Required^
+
+^RequiredField^Svæðið er óútfyllt.^RequiredField^
+
+^RequiredFiledMarkerFootNote^táknar krafist^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Endurstilla^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Endurstilla leitarskilyrði?^ResetSearchConfirm^
+
+^ResolvingReferences^leysa tilvísanir^ResolvingReferences^
+
+^ResumeBrowsing^Halda áfram Beit^ResumeBrowsing^
+
+^ResumeEditing^Halda áfram Breyti^ResumeEditing^
+
+^ResumeEntering^Halda áfram Innsláttur^ResumeEntering^
+
+^ResumeLookup^Halda áfram leit^ResumeLookup^
+
+^ResumeViewing^Halda áfram: Skoða^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Hlutverk^RolesTab^
+
+^RootNodeText^Top Level^RootNodeText^
+
+^Rotate^Snúa^Rotate^
+
+^RowCancelActionHeaderText^Hætta við^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Setja^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Vista^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Update?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Update Val^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Vista^Save^
+
+^SaveAndContinue^Vista og halda áfram^SaveAndContinue^
+
+^SaveAndNew^Vista og Ný^SaveAndNew^
+
+^Saved^Vistað - {0}^Saved^
+
+^ScanToConfirm^Vinsamlegast skannaðu aftur til að staðfesta.^ScanToConfirm^
+
+^SeeAll^Sjá öll^SeeAll^
+
+^SeeAlso^Sjá einnig^SeeAlso^
+
+^SelectActionHeaderText^Veldu^SelectActionHeaderText^
+
+^SelectAll^Select All^SelectAll^
+
+^SelectItem^Veldu hlut^SelectItem^
+
+^SelectLink^(Veldu)^SelectLink^
+
+^SelectRow^Veldu Row^SelectRow^
+
+^SelectToolTip^Veldu {0}^SelectToolTip^
+
+^Separator^Skiltákn^Separator^
+
+^Settings^Stillingar^Settings^
+
+^Show^Sýna^Show^
+
+^ShowAdvancedSearch^Show Ítarleg leit^ShowAdvancedSearch^
+
+^ShowChart^Sýna Mynd^ShowChart^
+
+^ShowData^Sýna Data^ShowData^
+
+^ShowingItems^Sýna <b>{0}</b>-<b>{1}</b> af hlutum <b>{2}</b>^ShowingItems^
+
+^ShowingItemsInfo^Sýni {0} atriði.^ShowingItemsInfo^
+
+^ShowingItemsRange^Sýni {0} af {1} atriðum^ShowingItemsRange^
+
+^ShowLess^Sýna minna^ShowLess^
+
+^ShowMore^Sýndu meira^ShowMore^
+
+^ShowOptions^Sýna Options^ShowOptions^
+
+^ShowSystemButtons^Sýna System Buttons^ShowSystemButtons^
+
+^Sidebar^Skenkur^Sidebar^
+
+^Sign^Skráðu hér^Sign^
+
+^SignedOut^undirritað Out^SignedOut^
+
+^SignUpNow^Skráðu þig núna^SignUpNow^
+
+^Simple^Einfalt^Simple^
+
+^SiteActions^Site Aðgerðir^SiteActions^
+
+^SizeLabel^Size^SizeLabel^
+
+^Small^Small^Small^
+
+^Social^Félagslega^Social^
+
+^Sort^Raða^Sort^
+
+^SortBy^Raða eftir {0}^SortBy^
+
+^SortByField^Veldu reit til að breyta röðina af <b>{0}</b>.^SortByField^
+
+^SortByOptions^Veldu röðina af <b>{0}</b> af sviði <b>{1}</b> í lista yfir valkosti fyrir neðan.^SortByOptions^
+
+^Sorted^Flokkað^Sorted^
+
+^SortedDefault^Sjálfgefin flokkun röð.^SortedDefault^
+
+^StartImport^Hefja innflutning^StartImport^
+
+^StrikeThrough^Slá gegnum^StrikeThrough^
+
+^StringSortAscending^Hækkandi^StringSortAscending^
+
+^StringSortDescending^Lækkandi^StringSortDescending^
+
+^Submit^Senda^Submit^
+
+^Subscript^Sub Script^Subscript^
+
+^Suggestions^Tillögur^Suggestions^
+
+^SumAggregate^Summa: {0}^SumAggregate^
+
+^SumAggregateToolTip^Summa {0}^SumAggregateToolTip^
+
+^Summary^Yfirlit^Summary^
+
+^Summer^Sumar^Summer^
+
+^SumOf^Summa af^SumOf^
+
+^Superscript^Super Script^Superscript^
+
+^Sync^Sync^Sync^
+
+^TaskResume^Taka upp aftur^TaskResume^
+
+^Tasks^Verkefni^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^abc^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^Testing færslur^TestingRecords^
+
+^Text^Texti^Text^
+
+^TextFilterText^Texti Síur^TextFilterText^
+
+^Theme^Þema^Theme^
+
+^ThisMonth^Þessi mánuður^ThisMonth^
+
+^ThisQuarter^Þetta Quarter^ThisQuarter^
+
+^ThisWeek^Þessi vika^ThisWeek^
+
+^ThisYear^Á þessu ári^ThisYear^
+
+^Tiny^Tiny^Tiny^
+
+^Today^Í dag^Today^
+
+^Tomorrow^Á morgun^Tomorrow^
+
+^Top^efst^Top^
+
+^ToThisWebsite^á þessari vefsíðu^ToThisWebsite^
+
+^TouchUINotSupported^Touch UI er ekki studd í þessum vafra.^TouchUINotSupported^
+
+^TransitionFade^Hverfa^TransitionFade^
+
+^TransitionFlip^Flip^TransitionFlip^
+
+^TransitionFlow^Flow^TransitionFlow^
+
+^TransitionNone^Enginn^TransitionNone^
+
+^TransitionPop^Pop^TransitionPop^
+
+^Transitions^Umbreytingum^Transitions^
+
+^TransitionSlide^Renna^TransitionSlide^
+
+^TransitionSlideDown^Renna niður^TransitionSlideDown^
+
+^TransitionSlideUp^Renna upp^TransitionSlideUp^
+
+^TransitionTurn^Turn^TransitionTurn^
+
+^TreeActionDescription^Skoða Innbyrðis tengsl.^TreeActionDescription^
+
+^TreeActionHeaderText^Show Stigveldi^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Fáðu staðfestingarkóða^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Forritunarforrit^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Ef þú getur ekki veitt staðfestingarkóðann skaltu slá inn varakóðann í staðinn.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^einu sinni kóða^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Varakóði^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Hringt var í^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^Tölvupóstur var sendur til^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^Textaskilaboð voru send til^TwoFaCodeSentSms^
+
+^TwoFaConsent^Samþykki^TwoFaConsent^
+
+^TwoFaEnterPassword^Sláðu inn lykilorðið þitt^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Hringdu í mig^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^ég mun kalla^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^Sendu mér tölvupóst á^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^Sendu mér skilaboð á^TwoFaGetCodeSms^
+
+^TwoFaMethod^Aðferð^TwoFaMethod^
+
+^TwoFaMsgChanged^Tvíþættri auðkenningu hefur verið breytt.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^Tvíþætt auðkenning hefur verið óvirk.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Slökkva á tveggja þátta auðkenningu?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^Tvíþætt auðkenning hefur verið virk.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Sláðu inn {0} stafa staðfestingarkóða.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Ógilt lykilorð.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Ógildur staðfestingarkóði.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 er {0} staðfestingarkóðinn þinn.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^Ég get ekki skannað QR kóða.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Ég þarf hjálp við að setja upp auðkenningarforrit.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Ég er með auðkenningarforrit í farsíma.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^Varakóðar sem nota einu sinni mun leyfa þér að skrá þig inn ef þú getur ekki veitt staðfestingarkóða.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Varakóðar^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Ég mun slá inn staðfestingarkóða eftir innskráningu.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Sláðu inn uppsetningarlykilinn í forritinu^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Staðfestingaraðferðir^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Skannaðu QR kóða með myndavélinni^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Skannaðu QR kóða í forritinu^TwoFaSetupScanQrCode^
+
+^TwoFaText^Tvíþætt auðkenning^TwoFaText^
+
+^TwoFaTrustThisDevice^Treystu þessu tæki^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Staðfestingarkóði^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Ég mun nota auðkenningarforrit til að fá staðfestingarkóðann.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Ég mun fá sjálfvirkt símtal í símann minn.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Staðfestingarkóðinn verður sendur með tölvupósti.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Staðfestingarkóðinn verður afhentur með textaskilaboðum.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Prófaðu að leita^TypeToSearch^
+
+^Underline^Undirstrika^Underline^
+
+^Undo^Afturkalla^Undo^
+
+^Undock^Aftengjast^Undock^
+
+^Unfreeze^Opna^Unfreeze^
+
+^UnGrouped^Flokkun hefur verið fjarlægð^UnGrouped^
+
+^UnLink^Aftengja^UnLink^
+
+^UnSelect^Afvelja^UnSelect^
+
+^UpdateActionHeaderText^OK^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Update?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Update Val^UpdateActionInBatchModeHeaderText^
+
+^Upload^Hlaða inn^Upload^
+
+^UploadDescription^Hladdu upp mörgum skrám.^UploadDescription^
+
+^Uploading^Hleður inn {0}...^Uploading^
+
+^UpOneLevel^Fara upp um eitt^UpOneLevel^
+
+^UseLEV^Líma &quot;{0}&quot;^UseLEV^
+
+^UserName^User Name^UserName^
+
+^UsersInRole^Notendur í hlutverki^UsersInRole^
+
+^UsersTab^Notendur^UsersTab^
+
+^Vantage^Vantage^Vantage^
+
+^Verdant^Grösug^Verdant^
+
+^Verify^Staðfestu^Verify^
+
+^View^Skoða^View^
+
+^Viewpoint^Sjónarmið^Viewpoint^
+
+^Wait^Vinsamlegast bíðið...^Wait^
+
+^Week^Viku^Week^
+
+^Welcome1^Velkomin^Welcome1^
+
+^Welcome2^Í dag er^Welcome2^
+
+^WhiteSmoke^White Smoke^WhiteSmoke^
+
+^WithSelectedValues10^Með völdum gildum (Top 10)^WithSelectedValues10^
+
+^WithSelectedValues5^Með völdum gildum (Top 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^Með tilgreindum síum^WithSpecifiedFilters^
+
+^Year^Ár^Year^
+
+^YearToDate^Frá áramótum^YearToDate^
+
+^Yes^Já^Yes^
+
+^Yesterday^Í gær^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Þysja inn^ZoomIn^
+
+^ZoomOut^Þysja út^ZoomOut^
+

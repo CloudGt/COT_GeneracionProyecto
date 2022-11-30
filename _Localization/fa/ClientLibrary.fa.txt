@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^در حدود^About^
+
+^Accent^لهجه^Accent^
+
+^ActionBarActionsHeaderText^عملیات^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^لغو^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^لغو تمامی تغییرات سابقه.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^لغو رکورد جدید.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^صرفه جویی در رکورد جدید به پایگاه داده.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^ذخیره^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^ایجاد یک رکورد {0} جدید.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^جدید {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^جدید^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^رکورد^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^گزارش^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^ذخیره ی تغییرات به پایگاه داده.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^ذخیره^ActionBarUpdateActionHeaderText^
+
+^AddAccount^اضافه کردن حساب^AddAccount^
+
+^AddCondition^اضافه کردن وضعیت^AddCondition^
+
+^AddConditionText^شرایط جستجو^AddConditionText^
+
+^AddItem^این مورد را اضافه کنید^AddItem^
+
+^AddMatchingGroup^اضافه کردن تطبیق گروه^AddMatchingGroup^
+
+^AddSearchBarField^زمینه های بیشتر جستجو^AddSearchBarField^
+
+^AddSystemIdentity^اضافه کردن سیستم هویت^AddSystemIdentity^
+
+^AddToFavorites^افزودن به مورد علاقه ها^AddToFavorites^
+
+^AdvancedSearch^جستجوی پیشرفته^AdvancedSearch^
+
+^AdvancedSearchInstruction^شرایطی که باید همسان باشد و دکمه جستجو را فشار دهید را وارد کنید.^AdvancedSearchInstruction^
+
+^After^پس از^After^
+
+^Agenda^دستور جلسه^Agenda^
+
+^AlignedLeft^تراز وسط قرار دارد چپ^AlignedLeft^
+
+^AlignedRight^تراز وسط قرار دارد راست^AlignedRight^
+
+^AllDatesInPreriod^تمامی تاریخها در دوره^AllDatesInPreriod^
+
+^AlternativeView^دیدگاه دیگری از داده ها را انتخاب کنید.^AlternativeView^
+
+^Always^همیشه^Always^
+
+^AnyValue^(هر)^AnyValue^
+
+^Apply^درخواست^Apply^
+
+^Apps^نرم افزار^Apps^
+
+^Aquarium^آکواریوم^Aquarium^
+
+^Auto^خودرو^Auto^
+
+^AutoOpenNextItem^مورد بعدی را باز کنید^AutoOpenNextItem^
+
+^AverageOf^به طور متوسط ​​از^AverageOf^
+
+^AvgAggregate^میانگین : {0}^AvgAggregate^
+
+^AvgAggregateToolTip^متوسط ​​از {0}^AvgAggregateToolTip^
+
+^Azure^لاجوردی^Azure^
+
+^Back^به عقب^Back^
+
+^BackColor^بازگشت رنگ^BackColor^
+
+^BatchEditActionHeaderText^دسته ویرایش^BatchEditActionHeaderText^
+
+^BatchEdited^{0} به روز شد^BatchEdited^
+
+^BatchEditInFormActionHeaderText^ویرایش دسته ای (فرم)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^به روز رسانی^BatchUpdate^
+
+^Before^قبل از^Before^
+
+^BeginsWith^آغاز می شود با^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^توت^Berry^
+
+^Between^میان^Between^
+
+^Bittersweet^تلخ و شیرین^Bittersweet^
+
+^Blank^سفید^Blank^
+
+^BlankPassword^کلمه عبور نیست را می توان خالی.^BlankPassword^
+
+^BlankUserName^نام کاربری نمی تواند خالی است.^BlankUserName^
+
+^BlankValue^(خالی)^BlankValue^
+
+^BlobDownloadHint^اینجا را کلیک کنید برای دانلود فایل اصلی.^BlobDownloadHint^
+
+^BlobDownloadLink^دانلود^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^برای بارگیری فایل اصلی، روی تصویر ضربه بزنید^BlobDownloadOriginalHint^
+
+^Blur^محو کردن^Blur^
+
+^Bold^گستاخ^Bold^
+
+^BooleanFilterText^درگاه منطقی^BooleanFilterText^
+
+^BooleanIsExpected^یک مقدار منطقی است انتظار می رود.^BooleanIsExpected^
+
+^ButtonShapes^شکل دکمه ها^ButtonShapes^
+
+^By^توسط^By^
+
+^Calendar^تقویم^Calendar^
+
+^Cancel^لغو^Cancel^
+
+^Cards^کارت^Cards^
+
+^Cay^تخته سنگ ساحلی در جزیره^Cay^
+
+^ChangeYourLanguage^تغییر زبان شما^ChangeYourLanguage^
+
+^Charts^نمودار^Charts^
+
+^Citrus^مرکبات^Citrus^
+
+^Classic^کلاسیک^Classic^
+
+^ClearFilter^فیلتر پاک از {0}^ClearFilter^
+
+^ClearFilter2^پاک کردن فیلتر^ClearFilter2^
+
+^ClearText^پاک کردن متن^ClearText^
+
+^ClearToolTip^{0} پاک^ClearToolTip^
+
+^Close^نزدیک^Close^
+
+^Comfortable^راحت^Comfortable^
+
+^Compact^جمع و جور^Compact^
+
+^Condensed^تغلیظ شده^Condensed^
+
+^ConfirmContinue^ادامه دهید؟^ConfirmContinue^
+
+^ConfirmReload^بازنگری؟^ConfirmReload^
+
+^ConnectionLost^اتصال شبکه قطع شده است. دوباره سعی کنید؟^ConnectionLost^
+
+^Construct^ساختن^Construct^
+
+^Contains^شامل^Contains^
+
+^Convention^قرارداد^Convention^
+
+^Copy^کپی^Copy^
+
+^CountAggregate^تعداد : {0}^CountAggregate^
+
+^CountAggregateToolTip^تعداد {0}^CountAggregateToolTip^
+
+^CountOf^تعداد^CountOf^
+
+^CreateLink^ایجاد لینک^CreateLink^
+
+^CustomFilterOption^فیلتر...^CustomFilterOption^
+
+^Cut^قطع^Cut^
+
+^DarkKnight^شوالیه تاریکی^DarkKnight^
+
+^DarkTheme^تاریک^DarkTheme^
+
+^DataSheetActionDescription^نمایش اقلام با استفاده از sheet<br/>format داده.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^نمایش در برگه داده ها^DataSheetActionHeaderText^
+
+^DataWarning^حداکثر تعداد آیتم به روند است {0: D}. برای فیلتر کردن نتیجه اینجا را کلیک کنید.^DataWarning^
+
+^Date^تاریخ^Date^
+
+^DateFilterText^درگاه تاریخ^DateFilterText^
+
+^DateIsExpected^تاریخ مورد انتظار است.^DateIsExpected^
+
+^DatesAMinAgo^یک دقیقه قبل^DatesAMinAgo^
+
+^DatesCommaMinute^، {0}m^DatesCommaMinute^
+
+^DatesInAMin^در یک دقیقه^DatesInAMin^
+
+^DatesInHour^در یک ساعت^DatesInHour^
+
+^DatesInMin^در دقیقه {0}^DatesInMin^
+
+^DatesLast^آخر^DatesLast^
+
+^DatesMinAgo^{0} دقیقه قبل^DatesMinAgo^
+
+^DatesNext^بعد^DatesNext^
+
+^DatesNow^اکنون^DatesNow^
+
+^DatesOneHour^یک ساعت پیش^DatesOneHour^
+
+^DateSortAscending^نخست در بالا^DateSortAscending^
+
+^DateSortDescending^در بالا^DateSortDescending^
+
+^DatesSmart^تاریخ های هوشمند^DatesSmart^
+
+^DatesToday^امروز^DatesToday^
+
+^DatesTomorrow^فردا^DatesTomorrow^
+
+^DatesYesterday^دیروز^DatesYesterday^
+
+^Day^روز^Day^
+
+^DefaultCancelActionHeaderText^نزدیک^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^لطفا این فرم را پر کنید و کلیک کنید دکمه تایید برای ایجاد یک رکورد {0} جدید. برای بازگشت به صفحه قبلی کلیک کنید لغو.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^این زمینه رکورد {0} است که می تواند ویرایش.^DefaultEditDescription^
+
+^DefaultEditViewDescription^لطفا این فایل نقد می نویسید : اطلاعات {0} زیر وارد نمایید. کلیک کنید ویرایش این رکورد برای تغییر ، حذف رکورد را حذف کنید کلیک کنید و یا با کلیک لغو / بستن به بازگشت به عقب.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^این لیست {0} است.^DefaultGridViewDescription^
+
+^DefaultNewDescription^فرم را تکمیل کنید. اطمینان حاصل کنید که تمام زمینه های مورد نیاز را وارد کنید.^DefaultNewDescription^
+
+^DefaultOption^پیش فرض^DefaultOption^
+
+^DefaultReferenceDescription^اطلاعات اضافی در مورد {0} در بخش مرجع اطلاعات ارائه شده است.^DefaultReferenceDescription^
+
+^Delete^حذف کردن^Delete^
+
+^DeleteActionConfirmation^را حذف کنم؟^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^حذف^DeleteActionHeaderText^
+
+^Deleted^{$ selected} حذف شد^Deleted^
+
+^DeleteOriginalSel^انتخاب اصلی را حذف کنید^DeleteOriginalSel^
+
+^DeleteSearchBarField^(حذف)^DeleteSearchBarField^
+
+^DetailsToolTip^نمایش جزئیات برای {0}^DetailsToolTip^
+
+^DevelopExplorer^پروژه اکسپلورر^DevelopExplorer^
+
+^DevelopFormLayout^طرح فرم^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^اندازه صفحه نمایش را انتخاب کنید در طرح گنجانده شود.^DevelopFormLayoutInstr^
+
+^DevelopTools^ابزارهای برنامه نویسی^DevelopTools^
+
+^Device^دستگاه^Device^
+
+^DeviceLoginPrompt^لطفا برای دسترسی به این دستگاه وارد شوید^DeviceLoginPrompt^
+
+^DidNotMatch^آیا مطابقت ندارد^DidNotMatch^
+
+^Directions^دستورالعمل ها^Directions^
+
+^DiscardChanges^لغو تغییرات؟^DiscardChanges^
+
+^DisplayDensity^نمایش تراکم^DisplayDensity^
+
+^DisplayedAbove^نمایش داده شده در بالا^DisplayedAbove^
+
+^DisplayedBelow^نمایش داده شده در زیر^DisplayedBelow^
+
+^Dock^بارانداز^Dock^
+
+^DoesNotBeginWith^ندارد با شروع^DoesNotBeginWith^
+
+^DoesNotContain^حاوی^DoesNotContain^
+
+^DoesNotEndWith^آیا با پایان کار نبود^DoesNotEndWith^
+
+^DoesNotEqual^آیا برابر نیست^DoesNotEqual^
+
+^DoesNotInclude^شامل^DoesNotInclude^
+
+^DoNotMatchAll^آیا همه شرایط مطابقت ندارد^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^آیا همه شرایط مطابقت ندارد^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^آیا هر شرایط مطابقت ندارد^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^آیا هر شرایط مطابقت ندارد^DoNotMatchAnyPastTense^
+
+^Download^دانلود^Download^
+
+^Draw^قرعه کشی^Draw^
+
+^DuplicateActionHeaderText^تکراری^DuplicateActionHeaderText^
+
+^DuplicateItem^مورد تکراری^DuplicateItem^
+
+^DuplicateRow^ردیف تکراری^DuplicateRow^
+
+^EditActionHeaderText^ویرایش^EditActionHeaderText^
+
+^EditItem^ویرایش آیتم^EditItem^
+
+^EditModeCancelActionHeaderText^لغو^EditModeCancelActionHeaderText^
+
+^EditRow^ویرایش ردیف^EditRow^
+
+^Empty^خالی^Empty^
+
+^EmptyContext^عملیات در دست نیست.^EmptyContext^
+
+^EmptyValue^(خالی)^EmptyValue^
+
+^Enable^فعال کنید^Enable^
+
+^EndsWith^پایان پذیر با^EndsWith^
+
+^Equals^برابر^Equals^
+
+^Eraser^پاک کن^Eraser^
+
+^Error^خطا^Error^
+
+^Exit^خروج^Exit^
+
+^ExitFullscreen^خروج از تمام صفحه^ExitFullscreen^
+
+^ExportCsvActionDescription^آیتم های دانلود در قالب CSV.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^دانلود^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^تجزیه و تحلیل اقلام با spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Export به صفحهگسترده^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^اقلام سندیکای با خواننده آر اس اس.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^مشاهده RSS Feed^ExportRssActionHeaderText^
+
+^Favorites^مورد علاقه های شما^Favorites^
+
+^Felt^نمد^Felt^
+
+^FileCleared^با صرفه جویی در هزینه پاک می شود^FileCleared^
+
+^FilesBytes^کلمه در ادامه متن^FilesBytes^
+
+^FilesClear^واضح^FilesClear^
+
+^FilesClearConfirm^پاک کردن؟^FilesClearConfirm^
+
+^FilesClick^برای انتخاب یک فایل کلیک کنید^FilesClick^
+
+^FilesClickMany^برای انتخاب فایل کلیک کنید^FilesClickMany^
+
+^FilesDrop^قطره یک فایل در اینجا^FilesDrop^
+
+^FilesDropMany^رها کردن فایل در اینجا^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^برای انتخاب یک فایل را ضربه بزنید^FilesTap^
+
+^FilesTapMany^برای انتخاب فایل را ضربه بزنید^FilesTapMany^
+
+^Filter^صافی^Filter^
+
+^FilterApplied^فیلتر اعمال شده است.^FilterApplied^
+
+^FilterByField^انتخاب یک استفاده از یک صافی برای <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^یک یا چند گزینه در لیست زیر و مطبوعات <b>{2}</b> برای فیلتر کردن <b>{0}</b> <b>{1}</b> انتخاب میشه.^FilterByOptions^
+
+^FilterCleared^تمام فیلترها را پاک کرد^FilterCleared^
+
+^FilterLabelAnd^و^FilterLabelAnd^
+
+^FilterLabelClear^واضح^FilterLabelClear^
+
+^FilterLabelEquals^برابر با^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^تغییر^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^شامل^FilterLabelIncludes^
+
+^FilterLabelOr^یا^FilterLabelOr^
+
+^FilterLabelSelectAll^(انتخاب همه)^FilterLabelSelectAll^
+
+^FilterSiteMap^نقشه سایت فیلتر ...^FilterSiteMap^
+
+^Finish^پایان^Finish^
+
+^FitToWidth^جا به عرض^FitToWidth^
+
+^FlatTreeToggle^تبدیل به سلسله مراتب^FlatTreeToggle^
+
+^FontName^نام قلم^FontName^
+
+^FontSize^اندازه قلم^FontSize^
+
+^ForeColor^رنگ فور^ForeColor^
+
+^Forget^فراموش کردن^Forget^
+
+^ForgotYourPassword^رمز عبورتان را فراموش کرده اید؟^ForgotYourPassword^
+
+^Format^فرمت^Format^
+
+^Freeze^منجمد شدن^Freeze^
+
+^From^از جانب^From^
+
+^Fullscreen^تمام صفحه^Fullscreen^
+
+^Future^آینده^Future^
+
+^GeneralTabText^عمومی^GeneralTabText^
+
+^Generate^تولید می کنند^Generate^
+
+^GenericNewToolTip^ایجاد جدید^GenericNewToolTip^
+
+^GenericSortAscending^های کوچکتر در بالا^GenericSortAscending^
+
+^GenericSortDescending^های بزرگ و در بالا^GenericSortDescending^
+
+^Graham^گراهام^Graham^
+
+^GrandTotals^مجموع بزرگ^GrandTotals^
+
+^Granite^گرانیت^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^جاذبه زمین^Gravity^
+
+^GreaterThan^بزرگتر از^GreaterThan^
+
+^GreateThanOrEqual^بزرگتر یا مساوی^GreateThanOrEqual^
+
+^Grid^توری^Grid^
+
+^GridActionDescription^نمایش آیتم ها در فرمت standard<br/>list.^GridActionDescription^
+
+^GridActionHeaderText^نمایش در نمای استاندارد^GridActionHeaderText^
+
+^Group^گروه^Group^
+
+^GroupByField^<b>{0}</b> انتخاب کنید یک میدان به گروه.^GroupByField^
+
+^Grouped^گروه بندی شده^Grouped^
+
+^GroupedBy^گروه بندی شده توسط^GroupedBy^
+
+^GroupedDefault^گروه بندی حذف شده است^GroupedDefault^
+
+^Heading1^عنوان 1^Heading1^
+
+^Heading2^عنوان 2^Heading2^
+
+^Heading3^عنوان 3^Heading3^
+
+^Heading4^عنوان 4^Heading4^
+
+^Heading5^عنوان 5^Heading5^
+
+^Heading6^عنوان 6^Heading6^
+
+^Help^کمک^Help^
+
+^HelpClose^نزدیک^HelpClose^
+
+^HelpFullScreen^تمام صفحه^HelpFullScreen^
+
+^Hide^پنهان شدن^Hide^
+
+^HideAdvancedSearch^مخفی کردن جستجوی پیشرفته^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^رفتن به لیست تخت^HierarchyTreeModeToggle^
+
+^Highlighter^هایلایتر^Highlighter^
+
+^History^تاریخ^History^
+
+^HistoryToolTip^تاریخچه نمایش پرونده که قبلا انتخاب شده^HistoryToolTip^
+
+^HistoryUnavailable^تاریخچه در دسترس نیست.^HistoryUnavailable^
+
+^Home^خانه^Home^
+
+^IdleUser^آیا شما هنوز هم وجود دارد؟ لطفا دوباره وارد سایت شوید.^IdleUser^
+
+^ImportActionDescription^آپلود CSV ، XLS ، XLSX سوابق file<br/>to واردات.^ImportActionDescription^
+
+^ImportActionHeaderText^وارد کردن از فایل^ImportActionHeaderText^
+
+^ImportAutoDetect^(تشخیص اتوماتیک)^ImportAutoDetect^
+
+^ImportComplete^تکمیل^ImportComplete^
+
+^ImportDone^واردات تکمیل^ImportDone^
+
+^ImportDownloadTemplate^واردات قالب فایل دانلود کنید.^ImportDownloadTemplate^
+
+^ImportDuplicates^تکراری^ImportDuplicates^
+
+^ImportEmail^ورود به سیستم واردات را به آدرس ایمیل زیر ارسال (اختیاری)^ImportEmail^
+
+^ImportEmailNotSpecified^دریافت کننده وارد شوید واردات مشخص نشده است. اقدام به هر حال؟^ImportEmailNotSpecified^
+
+^ImportExpected^انتظار برای کامل^ImportExpected^
+
+^ImportFileStats^سوابق <b>{0}</b> در فایل وجود دارد <b>{1}</b> برای پردازش. لطفا نام فیلد مطابقت.^ImportFileStats^
+
+^Importing^واردات^Importing^
+
+^ImportMappingInstruction^ضبط <b>{0}</b> (ها) وجود دارد در <b>{1}</b> فایل آماده به processed.<br/>Please نقشه زمینه واردات از فایل داده ها در زمینه های برنامه کلیک کنید و <i>Import</i> برای شروع به پردازش.^ImportMappingInstruction^
+
+^ImportNotSupported^فرمت داده ها از &quot;{0}&quot; پشتیبانی نمی شود.^ImportNotSupported^
+
+^ImportProcessing^واردات پردازش فایل آغاز شده است. وارد اطلاعات سوابق در دسترس تبدیل خواهد شد پس از پردازش موفقیت آمیز است. شما ممکن است نیاز به به روز کردن دیدگاه ها / صفحات مربوطه برای دیدن پرونده وارد شده است.^ImportProcessing^
+
+^ImportRemaining^انتظار برای کامل^ImportRemaining^
+
+^ImportSelectFile^یک فایل داده در CSV، XLS، XLSX و یا فرمت را انتخاب کنید.^ImportSelectFile^
+
+^ImportStartButton^واردات^ImportStartButton^
+
+^ImportUploading^فایل شما به سرور ارسال می شود. لطفا صبر کنید...^ImportUploading^
+
+^ImportUploadInstruction^را انتخاب کنید و فایل مورد. فایل باید در <b>CSV</b> ، <b>XLS</b> ، و یا فرمت <b>XLSX</b> باشد.^ImportUploadInstruction^
+
+^In^به^In^
+
+^Includes^شامل^Includes^
+
+^Indent^دندانه دار کردن^Indent^
+
+^InfoBarAnd^و^InfoBarAnd^
+
+^InfoBarEmpty^خالی^InfoBarEmpty^
+
+^InfoBarEqualTo^برابر است با^InfoBarEqualTo^
+
+^InfoBarGreaterThan^بزرگتر از^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^بزرگتر یا مساوی با^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^کمتر از^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^کمتر از یا مساوی با^InfoBarLessThanOrEqual^
+
+^InfoBarLike^مثل این است که^InfoBarLike^
+
+^InfoBarOr^یا^InfoBarOr^
+
+^InfoBarQuickFind^هر رشته شامل^InfoBarQuickFind^
+
+^InfoBarStartsWith^شروع می شود با^InfoBarStartsWith^
+
+^InitialListMode^حالت فهرست اولیه^InitialListMode^
+
+^InlineEditing^در حال ویرایش درون خطی^InlineEditing^
+
+^InsertActionHeaderText^خوب^InsertActionHeaderText^
+
+^InsertHorizontalRule^درج خط افقی^InsertHorizontalRule^
+
+^InsertingRecords^قرار دادن سوابق^InsertingRecords^
+
+^InsertOrderedList^درج لیست منظم^InsertOrderedList^
+
+^InsertUnorderedList^درج فهرست نامرتب^InsertUnorderedList^
+
+^Into^به^Into^
+
+^InvalidUserNameAndPassword^نام کاربر و رمز عبور شما معتبر نیست.^InvalidUserNameAndPassword^
+
+^Italic^وابسته به ایتالیایی های قدیم^Italic^
+
+^ItemsPerPage^مورد در یک صفحه :^ItemsPerPage^
+
+^ItemsSelectedMany^{0} آیتم های انتخاب شده^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} آیتم انتخاب شده^ItemsSelectedOne^
+
+^JustDatesNow^همین الان^JustDatesNow^
+
+^JustifyCenter^مرکز توجیه^JustifyCenter^
+
+^JustifyFull^توجیه کامل^JustifyFull^
+
+^JustifyLeft^توجیه چپ^JustifyLeft^
+
+^JustifyRight^پس زمینه^JustifyRight^
+
+^KeepOriginalSel^انتخاب اصلی را نگه دارید^KeepOriginalSel^
+
+^LabelsInList^برچسب ها در لیست^LabelsInList^
+
+^Lacquer^لاک الکل^Lacquer^
+
+^Laminate^ورقه ورقه^Laminate^
+
+^Landscape^چشم انداز^Landscape^
+
+^Large^بزرگ^Large^
+
+^LastMonth^ماه گذشته^LastMonth^
+
+^LastQuarter^سه ماهه آخر^LastQuarter^
+
+^LastWeek^هفته گذشته^LastWeek^
+
+^LastYear^پارسال^LastYear^
+
+^Less^کمتر^Less^
+
+^LessThan^کمتر از^LessThan^
+
+^LessThanOrEqual^کمتر یا مساوی^LessThanOrEqual^
+
+^Lichen^گلسنگ^Lichen^
+
+^LightTheme^نور^LightTheme^
+
+^Line^خط^Line^
+
+^List^فهرست^List^
+
+^ListOneColumn^فهرست (یک ستون)^ListOneColumn^
+
+^ListViewStyle^فهرست^ListViewStyle^
+
+^Loading^در حال بارگذاری...^Loading^
+
+^Logical^منطقی^Logical^
+
+^LoginButton^ورود به سیستم^LoginButton^
+
+^LoginLink^ورود به سیستم^LoginLink^
+
+^Logout^خروج^Logout^
+
+^LookupInstruction^لطفا <b>{0}</b> در لیست انتخاب کنید.^LookupInstruction^
+
+^LookupOriginalSelection^انتخاب اصلی <b> &quot;{0}&quot; </b> است.^LookupOriginalSelection^
+
+^ManageAccounts^مدیریت حساب^ManageAccounts^
+
+^Map^نقشه^Map^
+
+^MatchAll^در نظر گرفتن همه شرایط^MatchAll^
+
+^MatchAllPastTense^همسان تمام شرایط^MatchAllPastTense^
+
+^MatchAny^در نظر گرفتن هر شرایط^MatchAny^
+
+^MatchAnyPastTense^همسان هر شرایط^MatchAnyPastTense^
+
+^Matched^همسان^Matched^
+
+^MaxAggregate^ماکس : {0}^MaxAggregate^
+
+^MaxAggregateToolTip^حداکثر از {0}^MaxAggregateToolTip^
+
+^Maximize^باز^Maximize^
+
+^MaximumOf^حداکثر^MaximumOf^
+
+^Medium^متوسط^Medium^
+
+^Menu^منو^Menu^
+
+^MinAggregate^حداقل : {0}^MinAggregate^
+
+^MinAggregateToolTip^حداقل از {0}^MinAggregateToolTip^
+
+^Minimize^سقوط^Minimize^
+
+^MinimumOf^حداقل^MinimumOf^
+
+^Mission^ماموریت^Mission^
+
+^ModeBrowsing^مرور^ModeBrowsing^
+
+^ModeEditing^ویرایش^ModeEditing^
+
+^ModeEntering^ورود^ModeEntering^
+
+^ModeLookup^گرین کارت آمریکا^ModeLookup^
+
+^Modern^مدرن^Modern^
+
+^ModernRose^رز مدرن^ModernRose^
+
+^ModeViewing^تماشا^ModeViewing^
+
+^Month^ماه^Month^
+
+^More^بیشتر^More^
+
+^MultiSelection^انتخاب چند^MultiSelection^
+
+^Municipal^شهری^Municipal^
+
+^MyAccount^حساب کاربری من^MyAccount^
+
+^Never^هرگز^Never^
+
+^NewActionHeaderText^جدید^NewActionHeaderText^
+
+^NewItem^گزینه جدید^NewItem^
+
+^NewRow^ردیف جدید^NewRow^
+
+^NewRowLink^برای ایجاد یک رکورد جدید اینجا را کلیک کنید.^NewRowLink^
+
+^NewToolTip^جدید {0}^NewToolTip^
+
+^Next^بعد^Next^
+
+^Next2^بعد^Next2^
+
+^NextMonth^ماه آینده^NextMonth^
+
+^NextQuarter^سه ماهه آینده^NextQuarter^
+
+^NextWeek^هفته بعد^NextWeek^
+
+^NextYear^سال بعد^NextYear^
+
+^No^بدون^No^
+
+^NoMatches^هیچ بازی.^NoMatches^
+
+^None^هیچ^None^
+
+^Noon^ظهر^Noon^
+
+^NoRecords^هیچ اطلاعاتی در بر داشت.^NoRecords^
+
+^NoteDeleteConfirm^را حذف کنم؟^NoteDeleteConfirm^
+
+^NoteDeleteLabel^حذف^NoteDeleteLabel^
+
+^NoteEditLabel^ویرایش کنید^NoteEditLabel^
+
+^NotEmpty^خالی نیست^NotEmpty^
+
+^NotMatched^(همسان نیست)^NotMatched^
+
+^NullValue^N/A^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^شماره^Number^
+
+^NumberFilterText^درگاه شماره^NumberFilterText^
+
+^NumberIsExpected^تعداد مورد انتظار است.^NumberIsExpected^
+
+^OdpCommitting^در حال بارگیری معاملات ...^OdpCommitting^
+
+^OdpDone^انجام شده.^OdpDone^
+
+^OdpDownloadingBlob^بارگیری داده های باینری برای {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^بارگیری داده ها برای {0}...^OdpDownloadingData^
+
+^OdpInitializing^در حال شروع ...^OdpInitializing^
+
+^OdpInvalidResponse^پاسخ نامعتبر از سرور.^OdpInvalidResponse^
+
+^OdpLastRefresh^آخرین تجدید: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^داده ها تازه نشده اند.^OdpNotRefreshed^
+
+^OdpOfflineState^شما در حالت آفلاین کار می کنید.^OdpOfflineState^
+
+^OdpOnlineRequired^اتصال آنلاین لازم است^OdpOnlineRequired^
+
+^OdpPending^در انتظار تغییرات^OdpPending^
+
+^OdpReconRequired^آشتی لازم است^OdpReconRequired^
+
+^OdpReconTxDelete^این تغییر را از سیاهه حذف کنید؟^OdpReconTxDelete^
+
+^OdpReconTxDeleted^اولین معامله در انتظار در سیاهه حذف شد.^OdpReconTxDeleted^
+
+^OdpRefresh^تازه کردن داده ها^OdpRefresh^
+
+^OdpRefreshData^تازه کردن داده ها^OdpRefreshData^
+
+^OdpRefreshLast^داده ها تازه شد^OdpRefreshLast^
+
+^OdpSave^لطفاً تمام تغییرات را ذخیره کنید^OdpSave^
+
+^OdpSaveAndSync^کلیه تغییرات را ذخیره کنید و از فهرست زمینه گزینه Synchronize را انتخاب کنید.^OdpSaveAndSync^
+
+^OdpServerUnavailable^سرور برنامه در دسترس نیست.^OdpServerUnavailable^
+
+^OdpStatus^وضعیت^OdpStatus^
+
+^OdpSync^همگام سازی^OdpSync^
+
+^OdpSynced^هماهنگ^OdpSynced^
+
+^OdpSyncLast^آخرین همگام سازی^OdpSyncLast^
+
+^OdpSyncLong^برای بارگذاری تغییرات ، همگام سازی کنید.^OdpSyncLong^
+
+^OdpSyncUploadFailed^بارگیری پرونده {0} انجام نشد.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^در حال بارگیری {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^امکان حذف وجود ندارد. {1} موارد وابسته در {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^امکان اجرا وجود ندارد^OdpUnableToExec^
+
+^OdpUnableToProcess^پردازش معاملات امکان پذیر نیست.^OdpUnableToProcess^
+
+^OdpUnableToSave^ذخیره تغییرات ممکن نیست.^OdpUnableToSave^
+
+^OdpUploadFailed^بارگذاری پرونده ها انجام نشد.^OdpUploadFailed^
+
+^OdpUploadingFiles^در حال بارگیری {0} پرونده ...^OdpUploadingFiles^
+
+^OK^خوب^OK^
+
+^OnHover^در شناور^OnHover^
+
+^OnOrAfter^و یا پس از^OnOrAfter^
+
+^OnOrBefore^یا قبل از^OnOrBefore^
+
+^OpenActionHeaderText^باز^OpenActionHeaderText^
+
+^Optional^اختیاری^Optional^
+
+^Orientation^گرایش^Orientation^
+
+^Other^دیگر^Other^
+
+^Outdent^اصلی کردن^Outdent^
+
+^Page^صفحه^Page^
+
+^Paragraph^پاراگراف^Paragraph^
+
+^Password^رمز عبور^Password^
+
+^Past^گذشته^Past^
+
+^Paste^چسباندن^Paste^
+
+^Pen^خودکار^Pen^
+
+^PerformAdvancedSearch^جستجو^PerformAdvancedSearch^
+
+^Permalink^+^Permalink^
+
+^PermalinkToolTip^ایجاد یک لینک دائمی برای رکورد انتخاب شده^PermalinkToolTip^
+
+^PermalinkUnavailable^+ در دسترس نیست. لطفا یک رکورد را انتخاب کنید.^PermalinkUnavailable^
+
+^Petal^گلبرگ^Petal^
+
+^Pinnate^شکل پر^Pinnate^
+
+^Plastic^پلاستیک^Plastic^
+
+^Portrait^تصویر^Portrait^
+
+^PresentationStyle^سبک ارائه داده را انتخاب کنید.^PresentationStyle^
+
+^Prev2^قبلی^Prev2^
+
+^Previous^قبلی^Previous^
+
+^PromoteActions^ترویج عملیات^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^ربع^Quarter^
+
+^Quarter1^محله 1^Quarter1^
+
+^Quarter2^محله 2^Quarter2^
+
+^Quarter3^محله 3^Quarter3^
+
+^Quarter4^محله 4^Quarter4^
+
+^QuickFindDescription^جستجو در {0}^QuickFindDescription^
+
+^QuickFindScope^جستجو در ...^QuickFindScope^
+
+^QuickFindText^جستجوی سریع^QuickFindText^
+
+^QuickFindToolTip^نوع برای جستجوی سوابق و Enter را فشار دهید^QuickFindToolTip^
+
+^Quotation^نقل قول^Quotation^
+
+^Reading^خواندن ...^Reading^
+
+^ReadingPane^سمت خواندن^ReadingPane^
+
+^ReadOnly^{0} فقط خواندنی است^ReadOnly^
+
+^Recent^اخیر^Recent^
+
+^Redo^ازنو^Redo^
+
+^Refresh^تازه کردن^Refresh^
+
+^Refreshed^تجدیدشده^Refreshed^
+
+^RememberMe^مرا بخاطر بسپار^RememberMe^
+
+^RemoveCondition^حذف شرط^RemoveCondition^
+
+^RemoveFormat^حذف فرمت^RemoveFormat^
+
+^ReportActionDescription^بارگزاری صفحه گزارش در قالب PDF^ReportActionDescription^
+
+^ReportActionHeaderText^گزارش^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^نمایش آیتم ها در صفحه گسترده اکسل formatted<br/>Microsoft.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^صفحه گسترده^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^نمایش آیتم به عنوان تصویر چندین صفحه TIFF.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^تصویر چندین صفحه^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^نمایش آیتم به عنوان نرم افزار Adobe PDF document.<br/>Requires خواننده سازگار است.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^متن پی دی اف^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^مشاهده آیتم های موجود در یک سند Word formatted<br/>Microsoft.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^مایکروسافت ورد^ReportAsWordActionHeaderText^
+
+^Required^ضروری^Required^
+
+^RequiredField^این فیلد الزامی است.^RequiredField^
+
+^RequiredFiledMarkerFootNote^اشاره به فیلد ضروری^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^بازنشانی^ResetAdvancedSearch^
+
+^ResetSearchConfirm^تنظیمات جستجو را بازنشانی کنید؟^ResetSearchConfirm^
+
+^ResolvingReferences^حل و فصل مراجع^ResolvingReferences^
+
+^ResumeBrowsing^رزومه مرور^ResumeBrowsing^
+
+^ResumeEditing^رزومه در حال ویرایش^ResumeEditing^
+
+^ResumeEntering^رزومه ورود^ResumeEntering^
+
+^ResumeLookup^رزومه گرین کارت آمریکا^ResumeLookup^
+
+^ResumeViewing^رزومه مشاهده^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^نقش^RolesTab^
+
+^RootNodeText^صعود به سطح بالا^RootNodeText^
+
+^Rotate^چرخاندن^Rotate^
+
+^RowCancelActionHeaderText^لغو^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^قرار دادن^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^ذخیره^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^بروز؟^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^انتخاب روز رسانی^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^ذخیره^Save^
+
+^SaveAndContinue^ذخیره و ادامه دهید^SaveAndContinue^
+
+^SaveAndNew^ذخیره و^SaveAndNew^
+
+^Saved^ذخیره - {0}^Saved^
+
+^ScanToConfirm^لطفاً دوباره تأیید کنید تا تأیید شود.^ScanToConfirm^
+
+^SeeAll^مشاهده تمام^SeeAll^
+
+^SeeAlso^همچنین نگاه کنید به^SeeAlso^
+
+^SelectActionHeaderText^انتخاب کنید^SelectActionHeaderText^
+
+^SelectAll^انتخاب همه^SelectAll^
+
+^SelectItem^مورد را انتخاب کنید^SelectItem^
+
+^SelectLink^(انتخاب کنید)^SelectLink^
+
+^SelectRow^ردیف را انتخاب کنید^SelectRow^
+
+^SelectToolTip^انتخاب کنید {0}^SelectToolTip^
+
+^Separator^جدا ساز^Separator^
+
+^Settings^تنظیمات^Settings^
+
+^Show^نمایش^Show^
+
+^ShowAdvancedSearch^نمایش جستجوی پیشرفته^ShowAdvancedSearch^
+
+^ShowChart^نمایش نمودار^ShowChart^
+
+^ShowData^نمایش داده^ShowData^
+
+^ShowingItems^نمایش <b>{0}</b> <b>{1}</b> از اقلام <b>{2}</b>^ShowingItems^
+
+^ShowingItemsInfo^نمایش {0} کن.^ShowingItemsInfo^
+
+^ShowingItemsRange^نمایش {0} {1} از موارد^ShowingItemsRange^
+
+^ShowLess^نمایش کمتر^ShowLess^
+
+^ShowMore^بیشتر نشان بده، اطلاعات بیشتر^ShowMore^
+
+^ShowOptions^نمایش گزینه^ShowOptions^
+
+^ShowSystemButtons^دکمه نمایش سیستم^ShowSystemButtons^
+
+^Sidebar^نوار^Sidebar^
+
+^Sign^با ثبت نام در اینجا^Sign^
+
+^SignedOut^خارج شده از سیستم^SignedOut^
+
+^SignUpNow^اکنون ثبت نام کنید^SignUpNow^
+
+^Simple^ساده^Simple^
+
+^SiteActions^عملیات سایت^SiteActions^
+
+^SizeLabel^اندازه^SizeLabel^
+
+^Small^کوچک^Small^
+
+^Social^اجتماعی^Social^
+
+^Sort^نوع^Sort^
+
+^SortBy^مرتب سازی توسط {0}^SortBy^
+
+^SortByField^انتخاب درست برای تغییر ترتیب <b>{0}</b>.^SortByField^
+
+^SortByOptions^انتخاب ترتیب <b>{0}</b> توسط میدان <b>{1}</b> در لیست گزینه های زیر کلیک کنید.^SortByOptions^
+
+^Sorted^مرتب شده^Sorted^
+
+^SortedDefault^مرتب سازی پیش فرض^SortedDefault^
+
+^StartImport^شروع وارد^StartImport^
+
+^StrikeThrough^اعتصاب از طریق^StrikeThrough^
+
+^StringSortAscending^صعودی^StringSortAscending^
+
+^StringSortDescending^نزولی^StringSortDescending^
+
+^Submit^ارسال^Submit^
+
+^Subscript^زیر اسکریپت^Subscript^
+
+^Suggestions^پیشنهادات^Suggestions^
+
+^SumAggregate^مجموع : {0}^SumAggregate^
+
+^SumAggregateToolTip^مجموع از {0}^SumAggregateToolTip^
+
+^Summary^خلاصه^Summary^
+
+^Summer^تابستان^Summer^
+
+^SumOf^مجموع^SumOf^
+
+^Superscript^سوپر فیلمنامه^Superscript^
+
+^Sync^همگام سازی^Sync^
+
+^TaskResume^خلاصه^TaskResume^
+
+^Tasks^وظایف^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^abc^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^غی^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^سوابق تست^TestingRecords^
+
+^Text^متن^Text^
+
+^TextFilterText^درگاه متن^TextFilterText^
+
+^Theme^موضوع^Theme^
+
+^ThisMonth^این ماه^ThisMonth^
+
+^ThisQuarter^این سه ماهه^ThisQuarter^
+
+^ThisWeek^این هفته^ThisWeek^
+
+^ThisYear^این سال^ThisYear^
+
+^Tiny^کوچک^Tiny^
+
+^Today^امروز^Today^
+
+^Tomorrow^فردا^Tomorrow^
+
+^Top^بالا^Top^
+
+^ToThisWebsite^در این وب سایت^ToThisWebsite^
+
+^TouchUINotSupported^لمسی UI است در این مرورگر پشتیبانی نمی شود.^TouchUINotSupported^
+
+^TransitionFade^محو شدن^TransitionFade^
+
+^TransitionFlip^تلنگر^TransitionFlip^
+
+^TransitionFlow^جریان^TransitionFlow^
+
+^TransitionNone^هیچ یک^TransitionNone^
+
+^TransitionPop^پاپ^TransitionPop^
+
+^Transitions^انتقال^Transitions^
+
+^TransitionSlide^لغزش^TransitionSlide^
+
+^TransitionSlideDown^اسلاید پایین^TransitionSlideDown^
+
+^TransitionSlideUp^اسلاید بالا^TransitionSlideUp^
+
+^TransitionTurn^نوبت^TransitionTurn^
+
+^TreeActionDescription^نمایش روابط سلسله مراتبی.^TreeActionDescription^
+
+^TreeActionHeaderText^نمایش سلسله مراتب^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^دریافت کد تأیید^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^برنامه احراز هویت^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^اگر قادر به ارائه کد تأیید نیستید ، به جای آن کد پشتیبان را وارد کنید.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^کد یکبار مصرف^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^کد پشتیبان^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^تماس گرفته شد^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^ایمیل به ارسال شد^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^پیام متنی به^TwoFaCodeSentSms^
+
+^TwoFaConsent^رضایت^TwoFaConsent^
+
+^TwoFaEnterPassword^رمز عبور خود را وارد کنید^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^به من زنگ بزن^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^من تماس خواهم گرفت^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^به من ایمیل بزنید به^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^به من پیام بده^TwoFaGetCodeSms^
+
+^TwoFaMethod^روش^TwoFaMethod^
+
+^TwoFaMsgChanged^احراز هویت 2 عاملی تغییر کرده است.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^احراز هویت 2 عاملی غیرفعال شده است.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^احراز هویت دو عاملی را غیرفعال کنید؟^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^احراز هویت 2 عاملی فعال شده است.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^لطفاً کد تأیید {0} رقمی را وارد کنید.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^رمز عبور نامعتبر.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^کد تأیید نامعتبر است.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 کد تأیید {0} شما است.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^من نمی توانم کد QR را اسکن کنم.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^برای نصب برنامه احراز هویت به کمک نیاز دارم.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^من یک برنامه احراز هویت در دستگاه تلفن همراه دارم.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^در صورت عدم امکان ارائه کد تأیید ، استفاده از کدهای پشتیبان یکبار مصرف به شما امکان می دهد وارد سیستم شوید.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^کدهای پشتیبان^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^بعد از ورود موفقیت آمیز ، یک کد تأیید وارد می کنم.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^کلید راه اندازی را در برنامه وارد کنید^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^روشهای تأیید^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^کد QR را با دوربین اسکن کنید^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^کد QR را در برنامه اسکن کنید^TwoFaSetupScanQrCode^
+
+^TwoFaText^احراز هویت 2 عاملی^TwoFaText^
+
+^TwoFaTrustThisDevice^به این دستگاه اعتماد کنید^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^کد تایید^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^من از یک برنامه احراز هویت برای دریافت کد تأیید استفاده خواهم کرد.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^من یک تماس خودکار با تلفنم دریافت می کنم.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^کد تأیید از طریق ایمیل تحویل داده می شود.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^کد تأیید از طریق پیام متنی تحویل داده می شود.^TwoFaVerifyViaSms^
+
+^TypeToSearch^نوع جستجو^TypeToSearch^
+
+^Underline^تاکید کردن^Underline^
+
+^Undo^خنثی کردن^Undo^
+
+^Undock^جدا^Undock^
+
+^Unfreeze^Unfreeze^Unfreeze^
+
+^UnGrouped^گروه بندی حذف شده است^UnGrouped^
+
+^UnLink^جدا کردن^UnLink^
+
+^UnSelect^عدم انتخاب^UnSelect^
+
+^UpdateActionHeaderText^خوب^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^بروز؟^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^انتخاب روز رسانی^UpdateActionInBatchModeHeaderText^
+
+^Upload^بارگذاری^Upload^
+
+^UploadDescription^چندین فایل بارگذاری شود.^UploadDescription^
+
+^Uploading^بارگیری {0}...^Uploading^
+
+^UpOneLevel^بازگشت به یک مرحله^UpOneLevel^
+
+^UseLEV^چسباندن &quot;{0}&quot;^UseLEV^
+
+^UserName^نام کاربر^UserName^
+
+^UsersInRole^کاربر در نقش^UsersInRole^
+
+^UsersTab^کاربران^UsersTab^
+
+^Vantage^بهتری^Vantage^
+
+^Verdant^پوشیده از سبزه^Verdant^
+
+^Verify^تأیید کنید^Verify^
+
+^View^نظر^View^
+
+^Viewpoint^نظر^Viewpoint^
+
+^Wait^لطفا صبر کنید...^Wait^
+
+^Week^هفته^Week^
+
+^Welcome1^خوش آمد^Welcome1^
+
+^Welcome2^امروز است^Welcome2^
+
+^WhiteSmoke^دود سفید^WhiteSmoke^
+
+^WithSelectedValues10^با ارزش انتخاب شده (صفحه 10)^WithSelectedValues10^
+
+^WithSelectedValues5^با ارزش انتخاب شده (صفحه 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^با فیلتر مشخص^WithSpecifiedFilters^
+
+^Year^سال^Year^
+
+^YearToDate^سال تا به امروز^YearToDate^
+
+^Yes^بله^Yes^
+
+^Yesterday^دیروز^Yesterday^
+
+^Yoshi^که Yoshi^Yoshi^
+
+^ZoomIn^زوم^ZoomIn^
+
+^ZoomOut^زوم کردن^ZoomOut^
+

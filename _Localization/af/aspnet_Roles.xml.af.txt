@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Skep &#39;n nuwe lidmaatskap Rol rekord.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nuwe Rol^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nuwe^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Vul die vorm in. Maak seker dat al die nodige velde in te voer.^CreateFormCategory^
+
+^CreateFormHeaderText^Vul asseblief hierdie vorm en klik op die OK knoppie van &#39;n nuwe lidmaatskap rolle rekord te skep. Klik op Kanselleer om terug te keer na die vorige skerm.^CreateFormHeaderText^
+
+^DescriptionLabel^Beskrywing^DescriptionLabel^
+
+^EditViewCategory^Dit is die gebied van die lidmaatskap rol rekord wat wel kan verander.^EditViewCategory^
+
+^EditViewHeaderText^Lidmaatskap rolle onderstaande inligting te hersien. Kliek op Verander om hierdie rekord te verander, kliek op Verwyder om die rekord te verwyder, of kliek op Kanselleer / Beslote om terug te keer.^EditViewHeaderText^
+
+^GridViewHeaderText^Dit is &#39;n lys van lidmaatskap rolle.^GridViewHeaderText^
+
+^RoleNameLabel^Rol Naam^RoleNameLabel^
+

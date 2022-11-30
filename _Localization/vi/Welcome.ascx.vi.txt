@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Hành chính tài khoản^AdminDesc^
+
+^SignInHeader^Hướng dẫn^SignInHeader^
+
+^SignInInstruction^Đăng nhập để truy cập vào nội dung trang web được bảo vệ.^SignInInstruction^
+
+^SignInPara1^Hai tài khoản người dùng chuẩn sẽ được tự động tạo ra khi ứng dụng được khởi tạo nếu lựa chọn thành viên đã được lựa chọn cho ứng dụng này.^SignInPara1^
+
+^SignInPara2^Các <b>admin</b> tài khoản quản trị được ủy quyền để truy cập vào tất cả các lĩnh vực của trang web và quản lý thành viên. Tài khoản <b>user</b> tiêu chuẩn được phép truy cập tất cả các lĩnh vực của trang web với các trường hợp ngoại lệ của người quản lý thành viên.^SignInPara2^
+
+^SignInPara3^Di chuyển con trỏ chuột qua <i>Login liên kết này site</i> web trên phía bên phải ở phía trên cùng của trang và đăng nhập với một trong các tài khoản được liệt kê dưới đây.^SignInPara3^
+
+^UserDesc^Tài khoản người dùng tiêu chuẩn^UserDesc^
+

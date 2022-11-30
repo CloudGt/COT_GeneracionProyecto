@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Administrative account^AdminDesc^
+
+^SignInHeader^Tagubilin^SignInHeader^
+
+^SignInInstruction^Mag-sign in-access ang protektadong nilalaman ng site.^SignInInstruction^
+
+^SignInPara1^Dalawang karaniwang gumagamit account ay awtomatikong nilikha kapag ang application ay initialized kung ang membership opsyon ay napili para sa application na ito.^SignInPara1^
+
+^SignInPara2^Ang administrative account <b>admin</b> ay awtorisadong upang ma-access ang lahat ng mga lugar ng web site at manager ng membership. Ang karaniwang <b>user</b> ng account ay pinahihintulutan upang ma-access ang lahat ng mga lugar ng web site na may exception ng membership manager.^SignInPara2^
+
+^SignInPara3^Ilipat ang mouse pointer sa ibabaw ng <i>Login link sa web site</i> sa kanang-bahagi sa tuktok ng pahina at mag-sign in sa isa sa mga account na nakalista sa ibaba.^SignInPara3^
+
+^UserDesc^Standard user account^UserDesc^
+

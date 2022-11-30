@@ -1,0 +1,132 @@
+<dataController name="Controllers" conflictDetection="overwriteChanges" label="Controllers"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium" handler="CodeOnTime.Designer.DesignerBusinessRules">
+	<commands>
+		<command id="command1" type="Text">
+			<query href="Controllers.xml" select="//a:fieldOutput" />
+			<template select="//a:dataController[@name=$Controller]/a:commands/a:command[@id=$CommandId]/a:output">
+				<fieldOutput xmlns="urn:schemas-codeontime-com:data-aquarium" />
+			</template>
+		</command>
+	</commands>
+	<fields>
+		<field name="FieldName" type="String" select="@fieldName" allowNulls="false" isPrimaryKey="true" label="Field Name" contextFields="Controller,CommandId">
+			<items style="Lookup" dataController="Fields" dataValueField="Name" dataTextField="Name"/>
+		</field>
+		<field name="Controller" type="String" select="ancestor::a:dataController[1]/@name" allowNulls="false" isPrimaryKey="true" readOnly="true" >
+			<items style="Lookup" dataController="Controllers"  dataValueField="Name" dataTextField="Name"/>
+		</field>
+		<field name="CommandId" type="String" select="ancestor::a:command[1]/@id" allowNulls="false" isPrimaryKey="true" readOnly="true" label="Command" contextFields="Controller">
+			<items style="Lookup" dataController="Commands" dataValueField="CommandId" dataTextField="CommandId"/>
+		</field>
+    <field name="CommandText" type="String" select="ancestor::a:command[1]/a:text" allowNulls="false" readOnly="true" label="Command Text"/>
+    <field name="CommandType" type="String" select="ancestor::a:command[1]/@type" allowNulls="false" readOnly="true" label="Command Type"/>
+    <field name="CommandEvent" type="String" select="ancestor::a:command[1]/@event" allowNulls="false" readOnly="true" label="Command Event"/>
+  </fields>
+	<views>
+		<view id="grid1" type="Grid" commandId="command1" label="Field Outputs">
+      <headerText>
+        <![CDATA[
+        <span class="HelpLink" title="Learn to work with Field Outputs" onclick="$openUrl('http://codeontime.com/learn/development/project-designer/field-outputs')"></span>
+		This is a list of command field outputs. 
+    ]]>
+      </headerText>
+      <dataFields>
+				<dataField fieldName="FieldName"/>
+				<dataField fieldName="CommandId" hidden="true"/>
+				<dataField fieldName="Controller" hidden="true"/>
+        <dataField fieldName="CommandType" hidden="true"/>
+        <dataField fieldName="CommandEvent" hidden="true"/>
+			</dataFields>
+		</view>
+		<view id="editForm1" type="Form" commandId="command1" label="Field Output">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about Field Outputs" onclick="$openUrl('http://codeontime.com/learn/data-controllers/field-outputs/overview')"></span>
+        Click OK to save the field output, click Delete to delete, or click Cancel to undo changes or return back.]]>
+      </headerText>
+      <categories>
+				<category headerText="General">
+					<description>The field that is being populated by this output. </description>
+					<dataFields>
+						<dataField fieldName="FieldName" columns="30"/>
+					</dataFields>
+				</category>
+				<category headerText="Parent Command">
+					<description>
+						<![CDATA[The controller command that is using this field output.]]>
+					</description>
+					<dataFields>
+						<dataField fieldName="Controller"/>
+						<dataField fieldName="CommandId"/>
+						<dataField fieldName="CommandText"/>
+					</dataFields>
+				</category>
+			</categories>
+		</view>
+		<view id="createForm1" type="Form" commandId="command1" label="New Field Output">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about Field Outputs" onclick="$openUrl('http://codeontime.com/learn/data-controllers/field-outputs/overview')"></span>
+        Please fill this form and click OK button to create a new command field output. Click Cancel to return to the previous screen.]]>
+      </headerText>
+      <categories>
+				<!--<category headerText="Parent Command" >
+					<description>
+						<![CDATA[The controller command that is using this field output.]]>
+					</description>
+					<dataFields>
+						<dataField fieldName="Controller" readOnly="false" hidden="true"/>
+						<dataField fieldName="CommandId" readOnly="false" hidden="true"/>
+					</dataFields>
+				</category>-->
+				<category headerText="General">
+					<description>The data controller field that is being populated by this output. </description>
+					<dataFields>
+            <dataField fieldName="Controller" readOnly="false" hidden="true"/>
+            <dataField fieldName="CommandId" readOnly="false" hidden="true"/>
+            <dataField fieldName="FieldName" columns="30"/>
+					</dataFields>
+				</category>
+			</categories>
+		</view>
+	</views>
+	<actions>
+		<actionGroup scope="Grid">
+			<!--<action commandName="Select" commandArgument="editForm1" />-->
+			<action commandName="Navigate" commandArgument="FieldOutput.htm?_returnController=FieldOutputs&amp;Controller={Controller}&amp;CommandId={CommandId}&amp;FieldName={FieldName}" headerText="Open"/>
+			<action commandName="Edit" />
+      <action commandName="Delete" confirmation="Delete?" />
+      <action commandName="Select" commandArgument="editForm1" headerText="View"/>
+		</actionGroup>
+		<actionGroup scope="Form">
+			<action commandName="Edit" />
+			<action commandName="Delete" confirmation="Delete?" />
+			<action commandName="Cancel" headerText="Close" />
+			<action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+			<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />
+			<action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+			<action whenLastCommandName="New" commandName="Cancel" />
+		</actionGroup>
+		<actionGroup scope="ActionBar" headerText="New">
+			<action commandName="New" commandArgument="createForm1" headerText="New Field Output" description="Create a new field output." />
+		</actionGroup>
+		<!--<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+			<action commandName="Custom" commandArgument="Preview" headerText="Quick View" description="Preview the data controller."  />
+		</actionGroup>-->
+		<!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+		<actionGroup scope="ActionBar" headerText="Record">
+			<action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+			<action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+		</actionGroup>
+		<actionGroup id="ag8" scope="Row">
+			<action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+		</actionGroup>
+	</actions>
+</dataController>

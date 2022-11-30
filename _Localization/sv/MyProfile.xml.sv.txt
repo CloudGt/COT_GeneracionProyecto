@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Tillbaka^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Avsluta^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Bekräfta nytt lösenord^ConfirmNewPassword^
+
+^ConfirmPassword^Bekräfta lösenord^ConfirmPassword^
+
+^Email^E-post^Email^
+
+^ForgotYourPassword^Glömt ditt lösenord?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Svara på följande fråga för att få ditt lösenord. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identitetsbekräftelse^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Vänligen fyll i detta formulär och klicka på Submit-knappen för att återställa det glömda lösenordet. Klicka på Avbryt för att återgå till föregående skärm.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Lösenordsåterställning: Steg 2 av 2^IdentityConfirmViewLabel^
+
+^LoginButton^Logga in^LoginButton^
+
+^LoginLink^Logga in^LoginLink^
+
+^LoginWithDNN^Logga in med DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Logga in med Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Logga in med Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Logga in med Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Logga in med SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Logga in med Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Lösenordssvar (visas inte för ditt skydd)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Vänligen ange ditt nuvarande lösenord för att skapa nytt lösenord, uppdatera din e-postadress eller ändra lösenordåterställningsfrågan och svara.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Nuvarande lösenord^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Granska dina medlemsuppgifter nedan. Klicka på Uppdatera Mitt konto för att ändra den här posten, eller klicka på Avbryt för att återvända.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Mitt konto^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Vänligen ange nytt lösenord. Observera att lösenordet måste vara minst 7 tecken långt och innehålla en icke-alfanumerisk tecken.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nytt lösenord (Valfritt)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Under återställning av ett glömt lösenord kommer du att bli ombedd att ange ditt användarnamn. Om ett användarkonto finns måste en lösenordsfråga besvaras. Ett korrekt svar kommer att utlösa ett email med ett tillfälligt lösenord skickat till dig.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-post &amp; Lösenordsåterställning (Valfritt)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^nytt lösenord^NewPassword^
+
+^OldPassword^Gammalt lösenord^OldPassword^
+
+^Password^Lösenord^Password^
+
+^PasswordAnswer^Lösenordsvar^PasswordAnswer^
+
+^PasswordQuestion^Lösenordsproblem^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Var vänlig ange ett användarnamn. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Glömt ditt lösenord?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Vänligen fyll i detta formulär och klicka på Fortsätt-knappen för att återställa det glömda lösenordet. Klicka på Avbryt för att återgå till föregående skärm.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Lösenordsåterställning: Steg 1 av 2^PasswordRequestViewLabel^
+
+^RememberMe^Kom ihåg mig nästa gång^RememberMe^
+
+^RequestPasswordActionHeaderText^Nästa^RequestPasswordActionHeaderText^
+
+^SignUp^Bli Medlem^SignUp^
+
+^SignUpNow^Anmäl dig nu^SignUpNow^
+
+^SignUpViewHeaderText^Vänligen fyll i detta formulär och klicka på OK-knappen för att registrera dig för ett konto. Klicka på Avbryt för att återgå till föregående skärm.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Konto registrering^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Vänligen ange användarnamn och lösenord. Observera att lösenordet måste vara minst 7 tecken långt och innehålla en icke-alfanumerisk tecken. Endast godkända användare kommer att kunna logga in på webbplatsen.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Ny användarinformation^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Dessa fält är nödvändiga för att hjälpa dig att återställa ett glömt lösenord. Under återställningen kommer du att bli ombedd att ange ett användarnamn. Om ett användarkonto existerar begärs en säkerhetsfråga att besvaras. Ett korrekt svar kommer att utlösa ett mail med ett tillfälligt lösenord skickat till det registrerade e-postmeddelandet.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Återställning av lösenord^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Uppdatera mitt konto^UpdateMyAccountActionHeaderText^
+
+^UserName^Användarnamn^UserName^
+

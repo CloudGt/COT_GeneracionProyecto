@@ -1,0 +1,213 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Napravite novi zapis korisnika.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Dodaj korisnika^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Dodaj^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Natrag^BackToRequestPasswordActionHeaderText^
+
+^Comment^Komentar^Comment^
+
+^ConfirmIdentityActionHeaderText^Završiti^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Potvrdite lozinku^ConfirmNewPassword^
+
+^ConfirmPassword^Potvrdite Lozinku^ConfirmPassword^
+
+^CreateDate^Datum unosa^CreateDate^
+
+^CreateFormCommentCategoryDescription^Unesite dodatne komentare o ovom korisničkom računu. Komentar nije vidljiv korisniku.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Komentari^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Molimo unesite korisničko ime i lozinku. Imajte na umu da lozinka mora biti najmanje 7 znakova i sadržavati jedan ne-alfanumerički znak. Samo odobreni korisnici će se moći prijaviti na web stranici.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Informacije o novom korisniku^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Ova polja pomažu korisniku da povrati zaboravljene lozinke. Tijekom procesa oporavka od korisnika će biti zatraženo da unese korisničko ime. Ako korisnički račun postoji onda se traži odgovor na sigurnosno pitanje. Točan odgovor će poslati e-mail s privremenom lozinkom korisniku.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Oporavak lozinke^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Odaberite korisničke uloge koje najbliže odgovaraju ulogama korisnika. Uloge kontroliraju pristup područjima ove aplikacije. Molimo kontaktirajte administratora sustava ukoliko ograničenja pristupa moraju biti promijenjena.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Uloge^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Molimo vas da ispunite ovaj obrazac i kliknite na OK gumb za stvaranje novog zapisa. Kliknite Odustani da biste se vratili na prethodni zaslon.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Novi korisnik^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Ovaj korisnički račun će biti kreiran kao odobren.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Dvostruka e-mail adresa.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Dvostruki provider.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Dvostruko korisničko ime.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Statistika aktivnosti.^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Ovaj korisnički račun je odobren^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Ovo su statistike neuspjelih pokušaja prijave za ovog korisnika. <br/> <br/> Korisnik će biti zaključan nakon postizanja maksimalnog broja neuspjelih pokušaja prijave. <br/> <br/> Izbačen korisnik će se moći prijaviti ponovno nakon datuma navedenog pod Ponovna moguća prijava. <br/> <br/> Korisnici koji nisu povratili lozinku će to biti u mogućnosti nakon datuma navedenog pod Ponovni mogući odgovor. <br/> <br/> Možete vratiti korisničku mogućnost za prijavu postavljanjem Izbačen na 'Ne'.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Statistika prijava^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Tijekom oporavka zaboravljene lozinke od korisnika će biti zatraženo da unese korisničko ime. Ako korisnički račun postoji onda se traži odgovor na sigurnosno pitanje. Točan odgovor će poslati e-mail s privremenom lozinkom korisniku. <br/><br/> Promijeni Izbačen na 'Ne' ako je korisnik blokiran nakon postizanja maksimalnog broja neuspjelog pokušaja prijave, a želite dopustiti korisniku prijavu opet.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Oporavak lozinke^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Odaberite korisničke uloge koje najbliže odgovaraju korisniku. Uloge kontroliraju pristup područjima ove aplikacije. Molimo kontaktirajte administratora sustava ukoliko ograničenja pristupa moraju biti promijenjena. <br/> <br/> Unesite dodatne komentare o ovom korisničkom računu. Komentar nije vidljiv korisniku.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Podaci o korisniku^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Molimo pregledajte informacije u nastavku. Kliknite na Uredi da biste promijenili ovaj zapis, pritisnite Izbriši za brisanje zapisa, ili pritisnite Zatvori za povratak.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Pregled korisnika^EditFormViewLabel^
+
+^Email^E-mail^Email^
+
+^EnterCurrentPassword^Molimo unesite trenutnu lozinku.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Molimo unesite tajni odgovor.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Pogreška pri spremanju korisničkog računa.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Broj neuspjelih odgovora^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Ponovni mogući odgovor^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Broj neuspjelih prijava^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Ponovna moguća prijava^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Ovo je popis korisnika i uloga.^GridViewHeaderText^
+
+^GridViewLabel^Svi korisnici^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Odgovorite na sljedeće pitanje kako bi primili lozinku. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Potvrda identiteta^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Molimo vas da ispunite ovaj obrazac i kliknite na gumb Završiti da oporavite zaboravljenu lozinku. Kliknite Natrag da biste se vratili na prethodni zaslon.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Oporavak lozinke: Korak 2 od 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Neispravan tajni odgovor za oporavak.^InvalidAnswer^
+
+^InvalidEmail^Neispravna adresa e-pošte.^InvalidEmail^
+
+^InvalidPassword^Neispravna lozinka.^InvalidPassword^
+
+^InvalidProviderUserKey^Neispravan ključ davatelja korisnika.^InvalidProviderUserKey^
+
+^InvalidQuestion^Neispravno tajno pitanje za oporavak.^InvalidQuestion^
+
+^InvalidUserName^Neispravno korisničko ime.^InvalidUserName^
+
+^IsApproved^Je odobren^IsApproved^
+
+^IsLockedOut^Je li blokiran^IsLockedOut^
+
+^LastLockoutDate^Zadnji datum blokiranja^LastLockoutDate^
+
+^LastLoginDate^Zadnji datum prijave^LastLoginDate^
+
+^LastPasswordChangedDate^Datum zadnje promjene lozinke^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Tajni Odgovor (ne prikazuje se za svoju zaštitu)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Molimo unesite trenutnu lozinku za stvaranje nove lozinke, ažuriranje email adrese, ili promjenu pitanja za oporavak lozinke.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Trenutna Lozinka^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Molimo pregledajte svoje podatke u nastavku. Kliknite Ažuriraj Moj račun da biste promijenili ovaj zapis, ili kliknite Odustani da biste se vratili natrag.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Moj račun^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Molimo unesite novu lozinku. Imajte na umu da lozinka mora biti najmanje 7 znakova i sadržavati jedan ne-alfanumerički znak.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nova lozinka (neobavezno)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Tijekom oporavka zaboravljene lozinke od vas će se tražiti da unesete svoje korisničko ime. Ako korisnički račun postoji onda pitanje mora biti odgovoreno. Točan odgovor će poslati e-mail s privremenom lozinkom na vašu email adresu.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-mail &amp; oporavak lozinke (opcionalno)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nova lozinka^NewPassword^
+
+^NewPasswordAlert^Nova je lozinka poslana na vašu e-mail adresu.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Nova lozinka i potvrda se ne podudaraju.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Vaša nova lozinka.^NewPasswordInvalid^
+
+^NewPasswordSubject^Nova lozinka za \'{0} \ '.^NewPasswordSubject^
+
+^OldPassword^Stara lozinka^OldPassword^
+
+^Password^Lozinka^Password^
+
+^PasswordAndConfirmationDoNotMatch^Lozinka i potvrda se ne podudaraju.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Tajni odgovor^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Vaša lozinka ne odgovara našoj evidenciji.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Lozinka Oblik^PasswordFormat^
+
+^PasswordQuestion^Lozinka Pitanje^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Molimo unesite korisničko ime. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Zaboravili ste lozinku?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Molimo vas da ispunite ovaj obrazac i kliknite gumb Nastavi da oporavite zaboravljenu lozinku. Kliknite Odustani da biste se vratili na prethodni zaslon.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Oporavak lozinke: Korak 1 od 2^PasswordRequestViewLabel^
+
+^ProviderError^Pogreška provider-a.^ProviderError^
+
+^RequestPasswordActionHeaderText^Nastavi^RequestPasswordActionHeaderText^
+
+^Roles^Uloge^Roles^
+
+^SelfRegisteredUser^Novo-dodani korisnik.^SelfRegisteredUser^
+
+^SignUp^Prijavite se^SignUp^
+
+^SignUpViewHeaderText^Molimo vas da ispunite ovaj obrazac i kliknite na gumb Prijavite se da biste se prijavili za račun. Kliknite Odustani da biste se vratili na prethodni zaslon.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Novi korisnik^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Molimo unesite korisničko ime i lozinku. Imajte na umu da lozinka mora biti najmanje 7 znakova i sadržavati jedan ne-alfanumerički znak. Samo odobreni korisnici će se moći prijaviti na web stranici.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Informacije o novom korisniku^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Ova polja vam pomažu da oporavite zaboravljene lozinke. Tijekom procesa oporavka vas će se tražiti da unesete korisničko ime. Ako korisnički račun postoji onda se traži odgovor na sigurnosno pitanje. Točan odgovor će poslati e-mail s privremenom lozinkom na registriranu e-mail adresu.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Povrat lozinke^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Ažuriraj Moj račun^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Korisnik ne može biti zaključan. Ako želite spriječiti aktivnosti ovog korisnika onda jednostavno označite korisnika kao "ne-Odobreno".^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Korisnik'{0}' je izbrisan.^UserHasBeenDeleted^
+
+^UserName^Korisničko ime^UserName^
+
+^UserNameDoesNotExist^Korisničko ime ne postoji.^UserNameDoesNotExist^
+
+^UserNotFound^Korisnik nije pronađen.^UserNotFound^
+
+^UserRejected^Korisnik je odbijen.^UserRejected^
+
+^UsersInRolesGridHeaderText^Ovo je popis korisnika koji pripadaju određenoj ulozi.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Korisnici u ulozi^UsersInRolesGridLabel^
+

@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Kembali^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Selesai^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Sahkan kata laluan baru^ConfirmNewPassword^
+
+^ConfirmPassword^Sahkan Kata Laluan^ConfirmPassword^
+
+^Email^E-mel^Email^
+
+^ForgotYourPassword^Lupa kata laluan anda?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Jawab soalan berikut untuk menerima kata laluan anda. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Pengesahan Pengenalan^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Sila isikan borang ini dan klik butang Hantar untuk memulihkan kata laluan terlupa. Klik Batal untuk kembali ke skrin sebelumnya.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Pemulihan Kata Laluan: Langkah 2 dari 2^IdentityConfirmViewLabel^
+
+^LoginButton^Log masuk^LoginButton^
+
+^LoginLink^Log masuk^LoginLink^
+
+^LoginWithDNN^Masuk Dengan DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Log masuk melalui Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Masuk Dengan Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Masuk Dengan Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Masuk Dengan SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Masuk Dengan Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Kata Laluan Jawapan (tidak dipaparkan untuk perlindungan anda)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Sila masukkan kata laluan semasa anda untuk membuat kata laluan baru, kemas kini alamat e-mel anda atau tukar soalan dan jawab pemulihan kata laluan.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Kata Laluan Semasa^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Sila semak maklumat keahlian anda di bawah. Klik Kemas Kini Akaun saya untuk menukar rekod ini, atau klik Batal untuk kembali.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Akaun saya^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Sila masukkan kata laluan baru. Ambil perhatian bahawa kata laluan mesti sekurang-kurangnya 7 aksara panjang dan memasukkan satu aksara bukan abjad angka.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Kata Laluan Baru (Pilihan)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Semasa pemulihan kata laluan terlupa, anda akan diminta untuk memasukkan nama pengguna anda. Jika ada akaun pengguna maka soalan kata laluan mesti dijawab. Jawapan yang betul akan mencetuskan e-mel dengan kata laluan sementara yang dihantar kepada anda.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-mel &amp; Pemulihan Kata Laluan (Pilihan)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Kata laluan baharu^NewPassword^
+
+^OldPassword^Kata laluan lama^OldPassword^
+
+^Password^Kata laluan^Password^
+
+^PasswordAnswer^Jawapan Kata Laluan^PasswordAnswer^
+
+^PasswordQuestion^Soalan Kata Laluan^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Sila masukkan nama pengguna. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Lupa kata laluan anda?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Sila isikan borang ini dan klik butang Teruskan untuk memulihkan kata laluan terlupa. Klik Batal untuk kembali ke skrin sebelumnya.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Pemulihan Kata Laluan: Langkah 1 dari 2^PasswordRequestViewLabel^
+
+^RememberMe^Ingat saya pada masa akan datang^RememberMe^
+
+^RequestPasswordActionHeaderText^Seterusnya^RequestPasswordActionHeaderText^
+
+^SignUp^Daftar^SignUp^
+
+^SignUpNow^Daftarlah sekarang^SignUpNow^
+
+^SignUpViewHeaderText^Sila isikan borang ini dan klik butang OK untuk mendaftar untuk akaun. Klik Batal untuk kembali ke skrin sebelumnya.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Pendaftaran Akaun^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Sila masukkan nama pengguna dan kata laluan. Ambil perhatian bahawa kata laluan mesti sekurang-kurangnya 7 aksara panjang dan memasukkan satu aksara bukan abjad angka. Hanya pengguna yang diluluskan yang akan dapat log masuk ke laman web.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Maklumat Pengguna Baru^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Bidang ini dikehendaki membantu anda untuk mendapatkan kata laluan yang terlupa. Semasa proses pemulihan, anda akan diminta memasukkan nama pengguna. Jika ada akaun pengguna maka soalan keselamatan diminta untuk dijawab. Jawapan yang betul akan mencetuskan e-mel dengan kata laluan sementara yang dihantar ke e-mel berdaftar.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Pemulihan Kata Laluan^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Kemas kini Akaun Saya^UpdateMyAccountActionHeaderText^
+
+^UserName^Nama Pengguna^UserName^
+

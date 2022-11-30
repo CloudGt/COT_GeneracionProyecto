@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Upravni račun^AdminDesc^
+
+^SignInHeader^Navodila^SignInHeader^
+
+^SignInInstruction^Prijavite se za dostop do zaščitene vsebine spletne strani.^SignInInstruction^
+
+^SignInPara1^Dve standardni uporabniški računi se samodejno ustvari, ko je uporaba initialized, če je članstvo možnost izbrali za to vlogo.^SignInPara1^
+
+^SignInPara2^Upravni račun <b>admin</b> je pooblaščen za dostop do vseh področjih spletne strani in članstvo manager. Standardna <b>user</b> račun je dovoljen dostop do vseh področjih spletne strani z izjemo upravljavca članstva.^SignInPara2^
+
+^SignInPara3^Premakni miškin kazalec nad povezavo <i>Login na to spletno site</i> na desni strani na vrhu strani in se prijavite z enega od računov, navedenih v nadaljevanju.^SignInPara3^
+
+^UserDesc^Standardni uporabniški račun^UserDesc^
+

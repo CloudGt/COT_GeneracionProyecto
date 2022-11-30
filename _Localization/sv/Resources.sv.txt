@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Kommentera^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Bifogade <b>{1}</b> kl {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Attachment^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Skriv in valfria anteckningar och bifoga filer.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Anmärkningar och bilagor^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Skrivit på {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Anteckningar^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Anteckningar och bilagor^AnnotationTab^
+
+^BlobClearConfirm^Klart?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Har raderats.^BlobCleared^
+
+^BlobClearText^Rensa^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Misslyckats med att lägga upp {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Klicka på^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^här^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^att ladda upp eller rensa {0} fil.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Har överförts. <b>It Kan ta upp till {1} minuter för bilden för att återspegla de uppladdade content.</b>^BlobUploded^
+
+^Copyright^All rights reserved.^Copyright^
+
+^RecordChangedByAnotherUser^Skivan har ändrats av en annan användare.^RecordChangedByAnotherUser^
+

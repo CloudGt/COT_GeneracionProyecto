@@ -1,0 +1,410 @@
+<dataController name="ActionGroups" conflictDetection="overwriteChanges" label="Action  Groups"  handler="CodeOnTime.Designer.DesignerBusinessRules"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium">
+  <commands>
+    <command id="command1" type="Text">
+      <query href="Controllers.xml" select="//a:actionGroup"   dependencies="//a:action"/>
+      <template select="//a:dataController[@name=$Controller]/a:actions">
+        <actionGroup xmlns="urn:schemas-codeontime-com:data-aquarium" id="{generate-id('ActionGroupId')}"/>
+      </template>
+    </command>
+    <command id="gridScopeActionGroupCommand" type="Text">
+      <query href="Controllers.xml" select="//a:actionGroup" dependencies="//a:action"/>
+      <template select="//a:dataController[@name=$Controller]/a:actions">
+        <actionGroup xmlns="urn:schemas-codeontime-com:data-aquarium" id="{generate-id('ActionGroupId')}" scope="Grid">
+          <action id="a1" commandName="Select" commandArgument="editForm1" />
+          <action id="a2" commandName="Edit" />
+          <action id="a3" commandName="Delete" confirmation="Delete?" />
+          <action id="a4"/>
+          <action id="a5" commandName="Duplicate" commandArgument="createForm1"/>
+        </actionGroup>
+      </template>
+    </command>
+    <command id="formScopeActionGroupCommand" type="Text">
+      <query href="Controllers.xml" select="//a:actionGroup" dependencies="//a:action"/>
+      <template select="//a:dataController[@name=$Controller]/a:actions">
+        <actionGroup xmlns="urn:schemas-codeontime-com:data-aquarium" id="{generate-id('ActionGroupId')}" scope="Form">
+          <action id="a1" commandName="Edit" />
+          <action id="a2" commandName="Delete" confirmation="Delete?" />
+          <action id="a3" commandName="Cancel" headerText="Close" />
+          <action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+          <action id="a5" whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />
+          <action id="a6" whenLastCommandName="Edit" commandName="Cancel" />
+          <action id="a7" whenLastCommandName="New" commandName="Insert" headerText="OK" />
+          <action id="a8" whenLastCommandName="New" commandName="Cancel" />
+          <action id="a9" whenLastCommandName="Duplicate" commandName="Insert" headerText="OK" />
+          <action id="a10" whenLastCommandName="Duplicate" commandName="Cancel" />
+        </actionGroup>
+      </template>
+    </command>
+    <command id="actionBarScopeActionGroup1Command" type="Text">
+      <query href="Controllers.xml" select="//a:actionGroup" dependencies="//a:action"/>
+      <template select="//a:dataController[@name=$Controller]/a:actions">
+        <actionGroup xmlns="urn:schemas-codeontime-com:data-aquarium" id="{generate-id('ActionGroupId')}" scope="ActionBar" headerText="New" flat="true">
+          <action id="a1" commandName="New" commandArgument="createForm1" description="Create a new Customers record." cssClass="NewIcon" headerText="New Customers" />
+        </actionGroup>
+      </template>
+    </command>
+    <command id="actionBarScopeActionGroup2Command" type="Text">
+      <query href="Controllers.xml" select="//a:actionGroup" dependencies="//a:action" />
+      <template select="//a:dataController[@name=$Controller]/a:actions">
+        <actionGroup xmlns="urn:schemas-codeontime-com:data-aquarium" id="{generate-id('ActionGroupId')}" scope="ActionBar" headerText="Edit/Delete" flat="true">
+          <action id="a1" whenKeySelected="true" commandName="Edit" commandArgument="editForm1" cssClass="EditIcon" whenView="grid1" />
+          <action id="a1" whenKeySelected="true" commandName="Delete" cssClass="DeleteIcon" confirmation="Delete?" whenView="grid1" />
+        </actionGroup>
+      </template>
+    </command>
+    <command id="actionBarScopeActionGroup3Command" type="Text">
+      <query href="Controllers.xml" select="//a:actionGroup" dependencies="//a:action"/>
+      <template select="//a:dataController[@name=$Controller]/a:actions">
+        <actionGroup xmlns="urn:schemas-codeontime-com:data-aquarium" id="{generate-id('ActionGroupId')}" scope="ActionBar" headerText="Actions">
+          <action id="a1" commandName="ExportCsv" />
+          <action id="a2" />
+          <action id="a3" commandName="ExportRowset"/>
+          <action id="a4" commandName="ExportRss"  />
+        </actionGroup>
+      </template>
+    </command>
+    <command id="actionBarScopeActionGroup4Command" type="Text">
+      <query href="Controllers.xml" select="//a:actionGroup" dependencies="//a:action"/>
+      <template select="//a:dataController[@name=$Controller]/a:actions">
+        <actionGroup xmlns="urn:schemas-codeontime-com:data-aquarium" id="{generate-id('ActionGroupId')}" scope="ActionBar" headerText="Record">
+          <action id="a1" whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+          <action id="a2" whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+        </actionGroup>
+      </template>
+    </command>
+    <command id="actionBarScopeActionGroup5Command" type="Text">
+      <query href="Controllers.xml" select="//a:actionGroup" dependencies="//a:action"/>
+      <template select="//a:dataController[@name=$Controller]/a:actions">
+        <actionGroup xmlns="urn:schemas-codeontime-com:data-aquarium" id="{generate-id('ActionGroupId')}" scope="ActionBar" headerText="Report">
+          <action id="a1" commandName="ReportAsPdf"  />
+          <action id="a2" commandName="ReportAsImage"/>
+          <action id="a3" commandName="ReportAsExcel"/>
+          <action id="a4" commandName="ReportAsWord" />
+        </actionGroup>
+      </template>
+    </command>
+    <command id="rowScopeActionGroupCommand" type="Text">
+      <query href="Controllers.xml" select="//a:actionGroup" dependencies="//a:action"/>
+      <template select="//a:dataController[@name=$Controller]/a:actions">
+        <actionGroup xmlns="urn:schemas-codeontime-com:data-aquarium" id="{generate-id('ActionGroupId')}" scope="Row">
+          <action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+          <action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+        </actionGroup>
+      </template>
+    </command>
+    <command id="actionColumnScopeActionGroupCommand" type="Text">
+      <query href="Controllers.xml" select="//a:actionGroup" dependencies="//a:action"/>
+      <template select="//a:dataController[@name=$Controller]/a:actions">
+        <actionGroup xmlns="urn:schemas-codeontime-com:data-aquarium" id="{generate-id('ActionGroupId')}" scope="ActionColumn">
+          <action id="a1" commandName="Edit" commandArgument="editForm1" />
+          <action id="a2" commandName="Delete" />
+        </actionGroup>
+      </template>
+    </command>
+  </commands>
+  <fields>
+    <field name="ActionGroupId" type="String" select="@id" allowNulls="false" isPrimaryKey="true" label="Id" readOnly="true"/>
+    <field name="Controller" type="String" select="ancestor::a:dataController[1]/@name" allowNulls="false" isPrimaryKey="true" readOnly="true">
+      <items style="Lookup" dataController="Controllers" newDataView="createForm1" dataValueField="Name" dataTextField="Name"/>
+    </field>
+    <field name="Scope" type="String" select="@scope" allowNulls="false" label="Scope" readOnly="false">
+      <items style="DropDownList">
+        <item value="Grid" text="Grid"/>
+        <item value="ActionColumn" text="Action Column"/>
+        <item value="Form" text="Form"/>
+        <item value="ActionBar" text="Action Bar"/>
+        <item value="Row" text="Row"/>
+        <item value="SwipeLeft" text="Swipe Left"/>
+        <item value="SwipeRight" text="Swipe Right"/>
+        <item value="Promoted" text="Promoted"/>
+        <item value="Custom" text="Custom"/>
+      </items>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="ActionBar"/>
+      </defaultValues>
+    </field>
+    <field name="HeaderText" type="String" select="@headerText" allowNulls="true" label="Header Text"/>
+    <field name="Flat" type="Boolean" select="@flat" label="Flat Rendering">
+      <defaultValues>
+        <expression type="ClientScript" result="false"/>
+      </defaultValues>
+    </field>
+  </fields>
+  <views>
+    <view id="grid1" type="Grid" commandId="command1" label="Action Groups">
+      <headerText>
+        <![CDATA[
+        <span class="HelpLink" title="Learn to work with Action Groups" onclick="$openUrl('http://codeontime.com/learn/development/project-designer/action-groups')"></span>
+		This is a list of data controller action groups. 
+    ]]>
+      </headerText>
+      <dataFields>
+        <dataField fieldName="ActionGroupId"/>
+        <dataField fieldName="Controller"/>
+        <dataField fieldName="Scope"/>
+        <dataField fieldName="HeaderText"/>
+        <dataField fieldName="Flat"/>
+      </dataFields>
+    </view>
+    <view id="editForm1" type="Form" commandId="command1" label="Action Group">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about Action Groups" onclick="$openUrl('http://codeontime.com/learn/data-controllers/action-groups/overview')"></span>
+        Click OK to save the action group, or click Cancel to undo changes or return back.]]>
+      </headerText>
+      <categories>
+        <category headerText="General">
+          <description>
+            <![CDATA[
+            The <i>Controller</i> displays the data controller that the action group belongs to.<br/><br/>
+            The <i>Scope</i> determines the location and presentation of the action group. <br/><br/>
+            <ul>
+            <li><i>Grid</i> scope actions are displayed in the context menu of a grid.</li>
+					  <li><i>Action Column</i> scope actions are displayed in an action column on a grid.</li>
+            <li><i>Form</i> scope actions are displayed in the action buttons row of a form.</li>
+					  <li><i>Action Bar</i> scope actions are displayed on the action bar of views of any type.</li>
+					  <li><i>Row</i> scope actions are displayed under a selected row in a grid view.</li>
+					  <li><i>Swipe</i> scope actions are visible when a user performs a swipe gesture.</li>
+					  <li><i>Custom</i> scope actions are not displayed in the user interface.</li>
+            </ul>
+					]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Controller"/>
+            <dataField fieldName="Scope" >
+              <items style="RadioButtonList">
+                <item value="Grid" text="Grid"/>
+                <item value="ActionColumn" text="Action Column"/>
+                <item value="Form" text="Form"/>
+                <item value="ActionBar" text="Action Bar"/>
+                <item value="Row" text="Row"/>
+                <item value="SwipeLeft" text="Swipe Left"/>
+                <item value="SwipeRight" text="Swipe Right"/>
+                <item value="Promoted" text="Promoted"/>
+                <item value="Custom" text="Custom"/>
+              </items>
+            </dataField>
+            <dataField fieldName="ActionGroupId"  hyperlinkFormatString="javascript:window.external.SyncAndRename()" toolTip="Click here to change the 'Id' of the Action Group.">
+              <headerText>Action Group ID#</headerText>
+            </dataField>
+          </dataFields>
+        </category>
+        <category id="catRendering" headerText="Rendering">
+          <description>
+            <![CDATA[
+            The <i>Header Text</i> is displayed when the group is rendered in a menu.<br/><br/>
+            <i>Flat Rendering</i> will display actions as individual buttons. When disabled, they will be rendered in a dropdown menu.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="HeaderText"/>
+            <dataField fieldName="Flat">
+              <visibility>
+                <expression type="ClientScript" test="[Scope]=='ActionBar' || [Scope]=='Custom'"/>
+              </visibility>
+              </dataField>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+    <view id="createForm1" type="Form" commandId="command1" label="New Action Group">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about Action Groups" onclick="$openUrl('http://codeontime.com/learn/data-controllers/action-groups/overview')"></span>
+        Please fill this form and click OK button to create a new action group. Click Cancel to return to the previous screen.]]>
+      </headerText>
+      <categories>
+        <category headerText="General">
+          <description>
+            <![CDATA[
+            The <i>Scope</i> determines the location and presentation of the action group. <br/><br/>
+            <ul>
+            <li><i>Grid</i> scope actions are displayed in the context menu of a grid.</li>
+					  <li><i>Action Column</i> scope actions are displayed in an action column on a grid.</li>
+            <li><i>Form</i> scope actions are displayed in the action buttons row of a form.</li>
+					  <li><i>Action Bar</i> scope actions are displayed on the action bar of views of any type.</li>
+					  <li><i>Row</i> scope actions are displayed under a selected row in a grid view.</li>
+					  <li><i>Swipe</i> scope actions are visible when a user performs a swipe gesture.</li>
+					  <li><i>Custom</i> scope actions are not displayed in the user interface.</li>
+            </ul>
+					]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Controller"/>
+            <dataField fieldName="Scope">
+              <items style="RadioButtonList">
+                <item value="Grid" text="Grid"/>
+                <item value="ActionColumn" text="Action Column"/>
+                <item value="Form" text="Form"/>
+                <item value="ActionBar" text="Action Bar"/>
+                <item value="Row" text="Row"/>
+                <item value="SwipeLeft" text="Swipe Left"/>
+                <item value="SwipeRight" text="Swipe Right"/>
+                <item value="Promoted" text="Promoted"/>
+                <item value="Custom" text="Custom"/>
+              </items>
+            </dataField>
+            <dataField fieldName="ActionGroupId" hidden="true"/>
+          </dataFields>
+        </category>
+        <category id="catRendering" headerText="Rendering">
+          <description>
+            <![CDATA[
+            The <i>Header Text</i> is displayed when the group is rendered in a menu.<br/><br/>
+            <i>Flat Rendering</i> will display actions as individual buttons. When disabled, they will be rendered in a dropdown menu.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="HeaderText"/>
+            <dataField fieldName="Flat">
+              <visibility>
+                <expression type="ClientScript" test="[Scope]=='ActionBar'"/>
+              </visibility>
+              </dataField>
+          </dataFields>
+          <visibility>
+            <expression type="ClientScript" test="[Scope]!='Custom' &amp;&amp; [Scope]!='SwipeLeft' &amp;&amp; [Scope]!='SwipeRight' &amp;&amp; [Scope]!='Promoted'"/>
+          </visibility>
+        </category>
+      </categories>
+    </view>
+    <view id="gridScopeActionGroupView" type="Form" commandId="gridScopeActionGroupCommand" label="">
+      <dataFields>
+        <dataField fieldName="Controller"/>
+        <dataField fieldName="ActionGroupId"/>
+      </dataFields>
+    </view>
+    <view id="actionColumnScopeActionGroupView" type="Form" commandId="actionColumnScopeActionGroupCommand" label="">
+      <dataFields>
+        <dataField fieldName="Controller"/>
+        <dataField fieldName="ActionGroupId"/>
+      </dataFields>
+    </view>
+    <view id="formScopeActionGroupView" type="Form" commandId="formScopeActionGroupCommand" label="">
+      <dataFields>
+        <dataField fieldName="Controller"/>
+        <dataField fieldName="ActionGroupId"/>
+      </dataFields>
+    </view>
+    <view id="actionBarScopeActionGroup1View" type="Form" commandId="actionBarScopeActionGroup1Command" label="">
+      <dataFields>
+        <dataField fieldName="Controller"/>
+        <dataField fieldName="ActionGroupId"/>
+      </dataFields>
+    </view>
+    <view id="actionBarScopeActionGroup2View" type="Form" commandId="actionBarScopeActionGroup2Command" label="">
+      <dataFields>
+        <dataField fieldName="Controller"/>
+        <dataField fieldName="ActionGroupId"/>
+      </dataFields>
+    </view>
+    <view id="actionBarScopeActionGroup3View" type="Form" commandId="actionBarScopeActionGroup3Command" label="">
+      <dataFields>
+        <dataField fieldName="Controller"/>
+        <dataField fieldName="ActionGroupId"/>
+      </dataFields>
+    </view>
+    <view id="actionBarScopeActionGroup4View" type="Form" commandId="actionBarScopeActionGroup4Command" label="">
+      <dataFields>
+        <dataField fieldName="Controller"/>
+        <dataField fieldName="ActionGroupId"/>
+      </dataFields>
+    </view>
+    <view id="actionBarScopeActionGroup5View" type="Form" commandId="actionBarScopeActionGroup5Command" label="">
+      <dataFields>
+        <dataField fieldName="Controller"/>
+        <dataField fieldName="ActionGroupId"/>
+      </dataFields>
+    </view>
+    <view id="rowScopeActionGroupView" type="Form" commandId="rowScopeActionGroupCommand" label="">
+      <dataFields>
+        <dataField fieldName="Controller"/>
+        <dataField fieldName="ActionGroupId"/>
+      </dataFields>
+    </view>
+  </views>
+  <actions>
+    <actionGroup scope="Grid">
+      <!--<action commandName="Select" commandArgument="editForm1" />-->
+      <action commandName="Navigate" commandArgument="ActionGroup.htm?_returnController=ActionGroups&amp;Controller={Controller}&amp;ActionGroupId={ActionGroupId}&amp;Scope={Scope}&amp;TheActionGroup={ActionGroupId} ({Scope}) {HeaderText}" headerText="Open"/>
+      <action commandName="ClientScript" commandArgument="__syncDesigner(this)" headerText="Sync" cssClass="SyncIcon"/>
+      <action commandName="Edit" />
+      <action commandName="Select" commandArgument="editForm1" headerText="View"/>
+      <!--<action commandName="Edit" />
+			<action commandName="Delete" confirmation="Delete?" />
+			<action/>
+			<action commandName="Custom" commandArgument="MakeFirst" headerText="Make First"/>
+			<action commandName="Custom" commandArgument="MoveUp" headerText="Move Up"/>
+			<action commandName="Custom" commandArgument="MoveDown" headerText="Move Down"/>
+			<action commandName="Custom" commandArgument="MakeLast" headerText="Make Last"/>
+			<action/>
+			<action commandName="Select" commandArgument="editForm1" headerText="Properties"/>-->
+      <!--<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+    </actionGroup>
+    <actionGroup scope="Form">
+      <action commandName="Edit" />
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <action commandName="Cancel" headerText="Close" />
+      <action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+      <!--<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />-->
+      <action whenLastCommandName="Edit" commandName="Cancel" />
+      <action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+      <action whenLastCommandName="New" commandName="Cancel" />
+    </actionGroup>
+    <actionGroup scope="ActionBar" headerText="New">
+      <action commandName="New" commandArgument="createForm1" headerText="New Action Group" description="Create a new action group." />
+    </actionGroup>
+
+    <!-- Tremporary Removal -->
+    <!-- 
+		<actionGroup scope="ActionBar" headerText="Insert">
+			<action commandName="Insert" commandArgument="view:gridScopeActionGroupView" headerText="Grid Group" description="Standard 'Grid' scope actions." />
+      <action commandName="Insert" commandArgument="view:actionColumnScopeActionGroupView" headerText="Action Column Group" description="Standard 'Action Column' scope actions." />
+      <action commandName="Insert" commandArgument="view:formScopeActionGroupView" headerText="Form Group" description="Standard 'Form' scope actions." />
+			<action commandName="Insert" commandArgument="view:rowScopeActionGroupView" headerText="Row Group" description="Standard 'Row' scope actions." />
+			<action/>
+			<action commandName="Insert" commandArgument="view:actionBarScopeActionGroup1View" headerText="'New' Group" description="Standard 'Action Bar' scope actions." />
+			<action commandName="Insert" commandArgument="view:actionBarScopeActionGroup2View" headerText="'Edit/Delete' Group" description="Standard 'Action Bar' scope actions." />
+			<action commandName="Insert" commandArgument="view:actionBarScopeActionGroup3View" headerText="'Actions' Group" description="Standard 'Action Bar' scope actions." />
+			<action commandName="Insert" commandArgument="view:actionBarScopeActionGroup4View" headerText="'Record' Group" description="Standard 'Action Bar' scope actions." />
+			<action commandName="Insert" commandArgument="view:actionBarScopeActionGroup5View" headerText="'Report' Group" description="Standard 'Action Bar' scope actions." />
+		</actionGroup>
+    -->
+
+
+    <!--<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+			<action commandName="Custom" commandArgument="Preview" headerText="Quick View" description="Preview the data controller."  />
+		</actionGroup>-->
+
+    <!--<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+			-->
+    <!--<action commandName="Custom" commandArgument="MakeFirst" headerText="First" whenKeySelected="true" whenView="grid1" cssClass="MakeFirstIcon"/>-->
+    <!--
+			<action commandName="Custom" commandArgument="MoveUp" headerText="Up" whenKeySelected="true" whenView="grid1" cssClass="MoveUpIcon"/>
+			<action commandName="Custom" commandArgument="MoveDown" headerText="Down" whenKeySelected="true" whenView="grid1" cssClass="MoveDownIcon"/>
+			-->
+    <!--<action commandName="Custom" commandArgument="MakeLast" headerText="Last" whenKeySelected="true" whenView="grid1" cssClass="MakeLastIcon"/>-->
+    <!--
+		</actionGroup>-->
+
+    <!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+    <actionGroup scope="ActionBar" headerText="Record">
+      <action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+      <action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+    </actionGroup>
+    <actionGroup id="sync01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncDesigner()" headerText="Sync" cssClass="SyncIcon" description="Synchronize with Explorer (Ctrl+.)"/>
+    </actionGroup>
+    <actionGroup id="ag8" scope="Row">
+      <action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+      <action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+    </actionGroup>
+  </actions>
+</dataController>

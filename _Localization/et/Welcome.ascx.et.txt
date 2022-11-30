@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Administraatori konto^AdminDesc^
+
+^SignInHeader^Juhised^SignInHeader^
+
+^SignInInstruction^Logi kasutada kaitstud saidi sisu.^SignInInstruction^
+
+^SignInPara1^Kaks standard kasutajakontod luuakse automaatselt siis, kui taotlus käivitub kui liikmelisuse valik on valitud selle rakenduse jaoks.^SignInPara1^
+
+^SignInPara2^Administraatori konto <b>admin</b> on lubatud kasutada kõiki valdkondi koduleheküljel ning liikmelisuse manager. Standard <b>user</b> konto on lubatud juurdepääs kõigis veebilehel, välja arvatud liikmemaksu manager.^SignInPara2^
+
+^SignInPara3^Liigutage kursorit üle lingi <i>Login sellele web site</i> paremas servas ülaosas lehele ja logi sisse ühe raamatupidamise allpool.^SignInPara3^
+
+^UserDesc^Standard kasutaja konto^UserDesc^
+

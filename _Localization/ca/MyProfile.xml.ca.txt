@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^esquena^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Acaba^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Confirmar nova contrasenya^ConfirmNewPassword^
+
+^ConfirmPassword^Confirma la contrassenya^ConfirmPassword^
+
+^Email^Correu electrònic^Email^
+
+^ForgotYourPassword^Has oblidat la teva contrasenya?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Responeu la pregunta següent per rebre la vostra contrasenya. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Confirmació d&#39;identitat^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Ompli aquest formulari i feu clic al botó Envia per recuperar la contrasenya oblidada. Feu clic a Cancel·la per tornar a la pantalla anterior.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Recuperació de la contrasenya: pas 2 de 2^IdentityConfirmViewLabel^
+
+^LoginButton^iniciar Sessió^LoginButton^
+
+^LoginLink^iniciar Sessió^LoginLink^
+
+^LoginWithDNN^Inicia sessió amb DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Inicia sessió amb Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Inicia sessió amb Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Inicieu sessió amb Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Inicieu sessió amb SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Inicieu sessió amb Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Contrasenya Resposta (no es mostra per a la vostra protecció)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Introduïu la vostra contrasenya actual per crear una contrasenya nova, actualitzar la vostra adreça de correu electrònic o canviar la pregunta i la resposta de recuperació de la contrasenya.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Contrasenya actual^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Reviseu la vostra informació de pertinença a continuació. Feu clic a Actualitza el meu compte per canviar aquest registre o feu clic a Cancel·la per tornar.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^El meu compte^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Introduïu una contrasenya nova. Tingueu en compte que la contrasenya ha de tenir almenys 7 caràcters i incloure un caràcter no alfanumèric.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Contrasenya nova (opció)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Durant la recuperació d&#39;una contrasenya oblidada se us demanarà que introduïu el vostre nom d&#39;usuari. Si hi ha un compte d&#39;usuari, s&#39;ha de respondre una pregunta de contrasenya. Una resposta correcta generarà un correu electrònic amb una contrasenya temporal que us enviarà.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Correu electrònic &amp; Recuperació de contrasenyes (Opcional)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^nova contrasenya^NewPassword^
+
+^OldPassword^contrasenya antiga^OldPassword^
+
+^Password^Contrasenya^Password^
+
+^PasswordAnswer^Contrasenya contesta^PasswordAnswer^
+
+^PasswordQuestion^Contrasenya Pregunta^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Introduïu un nom d&#39;usuari. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Has oblidat la teva contrasenya?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Ompli aquest formulari i feu clic al botó Continua per recuperar la contrasenya oblidada. Feu clic a Cancel·la per tornar a la pantalla anterior.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Recuperació de la contrasenya: pas 1 de 2^PasswordRequestViewLabel^
+
+^RememberMe^Recorda&#39;m la propera vegada^RememberMe^
+
+^RequestPasswordActionHeaderText^Pròxim^RequestPasswordActionHeaderText^
+
+^SignUp^Registra&#39;t^SignUp^
+
+^SignUpNow^Inscriviu-vos ara^SignUpNow^
+
+^SignUpViewHeaderText^Ompliu aquest formulari i feu clic a Acceptar per registrar-se en un compte. Feu clic a Cancel·la per tornar a la pantalla anterior.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Registre de comptes^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Introduïu el nom d&#39;usuari i la contrasenya. Tingueu en compte que la contrasenya ha de tenir almenys 7 caràcters i incloure un caràcter no alfanumèric. Només els usuaris aprovats podran accedir al lloc web.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Nova informació de l&#39;usuari^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Aquests camps són obligatoris per ajudar-vos a recuperar una contrasenya oblidada. Durant el procés de recuperació, se us demanarà que introduïu un nom d&#39;usuari. Si hi ha un compte d&#39;usuari, es demana que se respongui una pregunta de seguretat. Una resposta correcta generarà un correu electrònic amb una contrasenya temporal enviant-se al correu electrònic registrat.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Recuperació de contrasenya^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Actualitza el meu compte^UpdateMyAccountActionHeaderText^
+
+^UserName^Nom d&#39;usuari^UserName^
+

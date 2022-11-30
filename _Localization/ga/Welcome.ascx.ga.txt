@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Cuntas Riaracháin^AdminDesc^
+
+^SignInHeader^Treoracha^SignInHeader^
+
+^SignInInstruction^Logáil isteach chun rochtain ar an ábhar an tsuímh a chosaint.^SignInInstruction^
+
+^SignInPara1^Dhá cuntais úsáideora caighdeánacha atá cruthaithe go huathoibríoch nuair a dhéantar iarratas initialized má tá rogha ballraíocht a roghnaíodh le haghaidh an iarratas seo.^SignInPara1^
+
+^SignInPara2^Is é an <b>admin</b> cuntas riaracháin údaraithe rochtain a fháil ar gach réimse den láithreán gréasáin agus bainisteoir ballraíocht. Tá an cuntas <b>user</b> caighdeánach ceadaithe rochtain a fháil ar gach réimse den suíomh gréasáin seo ach amháin bainisteoir ballraíochta.^SignInPara2^
+
+^SignInPara3^An pointeoir luiche thar an <i>Login nasc Téigh go dtí seo site</i> gréasáin ar thaobh na láimhe deise ag barr an leathanaigh, agus a shíniú i le ceann de na cuntais atá liostaithe thíos.^SignInPara3^
+
+^UserDesc^Cuntas úsáideora Caighdeánach^UserDesc^
+

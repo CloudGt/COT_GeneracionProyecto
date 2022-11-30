@@ -1,0 +1,213 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Criar um novo registro de usuário.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Usuário novo^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Novo^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Voltar^BackToRequestPasswordActionHeaderText^
+
+^Comment^Comentário^Comment^
+
+^ConfirmIdentityActionHeaderText^Confirmação^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Confirmar nova senha^ConfirmNewPassword^
+
+^ConfirmPassword^Confirme sua senha^ConfirmPassword^
+
+^CreateDate^Data de Criação^CreateDate^
+
+^CreateFormCommentCategoryDescription^Insira comentários adicionais sobre esta conta de usuário. Comentário não é visível para o usuário.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Comentários^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Por favor, insira o nome de usuário e senha. Note que a senha deve ter pelo menos 7 caracteres e incluir um caractere não alfanumérico. Somente usuários aprovado será capaz de login no site.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Informação novo usuário^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Estes campos são necessários para ajudar o usuário a recuperar uma senha esquecida. Durante o processo de recuperação, o usuário será solicitado a digitar um nome de usuário. Se uma conta de usuário existe então uma questão de segurança é pedido a ser respondida. A resposta correta irá acionar um e-mail com uma senha temporária enviar para o usuário.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Recuperação de senha^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Por favor selecione funções de usuário que mais se aproximam responsabilidades usuário. Funções de controle de acesso para as áreas deste site. Entre em contato com o administrador do sistema, se as restrições de acesso papel deve ser mudado.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Perfis de acesso^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Por favor, preencha este formulário e clique no botão OK para criar um registro de membro novo usuário. Clique em Cancelar para retornar à tela anterior.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Usuário novo^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Esta conta de usuário será criada como aprovado.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplicado endereço de email.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Duplicado chave de usuário.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplicado nome de usuário.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Estatísticas atividade^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Esta conta de usuário está aprovada^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Estas são as estatísticas de tentativas de login falhou por este usuário. <br/> <br/> Do usuário será bloqueada após atingir um número máximo de tentativas de logon. <br/> <br/> Locked out usuários serão capazes de logar novamente após a data em Falha Iniciar do Windows Password Tentativa. <br/> <br/> Os usuários que não conseguiu recuperar a senha será capaz de tão após a data em Falha Password Iniciar do Windows Resposta Tentativa. <br/> <br/> Você pode restaurar a capacidade do usuário para login através da criação da bandeira Locked Out 'Não'.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Login Estatísticas^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Durante a recuperação de uma senha esquecida, o usuário será solicitado a digitar um nome de usuário. Se uma conta de usuário existe então uma questão de segurança é pedido a ser respondida. A resposta correta irá acionar um e-mail com uma senha temporária enviar para o usuário. <br/><br/> Mude para 'Não' se o usuário foi bloqueado depois de atingir um número máximo de tentativas de login e você quer permitir que o usuário logar novamente.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Recuperação de senha^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Por favor selecione funções de usuário que mais se aproximam responsabilidades usuário. Funções de controle de acesso para as áreas deste site. Entre em contato com o administrador do sistema, se as restrições de acesso papel deve ser mudado. <br/> <br/> Digite comentários adicionais sobre esta conta de usuário. Comentário não é visível para o usuário.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Informação de usuário^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Por favor, reveja as informações de participação do usuário abaixo. Clique em Editar para alterar este registro, clique em Excluir para excluir o registro, ou clique em Cancelar / Fechar para voltar para trás.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Revisão do Usuário^EditFormViewLabel^
+
+^Email^E-mail^Email^
+
+^EnterCurrentPassword^Por favor digite sua senha atual.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Por favor introduza uma resposta de senha.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Erro ao salvar conta de usuário.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Contador de Falhas de tentativa Resposta^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Falha Tentativa Resposta de senha do Iniciar do Windows ^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Contador de tentativa fracassada de senha^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Falha Tentativa de senha do Iniciar do Windows^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Esta é uma lista de registros de usuário da associação.^GridViewHeaderText^
+
+^GridViewLabel^Todos os Usuários^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Responder a seguinte pergunta para receber sua senha. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Confirmação de identidade^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Por favor, preencha este formulário e clique no botão Enviar para recuperar a senha esquecida. Clique em Cancelar para retornar à tela anterior.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Recuperação de senha: Etapa 2 de 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Resposta de recuperação de senha inválida.^InvalidAnswer^
+
+^InvalidEmail^Endereço de email inválido.^InvalidEmail^
+
+^InvalidPassword^Senha inválida.^InvalidPassword^
+
+^InvalidProviderUserKey^Chave de usuário inválido.^InvalidProviderUserKey^
+
+^InvalidQuestion^Questão de recuperação de senha inválido.^InvalidQuestion^
+
+^InvalidUserName^Nome de usuário Inválido.^InvalidUserName^
+
+^IsApproved^É Aprovado^IsApproved^
+
+^IsLockedOut^É bloqueado^IsLockedOut^
+
+^LastLockoutDate^Data Último Bloqueio^LastLockoutDate^
+
+^LastLoginDate^Data Último Login^LastLoginDate^
+
+^LastPasswordChangedDate^Data da última modificação de Senha^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Resposta senha (não aparece para sua proteção)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Por favor digite sua senha atual para criar nova senha, atualize seu endereço de email, ou alterar questão de recuperação de senha e resposta.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Senha atual^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Por favor, reveja as informações de associação abaixo. Clique em Atualizar Minha Conta para alterar este registro, ou clique em Cancelar para voltar.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Minha Conta^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Por favor, digite a senha nova. Note que a senha deve ter pelo menos 7 caracteres e incluir um caractere não alfanumérico.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Nova Senha (Opcional)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Durante a recuperação de uma senha esquecida você será solicitado a digitar seu nome de usuário. Se uma conta de usuário existe então uma pergunta de senha devem ser respondidas. A resposta correta irá acionar um e-mail com uma senha temporária enviar para você.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. A recuperação da senha de e-mail &amp; (Opcional)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Nova Senha^NewPassword^
+
+^NewPasswordAlert^Uma nova senha foi enviada para o endereço de e-mail cadastrado.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Nova senha e confirmação não coincidem.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Sua nova senha é inválido.^NewPasswordInvalid^
+
+^NewPasswordSubject^Nova senha para \'{0} \ '.^NewPasswordSubject^
+
+^OldPassword^Senha antiga^OldPassword^
+
+^Password^Senha^Password^
+
+^PasswordAndConfirmationDoNotMatch^Senha e confirmação não coincidem.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Resposta senha^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Sua senha não coincide com nossos registros.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Formato senha^PasswordFormat^
+
+^PasswordQuestion^Pergunta senha^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Digite um nome de usuário. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Esqueceu sua senha?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Por favor, preencha este formulário e clique em Continuar botão para recuperar a senha esquecida. Clique em Cancelar para retornar à tela anterior.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Recuperação de senha: Passo 1 de 2^PasswordRequestViewLabel^
+
+^ProviderError^Erro do fornecedor.^ProviderError^
+
+^RequestPasswordActionHeaderText^Próximo^RequestPasswordActionHeaderText^
+
+^Roles^Perfis^Roles^
+
+^SelfRegisteredUser^Auto-utilizador registado.^SelfRegisteredUser^
+
+^SignUp^Inscrever-se^SignUp^
+
+^SignUpViewHeaderText^Por favor, preencha este formulário e clique no botão OK para se inscrever em uma conta. Clique em Cancelar para retornar à tela anterior.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Inscreva-se conta^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Por favor, insira o nome de usuário e senha. Note que a senha deve ter pelo menos 7 caracteres e incluir um caractere não alfanumérico. Somente usuários aprovado será capaz de login no site.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Informação novo usuário^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Estes campos são necessários para ajudá-lo a recuperar uma senha esquecida. Durante o processo de recuperação você será solicitado a digitar um nome de usuário. Se uma conta de usuário existe então uma questão de segurança é pedido a ser respondida. A resposta correta irá enviar uma senha temporária para o endereço de e-mail cadastrado.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Recuperação de senha^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Atualizar Minha Conta^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Usuário não pode ser bloqueada. Se você quiser evitar que este usuário seja capaz de entrar, basta marcar usuário como "não autorizado".^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^'{0}' Usuário foi excluído.^UserHasBeenDeleted^
+
+^UserName^Nome de usuário^UserName^
+
+^UserNameDoesNotExist^Nome de usuário não existe.^UserNameDoesNotExist^
+
+^UserNotFound^Usuário não encontrado.^UserNotFound^
+
+^UserRejected^Usuário foi rejeitada.^UserRejected^
+
+^UsersInRolesGridHeaderText^Esta é uma lista de registros de associação de usuários que pertencem a uma função selecionada.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Usuários em Perfis^UsersInRolesGridLabel^
+

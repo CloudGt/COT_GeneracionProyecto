@@ -1,0 +1,663 @@
+﻿<!--
+    Resource page body children are automatically extracted by CodeOnTime.Client.loadResource
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title></title>
+    <link href="CodeOnTime.css" type="text/css" rel="Stylesheet" />
+</head>
+<body>
+    <!-- "Layout" Dialog -->
+    <div id="FeaturesDialog" title="Features">
+        <div class="Content ContentBar">
+            Please specify global features of the generated baseline application.
+        </div>
+        <div class="Heading Logo">
+            Features
+            <div class="Icon Features">
+            </div>
+        </div>
+        <div id="FeaturesDialog_TabView">
+            <!-- Page Header and Copyright -->
+            <div title="Page Header and Copyright" id="FeaturesDialog_PageHeaderAndCopyrightTab">
+                <div class="Content">
+                    <div>
+                        Specify the text displayed at the top of all pages in the page header. Project namespace is displayed
+                        if left blank.
+                    </div>
+                    <div class="Field">
+                        <label for="FeaturesDialog_PageHeader" class="Label">
+                            App Name / Page Header:
+                        </label>
+                        <textarea id="FeaturesDialog_PageHeader" style="width: 450px" cols="50" rows="5"></textarea>
+                    </div>
+                    <div style="margin-top: 8px;">
+                        Specify the text displayed at the bottom of all pages in the page footer. A standard copyright message
+                        is displayed if the field is left blank.
+                    </div>
+                    <div class="Field">
+                        <label for="FeaturesDialog_Copyright" class="Label">
+                            Copyright:
+                        </label>
+                        <textarea id="FeaturesDialog_Copyright" style="width: 450px" cols="50" rows="5"></textarea>
+                    </div>
+                    <div style="margin-top: 16px">
+                        Use HTML tags if needed.
+                    </div>
+                </div>
+            </div>
+            <!-- TouchUI Properties -->
+            <div title="Touch UI" id="FeaturesDialog_TouchUITab">
+                <div class="Content">
+                    <div>
+                        If the user inteface of this application is set to <b>Touch UI</b> in <i>Source Code and UI</i>
+                        section, then the following properties will provide default values for user interface settings on desktop
+                        and mobile devices. End users of the app will be able to change the settings according to their preferences.
+                        <br />
+                        <br />
+                        <table class="TouchPropertiesTable">
+                            <tr>
+                                <td>
+                                    <label for="FeaturesDialog_DesktopDisplayDensity" class="Label">
+                                        Low Display Density:
+                                    </label>
+                                </td>
+                                <td>
+                                    <select id="FeaturesDialog_DesktopDisplayDensity">
+                                        <option value="Tiny">Tiny</option>
+                                        <option value="Condensed">Condensed</option>
+                                        <option value="Compact">Compact</option>
+                                        <option value="Comfortable">Comfortable</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <label for="FeaturesDialog_LabelsInList" class="Label">
+                                        Labels In List:
+                                    </label>
+                                </td>
+                                <td>
+                                    <select id="FeaturesDialog_LabelsInList">
+                                        <option value="DisplayedAbove">Displayed Above</option>
+                                        <option value="DisplayedBelow">Displayed Below</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="FeaturesDialog_MobileDisplayDensity" class="Label">
+                                        High Display Density:
+                                    </label>
+                                </td>
+                                <td>
+                                    <select id="FeaturesDialog_MobileDisplayDensity">
+                                        <option value="Auto">Auto</option>
+                                        <option value="Tiny">Tiny</option>
+                                        <option value="Condensed">Condensed</option>
+                                        <option value="Compact">Compact</option>
+                                        <option value="Comfortable">Comfortable</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <label for="FeaturesDialog_InitialListMode" class="Label">
+                                        Initial List Mode:
+                                    </label>
+                                </td>
+                                <td>
+                                    <select id="FeaturesDialog_InitialListMode">
+                                        <option value="SeeAll">See All</option>
+                                        <option value="Summary">Summary</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="FeaturesDialog_Transitions" class="Label">
+                                        Transitions:
+                                    </label>
+                                </td>
+                                <td>
+                                    <select id="FeaturesDialog_Transitions">
+                                        <option value="">(auto)</option>
+                                        <option value="none">None</option>
+                                        <option value="slide">Slide</option>
+                                        <!--                                        <option value="fade">Fade</option>
+                                                                                <option value="pop">Pop</option>
+                                                                                <option value="flip">Flip</option>
+                                                                                <option value="turn">Turn</option>
+                                                                                <option value="flow">Flow</option>
+                                                                                <option value="slideup">Slide Up</option>
+                                                                                <option value="slidedown">Slide Down</option>
+                                        -->
+                                    </select>
+                                </td>
+                                <td>
+                                    <label for="FeaturesDialog_Sidebar" class="Label">
+                                        Sidebar:
+                                    </label>
+                                </td>
+                                <td>
+                                    <select id="FeaturesDialog_Sidebar">
+                                        <option value="Landscape">Landscape</option>
+                                        <option value="Always">Always</option>
+                                        <option value="Never">Never</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="FeaturesDialog_MenuLocation" class="Label">
+                                        Menu Location:
+                                    </label>
+                                </td>
+                                <td>
+                                    <select id="FeaturesDialog_MenuLocation">
+                                        <option value="toolbar">Toolbar</option>
+                                        <option value="sidebar">Sidebar</option>
+                                        <option value="none">None</option>
+                                    </select>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                        <div class="Field">
+                            <label for="FeaturesDialog_PromoteActions" class="Label">
+                                <input type="checkbox" id="FeaturesDialog_PromoteActions" />
+                                Promote Actions
+                            </label>
+                        </div>
+                        <div class="Field">
+                            <label for="FeaturesDialog_SmartDates" class="Label">
+                                <input type="checkbox" id="FeaturesDialog_SmartDates" />
+                                Smart Dates
+                            </label>
+                        </div>
+                        <br />
+                        Enter a <b>Google Maps API</b> identifier representing your <a href="javascript:" onclick="return $openUrl('https://developers.google.com/maps/documentation/javascript/tutorial#api_key')">
+                            Key
+                        </a> or <a href="javascript:" onclick="return $openUrl('https://developers.google.com/maps/documentation/business/clientside/#MapsJS')">
+                            Client ID
+                        </a> to enable mapping features. The format of the identifier is either <i>key=YOUR_KEY</i>
+                        or <i>client=YOUR_CLIENT_ID</i>.
+                        <div class="Field">
+                            <label for="FeaturesDialog_MapApiIdentifier" class="Label">
+                                Google Maps API Identifier:
+                            </label>
+                            <input id="FeaturesDialog_MapApiIdentifier" style="overflow: auto; width: 550px" />
+                        </div>
+                        <div class="Field">
+                            <label for="FeaturesDialog_MapApiIdentifierMobile" class="Label">
+                                Google Maps API Identifier for Native Apps:
+                            </label>
+                            <input id="FeaturesDialog_MapApiIdentifierMobile" style="overflow: auto; width: 550px" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CMS Properties -->
+            <div title="CMS" id="FeaturesDialog_CMSTab">
+                <div class="Content">
+                    <div>
+                        Please enter the properties for the integrated Content Management System (CMS) below.
+                        <br />
+                        <br />
+                        <div class="Field">
+                            <label for="FeaturesDialog_SearchEngine" class="Label">
+                                Search Engine Configuration:
+                            </label>
+                            <textarea id="FeaturesDialog_SearchEngine" style="width: 450px" cols="50" rows="5"></textarea>
+                        </div>
+                        <div class="Field">
+                            <label for="FeaturesDialog_AnalysisEngine" class="Label">
+                                Analysis Engine Configuration:
+                            </label>
+                            <textarea id="FeaturesDialog_AnalysisEngine" style="width: 450px" cols="50" rows="5"></textarea>
+                        </div>
+                        <div class="Field">
+                            <label for="FeaturesDialog_AnalysisOnDataPages" class="Label">
+                                <input type="checkbox" id="FeaturesDialog_AnalysisOnDataPages" />
+                                Analysis On Data Pages
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Navigation -->
+            <div title="Navigation" id="FeaturesDialog_NavigationTab">
+                <!-- DetectUnderscoreSeparatedSchema -->
+                <div class="Content">
+                    <!--<div>
+                        Define parameters affecting construction of the baseline application navigation system.<br />
+                        <br />
+                    </div>-->
+                    <!--<div class="Field" id="Div1" style="padding-top: 0px">
+                        <input type="checkbox" id="FeaturesDialog_DetectUnderscoreSeparatedSchema" /><label for="FeaturesDialog_DetectUnderscoreSeparatedSchema">Detect
+                            underscore-separated schemas in table/view names when constructing navigation menu.</label><br />
+                        <br />
+                    </div>-->
+                    <div class="Field" id="FeaturesDialog_MenuPresentationStyle_Settings">
+                        <label class="Label" for="FeaturesDialog_MenuPresentationStyle">
+                            Select the menu presentation style:
+                        </label>
+                        <select id="FeaturesDialog_MenuPresentationStyle" size="3" style="width: 180px">
+                            <option value="MultiLevel">Standard Multi-Level</option>
+                            <option value="TwoLevel">Advanced Two-Level</option>
+                            <option value="NavigationButton">Navigation Button</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- Form Properties-->
+            <div title="Form Properties">
+                <div class="Content" style="clear: left; padding-bottom: 0px;">
+                    <div>
+                        Standard form layout displays category information on the left side of the screen.<br />
+                        The data fields are listed on the right side of the screen.
+                        <br />
+                        <br />
+                    </div>
+                </div>
+                <div class="Content" style="padding-bottom: 0px;">
+                    <div class="Field">
+                        <input type="checkbox" id="FeaturesDialog_NewColumn" /><label for="FeaturesDialog_NewColumn">
+                            Start each
+                            data field category in the new column with category information displayed on top.
+                        </label><br />
+                        <br />
+                        <input type="checkbox" id="FeaturesDialog_Floating" /><label for="FeaturesDialog_Floating">
+                            Float data fields
+                            in view categories from left to right to fill the entire space available.
+                        </label><br />
+                        <br />
+                        <input type="checkbox" id="FeaturesDialog_ShowModalForms" /><label for="FeaturesDialog_ShowModalForms"
+                                                                                           id="FeaturesDialog_ShowModalFormsLabel">
+                            Show <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/development/project-wizard/form-view-display-modes')">
+                                modal forms
+                            </a> in master data views without children and in child data views.
+                        </label>
+                        <br />
+                        <br />
+
+                        <input type="checkbox" id="FeaturesDialog_UseSaveAndNew" />
+                        <label for="FeaturesDialog_UseSaveAndNew">
+                            Use "Save" and "Save and New" in forms.
+                        </label>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Grid Properties -->
+            <div title="Grid Properties">
+                <div class="Content">
+                    <div>
+                        Pages of the baseline application will display grid views with consistently configured properties.<br />
+                        <br />
+                        All grid views of the baseline application will present up to
+                        <input type="text" id="FeaturesDialog_MaxGridFields" style="width: 20px" />
+                        data fields.<br />
+                        <br />
+                        Use <i>Project Designer</i> to modify, add, and remove the data fields of individual views. Activate
+                        designer and select a data controller on <i>All Controllers</i> tab. Find a data controller and modify
+                        its views to include or exclude the data fields.<br />
+                        <br />
+                    </div>
+                    <div id="FeaturesDialog_GridSubscriberFeatures">
+                        <input type="checkbox" id="FeaturesDialog_AdvancedSearch" /><label for="FeaturesDialog_AdvancedSearch">
+                            Activate
+                            search mode in master grid views by default.
+                        </label><br />
+                        <br />
+                        <input type="checkbox" id="FeaturesDialog_AdvancedLookup" /><label for="FeaturesDialog_AdvancedLookup">
+                            Data
+                            lookup windows must always open in search mode.
+                        </label><br />
+                        <br />
+                        <input type="checkbox" id="FeaturesDialog_MultiSelect" /><label for="FeaturesDialog_MultiSelect">
+                            Enable
+                            <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/development/project-wizard/multiple-row-selection')">
+                                multiple-selection
+                            </a> in all grid views. Only <i>Delete</i> action is automatically supported on
+                            multiple rows.
+                        </label><br />
+                        <br />
+                        <input type="checkbox" id="FeaturesDialog_BatchEdit" /><label for="FeaturesDialog_BatchEdit">
+                            Enable batch
+                            editing in all data controllers. Requires multi-selection mode.
+                        </label><br />
+                        <br />
+                        <input type="checkbox" id="FeaturesDialog_Grid_ActionColumn" /><label for="FeaturesDialog_Grid_ActionColumn">
+                            Enable
+                            standard action column in all grid views.
+                        </label><br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <!-- Lookups -->
+            <div title="Lookups">
+                <div class="Field" id="FeaturesDialog_MiscellaneousFeatures">
+                    <input type="checkbox" id="FeaturesDialog_RelationshipExplorer" /><label for="FeaturesDialog_RelationshipExplorer"
+                                                                                             id="FeaturesDialog_RelationshipExplorerLabel">
+                        Enable relationship explorer hyperlinks in lookup fields
+                        of all data controllers.
+                    </label><br />
+                </div>
+            </div>
+            <!-- Permalinks and History -->
+            <div title="Permalinks and History" id="FeaturesDialog_PermalinksAndHistory">
+                <div class="Content">
+                    The membership bar is the area at the top of the application page. History and permalinks are rendered
+                    on the left-hand side of the membership bar.
+                </div>
+                <br />
+                <input type="checkbox" id="FeaturesDialog_EnablePermalinks" /><label for="FeaturesDialog_EnablePermalinks"
+                                                                                     id="FeaturesDialog_EnablePermalinksLabel">
+                    Enable <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/development/project-wizard/permalinks')">
+                        permalinks
+                    </a> to allow bookmarking of master records selected by end users.
+                </label><br />
+                <br />
+                <input type="checkbox" id="FeaturesDialog_EnableHistory" /><label for="FeaturesDialog_EnableHistory"
+                                                                                  id="FeaturesDialog_EnableHistoryLabel">
+                    Enable <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/development/project-wizard/interactive-history')">
+                        interactive history
+                    </a> of most-recent-used data objects.
+                </label><br />
+                <br />
+            </div>
+            <!-- Annotations -->
+            <div title="Annotations">
+                <div class="Content" id="FeaturesDialog_AnnotationsSection">
+                    <div>
+                        A standard annotations plug-in allows to enhance all data controllers of the generated application with
+                        unlimited number of free-form notes and file attachments that can be associated with any records by
+                        end-users at run-time.
+                        <div class="Field" style="padding-bottom: 0px">
+                            <input type="checkbox" id="FeaturesDialog_Annotations" /><label for="FeaturesDialog_Annotations">
+                                Enable
+                                global record annotations to store attachment and note files.
+                            </label><br />
+                            <br />
+                        </div>
+                        <div>
+                            Annotations are stored in the file system. You can specify the location for annotations. The path will
+                            be copied to <i>Web.config</i> file in the root of application. If the annotation location is left blank
+                            then the annotations are stored in <i>~/App_Data</i> folder of web application.
+                        </div>
+                        <div class="Field">
+                            <label for="FeaturesDialog_PageHeader" class="Label">
+                                Path:
+                            </label>
+                            <input type="text" id="FeaturesDialog_AnnotationsPath" size="40" style="width: 450px" />
+                        </div>
+                        <div>
+                            <br />
+                            Users in <i>Administrators</i> role will be authorized to delete annotations.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SMTP Configuration -->
+            <div title="SMTP Configuration">
+                <div class="Content" id="FeaturesDialog_SMTPConfig">
+                    Enter your <a href="javascript:" onclick="return $openUrl('http://msdn.microsoft.com/en-us/library/ms164240(v=vs.110).aspx')"
+                                  title="See documentation on SMTP Settings">SMTP Settings</a> below if you wish to use <a href="javascript:"
+                                                                                                                           onclick="return $openUrl('http://codeontime.com/learn/email-business-rules/simple-notification')"
+                                                                                                                           title="Learn more about Email Business Rules">Email Business Rules</a>.
+                    <table>
+                        <tr>
+                            <td style="width: 275px" valign="top">
+                                <div class="Field" style="padding-bottom: 0px">
+                                    <label class="Label" for="FeaturesDialog_SMTPConfig_DeliveryMethod">
+                                        Delivery Method
+                                    </label>
+                                    <select id="FeaturesDialog_SMTPConfig_DeliveryMethod" onchange="CodeOnTime.Client.configureSMTPSettings(this.value);"
+                                            onkeyup="CodeOnTime.Client.configureSMTPSettings(this.value);return false;">
+                                        <option value="Network">Network</option>
+                                        <option value="PickupDirectoryFromIis">Pickup Directory From IIS</option>
+                                        <option value="SpecifiedPickupDirectory">Specified Pickup Directory</option>
+                                    </select>
+                                </div>
+                                <div class="Field" style="padding-bottom: 0px">
+                                    <label class="Label" for="FeaturesDialog_SMTPConfig_From">
+                                        From Address*
+                                    </label>
+                                    <input type="text" id="FeaturesDialog_SMTPConfig_From" style="width: 250px" />
+                                </div>
+                                <div class="Field" style="padding-bottom: 0px; display: none">
+                                    <label class="Label" for="FeaturesDialog_SMTPConfig_DeliveryFormat">
+                                        Delivery Format
+                                    </label>
+                                    <select id="FeaturesDialog_SMTPConfig_DeliveryFormat">
+                                        <option value="">N/A</option>
+                                        <option value="International">International</option>
+                                        <option value="SevenBit">Seven Bit</option>
+                                    </select>
+                                </div>
+                            </td>
+                            <td valign="top">
+                                <div id="FeaturesDialog_SMTPConfig_SpecifyPickupDirectoryFields">
+                                    <div class="Field PickupDirectoryLocation" style="padding-bottom: 0px;">
+                                        <label class="Label" for="FeaturesDialog_SMTPConfig_PickupDirectoryLocation">
+                                            Pickup Directory Location
+                                        </label>
+                                        <input id="FeaturesDialog_SMTPConfig_PickupDirectoryLocation" style="width: 200px" />
+                                    </div>
+                                </div>
+                                <div id="FeaturesDialog_SMTPConfig_NetworkFields">
+                                    <div class="Field" style="padding-bottom: 0px">
+                                        <label class="Label" for="FeaturesDialog_SMTPConfig_Host">
+                                            Host*
+                                        </label>
+                                        <input type="text" id="FeaturesDialog_SMTPConfig_Host" style="width: 250px" />
+                                    </div>
+                                    <div class="Field" style="padding-bottom: 0px">
+                                        <label class="Label" for="FeaturesDialog_SMTPConfig_Port">
+                                            Port
+                                        </label>
+                                        <input type="text" id="FeaturesDialog_SMTPConfig_Port" style="width: 50px" />
+                                    </div>
+                                    <div class="Field" style="padding-bottom: 0px">
+                                        <input type="checkbox" id="FeaturesDialog_SMTPConfig_DefaultCredentials" onclick="CodeOnTime.Client.configureSMTPSettings()" />
+                                        <label for="FeaturesDialog_SMTPConfig_DefaultCredentials">
+                                            Default Credentials
+                                        </label>
+                                    </div>
+                                    <div id="FeaturesDialog_SMTPConfig_BasicAuth">
+                                        <div class="Field" style="padding-bottom: 0px">
+                                            <label class="Label" for="FeaturesDialog_SMTPConfig_Username">
+                                                Username*
+                                            </label>
+                                            <input type="text" id="FeaturesDialog_SMTPConfig_Username" style="width: 250px" />
+                                        </div>
+                                        <div class="Field" style="padding-bottom: 0px">
+                                            <label class="Label" for="FeaturesDialog_SMTPConfig_Password">
+                                                Password*
+                                            </label>
+                                            <input type="password" id="FeaturesDialog_SMTPConfig_Password" style="width: 250px" />
+                                        </div>
+                                    </div>
+                                    <div class="Field" style="padding-bottom: 0px">
+                                        <label class="Label" for="FeaturesDialog_SMTPConfig_ClientDomain">
+                                            Client Domain
+                                        </label>
+                                        <input type="text" id="FeaturesDialog_SMTPConfig_ClientDomain" style="width: 250px" />
+                                    </div>
+                                    <div class="Field" style="padding-bottom: 0px">
+                                        <label class="Label" for="FeaturesDialog_SMTPConfig_TargetName">
+                                            Target Name
+                                        </label>
+                                        <input type="text" id="FeaturesDialog_SMTPConfig_TargetName" style="width: 250px" />
+                                    </div>
+                                    <div class="Field" style="padding-bottom: 0px">
+                                        <input class="Label" type="checkbox" id="FeaturesDialog_SMTPConfig_EnableSsl" />
+                                        <label for="FeaturesDialog_SMTPConfig_EnableSsl">
+                                            Enable SSL
+                                        </label>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div>
+                    </div>
+                </div>
+            </div>
+            <!-- EASE Configuration-->
+            <div title="EASE Configuration">
+                <div class="Content">
+                    <div>
+                        EASE (Enterprise Application Services Engine) is a set of features designed to effortlessly increase
+                        value of generated line-of-business applications with functionality that would otherwise require complex
+                        programming.
+                        <br />
+                        <br />
+                    </div>
+                    <input type="checkbox" id="FeaturesDialog_EaseUrlHashing" /><label for="FeaturesDialog_EaseUrlHashing"
+                                                                                       id="FeaturesDialog_EaseUrlHashingLabel">
+                        Enable <a href="javascript:" onclick="return $openUrl('http://codeontime.com/blog/2011/09/url-hashing')"
+                                  title="Learn more about URL Hashing">URL Hashing</a> to protect parameters passed in query strings
+                        and visible in address bar of browsers.
+                    </label><br />
+                    <br />
+                    <div style="display: none">
+                        <input type="checkbox" id="FeaturesDialog_EnableTransactions" disabled="disabled" /><label for="FeaturesDialog_EnableTransactions"
+                                                                                                                   disabled="true">
+                            Enable transactional data editing/insertion in all data controllers. Requires additional
+                            configuration of data views on pages.
+                        </label><br />
+                        <br />
+                    </div>
+                    <div>
+                        It is important to know when the new rows are created or updated in the application database tables.
+                        Developers frequently introduce auditing columns to capture the user identity and time of such events.
+                        Custom coding is typically required to process the audit columns.<br />
+                        <br />
+                        EASE <a href="javascript:" onclick="return $openUrl('http://codeontime.com/blog/2011/12/ease-auditing')"
+                                title="Learn more about EASE Auditing">Auditing</a> performs automatic processing of audit columns.
+                        The security framework of generated applications configures auditing fields for presentation and assigns
+                        appropriate values as needed at runtime. Simply enter the map of audit fields below to activate this
+                        feature.<br />
+                        <br />
+                    </div>
+                    <div class="Field">
+                        <label for="FeaturesDialog_EaseAuditing" id="FeaturesDialog_EaseAuditingLabel" class="Label">
+                            Audit Field Map:
+                        </label>
+                        <textarea id="FeaturesDialog_EaseAuditing" rows="7" cols="50" style="width: 450px"></textarea>
+                    </div>
+                    <div>
+                        Click <a href="javascript:" title="Initialize the sample audit field map." onclick="var tb = $get('FeaturesDialog_EaseAuditing');if(tb.disabled)return;if(tb.value==''||confirm('The audit field map is not blank. Overwrite?'))tb.value=
+'Modified By User Name = ModifiedBy|updated_by\n' +
+'Modified By User ID      = ModifiedByUserId\n' +
+'Modified On Date          = ModifiedOn|updated|update_date\n' +
+'Created By User Name  = CreatedBy\n' +
+'Created By User ID       = CreatedById|created_user_id\n' +
+'Created On Date           = CreatedOn|create_date';return false;">here</a> to initialize the sample audit field map.<br />
+                        <br />
+                        Values on the left side of the "equal" sign are logical auditing field names recognized by the application
+                        framework.<br />
+                        Values on the right side of the "equal" sign are <a href="javascript:" onclick="return $openUrl('http://en.wikipedia.org/wiki/Regular_expression')">
+                            regular expressions
+                        </a> matched against the actual fields names used in your app.
+                    </div>
+                </div>
+            </div>
+            <!-- Addons -->
+            <div title="Add-ons">
+                <div class="Content" id="FeaturesDialog_Addons">
+                    <div>
+                        Select add-ons for your project.<br /><br />
+                        <div class="Field" style="margin-bottom: 4px">
+                            <input type="checkbox" id="FeaturesDialog_Addons_OfflineSync" /><label for="FeaturesDialog_Addons_OfflineSync">
+                                Offline Sync
+                            </label><br />
+                        </div>
+                        <div>
+                            Enable disconnected access to data on the pages marked as "Offline". Requires a native host app such as <i>Cloud On Time</i> or its white-label version.
+                            Native host downloads data along with the application front end, keeps track of data modifications on the device, and uploads changes to the server when the end user requests synchronization.
+                        </div>
+                    </div>
+
+                    <div>
+                        <br />
+                        <div class="Field" style="margin-bottom: 4px">
+                            <input type="checkbox" id="FeaturesDialog_Addons_Survey" /><label for="FeaturesDialog_Addons_Survey">
+                                Survey
+                            </label><br />
+                        </div>
+                        <div>
+                            Enable survey support in the app. Includes survey form builder for drag &amp; drop development of custom forms stored in the app database at runtime.
+                            Survey forms are stored either in the built-in CMS or in the data fields tagged as "survey-form".
+                            Survey data is stored in JSON format in the "survey-data" data fields with an optional mapping of collected values to data controller fields.
+                        </div>
+                    </div>
+                    <div>
+                        <br />
+                        <div class="Field" style="margin-bottom: 4px">
+                            <input type="checkbox" id="FeaturesDialog_Addons_AssistantUI" /><label for="FeaturesDialog_Addons_AssistantUI">
+                                Assistant UI
+                            </label><br />
+                        </div>
+                        <div>
+                            Enables a chat window allowing users to read and write data by issuing natural language commands. End user can enable optional communications with the app via email, SMS, and voice assistants.
+                        </div>
+                    </div>
+                    <div>
+                        <br />
+                        <div class="Field" style="margin-bottom: 4px">
+                            <input type="checkbox" id="FeaturesDialog_Addons_ContentMaker" /><label for="FeaturesDialog_Addons_ContentMaker">
+                                Content Maker
+                            </label><br />
+                        </div>
+                        <div>
+                            Makes content pages from files in Open Document format. Synchronizes content with Office 365 and Google Drive. Requires installation of Content Management System in the application database.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Package Properties -->
+            <div title="Package Properties" id="FeaturesDialog_PackagingTab">
+                <div class="Content">
+                    <div>
+                        Some types of projects support properties such as <i>Version</i> or <i>Friendly Name</i> that are incorporated
+                        in the compiled binaries of generated applications. If the property values are not entered then default
+                        values are assigned automatically.
+                        <br />
+                        <br />
+                        Enter package properties below.
+                    </div>
+                    <div class="Field">
+                        <label for="" class="Label">
+                            Package Properties
+                        </label><textarea id="FeaturesDialog_PackageProperties" style="overflow: auto; width: 550px"
+                                          rows="10" cols="10"></textarea>
+                    </div>
+                    List one property per line. Property name may contain spaces.
+                    <table style="margin-top: 4px;">
+                        <tr>
+                            <td style="border: solid 1px silver; padding: 4px; background-color: InfoBackground;">
+                                <i>Property Name = Property Value</i>
+                            </td>
+                        </tr>
+                    </table>
+                    <br />
+                    The list of supported project properties depends on the project type.
+                </div>
+            </div>
+        </div>
+        <div class="Buttons">
+            <button onclick="CodeOnTime.Client.cancel()">
+                Cancel
+            </button>
+            <button onclick="CodeOnTime.Client._executeFeaturesDialogCallback('Back')">
+                Back
+            </button>
+            <button onclick="CodeOnTime.Client._executeFeaturesDialogCallback('Next')">
+                Next
+            </button>
+        </div>
+    </div>
+</body>
+</html>

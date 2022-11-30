@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Om^About^
+
+^Accent^Aksent^Accent^
+
+^ActionBarActionsHeaderText^Handlinger^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Avbryt^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Avbryte alle registrere endringer.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Avbryt ny rekord.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Lagre ny rekord i databasen.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Lagre^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Opprett en ny {0} rekord.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^Nye {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Nytt^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Record^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Rapport^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Lagre endringer i database.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Lagre^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Legg til konto^AddAccount^
+
+^AddCondition^Legg til betingelse^AddCondition^
+
+^AddConditionText^Legg søkebetingelsen^AddConditionText^
+
+^AddItem^Legg til element^AddItem^
+
+^AddMatchingGroup^Legg til matchende gruppe^AddMatchingGroup^
+
+^AddSearchBarField^Flere søkefelt^AddSearchBarField^
+
+^AddSystemIdentity^Legg System Identity^AddSystemIdentity^
+
+^AddToFavorites^Legg til i favoritter^AddToFavorites^
+
+^AdvancedSearch^Avansert søk^AdvancedSearch^
+
+^AdvancedSearchInstruction^Skriv inn vilkår som må være matchet og trykk søk ​​knappen.^AdvancedSearchInstruction^
+
+^After^Etter^After^
+
+^Agenda^Dagsorden^Agenda^
+
+^AlignedLeft^Justert Venstre^AlignedLeft^
+
+^AlignedRight^Justert Høyre^AlignedRight^
+
+^AllDatesInPreriod^Alle datoene i perioden^AllDatesInPreriod^
+
+^AlternativeView^Velg en alternativ visning av data.^AlternativeView^
+
+^Always^Alltid^Always^
+
+^AnyValue^(noen)^AnyValue^
+
+^Apply^Påfør^Apply^
+
+^Apps^Apps^Apps^
+
+^Aquarium^Aquarium^Aquarium^
+
+^Auto^Auto^Auto^
+
+^AutoOpenNextItem^Åpne neste element automatisk^AutoOpenNextItem^
+
+^AverageOf^Gjennomsnitt av^AverageOf^
+
+^AvgAggregate^Avg: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Gjennomsnitt av {0}^AvgAggregateToolTip^
+
+^Azure^Azure^Azure^
+
+^Back^Tilbake^Back^
+
+^BackColor^Back Color^BackColor^
+
+^BatchEditActionHeaderText^Ulkredigering^BatchEditActionHeaderText^
+
+^BatchEdited^{0} oppdatert^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Ulkredigering (skjema)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^Oppdatering^BatchUpdate^
+
+^Before^Før^Before^
+
+^BeginsWith^Begynner med^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^Berry^Berry^
+
+^Between^Mellom^Between^
+
+^Bittersweet^Bittersweet^Bittersweet^
+
+^Blank^Blank^Blank^
+
+^BlankPassword^Passord kan ikke være blank.^BlankPassword^
+
+^BlankUserName^Brukernavn kan ikke være blank.^BlankUserName^
+
+^BlankValue^(Blank)^BlankValue^
+
+^BlobDownloadHint^Klikk her for å laste ned den originale filen.^BlobDownloadHint^
+
+^BlobDownloadLink^nedlasting^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Trykk på bildet for å laste ned den opprinnelige filen.^BlobDownloadOriginalHint^
+
+^Blur^Uklarhet^Blur^
+
+^Bold^Fet^Bold^
+
+^BooleanFilterText^Logisk Filter^BooleanFilterText^
+
+^BooleanIsExpected^En logisk verdi er forventet.^BooleanIsExpected^
+
+^ButtonShapes^Figurer av knapper^ButtonShapes^
+
+^By^av^By^
+
+^Calendar^Kalender^Calendar^
+
+^Cancel^Avbryt^Cancel^
+
+^Cards^Kort^Cards^
+
+^Cay^Cay^Cay^
+
+^ChangeYourLanguage^Endre språk^ChangeYourLanguage^
+
+^Charts^Diagrammer^Charts^
+
+^Citrus^Citrus^Citrus^
+
+^Classic^Classic^Classic^
+
+^ClearFilter^Fjern filter fra {0}^ClearFilter^
+
+^ClearFilter2^Tøm Filtrer^ClearFilter2^
+
+^ClearText^Slett tekst^ClearText^
+
+^ClearToolTip^Clear {0}^ClearToolTip^
+
+^Close^Lukk^Close^
+
+^Comfortable^Komfortabel^Comfortable^
+
+^Compact^Kompakt^Compact^
+
+^Condensed^Condensed^Condensed^
+
+^ConfirmContinue^Fortsette?^ConfirmContinue^
+
+^ConfirmReload^Last?^ConfirmReload^
+
+^ConnectionLost^Nettverkstilkoblingen er brutt. Prøv igjen?^ConnectionLost^
+
+^Construct^Konstruer^Construct^
+
+^Contains^Inneholder^Contains^
+
+^Convention^Konvensjonen^Convention^
+
+^Copy^Kopier^Copy^
+
+^CountAggregate^Count: {0}^CountAggregate^
+
+^CountAggregateToolTip^Greven av {0}^CountAggregateToolTip^
+
+^CountOf^Telling av^CountOf^
+
+^CreateLink^Lag Link^CreateLink^
+
+^CustomFilterOption^Filter ...^CustomFilterOption^
+
+^Cut^Kutt^Cut^
+
+^DarkKnight^Dark Knight^DarkKnight^
+
+^DarkTheme^Mørk^DarkTheme^
+
+^DataSheetActionDescription^Vise elementer ved hjelp av en data sheet<br/>format.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Vis i databladet^DataSheetActionHeaderText^
+
+^DataWarning^Maksimalt antall elementer til prosessen er {0: d}. Klikk her for å filtrere resultatet.^DataWarning^
+
+^Date^Dato^Date^
+
+^DateFilterText^Datofiltre^DateFilterText^
+
+^DateIsExpected^En dato er forventet.^DateIsExpected^
+
+^DatesAMinAgo^ett minutt siden^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^om et øyeblikk^DatesInAMin^
+
+^DatesInHour^om en time^DatesInHour^
+
+^DatesInMin^i {0} min^DatesInMin^
+
+^DatesLast^Siste^DatesLast^
+
+^DatesMinAgo^{0} Min siden^DatesMinAgo^
+
+^DatesNext^neste^DatesNext^
+
+^DatesNow^nå^DatesNow^
+
+^DatesOneHour^en time siden^DatesOneHour^
+
+^DateSortAscending^Første på toppen^DateSortAscending^
+
+^DateSortDescending^Siste på Top^DateSortDescending^
+
+^DatesSmart^smarte Datoer^DatesSmart^
+
+^DatesToday^i dag^DatesToday^
+
+^DatesTomorrow^i morgen^DatesTomorrow^
+
+^DatesYesterday^i går^DatesYesterday^
+
+^Day^Dag^Day^
+
+^DefaultCancelActionHeaderText^Lukk^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Vennligst fyll ut dette skjemaet og klikk OK-knappen for å opprette en ny {0} rekord. Klikk Avbryt for å gå tilbake til forrige skjermbilde.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^Dette er feltene i {0} rekord som kan redigeres.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Se gjennom {0} informasjon nedenfor. Klikk Rediger for å endre denne posten, klikker du på Slett for å slette posten, eller klikke Avbryt / Lukk for å returnere tilbake.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Dette er en liste over {0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Fyll ut skjemaet. Sørg for å angi alle nødvendige felt.^DefaultNewDescription^
+
+^DefaultOption^Standard^DefaultOption^
+
+^DefaultReferenceDescription^Ytterligere detaljer om {0} er gitt i referanseinformasjon delen.^DefaultReferenceDescription^
+
+^Delete^Slett^Delete^
+
+^DeleteActionConfirmation^Slett?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Slett^DeleteActionHeaderText^
+
+^Deleted^{$ valgt} slettet^Deleted^
+
+^DeleteOriginalSel^slett originalt utvalg^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Slett)^DeleteSearchBarField^
+
+^DetailsToolTip^Vis detaljer for {0}^DetailsToolTip^
+
+^DevelopExplorer^Prosjekt Explorer^DevelopExplorer^
+
+^DevelopFormLayout^Form Layout^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^Velg skjermstørrelser som skal inkluderes i oppsettet.^DevelopFormLayoutInstr^
+
+^DevelopTools^Utviklerverktøy^DevelopTools^
+
+^Device^Enhet^Device^
+
+^DeviceLoginPrompt^Vennligst logg inn for å autorisere tilgang på denne enheten.^DeviceLoginPrompt^
+
+^DidNotMatch^Samsvarte ikke med^DidNotMatch^
+
+^Directions^Veibeskrivelse^Directions^
+
+^DiscardChanges^Forkaste endringer?^DiscardChanges^
+
+^DisplayDensity^Visnings Tetthet^DisplayDensity^
+
+^DisplayedAbove^Vises Above^DisplayedAbove^
+
+^DisplayedBelow^Vises under^DisplayedBelow^
+
+^Dock^Forankre^Dock^
+
+^DoesNotBeginWith^Begynner ikke med^DoesNotBeginWith^
+
+^DoesNotContain^Inneholder ikke^DoesNotContain^
+
+^DoesNotEndWith^Slutter ikke med^DoesNotEndWith^
+
+^DoesNotEqual^Ikke lik^DoesNotEqual^
+
+^DoesNotInclude^Inkluderer ikke^DoesNotInclude^
+
+^DoNotMatchAll^Samsvarer ikke alle forhold^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Samsvarte ikke alle forhold^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Samsvarer ikke noen betingelser^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Samsvarte ikke med noen betingelser^DoNotMatchAnyPastTense^
+
+^Download^nedlasting^Download^
+
+^Draw^Tegne^Draw^
+
+^DuplicateActionHeaderText^Dupliser^DuplicateActionHeaderText^
+
+^DuplicateItem^Dupliseringselement^DuplicateItem^
+
+^DuplicateRow^Dupliserer rad^DuplicateRow^
+
+^EditActionHeaderText^Edit^EditActionHeaderText^
+
+^EditItem^Rediger element^EditItem^
+
+^EditModeCancelActionHeaderText^Avbryt^EditModeCancelActionHeaderText^
+
+^EditRow^Rediger rad^EditRow^
+
+^Empty^Tom^Empty^
+
+^EmptyContext^Handlinger er ikke tilgjengelig.^EmptyContext^
+
+^EmptyValue^(Tom)^EmptyValue^
+
+^Enable^Muliggjøre^Enable^
+
+^EndsWith^Slutter med^EndsWith^
+
+^Equals^Er lik^Equals^
+
+^Eraser^Viskelær^Eraser^
+
+^Error^Feil^Error^
+
+^Exit^Exit^Exit^
+
+^ExitFullscreen^Avslutt fullskjerm^ExitFullscreen^
+
+^ExportCsvActionDescription^Last elementer i CSV-format.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Last ned^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Analyser elementer med spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Eksporter til regneark^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Syndicate elementer med en RSS-leser.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^Vis RSS feed^ExportRssActionHeaderText^
+
+^Favorites^Favoritter^Favorites^
+
+^Felt^Felt^Felt^
+
+^FileCleared^Verdien blir slettet ved lagring^FileCleared^
+
+^FilesBytes^byte^FilesBytes^
+
+^FilesClear^Clear^FilesClear^
+
+^FilesClearConfirm^Klar?^FilesClearConfirm^
+
+^FilesClick^Klikk for å velge en fil^FilesClick^
+
+^FilesClickMany^Klikk for å velge filer^FilesClickMany^
+
+^FilesDrop^Slippe en fil her^FilesDrop^
+
+^FilesDropMany^Slippe filer her^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Trykk for å velge en fil^FilesTap^
+
+^FilesTapMany^Trykk for å velge filer^FilesTapMany^
+
+^Filter^Filter^Filter^
+
+^FilterApplied^Et filter har blitt påført.^FilterApplied^
+
+^FilterByField^Velg et felt for å bruke et filter til <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Velg ett eller flere alternativer i listen under og trykk <b>{2}</b> å filtrere <b>{0}</b> av feltet <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Fjernet alle filtre.^FilterCleared^
+
+^FilterLabelAnd^og^FilterLabelAnd^
+
+^FilterLabelClear^Clear^FilterLabelClear^
+
+^FilterLabelEquals^tilsvarer^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Endre^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^inkluderer^FilterLabelIncludes^
+
+^FilterLabelOr^eller^FilterLabelOr^
+
+^FilterLabelSelectAll^(Merk alt)^FilterLabelSelectAll^
+
+^FilterSiteMap^Filter nettstedskart ...^FilterSiteMap^
+
+^Finish^Bli ferdig^Finish^
+
+^FitToWidth^Tilpass til bredde^FitToWidth^
+
+^FlatTreeToggle^Bytt til Hierarki^FlatTreeToggle^
+
+^FontName^Font Name^FontName^
+
+^FontSize^Font Size^FontSize^
+
+^ForeColor^Fore Color^ForeColor^
+
+^Forget^Glemme^Forget^
+
+^ForgotYourPassword^Glemt passordet?^ForgotYourPassword^
+
+^Format^Format^Format^
+
+^Freeze^Frys^Freeze^
+
+^From^fra^From^
+
+^Fullscreen^Full skjerm^Fullscreen^
+
+^Future^Future^Future^
+
+^GeneralTabText^Generell^GeneralTabText^
+
+^Generate^generere^Generate^
+
+^GenericNewToolTip^Opprett ny^GenericNewToolTip^
+
+^GenericSortAscending^Minste på Top^GenericSortAscending^
+
+^GenericSortDescending^Største på Top^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Grand Totals^GrandTotals^
+
+^Granite^Granitt^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Gravity^Gravity^
+
+^GreaterThan^Større enn^GreaterThan^
+
+^GreateThanOrEqual^Større enn eller lik^GreateThanOrEqual^
+
+^Grid^Tabell^Grid^
+
+^GridActionDescription^Vise elementer i standard<br/>list format.^GridActionDescription^
+
+^GridActionHeaderText^Vis i standardvisning^GridActionHeaderText^
+
+^Group^Gruppe^Group^
+
+^GroupByField^Velg et felt for å gruppere <b>{0}</b>.^GroupByField^
+
+^Grouped^gruppert^Grouped^
+
+^GroupedBy^Gruppert etter^GroupedBy^
+
+^GroupedDefault^Gruppering er fjernet^GroupedDefault^
+
+^Heading1^Overskrift 1^Heading1^
+
+^Heading2^Overskrift 2^Heading2^
+
+^Heading3^Overskrift 3^Heading3^
+
+^Heading4^Overskrift 4^Heading4^
+
+^Heading5^Overskrift 5^Heading5^
+
+^Heading6^Overskrift 6^Heading6^
+
+^Help^Hjelp^Help^
+
+^HelpClose^Lukk^HelpClose^
+
+^HelpFullScreen^Full Screen^HelpFullScreen^
+
+^Hide^Gjemme seg^Hide^
+
+^HideAdvancedSearch^Skjul avansert søk^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Bytt til Flat List^HierarchyTreeModeToggle^
+
+^Highlighter^Highlighter^Highlighter^
+
+^History^Historie^History^
+
+^HistoryToolTip^Se historien om tidligere valgte poster^HistoryToolTip^
+
+^HistoryUnavailable^Historien er ikke tilgjengelig.^HistoryUnavailable^
+
+^Home^Hjem^Home^
+
+^IdleUser^Er du fortsatt det? Vennligst logg inn igjen.^IdleUser^
+
+^ImportActionDescription^Last opp en CSV, XLS, eller XLSX file<br/>to importere poster.^ImportActionDescription^
+
+^ImportActionHeaderText^Importer fra fil^ImportActionHeaderText^
+
+^ImportAutoDetect^(Auto oppdage)^ImportAutoDetect^
+
+^ImportComplete^fullstendig^ImportComplete^
+
+^ImportDone^fullført import^ImportDone^
+
+^ImportDownloadTemplate^Last importfil mal.^ImportDownloadTemplate^
+
+^ImportDuplicates^duplikater^ImportDuplicates^
+
+^ImportEmail^Send import loggen til følgende e-postadresser (valgfritt)^ImportEmail^
+
+^ImportEmailNotSpecified^Mottaker av importen log har ikke blitt spesifisert. Fortsett likevel?^ImportEmailNotSpecified^
+
+^ImportExpected^Forventes å fullføre^ImportExpected^
+
+^ImportFileStats^Det er <b>{0}</b> poster i filen <b>{1}</b> klar til å bli behandlet. Vennligst matche feltnavnene.^ImportFileStats^
+
+^Importing^importerer^Importing^
+
+^ImportMappingInstruction^Det er <b>{0}</b> posten (e) i filen <b>{1}</b> klar til å bli processed.<br/>Please kartlegge import felt fra datafilen i søknaden feltene og klikk <i>Import</i> å starte behandling.^ImportMappingInstruction^
+
+^ImportNotSupported^Dataformatet &quot;{0}&quot; ikke støttes.^ImportNotSupported^
+
+^ImportProcessing^Importfil behandlingen er igangsatt. Den importerte data poster vil bli tilgjengelig etter vellykket behandling. Du må kanskje oppdatere relevant visninger / sider for å se de importerte poster.^ImportProcessing^
+
+^ImportRemaining^Forventes å fullføre^ImportRemaining^
+
+^ImportSelectFile^Velg en datafil i CSV, XLS eller XLSX format.^ImportSelectFile^
+
+^ImportStartButton^Import^ImportStartButton^
+
+^ImportUploading^Filen lastes opp til serveren. Vennligst vent ...^ImportUploading^
+
+^ImportUploadInstruction^Vennligst velg filen som skal lastes opp. Filen må være i <b>CSV</b>, <b>XLS</b> eller <b>XLSX</b> format.^ImportUploadInstruction^
+
+^In^i^In^
+
+^Includes^Inkluderer^Includes^
+
+^Indent^Innrykk^Indent^
+
+^InfoBarAnd^og^InfoBarAnd^
+
+^InfoBarEmpty^tom^InfoBarEmpty^
+
+^InfoBarEqualTo^er lik^InfoBarEqualTo^
+
+^InfoBarGreaterThan^er større enn^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^er større enn eller lik^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^er mindre enn^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^er mindre enn eller lik^InfoBarLessThanOrEqual^
+
+^InfoBarLike^er som^InfoBarLike^
+
+^InfoBarOr^eller^InfoBarOr^
+
+^InfoBarQuickFind^Alle felt inneholder^InfoBarQuickFind^
+
+^InfoBarStartsWith^starter med^InfoBarStartsWith^
+
+^InitialListMode^Initial listemodus^InitialListMode^
+
+^InlineEditing^Inline redigering^InlineEditing^
+
+^InsertActionHeaderText^OK^InsertActionHeaderText^
+
+^InsertHorizontalRule^Sett inn horisontal linje^InsertHorizontalRule^
+
+^InsertingRecords^Sette poster^InsertingRecords^
+
+^InsertOrderedList^Sett ordnet liste^InsertOrderedList^
+
+^InsertUnorderedList^Sett inn uordnet liste^InsertUnorderedList^
+
+^Into^inn i^Into^
+
+^InvalidUserNameAndPassword^Ditt brukernavn og passord er ikke gyldig.^InvalidUserNameAndPassword^
+
+^Italic^Italic^Italic^
+
+^ItemsPerPage^Elementer per side:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} elementer valgt^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Element valgt^ItemsSelectedOne^
+
+^JustDatesNow^Akkurat nå^JustDatesNow^
+
+^JustifyCenter^Rettferdiggjøre Senter^JustifyCenter^
+
+^JustifyFull^Rettferdiggjøre Full^JustifyFull^
+
+^JustifyLeft^Rettferdiggjøre Venstre^JustifyLeft^
+
+^JustifyRight^Rettferdiggjøre Høyre^JustifyRight^
+
+^KeepOriginalSel^beholde det opprinnelige utvalget^KeepOriginalSel^
+
+^LabelsInList^Etiketter i List^LabelsInList^
+
+^Lacquer^Lakk^Lacquer^
+
+^Laminate^Laminat^Laminate^
+
+^Landscape^Landscape^Landscape^
+
+^Large^Stor^Large^
+
+^LastMonth^Siste måned^LastMonth^
+
+^LastQuarter^Siste kvarter^LastQuarter^
+
+^LastWeek^Siste uken^LastWeek^
+
+^LastYear^Siste år^LastYear^
+
+^Less^Mindre^Less^
+
+^LessThan^Less Than^LessThan^
+
+^LessThanOrEqual^Mindre enn eller lik^LessThanOrEqual^
+
+^Lichen^Lichen^Lichen^
+
+^LightTheme^Lys^LightTheme^
+
+^Line^Linje^Line^
+
+^List^List^List^
+
+^ListOneColumn^Liste (en kolonne)^ListOneColumn^
+
+^ListViewStyle^Liste^ListViewStyle^
+
+^Loading^Loading ...^Loading^
+
+^Logical^Logisk^Logical^
+
+^LoginButton^Innlogging^LoginButton^
+
+^LoginLink^Innlogging^LoginLink^
+
+^Logout^Logg ut^Logout^
+
+^LookupInstruction^Vennligst velg <b>{0}</b> i listen.^LookupInstruction^
+
+^LookupOriginalSelection^Den opprinnelige utvalget er <b>&quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^Administrer kontoer^ManageAccounts^
+
+^Map^Kart^Map^
+
+^MatchAll^Matche alle forhold^MatchAll^
+
+^MatchAllPastTense^Matchet alle forhold^MatchAllPastTense^
+
+^MatchAny^Matche eventuelle vilkår^MatchAny^
+
+^MatchAnyPastTense^Matchet noen betingelser^MatchAnyPastTense^
+
+^Matched^Matchet^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Maksimalt {0}^MaxAggregateToolTip^
+
+^Maximize^Expand^Maximize^
+
+^MaximumOf^Maksimalt^MaximumOf^
+
+^Medium^Medium^Medium^
+
+^Menu^Meny^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^Minimum {0}^MinAggregateToolTip^
+
+^Minimize^Collapse^Minimize^
+
+^MinimumOf^Minimum^MinimumOf^
+
+^Mission^Mission^Mission^
+
+^ModeBrowsing^Se deg rundt^ModeBrowsing^
+
+^ModeEditing^Redigering^ModeEditing^
+
+^ModeEntering^Entering^ModeEntering^
+
+^ModeLookup^Oppslag^ModeLookup^
+
+^Modern^Moderne^Modern^
+
+^ModernRose^Modern Rose^ModernRose^
+
+^ModeViewing^Vise^ModeViewing^
+
+^Month^Måned^Month^
+
+^More^Mer^More^
+
+^MultiSelection^multi Selection^MultiSelection^
+
+^Municipal^Municipal^Municipal^
+
+^MyAccount^Min konto^MyAccount^
+
+^Never^Aldri^Never^
+
+^NewActionHeaderText^Nytt^NewActionHeaderText^
+
+^NewItem^Ny gjenstand^NewItem^
+
+^NewRow^Ny rad^NewRow^
+
+^NewRowLink^Klikk her for å opprette en ny rekord.^NewRowLink^
+
+^NewToolTip^Nye {0}^NewToolTip^
+
+^Next^Neste^Next^
+
+^Next2^Neste^Next2^
+
+^NextMonth^Neste måned^NextMonth^
+
+^NextQuarter^Neste kvartal^NextQuarter^
+
+^NextWeek^Neste uke^NextWeek^
+
+^NextYear^Neste år^NextYear^
+
+^No^Ingen^No^
+
+^NoMatches^Ingen treff.^NoMatches^
+
+^None^Ingen^None^
+
+^Noon^Middagstid^Noon^
+
+^NoRecords^Ingen poster funnet.^NoRecords^
+
+^NoteDeleteConfirm^Slett?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^slette^NoteDeleteLabel^
+
+^NoteEditLabel^edit^NoteEditLabel^
+
+^NotEmpty^Ikke Empty^NotEmpty^
+
+^NotMatched^(Ikke matchet)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^Nummer^Number^
+
+^NumberFilterText^Tallfiltre^NumberFilterText^
+
+^NumberIsExpected^En rekke er forventet.^NumberIsExpected^
+
+^OdpCommitting^Laster opp transaksjoner ...^OdpCommitting^
+
+^OdpDone^Ferdig.^OdpDone^
+
+^OdpDownloadingBlob^Laste ned binære data for {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^Laster ned data for {0}...^OdpDownloadingData^
+
+^OdpInitializing^Initialiserer ...^OdpInitializing^
+
+^OdpInvalidResponse^Ugyldig svar fra serveren.^OdpInvalidResponse^
+
+^OdpLastRefresh^Siste oppdatering: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Data har ikke blitt oppdatert.^OdpNotRefreshed^
+
+^OdpOfflineState^Du jobber i frakoblet modus.^OdpOfflineState^
+
+^OdpOnlineRequired^Internett-tilkobling er påkrevd.^OdpOnlineRequired^
+
+^OdpPending^Venter på endringer^OdpPending^
+
+^OdpReconRequired^Avstemming er påkrevd^OdpReconRequired^
+
+^OdpReconTxDelete^Vil du slette denne endringen fra loggen?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^Slettet første avventende transaksjon i loggen.^OdpReconTxDeleted^
+
+^OdpRefresh^Oppdater data^OdpRefresh^
+
+^OdpRefreshData^Oppdater data^OdpRefreshData^
+
+^OdpRefreshLast^Data Refreshed^OdpRefreshLast^
+
+^OdpSave^Lagre endringene.^OdpSave^
+
+^OdpSaveAndSync^Lagre alle endringer og velg Synkroniser alternativet i hurtigmenyen.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Programserver er ikke tilgjengelig.^OdpServerUnavailable^
+
+^OdpStatus^Status^OdpStatus^
+
+^OdpSync^Synkroniser^OdpSync^
+
+^OdpSynced^synkronisert^OdpSynced^
+
+^OdpSyncLast^Siste synkronisering^OdpSyncLast^
+
+^OdpSyncLong^Synkroniser for å laste opp endringer.^OdpSyncLong^
+
+^OdpSyncUploadFailed^Kunne ikke laste opp {0} filer.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Laster opp {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Kan ikke slette. {1} avhengige elementer i {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Ute av stand til å utføre.^OdpUnableToExec^
+
+^OdpUnableToProcess^Kan ikke behandle transaksjoner.^OdpUnableToProcess^
+
+^OdpUnableToSave^Kan ikke lagre endringene.^OdpUnableToSave^
+
+^OdpUploadFailed^Kunne ikke laste opp filer.^OdpUploadFailed^
+
+^OdpUploadingFiles^Laster opp {0} filer ...^OdpUploadingFiles^
+
+^OK^OK^OK^
+
+^OnHover^på hover^OnHover^
+
+^OnOrAfter^På eller etter^OnOrAfter^
+
+^OnOrBefore^På eller før^OnOrBefore^
+
+^OpenActionHeaderText^Åpent^OpenActionHeaderText^
+
+^Optional^Valgfri^Optional^
+
+^Orientation^orientering^Orientation^
+
+^Other^Andre^Other^
+
+^Outdent^Outdent^Outdent^
+
+^Page^Side^Page^
+
+^Paragraph^Avsnitt^Paragraph^
+
+^Password^Passord^Password^
+
+^Past^Past^Past^
+
+^Paste^Lim^Paste^
+
+^Pen^Penn^Pen^
+
+^PerformAdvancedSearch^Søk^PerformAdvancedSearch^
+
+^Permalink^Permalink^Permalink^
+
+^PermalinkToolTip^Lag en permanent kobling for utvalgte rekord^PermalinkToolTip^
+
+^PermalinkUnavailable^Permalink er ikke tilgjengelig. Velg en rekord.^PermalinkUnavailable^
+
+^Petal^Petal^Petal^
+
+^Pinnate^Finnete^Pinnate^
+
+^Plastic^Plast^Plastic^
+
+^Portrait^Portrett^Portrait^
+
+^PresentationStyle^Velg en datapresentasjon stil.^PresentationStyle^
+
+^Prev2^Forrige^Prev2^
+
+^Previous^Forrige^Previous^
+
+^PromoteActions^Fremme Handlinger^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^Kvartal^Quarter^
+
+^Quarter1^Kvartal 1^Quarter1^
+
+^Quarter2^2. kvartal^Quarter2^
+
+^Quarter3^3. kvartal^Quarter3^
+
+^Quarter4^Kvartal 4^Quarter4^
+
+^QuickFindDescription^Søk på {0}^QuickFindDescription^
+
+^QuickFindScope^Søk i ...^QuickFindScope^
+
+^QuickFindText^Quick Find^QuickFindText^
+
+^QuickFindToolTip^Skriv for å søke postene og trykk Enter^QuickFindToolTip^
+
+^Quotation^Sitat^Quotation^
+
+^Reading^Lesning...^Reading^
+
+^ReadingPane^Leserute^ReadingPane^
+
+^ReadOnly^{0} er skrivebeskyttet.^ReadOnly^
+
+^Recent^Siste^Recent^
+
+^Redo^Gjør om^Redo^
+
+^Refresh^Refresh^Refresh^
+
+^Refreshed^uthvilt^Refreshed^
+
+^RememberMe^Husk meg neste gang^RememberMe^
+
+^RemoveCondition^Fjern Tilstand^RemoveCondition^
+
+^RemoveFormat^Fjern Format^RemoveFormat^
+
+^ReportActionDescription^Gjengi en rapport i PDF-format^ReportActionDescription^
+
+^ReportActionHeaderText^Rapport^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Se elementer i en formatted<br/>Microsoft Excel regneark.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Regneark^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Vis elementer som en TIFF image.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Multipage bilde^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Vis elementer som Adobe PDF document.<br/>Requires en kompatibel leser.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^PDF Document^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Se elementer i en formatted<br/>Microsoft Word-dokument.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Obligatorisk^Required^
+
+^RequiredField^Dette feltet er påkrevd.^RequiredField^
+
+^RequiredFiledMarkerFootNote^indikerer et obligatorisk felt^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Reset^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Tilbakestill søkebetingelser?^ResetSearchConfirm^
+
+^ResolvingReferences^løse referanser^ResolvingReferences^
+
+^ResumeBrowsing^Gjenoppta Browsing^ResumeBrowsing^
+
+^ResumeEditing^Fortsett redigering^ResumeEditing^
+
+^ResumeEntering^Gjenoppta Entering^ResumeEntering^
+
+^ResumeLookup^Gjenoppta Oppslag^ResumeLookup^
+
+^ResumeViewing^Gjenoppta Vise^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Roller^RolesTab^
+
+^RootNodeText^Toppnivå^RootNodeText^
+
+^Rotate^Roter^Rotate^
+
+^RowCancelActionHeaderText^Avbryt^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Sett inn^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Lagre^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Update?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Oppdater merket^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Lagre^Save^
+
+^SaveAndContinue^Lagre og fortsett^SaveAndContinue^
+
+^SaveAndNew^Lagre og New^SaveAndNew^
+
+^Saved^Lagret - {0}^Saved^
+
+^ScanToConfirm^Vennligst skann igjen for å bekrefte.^ScanToConfirm^
+
+^SeeAll^Se alle^SeeAll^
+
+^SeeAlso^Se også^SeeAlso^
+
+^SelectActionHeaderText^Velg^SelectActionHeaderText^
+
+^SelectAll^Velg alle^SelectAll^
+
+^SelectItem^Velg en^SelectItem^
+
+^SelectLink^(Velg)^SelectLink^
+
+^SelectRow^Velg rad^SelectRow^
+
+^SelectToolTip^Velg {0}^SelectToolTip^
+
+^Separator^Separator^Separator^
+
+^Settings^Innstillinger^Settings^
+
+^Show^Vise^Show^
+
+^ShowAdvancedSearch^Vis avansert søk^ShowAdvancedSearch^
+
+^ShowChart^Vis Chart^ShowChart^
+
+^ShowData^Vis data^ShowData^
+
+^ShowingItems^Viser <b>{0}</b>-<b>{1}</b> til <b>{2}</b> elementer^ShowingItems^
+
+^ShowingItemsInfo^Viser {0} elementer.^ShowingItemsInfo^
+
+^ShowingItemsRange^Viser {0} av {1} elementer^ShowingItemsRange^
+
+^ShowLess^Vis mindre^ShowLess^
+
+^ShowMore^Vis mer^ShowMore^
+
+^ShowOptions^Vis alternativer^ShowOptions^
+
+^ShowSystemButtons^Vis systemknappene^ShowSystemButtons^
+
+^Sidebar^Sidebar^Sidebar^
+
+^Sign^Registrer her^Sign^
+
+^SignedOut^signert Out^SignedOut^
+
+^SignUpNow^Registrer deg nå^SignUpNow^
+
+^Simple^Enkel^Simple^
+
+^SiteActions^Områdehandlinger^SiteActions^
+
+^SizeLabel^Størrelse^SizeLabel^
+
+^Small^Liten^Small^
+
+^Social^Sosial^Social^
+
+^Sort^Sorter^Sort^
+
+^SortBy^Sorter etter {0}^SortBy^
+
+^SortByField^Velg et felt for å endre sorteringsrekkefølgen <b>{0}</b>.^SortByField^
+
+^SortByOptions^Velg sorteringsrekkefølgen <b>{0}</b> av feltet <b>{1}</b> i listen over alternativene nedenfor.^SortByOptions^
+
+^Sorted^sortert^Sorted^
+
+^SortedDefault^Standard sorteringsrekkefølge.^SortedDefault^
+
+^StartImport^start import^StartImport^
+
+^StrikeThrough^Streik gjennom^StrikeThrough^
+
+^StringSortAscending^Stigende^StringSortAscending^
+
+^StringSortDescending^Synkende^StringSortDescending^
+
+^Submit^Sende inn^Submit^
+
+^Subscript^Sub Script^Subscript^
+
+^Suggestions^Forslag^Suggestions^
+
+^SumAggregate^Sum: {0}^SumAggregate^
+
+^SumAggregateToolTip^Summen av {0}^SumAggregateToolTip^
+
+^Summary^Oppsummering^Summary^
+
+^Summer^Sommer^Summer^
+
+^SumOf^Summen av^SumOf^
+
+^Superscript^Super Script^Superscript^
+
+^Sync^Sync^Sync^
+
+^TaskResume^Gjenoppta^TaskResume^
+
+^Tasks^Oppgaver^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^abc^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^testing poster^TestingRecords^
+
+^Text^Tekst^Text^
+
+^TextFilterText^Tekstfiltre^TextFilterText^
+
+^Theme^Tema^Theme^
+
+^ThisMonth^Denne måneden^ThisMonth^
+
+^ThisQuarter^Dette Quarter^ThisQuarter^
+
+^ThisWeek^Denne uke^ThisWeek^
+
+^ThisYear^Dette året^ThisYear^
+
+^Tiny^Tiny^Tiny^
+
+^Today^I dag^Today^
+
+^Tomorrow^I morgen^Tomorrow^
+
+^Top^topp^Top^
+
+^ToThisWebsite^til denne nettsiden^ToThisWebsite^
+
+^TouchUINotSupported^Touch UI støttes ikke i denne nettleseren.^TouchUINotSupported^
+
+^TransitionFade^Fade^TransitionFade^
+
+^TransitionFlip^Flip^TransitionFlip^
+
+^TransitionFlow^Flow^TransitionFlow^
+
+^TransitionNone^Ingen^TransitionNone^
+
+^TransitionPop^Pop^TransitionPop^
+
+^Transitions^Overganger^Transitions^
+
+^TransitionSlide^Slide^TransitionSlide^
+
+^TransitionSlideDown^Skyv ned^TransitionSlideDown^
+
+^TransitionSlideUp^Skyv opp^TransitionSlideUp^
+
+^TransitionTurn^Sving^TransitionTurn^
+
+^TreeActionDescription^Vise hierarkiske relasjoner.^TreeActionDescription^
+
+^TreeActionHeaderText^Vis Hierarki^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Få bekreftelseskode^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Authenticator App^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Hvis du ikke klarer å oppgi bekreftelseskoden, skriver du inn sikkerhetskopikoden i stedet.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^engangskode^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Sikkerhetskopieringskode^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Det ble ringt til^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^E -post ble sendt til^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^Tekstmelding ble sendt til^TwoFaCodeSentSms^
+
+^TwoFaConsent^Samtykke^TwoFaConsent^
+
+^TwoFaEnterPassword^Skriv inn passordet ditt^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Ring meg på^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^jeg ringer^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^Send meg en e -post til^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^Send meg en sms^TwoFaGetCodeSms^
+
+^TwoFaMethod^Metode^TwoFaMethod^
+
+^TwoFaMsgChanged^2-faktorers autentisering er endret.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^2-faktorers autentisering er deaktivert.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Vil du deaktivere tofaktorautentisering?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^2-faktorers autentisering er aktivert.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Angi den {0}-sifrede bekreftelseskoden.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Ugyldig passord.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Ugyldig bekreftelseskode.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 er din {0} bekreftelseskode.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^Jeg kan ikke skanne QR -koden.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Jeg trenger hjelp til å installere authenticator -appen.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Jeg har en autentiseringsapp på en mobil enhet.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^En gangs bruk av sikkerhetskopikoder lar deg logge på hvis du ikke kan oppgi en bekreftelseskode.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Sikkerhetskopieringskoder^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Jeg skriver inn en bekreftelseskode etter vellykket pålogging.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Skriv inn oppsettsnøkkelen i appen^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Verifiseringsmetoder^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Skann QR -koden med kameraet^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Skann QR -koden i appen^TwoFaSetupScanQrCode^
+
+^TwoFaText^2-faktor autentisering^TwoFaText^
+
+^TwoFaTrustThisDevice^Stol på denne enheten^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Bekreftelseskode^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Jeg bruker en autentiseringsapp for å få bekreftelseskoden.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Jeg vil motta en automatisk samtale på telefonen min.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Bekreftelseskoden vil bli levert via e -post.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Bekreftelseskoden vil bli levert via tekstmelding.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Skriv til Søk^TypeToSearch^
+
+^Underline^Understrek^Underline^
+
+^Undo^Undo^Undo^
+
+^Undock^Fradokke^Undock^
+
+^Unfreeze^Frigi^Unfreeze^
+
+^UnGrouped^Gruppering er fjernet^UnGrouped^
+
+^UnLink^Unlink^UnLink^
+
+^UnSelect^Oppheve valget^UnSelect^
+
+^UpdateActionHeaderText^OK^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Update?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Oppdater merket^UpdateActionInBatchModeHeaderText^
+
+^Upload^Laste opp^Upload^
+
+^UploadDescription^Last opp flere filer.^UploadDescription^
+
+^Uploading^Laster opp {0}...^Uploading^
+
+^UpOneLevel^Ett nivå opp^UpOneLevel^
+
+^UseLEV^Lim "{0}"^UseLEV^
+
+^UserName^Brukernavn^UserName^
+
+^UsersInRole^Brukere i Rolle^UsersInRole^
+
+^UsersTab^Brukere^UsersTab^
+
+^Vantage^Vantage^Vantage^
+
+^Verdant^Frodige^Verdant^
+
+^Verify^Bekrefte^Verify^
+
+^View^Vis^View^
+
+^Viewpoint^Utsiktspunkt^Viewpoint^
+
+^Wait^Vennligst vent...^Wait^
+
+^Week^Uke^Week^
+
+^Welcome1^Velkommen^Welcome1^
+
+^Welcome2^I dag er^Welcome2^
+
+^WhiteSmoke^Hvit Smoke^WhiteSmoke^
+
+^WithSelectedValues10^Med valgte verdier (topp 10)^WithSelectedValues10^
+
+^WithSelectedValues5^Med valgte verdier (topp 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^Med spesifiserte filtre^WithSpecifiedFilters^
+
+^Year^År^Year^
+
+^YearToDate^Hittil i år^YearToDate^
+
+^Yes^Ja^Yes^
+
+^Yesterday^I går^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Zoome inn^ZoomIn^
+
+^ZoomOut^Zoome ut^ZoomOut^
+

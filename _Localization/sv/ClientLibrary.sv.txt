@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Om^About^
+
+^Accent^Accent^Accent^
+
+^ActionBarActionsHeaderText^Åtgärder^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Avbryt^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Avbryta alla rekord förändringar.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Avbryt nytt rekord.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Spara nya posten i databasen.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Spara^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Skapa en ny {0} rekord.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^Nya {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Nya^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Rekord^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Rapport^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Spara ändringar till databasen.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Spara^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Lägg till konto^AddAccount^
+
+^AddCondition^Lägg till villkor^AddCondition^
+
+^AddConditionText^Lägg till sökvillkoret^AddConditionText^
+
+^AddItem^Lägg till vara^AddItem^
+
+^AddMatchingGroup^Lägg matchande grupp^AddMatchingGroup^
+
+^AddSearchBarField^Flera sökfält^AddSearchBarField^
+
+^AddSystemIdentity^Lägga System Identity^AddSystemIdentity^
+
+^AddToFavorites^Lägg till favoriter^AddToFavorites^
+
+^AdvancedSearch^Avancerad sökning^AdvancedSearch^
+
+^AdvancedSearchInstruction^Ange villkor som måste matchas och tryck på sök-knappen.^AdvancedSearchInstruction^
+
+^After^Efter^After^
+
+^Agenda^Dagordning^Agenda^
+
+^AlignedLeft^Vänsterjusterad^AlignedLeft^
+
+^AlignedRight^Aligned Höger^AlignedRight^
+
+^AllDatesInPreriod^Alla datum i Period^AllDatesInPreriod^
+
+^AlternativeView^Välj en alternativ bild av data.^AlternativeView^
+
+^Always^Alltid^Always^
+
+^AnyValue^(några)^AnyValue^
+
+^Apply^Applicera^Apply^
+
+^Apps^appar^Apps^
+
+^Aquarium^Akvarium^Aquarium^
+
+^Auto^Auto^Auto^
+
+^AutoOpenNextItem^Öppna nästa objekt automatiskt^AutoOpenNextItem^
+
+^AverageOf^Genomsnitt av^AverageOf^
+
+^AvgAggregate^Avg: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Genomsnitt av {0}^AvgAggregateToolTip^
+
+^Azure^Azure^Azure^
+
+^Back^återvända^Back^
+
+^BackColor^Back Color^BackColor^
+
+^BatchEditActionHeaderText^Batchredigering^BatchEditActionHeaderText^
+
+^BatchEdited^{0} uppdaterad^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Batchredigering (formulär)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^uppdatering^BatchUpdate^
+
+^Before^Före^Before^
+
+^BeginsWith^Börjar med^BeginsWith^
+
+^Belltown^Bell^Belltown^
+
+^Berry^Berry^Berry^
+
+^Between^Mellan^Between^
+
+^Bittersweet^Bittersweet^Bittersweet^
+
+^Blank^Blank^Blank^
+
+^BlankPassword^Lösenordet får inte vara tom.^BlankPassword^
+
+^BlankUserName^Användarnamnet kan inte vara tomt.^BlankUserName^
+
+^BlankValue^(Blank)^BlankValue^
+
+^BlobDownloadHint^Klicka här för att hämta den ursprungliga filen.^BlobDownloadHint^
+
+^BlobDownloadLink^nedladdning^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Tryck på bilden för att ladda ner originalfilen.^BlobDownloadOriginalHint^
+
+^Blur^Fläck^Blur^
+
+^Bold^Bold^Bold^
+
+^BooleanFilterText^Logiska filter^BooleanFilterText^
+
+^BooleanIsExpected^Ett logiskt värde förväntas.^BooleanIsExpected^
+
+^ButtonShapes^Knapparnas form^ButtonShapes^
+
+^By^av^By^
+
+^Calendar^Kalender^Calendar^
+
+^Cancel^Avbryt^Cancel^
+
+^Cards^Kort^Cards^
+
+^Cay^Cay^Cay^
+
+^ChangeYourLanguage^Ändra ditt språk^ChangeYourLanguage^
+
+^Charts^Topplista^Charts^
+
+^Citrus^Citrus^Citrus^
+
+^Classic^Classic^Classic^
+
+^ClearFilter^Rensa filter från {0}^ClearFilter^
+
+^ClearFilter2^Rensa filter^ClearFilter2^
+
+^ClearText^Rensa Text^ClearText^
+
+^ClearToolTip^Klart {0}^ClearToolTip^
+
+^Close^Stäng^Close^
+
+^Comfortable^Bekväm^Comfortable^
+
+^Compact^Kompakt^Compact^
+
+^Condensed^Kondenserad^Condensed^
+
+^ConfirmContinue^Fortsätta?^ConfirmContinue^
+
+^ConfirmReload^Ladda?^ConfirmReload^
+
+^ConnectionLost^Nätverksanslutningen har förlorats. Försök igen?^ConnectionLost^
+
+^Construct^Konstrukt^Construct^
+
+^Contains^Innehåller^Contains^
+
+^Convention^Konvention^Convention^
+
+^Copy^Kopiera^Copy^
+
+^CountAggregate^Count: {0}^CountAggregate^
+
+^CountAggregateToolTip^Greve av {0}^CountAggregateToolTip^
+
+^CountOf^Greven av^CountOf^
+
+^CreateLink^Skapa länk^CreateLink^
+
+^CustomFilterOption^Filter ...^CustomFilterOption^
+
+^Cut^Skär^Cut^
+
+^DarkKnight^Dark Knight^DarkKnight^
+
+^DarkTheme^Mörk^DarkTheme^
+
+^DataSheetActionDescription^Visa objekt med en data sheet<br/>format.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Utställning i datablad^DataSheetActionHeaderText^
+
+^DataWarning^Det maximala antalet objekt till processen är {0: d}. Klicka här för att filtrera resultatet.^DataWarning^
+
+^Date^Datum^Date^
+
+^DateFilterText^Datumfilter^DateFilterText^
+
+^DateIsExpected^Ett datum väntas.^DateIsExpected^
+
+^DatesAMinAgo^en minut sedan^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^om en minut^DatesInAMin^
+
+^DatesInHour^om en timme^DatesInHour^
+
+^DatesInMin^i {0} min^DatesInMin^
+
+^DatesLast^Sista^DatesLast^
+
+^DatesMinAgo^{0} Min sedan^DatesMinAgo^
+
+^DatesNext^Nästa^DatesNext^
+
+^DatesNow^nu^DatesNow^
+
+^DatesOneHour^en timme sedan^DatesOneHour^
+
+^DateSortAscending^Tidigast på Top^DateSortAscending^
+
+^DateSortDescending^Senaste överst^DateSortDescending^
+
+^DatesSmart^smarta Datum^DatesSmart^
+
+^DatesToday^i dag^DatesToday^
+
+^DatesTomorrow^i morgon^DatesTomorrow^
+
+^DatesYesterday^i går^DatesYesterday^
+
+^Day^Dag^Day^
+
+^DefaultCancelActionHeaderText^Stäng^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Fyll i formuläret och klicka på OK-knappen för att skapa en ny {0} rekord. Klicka på Avbryt för att återgå till föregående skärm.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^Dessa är de fält i {0} rekord som kan redigeras.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Läs {0} informationen nedan. Klicka på Redigera för att ändra denna post, klicka på Radera för att radera posten, eller klicka på Avbryt / Stäng för att återvända tillbaka.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Detta är en lista med {0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Fyll i formuläret. Se till att ange alla obligatoriska fält.^DefaultNewDescription^
+
+^DefaultOption^Standard^DefaultOption^
+
+^DefaultReferenceDescription^Ytterligare detaljer om {0} ges i referensinformation avsnittet.^DefaultReferenceDescription^
+
+^Delete^Radera^Delete^
+
+^DeleteActionConfirmation^Ta bort?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Radera^DeleteActionHeaderText^
+
+^Deleted^{$ selected} har tagits bort^Deleted^
+
+^DeleteOriginalSel^radera originalvalet^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Radera)^DeleteSearchBarField^
+
+^DetailsToolTip^Visa detaljer för {0}^DetailsToolTip^
+
+^DevelopExplorer^Project Explorer^DevelopExplorer^
+
+^DevelopFormLayout^Form Layout^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^Välj skärmstorlekar som ska ingå i layouten.^DevelopFormLayoutInstr^
+
+^DevelopTools^Utvecklarverktyg^DevelopTools^
+
+^Device^anordning^Device^
+
+^DeviceLoginPrompt^Logga in för att tillåta åtkomst på den här enheten.^DeviceLoginPrompt^
+
+^DidNotMatch^Matchade inte^DidNotMatch^
+
+^Directions^Avstånd^Directions^
+
+^DiscardChanges^Ignorera ändringar?^DiscardChanges^
+
+^DisplayDensity^Display Densitet^DisplayDensity^
+
+^DisplayedAbove^Visas ovanför^DisplayedAbove^
+
+^DisplayedBelow^Som visas nedan^DisplayedBelow^
+
+^Dock^Docka^Dock^
+
+^DoesNotBeginWith^Börjar inte med^DoesNotBeginWith^
+
+^DoesNotContain^Innehåller inte^DoesNotContain^
+
+^DoesNotEndWith^Slutar inte med^DoesNotEndWith^
+
+^DoesNotEqual^Inte är lika^DoesNotEqual^
+
+^DoesNotInclude^Inkluderar inte^DoesNotInclude^
+
+^DoNotMatchAll^Matchar inte alla villkor^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Matchade inte alla villkor^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Matchar inte några villkor^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Matchade inte några villkor^DoNotMatchAnyPastTense^
+
+^Download^Ladda ner^Download^
+
+^Draw^Dra^Draw^
+
+^DuplicateActionHeaderText^Duplicera^DuplicateActionHeaderText^
+
+^DuplicateItem^Duplicate Item^DuplicateItem^
+
+^DuplicateRow^Duplicera rad^DuplicateRow^
+
+^EditActionHeaderText^Redigera^EditActionHeaderText^
+
+^EditItem^Redigera artikel^EditItem^
+
+^EditModeCancelActionHeaderText^Avbryt^EditModeCancelActionHeaderText^
+
+^EditRow^Redigera rad^EditRow^
+
+^Empty^Tom^Empty^
+
+^EmptyContext^Åtgärder är inte tillgängliga.^EmptyContext^
+
+^EmptyValue^(Tom)^EmptyValue^
+
+^Enable^Gör det möjligt^Enable^
+
+^EndsWith^Slutar med^EndsWith^
+
+^Equals^Lika med^Equals^
+
+^Eraser^Suddgummi^Eraser^
+
+^Error^Fel^Error^
+
+^Exit^Utgång^Exit^
+
+^ExitFullscreen^Avsluta helskärm^ExitFullscreen^
+
+^ExportCsvActionDescription^Ladda ner poster i CSV-format.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Ladda ner^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Analysera objekt med spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Exportera till kalkylblad^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Prenumerera på objekt med en RSS-läsare.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^Visa RSS-flöde^ExportRssActionHeaderText^
+
+^Favorites^Favoriter^Favorites^
+
+^Felt^Filt^Felt^
+
+^FileCleared^Värdet rensas vid spara^FileCleared^
+
+^FilesBytes^bitgrupper^FilesBytes^
+
+^FilesClear^Klar^FilesClear^
+
+^FilesClearConfirm^Klart?^FilesClearConfirm^
+
+^FilesClick^Klicka för att välja en fil^FilesClick^
+
+^FilesClickMany^Klicka för att välja filer^FilesClickMany^
+
+^FilesDrop^Släpp en fil här^FilesDrop^
+
+^FilesDropMany^Släppa filer här^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Tryck för att välja en fil^FilesTap^
+
+^FilesTapMany^Tryck här för att välja filer^FilesTapMany^
+
+^Filter^Filtrera^Filter^
+
+^FilterApplied^Ett filter har tillämpats.^FilterApplied^
+
+^FilterByField^Välj ett fält för att tillämpa ett filter på <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Välj ett eller flera alternativ i listan nedan och tryck <b>{2}</b> att filtrera <b>{0}</b> av fältet <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Rensade alla filter.^FilterCleared^
+
+^FilterLabelAnd^och^FilterLabelAnd^
+
+^FilterLabelClear^Rensa^FilterLabelClear^
+
+^FilterLabelEquals^lika^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Ändra^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^innefattar^FilterLabelIncludes^
+
+^FilterLabelOr^eller^FilterLabelOr^
+
+^FilterLabelSelectAll^(Markera allt)^FilterLabelSelectAll^
+
+^FilterSiteMap^Filter sidkarta ...^FilterSiteMap^
+
+^Finish^Bli färdig^Finish^
+
+^FitToWidth^Anpassa till bredd^FitToWidth^
+
+^FlatTreeToggle^Växla till hierarki^FlatTreeToggle^
+
+^FontName^Font Name^FontName^
+
+^FontSize^FONTSTORLEK^FontSize^
+
+^ForeColor^Fore Färg^ForeColor^
+
+^Forget^Glömma^Forget^
+
+^ForgotYourPassword^Glömt ditt lösenord?^ForgotYourPassword^
+
+^Format^Formatera^Format^
+
+^Freeze^Freeze^Freeze^
+
+^From^från^From^
+
+^Fullscreen^Fullskärm^Fullscreen^
+
+^Future^Framtida^Future^
+
+^GeneralTabText^Allmänt^GeneralTabText^
+
+^Generate^Generera^Generate^
+
+^GenericNewToolTip^Skapa ny^GenericNewToolTip^
+
+^GenericSortAscending^Minsta på Top^GenericSortAscending^
+
+^GenericSortDescending^Största på Top^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Totalsummor^GrandTotals^
+
+^Granite^Granit^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Gravity^Gravity^
+
+^GreaterThan^Större än^GreaterThan^
+
+^GreateThanOrEqual^Större än eller lika^GreateThanOrEqual^
+
+^Grid^Rutnät^Grid^
+
+^GridActionDescription^Visa objekt i standard<br/>list format.^GridActionDescription^
+
+^GridActionHeaderText^Visa i standardvyn^GridActionHeaderText^
+
+^Group^Grupp^Group^
+
+^GroupByField^Välj ett fält för att gruppera <b>{0}</b>.^GroupByField^
+
+^Grouped^grupperade^Grouped^
+
+^GroupedBy^Grupperade efter^GroupedBy^
+
+^GroupedDefault^Gruppering har tagits bort^GroupedDefault^
+
+^Heading1^Rubrik 1^Heading1^
+
+^Heading2^Rubrik 2^Heading2^
+
+^Heading3^Rubrik 3^Heading3^
+
+^Heading4^Rubrik 4^Heading4^
+
+^Heading5^Rubrik 5^Heading5^
+
+^Heading6^Rubrik 6^Heading6^
+
+^Help^Hjälp^Help^
+
+^HelpClose^Stäng^HelpClose^
+
+^HelpFullScreen^Helskärm^HelpFullScreen^
+
+^Hide^Dölja^Hide^
+
+^HideAdvancedSearch^Göm Avancerad sökning^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Växla till platt lista^HierarchyTreeModeToggle^
+
+^Highlighter^Highlighter^Highlighter^
+
+^History^Historia^History^
+
+^HistoryToolTip^Visa historik av tidigare valda poster^HistoryToolTip^
+
+^HistoryUnavailable^Historien är inte tillgänglig.^HistoryUnavailable^
+
+^Home^Start^Home^
+
+^IdleUser^Är du fortfarande där? Logga in igen.^IdleUser^
+
+^ImportActionDescription^Ladda upp en CSV, XLS eller XLSX file<br/>to rekord import.^ImportActionDescription^
+
+^ImportActionHeaderText^Importera från fil^ImportActionHeaderText^
+
+^ImportAutoDetect^(Auto detect)^ImportAutoDetect^
+
+^ImportComplete^komplett^ImportComplete^
+
+^ImportDone^Genomförd import^ImportDone^
+
+^ImportDownloadTemplate^Ladda ner mall importfilen.^ImportDownloadTemplate^
+
+^ImportDuplicates^dubbletter^ImportDuplicates^
+
+^ImportEmail^Skicka import loggen till följande e-postadresser (frivilligt)^ImportEmail^
+
+^ImportEmailNotSpecified^Mottagare av import-loggen inte har specificerats. Fortsätt ändå?^ImportEmailNotSpecified^
+
+^ImportExpected^Förväntas slutföra^ImportExpected^
+
+^ImportFileStats^Det finns <b>{0}</b> poster i filen <b>{1}</b> redo att bearbetas. Vänligen matcha fältnamn.^ImportFileStats^
+
+^Importing^importera^Importing^
+
+^ImportMappingInstruction^Det finns <b>{0}</b> rad (er) i filen <b>{1}</b> redo att processed.<br/>Please kartan import fält från datafil till ansökan fälten och klicka <i>Import</i> att starta behandling.^ImportMappingInstruction^
+
+^ImportNotSupported^Data format &quot;{0}&quot; stöds inte.^ImportNotSupported^
+
+^ImportProcessing^Importera fil behandling har inletts. Den importerade dataposter kommer att bli tillgängliga på framgångsrik behandling. Du kan behöva uppdatera relevanta synpunkter / sidor för att se den importerade poster.^ImportProcessing^
+
+^ImportRemaining^Förväntas slutföra^ImportRemaining^
+
+^ImportSelectFile^Välj en datafil i CSV, XLS eller XLSX-format.^ImportSelectFile^
+
+^ImportStartButton^Importera^ImportStartButton^
+
+^ImportUploading^Din fil laddas upp till servern. Var god vänta ...^ImportUploading^
+
+^ImportUploadInstruction^Välj den fil att ladda upp. Filen måste vara i <b>CSV</b>, <b>XLS</b> eller <b>XLSX</b> format.^ImportUploadInstruction^
+
+^In^i^In^
+
+^Includes^Innehåller^Includes^
+
+^Indent^Indrag^Indent^
+
+^InfoBarAnd^och^InfoBarAnd^
+
+^InfoBarEmpty^tom^InfoBarEmpty^
+
+^InfoBarEqualTo^är lika med^InfoBarEqualTo^
+
+^InfoBarGreaterThan^är större än^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^är större än eller lika med^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^är mindre än^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^är mindre än eller lika med^InfoBarLessThanOrEqual^
+
+^InfoBarLike^är som^InfoBarLike^
+
+^InfoBarOr^eller^InfoBarOr^
+
+^InfoBarQuickFind^Varje fält innehåller^InfoBarQuickFind^
+
+^InfoBarStartsWith^börjar med^InfoBarStartsWith^
+
+^InitialListMode^Initial Listläge^InitialListMode^
+
+^InlineEditing^Inline redigering^InlineEditing^
+
+^InsertActionHeaderText^OK^InsertActionHeaderText^
+
+^InsertHorizontalRule^Infoga vågrät linje^InsertHorizontalRule^
+
+^InsertingRecords^insättning av poster^InsertingRecords^
+
+^InsertOrderedList^Infoga sorterad lista^InsertOrderedList^
+
+^InsertUnorderedList^Infoga osorterad lista^InsertUnorderedList^
+
+^Into^in i^Into^
+
+^InvalidUserNameAndPassword^Ditt användarnamn och lösenord är inte giltigt.^InvalidUserNameAndPassword^
+
+^Italic^Kursiv^Italic^
+
+^ItemsPerPage^Artiklar per sida:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} poster som valts^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Post vald^ItemsSelectedOne^
+
+^JustDatesNow^Precis nu^JustDatesNow^
+
+^JustifyCenter^Marginaljustera Center^JustifyCenter^
+
+^JustifyFull^Marginaljustera Full^JustifyFull^
+
+^JustifyLeft^Motivera Vänster^JustifyLeft^
+
+^JustifyRight^Marginaljustera Höger^JustifyRight^
+
+^KeepOriginalSel^behålla originalvalet^KeepOriginalSel^
+
+^LabelsInList^Etiketter i List^LabelsInList^
+
+^Lacquer^Lack^Lacquer^
+
+^Laminate^Laminat^Laminate^
+
+^Landscape^Liggande^Landscape^
+
+^Large^Stor^Large^
+
+^LastMonth^Senaste månaden^LastMonth^
+
+^LastQuarter^Sista kvartalet^LastQuarter^
+
+^LastWeek^Senaste veckan^LastWeek^
+
+^LastYear^Senaste året^LastYear^
+
+^Less^Mindre^Less^
+
+^LessThan^Mindre än^LessThan^
+
+^LessThanOrEqual^Mindre än eller lika^LessThanOrEqual^
+
+^Lichen^Lichen^Lichen^
+
+^LightTheme^Ljus^LightTheme^
+
+^Line^Linje^Line^
+
+^List^Förteckning^List^
+
+^ListOneColumn^List (en kolumn)^ListOneColumn^
+
+^ListViewStyle^Lista^ListViewStyle^
+
+^Loading^Laddar ...^Loading^
+
+^Logical^Logisk^Logical^
+
+^LoginButton^Inloggning^LoginButton^
+
+^LoginLink^Inloggning^LoginLink^
+
+^Logout^Logga ut^Logout^
+
+^LookupInstruction^Välj <b>{0}</b> i listan.^LookupInstruction^
+
+^LookupOriginalSelection^Det ursprungliga urvalet är <b>&quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^Hantera konton^ManageAccounts^
+
+^Map^Map^Map^
+
+^MatchAll^Matcha alla villkor^MatchAll^
+
+^MatchAllPastTense^Matchade alla villkor^MatchAllPastTense^
+
+^MatchAny^Matcha något villkor^MatchAny^
+
+^MatchAnyPastTense^Matchade några villkor^MatchAnyPastTense^
+
+^Matched^Matchade^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Max {0}^MaxAggregateToolTip^
+
+^Maximize^Expandera^Maximize^
+
+^MaximumOf^Max^MaximumOf^
+
+^Medium^Medium^Medium^
+
+^Menu^Meny^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^Minst {0}^MinAggregateToolTip^
+
+^Minimize^Komprimera^Minimize^
+
+^MinimumOf^Minst^MinimumOf^
+
+^Mission^Mission^Mission^
+
+^ModeBrowsing^Bläddring^ModeBrowsing^
+
+^ModeEditing^Redigering^ModeEditing^
+
+^ModeEntering^Inmatning^ModeEntering^
+
+^ModeLookup^söka^ModeLookup^
+
+^Modern^Modern^Modern^
+
+^ModernRose^Modern Rose^ModernRose^
+
+^ModeViewing^Visning^ModeViewing^
+
+^Month^Månad^Month^
+
+^More^Mer^More^
+
+^MultiSelection^multi Selection^MultiSelection^
+
+^Municipal^Municipal^Municipal^
+
+^MyAccount^Mitt Konto^MyAccount^
+
+^Never^Aldrig^Never^
+
+^NewActionHeaderText^Nya^NewActionHeaderText^
+
+^NewItem^Nytt föremål^NewItem^
+
+^NewRow^Ny rad^NewRow^
+
+^NewRowLink^Klicka här för att skapa en ny post.^NewRowLink^
+
+^NewToolTip^Nya {0}^NewToolTip^
+
+^Next^Nästa^Next^
+
+^Next2^Nästa^Next2^
+
+^NextMonth^Nästa månad^NextMonth^
+
+^NextQuarter^Nästa kvartal^NextQuarter^
+
+^NextWeek^Nästa vecka^NextWeek^
+
+^NextYear^Nästa år^NextYear^
+
+^No^Inga^No^
+
+^NoMatches^Inga träffar.^NoMatches^
+
+^None^Ingen^None^
+
+^Noon^Middag^Noon^
+
+^NoRecords^Inga poster hittades.^NoRecords^
+
+^NoteDeleteConfirm^Ta bort?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^ta bort^NoteDeleteLabel^
+
+^NoteEditLabel^redigera^NoteEditLabel^
+
+^NotEmpty^Inte Tom^NotEmpty^
+
+^NotMatched^(Som inte motsvaras)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^Nummer^Number^
+
+^NumberFilterText^Antal filter^NumberFilterText^
+
+^NumberIsExpected^Ett antal förväntas.^NumberIsExpected^
+
+^OdpCommitting^Laddar upp transaktioner ...^OdpCommitting^
+
+^OdpDone^Gjort.^OdpDone^
+
+^OdpDownloadingBlob^Nedladdning av binära data för {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^Nedladdning av data för {0}...^OdpDownloadingData^
+
+^OdpInitializing^Initierar ...^OdpInitializing^
+
+^OdpInvalidResponse^Ogiltigt svar från servern.^OdpInvalidResponse^
+
+^OdpLastRefresh^Senaste uppdatering: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Data har inte uppdaterats.^OdpNotRefreshed^
+
+^OdpOfflineState^Du arbetar i offline-läge.^OdpOfflineState^
+
+^OdpOnlineRequired^Online-anslutning krävs.^OdpOnlineRequired^
+
+^OdpPending^Väntande ändringar^OdpPending^
+
+^OdpReconRequired^Avstämning krävs^OdpReconRequired^
+
+^OdpReconTxDelete^Radera den här ändringen från loggen?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^Raderade första väntande transaktion i loggen.^OdpReconTxDeleted^
+
+^OdpRefresh^Uppdatera data^OdpRefresh^
+
+^OdpRefreshData^Uppdatera data^OdpRefreshData^
+
+^OdpRefreshLast^Uppdaterad data^OdpRefreshLast^
+
+^OdpSave^Spara alla ändringar.^OdpSave^
+
+^OdpSaveAndSync^Spara alla ändringar och välj Synkroniseringsalternativ i snabbmenyn.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Applikationsservern är inte tillgänglig.^OdpServerUnavailable^
+
+^OdpStatus^Status^OdpStatus^
+
+^OdpSync^Synkronisera^OdpSync^
+
+^OdpSynced^synkroniserad^OdpSynced^
+
+^OdpSyncLast^Senaste synk^OdpSyncLast^
+
+^OdpSyncLong^Synkronisera för att ladda upp ändringar.^OdpSyncLong^
+
+^OdpSyncUploadFailed^Det gick inte att ladda upp {0} filer.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Laddar upp {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Det går inte att radera. {1} beroende artiklar i {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Oförmögen att utföra.^OdpUnableToExec^
+
+^OdpUnableToProcess^Det går inte att behandla transaktioner.^OdpUnableToProcess^
+
+^OdpUnableToSave^Det går inte att spara ändringar.^OdpUnableToSave^
+
+^OdpUploadFailed^Det gick inte att ladda upp filer.^OdpUploadFailed^
+
+^OdpUploadingFiles^Laddar upp {0} filer ...^OdpUploadingFiles^
+
+^OK^OK^OK^
+
+^OnHover^på hovring^OnHover^
+
+^OnOrAfter^På eller efter^OnOrAfter^
+
+^OnOrBefore^På eller Före^OnOrBefore^
+
+^OpenActionHeaderText^Öppet^OpenActionHeaderText^
+
+^Optional^Frivillig^Optional^
+
+^Orientation^Orientering^Orientation^
+
+^Other^Annat^Other^
+
+^Outdent^Minska indrag^Outdent^
+
+^Page^Sidan^Page^
+
+^Paragraph^Paragraf^Paragraph^
+
+^Password^Lösenord^Password^
+
+^Past^Tidigare^Past^
+
+^Paste^Klistra^Paste^
+
+^Pen^Penna^Pen^
+
+^PerformAdvancedSearch^Sök^PerformAdvancedSearch^
+
+^Permalink^Permalink^Permalink^
+
+^PermalinkToolTip^Skapa en permanent länk för vald post^PermalinkToolTip^
+
+^PermalinkUnavailable^Permalänk är inte tillgänglig. Välj ett rekord.^PermalinkUnavailable^
+
+^Petal^Petal^Petal^
+
+^Pinnate^PARBLADIG^Pinnate^
+
+^Plastic^Plast^Plastic^
+
+^Portrait^Porträtt^Portrait^
+
+^PresentationStyle^Välj en datapresentationsstil.^PresentationStyle^
+
+^Prev2^Föregående^Prev2^
+
+^Previous^Föregående^Previous^
+
+^PromoteActions^Främja åtgärder^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^Quarter^Quarter^
+
+^Quarter1^Kvartal 1^Quarter1^
+
+^Quarter2^Kvartal 2^Quarter2^
+
+^Quarter3^Kvartal 3^Quarter3^
+
+^Quarter4^Kvartal 4^Quarter4^
+
+^QuickFindDescription^Sök i {0}^QuickFindDescription^
+
+^QuickFindScope^Sök i ...^QuickFindScope^
+
+^QuickFindText^Sök^QuickFindText^
+
+^QuickFindToolTip^Skriv för att söka i register och tryck på Enter^QuickFindToolTip^
+
+^Quotation^Citat^Quotation^
+
+^Reading^Läsning...^Reading^
+
+^ReadingPane^Läsruta^ReadingPane^
+
+^ReadOnly^{0} är skrivskyddad.^ReadOnly^
+
+^Recent^Senaste^Recent^
+
+^Redo^Gör om^Redo^
+
+^Refresh^Uppdatera^Refresh^
+
+^Refreshed^uppdateras^Refreshed^
+
+^RememberMe^Kom ihåg mig nästa gång^RememberMe^
+
+^RemoveCondition^Ta bort skick^RemoveCondition^
+
+^RemoveFormat^Radera formatering^RemoveFormat^
+
+^ReportActionDescription^Avge en rapport i PDF-format^ReportActionDescription^
+
+^ReportActionHeaderText^Rapport^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Visa objekt i en formatted<br/>Microsoft Excel.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Kalkylblad^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Visa objekt som en flersidig TIFF-bild.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Flersidiga Bild^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Visa objekt som Adobe PDF document.<br/>Requires en kompatibel läsare.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^PDF-dokument^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Visa objekt i en formatted<br/>Microsoft Word-dokument.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Krävs^Required^
+
+^RequiredField^Detta fält är obligatoriskt.^RequiredField^
+
+^RequiredFiledMarkerFootNote^anger ett obligatoriskt fält^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Återställ^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Återställ sökvillkor?^ResetSearchConfirm^
+
+^ResolvingReferences^lösa referenser^ResolvingReferences^
+
+^ResumeBrowsing^Resume Browsing^ResumeBrowsing^
+
+^ResumeEditing^Återuppta redigering^ResumeEditing^
+
+^ResumeEntering^Återuppta Skriva^ResumeEntering^
+
+^ResumeLookup^Återuppta Lookup^ResumeLookup^
+
+^ResumeViewing^Återuppta visning^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Roller^RolesTab^
+
+^RootNodeText^Toppnivå^RootNodeText^
+
+^Rotate^Rotera^Rotate^
+
+^RowCancelActionHeaderText^Avbryt^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Sätt^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Spara^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Update?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Uppdatera markering^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Spara^Save^
+
+^SaveAndContinue^Spara och fortsätt^SaveAndContinue^
+
+^SaveAndNew^Spara och Nya^SaveAndNew^
+
+^Saved^Sparat - {0}^Saved^
+
+^ScanToConfirm^Skanna igen för att bekräfta.^ScanToConfirm^
+
+^SeeAll^Se alla^SeeAll^
+
+^SeeAlso^Se även^SeeAlso^
+
+^SelectActionHeaderText^Välj^SelectActionHeaderText^
+
+^SelectAll^Markera alla^SelectAll^
+
+^SelectItem^Välj föremål^SelectItem^
+
+^SelectLink^(Välj)^SelectLink^
+
+^SelectRow^Välj rad^SelectRow^
+
+^SelectToolTip^Välj {0}^SelectToolTip^
+
+^Separator^Separator^Separator^
+
+^Settings^Inställningar^Settings^
+
+^Show^Show^Show^
+
+^ShowAdvancedSearch^Visa Avancerad sökning^ShowAdvancedSearch^
+
+^ShowChart^Visa diagram^ShowChart^
+
+^ShowData^Visa data^ShowData^
+
+^ShowingItems^Visar <b>{0}</b>-<b>{1}</b> på <b>{2}</b> objekt^ShowingItems^
+
+^ShowingItemsInfo^Visar {0} föremål.^ShowingItemsInfo^
+
+^ShowingItemsRange^Visar {0} av {1} objekt^ShowingItemsRange^
+
+^ShowLess^Visa mindre^ShowLess^
+
+^ShowMore^Visa mer^ShowMore^
+
+^ShowOptions^Visa alternativ^ShowOptions^
+
+^ShowSystemButtons^Visa System Knappar^ShowSystemButtons^
+
+^Sidebar^Sidolist^Sidebar^
+
+^Sign^Registrera här^Sign^
+
+^SignedOut^Utloggad^SignedOut^
+
+^SignUpNow^Anmäl dig nu^SignUpNow^
+
+^Simple^Enkel^Simple^
+
+^SiteActions^Webbplatsåtgärder^SiteActions^
+
+^SizeLabel^Storlek^SizeLabel^
+
+^Small^Liten^Small^
+
+^Social^Social^Social^
+
+^Sort^Sortera^Sort^
+
+^SortBy^Sortera efter {0}^SortBy^
+
+^SortByField^Välj ett fält för att ändra sorteringsordning <b>{0}</b>.^SortByField^
+
+^SortByOptions^Välj sorteringsordning för <b>{0}</b> genom fältet <b>{1}</b> i listan med alternativ nedan.^SortByOptions^
+
+^Sorted^Sorterad^Sorted^
+
+^SortedDefault^Standard sorteringsordning.^SortedDefault^
+
+^StartImport^Start Import^StartImport^
+
+^StrikeThrough^Genomstryka^StrikeThrough^
+
+^StringSortAscending^Stigande^StringSortAscending^
+
+^StringSortDescending^Fallande^StringSortDescending^
+
+^Submit^Lämna^Submit^
+
+^Subscript^Sub Script^Subscript^
+
+^Suggestions^Förslag^Suggestions^
+
+^SumAggregate^Summa: {0}^SumAggregate^
+
+^SumAggregateToolTip^Summan av {0}^SumAggregateToolTip^
+
+^Summary^Sammanfattning^Summary^
+
+^Summer^Sommar^Summer^
+
+^SumOf^Summan av^SumOf^
+
+^Superscript^Super Script^Superscript^
+
+^Sync^Synkronisera^Sync^
+
+^TaskResume^Fortsätta^TaskResume^
+
+^Tasks^Uppgifter^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^abc^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^W x y z^TelHints9^
+
+^TestingRecords^testnings register^TestingRecords^
+
+^Text^Text^Text^
+
+^TextFilterText^Text Filter^TextFilterText^
+
+^Theme^Tema^Theme^
+
+^ThisMonth^Den här månaden^ThisMonth^
+
+^ThisQuarter^Detta kvartal^ThisQuarter^
+
+^ThisWeek^Den här veckan^ThisWeek^
+
+^ThisYear^Detta år^ThisYear^
+
+^Tiny^Mycket liten^Tiny^
+
+^Today^I dag^Today^
+
+^Tomorrow^I morgon^Tomorrow^
+
+^Top^topp^Top^
+
+^ToThisWebsite^till denna webbplats^ToThisWebsite^
+
+^TouchUINotSupported^Touch UI stöds inte i den här webbläsaren.^TouchUINotSupported^
+
+^TransitionFade^Fade^TransitionFade^
+
+^TransitionFlip^Flip^TransitionFlip^
+
+^TransitionFlow^Flöde^TransitionFlow^
+
+^TransitionNone^Inget^TransitionNone^
+
+^TransitionPop^Pop^TransitionPop^
+
+^Transitions^Transitions^Transitions^
+
+^TransitionSlide^Slide^TransitionSlide^
+
+^TransitionSlideDown^Skjut ner^TransitionSlideDown^
+
+^TransitionSlideUp^Skjut upp^TransitionSlideUp^
+
+^TransitionTurn^Sväng^TransitionTurn^
+
+^TreeActionDescription^Visa hierarkiska relationer.^TreeActionDescription^
+
+^TreeActionHeaderText^Visa Hierarki^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Få verifieringskod^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Authenticator App^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Om du inte kan ange verifieringskoden anger du säkerhetskopieringskoden istället.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^engångskod^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Säkerhetskopieringskod^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Samtalet gjordes till^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^E -post skickades till^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^SMS skickades till^TwoFaCodeSentSms^
+
+^TwoFaConsent^Samtycke^TwoFaConsent^
+
+^TwoFaEnterPassword^Ange ditt lösenord^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Ring mig på^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^Jag ringer^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^Maila mig till^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^Skicka ett sms till mig^TwoFaGetCodeSms^
+
+^TwoFaMethod^Metod^TwoFaMethod^
+
+^TwoFaMsgChanged^Tvåfaktorsautentisering har ändrats.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^Tvåfaktorsautentisering har inaktiverats.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Inaktivera tvåfaktorautentisering?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^Tvåfaktorsautentisering har aktiverats.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Ange den {0} siffriga verifieringskoden.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Felaktigt lösenord.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Ogiltig verifieringskod.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 är din {0} verifieringskod.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^Jag kan inte skanna QR -koden.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Jag behöver hjälp med att installera autentiseringsapp.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Jag har en autentiseringsapp på en mobil enhet.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^Engångskoderna för säkerhetskopiering låter dig logga in om du inte kan tillhandahålla en verifieringskod.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Säkerhetskopieringskoder^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Jag kommer att ange en verifieringskod efter den lyckade inloggningen.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Ange installationsnyckeln i appen^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Verifieringsmetoder^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Skanna QR -koden med kameran^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Skanna QR -koden i appen^TwoFaSetupScanQrCode^
+
+^TwoFaText^2-faktor autentisering^TwoFaText^
+
+^TwoFaTrustThisDevice^Lita på den här enheten^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Verifierings kod^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Jag kommer att använda en autentiseringsapp för att få verifieringskoden.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Jag får ett automatiskt samtal på min telefon.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Verifieringskoden levereras via e -post.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Verifieringskoden levereras via sms.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Skriv till Sök^TypeToSearch^
+
+^Underline^Understruken^Underline^
+
+^Undo^Ångra^Undo^
+
+^Undock^Dockar^Undock^
+
+^Unfreeze^Lås upp^Unfreeze^
+
+^UnGrouped^Gruppering har tagits bort^UnGrouped^
+
+^UnLink^Ta bort länk^UnLink^
+
+^UnSelect^Avmarkera^UnSelect^
+
+^UpdateActionHeaderText^OK^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Update?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Uppdatera markering^UpdateActionInBatchModeHeaderText^
+
+^Upload^Ladda upp^Upload^
+
+^UploadDescription^Ladda upp flera filer.^UploadDescription^
+
+^Uploading^Laddar upp {0}...^Uploading^
+
+^UpOneLevel^Upp en nivå^UpOneLevel^
+
+^UseLEV^Klistra "{0}"^UseLEV^
+
+^UserName^Användarnamn^UserName^
+
+^UsersInRole^Användare i Role^UsersInRole^
+
+^UsersTab^Användare^UsersTab^
+
+^Vantage^Vantage^Vantage^
+
+^Verdant^Verdant^Verdant^
+
+^Verify^Kontrollera^Verify^
+
+^View^Visa^View^
+
+^Viewpoint^Utsiktsplats^Viewpoint^
+
+^Wait^Vänta...^Wait^
+
+^Week^Vecka^Week^
+
+^Welcome1^Välkommen^Welcome1^
+
+^Welcome2^Idag är^Welcome2^
+
+^WhiteSmoke^White Smoke^WhiteSmoke^
+
+^WithSelectedValues10^Med valda värden (topp 10)^WithSelectedValues10^
+
+^WithSelectedValues5^Med valda värden (topp 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^Med angivna filter^WithSpecifiedFilters^
+
+^Year^År^Year^
+
+^YearToDate^Hittills i år^YearToDate^
+
+^Yes^Ja^Yes^
+
+^Yesterday^I går^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Zooma in^ZoomIn^
+
+^ZoomOut^Zooma ut^ZoomOut^
+

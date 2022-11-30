@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Administrateur rekening^AdminDesc^
+
+^SignInHeader^Instruksies^SignInHeader^
+
+^SignInInstruction^Teken in om toegang te verkry tot die beskermde inhoud van die webtuiste.^SignInInstruction^
+
+^SignInPara1^Twee standaard gebruiker rekeninge word outomaties geskep wanneer die aansoek is geïnisialiseer nie, indien lidmaatskap opsie gekies is vir hierdie program.^SignInPara1^
+
+^SignInPara2^Die administratiewe rekening <b>admin</b> gemagtig is om toegang te verkry tot alle gebiede van die webwerf en lidmaatskap bestuurder. Die standaard <b>user</b> rekening is toegelaat om toegang te verkry tot alle gebiede van die webwerf met die uitsondering van lidmaatskap bestuurder.^SignInPara2^
+
+^SignInPara3^Beweeg die muis oor die skakel <i>Login aan hierdie web site</i> op die regterkant by die bokant van die bladsy en teken in een van die rekeninge wat hieronder gelys.^SignInPara3^
+
+^UserDesc^Standard rekening^UserDesc^
+

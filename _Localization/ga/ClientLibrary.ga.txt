@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Eolas^About^
+
+^Accent^accent^Accent^
+
+^ActionBarActionsHeaderText^Gníomhartha^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Cealaigh^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Cealaigh na hathruithe go léir a thaifeadadh.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Cealaigh taifead nua.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Sábháil taifead nua leis an mbunachar sonraí.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Sábháil^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Cruthaigh cuntas nua {0}.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^Nua {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Nua^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Taifead^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Tuarascáil^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Sábháil athruithe ar an mbunachar sonraí.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Sábháil^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Cuir Cuntas^AddAccount^
+
+^AddCondition^Cuir Coinníoll^AddCondition^
+
+^AddConditionText^Cuir coinníoll cuardaigh^AddConditionText^
+
+^AddItem^Cuir Mír^AddItem^
+
+^AddMatchingGroup^Cuir grúpa meaitseáil^AddMatchingGroup^
+
+^AddSearchBarField^Réimsí Cuardaigh níos^AddSearchBarField^
+
+^AddSystemIdentity^Cuir Córas Aitheantais^AddSystemIdentity^
+
+^AddToFavorites^Add to Favorites^AddToFavorites^
+
+^AdvancedSearch^Cuardach Casta^AdvancedSearch^
+
+^AdvancedSearchInstruction^Cuir isteach coinníollacha nach mór a mheaitseáil agus cnaipe cuardaigh preasa.^AdvancedSearchInstruction^
+
+^After^Tar éis^After^
+
+^Agenda^Clár Oibre^Agenda^
+
+^AlignedLeft^Ailínithe Chlé^AlignedLeft^
+
+^AlignedRight^Ailínithe Ceart^AlignedRight^
+
+^AllDatesInPreriod^Gach Dátaí sa Tréimhse^AllDatesInPreriod^
+
+^AlternativeView^Roghnaigh dearcadh eile ar sonraí.^AlternativeView^
+
+^Always^I gcónaí^Always^
+
+^AnyValue^(Ar bith)^AnyValue^
+
+^Apply^Iarratas a dhéanamh^Apply^
+
+^Apps^apps^Apps^
+
+^Aquarium^Aquarium^Aquarium^
+
+^Auto^Auto^Auto^
+
+^AutoOpenNextItem^Auto-oscailt an chéad mhír eile^AutoOpenNextItem^
+
+^AverageOf^Meán de^AverageOf^
+
+^AvgAggregate^Meánlíon: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Meán-{0}^AvgAggregateToolTip^
+
+^Azure^Azure^Azure^
+
+^Back^Ar ais^Back^
+
+^BackColor^Dath Ar ais^BackColor^
+
+^BatchEditActionHeaderText^Cuir Baisc^BatchEditActionHeaderText^
+
+^BatchEdited^{0} cothrom le dáta^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Baisc Edit (Foirm)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^thabhairt cothrom le dáta^BatchUpdate^
+
+^Before^Roimh^Before^
+
+^BeginsWith^Tosaíonn Leis^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^Berry^Berry^
+
+^Between^Idir^Between^
+
+^Bittersweet^Bittersweet^Bittersweet^
+
+^Blank^Blank^Blank^
+
+^BlankPassword^Ní féidir Pasfhocal a bheith folamh.^BlankPassword^
+
+^BlankUserName^Ní féidir ainm úsáideora a bheith folamh.^BlankUserName^
+
+^BlankValue^(Bán)^BlankValue^
+
+^BlobDownloadHint^Cliceáil anseo chun an comhad bunaidh.^BlobDownloadHint^
+
+^BlobDownloadLink^íoslódáil^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Téigh íomhá chun an comhad bunaidh a íoslódáil.^BlobDownloadOriginalHint^
+
+^Blur^Doiléirigh^Blur^
+
+^Bold^Bold^Bold^
+
+^BooleanFilterText^Scagairí Loighciúil^BooleanFilterText^
+
+^BooleanIsExpected^Tá luach loighciúil ag súil leis.^BooleanIsExpected^
+
+^ButtonShapes^Cruthanna na cnaipí^ButtonShapes^
+
+^By^ag^By^
+
+^Calendar^Féilire^Calendar^
+
+^Cancel^Cealaigh^Cancel^
+
+^Cards^Cártaí^Cards^
+
+^Cay^Cay^Cay^
+
+^ChangeYourLanguage^Athraigh do theanga^ChangeYourLanguage^
+
+^Charts^Charts^Charts^
+
+^Citrus^Citris^Citrus^
+
+^Classic^Classic^Classic^
+
+^ClearFilter^Scagaire soiléir ó {0}^ClearFilter^
+
+^ClearFilter2^Scagaire Clear^ClearFilter2^
+
+^ClearText^Téacs Glan^ClearText^
+
+^ClearToolTip^{0} Glan^ClearToolTip^
+
+^Close^Dún^Close^
+
+^Comfortable^Compordach^Comfortable^
+
+^Compact^Dlúth^Compact^
+
+^Condensed^Chomhdhlúite^Condensed^
+
+^ConfirmContinue^Leanúint ar aghaidh?^ConfirmContinue^
+
+^ConfirmReload^Athnuaigh?^ConfirmReload^
+
+^ConnectionLost^Tá an nasc líonra a bheith caillte. Déan iarracht eile?^ConnectionLost^
+
+^Construct^Tógáil^Construct^
+
+^Contains^Tá^Contains^
+
+^Convention^Coinbhinsiún^Convention^
+
+^Copy^Cóipeáil^Copy^
+
+^CountAggregate^Líon: {0}^CountAggregate^
+
+^CountAggregateToolTip^Líon na {0}^CountAggregateToolTip^
+
+^CountOf^Líon na^CountOf^
+
+^CreateLink^Cruthaigh Nasc^CreateLink^
+
+^CustomFilterOption^Scagaire ...^CustomFilterOption^
+
+^Cut^Gearr^Cut^
+
+^DarkKnight^Dark Knight^DarkKnight^
+
+^DarkTheme^Dark^DarkTheme^
+
+^DataSheetActionDescription^Taispeáin míreanna ag baint úsáide as sheet<br/>format sonraí.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Taispeáin i Bileog Sonraí^DataSheetActionHeaderText^
+
+^DataWarning^Is é uasmhéid na míreanna a phróiseas {0: d}. Cliceáil anseo chun scagadh ar an toradh.^DataWarning^
+
+^Date^Dáta^Date^
+
+^DateFilterText^Scagairí Dáta^DateFilterText^
+
+^DateIsExpected^Tá súil le dáta.^DateIsExpected^
+
+^DatesAMinAgo^nóiméad ó shin^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^i nóiméad^DatesInAMin^
+
+^DatesInHour^i uair an chloig^DatesInHour^
+
+^DatesInMin^i min {0}^DatesInMin^
+
+^DatesLast^Last^DatesLast^
+
+^DatesMinAgo^{0} Min shin^DatesMinAgo^
+
+^DatesNext^Ar Aghaidh^DatesNext^
+
+^DatesNow^anois^DatesNow^
+
+^DatesOneHour^uair an chloig ó shin^DatesOneHour^
+
+^DateSortAscending^Ceann is luaithe ar Barr^DateSortAscending^
+
+^DateSortDescending^Is déanaí ar an Barr^DateSortDescending^
+
+^DatesSmart^Dátaí cliste^DatesSmart^
+
+^DatesToday^inniu^DatesToday^
+
+^DatesTomorrow^amárach^DatesTomorrow^
+
+^DatesYesterday^inné^DatesYesterday^
+
+^Day^Lá^Day^
+
+^DefaultCancelActionHeaderText^Dún^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Comhlánaigh an fhoirm seo agus cnaipe OK taifead a chruthú cliceáil {0} nua. Cliceáil Cealaigh chun filleadh ar an scáileán roimhe sin.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^Seo iad na réimsí an taifid {0} is féidir a chur in eagar.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Tabhair faoi athbhreithniú {0} t-eolas thíos. Cliceáil Athraigh an taifead seo a athrú, cliceáil ar Scrios an taifead a scriosadh, nó cliceáil Cealaigh / Dún chun filleadh ar ais.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Seo liosta de {0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Comhlánaigh an fhoirm. Bí cinnte chun dul isteach gach réimsí riachtanacha.^DefaultNewDescription^
+
+^DefaultOption^Réamhshocrú^DefaultOption^
+
+^DefaultReferenceDescription^Sonraí breise faoi {0} ar fáil sa roinn d&#39;fhaisnéis tagartha.^DefaultReferenceDescription^
+
+^Delete^Scrios^Delete^
+
+^DeleteActionConfirmation^Scrios?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Scrios^DeleteActionHeaderText^
+
+^Deleted^{$ roghnaithe} scriosadh^Deleted^
+
+^DeleteOriginalSel^scriosadh an roghnú bunaidh^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Scrios)^DeleteSearchBarField^
+
+^DetailsToolTip^Féach ar shonraí do {0}^DetailsToolTip^
+
+^DevelopExplorer^Tionscadal Explorer^DevelopExplorer^
+
+^DevelopFormLayout^foirm Leagan Amach^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^méideanna scáileán Roghnaigh le cur san áireamh sa leagan amach.^DevelopFormLayoutInstr^
+
+^DevelopTools^Uirlisí d&#39;Fhorbróirí^DevelopTools^
+
+^Device^gléas^Device^
+
+^DeviceLoginPrompt^Logáil isteach chun rochtain a údarú ar an bhfeiste seo.^DeviceLoginPrompt^
+
+^DidNotMatch^Ní raibh a mheaitseáil^DidNotMatch^
+
+^Directions^Treoracha^Directions^
+
+^DiscardChanges^athruithe Caith amach?^DiscardChanges^
+
+^DisplayDensity^Taispeáin Dlús^DisplayDensity^
+
+^DisplayedAbove^Taispeáint Thuas^DisplayedAbove^
+
+^DisplayedBelow^Taispeáint thíos^DisplayedBelow^
+
+^Dock^Ceangal^Dock^
+
+^DoesNotBeginWith^An bhfuil Gan Tosaigh Leis^DoesNotBeginWith^
+
+^DoesNotContain^Níl^DoesNotContain^
+
+^DoesNotEndWith^An bhfuil Gan Deireadh Leis^DoesNotEndWith^
+
+^DoesNotEqual^An bhfuil Gan Comhionann^DoesNotEqual^
+
+^DoesNotInclude^Ní fholaíonn^DoesNotInclude^
+
+^DoNotMatchAll^Ná mheaitseáil na coinníollacha go léir^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Ní raibh a mheaitseáil gach coinníoll^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Ná mheaitseáil aon choinníollacha^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Ní raibh a mheaitseáil aon choinníollacha^DoNotMatchAnyPastTense^
+
+^Download^íoslódáil^Download^
+
+^Draw^Tarraing^Draw^
+
+^DuplicateActionHeaderText^Dúblach^DuplicateActionHeaderText^
+
+^DuplicateItem^Mír Dhúbailte^DuplicateItem^
+
+^DuplicateRow^Ró Dúblach^DuplicateRow^
+
+^EditActionHeaderText^Edit^EditActionHeaderText^
+
+^EditItem^Eagraigh Mír^EditItem^
+
+^EditModeCancelActionHeaderText^Cealaigh^EditModeCancelActionHeaderText^
+
+^EditRow^Edit Row^EditRow^
+
+^Empty^Folamh^Empty^
+
+^EmptyContext^Níl Gníomhartha ar fáil.^EmptyContext^
+
+^EmptyValue^(Folamh)^EmptyValue^
+
+^Enable^Cumasaigh^Enable^
+
+^EndsWith^Críoch Leis^EndsWith^
+
+^Equals^Chomhionannais^Equals^
+
+^Eraser^Scriosán^Eraser^
+
+^Error^earráid^Error^
+
+^Exit^An slí amach^Exit^
+
+^ExitFullscreen^Lánscáileáin scoir^ExitFullscreen^
+
+^ExportCsvActionDescription^Íosluchtaigh míreanna seo i bhformáid CSV.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Íosluchtaigh^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Anailís a dhéanamh ar nithe a bhfuil spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^A onnmhairiú go dtí Scarbhileog^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Míreanna Sindeacáit le léitheoir RSS.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^Féach RSS Feed^ExportRssActionHeaderText^
+
+^Favorites^Ceanáin^Favorites^
+
+^Felt^Feilt^Felt^
+
+^FileCleared^Glanfar an luach ach amháin^FileCleared^
+
+^FilesBytes^beart^FilesBytes^
+
+^FilesClear^Geal^FilesClear^
+
+^FilesClearConfirm^Soiléir?^FilesClearConfirm^
+
+^FilesClick^Cliceáil comhad a roghnú^FilesClick^
+
+^FilesClickMany^Cliceáil chun comhaid a roghnú^FilesClickMany^
+
+^FilesDrop^Buail comhad anseo^FilesDrop^
+
+^FilesDropMany^Comhaid Buail anseo^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Beartaíonn comhad a roghnú^FilesTap^
+
+^FilesTapMany^Beartaíonn chun comhaid a roghnú^FilesTapMany^
+
+^Filter^Scagaire^Filter^
+
+^FilterApplied^Tá scagaire curtha i bhfeidhm.^FilterApplied^
+
+^FilterByField^Roghnaigh réimse a chur i bhfeidhm scagaire le <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Roghnaigh roghanna ceann amháin nó níos mó sa liosta thíos agus brúigh <b>{2}</b> a scagadh <b>{0}</b> an réimse <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Gach scagairí glanta.^FilterCleared^
+
+^FilterLabelAnd^agus^FilterLabelAnd^
+
+^FilterLabelClear^Glan^FilterLabelClear^
+
+^FilterLabelEquals^is ionann^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Athrú^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^Áirítear^FilterLabelIncludes^
+
+^FilterLabelOr^nó^FilterLabelOr^
+
+^FilterLabelSelectAll^(Roghnaigh Uile)^FilterLabelSelectAll^
+
+^FilterSiteMap^Léarscáil an tsuímh Scagaire ...^FilterSiteMap^
+
+^Finish^críochnaigh^Finish^
+
+^FitToWidth^Fit Chun Leithead^FitToWidth^
+
+^FlatTreeToggle^Téigh go Ordlathas^FlatTreeToggle^
+
+^FontName^Ainm Cló^FontName^
+
+^FontSize^Cló^FontSize^
+
+^ForeColor^Dath Fhobhair^ForeColor^
+
+^Forget^Nábac^Forget^
+
+^ForgotYourPassword^Forgot your password?^ForgotYourPassword^
+
+^Format^Formáid^Format^
+
+^Freeze^Reo^Freeze^
+
+^From^ó^From^
+
+^Fullscreen^Scáileán iomlán^Fullscreen^
+
+^Future^Todhchaí^Future^
+
+^GeneralTabText^Ginearálta^GeneralTabText^
+
+^Generate^Gin^Generate^
+
+^GenericNewToolTip^Cruthaigh Nua^GenericNewToolTip^
+
+^GenericSortAscending^Is lú ar an Barr^GenericSortAscending^
+
+^GenericSortDescending^Is mó ar Barr^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Iomláin Grand^GrandTotals^
+
+^Granite^Eibhear^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Domhantarraingt^Gravity^
+
+^GreaterThan^Níos mó ná^GreaterThan^
+
+^GreateThanOrEqual^Níos mó ná Nó Comhionann^GreateThanOrEqual^
+
+^Grid^Greille^Grid^
+
+^GridActionDescription^Taispeáin míreanna san fhormáid standard<br/>list.^GridActionDescription^
+
+^GridActionHeaderText^Taispeáin i Féach ar Chaighdeán^GridActionHeaderText^
+
+^Group^Grúpa^Group^
+
+^GroupByField^Roghnaigh réimse a ghrúpáil <b>{0}</b>.^GroupByField^
+
+^Grouped^Grúpáilte^Grouped^
+
+^GroupedBy^I ngrúpaí de réir^GroupedBy^
+
+^GroupedDefault^Tá grúpáil curtha as oifig^GroupedDefault^
+
+^Heading1^Ceannteideal 1^Heading1^
+
+^Heading2^Ceannteideal 2^Heading2^
+
+^Heading3^Ceannteideal 3^Heading3^
+
+^Heading4^Ceannteideal 4^Heading4^
+
+^Heading5^Ceannteideal 5^Heading5^
+
+^Heading6^Ceannteideal 6^Heading6^
+
+^Help^Cabhair^Help^
+
+^HelpClose^Dún^HelpClose^
+
+^HelpFullScreen^Full Screen^HelpFullScreen^
+
+^Hide^Folaigh^Hide^
+
+^HideAdvancedSearch^Hide Cuardach Casta^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Téigh go Liosta Maol^HierarchyTreeModeToggle^
+
+^Highlighter^Aibhsithe^Highlighter^
+
+^History^Stair^History^
+
+^HistoryToolTip^Stair Féach ar thaifid roimhe roghnaithe^HistoryToolTip^
+
+^HistoryUnavailable^Níl Stair fáil.^HistoryUnavailable^
+
+^Home^Baile^Home^
+
+^IdleUser^An bhfuil tú fós ann? Cuir logáil isteach arís.^IdleUser^
+
+^ImportActionDescription^Uaslódáil CSV, XLS, nó taifid ar allmhairí XLSX file<br/>to.^ImportActionDescription^
+
+^ImportActionHeaderText^Iompórtáil Ó Comhad^ImportActionHeaderText^
+
+^ImportAutoDetect^(Uathoibríoch a bhrath)^ImportAutoDetect^
+
+^ImportComplete^críochnaithe^ImportComplete^
+
+^ImportDone^allmhairíochta Críochnaithe^ImportDone^
+
+^ImportDownloadTemplate^Íosluchtaigh teimpléad comhad a allmhairiú.^ImportDownloadTemplate^
+
+^ImportDuplicates^dúblaigh^ImportDuplicates^
+
+^ImportEmail^An logáil allmhairiú a sheoladh chuig na seoltaí ríomhphoist seo a leanas (roghnach)^ImportEmail^
+
+^ImportEmailNotSpecified^Nach bhfuil Faighteoir na logáil iomportála sonraithe. Lean ar aghaidh ar aon nós?^ImportEmailNotSpecified^
+
+^ImportExpected^Bhíothas ag súil a chur i gcrích^ImportExpected^
+
+^ImportFileStats^Tá taifid <b>{0}</b> sa chomhad <b>{1}</b> réidh le bheith próiseáilte. Tabhair mheaitseáil ainmneacha réimse.^ImportFileStats^
+
+^Importing^Iompórtáil^Importing^
+
+^ImportMappingInstruction^Tá taifead <b>{0}</b> (í) sa chomhad <b>{1}</b> réidh le bheith processed.<br/>Please léarscáil na réimsí a allmhairiú ó shonraí comhad chuig an réimsí chur i bhfeidhm agus <i>Import</i> phróiseáil chun tús a cliceáil.^ImportMappingInstruction^
+
+^ImportNotSupported^Formáid sonraí ar &quot;{0}&quot; nach bhfuil tacaíocht.^ImportNotSupported^
+
+^ImportProcessing^Tá tús curtha le próiseáil comhad Iompórtáil. Beidh an allmhairithe taifid sonraí a bheith ar fáil ach é a phróiseáil rathúil. Seans go mbeidh ort a athnuachan na tuairimí ábhartha / leathanaigh a fheiceáil ar na taifid allmhairithe.^ImportProcessing^
+
+^ImportRemaining^Bhíothas ag súil a chur i gcrích^ImportRemaining^
+
+^ImportSelectFile^Roghnaigh comhad sonraí i CSV, XLS, nó formáid XLSX.^ImportSelectFile^
+
+^ImportStartButton^Iompórtáil^ImportStartButton^
+
+^ImportUploading^Tá do comhad á uaslódáil chuig an bhfreastalaí. Fan go fóill ...^ImportUploading^
+
+^ImportUploadInstruction^Roghnaigh an comhad a uaslódáil. Ní mór an comhad a bheith i bhformáid <b>CSV</b>, <b>XLS</b>, nó <b>XLSX</b>.^ImportUploadInstruction^
+
+^In^i^In^
+
+^Includes^Áirítear^Includes^
+
+^Indent^Eangaigh^Indent^
+
+^InfoBarAnd^agus^InfoBarAnd^
+
+^InfoBarEmpty^folamh^InfoBarEmpty^
+
+^InfoBarEqualTo^is ionann agus^InfoBarEqualTo^
+
+^InfoBarGreaterThan^Tá níos mó ná^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^Tá níos mó ná nó cothrom le^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^Tá níos lú ná^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^Tá níos lú ná nó cothrom le^InfoBarLessThanOrEqual^
+
+^InfoBarLike^Is cosúil^InfoBarLike^
+
+^InfoBarOr^nó^InfoBarOr^
+
+^InfoBarQuickFind^Bhíonn in aon réimse^InfoBarQuickFind^
+
+^InfoBarStartsWith^thosaíonn le^InfoBarStartsWith^
+
+^InitialListMode^Mód Liosta Tosaigh^InitialListMode^
+
+^InlineEditing^Eagarthóireacht Inlíne^InlineEditing^
+
+^InsertActionHeaderText^OK^InsertActionHeaderText^
+
+^InsertHorizontalRule^Ionsáigh Riail Cothrománach^InsertHorizontalRule^
+
+^InsertingRecords^taifid Ionsá^InsertingRecords^
+
+^InsertOrderedList^Ionsáigh Liosta Ordaíodh^InsertOrderedList^
+
+^InsertUnorderedList^Cuir isteach gan ord Liosta^InsertUnorderedList^
+
+^Into^isteach^Into^
+
+^InvalidUserNameAndPassword^Nach bhfuil d&#39;ainm úsáideora agus do phasfhocal bailí.^InvalidUserNameAndPassword^
+
+^Italic^Italic^Italic^
+
+^ItemsPerPage^Míreanna in aghaidh an leathanaigh:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} Míreanna roghnaithe^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Mhír roghnaithe^ItemsSelectedOne^
+
+^JustDatesNow^Anois féin^JustDatesNow^
+
+^JustifyCenter^Comhfhadaigh Ionad^JustifyCenter^
+
+^JustifyFull^Comhfhadaigh Iomlán^JustifyFull^
+
+^JustifyLeft^Comhfhadaigh Chlé^JustifyLeft^
+
+^JustifyRight^Comhfhadaigh Ceart^JustifyRight^
+
+^KeepOriginalSel^coinnigh an rogha bunaidh^KeepOriginalSel^
+
+^LabelsInList^Lipéid I Liosta^LabelsInList^
+
+^Lacquer^Lacquer^Lacquer^
+
+^Laminate^Laminate^Laminate^
+
+^Landscape^Tírdhreach^Landscape^
+
+^Large^Móra^Large^
+
+^LastMonth^Last Mí^LastMonth^
+
+^LastQuarter^Last Ráithe^LastQuarter^
+
+^LastWeek^Seachtain Last^LastWeek^
+
+^LastYear^Bliain Deiridh^LastYear^
+
+^Less^Lúide^Less^
+
+^LessThan^Níos lú ná^LessThan^
+
+^LessThanOrEqual^Níos lú ná Nó Comhionann^LessThanOrEqual^
+
+^Lichen^Lichen^Lichen^
+
+^LightTheme^Solas^LightTheme^
+
+^Line^líne^Line^
+
+^List^Liosta^List^
+
+^ListOneColumn^Liosta (One Colún)^ListOneColumn^
+
+^ListViewStyle^Liosta^ListViewStyle^
+
+^Loading^Loading ...^Loading^
+
+^Logical^Loighciúil^Logical^
+
+^LoginButton^Logáil isteach^LoginButton^
+
+^LoginLink^Logáil isteach^LoginLink^
+
+^Logout^Logout^Logout^
+
+^LookupInstruction^Roghnaigh <b>{0}</b> ar an liosta.^LookupInstruction^
+
+^LookupOriginalSelection^Is é an rogha bunaidh <b>&quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^Cuntais Bainistigh^ManageAccounts^
+
+^Map^Léarscáil^Map^
+
+^MatchAll^Meaitseáil gach coinníoll^MatchAll^
+
+^MatchAllPastTense^Mheaitseáil coinníollacha go léir^MatchAllPastTense^
+
+^MatchAny^Mheaitseáil aon choinníollacha^MatchAny^
+
+^MatchAnyPastTense^Mheaitseáil aon choinníollacha^MatchAnyPastTense^
+
+^Matched^Matched^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Uasmhéid de {0}^MaxAggregateToolTip^
+
+^Maximize^Expand^Maximize^
+
+^MaximumOf^Uasmhéid^MaximumOf^
+
+^Medium^Meán^Medium^
+
+^Menu^Roghchlár^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^Íosmhéid de {0}^MinAggregateToolTip^
+
+^Minimize^Collapse^Minimize^
+
+^MinimumOf^Íosmhéid de^MinimumOf^
+
+^Mission^Misean^Mission^
+
+^ModeBrowsing^Brabhsáil^ModeBrowsing^
+
+^ModeEditing^Eagarthóireacht^ModeEditing^
+
+^ModeEntering^Dul isteach^ModeEntering^
+
+^ModeLookup^Cuardach^ModeLookup^
+
+^Modern^Nua-Aimseartha^Modern^
+
+^ModernRose^Nua-Aimseartha Rose^ModernRose^
+
+^ModeViewing^Ag féachaint ar^ModeViewing^
+
+^Month^Mí^Month^
+
+^More^Níos mó^More^
+
+^MultiSelection^Roghnú il^MultiSelection^
+
+^Municipal^Bardasach^Municipal^
+
+^MyAccount^Mo Chuntas^MyAccount^
+
+^Never^Riamh^Never^
+
+^NewActionHeaderText^Nua^NewActionHeaderText^
+
+^NewItem^Mír Nua^NewItem^
+
+^NewRow^Ró Nua^NewRow^
+
+^NewRowLink^Cliceáil anseo chun an taifead nua a chruthú.^NewRowLink^
+
+^NewToolTip^Nua {0}^NewToolTip^
+
+^Next^Ar Aghaidh^Next^
+
+^Next2^Next^Next2^
+
+^NextMonth^Mí Aghaidh^NextMonth^
+
+^NextQuarter^Ráithe Aghaidh^NextQuarter^
+
+^NextWeek^Seachtain Ar Aghaidh^NextWeek^
+
+^NextYear^Bliain Ar Aghaidh^NextYear^
+
+^No^Uimh^No^
+
+^NoMatches^torthaí níor.^NoMatches^
+
+^None^Ar bith^None^
+
+^Noon^Nóin^Noon^
+
+^NoRecords^Gan aon taifead le fáil.^NoRecords^
+
+^NoteDeleteConfirm^Scrios?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^scriosadh^NoteDeleteLabel^
+
+^NoteEditLabel^in eagar^NoteEditLabel^
+
+^NotEmpty^Gan Folamh^NotEmpty^
+
+^NotMatched^(Ní mhacasamhail)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^Líon^Number^
+
+^NumberFilterText^Scagairí Uimhir^NumberFilterText^
+
+^NumberIsExpected^Tá roinnt ag súil leis.^NumberIsExpected^
+
+^OdpCommitting^Idirbhearta a uaslódáil ...^OdpCommitting^
+
+^OdpDone^Arna dhéanamh.^OdpDone^
+
+^OdpDownloadingBlob^Sonraí dénártha a íoslódáil le haghaidh {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^Sonraí a íoslódáil le haghaidh {0}….^OdpDownloadingData^
+
+^OdpInitializing^Ag tosú ...^OdpInitializing^
+
+^OdpInvalidResponse^Freagra neamhbhailí ón bhfreastalaí.^OdpInvalidResponse^
+
+^OdpLastRefresh^Athnuachan deireanach: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Níor athnuadh na sonraí.^OdpNotRefreshed^
+
+^OdpOfflineState^Tá tú ag obair i mód as líne.^OdpOfflineState^
+
+^OdpOnlineRequired^Teastaíonn nasc ar líne.^OdpOnlineRequired^
+
+^OdpPending^Athruithe ar feitheamh^OdpPending^
+
+^OdpReconRequired^Teastaíonn athmhuintearas^OdpReconRequired^
+
+^OdpReconTxDelete^Scrios an t-athrú seo ón log?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^Scriosadh an chéad idirbheart ar feitheamh sa log.^OdpReconTxDeleted^
+
+^OdpRefresh^Athnuachan Sonraí^OdpRefresh^
+
+^OdpRefreshData^Athnuachan Sonraí^OdpRefreshData^
+
+^OdpRefreshLast^Athnuachan Sonraí^OdpRefreshLast^
+
+^OdpSave^Sábháil gach athrú le do thoil.^OdpSave^
+
+^OdpSaveAndSync^Sábháil gach athrú agus roghnaigh rogha Sioncrónaigh sa roghchlár comhthéacs.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Níl freastalaí feidhmchláir ar fáil.^OdpServerUnavailable^
+
+^OdpStatus^Stádas^OdpStatus^
+
+^OdpSync^Sioncrónaigh^OdpSync^
+
+^OdpSynced^Sioncrónaithe^OdpSynced^
+
+^OdpSyncLast^Sync Deireanach^OdpSyncLast^
+
+^OdpSyncLong^Sioncrónaigh chun athruithe a uaslódáil.^OdpSyncLong^
+
+^OdpSyncUploadFailed^Theip ar uaslódáil comhaid {0}.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Uaslódáil {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Ní féidir a scriosadh. {1} míreanna cleithiúnacha i {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Ní féidir a fhorghníomhú.^OdpUnableToExec^
+
+^OdpUnableToProcess^Ní féidir idirbhearta a phróiseáil.^OdpUnableToProcess^
+
+^OdpUnableToSave^Ní féidir athruithe a shábháil.^OdpUnableToSave^
+
+^OdpUploadFailed^Theip ar chomhaid a uaslódáil.^OdpUploadFailed^
+
+^OdpUploadingFiles^{0} comhaid a uaslódáil ...^OdpUploadingFiles^
+
+^OK^OK^OK^
+
+^OnHover^ar Hover^OnHover^
+
+^OnOrAfter^Ar nó tar éis^OnOrAfter^
+
+^OnOrBefore^Ar nó Roimh^OnOrBefore^
+
+^OpenActionHeaderText^Oscailte^OpenActionHeaderText^
+
+^Optional^roghnach^Optional^
+
+^Orientation^treoshuíomh^Orientation^
+
+^Other^Eile^Other^
+
+^Outdent^Outdent^Outdent^
+
+^Page^Leathanach^Page^
+
+^Paragraph^Alt^Paragraph^
+
+^Password^Pasfhocal^Password^
+
+^Past^Past^Past^
+
+^Paste^Greamaigh^Paste^
+
+^Pen^Peann^Pen^
+
+^PerformAdvancedSearch^Cuardaigh^PerformAdvancedSearch^
+
+^Permalink^Permalink^Permalink^
+
+^PermalinkToolTip^Cruthaigh nasc buan le haghaidh taifead roghnaithe^PermalinkToolTip^
+
+^PermalinkUnavailable^Níl Permalink ar fáil. Roghnaigh taifead.^PermalinkUnavailable^
+
+^Petal^Petal^Petal^
+
+^Pinnate^Pinnate^Pinnate^
+
+^Plastic^Plaisteach^Plastic^
+
+^Portrait^Portráid^Portrait^
+
+^PresentationStyle^Roghnaigh stíl láthair na sonraí.^PresentationStyle^
+
+^Prev2^Prev^Prev2^
+
+^Previous^Roimhe Seo^Previous^
+
+^PromoteActions^Gníomhartha a chur chun cinn^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^Ceathrú^Quarter^
+
+^Quarter1^Ráithe 1^Quarter1^
+
+^Quarter2^Ráithe 2^Quarter2^
+
+^Quarter3^Ráithe 3^Quarter3^
+
+^Quarter4^Ráithe 4^Quarter4^
+
+^QuickFindDescription^Cuardaigh i {0}^QuickFindDescription^
+
+^QuickFindScope^Cuardaigh i ...^QuickFindScope^
+
+^QuickFindText^Cuardach Tapa^QuickFindText^
+
+^QuickFindToolTip^Cineál chun cuardach a dhéanamh ar na taifid agus brúigh Iontráil^QuickFindToolTip^
+
+^Quotation^Luachanna^Quotation^
+
+^Reading^Léitheoireacht ...^Reading^
+
+^ReadingPane^Pána Léitheoireachta^ReadingPane^
+
+^ReadOnly^{0} atá léite amháin.^ReadOnly^
+
+^Recent^Déanaí^Recent^
+
+^Redo^Athdhéan^Redo^
+
+^Refresh^Athnuaigh^Refresh^
+
+^Refreshed^Athnuachan^Refreshed^
+
+^RememberMe^Cuimhnigh orm an chéad uair eile^RememberMe^
+
+^RemoveCondition^Bain Coinníoll^RemoveCondition^
+
+^RemoveFormat^Bain Formáid^RemoveFormat^
+
+^ReportActionDescription^Rindreáil tuarascáil i bhformáid PDF^ReportActionDescription^
+
+^ReportActionHeaderText^Tuarascáil^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Féach míreanna i scarbhileog ar Excel formatted<br/>Microsoft.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Scarbhileog^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Féach ar nithe mar íomhá TIFF multipage.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Íomhá Multipage^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Míreanna Feic mar document.<br/>Requires Adobe PDF léitheoir comhoiriúnach.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^PDF Document^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Féach míreanna i ndoiciméad Word formatted<br/>Microsoft.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Riachtanach^Required^
+
+^RequiredField^Tá an réimse seo de dhíth.^RequiredField^
+
+^RequiredFiledMarkerFootNote^Léiríonn réimse de dhíth^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Athshocraigh^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Athshocraigh na coinníollacha cuardaigh?^ResetSearchConfirm^
+
+^ResolvingReferences^Réiteach tagairtí^ResolvingReferences^
+
+^ResumeBrowsing^Lean Brabhsáil^ResumeBrowsing^
+
+^ResumeEditing^Lean Eagarthóireacht^ResumeEditing^
+
+^ResumeEntering^Lean dul isteach^ResumeEntering^
+
+^ResumeLookup^Lean Lookup^ResumeLookup^
+
+^ResumeViewing^Lean Ag féachaint ar^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Rólanna^RolesTab^
+
+^RootNodeText^Leibhéal Barr^RootNodeText^
+
+^Rotate^Rothlaigh^Rotate^
+
+^RowCancelActionHeaderText^Cealaigh^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Ionsáigh^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Sábháil^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Update?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Nuashonrú Roghnú^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Sábháil^Save^
+
+^SaveAndContinue^Sábháil agus Lean ar aghaidh^SaveAndContinue^
+
+^SaveAndNew^Sábháil agus Nua^SaveAndNew^
+
+^Saved^Saved - {0}^Saved^
+
+^ScanToConfirm^Scanadh arís le do thoil chun a dhearbhú.^ScanToConfirm^
+
+^SeeAll^Féach ar na^SeeAll^
+
+^SeeAlso^Féach freisin^SeeAlso^
+
+^SelectActionHeaderText^Roghnaigh^SelectActionHeaderText^
+
+^SelectAll^Roghnaigh Uile^SelectAll^
+
+^SelectItem^Roghnaigh Mír^SelectItem^
+
+^SelectLink^(A roghnú)^SelectLink^
+
+^SelectRow^Roghnaigh Rata^SelectRow^
+
+^SelectToolTip^Roghnaigh {0}^SelectToolTip^
+
+^Separator^Deighilteoir^Separator^
+
+^Settings^Socruithe^Settings^
+
+^Show^Taispeáin^Show^
+
+^ShowAdvancedSearch^Taispeáin Cuardach Casta^ShowAdvancedSearch^
+
+^ShowChart^Taispeáin Cairt^ShowChart^
+
+^ShowData^Taispeáin Sonraí^ShowData^
+
+^ShowingItems^Torthaí <b>{0}</b> <b>{1}</b>-na n-ítimí <b>{2}</b>^ShowingItems^
+
+^ShowingItemsInfo^Torthaí {0} míreanna.^ShowingItemsInfo^
+
+^ShowingItemsRange^Showing {0} de {1} míreanna^ShowingItemsRange^
+
+^ShowLess^Taispeáin Lúide^ShowLess^
+
+^ShowMore^Taispeáin More^ShowMore^
+
+^ShowOptions^Taispeáin Roghanna^ShowOptions^
+
+^ShowSystemButtons^Buttons Taispeáin Córas^ShowSystemButtons^
+
+^Sidebar^Barra Taoibh^Sidebar^
+
+^Sign^Cláraigh anseo^Sign^
+
+^SignedOut^sínithe Amach^SignedOut^
+
+^SignUpNow^Cláraigh anois^SignUpNow^
+
+^Simple^Simplí^Simple^
+
+^SiteActions^Gníomhartha tSuímh^SiteActions^
+
+^SizeLabel^Méid^SizeLabel^
+
+^Small^Beaga^Small^
+
+^Social^Sóisialta^Social^
+
+^Sort^Sórtáil^Sort^
+
+^SortBy^Sórtáil de réir {0}^SortBy^
+
+^SortByField^Roghnaigh réimse a athrú ar an ord saghas <b>{0}</b>.^SortByField^
+
+^SortByOptions^Roghnaigh an t-ordú saghas <b>{0}</b> ag an réimse <b>{1}</b> ar an liosta de na roghanna thíos.^SortByOptions^
+
+^Sorted^Sórtáilte^Sorted^
+
+^SortedDefault^Ordú ordú réamhshocraithe.^SortedDefault^
+
+^StartImport^Iompórtáil Start^StartImport^
+
+^StrikeThrough^Stailc Trí^StrikeThrough^
+
+^StringSortAscending^Ag dul suas^StringSortAscending^
+
+^StringSortDescending^Íslitheach^StringSortDescending^
+
+^Submit^Cuir^Submit^
+
+^Subscript^Fo Script^Subscript^
+
+^Suggestions^Moltaí^Suggestions^
+
+^SumAggregate^Suim: {0}^SumAggregate^
+
+^SumAggregateToolTip^Suim na {0}^SumAggregateToolTip^
+
+^Summary^Achoimre^Summary^
+
+^Summer^Samhraidh^Summer^
+
+^SumOf^Suim na^SumOf^
+
+^Superscript^Super Script^Superscript^
+
+^Sync^Info^Sync^
+
+^TaskResume^Lean^TaskResume^
+
+^Tasks^Tascanna^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^abc^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^taifid Tástáil^TestingRecords^
+
+^Text^Téacs^Text^
+
+^TextFilterText^Scagairí Téacs^TextFilterText^
+
+^Theme^Téama^Theme^
+
+^ThisMonth^Seo An Mhí^ThisMonth^
+
+^ThisQuarter^Seo Ráithe^ThisQuarter^
+
+^ThisWeek^An tSeachtain^ThisWeek^
+
+^ThisYear^Bliain seo^ThisYear^
+
+^Tiny^Tiny^Tiny^
+
+^Today^Sa lá atá inniu^Today^
+
+^Tomorrow^Amárach^Tomorrow^
+
+^Top^barr^Top^
+
+^ToThisWebsite^ar an láithreán gréasáin seo^ToThisWebsite^
+
+^TouchUINotSupported^Ní dteagmháil Chomhéadain tacaíocht seo bhrabhsálaí.^TouchUINotSupported^
+
+^TransitionFade^Céimnigh^TransitionFade^
+
+^TransitionFlip^Smeach^TransitionFlip^
+
+^TransitionFlow^Sreabhadh^TransitionFlow^
+
+^TransitionNone^Dada^TransitionNone^
+
+^TransitionPop^Popcheol^TransitionPop^
+
+^Transitions^Aistrithe^Transitions^
+
+^TransitionSlide^Sleamhnán^TransitionSlide^
+
+^TransitionSlideDown^Slide an Dúin^TransitionSlideDown^
+
+^TransitionSlideUp^Sleamhnán Suas^TransitionSlideUp^
+
+^TransitionTurn^Cas^TransitionTurn^
+
+^TreeActionDescription^Taispeáin caidrimh ordlathach.^TreeActionDescription^
+
+^TreeActionHeaderText^Taispeáin Ordlathas^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Faigh Cód Fíoraithe^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Aip fíordheimhnithe^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Mura bhfuil tú in ann an cód fíoraithe a sholáthar, ansin iontráil an cód cúltaca ina ionad.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^cód aon-uaire^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Cód Cúltaca^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Cuireadh glaoch ar^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^Cuireadh ríomhphost chuig^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^Cuireadh teachtaireacht téacs chuig^TwoFaCodeSentSms^
+
+^TwoFaConsent^Toiliú^TwoFaConsent^
+
+^TwoFaEnterPassword^Iontráil do phasfhocal^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Glaoigh orm ag^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^Glaofaidh mé^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^Seol ríomhphost chugam chuig^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^Cuir téacs chugam ag^TwoFaGetCodeSms^
+
+^TwoFaMethod^Modh^TwoFaMethod^
+
+^TwoFaMsgChanged^Athraíodh Fíordheimhniú 2-Fachtóir.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^Díchumasaíodh Fíordheimhniú 2-Fachtóir.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Díchumasaigh fíordheimhniú dhá fhachtóir?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^Cumasaíodh Fíordheimhniú 2-Fachtóir.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Iontráil an cód fíoraithe {0} dhigit le do thoil.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Pasfhocal neamhbhailí.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Cód fíoraithe neamhbhailí.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^Is é 000000 do chód fíoraithe {0}.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^Is féidir liom \ u0027t an cód QR a scanadh.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Teastaíonn cabhair uaim chun app fíordheimhnithe a shuiteáil.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Tá aip fíordheimhnithe agam ar ghléas soghluaiste.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^Ligfidh na cóid cúltaca úsáide aon-uaire duit síniú isteach mura bhfuil tú in ann cód fíoraithe a sholáthar.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Cóid Chúltaca^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Cuirfidh mé cód fíoraithe isteach tar éis an síniú rathúil isteach.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Iontráil an eochair socraithe san aip^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Modhanna Fíoraithe^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Scan an cód QR leis an gceamara^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Scan an cód QR san aip^TwoFaSetupScanQrCode^
+
+^TwoFaText^Fíordheimhniú 2-Fachtóir^TwoFaText^
+
+^TwoFaTrustThisDevice^Iontaobhas an gléas seo^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Cód fíorúcháin^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Úsáidfidh mé aip fíordheimhnithe chun an cód fíoraithe a fháil.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Gheobhaidh mé glao uathoibrithe ar mo ghuthán.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Seachadfar an cód fíoraithe trí ríomhphost.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Seachadfar an cód fíoraithe trí theachtaireacht téacs.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Clóscríobh chun Cuardach^TypeToSearch^
+
+^Underline^Cuir líne^Underline^
+
+^Undo^Undo^Undo^
+
+^Undock^Dhícheangal^Undock^
+
+^Unfreeze^Unfreeze^Unfreeze^
+
+^UnGrouped^Tá grúpáil curtha as oifig^UnGrouped^
+
+^UnLink^Dínasc^UnLink^
+
+^UnSelect^Díroghnaigh^UnSelect^
+
+^UpdateActionHeaderText^OK^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Update?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Nuashonrú Roghnú^UpdateActionInBatchModeHeaderText^
+
+^Upload^Uaslódáil^Upload^
+
+^UploadDescription^Uaslódáil comhaid iolracha.^UploadDescription^
+
+^Uploading^Uaslódáil {0}….^Uploading^
+
+^UpOneLevel^Suas Leibhéal a hAon^UpOneLevel^
+
+^UseLEV^Greamaigh &quot;{0}&quot;^UseLEV^
+
+^UserName^Ainm Úsáideora^UserName^
+
+^UsersInRole^Úsáideoirí i Ról^UsersInRole^
+
+^UsersTab^Úsáideoirí^UsersTab^
+
+^Vantage^Vantage^Vantage^
+
+^Verdant^Verdant^Verdant^
+
+^Verify^Fíoraigh^Verify^
+
+^View^Féach ar^View^
+
+^Viewpoint^Dearcadh^Viewpoint^
+
+^Wait^Fán le do thoil...^Wait^
+
+^Week^Seachtain^Week^
+
+^Welcome1^Fáilte^Welcome1^
+
+^Welcome2^Inniu, tá^Welcome2^
+
+^WhiteSmoke^Smoke Bán^WhiteSmoke^
+
+^WithSelectedValues10^Le Luachanna roghnaithe (Top 10)^WithSelectedValues10^
+
+^WithSelectedValues5^Le Luachanna roghnaithe (Top 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^Le Scagairí Sonraithe^WithSpecifiedFilters^
+
+^Year^Bliain^Year^
+
+^YearToDate^Bliain go dtí^YearToDate^
+
+^Yes^Is ea^Yes^
+
+^Yesterday^Inné^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Zúmáil isteach^ZoomIn^
+
+^ZoomOut^Súmáil amach^ZoomOut^
+

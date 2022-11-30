@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Code OnTime Designer</title>
+    <script type="text/javascript" language="javascript" src="../../_System/CodeOnTime.Designer.js"></script>
+    <script type="text/javascript" language="javascript">
+
+        function pageLoad() {
+            if (!document.body) return;
+            initializeDesigner('Business Rule');
+            createTabbedControllers('Placeholder', [
+                new CodeOnTime.DesignerTab('Business Rule', 'BusinessRules', [
+                    { 'name': 'startCommandName', 'value': 'Edit' },
+                    { 'name': 'startCommandArgument', 'value': 'editForm1' },
+                    { 'name': 'hideExternalFilterFields', 'value': false },
+                    { 'name': 'backOnCancel', 'value': true },
+                    $cookie()])
+                ]);
+            $find('BusinessRulesExtender').raiseSelected();
+
+        }
+
+    </script>
+</head>
+<body>
+    <!-- page body
+-->
+    <div id="Main" title="Field">
+        <div id="Placeholder">
+        </div>
+    </div>
+</body>
+</html>

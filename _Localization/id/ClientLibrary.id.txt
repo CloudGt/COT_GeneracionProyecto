@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Tentang^About^
+
+^Accent^Aksen^Accent^
+
+^ActionBarActionsHeaderText^Tindakan^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Membatalkan^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Batalkan semua perubahan catatan.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Batalkan rekor baru.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Simpan catatan baru untuk database.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Simpan^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Buat catatan {0} baru.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^Baru {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Baru^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Catatan^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Laporan^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Simpan perubahan ke database.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Simpan^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Menambahkan akun^AddAccount^
+
+^AddCondition^Tambahkan Kondisi^AddCondition^
+
+^AddConditionText^Tambahkan kondisi pencarian^AddConditionText^
+
+^AddItem^Tambahkan Barang^AddItem^
+
+^AddMatchingGroup^Menambahkan grup pencocokan^AddMatchingGroup^
+
+^AddSearchBarField^Lebih Pencarian Fields^AddSearchBarField^
+
+^AddSystemIdentity^Tambahkan Sistem Identitas^AddSystemIdentity^
+
+^AddToFavorites^Tambahkan ke Favorit^AddToFavorites^
+
+^AdvancedSearch^Pencarian Lanjutan^AdvancedSearch^
+
+^AdvancedSearchInstruction^Masukkan kondisi yang harus disesuaikan dan tekan tombol pencarian.^AdvancedSearchInstruction^
+
+^After^Setelah^After^
+
+^Agenda^Agenda^Agenda^
+
+^AlignedLeft^Blok Kiri^AlignedLeft^
+
+^AlignedRight^Blok Kanan^AlignedRight^
+
+^AllDatesInPreriod^Semua Tanggal di Periode^AllDatesInPreriod^
+
+^AlternativeView^Pilih pandangan alternatif dari data.^AlternativeView^
+
+^Always^Selalu^Always^
+
+^AnyValue^(apa saja)^AnyValue^
+
+^Apply^Terapkan^Apply^
+
+^Apps^Apps^Apps^
+
+^Aquarium^Akuarium^Aquarium^
+
+^Auto^Mobil^Auto^
+
+^AutoOpenNextItem^Buka otomatis item berikutnya^AutoOpenNextItem^
+
+^AverageOf^Rata-rata^AverageOf^
+
+^AvgAggregate^Avg: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Rata-rata {0}^AvgAggregateToolTip^
+
+^Azure^Biru langit^Azure^
+
+^Back^Kembali^Back^
+
+^BackColor^Kembali Warna^BackColor^
+
+^BatchEditActionHeaderText^Batch Mengedit^BatchEditActionHeaderText^
+
+^BatchEdited^{0} diperbarui^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Batch Edit (Formulir)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^memperbarui^BatchUpdate^
+
+^Before^Sebelum^Before^
+
+^BeginsWith^Dimulai Dengan^BeginsWith^
+
+^Belltown^Belltown^Belltown^
+
+^Berry^Memetik^Berry^
+
+^Between^Antara^Between^
+
+^Bittersweet^Bittersweet^Bittersweet^
+
+^Blank^Kosong^Blank^
+
+^BlankPassword^Password tidak boleh kosong.^BlankPassword^
+
+^BlankUserName^Nama pengguna tidak boleh kosong.^BlankUserName^
+
+^BlankValue^(Kosong)^BlankValue^
+
+^BlobDownloadHint^Klik di sini untuk men-download file asli.^BlobDownloadHint^
+
+^BlobDownloadLink^men-download^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Sentuh gambar untuk mendownload file asli.^BlobDownloadOriginalHint^
+
+^Blur^Mengaburkan^Blur^
+
+^Bold^Berani^Bold^
+
+^BooleanFilterText^Logis Filter^BooleanFilterText^
+
+^BooleanIsExpected^Sebuah nilai logis diharapkan.^BooleanIsExpected^
+
+^ButtonShapes^Bentuk tombol^ButtonShapes^
+
+^By^oleh^By^
+
+^Calendar^Kalender^Calendar^
+
+^Cancel^Membatalkan^Cancel^
+
+^Cards^Kartu-kartu^Cards^
+
+^Cay^Pulau karang^Cay^
+
+^ChangeYourLanguage^Mengubah bahasa Anda^ChangeYourLanguage^
+
+^Charts^Charts^Charts^
+
+^Citrus^Jeruk^Citrus^
+
+^Classic^Klasik^Classic^
+
+^ClearFilter^Hapus Filter dari {0}^ClearFilter^
+
+^ClearFilter2^Batal Filter^ClearFilter2^
+
+^ClearText^Hapus Teks^ClearText^
+
+^ClearToolTip^Hapus {0}^ClearToolTip^
+
+^Close^Tutup^Close^
+
+^Comfortable^Nyaman^Comfortable^
+
+^Compact^Padat^Compact^
+
+^Condensed^Kental^Condensed^
+
+^ConfirmContinue^Terus?^ConfirmContinue^
+
+^ConfirmReload^Menyegarkan?^ConfirmReload^
+
+^ConnectionLost^Koneksi jaringan telah hilang. Coba lagi?^ConnectionLost^
+
+^Construct^Membangun^Construct^
+
+^Contains^Berisi^Contains^
+
+^Convention^Konvensi^Convention^
+
+^Copy^Kopi^Copy^
+
+^CountAggregate^Count: {0}^CountAggregate^
+
+^CountAggregateToolTip^Penghitungan {0}^CountAggregateToolTip^
+
+^CountOf^Hitungan^CountOf^
+
+^CreateLink^Buat Tautan^CreateLink^
+
+^CustomFilterOption^Filter ...^CustomFilterOption^
+
+^Cut^Memotong^Cut^
+
+^DarkKnight^Dark Knight^DarkKnight^
+
+^DarkTheme^Gelap^DarkTheme^
+
+^DataSheetActionDescription^Menampilkan item menggunakan sheet<br/>format data.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Tampilkan dalam Lembar Data^DataSheetActionHeaderText^
+
+^DataWarning^Jumlah maksimum item untuk proses {0: d}. Klik di sini untuk menyaring hasilnya.^DataWarning^
+
+^Date^Buah Kurma^Date^
+
+^DateFilterText^Tanggal Filter^DateFilterText^
+
+^DateIsExpected^Sebuah tanggal yang diharapkan.^DateIsExpected^
+
+^DatesAMinAgo^satu menit yang lalu^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^dalam semenit^DatesInAMin^
+
+^DatesInHour^dalam satu jam^DatesInHour^
+
+^DatesInMin^di {0} min^DatesInMin^
+
+^DatesLast^Terakhir^DatesLast^
+
+^DatesMinAgo^{0} Min yang lalu^DatesMinAgo^
+
+^DatesNext^Berikutnya^DatesNext^
+
+^DatesNow^sekarang^DatesNow^
+
+^DatesOneHour^satu jam yang lalu^DatesOneHour^
+
+^DateSortAscending^Terlama di Atas^DateSortAscending^
+
+^DateSortDescending^Terbaru di Atas^DateSortDescending^
+
+^DatesSmart^Tanggal cerdas^DatesSmart^
+
+^DatesToday^hari ini^DatesToday^
+
+^DatesTomorrow^besok^DatesTomorrow^
+
+^DatesYesterday^kemarin^DatesYesterday^
+
+^Day^Hari^Day^
+
+^DefaultCancelActionHeaderText^Tutup^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Silahkan mengisi formulir ini dan klik tombol OK untuk membuat catatan {0} baru. Klik Batal untuk kembali ke layar sebelumnya.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^Ini adalah bidang catatan {0} yang dapat diedit.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Harap tinjau informasi {0} bawah. Klik Edit untuk mengubah catatan ini, klik Hapus untuk menghapus catatan, atau klik Batal / Tutup untuk kembali.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Ini adalah daftar {0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Lengkapi formulir. Pastikan untuk memasukkan semua bidang yang diperlukan.^DefaultNewDescription^
+
+^DefaultOption^Standar^DefaultOption^
+
+^DefaultReferenceDescription^Rincian tambahan tentang {0} disediakan di bagian informasi referensi.^DefaultReferenceDescription^
+
+^Delete^Hapus^Delete^
+
+^DeleteActionConfirmation^Hapus?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Hapus^DeleteActionHeaderText^
+
+^Deleted^{$ selected} dihapus^Deleted^
+
+^DeleteOriginalSel^hapus pilihan asli^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Menghapus)^DeleteSearchBarField^
+
+^DetailsToolTip^Lihat rincian untuk {0}^DetailsToolTip^
+
+^DevelopExplorer^Project Explorer^DevelopExplorer^
+
+^DevelopFormLayout^Form Layout^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^Pilih ukuran layar untuk disertakan dalam tata letak.^DevelopFormLayoutInstr^
+
+^DevelopTools^Alat pengembang^DevelopTools^
+
+^Device^Alat^Device^
+
+^DeviceLoginPrompt^Harap masuk untuk memberi otorisasi akses pada perangkat ini.^DeviceLoginPrompt^
+
+^DidNotMatch^Tidak cocok^DidNotMatch^
+
+^Directions^Arah^Directions^
+
+^DiscardChanges^Membuang perubahan?^DiscardChanges^
+
+^DisplayDensity^Tampilan Density^DisplayDensity^
+
+^DisplayedAbove^Tampilkan atas^DisplayedAbove^
+
+^DisplayedBelow^Di bawah ditampilkan^DisplayedBelow^
+
+^Dock^Menghubungkan^Dock^
+
+^DoesNotBeginWith^Tidak Mulailah Dengan^DoesNotBeginWith^
+
+^DoesNotContain^Tidak Mengandung^DoesNotContain^
+
+^DoesNotEndWith^Tidak Akhir Dengan^DoesNotEndWith^
+
+^DoesNotEqual^Tidak Sama^DoesNotEqual^
+
+^DoesNotInclude^Tidak Sertakan^DoesNotInclude^
+
+^DoNotMatchAll^Tidak cocok semua kondisi^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Tidak cocok dengan semua kondisi^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Tidak cocok persyaratan apa pun^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Tidak cocok dengan kondisi apapun^DoNotMatchAnyPastTense^
+
+^Download^Download^Download^
+
+^Draw^Seri^Draw^
+
+^DuplicateActionHeaderText^Duplikat^DuplicateActionHeaderText^
+
+^DuplicateItem^Item Duplikat^DuplicateItem^
+
+^DuplicateRow^Baris Duplikat^DuplicateRow^
+
+^EditActionHeaderText^Mengedit^EditActionHeaderText^
+
+^EditItem^Edit Item^EditItem^
+
+^EditModeCancelActionHeaderText^Membatalkan^EditModeCancelActionHeaderText^
+
+^EditRow^Edit Row^EditRow^
+
+^Empty^Kosong^Empty^
+
+^EmptyContext^Tindakan tidak tersedia.^EmptyContext^
+
+^EmptyValue^(Kosong)^EmptyValue^
+
+^Enable^Memungkinkan^Enable^
+
+^EndsWith^Berakhir Dengan^EndsWith^
+
+^Equals^Sama^Equals^
+
+^Eraser^Penghapus^Eraser^
+
+^Error^Kesalahan^Error^
+
+^Exit^Keluar^Exit^
+
+^ExitFullscreen^keluar dari Layar Penuh^ExitFullscreen^
+
+^ExportCsvActionDescription^Download item dalam format CSV.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Men-download^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Menganalisis item dengan spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Ekspor ke Spreadsheet^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Sindikat item dengan aplikasi pembaca RSS.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^Lihat RSS Feed^ExportRssActionHeaderText^
+
+^Favorites^Favorit^Favorites^
+
+^Felt^Merasa^Felt^
+
+^FileCleared^Nilai akan dihapus saat disimpan^FileCleared^
+
+^FilesBytes^byte^FilesBytes^
+
+^FilesClear^Yang Jelas^FilesClear^
+
+^FilesClearConfirm^Yang Jelas?^FilesClearConfirm^
+
+^FilesClick^Klik untuk memilih file^FilesClick^
+
+^FilesClickMany^Klik untuk memilih file^FilesClickMany^
+
+^FilesDrop^Drop file di sini^FilesDrop^
+
+^FilesDropMany^Drop file di sini^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Tekan untuk memilih file^FilesTap^
+
+^FilesTapMany^Tekan untuk memilih file^FilesTapMany^
+
+^Filter^Filter^Filter^
+
+^FilterApplied^Filter telah diterapkan.^FilterApplied^
+
+^FilterByField^Pilih kolom untuk menerapkan filter untuk <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Pilih satu atau beberapa opsi dalam daftar di bawah ini dan tekan <b>{2}</b> untuk menyaring <b>{0}</b> oleh lapangan <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Membersihkan semua filter.^FilterCleared^
+
+^FilterLabelAnd^dan^FilterLabelAnd^
+
+^FilterLabelClear^Hapus^FilterLabelClear^
+
+^FilterLabelEquals^sama dengan^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Ubah^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^termasuk^FilterLabelIncludes^
+
+^FilterLabelOr^atau^FilterLabelOr^
+
+^FilterLabelSelectAll^(Pilih Semua)^FilterLabelSelectAll^
+
+^FilterSiteMap^Situs Filter peta ...^FilterSiteMap^
+
+^Finish^Selesai^Finish^
+
+^FitToWidth^Fit Untuk Width^FitToWidth^
+
+^FlatTreeToggle^Beralih ke Hirarki^FlatTreeToggle^
+
+^FontName^Nama Font^FontName^
+
+^FontSize^Ukuran Font^FontSize^
+
+^ForeColor^Fore Warna^ForeColor^
+
+^Forget^Lupa^Forget^
+
+^ForgotYourPassword^Lupa kata sandi Anda?^ForgotYourPassword^
+
+^Format^Format^Format^
+
+^Freeze^Membekukan^Freeze^
+
+^From^dari^From^
+
+^Fullscreen^Layar penuh^Fullscreen^
+
+^Future^Masa depan^Future^
+
+^GeneralTabText^Umum^GeneralTabText^
+
+^Generate^Menghasilkan^Generate^
+
+^GenericNewToolTip^Buat Baru^GenericNewToolTip^
+
+^GenericSortAscending^Terkecil di Atas^GenericSortAscending^
+
+^GenericSortDescending^Terbesar di Atas^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Grand Total^GrandTotals^
+
+^Granite^Granit^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Gaya berat^Gravity^
+
+^GreaterThan^Greater Than^GreaterThan^
+
+^GreateThanOrEqual^Lebih besar atau sama^GreateThanOrEqual^
+
+^Grid^Kisi-kisi^Grid^
+
+^GridActionDescription^Menampilkan item dalam format standard<br/>list.^GridActionDescription^
+
+^GridActionHeaderText^Tampilkan dalam Tampilan Standar^GridActionHeaderText^
+
+^Group^Kelompok^Group^
+
+^GroupByField^Pilih lapangan untuk kelompok <b>{0}</b>.^GroupByField^
+
+^Grouped^Dikelompokkan^Grouped^
+
+^GroupedBy^Dikelompokkan berdasarkan^GroupedBy^
+
+^GroupedDefault^Pengelompokan telah dihapus^GroupedDefault^
+
+^Heading1^Pos 1^Heading1^
+
+^Heading2^Pos 2^Heading2^
+
+^Heading3^Judul 3^Heading3^
+
+^Heading4^Judul 4^Heading4^
+
+^Heading5^Judul 5^Heading5^
+
+^Heading6^Judul 6^Heading6^
+
+^Help^Bantuan^Help^
+
+^HelpClose^Tutup^HelpClose^
+
+^HelpFullScreen^Layar Penuh^HelpFullScreen^
+
+^Hide^Menyembunyikan^Hide^
+
+^HideAdvancedSearch^Sembunyikan Pencarian Lanjutan^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Beralih ke Daftar Datar^HierarchyTreeModeToggle^
+
+^Highlighter^Stabilo^Highlighter^
+
+^History^Sejarah^History^
+
+^HistoryToolTip^Lihat catatan sejarah yang sebelumnya dipilih^HistoryToolTip^
+
+^HistoryUnavailable^Sejarah tidak tersedia.^HistoryUnavailable^
+
+^Home^Rumah^Home^
+
+^IdleUser^Apakah Anda masih ada? Silahkan login kembali.^IdleUser^
+
+^ImportActionDescription^Upload CSV, XLS, XLSX atau file<br/>to catatan impor.^ImportActionDescription^
+
+^ImportActionHeaderText^Impor From File^ImportActionHeaderText^
+
+^ImportAutoDetect^(Otomatis mendeteksi)^ImportAutoDetect^
+
+^ImportComplete^lengkap^ImportComplete^
+
+^ImportDone^selesai mengimpor^ImportDone^
+
+^ImportDownloadTemplate^Download template impor file.^ImportDownloadTemplate^
+
+^ImportDuplicates^duplikat^ImportDuplicates^
+
+^ImportEmail^Kirim impor log ke alamat email berikut (opsional)^ImportEmail^
+
+^ImportEmailNotSpecified^Penerima log impor belum ditentukan. Tetap lanjutkan?^ImportEmailNotSpecified^
+
+^ImportExpected^Diharapkan untuk menyelesaikan^ImportExpected^
+
+^ImportFileStats^Ada catatan <b>{0}</b> dalam file <b>{1}</b> siap diolah. Silakan cocok dengan nama field.^ImportFileStats^
+
+^Importing^Pengimporan^Importing^
+
+^ImportMappingInstruction^Ada <b>{0}</b> record (s) dalam <b>{1}</b> file yang siap untuk processed.<br/>Please peta bidang mengimpor dari file data ke bidang aplikasi dan klik <i>Import</i> untuk memulai pengolahan.^ImportMappingInstruction^
+
+^ImportNotSupported^format data dari &quot;{0}&quot; tidak didukung.^ImportNotSupported^
+
+^ImportProcessing^Impor pemrosesan file telah dimulai. Data yang diimpor catatan akan tersedia pada pengolahan sukses. Anda mungkin perlu untuk menyegarkan pandangan yang relevan / halaman untuk melihat catatan impor.^ImportProcessing^
+
+^ImportRemaining^Diharapkan untuk menyelesaikan^ImportRemaining^
+
+^ImportSelectFile^Pilih file data dalam CSV, XLS, atau format XLSX.^ImportSelectFile^
+
+^ImportStartButton^Impor^ImportStartButton^
+
+^ImportUploading^File Anda sedang di-upload ke server. Silakan tunggu ...^ImportUploading^
+
+^ImportUploadInstruction^Silakan pilih file untuk meng-upload. File harus dalam format <b>CSV</b>, <b>XLS</b>, atau <b>XLSX</b>.^ImportUploadInstruction^
+
+^In^di^In^
+
+^Includes^Termasuk^Includes^
+
+^Indent^Lekuk^Indent^
+
+^InfoBarAnd^dan^InfoBarAnd^
+
+^InfoBarEmpty^kosong^InfoBarEmpty^
+
+^InfoBarEqualTo^sama dengan^InfoBarEqualTo^
+
+^InfoBarGreaterThan^lebih besar dari^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^lebih besar dari atau sama dengan^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^kurang dari^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^kurang dari atau sama dengan^InfoBarLessThanOrEqual^
+
+^InfoBarLike^adalah seperti^InfoBarLike^
+
+^InfoBarOr^atau^InfoBarOr^
+
+^InfoBarQuickFind^Bidang apapun berisi^InfoBarQuickFind^
+
+^InfoBarStartsWith^dimulai dengan^InfoBarStartsWith^
+
+^InitialListMode^Modus Daftar awal^InitialListMode^
+
+^InlineEditing^Inline Editing^InlineEditing^
+
+^InsertActionHeaderText^OK^InsertActionHeaderText^
+
+^InsertHorizontalRule^Sisipkan Garis Horisontal^InsertHorizontalRule^
+
+^InsertingRecords^memasukkan catatan^InsertingRecords^
+
+^InsertOrderedList^Sisipkan Daftar Memerintahkan^InsertOrderedList^
+
+^InsertUnorderedList^Insert Unordered List^InsertUnorderedList^
+
+^Into^ke^Into^
+
+^InvalidUserNameAndPassword^Nama pengguna dan sandi tidak valid.^InvalidUserNameAndPassword^
+
+^Italic^Miring^Italic^
+
+^ItemsPerPage^Item per halaman:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} Item yang dipilih^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Item yang dipilih^ItemsSelectedOne^
+
+^JustDatesNow^Baru saja^JustDatesNow^
+
+^JustifyCenter^Ratakan Pusat^JustifyCenter^
+
+^JustifyFull^Justify Penuh^JustifyFull^
+
+^JustifyLeft^Ratakan Kiri^JustifyLeft^
+
+^JustifyRight^Rata Kanan^JustifyRight^
+
+^KeepOriginalSel^pertahankan pilihan asli^KeepOriginalSel^
+
+^LabelsInList^Label Dalam Daftar^LabelsInList^
+
+^Lacquer^Pernis^Lacquer^
+
+^Laminate^Memecahkan dlm lapisan tipis^Laminate^
+
+^Landscape^Pemandangan^Landscape^
+
+^Large^Besar^Large^
+
+^LastMonth^Terakhir Bulan^LastMonth^
+
+^LastQuarter^Triwulan Terakhir^LastQuarter^
+
+^LastWeek^Minggu Terakhir^LastWeek^
+
+^LastYear^Tahun Terakhir^LastYear^
+
+^Less^Kurang^Less^
+
+^LessThan^Kurang Dari^LessThan^
+
+^LessThanOrEqual^Kurang dari atau sama^LessThanOrEqual^
+
+^Lichen^Lichen^Lichen^
+
+^LightTheme^Cahaya^LightTheme^
+
+^Line^Garis^Line^
+
+^List^Daftar^List^
+
+^ListOneColumn^Daftar (Satu Kolom)^ListOneColumn^
+
+^ListViewStyle^Daftar^ListViewStyle^
+
+^Loading^Loading ...^Loading^
+
+^Logical^Logis^Logical^
+
+^LoginButton^Login^LoginButton^
+
+^LoginLink^Login^LoginLink^
+
+^Logout^Keluar^Logout^
+
+^LookupInstruction^Silakan pilih <b>{0}</b> dalam daftar.^LookupInstruction^
+
+^LookupOriginalSelection^Seleksi awal adalah <b>&quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^mengelola Akun^ManageAccounts^
+
+^Map^Peta^Map^
+
+^MatchAll^Cocok dengan semua kondisi^MatchAll^
+
+^MatchAllPastTense^Cocok semua kondisi^MatchAllPastTense^
+
+^MatchAny^Sesuai dengan kondisi setiap^MatchAny^
+
+^MatchAnyPastTense^Cocok syarat apapun^MatchAnyPastTense^
+
+^Matched^Cocok^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Maksimum {0}^MaxAggregateToolTip^
+
+^Maximize^Memperluas^Maximize^
+
+^MaximumOf^Maksimum^MaximumOf^
+
+^Medium^Medium^Medium^
+
+^Menu^Menu^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^Minimal {0}^MinAggregateToolTip^
+
+^Minimize^Runtuh^Minimize^
+
+^MinimumOf^Minimal^MinimumOf^
+
+^Mission^Misi^Mission^
+
+^ModeBrowsing^Makan rumput^ModeBrowsing^
+
+^ModeEditing^Suntingan^ModeEditing^
+
+^ModeEntering^Memasuki^ModeEntering^
+
+^ModeLookup^Mencari^ModeLookup^
+
+^Modern^Modern^Modern^
+
+^ModernRose^Modern Rose^ModernRose^
+
+^ModeViewing^Melihat^ModeViewing^
+
+^Month^Bulan^Month^
+
+^More^Lebih^More^
+
+^MultiSelection^multi Seleksi^MultiSelection^
+
+^Municipal^Municipal^Municipal^
+
+^MyAccount^Akun Saya^MyAccount^
+
+^Never^Tak pernah^Never^
+
+^NewActionHeaderText^Baru^NewActionHeaderText^
+
+^NewItem^Barang baru^NewItem^
+
+^NewRow^Baris Baru^NewRow^
+
+^NewRowLink^Klik di sini untuk membuat rekor baru.^NewRowLink^
+
+^NewToolTip^Baru {0}^NewToolTip^
+
+^Next^Berikutnya^Next^
+
+^Next2^Berikutnya^Next2^
+
+^NextMonth^Berikutnya Bulan^NextMonth^
+
+^NextQuarter^Berikutnya Triwulan^NextQuarter^
+
+^NextWeek^Minggu Berikutnya^NextWeek^
+
+^NextYear^Berikutnya Tahun^NextYear^
+
+^No^Tidak ada^No^
+
+^NoMatches^Tidak ada yang cocok.^NoMatches^
+
+^None^tak satupun^None^
+
+^Noon^Tengah hari^Noon^
+
+^NoRecords^Tidak ada catatan ditemukan.^NoRecords^
+
+^NoteDeleteConfirm^Hapus?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^menghapus^NoteDeleteLabel^
+
+^NoteEditLabel^mengedit^NoteEditLabel^
+
+^NotEmpty^Tidak Kosong^NotEmpty^
+
+^NotMatched^(Tidak cocok)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^Nomor^Number^
+
+^NumberFilterText^Nomor Filter^NumberFilterText^
+
+^NumberIsExpected^Sejumlah diharapkan.^NumberIsExpected^
+
+^OdpCommitting^Mengunggah transaksi ...^OdpCommitting^
+
+^OdpDone^Selesai^OdpDone^
+
+^OdpDownloadingBlob^Mengunduh data biner untuk {0}...^OdpDownloadingBlob^
+
+^OdpDownloadingData^Mengunduh data untuk {0}...^OdpDownloadingData^
+
+^OdpInitializing^Inisialisasi ...^OdpInitializing^
+
+^OdpInvalidResponse^Respons dari server tidak valid.^OdpInvalidResponse^
+
+^OdpLastRefresh^Refresh terakhir: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Data belum di-refresh.^OdpNotRefreshed^
+
+^OdpOfflineState^Anda bekerja dalam mode offline.^OdpOfflineState^
+
+^OdpOnlineRequired^Diperlukan koneksi online.^OdpOnlineRequired^
+
+^OdpPending^Perubahan yang Ditangguhkan^OdpPending^
+
+^OdpReconRequired^Diperlukan rekonsiliasi^OdpReconRequired^
+
+^OdpReconTxDelete^Hapus perubahan ini dari log?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^Transaksi pending pertama yang dihapus dalam log.^OdpReconTxDeleted^
+
+^OdpRefresh^Segarkan Data^OdpRefresh^
+
+^OdpRefreshData^Segarkan Data^OdpRefreshData^
+
+^OdpRefreshLast^Data Diperbaharui^OdpRefreshLast^
+
+^OdpSave^Harap simpan semua perubahan.^OdpSave^
+
+^OdpSaveAndSync^Simpan semua perubahan dan pilih opsi Sinkronkan di menu konteks.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Server aplikasi tidak tersedia.^OdpServerUnavailable^
+
+^OdpStatus^Status^OdpStatus^
+
+^OdpSync^Sinkronkan^OdpSync^
+
+^OdpSynced^Disinkronkan^OdpSynced^
+
+^OdpSyncLast^Sinkronisasi Terakhir^OdpSyncLast^
+
+^OdpSyncLong^Sinkronisasi untuk mengunggah perubahan.^OdpSyncLong^
+
+^OdpSyncUploadFailed^Gagal mengunggah file {0}.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Mengunggah {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Tidak dapat menghapus. {1} item tergantung dalam {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Tidak dapat dieksekusi.^OdpUnableToExec^
+
+^OdpUnableToProcess^Tidak dapat memproses transaksi.^OdpUnableToProcess^
+
+^OdpUnableToSave^Tidak dapat menyimpan perubahan.^OdpUnableToSave^
+
+^OdpUploadFailed^Gagal mengunggah file.^OdpUploadFailed^
+
+^OdpUploadingFiles^Mengunggah file {0} ...^OdpUploadingFiles^
+
+^OK^OK^OK^
+
+^OnHover^pada Hover^OnHover^
+
+^OnOrAfter^Pada atau setelah^OnOrAfter^
+
+^OnOrBefore^Pada atau sebelum^OnOrBefore^
+
+^OpenActionHeaderText^Buka^OpenActionHeaderText^
+
+^Optional^Pilihan^Optional^
+
+^Orientation^Orientasi^Orientation^
+
+^Other^Yang Lainnya^Other^
+
+^Outdent^Outdent^Outdent^
+
+^Page^Halaman^Page^
+
+^Paragraph^Ayat^Paragraph^
+
+^Password^Sandi^Password^
+
+^Past^Masa lalu^Past^
+
+^Paste^Menempelkan^Paste^
+
+^Pen^Pena^Pen^
+
+^PerformAdvancedSearch^Pencarian^PerformAdvancedSearch^
+
+^Permalink^Permalink^Permalink^
+
+^PermalinkToolTip^Buat link permanen untuk catatan yang dipilih^PermalinkToolTip^
+
+^PermalinkUnavailable^Permalink tidak tersedia. Silakan pilih record.^PermalinkUnavailable^
+
+^Petal^Daun bunga^Petal^
+
+^Pinnate^Menyirip^Pinnate^
+
+^Plastic^Plastik^Plastic^
+
+^Portrait^Potret^Portrait^
+
+^PresentationStyle^Pilih gaya penyajian data.^PresentationStyle^
+
+^Prev2^Prev^Prev2^
+
+^Previous^Sebelumnya^Previous^
+
+^PromoteActions^Mempromosikan tindakan^PromoteActions^
+
+^Q1^Q1^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^Perempat^Quarter^
+
+^Quarter1^Triwulan 1^Quarter1^
+
+^Quarter2^Kuartal 2^Quarter2^
+
+^Quarter3^Triwulan 3^Quarter3^
+
+^Quarter4^Triwulan 4^Quarter4^
+
+^QuickFindDescription^Mencari {0}^QuickFindDescription^
+
+^QuickFindScope^Cari di ...^QuickFindScope^
+
+^QuickFindText^Cari Cepat^QuickFindText^
+
+^QuickFindToolTip^Ketik untuk mencari catatan dan tekan Enter^QuickFindToolTip^
+
+^Quotation^Kutipan^Quotation^
+
+^Reading^Bacaan...^Reading^
+
+^ReadingPane^Panel Baca^ReadingPane^
+
+^ReadOnly^{0} bersifat hanya-baca.^ReadOnly^
+
+^Recent^Baru-baru^Recent^
+
+^Redo^Redo^Redo^
+
+^Refresh^Menyegarkan^Refresh^
+
+^Refreshed^Disegarkan^Refreshed^
+
+^RememberMe^Ingat saya waktu berikutnya^RememberMe^
+
+^RemoveCondition^Hapus Kondisi^RemoveCondition^
+
+^RemoveFormat^Hapus Format^RemoveFormat^
+
+^ReportActionDescription^Render laporan dalam format PDF^ReportActionDescription^
+
+^ReportActionHeaderText^Laporan^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Lihat item dalam spreadsheet Excel formatted<br/>Microsoft.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Spreadsheet^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Lihat item sebagai gambar TIFF multipage.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Gambar multipage^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Lihat item seperti Adobe PDF reader yang kompatibel document.<br/>Requires.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^Dokumen PDF^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Lihat item dalam dokumen Word formatted<br/>Microsoft.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Wajib^Required^
+
+^RequiredField^Bidang ini diperlukan.^RequiredField^
+
+^RequiredFiledMarkerFootNote^menunjukkan bidang yang diperlukan^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Ulang^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Reset kondisi pencarian?^ResetSearchConfirm^
+
+^ResolvingReferences^menyelesaikan referensi^ResolvingReferences^
+
+^ResumeBrowsing^Lanjutkan Browsing^ResumeBrowsing^
+
+^ResumeEditing^Lanjutkan Editing^ResumeEditing^
+
+^ResumeEntering^Lanjutkan Memasuki^ResumeEntering^
+
+^ResumeLookup^Lanjutkan Lookup^ResumeLookup^
+
+^ResumeViewing^Lanjutkan Melihat^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Peran^RolesTab^
+
+^RootNodeText^Top Level^RootNodeText^
+
+^Rotate^Memutar^Rotate^
+
+^RowCancelActionHeaderText^Membatalkan^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Menyisipkan^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Simpan^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Update?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Pembaruan Seleksi^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Simpan^Save^
+
+^SaveAndContinue^Simpan dan Lanjutkan^SaveAndContinue^
+
+^SaveAndNew^Simpan dan Baru^SaveAndNew^
+
+^Saved^Disimpan - {0}^Saved^
+
+^ScanToConfirm^Harap pindai lagi untuk mengonfirmasi.^ScanToConfirm^
+
+^SeeAll^Tampilkan Semua^SeeAll^
+
+^SeeAlso^Lihat Juga^SeeAlso^
+
+^SelectActionHeaderText^Pilih^SelectActionHeaderText^
+
+^SelectAll^Pilih Semua^SelectAll^
+
+^SelectItem^Pilih Item^SelectItem^
+
+^SelectLink^(Pilih)^SelectLink^
+
+^SelectRow^Pilih Row^SelectRow^
+
+^SelectToolTip^Pilih {0}^SelectToolTip^
+
+^Separator^Alat pemisah^Separator^
+
+^Settings^Pengaturan^Settings^
+
+^Show^Menunjukkan^Show^
+
+^ShowAdvancedSearch^Tampilkan Advanced Search^ShowAdvancedSearch^
+
+^ShowChart^Tampilkan Bagan^ShowChart^
+
+^ShowData^Tampilkan data^ShowData^
+
+^ShowingItems^Menampilkan <b>{0}</b> <b>{1}</b>-item <b>{2}</b>^ShowingItems^
+
+^ShowingItemsInfo^Menampilkan {0} item.^ShowingItemsInfo^
+
+^ShowingItemsRange^Menampilkan {0} dari {1} item^ShowingItemsRange^
+
+^ShowLess^Tampilkan Kurang^ShowLess^
+
+^ShowMore^Menampilkan lebih banyak^ShowMore^
+
+^ShowOptions^Tampilkan Pilihan^ShowOptions^
+
+^ShowSystemButtons^Tombol Tampilkan Sistem^ShowSystemButtons^
+
+^Sidebar^Sidebar^Sidebar^
+
+^Sign^Masuk di sini^Sign^
+
+^SignedOut^Keluar^SignedOut^
+
+^SignUpNow^Mendaftar sekarang^SignUpNow^
+
+^Simple^Sederhana^Simple^
+
+^SiteActions^Tindakan Situs^SiteActions^
+
+^SizeLabel^Ukuran^SizeLabel^
+
+^Small^Kecil^Small^
+
+^Social^Sosial^Social^
+
+^Sort^Mengatur^Sort^
+
+^SortBy^Urut berdasarkan {0}^SortBy^
+
+^SortByField^Pilih kolom untuk mengubah urutan dari <b>{0}</b>.^SortByField^
+
+^SortByOptions^Pilih tata urutan <b>{0}</b> oleh lapangan <b>{1}</b> dalam daftar pilihan di bawah ini.^SortByOptions^
+
+^Sorted^Diurutkan^Sorted^
+
+^SortedDefault^Urutan sortir default^SortedDefault^
+
+^StartImport^Mulai Impor^StartImport^
+
+^StrikeThrough^Mogok Melalui^StrikeThrough^
+
+^StringSortAscending^Ascending^StringSortAscending^
+
+^StringSortDescending^Descending^StringSortDescending^
+
+^Submit^Menyerahkan^Submit^
+
+^Subscript^Sub Script^Subscript^
+
+^Suggestions^Saran^Suggestions^
+
+^SumAggregate^Sum: {0}^SumAggregate^
+
+^SumAggregateToolTip^Jumlah {0}^SumAggregateToolTip^
+
+^Summary^Ringkasan^Summary^
+
+^Summer^Musim panas^Summer^
+
+^SumOf^Jumlah^SumOf^
+
+^Superscript^Super Script^Superscript^
+
+^Sync^Sync^Sync^
+
+^TaskResume^Terus^TaskResume^
+
+^Tasks^Tugas^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^abc^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^catatan pengujian^TestingRecords^
+
+^Text^Teks^Text^
+
+^TextFilterText^Teks Filter^TextFilterText^
+
+^Theme^Tema^Theme^
+
+^ThisMonth^Bulan ini^ThisMonth^
+
+^ThisQuarter^Triwulan ini^ThisQuarter^
+
+^ThisWeek^Minggu ini^ThisWeek^
+
+^ThisYear^Tahun ini^ThisYear^
+
+^Tiny^Mungil^Tiny^
+
+^Today^Hari ini^Today^
+
+^Tomorrow^Besok^Tomorrow^
+
+^Top^bagian atas^Top^
+
+^ToThisWebsite^untuk website ini^ToThisWebsite^
+
+^TouchUINotSupported^Touch UI tidak didukung dalam browser ini.^TouchUINotSupported^
+
+^TransitionFade^Luntur^TransitionFade^
+
+^TransitionFlip^Penerjunan^TransitionFlip^
+
+^TransitionFlow^Arus^TransitionFlow^
+
+^TransitionNone^Tak satupun^TransitionNone^
+
+^TransitionPop^Pop^TransitionPop^
+
+^Transitions^Transisi^Transitions^
+
+^TransitionSlide^Meluncur^TransitionSlide^
+
+^TransitionSlideDown^Geser Bawah^TransitionSlideDown^
+
+^TransitionSlideUp^Slide Up^TransitionSlideUp^
+
+^TransitionTurn^Giliran^TransitionTurn^
+
+^TreeActionDescription^Tampilan hubungan hirarkis.^TreeActionDescription^
+
+^TreeActionHeaderText^Tampilkan Hirarki^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Dapatkan Kode Verifikasi^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Aplikasi Authenticator^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Jika Anda tidak dapat memberikan kode verifikasi, masukkan kode cadangan sebagai gantinya.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^kode satu kali^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Kode Cadangan^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Panggilan dilakukan ke^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^Email telah dikirim ke^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^Pesan teks dikirim ke^TwoFaCodeSentSms^
+
+^TwoFaConsent^Izin^TwoFaConsent^
+
+^TwoFaEnterPassword^Masukkan kata sandi Anda^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Hubungi saya di^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^saya akan hubungi^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^Email saya ke^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^SMS saya di^TwoFaGetCodeSms^
+
+^TwoFaMethod^metode^TwoFaMethod^
+
+^TwoFaMsgChanged^Otentikasi 2-Faktor telah diubah.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^Otentikasi 2-Faktor telah dinonaktifkan.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Nonaktifkan otentikasi dua faktor?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^Otentikasi 2-Faktor telah diaktifkan.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Silakan masukkan kode verifikasi {0} digit.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Kata sandi salah.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Kode verifikasi tidak benar.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 adalah {0} kode verifikasi Anda.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^Saya tidak dapat memindai kode QR.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Saya butuh bantuan untuk menginstal aplikasi authenticator.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Saya memiliki aplikasi autentikator di perangkat seluler.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^Kode cadangan sekali pakai akan memungkinkan Anda untuk masuk jika Anda tidak dapat memberikan kode verifikasi.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Kode Cadangan^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Saya akan memasukkan kode verifikasi setelah berhasil masuk.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Masukkan kunci pengaturan di aplikasi^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Metode Verifikasi^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Pindai kode QR dengan kamera^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Pindai kode QR di aplikasi^TwoFaSetupScanQrCode^
+
+^TwoFaText^Otentikasi 2-Faktor^TwoFaText^
+
+^TwoFaTrustThisDevice^Percayai perangkat ini^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Kode verifikasi^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Saya akan menggunakan aplikasi authenticator untuk mendapatkan kode verifikasi.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Saya akan menerima panggilan otomatis di ponsel saya.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Kode verifikasi akan dikirimkan melalui email.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Kode verifikasi akan dikirimkan melalui pesan teks.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Ketik untuk Cari^TypeToSearch^
+
+^Underline^Menggarisbawahi^Underline^
+
+^Undo^Merusak^Undo^
+
+^Undock^Memutuskan^Undock^
+
+^Unfreeze^Mencairkan^Unfreeze^
+
+^UnGrouped^Pengelompokan telah dihapus^UnGrouped^
+
+^UnLink^Memutuskan^UnLink^
+
+^UnSelect^Menghapus pilihan^UnSelect^
+
+^UpdateActionHeaderText^OK^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Update?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Pembaruan Seleksi^UpdateActionInBatchModeHeaderText^
+
+^Upload^Unggah^Upload^
+
+^UploadDescription^Unggah banyak file.^UploadDescription^
+
+^Uploading^Mengunggah {0}...^Uploading^
+
+^UpOneLevel^Naik Satu Tingkat^UpOneLevel^
+
+^UseLEV^Tempel &quot;{0}&quot;^UseLEV^
+
+^UserName^Nama Pengguna^UserName^
+
+^UsersInRole^Pengguna di Peran^UsersInRole^
+
+^UsersTab^Pengguna^UsersTab^
+
+^Vantage^Keuntungan^Vantage^
+
+^Verdant^Hijau^Verdant^
+
+^Verify^Memeriksa^Verify^
+
+^View^Lihat^View^
+
+^Viewpoint^Sudut pandang^Viewpoint^
+
+^Wait^Mohon tunggu...^Wait^
+
+^Week^Minggu^Week^
+
+^Welcome1^Selamat Datang di^Welcome1^
+
+^Welcome2^Hari ini^Welcome2^
+
+^WhiteSmoke^Asap putih^WhiteSmoke^
+
+^WithSelectedValues10^Dengan Nilai yang Dipilih (Top 10)^WithSelectedValues10^
+
+^WithSelectedValues5^Dengan Nilai yang Dipilih (Top 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^Dengan Filter Tertentu^WithSpecifiedFilters^
+
+^Year^Tahun^Year^
+
+^YearToDate^Tahun ke Tanggal^YearToDate^
+
+^Yes^Ya^Yes^
+
+^Yesterday^Kemarin^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Memperbesar^ZoomIn^
+
+^ZoomOut^Perkecil^ZoomOut^
+

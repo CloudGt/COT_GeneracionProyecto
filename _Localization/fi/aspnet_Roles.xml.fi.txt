@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Luo uusi jäsenyys Rooli ennätys.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Uusi rooli^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Uusi^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Täytä lomake. Muista kirjoittaa kaikki vaaditut kentät.^CreateFormCategory^
+
+^CreateFormHeaderText^Täytä lomake ja napsauta OK-painiketta luodaksesi uuden jäsenyyden rooleja ennätys. Valitsemalla Peruuta voit palata edelliseen näyttöön.^CreateFormHeaderText^
+
+^DescriptionLabel^Kuvaus^DescriptionLabel^
+
+^EditViewCategory^Nämä ovat aloja jäsenyyden merkitys ennätys, jota voidaan muokata.^EditViewCategory^
+
+^EditViewHeaderText^Lue jäsenyys roolit alla. Klikkaa Muokkaa muuttaa tätä tietueen valitsemalla Poista voit poistaa tietueen tai valitse Peruuta / Sulje palataksesi takaisin.^EditViewHeaderText^
+
+^GridViewHeaderText^Tämä on lista jäsenyyden rooleja.^GridViewHeaderText^
+
+^RoleNameLabel^Rooli nimi^RoleNameLabel^
+

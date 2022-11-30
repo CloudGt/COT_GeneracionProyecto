@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Pripisovanje pripomb^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b>{1}</b> Pritrjena na {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Attachment^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Vpišite neobvezno opombe in priložite datoteke.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Opombe in priloge^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Pisno na {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Notes^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Notes^AnnotationTab^
+
+^BlobClearConfirm^Jasno?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Je izpraznjen.^BlobCleared^
+
+^BlobClearText^Počisti^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Ni bilo mogoče naložiti {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Kliknite^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^tukaj^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^za nalaganje in brisanje datotek {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Je bila uspešno prenesena. <b>It Lahko traja do {1} minut z ikonami, da odraža naložili content.</b>^BlobUploded^
+
+^Copyright^Vse pravice pridržane.^Copyright^
+
+^RecordChangedByAnotherUser^Zapis je bil spremenjen drug uporabnik.^RecordChangedByAnotherUser^
+

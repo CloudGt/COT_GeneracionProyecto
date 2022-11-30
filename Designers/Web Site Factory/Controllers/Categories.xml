@@ -1,0 +1,242 @@
+<dataController name="Categories" conflictDetection="overwriteChanges" label="Categories"  handler="CodeOnTime.Designer.DesignerBusinessRules"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium">
+  <commands>
+    <command id="command1" type="Text">
+      <query href="Controllers.xml" select="//a:category" sort="Controller,ViewId" dependencies="//a:dataField,//a:expression[parent::a:visibility/parent::a:dataField],//a:expression[parent::a:visibility/parent::a:category]"/>
+      <template select="//a:dataController[@name=$Controller]/a:views/a:view[@id=$ViewId]/a:categories">
+        <category xmlns="urn:schemas-codeontime-com:data-aquarium" id="{generate-id('CategoryId')}">
+          <dataFields/>
+        </category>
+      </template>
+    </command>
+  </commands>
+  <fields>
+    <field name="CategoryId" type="String" select="@id" allowNulls="false" label="Id" readOnly="true" isPrimaryKey="true"/>
+    <field name="ViewId" type="String" select="ancestor::a:view[1]/@id" allowNulls="false" isPrimaryKey="true" label="View" contextFields="Controller" readOnly="true">
+      <items style="Lookup" dataController="Views" newDataView="createForm1" dataValueField="ViewId" dataTextField="ViewId"/>
+    </field>
+    <field name="Controller" type="String" select="ancestor::a:dataController[1]/@name" allowNulls="true" isPrimaryKey="true" readOnly="true">
+      <items style="Lookup" dataController="Controllers" newDataView="createForm1" dataValueField="Name" dataTextField="Name"/>
+    </field>
+    <field name="HeaderText" type="String" select="@headerText" allowNulls="true" label="Header Text">
+      <!--<validate>
+				<expression type="RegularExpression" test="^[^\&amp;\?]+$" result="Only alpha-numeric characters and spaces are allowed."/>
+			</validate>-->
+    </field>
+    <!--<field name="Category" type="String" select="@headerText" />-->
+    <field name="Description" type="String" select="a:description" allowNulls="true" label="Description" />
+    <field name="Flow" type="String" select="@flow" allowNulls="true" label="Flow">
+      <items style="DropDownList">
+        <item value="" text="(auto)"/>
+        <item value="NewColumn" text="New Column"/>
+        <item value="NewRow" text="New Row"/>
+      </items>
+    </field>
+    <!--<field name="NewColumn" type="Boolean" select="@newColumn" allowNulls="true" label="New Column" />
+    <field name="NewRow" type="Boolean" select="@newRow" allowNulls="true" label="New Row" />-->
+    <field name="Wrap" type="Boolean" select="@wrap" allowNulls="true" label="Wrap" />
+    <field name="Tab" type="String" select="@tab" allowNulls="true" label="Tab"/>
+    <field name="Wizard" type="String" select="@wizard" allowNulls="true" label="Wizard"/>
+    <field name="Floating" type="String" select="@floating" allowNulls="true" label="Floating">
+      <items style="DropDownList">
+        <item text="Auto" value=""/>
+        <item text="Yes" value="true"/>
+        <item text="No" value="false"/>
+      </items>
+    </field>
+    <field name="Template" type="String" select="a:template" allowNulls="true" label="Template" />
+    <field name="Collapsed" type="Boolean" select="@collapsed" allowNulls="true" label="Collapsed" />
+    <field name="Visibility" type="String" select="a:visibility/a:expression/@test" readOnly="false" label="Visible When"/>
+  </fields>
+  <views>
+    <view id="grid1" type="Grid" commandId="command1" label="Categories">
+      <headerText>
+        <![CDATA[
+        <span class="HelpLink" title="Learn to work with Categories" onclick="$openUrl('http://codeontime.com/learn/development/project-designer/categories')"></span>
+		This is a list of data field categories in the view. Categories are supported in form views only.
+    ]]>
+      </headerText>
+      <dataFields>
+        <dataField fieldName="CategoryId" hidden="true"/>
+        <dataField fieldName="HeaderText"/>
+        <!--<dataField fieldName="Category" hidden="true"/>-->
+        <dataField fieldName="ViewId" />
+        <dataField fieldName="Controller"/>
+        <dataField fieldName="Flow"/>
+        <!--<dataField fieldName="NewColumn"/>
+        <dataField fieldName="NewRow"/>-->
+        <dataField fieldName="Tab"/>
+        <dataField fieldName="Wizard"/>
+        <dataField fieldName="Floating"/>
+        <dataField fieldName="Wrap"/>
+        <dataField fieldName="Collapsed"/>
+        <dataField fieldName="Visibility"/>
+        <dataField fieldName="Description"/>
+      </dataFields>
+    </view>
+    <view id="editForm1" type="Form" commandId="command1" label="Category">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about Categories" onclick="$openUrl('http://codeontime.com/learn/data-controllers/categories/overview')"></span>
+        Click OK to save the category, or click Cancel to undo changes or return back.]]>
+      </headerText>
+      <categories>
+        <category headerText="General">
+          <description>Specify a header and description for this category.</description>
+          <dataFields>
+            <dataField fieldName="HeaderText"/>
+            <dataField fieldName="CategoryId" readOnly="true"  hyperlinkFormatString="javascript:window.external.SyncAndRename()" toolTip="Click here to change the 'Id' of the Category."/>
+            <!--<dataField fieldName="Category" hidden="true"/>-->
+            <dataField fieldName="Description" columns="50" rows="4"/>
+            <dataField fieldName="ViewId"/>
+            <dataField fieldName="Controller"/>
+          </dataFields>
+        </category>
+        <category headerText="Rendering">
+          <description>
+            <![CDATA[
+						If property <i>Flow</i> is set to <i>New Column</i> then the category is rendered in the new column. 
+            Value <i>New Row</i> will start a new sequence of categories. <br/><br/>
+            Specifying the <i>Tab</i> will display a bar of tabs and will make the category visible only when the tab is selected. Categories with the same <i>Tab</i> are grouped under the tab.<br/><br/>
+            You can force the category data fields to float from left to right by setting <i>Floating</i> to <i>Yes</i>.<br/><br/>
+            Field labels are always displayed above values if <i>Wrap</i> is set to <i>Yes</i>.<br/><br/>
+						View <a href="javascript:" onclick="return $openUrl('http://codeontime.com/blog/2009/09/building-aspnetajax-forms-with-code')" target="_blank">tutorial</a> about category rendering modes.
+            <br/><br/>Enter a <i>JavaScript</i> expression in <i>Visible When</i> field to allow conditional display of the category. The expression must evaluate as <i>true</i> if the category is visibile. Use square brackets to reference the data field values in the expression.
+						]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Flow"/>
+            <!--<dataField fieldName="NewColumn"/>
+            <dataField fieldName="NewRow"/>-->
+            <dataField fieldName="Tab"/>
+            <dataField fieldName="Wizard"/>
+            <dataField fieldName="Floating"/>
+            <dataField fieldName="Wrap"/>
+            <dataField fieldName="Collapsed"/>
+            <dataField fieldName="Visibility" columns="50" rows="4"/>
+          </dataFields>
+        </category>
+        <!--<category headerText="Template">
+					<description><![CDATA[Specify the category template if you need to customize presentation of template data fields. Refer to the category data field names by placing a field name in curly brackets.]]></description>
+					<dataFields>
+						<dataField fieldName="Template" columns="50" rows="4"/>
+					</dataFields>
+				</category>-->
+      </categories>
+    </view>
+    <view id="createForm1" type="Form" commandId="command1" label="New Category">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about Categories" onclick="$openUrl('http://codeontime.com/learn/data-controllers/categories/overview')"></span>
+        Please fill this form and click OK button to create a new category. Click Cancel to return to the previous screen.]]>
+      </headerText>
+      <categories>
+        <category headerText="General">
+          <description>Specify a header and description for this category.</description>
+          <dataFields>
+            <dataField fieldName="CategoryId" hidden="true"/>
+            <dataField fieldName="Controller" readOnly="false"/>
+            <dataField fieldName="ViewId" readOnly="false"/>
+            <dataField fieldName="HeaderText"/>
+            <dataField fieldName="Description" columns="50" rows="4"/>
+          </dataFields>
+        </category>
+        <category headerText="Rendering">
+          <description>
+            <![CDATA[
+												If property <i>Flow</i> is set to <i>New Column</i> then the category is rendered in the new column. 
+            Value <i>New Row</i> will start a new sequence of categories. <br/><br/>
+            Specifying the <i>Tab</i> will display a bar of tabs and will make the category visible only when the tab is selected. Categories with the same <i>Tab</i> are grouped under the tab.<br/><br/>
+            Field labels are always displayed above values if <i>Wrap</i> is set to <i>Yes</i>.<br/><br/>
+            View <a href="javascript:" onclick="return $openUrl('http://codeontime.com/blog/2009/09/building-aspnetajax-forms-with-code')" target="_blank">tutorial</a> about category rendering modes.
+            <br/><br/>Enter a <i>JavaScript</i> expression in <i>Visible When</i> field to allow conditional display of the category. The expression must evaluate as <i>true</i> if the category is visibile. Use square brackets to reference the data field values in the expression.
+						]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Flow"/>
+            <!--<dataField fieldName="NewColumn"/>
+            <dataField fieldName="NewRow"/>-->
+            <dataField fieldName="Tab"/>
+            <dataField fieldName="Wizard"/>
+            <dataField fieldName="Floating"/>
+            <dataField fieldName="Wrap"/>
+            <dataField fieldName="Collapsed"/>
+            <dataField fieldName="Visibility" columns="50" rows="4"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+  </views>
+  <actions>
+    <!--<actionGroup scope="Grid">
+      -->
+    <!--<action commandName="Select" commandArgument="editForm1" />-->
+    <!--
+      <action commandName="Navigate" commandArgument="Category.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;TheHeaderText={HeaderText}" headerText="View"/>
+      <action commandName="Edit" />
+      <action commandName="Delete" confirmation="Delete?" />
+      <action/>
+      <action commandName="Custom" commandArgument="MakeFirst" headerText="Make First"/>
+      <action commandName="Custom" commandArgument="MoveUp" headerText="Move Up"/>
+      <action commandName="Custom" commandArgument="MoveDown" headerText="Move Down"/>
+      <action commandName="Custom" commandArgument="MakeLast" headerText="Make Last"/>
+      <action/>
+      <action commandName="Select" commandArgument="editForm1" headerText="Properties"/>
+      -->
+    <!--<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+    <!--
+    </actionGroup>-->
+    <actionGroup scope="Grid">
+      <action commandName="Navigate" commandArgument="Category.htm?_returnController=Categories&amp;Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;TheHeaderText={HeaderText}" headerText="Open"/>
+      <action commandName="ClientScript" commandArgument="__syncDesigner(this)" headerText="Sync" cssClass="SyncIcon"/>
+      <action commandName="Edit" />
+      <action commandName="Select" commandArgument="editForm1" headerText="View"/>
+    </actionGroup>
+    <actionGroup scope="Form">
+      <action commandName="Edit" />
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <action commandName="Cancel" headerText="Close" />
+      <action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+      <!--<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />-->
+      <action whenLastCommandName="Edit" commandName="Cancel" />
+      <action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+      <action whenLastCommandName="New" commandName="Cancel" />
+    </actionGroup>
+    <actionGroup scope="ActionBar" headerText="New">
+      <action commandName="New" commandArgument="createForm1" headerText="New Category" description="Create a new view category." />
+    </actionGroup>
+    <!--<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+      <action commandName="Custom" commandArgument="Preview" headerText="Quick View" description="Preview the data controller."  />
+    </actionGroup>-->
+    <!--<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+      -->
+    <!--<action commandName="Custom" commandArgument="MakeFirst" headerText="First" whenKeySelected="true" whenView="grid1" cssClass="MakeFirstIcon"/>-->
+    <!--
+      <action commandName="Custom" commandArgument="MoveUp" headerText="Up" whenKeySelected="true" whenView="grid1" cssClass="MoveUpIcon"/>
+      <action commandName="Custom" commandArgument="MoveDown" headerText="Down" whenKeySelected="true" whenView="grid1" cssClass="MoveDownIcon"/>
+      -->
+    <!--<action commandName="Custom" commandArgument="MakeLast" headerText="Last" whenKeySelected="true" whenView="grid1" cssClass="MakeLastIcon"/>-->
+    <!--
+    </actionGroup>-->
+    <!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+    <actionGroup scope="ActionBar" headerText="Record">
+      <action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+      <action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+    </actionGroup>
+    <actionGroup id="sync01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncDesigner()" headerText="Sync" cssClass="SyncIcon" description="Synchronize with Explorer (Ctrl+.)"/>
+    </actionGroup>
+    <actionGroup id="ag8" scope="Row">
+      <action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+      <action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+    </actionGroup>
+  </actions>
+  <businessRules>
+  </businessRules>
+</dataController>

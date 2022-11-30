@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Code OnTime Designer</title>
+
+    <script type="text/javascript" language="javascript" src="../../_System/CodeOnTime.Designer.js"></script>
+
+    <script type="text/javascript" language="javascript">
+
+        function pageLoad() {
+            if (!document.body) return;
+            initializeDesigner('Control');
+            createTabbedControllers('Placeholder', [
+                new CodeOnTime.DesignerTab('Control', 'Controls', [
+                    { 'name': 'startCommandName', 'value': 'Edit' },
+                    { 'name': 'startCommandArgument', 'value': 'editForm1' },
+                    { 'name': 'hideExternalFilterFields', 'value': false },
+                    { 'name': 'backOnCancel', 'value': true },
+                    $cookie()])
+                ]);
+            $find('ControlsExtender').raiseSelected();
+
+        }
+
+    </script>
+
+</head>
+<body>
+    <!-- page body -->
+    <div id="Main" title="Control">
+        <div id="Placeholder">
+        </div>
+    </div>
+</body>
+</html>

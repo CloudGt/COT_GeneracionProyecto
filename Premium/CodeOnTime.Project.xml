@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project xmlns="http://www.codeontime.com/2008/code-generator"
+         xmlns:ontime="http://www.codeontime.com/2008/code-generator"
+         xmlns:a="urn:schemas-codeontime-com:data-aquarium-project"
+         xmlns:c="urn:schemas-codeontime-com:data-aquarium"
+         debug="false"
+>
+	<information>
+		<product>COT201004-PRM</product>
+		<title>Code OnTime Premium</title>
+		<description>Code OnTime Prepmium</description>
+		<vendor>Code OnTime LLC</vendor>
+		<website>http://www.codeontime.com</website>
+		<about>http://www.codeontime.com/products</about>
+		<demo>http://www.codeontime.com/demo</demo>
+	</information>
+  <build>
+    <navigate url="http://www.codeontime.com/products.aspx?5454376c-09cc-4b83-85e6-8b9d2b9d4c4e"/>
+  </build>
+	<actions>
+	</actions>
+</project>

@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Chú thích^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Thuộc <b>{1}</b> tại {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Tập tin đính kèm^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Nhập các ghi chú tùy chọn và đính kèm các tập tin.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Ghi chú và file đính kèm^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Viết tại {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Ghi chú^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Ghi chú^AnnotationTab^
+
+^BlobClearConfirm^Rõ ràng không?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Đã bị xóa.^BlobCleared^
+
+^BlobClearText^Rõ ràng^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Không tải lên {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Nhấp vào^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^ở đây^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^tải lên hoặc xóa các tập tin {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Đã được tải lên thành công. <b>It Có thể mất đến phút {1} cho hình nhỏ để phản ánh content.</b> tải lên^BlobUploded^
+
+^Copyright^Tất cả các quyền.^Copyright^
+
+^RecordChangedByAnotherUser^Biên bản đã được thay đổi bởi người dùng khác.^RecordChangedByAnotherUser^
+

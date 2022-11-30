@@ -1,0 +1,11 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings defined
+in TableOfContents.html project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^TocHeader^Sơ đồ trang web^TocHeader^
+
+^TocInstruction^Hãy lựa chọn một liên kết trang trong bảng nội dung dưới đây.^TocInstruction^
+

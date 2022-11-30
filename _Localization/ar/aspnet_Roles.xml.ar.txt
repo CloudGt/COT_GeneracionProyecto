@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^إنشاء دور عضوية جديدة قياسية.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^دور جديد^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^جديد^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^استكمال النموذج. تأكد من إدخال جميع الحقول المطلوبة.^CreateFormCategory^
+
+^CreateFormHeaderText^يرجى ملء هذا النموذج وانقر على زر موافق لإنشاء رقما قياسيا جديدا في الأدوار عضوية. فوق إلغاء للعودة الى الشاشة السابقة.^CreateFormHeaderText^
+
+^DescriptionLabel^وصف^DescriptionLabel^
+
+^EditViewCategory^هذه هي مجالات عضوية السجل الدور الذي يمكن تحريرها.^EditViewCategory^
+
+^EditViewHeaderText^يرجى مراجعة المعلومات الواردة أدناه عضوية الأدوار. انقر على تحرير لتغيير هذا السجل ، انقر فوق حذف لحذف السجل ، أو انقر فوق إلغاء / إغلاق للعودة الى الوراء.^EditViewHeaderText^
+
+^GridViewHeaderText^هذه هي قائمة من الأدوار عضوية.^GridViewHeaderText^
+
+^RoleNameLabel^دور الاسم^RoleNameLabel^
+

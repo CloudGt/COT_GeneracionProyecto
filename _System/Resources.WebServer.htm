@@ -1,0 +1,130 @@
+﻿<!-- 
+    Resource page body children are automatically exctracted by CodeOnTime.Client.loadResource 
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title></title>
+    <link href="CodeOnTime.css" type="text/css" rel="Stylesheet" />
+</head>
+<body>
+    <!-- "Web Server" Dialog -->
+    <div id="WebServerDialog" title="Web Server">
+        <div class="Content ContentBar">
+            Please specify application execution preferences.</div>
+        <div class="Heading Logo">
+            Client
+            <div class="Icon MobileWeb">
+            </div>
+        </div>
+        <div class="Content" id="WebServerDialog_WebServceParameters">
+            <div>
+                You may choose to test the generated application right after the completion of code generation. This
+                feature requires <a href='http://www.microsoft.com/download/en/details.aspx?id=1038' target="_blank"
+                    title="Download IIS Express">IIS Express</a> installed on your computer.
+            </div>
+            <div class="Field">
+                <label class="Label">
+                    Application Execution:</label>
+                <input type="checkbox" id="WebServerDialog_WebServerRun" onclick="CodeOnTime.Client.refreshWebServerDialog()" /><label for="WebServerDialog_WebServerRun">Run
+                    application upon completion of code generation in:</label>
+            </div>
+            <div id="PreviewOptions">
+                <div class="Field">
+                    <select id="WebServerDialog_Preview" onchange="CodeOnTime.Client.refreshWebServerDialog()">
+                        <option value="Browser">Web Browser</option>
+                        <option value="UMA" class="WebServerDialog_Preview_App">Generic App</option>
+                        <option value="CMA" class="WebServerDialog_Preview_App">Custom App</option>
+                    </select>
+                </div>
+                <div class="Field " id="WebServerDialog_Client">
+                    <label class="label" for="WebServerDialog_Client_W7" onclick="CodeOnTime.Client.refreshWebServerDialog()"><input type="radio" name="WebServerDialog_Client" id="WebServerDialog_Client_W7" value="W7" />Chromium Embedded Framework for x86 platform</label>
+                    <label class="label" for="WebServerDialog_Client_W10" onclick="CodeOnTime.Client.refreshWebServerDialog()"><input type="radio" name="WebServerDialog_Client" id="WebServerDialog_Client_W10" value="W10" /> Universal Windows Platform</label>
+                </div> 
+                <span class="info" id="WebServerDialog_Preview_Desc">
+                    <span id="WebServerDialog_PreviewDesc_None">Application will not run on the local computer.</span>
+                    <span id="WebServerDialog_PreviewDesc_Browser">The default <b style="cursor:default" title="Works with Chrome, FireFox, Safari, Firefox, Edge, and Internet Explorer 11.">web browser</b> of the operating system is the front-end of this application.</span>
+                    <span id="WebServerDialog_PreviewDesc_UMAW7"><b>Cloud On Time for Windows</b> is the front-end of this application. Runs on Windows 7, Windows Server 2008, and above.</span>
+                    <span id="WebServerDialog_PreviewDesc_UMAW10"><b>Cloud On Time</b> from Microsoft Store is the front-end of this application. Runs on Windows 10 and above.</span>
+                    <span id="WebServerDialog_PreviewDesc_CMAW7">Custom branded <b>native app for x86 platform</b> with embedded Chromium engine is the front-end of this application.</span>
+                    <span id="WebServerDialog_PreviewDesc_CMAW10">Custom branded <b>Universal Windows Platform app</b> is the front-end of this application. Requires Windows 10 and above.</span>
+                </span>
+                <br />
+                <span class="warning" id="WebServerDialog_AppRequiresTouchUIHTML">
+                    Native apps require <b>Touch UI</b> and <b>Single Page Apps (*.html)</b> page implementation.
+                </span>
+                <div style="padding-top: 6px">Generic and custom apps pre-load required application files directly on the device for enhanced performance. 
+                Optional disconnected mode with offline data input is supported. 
+                Deploy your application and use the <b>Publish / App Store</b> configuration settings to access production versions of native apps for iOS, Android, Windows, and MacOS.</div>
+            </div>
+        </div>
+        <div class="Heading Logo">
+            Server
+            <div class="Icon WebServer">
+            </div>
+        </div>
+        <div class="Content" id="WebServerDialog_WebConfigSection" style="display: none">
+            <div class="Field">
+                <label for="WebServerDialog_WebServerPort" class="Label">
+                    Port:</label><input type="text" id="WebServerDialog_WebServerPort" style="width: 50px" />
+            </div>
+            <div>
+                The <b>web.config</b> file of the generated project is always overwritten. You many need to make changes
+                to the <i>web.config</i> file to link custom component libraries and enter custom entries required for
+                your project. Use <a href="javascript:" onclick="var e=document.getElementById('WebServerDialog_WebConfig'); if(e.value.match(/^\s*$/))e.value='AppendChild: /configuration/appSettings\n\n&lt;add key=&quot;Setting1&quot; value=&quot;Value1&quot; /&gt;\n&lt;add key=&quot;Setting2&quot; value=&quot;Value2&quot; /&gt;';return false"
+                    title="The following snippet will add two settings to the web.config of your project.
+
+AppendChild: /configuration/appSettings
+
+&lt;add key=&quot;Setting1&quot; value=&quot;Value1&quot; /&gt;
+&lt;add key=&quot;Setting2&quot; value=&quot;Value2&quot; /&gt;
+">AppendChild</a>, <a href="javascript:" onclick="var e=document.getElementById('WebServerDialog_WebConfig'); if(e.value.match(/^\s*$/))e.value='AppendChild: /configuration/appSettings\n\n&lt;add key=&quot;Setting1&quot; value=&quot;Value1&quot; /&gt;\n&lt;add key=&quot;Setting2&quot; value=&quot;Value2&quot; /&gt;\n\nInsertBefore: /configuration/appSettings/add[2]\n\n&lt;add key=&quot;Setting3&quot; value=&quot;Value3&quot; /&gt;';return false"
+    title="The following snippet will add three settings to the web.config of your project.
+
+AppendChild: /configuration/appSettings
+
+&lt;add key=&quot;Setting1&quot; value=&quot;Value1&quot; /&gt;
+&lt;add key=&quot;Setting2&quot; value=&quot;Value2&quot; /&gt;
+
+InsertBefore: /configuration/appSettings/add[2]
+
+&lt;add key=&quot;Setting3&quot; value=&quot;Value3&quot; /&gt;
+">InsertBefore</a>, <a href="javascript:" onclick="var e=document.getElementById('WebServerDialog_WebConfig'); if(e.value.match(/^\s*$/))e.value='AppendChild: /configuration/appSettings\n\n&lt;add key=&quot;Setting1&quot; value=&quot;Value1&quot; /&gt;\n&lt;add key=&quot;Setting2&quot; value=&quot;Value2&quot; /&gt;\n\nInsertAfter: /configuration/appSettings/add[1]\n\n&lt;add key=&quot;Setting3&quot; value=&quot;Value3&quot; /&gt;';return false"
+    title="The following snippet will add three settings to the web.config of your project.
+
+AppendChild: /configuration/appSettings
+
+&lt;add key=&quot;Setting1&quot; value=&quot;Value1&quot; /&gt;
+&lt;add key=&quot;Setting2&quot; value=&quot;Value2&quot; /&gt;
+
+InsertAfter: /configuration/appSettings/add[1]
+
+&lt;add key=&quot;Setting3&quot; value=&quot;Value3&quot; /&gt;
+">InsertAfter</a>, and <a href="javascript:" onclick="var e=document.getElementById('WebServerDialog_WebConfig'); if(e.value.match(/^\s*$/))e.value='SetAttribute: /configuration/system.web/compilation \n\ndebug: true';return false"
+    title="The following snippet will add three settings to the web.config of your project.
+
+SetAttribute: /configuration/system.web/compilation 
+debug: true
+">SetAttribute</a> instructions to make precise custom changes to the generated configuration file of the project. Place
+                instruction followed by ":" and <i>XPath</i> expression leading to existing node followed by XML snippet.
+            </div>
+            <div class="Field">
+                <label class="Label" for="WebServerDialog_WebConfig">
+                    Web.Config modification instructions:</label>
+                <textarea id="WebServerDialog_WebConfig" rows="7" cols="80" style="width: 90%"></textarea>
+                <div style="margin-top: 8px;">
+                    Learn more about <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/development/project-wizard/changing-application-configuration')">
+                        changing application configuration</a>.</div>
+            </div>
+        </div>
+        <div class="Buttons">
+            <button onclick="CodeOnTime.Client.cancel()">
+                Cancel</button>
+            <button onclick="CodeOnTime.Client._executeWebServerDialogCallback('Back')">
+                Back</button>
+            <button onclick="CodeOnTime.Client._executeWebServerDialogCallback('Next')">
+                Next</button>
+        </div>
+    </div>
+</body>
+</html>

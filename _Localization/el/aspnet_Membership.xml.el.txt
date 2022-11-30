@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Δημιουργήστε μια νέα εγγραφή χρήστη.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Εγγραφή Νέου Χρήστη^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Νέος^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Πίσω^BackToRequestPasswordActionHeaderText^
+
+^Comment^Σχόλιο^Comment^
+
+^ConfirmIdentityActionHeaderText^Φινίρισμα^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Επιβεβαίωση νέου κωδικού πρόσβασης^ConfirmNewPassword^
+
+^ConfirmPassword^Επιβεβαίωση κωδικού πρόσβασης^ConfirmPassword^
+
+^CreateDate^Ημερομηνία δημιουργίας^CreateDate^
+
+^CreateFormCommentCategoryDescription^Εισάγετε οποιαδήποτε πρόσθετα σχόλια σχετικά με αυτό το λογαριασμό χρήστη. Σχόλιο δεν είναι ορατό στο χρήστη.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Σχόλια^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Παρακαλώ εισάγετε όνομα χρήστη και τον κωδικό πρόσβασης. Σημειώστε ότι ο κωδικός πρέπει να είναι τουλάχιστον 7 χαρακτήρες και να περιλαμβάνει ένα μη αλφαριθμητικών χαρακτήρων. Μόνο οι εγκεκριμένοι χρήστες θα είναι σε θέση να συνδεθείτε στο δικτυακό τόπο.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Νέο Στοιχεία χρήστη^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Αυτά τα πεδία είναι υποχρεωτικά για να βοηθήσει το χρήστη να ανακτήσει έναν ξεχασμένο κωδικό πρόσβασης. Κατά τη διάρκεια της διαδικασίας ανάκαμψης ο χρήστης θα σας ζητηθεί να εισάγετε ένα όνομα χρήστη. Εάν ένα λογαριασμό χρήστη τότε υπάρχει ένα ζήτημα ασφαλείας ζητείται να απαντηθούν. Η σωστή απάντηση θα προκαλέσει ένα email με έναν προσωρινό κωδικό πρόσβασης στείλει στο χρήστη.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Ανάκτηση κωδικού πρόσβασης^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Παρακαλώ επιλέξτε τους ρόλους χρήστη που περισσότερο ταιριάζουν με τις ευθύνες των χρηστών. Οι ρόλοι ελέγχουν την πρόσβαση στις περιοχές αυτής της ιστοσελίδας. Παρακαλούμε επικοινωνήστε με τον διαχειριστή του συστήματος αν οι περιορισμοί στην πρόσβαση ρόλο πρέπει να αλλάξει.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Ρόλοι^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Συμπληρώστε την παρακάτω φόρμα και κάντε κλικ στο κουμπί OK για να δημιουργήσετε ένα νέο ρεκόρ συμμετοχής του χρήστη. Κάντε κλικ στο κουμπί Άκυρο για να επιστρέψετε στην προηγούμενη οθόνη.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Εγγραφή Νέου Χρήστη^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Αυτός ο λογαριασμός χρήστη θα δημιουργηθεί, όπως έχει εγκριθεί.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Διπλότυπο διεύθυνση ηλεκτρονικού ταχυδρομείου.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Διπλότυπο βασικό πάροχο.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Διπλότυπο όνομα χρήστη.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Στατιστικά Δραστηριότητα^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Αυτός ο λογαριασμός χρήστη έχει εγκριθεί^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Αυτά είναι τα στατιστικά στοιχεία της αποτυχημένες προσπάθειες σύνδεσης από αυτόν τον χρήστη. <br/> <br/> Χρήστη θα κλειδωθεί μετά από την επίτευξη ενός μέγιστου αριθμού αποτυχημένων προσπαθειών σύνδεσης. <br/> <br/> Κλειδωμένο από τους χρήστες θα είναι σε θέση να συνδεθεί ξανά μετά την ημερομηνία στην αποτυχημένη προσπάθεια εκκίνησης παραθύρου κωδικού πρόσβασης. <br/> <br/> Οι χρήστες που απέτυχε να ανακτήσει τον κωδικό πρόσβασης θα είναι σε θέση να το πράξει μετά την ημερομηνία κατά Αποτυχία Απάντηση Κωδικός Έναρξη Παράθυρο προσπάθεια. <br/> <br/> Μπορείτε να αποκαταστήσουν την ικανότητα του χρήστη να συνδεθεί με τον καθορισμό κλειδωθεί σημαία για να «Όχι».^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Συνδεθείτε Στατιστικά στοιχεία^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Κατά τη διάρκεια της αποκατάστασης ενός ξεχάσει τον κωδικό του χρήστη θα ζητηθεί να εισάγετε ένα όνομα χρήστη. Εάν ένα λογαριασμό χρήστη τότε υπάρχει ένα ζήτημα ασφαλείας ζητείται να απαντηθούν. Η σωστή απάντηση θα προκαλέσει ένα email με έναν προσωρινό κωδικό πρόσβασης στείλει στο χρήστη. <br/><br/> Αλλαγή κλειδωθεί σημαία για να «Όχι» εάν ο χρήστης έχει κλειδωθεί μετά την επίτευξη ενός μέγιστου αριθμού αποτυχημένων προσπαθειών σύνδεσης και θέλετε να επιτρέπει στο χρήστη να συνδεθεί ξανά.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Ανάκτηση κωδικού πρόσβασης^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Παρακαλώ επιλέξτε τους ρόλους χρήστη που περισσότερο ταιριάζουν με τις ευθύνες των χρηστών. Οι ρόλοι ελέγχουν την πρόσβαση στις περιοχές αυτής της ιστοσελίδας. Παρακαλούμε επικοινωνήστε με τον διαχειριστή του συστήματος αν οι περιορισμοί στην πρόσβαση ρόλο πρέπει να αλλάξει. <br/> <br/> Καταχωρίζουν τυχόν πρόσθετα σχόλια σχετικά με αυτό το λογαριασμό χρήστη. Σχόλιο δεν είναι ορατό στο χρήστη.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Στοιχεία χρήστη^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Παρακαλούμε διαβάστε το χρήστη πληροφορίες συμμετοχής στη συνέχεια. Κάντε κλικ στο κουμπί Επεξεργασία για να αλλάξετε αυτό το αρχείο, κάντε κλικ στο Διαγραφή για να διαγράψετε την εγγραφή, ή κάντε κλικ στο Άκυρο / Κλείσιμο για να επιστρέψετε πίσω.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Επανεξέταση χρήστη^EditFormViewLabel^
+
+^Email^Email^Email^
+
+^EnterCurrentPassword^Παρακαλώ εισάγετε τον τρέχοντα κωδικό πρόσβασης.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Παρακαλώ εισάγετε μια απάντηση κωδικό πρόσβασης.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Λάθος κατά την αποθήκευση λογαριασμό χρήστη.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Αποτυχία Απάντηση Κωδικός Count Προσπάθεια^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Αποτυχία Απάντηση Κωδικός Προσπάθεια Έναρξη Παράθυρο^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Αποτυχία Count Απόπειρα τον κωδικό σας^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Αποτυχημένη απόπειρα Κωδικός Έναρξη Παράθυρο^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Αυτή είναι μια λίστα με τα αρχεία των χρηστών μέλους.^GridViewHeaderText^
+
+^GridViewLabel^Όλοι οι χρήστες^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Απαντήστε στις παρακάτω ερώτηση για να λάβετε τον κωδικό σας. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Επιβεβαίωση ταυτότητας^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Συμπληρώστε την παρακάτω φόρμα και κάντε κλικ στο κουμπί Υποβολή για να ανακτήσει το ξεχάσει τον κωδικό πρόσβασης. Κάντε κλικ στο κουμπί Άκυρο για να επιστρέψετε στην προηγούμενη οθόνη.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Η αποκατάσταση κωδικού πρόσβασης: Βήμα 2 από 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Άκυρα απάντηση ανάκτησης κωδικού πρόσβασης.^InvalidAnswer^
+
+^InvalidEmail^Μη έγκυρη διεύθυνση e-mail.^InvalidEmail^
+
+^InvalidPassword^Άκυρος κωδικός πρόσβασης.^InvalidPassword^
+
+^InvalidProviderUserKey^Μη έγκυρο κλειδί χρήστη παρόχου.^InvalidProviderUserKey^
+
+^InvalidQuestion^Άκυρα ερώτηση ανάκτησης κωδικού πρόσβασης.^InvalidQuestion^
+
+^InvalidUserName^Έγκυρο όνομα χρήστη.^InvalidUserName^
+
+^IsApproved^Έχει εγκριθεί^IsApproved^
+
+^IsLockedOut^Είναι κλειδωμένη^IsLockedOut^
+
+^LastLockoutDate^Τελευταία Ημερομηνία Lockout^LastLockoutDate^
+
+^LastLoginDate^Τελευταία Ημερομηνία Είσοδος^LastLoginDate^
+
+^LastPasswordChangedDate^Τελευταία Κωδικός Άλλαξε ημερομηνία^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Απάντηση Κωδικός πρόσβασης (δεν εμφανίζεται για την προστασία σας)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Παρακαλώ εισάγετε τον τρέχοντα κωδικό σας για να δημιουργήσετε νέο κωδικό πρόσβασης, να ενημερώσετε τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας, ή να αλλάξετε ερώτηση ανάκτηση κωδικού πρόσβασης και την απάντηση.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Τρέχοντα κωδικό πρόσβασης^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Παρακαλούμε να εξετάσετε τις πληροφορίες συμμετοχή σας στη συνέχεια. Κάντε κλικ στην επιλογή Ενημέρωση Ο λογαριασμός μου για να αλλάξετε αυτό το αρχείο, ή κάντε κλικ στο κουμπί Άκυρο για να επιστρέψετε πίσω.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Ο λογαριασμός μου^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Παρακαλώ εισάγετε το νέο κωδικό πρόσβασης. Σημειώστε ότι ο κωδικός πρέπει να είναι τουλάχιστον 7 χαρακτήρες και να περιλαμβάνει ένα μη αλφαριθμητικών χαρακτήρων.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Νέος κωδικός πρόσβασης (προαιρετικό)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Κατά τη διάρκεια της αποκατάστασης ενός ξεχάσει τον κωδικό θα σας ζητηθεί να εισάγετε το όνομα χρήστη σας. Εάν ένα λογαριασμό χρήστη τότε υπάρχει ένα ζήτημα κωδικός πρόσβασης πρέπει να απαντηθεί. Η σωστή απάντηση θα προκαλέσει ένα email με έναν προσωρινό κωδικό πρόσβασης σας αποσταλεί.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email αποκατάσταση κωδικού πρόσβασης &amp; (Προαιρετικό)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^New Password^NewPassword^
+
+^NewPasswordAlert^Ένας νέος κωδικός πρόσβασης έχει σταλεί στη διεύθυνση στο αρχείο.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Νέος κωδικός πρόσβασης και η επιβεβαίωση δεν ταιριάζουν.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Νέος κωδικός σας δεν είναι έγκυρη.^NewPasswordInvalid^
+
+^NewPasswordSubject^Νέος κωδικός πρόσβασης για το \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Παλιά τον κωδικό σας^OldPassword^
+
+^Password^Κωδικού πρόσβασης^Password^
+
+^PasswordAndConfirmationDoNotMatch^Κωδικός πρόσβασης και η επιβεβαίωση δεν ταιριάζουν.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Απάντηση κωδικού πρόσβασης^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Ο κωδικός πρόσβασής σας δεν ταιριάζει με τα αρχεία μας.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Μορφή κωδικού πρόσβασης^PasswordFormat^
+
+^PasswordQuestion^Ερώτηση κωδικού πρόσβασης^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Παρακαλώ εισάγετε ένα όνομα χρήστη. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Ξεχάσατε τον κωδικό σας;^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Συμπληρώστε την παρακάτω φόρμα και κάντε κλικ στο κουμπί Συνέχεια για να ανακτήσει το ξεχάσει τον κωδικό πρόσβασης. Κάντε κλικ στο κουμπί Άκυρο για να επιστρέψετε στην προηγούμενη οθόνη.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Η αποκατάσταση κωδικού πρόσβασης: Βήμα 1 από 2^PasswordRequestViewLabel^
+
+^ProviderError^Σφάλματος Provider.^ProviderError^
+
+^RequestPasswordActionHeaderText^Επόμενη^RequestPasswordActionHeaderText^
+
+^Roles^Ρόλοι^Roles^
+
+^SelfRegisteredUser^Αυτο-εγγεγραμμένος χρήστης.^SelfRegisteredUser^
+
+^SignUp^Εγγραφείτε^SignUp^
+
+^SignUpViewHeaderText^Συμπληρώστε την παρακάτω φόρμα και κάντε κλικ στο κουμπί OK για να εγγραφείτε για ένα λογαριασμό. Κάντε κλικ στο κουμπί Άκυρο για να επιστρέψετε στην προηγούμενη οθόνη.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Λογαριασμός Εγγραφή^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Παρακαλώ εισάγετε όνομα χρήστη και τον κωδικό πρόσβασης. Σημειώστε ότι ο κωδικός πρέπει να είναι τουλάχιστον 7 χαρακτήρες και να περιλαμβάνει ένα μη αλφαριθμητικών χαρακτήρων. Μόνο οι εγκεκριμένοι χρήστες θα είναι σε θέση να συνδεθείτε στο δικτυακό τόπο.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Νέο Στοιχεία χρήστη^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Αυτά τα πεδία είναι υποχρεωτικά για να σας βοηθήσει να ανακτήσει ένα ξεχασμένο κωδικό πρόσβασης. Κατά τη διάρκεια της διαδικασίας ανάκαμψης θα σας ζητηθεί να εισάγετε ένα όνομα χρήστη. Εάν ένα λογαριασμό χρήστη τότε υπάρχει ένα ζήτημα ασφαλείας ζητείται να απαντηθούν. Η σωστή απάντηση θα προκαλέσει ένα email με έναν προσωρινό κωδικό πρόσβασης στείλετε στους εγγεγραμμένους e-mail.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Ανάκτηση κωδικού πρόσβασης^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Ενημέρωση Ο λογαριασμός μου^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Χρήστη δεν μπορεί να κλειδωθεί. Αν θέλετε να αποτρέψετε αυτό το χρήστη από το να είναι σε θέση να συνδεθείτε τότε το σήμα απλά χρήστη ως «μη εγκεκριμένη».^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^&#39;{0}&#39; Χρήστη έχει διαγραφεί.^UserHasBeenDeleted^
+
+^UserName^Όνομα χρήστη^UserName^
+
+^UserNameDoesNotExist^Το όνομα χρήστη δεν υπάρχει.^UserNameDoesNotExist^
+
+^UserNotFound^Ο χρήστης δεν βρέθηκε.^UserNotFound^
+
+^UserRejected^Χρήστης έχει απορριφθεί.^UserRejected^
+
+^UsersInRolesGridHeaderText^Αυτή είναι μια λίστα με τα αρχεία των χρηστών μελών που ανήκουν σε μια επιλεγμένη ρόλο.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Χρήστες σε Ρόλος^UsersInRolesGridLabel^
+

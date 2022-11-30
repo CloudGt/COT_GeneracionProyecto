@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Trở lại^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Hoàn thành^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Xác nhận mật khẩu mới^ConfirmNewPassword^
+
+^ConfirmPassword^Xác nhận mật khẩu^ConfirmPassword^
+
+^Email^E-mail^Email^
+
+^ForgotYourPassword^Quên mật khẩu?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Trả lời câu hỏi sau để nhận mật khẩu của bạn. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Xác nhận nhận dạng^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Vui lòng điền vào biểu mẫu này và nhấp nút Gửi để khôi phục lại mật khẩu đã quên. Nhấp Hủy để trở về màn hình trước.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Khôi phục Mật khẩu: Bước 2 của 2^IdentityConfirmViewLabel^
+
+^LoginButton^Đăng nhập^LoginButton^
+
+^LoginLink^Đăng nhập^LoginLink^
+
+^LoginWithDNN^Đăng nhập Với DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Đăng nhập Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Đăng nhập với Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Đăng nhập Với Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Đăng nhập Với SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Đăng nhập Với Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Trả lời bằng mật khẩu (không hiển thị để bảo vệ bạn)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Vui lòng nhập mật khẩu hiện tại của bạn để tạo mật khẩu mới, cập nhật địa chỉ email của bạn hoặc thay đổi câu hỏi và câu trả lời về khôi phục mật khẩu.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Mật khẩu hiện tại^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Vui lòng xem thông tin thành viên của bạn dưới đây. Nhấp vào Cập nhật Tài khoản của Tôi để thay đổi hồ sơ này hoặc nhấp Hủy để quay lại.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Tài khoản của tôi^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Vui lòng nhập mật khẩu mới. Lưu ý rằng mật khẩu phải có ít nhất 7 ký tự và bao gồm một ký tự không phải chữ cái-chữ và số.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Mật khẩu Mới (Tùy chọn)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Trong quá trình khôi phục mật khẩu bị quên, bạn sẽ được yêu cầu nhập tên người dùng. Nếu tài khoản người dùng tồn tại thì câu hỏi mật khẩu phải được trả lời. Câu trả lời chính xác sẽ kích hoạt email có mật khẩu tạm thời gửi cho bạn.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Phục hồi mật khẩu (Tùy chọn)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^mật khẩu mới^NewPassword^
+
+^OldPassword^Mật khẩu cũ^OldPassword^
+
+^Password^Mật khẩu^Password^
+
+^PasswordAnswer^Mật khẩu^PasswordAnswer^
+
+^PasswordQuestion^Câu hỏi về Mật khẩu^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Vui lòng nhập tên người dùng. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Quên mật khẩu?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Vui lòng điền vào biểu mẫu này và nhấp vào nút Tiếp tục để khôi phục lại mật khẩu đã quên. Nhấp Hủy để trở về màn hình trước.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Khôi phục Mật khẩu: Bước 1 của 2^PasswordRequestViewLabel^
+
+^RememberMe^lần sau hãy nhớ đến tôi^RememberMe^
+
+^RequestPasswordActionHeaderText^Kế tiếp^RequestPasswordActionHeaderText^
+
+^SignUp^Đăng ký^SignUp^
+
+^SignUpNow^Đăng ký ngay bây giờ^SignUpNow^
+
+^SignUpViewHeaderText^Vui lòng điền vào biểu mẫu này và nhấp vào nút OK để đăng ký một tài khoản. Nhấp Hủy để trở về màn hình trước.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Đăng ký Tài khoản^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Vui lòng nhập tên đăng nhập và mật khẩu. Lưu ý rằng mật khẩu phải có ít nhất 7 ký tự và bao gồm một ký tự không phải chữ cái-chữ và số. Chỉ những người dùng được chấp nhận mới có thể đăng nhập vào trang web.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Thông tin người dùng mới^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Những trường này được yêu cầu để giúp bạn khôi phục lại mật khẩu đã quên. Trong quá trình khôi phục, bạn sẽ được yêu cầu nhập tên người dùng. Nếu một tài khoản người dùng tồn tại sau đó yêu cầu bảo mật được yêu cầu để được trả lời. Câu trả lời chính xác sẽ kích hoạt email có mật khẩu tạm thời gửi đến email đã đăng ký.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Khôi phục mật khẩu^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Cập nhật Tài khoản của Tôi^UpdateMyAccountActionHeaderText^
+
+^UserName^Tên người dùng^UserName^
+

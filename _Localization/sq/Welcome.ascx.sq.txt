@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Llogaria administrative^AdminDesc^
+
+^SignInHeader^Udhëzimet^SignInHeader^
+
+^SignInInstruction^Hyni në për të hyrë në përmbajtjen e mbrojtur site.^SignInInstruction^
+
+^SignInPara1^Dy llogari përdoruesi standarde janë krijuar automatikisht kur aplikacioni është initialized nëse opsioni anëtarësimi është përzgjedhur për këtë kërkesë.^SignInPara1^
+
+^SignInPara2^<b>admin</b> Administrative llogarisë është i autorizuar për të hyrë në të gjitha fushat e web site dhe menaxher anëtarësim. Llogaria standarde <b>user</b> i lejohet të ketë qasje në të gjitha fushat e web site me përjashtim të menaxherit anëtarësimit.^SignInPara2^
+
+^SignInPara3^Leviz treguesin e miut mbi <i>Login lidhje me këtë web site</i> në anën e djathtë në krye të faqes dhe në shenjë me një nga llogaritë e shënuara më poshtë.^SignInPara3^
+
+^UserDesc^Standard llogari përdoruesi^UserDesc^
+

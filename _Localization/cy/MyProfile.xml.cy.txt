@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Yn ôl^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Gorffen^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Cadarnhau cyfrinair Newydd^ConfirmNewPassword^
+
+^ConfirmPassword^Cadarnhau Cyfrinair^ConfirmPassword^
+
+^Email^E-bost^Email^
+
+^ForgotYourPassword^Wedi anghofio eich cyfrinair?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Atebwch y cwestiwn canlynol i dderbyn eich cyfrinair. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Cadarnhad Hunaniaeth^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Llenwch y ffurflen hon a chliciwch botwm Cyflwyno i adfer y cyfrinair anghofiedig. Cliciwch Diddymu i ddychwelyd i&#39;r sgrin flaenorol.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Adfer Cyfrinair: Cam 2 o 2^IdentityConfirmViewLabel^
+
+^LoginButton^Mewngofnodi^LoginButton^
+
+^LoginLink^Mewngofnodi^LoginLink^
+
+^LoginWithDNN^Mewngofnodi Gyda DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Mewngofnodi Gyda Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Mewngofnodi gyda Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Mewngofnodi Gyda Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Mewngofnodi Gyda SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Mewngofnodi Gyda Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Ateb Cyfrinair (na ddangosir ar gyfer eich amddiffyniad)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Rhowch eich cyfrinair cyfredol i greu cyfrinair newydd, diweddaru eich cyfeiriad e-bost, neu newid cwestiwn ac ateb adfer cyfrinair.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Cyfrinair Cyfredol^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Adolygwch eich gwybodaeth aelodaeth isod. Cliciwch Diweddaru Fy Nghyfrif i newid y cofnod hwn, neu cliciwch Diddymu i ddychwelyd yn ôl.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Fy nghyfrif^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Rhowch gyfrinair newydd. Sylwch fod yn rhaid i&#39;r cyfrinair fod o leiaf 7 nod o hyd ac yn cynnwys un cymeriad nad yw&#39;n alffaniwmerig.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Cyfrinair Newydd (Dewisol)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Wrth adfer cyfrinair anghofiedig, gofynnir i chi nodi eich enw defnyddiwr. Os oes cyfrif defnyddiwr yn bodoli yna rhaid ateb cwestiwn cyfrinair. Bydd ateb cywir yn sbarduno e-bost gyda chyfrinair dros dro yn cael ei anfon atoch.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-bost &amp; Adfer Cyfrinair (Dewisol)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Cyfrinair newydd^NewPassword^
+
+^OldPassword^Hen Gyfrinair^OldPassword^
+
+^Password^Cyfrinair^Password^
+
+^PasswordAnswer^Ateb Cyfrinair^PasswordAnswer^
+
+^PasswordQuestion^Cwestiwn Cyfrinair^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Rhowch enw defnyddiwr. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Wedi anghofio eich cyfrinair?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Llenwch y ffurflen hon a chliciwch ar Botwm Parhau i adfer y cyfrinair anghofiedig. Cliciwch Diddymu i ddychwelyd i&#39;r sgrin flaenorol.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Adfer Cyfrinair: Cam 1 o 2^PasswordRequestViewLabel^
+
+^RememberMe^Cofiwch fi y tro nesaf^RememberMe^
+
+^RequestPasswordActionHeaderText^Nesaf^RequestPasswordActionHeaderText^
+
+^SignUp^Cofrestru^SignUp^
+
+^SignUpNow^Cofrestrwch nawr^SignUpNow^
+
+^SignUpViewHeaderText^Llenwch y ffurflen hon a chliciwch botwm OK i gofrestru ar gyfer cyfrif. Cliciwch Diddymu i ddychwelyd i&#39;r sgrin flaenorol.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Cofrestru Cyfrif^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Rhowch enw a chyfrinair y defnyddiwr. Sylwch fod yn rhaid i&#39;r cyfrinair fod o leiaf 7 nod o hyd ac yn cynnwys un cymeriad nad yw&#39;n alffaniwmerig. Dim ond defnyddwyr cymeradwy fydd yn gallu mewngofnodi i&#39;r wefan.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Gwybodaeth Defnyddiwr Newydd^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Mae&#39;r meysydd hyn yn ofynnol i&#39;ch helpu chi i adfer cyfrinair anghofiedig. Yn ystod y broses adfer, gofynnir i chi nodi enw defnyddiwr. Os oes cyfrif defnyddiwr yn bodoli yna mae gofyn i gwestiwn diogelwch gael ei ateb. Bydd ateb cywir yn sbarduno e-bost gyda chyfrinair dros dro yn ei anfon at yr e-bost cofrestredig.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Adfer Cyfrinair^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Diweddaru Fy Nghyfrif^UpdateMyAccountActionHeaderText^
+
+^UserName^Enw Defnyddiwr^UserName^
+

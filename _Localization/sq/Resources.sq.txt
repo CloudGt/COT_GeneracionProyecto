@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Pajis me shënime^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b> {1}</b>{2} Bashkangjitur në^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Attachment^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Shkruani shënime opsionale dhe attach files.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Shënime dhe Attachments^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} {1} Shkrim në^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Shënime^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Shënime^AnnotationTab^
+
+^BlobClearConfirm^Të qarta?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Është pastruar.^BlobCleared^
+
+^BlobClearText^Qartë^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Dështuar të ngarkoni {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Kliko^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^këtu^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^të ngarkoni fotografi {0} ose të qartë.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Ka qenë i ngarkuar me sukses. <b>It Mund të zgjasë deri në minuta {1} për tablo për të pasqyruar content.</b> ngarkuar^BlobUploded^
+
+^Copyright^Të gjitha të drejtat e rezervuara.^Copyright^
+
+^RecordChangedByAnotherUser^Të dhënat është ndryshuar nga një përdorues tjetër.^RecordChangedByAnotherUser^
+

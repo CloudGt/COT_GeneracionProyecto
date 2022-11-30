@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Administrativ konto^AdminDesc^
+
+^SignInHeader^Instruksjoner^SignInHeader^
+
+^SignInInstruction^Logg deg på for å få tilgang til beskyttet innhold.^SignInInstruction^
+
+^SignInPara1^To standard brukerkontoer opprettes automatisk når programmet er initialisert om medlemskap er blitt valgt for dette programmet.^SignInPara1^
+
+^SignInPara2^Den administrative kontoen <b>admin</b> er autorisert tilgang til alle områder av nettstedet og medlemskapsbehandling. Standard <b>user</b> konto er tillatt å få tilgang til alle områder av nettstedet, med unntak av medlemskapsbehandling.^SignInPara2^
+
+^SignInPara3^Beveg musepekeren over lenken <i>Logg inn til dette webstedet</i> på høyre side øverst på siden og logg på med en av kontoene listet nedenfor.^SignInPara3^
+
+^UserDesc^Standard brukerkonto^UserDesc^
+

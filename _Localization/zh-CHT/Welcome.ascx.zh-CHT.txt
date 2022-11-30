@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^管理帳戶^AdminDesc^
+
+^SignInHeader^說明^SignInHeader^
+
+^SignInInstruction^登錄訪問受保護的網站內容。^SignInInstruction^
+
+^SignInPara1^兩個標準用戶帳戶時自動創建應用程序初始化如果會員選項已被選定為這個應用程序。^SignInPara1^
+
+^SignInPara2^行政帳戶 <b>admin</b>被授權訪問的所有地區的網站和會員經理。標準 <b>user</b>帳戶允許訪問所有地區的網站與會員經理例外。^SignInPara2^
+
+^SignInPara3^移動鼠標指針懸停在鏈接 <i>Login本網站 site</i>在右側上方的頁面，請使用其中一個賬戶下面列出。^SignInPara3^
+
+^UserDesc^標準用戶帳戶^UserDesc^
+

@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Tekstitä^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Liitteenä <b>{1}</b> klo {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Liite^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Syötä valinnainen muistiinpanoja ja liittää tiedostoja.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Notes ja Liitteet^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Kirjoitettu {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Huomautuksia^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Huomautuksia^AnnotationTab^
+
+^BlobClearConfirm^Kirkas?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} On nollattu.^BlobCleared^
+
+^BlobClearText^Tyhjennä^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Lähettäminen ei onnistunut {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Klikkaa^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^täällä^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^ladata tai poistaa {0} tiedosto.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} On ladattu onnistuneesti. <b>It Voi kestää {1} minuuttia pientä heijastavat ladata content.</b>^BlobUploded^
+
+^Copyright^Kaikki oikeudet pidätetään.^Copyright^
+
+^RecordChangedByAnotherUser^Ennätys on muutettu toisen käyttäjän.^RecordChangedByAnotherUser^
+

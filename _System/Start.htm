@@ -1,0 +1,1083 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Welcome</title>
+    <link href="CodeOnTime.css" type="text/css" rel="Stylesheet" />
+</head>
+<body>
+    <script type="text/javascript" src="../_Client/Scripts/jQuery/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" language="javascript" src="MicrosoftAjax.js"></script>
+    <script type="text/javascript" language="javascript" src="CodeOnTime.Client.js"></script>
+    <script type="text/javascript" language="javascript">
+
+        var library = null;
+        var projects = null;
+        var selectedLibrary = null;
+        var newsIntervalId = null;
+        var sharePointEnabled = false;
+        var dnnEnabled = false;
+
+        function pageLoad(sender, args) {
+            var checkUpdates = window.location.search.match(/\?checkUpdates/);
+            if (checkUpdates)
+                CodeOnTime.Client.install(false);
+            var dialogId = window.location.search.match(/dialogId=(\w+)/);
+            if (dialogId)
+                CodeOnTime.Client.showDialog(dialogId[1]);
+            else {
+                $('#LatestNewsFrame').attr('src', window.external.NewsUrl);
+                library = CodeOnTime.Client.loadFromLibraryRoot();
+                sharePointEnabled = CodeOnTime.Client.directoryExists('SharePoint Factory');
+                dnnEnabled = CodeOnTime.Client.directoryExists('DotNetNuke Factory');
+                if (sharePointEnabled) {
+                    var spNode = library.selectSingleNode('l:library/l:project[@title="SharePoint Factory"]');
+                    if (spNode)
+                        spNode.writeProperty('@display', 'true');
+                }
+                if (dnnEnabled) {
+                    var dnnNode = library.selectSingleNode('l:library/l:project[@title="DotNetNuke Factory"]');
+                    if (dnnNode)
+                        dnnNode.writeProperty('@display', 'true');
+                }
+                projects = CodeOnTime.Client.loadFromProjectsRoot();
+                var menu = CodeOnTime.Client.systemTransform(library, 'Library.xslt');
+                if (projects.selectSingleNode('//p:project')) {
+                    $get('LibraryProjectMenu').innerHTML = menu;
+                    Sys.UI.DomElement.setVisible($get('ProjectMenu'), false);
+                    CodeOnTime.Client.addTransformArgument('Library', library);
+                    var MyProjects = CodeOnTime.Client.systemTransform(projects, 'MyProjects.xslt');
+                    $get('MyProjects').innerHTML = MyProjects;
+                    SizeProjectList();
+                }
+                else {
+                    $get('LibraryProjectMenu').innerHTML = menu;
+                    ShowLibrary();
+                    $('#Cancel_New_Project').text('Home');
+                }
+                LoadCodeDomProviders();
+            }
+            CodeOnTime.Client.set_showDemoLink(CodeOnTime._ClientLibrary._libraryService.match(/localhost/) == null);
+            var subscriptions = CodeOnTime.Client.get_subscriptions();
+            if (subscriptions != null) {
+                var l = subscriptions.length;
+                if (l > 6)
+                    subscriptions = subscriptions.substring(0, l - 6).replace(/\w/g, '*') + subscriptions.substring(l - 6).toUpperCase();
+
+                ShowRegisteredActivationCode(subscriptions);
+            }
+            var liveDemoLink = $get('LiveDemoLink');
+            if (liveDemoLink)
+                Sys.UI.DomElement.setVisible(liveDemoLink, CodeOnTime.Client.get_showDemoLink());
+            if (window.location.search.match(/\?installUpdates/)) {
+                CodeOnTime.Client.hideDialog();
+                CodeOnTime.Client.showDialog('InstallDialog');
+                $get('InstallStatus').innerHTML = '<div class="WizardWait"></div>';
+                CodeOnTime.Client.install(true);
+            }
+            else
+                ExecuteStartAction();
+            if (window.external.IsFreeTrial) {
+                $get('NewProjectDialog_UseClassLibrary').disabled = true;
+                $get('NewProjectDialog_UseClassLibraryLabel').disabled = true;
+            }
+        }
+
+        function ShowRegisteredActivationCode(subscriptions) {
+            if (CodeOnTime.Client.get_isEducational())
+                $get('Subscriptions').innerHTML = '<div id="EducationalWarning">This software is licensed for educational purposes only. Unauthorized use will invalidate the license on all machines.</div>';
+            else {
+                var subElem = $get('Subscriptions');
+                if (subElem) {
+                    if (subscriptions == null || subscriptions.match(/^\s*$/))
+                        subElem.innerHTML = '<a href="#" title="Enter your activation code" onclick="EditSubscriptions();return false;">Register to active your free trial.</a>';
+                    else
+                        subElem.innerHTML = subscriptions.indexOf(',') > 0 ?
+                        String.format('Activation codes <a href="#" onclick="EditSubscriptions();return false" title="Change activation codes">{0}</a> are registered.', subscriptions) :
+                            String.format('<a href="#" onclick="EditSubscriptions();return false" title="Change activation code">Activation code: {0}</a>', subscriptions);
+                    if (subscriptions.length > 0) {
+                        Sys.UI.DomElement.setVisible($get('SubscribeToNewsletter'), false);
+                        CodeOnTime.Client.set_showDemoLink(false);
+                    }
+                }
+            }
+        }
+
+        function ExecuteStartAction() {
+            var toolsForExcelAction = window.external.ToolsForExcelAction;
+            if (toolsForExcelAction != null && toolsForExcelAction != '' && toolsForExcelAction != 'Done') {
+                var projectId = window.external.ToolsForExcelProjectType;
+                var projectName = window.external.ToolsForExcelProjectName;
+                switch (toolsForExcelAction) {
+                    case 'NewProject':
+                        if (projects.selectSingleNode('//p:project'))
+                            ShowLibrary();
+                        window.external.ToolsForExcelAction = 'DoneNew';
+                        //ShowSettings(projectId, projectName);
+                        break;
+                    case 'DoneNew':
+                        window.external.ToolsForExcelAction = 'Done';
+                        break;
+                    case 'ProjectActions':
+                        ProjectAction(projectId, projectName);
+                        window.external.ToolsForExcelAction = 'DoneProjectActions';
+                        break;
+                    case "DoneProjectActions":
+                        window.external.ToolsForExcelAction = 'Done';
+                        break;
+                    case 'OpenProjectInWindowsExplorer':
+                        OpenProject(projectId, projectName);
+                        window.external.CloseAppGenerator();
+                        break;
+                    case 'Develop':
+                        ExecuteProjectAction(projectId, projectName, 'Develop');
+                        window.external.ToolsForExcelAction = 'DoneDevelop';
+                        break;
+                    case "DoneDevelop":
+                        window.external.CloseAppGenerator();
+                        break;
+                    case 'Browse':
+                        //ExecuteProjectAction(projectId, projectName, 'Browse');
+                        GenerateProject(projectId, projectName, 'GenerateAll');
+                        window.external.ToolsForExcelAction = 'DoneBrowse';
+                        break;
+                    case 'DoneBrowse':
+                        // do nothing
+                        break;
+                    default:
+                        alert(toolsForExcelAction);
+                        break;
+                }
+            }
+            else if (window.external.ProjectAction) {
+                var startArguments = window.external.ProjectAction.split(/;/);
+                window.external.ProjectAction = null;
+                if (startArguments && startArguments.length == 3) {
+                    var startAction = startArguments[0];
+                    projectId = startArguments[1];
+                    projectName = startArguments[2]
+                    ProjectAction(projectId, projectName);
+                    if (startAction == 'Refresh') {
+                        if (CodeOnTime.Client.refreshMetadata(projectId, projectName)) {
+                            HideProjectActions();
+                            GenerateProject(projectId, projectName, 'Refresh');
+                        }
+                    }
+                    else if (startAction == 'Settings') {
+                        ShowSettings(projectId, projectName);
+                    }
+                }
+                var actionScript = window.external.ProjectActionScript;
+                if (actionScript) {
+                    window.external.ProjectActionScript = null;
+                    eval(actionScript);
+                }
+            }
+        }
+
+        function LoadCodeDomProviders() {
+            var providerSelector = $get('ProviderSelector');
+            while (providerSelector.options.length > 0)
+                providerSelector.options.remove(0);
+            var codedom = CodeOnTime.Client.loadFromLibrary('_Config\\CodeOnTime.CodeDom.xml');
+            var providers = codedom.selectNodes('/c:configuration/c:providers/c:provider');
+            var defaultProviderName = codedom.selectSingleNode('/c:configuration/c:providers').getAttribute('default');
+            for (var i = 0; i < providers.length; i++) {
+                var provider = providers.get(i);
+                var option = document.createElement('option');
+                option.setAttribute('value', provider.getAttribute('name'));
+                option.innerHTML = provider.getAttribute('title');
+                if (provider.getAttribute('name') == defaultProviderName)
+                    option.setAttribute('selected', 'selected');
+                providerSelector.options.appendChild(option);
+            }
+        }
+
+        function NewProject(libraryName) {
+            CodeOnTime.Client.hideDialog('LibraryDialog');
+            selectedLibrary = libraryName;
+            var isWebSite = libraryName == 'Web Site Factory',
+                useClassLibraryContainer = $('#NewProjectDialog_UseClassLibrary_Container');
+            useClassLibraryContainer.toggle(isWebSite);
+            if (!CodeOnTime.Client.getHighestVisualStudioPath()) {
+                $('#NewProjectDialog_UseClassLibrary').prop('disabled', true);
+                useClassLibraryContainer.addClass('disabled');
+                $('#NewProjectDialog_VSWarning').show();
+            }
+            var projectInfo = library.selectSingleNode(String.format('/l:library/l:project[@name="{0}"]', libraryName));
+            CodeOnTime.Client.showDialog('NewProjectDialog');
+            var title = projectInfo.getAttribute('title');
+            $get('NewProjectDialog_Title').innerHTML = title;
+            $get('NewProjectDialog_Description').innerHTML = projectInfo.getAttribute('description');
+            $get('NewProjectDialog_Vendor').innerHTML = projectInfo.getAttribute('vendor');
+            $get('NewProjectDialog_Website').innerHTML = String.format('<a href="{0}" target="_blank" title="Navigate to {0}">{0}</a>', projectInfo.getAttribute('website'));
+            var about = projectInfo.getAttribute('about');
+            var demo = projectInfo.getAttribute('demo');
+            var showResources = about && about.length > 0 || demo && demo.length > 0;
+            Sys.UI.DomElement.setVisible($get('NewProjectDialog_ProjectResources'), showResources);
+            if (showResources) {
+                var aboutElem = $get('NewProjectDialog_About');
+                Sys.UI.DomElement.setVisible(aboutElem, about != '');
+                aboutElem.innerHTML = String.format('Review a <a href="javascript::" onclick="window.external.OpenUrl(\'{0}\');return false;" target="_blank" title="Learn more about {1}">complete feature list</a> of this project. ', about, title);
+                var demoElement = $get('NewProjectDialog_Demo');
+                Sys.UI.DomElement.setVisible(demoElement, demo != '');
+                demoElement.innerHTML = String.format('Try a <a href="javascript::" onclick="window.external.OpenUrl(\'{0}\');return false" target="_blank" title="Try a live demo of {1}">live demo</a> now.', demo, title);
+            }
+            else
+                Sys.UI.DomElement.setVisible($get('NewProjectDialog_ProjectResources'), false);
+            var projectElem = $get('NewProjectDialog_Name');
+            projectElem.value = '';
+            $("#NewProjectDialog_Location").val(window.external.GetDefaultProjectPath(false));
+            $('#NewProjectDialog_DisplayName').focus();
+            //projectElem.focus();
+
+        }
+        $(document).on('keyup change', '#NewProjectDialog_DisplayName', function (e) {
+            var displayName = $(this).val().replace(/\W/g, '_').replace(/_+/g, '_').replace(/_$/, ''),
+                nameInput = $('#NewProjectDialog_Name');
+            if (!nameInput.data('changed') || !nameInput.val().length)
+                nameInput.val(displayName).removeData('changed');
+        }).on('change', '#NewProjectDialog_Name', function (e) {
+            $(this).data('changed', true);
+        }).on('change', '#NewProjectDialog_Location', function (e) {
+            $(this).data('changed', true);
+        }).on('click', '#NewProjectDialog_Location_Button', function (e) {
+            var projectLocation = window.external.SelectProjectLocation(),
+                input = $('#NewProjectDialog_Location');
+            if (projectLocation)
+                input.val(projectLocation).data('changed', true);
+            input.focus();
+        }).on('change', '#NewProjectDialog_UseClassLibrary', function (e) {
+            var advanced = $(this).is(':checked'),
+                location = $('#NewProjectDialog_Location');
+            if (!location.data('changed'))
+                location.val(window.external.GetDefaultProjectPath(advanced));
+        }).on('click', '#ShowBackups', function (e) {
+            window.external.OpenBackups();
+            return false;
+        }).on('click', '#ShowLibrary', function (e) {
+            window.external.ShowLibrary();
+            return false;
+        });
+
+        function HideProjectActions() {
+            CodeOnTime.Client.hideDialog('ProjectActionDialog');
+        }
+
+        function openModel(projectId, projectName) {
+            // switch to Model tab
+            var path = String.format('{0}\\{1}\\DataAquarium.Project.xml', window.external.ProjectLocation, projectName),//String.format('{0}\\{1}\\DataAquarium.Project.xml', projectId, projectName),
+                project = window.external.LoadFromProjectsRootWithPath(path);
+            CodeOnTime.Client.writeProperty(project, 'p:project/p:bll/@tabViewSelection', 0);
+            CodeOnTime.Client.saveToProjectsRoot(path, project);
+
+            $('.BLL a').trigger('click');
+        }
+
+        function ProjectAction(projectId, projectName, projectLocation) {
+            if (projectLocation)
+                window.external.ProjectLocation = projectLocation;
+            if (!window.external.ChangeNamespaceWhenNeeded(projectId, projectName, projectLocation))
+                return;
+            window.external.ProjectDisplayName = CodeOnTime.Client.displayName(projectName);
+            if (event && event.shiftLeft) {
+                GenerateProject(projectId, projectName, 'GenerateAll');
+                return;
+            }
+            CodeOnTime.Client.showDialog('ProjectActionDialog');
+            var actions = [
+                {
+                    'name': 'Design',
+                    'script': String.format('GenerateProject(\'{0}\',\'{1}\', \'Design\')', projectId, projectName),
+                    'toolTip': 'Open in Project Designer to customize the application.'
+                },
+                {
+                    'name': 'Model',
+                    'script': String.format('ShowSettings(\'{0}\',\'{1}\'); openModel(\'{0}\',\'{1}\');', projectId, projectName),
+                    'beforeScript': 'if(false)',
+                    'toolTip': ' Change models of data controllers in this project.'
+                },
+                {
+                    'name': 'Settings',
+                    'script': String.format('ShowSettings(\'{0}\',\'{1}\')', projectId, projectName),
+                    'beforeScript': 'if(false)',
+                    'toolTip': 'View and change the settings of the application.'
+                },
+                {
+                    'name': 'Refresh',
+                    'script': String.format('if(CodeOnTime.Client.refreshMetadata){{if(CodeOnTime.Client.refreshMetadata(\'{0}\',\'{1}\'))GenerateProject(\'{0}\',\'{1}\',\'Summary\');else return  false;HideProjectActions();}}else GenerateProject(\'{0}\',\'{1}\', \'Refresh\')', projectId, projectName),
+                    'beforeScript': 'if(!CodeOnTime.Client.refreshMetadata)',
+                    'toolTip': 'Refresh database tables and views included in the project.'
+                }
+            ];
+
+            Array.add(actions, {
+                'name': 'Open',
+                'script': String.format('OpenProject(\'{0}\', \'{1}\')', projectId, projectName),
+                'toolTip': 'Open in Windows Explorer to view the project files.'
+            });
+            var actionList = library.selectNodes(String.format('//l:project[@name=\'{0}\']/l:action', projectId));
+            var previewConfig = CodeOnTime.Client.getPreviewConfig(projectId, projectName),
+                usesAppPreview = previewConfig.preview != '' && previewConfig.preview != 'Browser';
+            for (var i = 0; i < actionList.length; i++) {
+                var actionNode = actionList.get(i),
+                    action = {
+                        'name': actionNode.getAttribute('name'),
+                        'script': String.format('ExecuteProjectAction(\'{0}\',\'{1}\',\'{2}\')', projectId, projectName, actionNode.getAttribute('name')),
+                        'toolTip': actionNode.getAttribute('toolTip'),
+                        'hint': actionNode.getAttribute('hint')
+                    };
+
+                if (usesAppPreview) {
+                    if (action.name == 'Browse') {
+                        action.name = 'Run';
+                        action.toolTip = 'Run the app on this device.';
+                    }
+                }
+
+                if (action.name == 'Develop')
+                    actions.splice(3, 0, action);
+                else
+                    Array.add(actions, action);
+            }
+
+            Array.add(actions, {
+                'name': 'Delete',
+                'script': String.format('DeleteProject(\'{0}\',\'{1}\')', projectId, projectName),
+                'beforeScript': 'if(false)',
+                'toolTip': 'Delete the entire application from your computer.'
+            });
+
+            var menu = $get('ProjectActionDialog_Menu');
+            var sb = new Sys.StringBuilder();
+            //sb.append(String.format('<div class="ProjectId {2}"><span>{1}</span></div><div class="ProjectName {2}"><span>{0}</span></div>', CodeOnTime.Client.displayName(projectName), ProjectIdToLabel(projectId), ProjectIdToCssClass(projectId)));
+            sb.append('<div class="ProjectActionList">');
+            //var median = Math.ceil(actions.length / 2);
+            RenderProjectActions(sb, actions, 0, 2);
+            RenderProjectActions(sb, actions, 3, 5);
+            RenderProjectActions(sb, actions, 6, actions.length - 1);
+            sb.append('<div style="clear:both"></div>');
+            sb.append('</div>');
+            menu.innerHTML = String.format('<div class="Content Header">Please select a project action.</div><div class="Heading"><span style="float:right;text-transform:none;cursor:default" title="Project Type">{2}</span><span style="text-transform:none;cursor:default" class="ProjectId {3}" title="Project Display Name">{1}</span></div>{0}', sb.toString(), CodeOnTime.Client.displayName(projectName), ProjectIdToLabel(projectId), ProjectIdToCssClass(projectId));
+        }
+
+        function RenderProjectActions(sb, actions, startIndex, endIndex) {
+            sb.append('<ul class="ProjectAction">');
+            for (var i = startIndex; i <= endIndex; i++) {
+                var a = actions[i];
+                var beforeScript = a.beforeScript;
+                if (!beforeScript)
+                    beforeScript = 'HideProjectActions()';
+                sb.append(String.format('<li class="{3}"><a href="javascript:" onclick="{5};{1};return false" title="{4}"><div class="Outer"><div class="Action">{0}</div><div class="Description">{2}</div></div></a></li>',
+                    a.name, a.script, a.toolTip, a.name.replace(/\W/g, ''), a.hint ? a.hint : '', beforeScript));
+            }
+            sb.append('</ul>');
+
+        }
+
+        function EnumerateWizardSteps(projectId) {
+            var project = CodeOnTime.Client.loadFromLibrary(String.format('{0}\\CodeOnTime.Project.xml', projectId));
+            var steps = project.selectNodes('/p:project/p:settings/p:group');
+            return steps;
+        }
+
+        function RenderSettings(projectId, projectName, sb, steps, startIndex, endIndex) {
+            sb.append('<ul class="Settings">');
+            for (var i = startIndex; i <= endIndex; i++) {
+                var step = steps.get(i);
+                sb.append(String.format('<li class="{2} {5}"><a href="javascript" onclick="HideProjectActions();GenerateProject(\'{0}\',\'{1}\',\'Settings,{2}\');return false;"><div class="Outer"><div class="Inner"><div class="Text">{3}</div><div class="Description">{4}</div></div></div></a></li>',
+                        projectId, projectName, step.getAttribute('name'), step.getAttribute('text'), step.getAttribute('description'), step.getAttribute('section')));
+            }
+            sb.append('</ul>');
+        }
+
+        function ProjectIdToCssClass(projectId) {
+            return projectId.replace(/ /g, '-').toLowerCase();
+        }
+
+        function ProjectIdToLabel(projectId) {
+            if (projectId == 'Web Site Factory')
+                return 'App Factory';
+            else if (projectId == 'Web App Factory')
+                return 'App Factory (advanced)';
+            return projectId;
+        }
+
+        function ShowSettings(projectId, projectName) {
+            var steps = EnumerateWizardSteps(projectId);
+            if (steps.length > 0) {
+                var sb = new Sys.StringBuilder(),
+                    displayName = CodeOnTime.Client.displayName(projectName);
+                window.external.ProjectDisplayName = displayName;
+                //sb.append(String.format('<div class="ProjectId {2}"><span>{1}</span></div><div class="ProjectName {2}"><span>{0}</span></div>', displayName, ProjectIdToLabel(projectId), ProjectIdToCssClass(projectId)));
+                var median = Math.ceil(steps.length / 2);
+                RenderSettings(projectId, projectName, sb, steps, 0, median - 1);
+                RenderSettings(projectId, projectName, sb, steps, median, steps.length - 1);
+                sb.append('<div style="clear:both"></div>');
+                var menu = $get('ProjectActionDialog_Menu');
+                //menu.innerHTML = '<div class="Content Header" style="margin-bottom:4px">Please select an option.</div>' + sb.toString();
+                menu.innerHTML = String.format('<div class="Content Header">Please select an option.</div><div class="Heading"><span style="float:right;text-transform:none;cursor:default" title="Project Type">{2}</span><span style="text-transform:none;cursor:default" class="ProjectId {3}" title="Project Display Name">{1}</span></div>{0}', sb.toString(), displayName, ProjectIdToLabel(projectId), ProjectIdToCssClass(projectId));
+            }
+            else {
+                HideProjectActions();
+                GenerateProject(projectId, projectName, null);
+            }
+        }
+
+        function GenerateProject(projectId, projectName, projectAction) {
+            try {
+                window.external.ProjectAction = projectAction;
+            }
+            catch (ex) {
+            }
+            CodeOnTime.Client.showDialog('ProgressDialog');
+            CodeOnTime.Client.sendRequest({
+                Name: 'Generate', Arguments: [
+                { Name: 'libraryId', Value: projectId },
+                { Name: 'projectName', Value: projectName }
+                ]
+            });
+        }
+
+        function OpenProject(projectId, projectName) {
+            CodeOnTime.Client.openProjectSource(window.external.ProjectLocation + '\\' + projectName);
+        }
+
+        function ExecuteProjectAction(projectId, projectName, actionName) {
+            CodeOnTime.Client.showDialog('ProgressDialog');
+            CodeOnTime.Client.sendRequest({
+                Name: 'Generate', Arguments: [
+                { Name: 'libraryId', Value: projectId },
+                { Name: 'projectName', Value: projectName },
+                { Name: 'actionName', Value: actionName }
+                ]
+            });
+        }
+
+        function NewProjectDialog_Create() {
+            var projectDisplayName = $('#NewProjectDialog_DisplayName').val().trim();
+            if (!projectDisplayName.length) {
+                alert('Please enter a non blank project name.')
+                $('#NewProjectDialog_DisplayName').focus();
+                return;
+            }
+            var projectGroup = $('#NewProjectDialog_Group').val().trim();
+            var projectElem = $get('NewProjectDialog_Name');
+            var projectName = projectElem.value.trim();
+            var projectLocation = $('#NewProjectDialog_Location').val().trim();
+            if (!projectLocation.length) {
+                alert('Please enter a non blank location for the project folder.')
+                $('#NewProjectDialog_Location').focus();
+                return;
+            }
+            if (projectName.match(CodeOnTime.Client.EmptyStringRegex) != null) {
+                alert('Please enter a non-blank Folder name.');
+                projectElem.focus();
+            }
+            else if (!projectName.match(CodeOnTime.Client.ValidProjectNameRegex)) {
+                alert('Please enter a Folder name that consists of alpha-numeric characters only.');
+                projectElem.focus();
+            }
+            else if (projects.selectSingleNode(String.format('//p:project[@displayName="{0}"]', projectDisplayName.replace(/\"/g, "&quote;")))) {
+                alert('A project with the same name already exists. Please enter a different project name.');
+                $('#NewProjectDialog_DisplayName').focus();
+            }
+            else if (!window.external.ValidateNewProjectLocation(projectLocation, projectName)) {
+                projectElem.focus();
+            }
+            //else if (library.selectSingleNode(String.format('/l:library/l:project[@name="{0}" and @premium="true"]', selectedLibrary))) {
+            //    alert('This project requires activation.');
+            //}
+            else {
+                if (selectedLibrary == 'Web Site Factory' && $get('NewProjectDialog_UseClassLibrary').checked)
+                    selectedLibrary = 'Web App Factory';
+                $get('ProgressDialog_Heading').innerHTML = String.format('Generating "{1}" from "{0}"', selectedLibrary, projectName);
+
+                //alert(selectedLibrary + ", "+ projectDisplayName + ", " + projectName +  ", " + projectLocation);
+
+                CodeOnTime.Client.hideDialog();
+                CodeOnTime.Client.showDialog('ProgressDialog');
+                CodeOnTime.Client.sendRequest({
+                    Name: 'Generate', Arguments: [
+                    { Name: 'libraryId', Value: selectedLibrary },
+                    { Name: 'projectName', Value: projectName },
+                    { Name: 'projectLocation', Value: projectLocation },
+                    { Name: 'projectDisplayName', Value: projectDisplayName },
+                    { Name: 'projectGroup', Value: projectGroup }
+                    ]
+                });
+            }
+        }
+
+        function DeleteProject(projectId, projectName) {
+            window.external.DeleteProject(projectId, projectName);
+        }
+
+        function ConfigureSync(projectId, projectName) {
+            HideProjectActions();
+            CodeOnTime.Client.showDialog("ProjectSyncSettingsDialog");
+            ProjectSyncSettings_ProjectInfo.innerHTML = String.format('<div class="ProjectId {2}"><span>{1}</span></div><div class="ProjectName {2}"><span>{0}</span></div>', projectName, projectId, ProjectIdToCssClass(projectId));
+            SyncSaveSettingsButton.onclick = function () {
+                window.external.SaveSyncSettings(projectId, projectName, SyncUserName.value, SyncPassword.value, SyncServerUrl.value);
+            }
+            SyncServerType.onchange = function () {
+                var isCustom = SyncServerType.selectedIndex == 1;
+                Sys.UI.DomElement.setVisible(SyncServerUrlRow, isCustom);
+                if (isCustom)
+                    SyncServerUrl.focus();
+                else
+                    SyncServerUrl.value = '';
+            }
+            SyncClearLink.onclick = function ProjectSyncSettings_Clear() {
+                window.external.ClearSyncSettings(projectId, projectName);
+                ConfigureSync(projectId, projectName);
+                return false;
+            }
+            var settings = window.external.GetSyncSettings(projectId, projectName);
+            if (settings != null) {
+                settings = settings.split(/\|\|/);
+                SyncUserName.value = settings[0];
+                SyncPassword.value = settings[1];
+                if (settings[2] == "" || settings[2] == null) {
+                    SyncServerType.selectedIndex = 0;
+                }
+                else {
+                    SyncServerType.selectedIndex = 1;
+                    SyncServerUrl.value = settings[2];
+                }
+            }
+            else {
+                SyncUserName.value = '';
+                SyncPassword.value = '';
+                SyncServerType.selectedIndex = 0;
+                SyncServerUrl.value = '';
+            }
+            SyncUserName.focus();
+            Sys.UI.DomElement.setVisible(SyncServerUrlRow, SyncServerType.selectedIndex == 1);
+        }
+
+        function NewProjectDialog_Cancel() {
+            CodeOnTime.Client.hideDialog();
+        }
+
+        function ProgressDialog_CancelGeneration() {
+
+            CodeOnTime.Client.cancel();
+        }
+
+        function CodeDomProviderChanged() {
+            var providerSelector = $get('ProviderSelector');
+            var codedom = CodeOnTime.Client.loadFromLibrary('_Config\\CodeOnTime.CodeDom.xml');
+            var providers = codedom.selectSingleNode('/c:configuration/c:providers');
+            providers.setAttribute('default', providerSelector.options[providerSelector.selectedIndex].value);
+            try {
+                codedom.save(codedom.url);
+                window.external.ResetTestBench();
+            }
+            catch (ex) { }
+            finally {
+                LoadCodeDomProviders();
+            }
+        }
+
+        function EditSubscriptions() {
+            window.external.EditActivationCode();
+        }
+
+        function ChangeSubscriptions() {
+            var subscriptions = $get('SubscriptionID').value;
+            CodeOnTime.Client.set_subscripions(subscriptions);
+            CancelSubscriptions();
+            ShowRegisteredActivationCode(subscriptions);
+            CodeOnTime.Client.updateSubscriptionLevel(subscriptions);
+            window.external.CheckForUpdates();
+        }
+
+        function CancelSubscriptions() {
+            Sys.UI.DomElement.setVisible($get('Subscriptions'), true);
+            Sys.UI.DomElement.setVisible($get('SubscriptionsEditor'), false);
+        }
+
+        function ShowLibrary() {
+            window.external.ProjectDisplayName = null;
+            if (!dnnEnabled && !sharePointEnabled) {
+                NewProject('Web Site Factory');
+            }
+            else
+                CodeOnTime.Client.showDialog("LibraryDialog");
+        }
+
+        function AddExistingProject() {
+            window.external.AddExistingProject();
+        }
+
+        function SizeProjectList() {
+            var height = $(window).height() - $('.project-list').offset().top - 8;
+            $('.project-list, #LatestNewsFrame, #MainDivider').css({ 'max-height': height, 'min-height': height });
+        }
+
+        $(window).on('resize', SizeProjectList);
+
+
+    </script>
+    <!-- page body -->
+    <div id="Main" title="Welcome">
+        <!--<div class="Heading" style="margin-top: -6px;">
+            Activation
+        </div>-->
+        <div class="Content Header">
+            <!--You are using <b>Code On Time</b> application generator.-->
+            <span id="Subscriptions" style="float:right">
+                <a href="#" title="Click here to register for the free trial."
+                   onclick="EditSubscriptions();return false;">Activate Unlimited Edition free trial</a>
+            </span>            Rapidly build and deploy forms, reports, and
+            apps that work offline, online, and on-premises.<!-- with personal assistant.-->
+
+            <div id="SubscriptionsEditor" style="padding-top: 8px; padding-bottom: 8px; display: none;">
+                Activation Code:
+                <input type="text" id="SubscriptionID" style="width: 300px;" title="Separate multiple activation codes with comma." />&nbsp;
+                <button onclick="ChangeSubscriptions()">
+                    Save
+                </button>
+                &nbsp;
+                <button onclick="CancelSubscriptions()">
+                    Cancel
+                </button>
+                <div style="padding-top: 8px;">
+                    If you have purchased <b>Code On Time Standard</b>, <b>Code On Time Premium</b>, or <b>Code On Time Unlimited</b>
+                    then please enter your activation code.
+                    <br />
+                    <!-- A subscription number can be found on the confirmation receipt. Learn more about
+                    available <a href="javascript:" onclick="return window.external.OpenUrl('http://www.codeontime.com/subscriptions.aspx')"
+                        target="_blank" title="Purchase a subscription">subscriptions</a>.<br />-->
+                    Only owners of <b>Code On Time Unlimited</b> can use the same activation code by more than one person
+                    in your organization.<br />
+                    <br />
+                    <span>You must be connected to the Internet at the time of activation.</span>
+                </div>
+            </div>
+        </div>
+        <div class="Heading">
+            <table style="border-collapse: collapse; display: block; width: 100%;">
+                <tr>
+                    <td style="font-weight: bold;">
+                        My Projects
+                    </td>
+                    <!--
+                    <td align="right">
+                                         <select id="ProviderSelector" title="Project Implementation Language" style="border-style: none;"
+                            onchange="CodeDomProviderChanged()">
+                            <option>Visual Basic</option>
+                        </select>
+                    </td>-->
+                </tr>
+            </table>
+        </div>
+        <table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse">
+            <tr>
+                <td>
+                    <div class="project-list" style="height: 100%; overflow-y: auto; overflow-x: hidden">
+                        <div id="MyProjects" class="Content">
+                            Please start by selecting a project in the library below. The project wizard will guide you through
+                            a series of pages to gather information required to generate an application code of the selected project
+                            type. Some of the project features require a <a href="javascript:" onclick="return $openUrl('http://www.codeontime.com/buy')"
+                                                                            target="_blank" title="Purchase Code On Time edition">activation code</a>.
+                        </div>
+                        <div id="Tasks" style="padding-top: 8px; float: left">
+                            <div class="Task">
+                                <a href="#" onclick="ShowLibrary();return false;" title="Create a new application.">Create</a> a new
+                                application.
+                            </div>
+                            <div class="Task">
+                                <a href="#" onclick="AddExistingProject();return false;" title="Default project locations:&#10;[User Profile]\Source\Repos&#10;[Documents]\Code OnTime\Projects">Add</a> an existing application.
+                            </div>
+                            <div class="Task">
+                                <a href="javascript:" onclick="window.external.OpenUrl('https://my.codeontime.com');return false;"
+                                   title="Learning Resources" target="_blank">Manage</a> your account, users, and projects online.
+                            </div>
+                            <div class="Task">
+                                <a href="#" id="ShowLibrary"
+                                   title="Open the location of Code On Time files
+in File Explorer." target="_blank">Locate</a> the code generation library, addons, and backups.
+                            </div>
+                            <div class="Task">
+                                <a href="javascript:" onclick="return $openUrl('https://www.youtube.com/playlist?list=PLy2g3SjvDe2YjTOPLaFaxzm1ijkDgVbcK');"
+                                   title="Learning Resources" target="_blank">Learn</a> to develop applications.
+                            </div>
+                            <div class="Task">
+                                <a href="javascript:" onclick="return $openUrl('https://codeontime.com/contact-us');" title="Contact customer service or open a support ticket"
+                                   target="_blank">Request</a> help with your project.
+                            </div>
+                            <div class="Task">
+                                <a href="javascript:" onclick="return $openUrl('https://www.codeontime.com/buy');return false;" title="Buy Code On Time edition"
+                                   target="_blank">Buy</a> a product edition now.
+                            </div>
+                            <div class="Task">
+                                <a href="javascript:" onclick="return window.external.OpenUrl('https://www.codeontime.com/services');"
+                                   title="View available services" target="_blank">Order</a> our consulting services online.
+                            </div>
+                            <div class="Task">
+                                <a href="javascript:" onclick="$get('SubscribeForm').submit();return false;" title="View available services"
+                                   target="_blank">Subscribe</a> to our newsletter.
+                            </div>
+                        </div>
+                        <div style="float: left; padding: 8px; border: solid 1px silver; margin: 8px; display: none;" id="SubscribeToNewsletter">
+                            <div>
+                                <!-- BEGIN: Constant Contact Stylish Email Newsletter Form -->
+                                <div align="left">
+                                    <div style="width: 160px; background-color: #ffffff;">
+                                        <form name="ccoptin" id="SubscribeForm" action="http://visitor.constantcontact.com/d.jsp" target="_blank"
+                                              method="get">
+                                            <span style="background-color: #006699; float: right; margin-right: 5px; margin-top: 3px">
+                                                <img src="http://img.constantcontact.com/ui/images1/visitor/email1_trans.gif" alt="Email Newsletter icon, E-mail Newsletter icon, Email List icon, E-mail List icon"
+                                                     border="0" />
+                                            </span><font style="font-weight: bold; font-family: Arial; font-size: 16px; color: #006699;">
+                                                Sign up for our Email Newsletter
+                                            </font>
+                                            <input type="text" name="ea" size="20" value="" style="font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+                                            font-size: 10px; border: 1px solid #999999;" />
+                                            <input type="submit" name="go" value="GO" style="font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 10px;" />
+                                            <input type="hidden" name="m" value="1102694241340" />
+                                            <input type="hidden" name="p" value="oi" />
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- END: Constant Contact Stylish Email Newsletter Form -->
+                                <!-- BEGIN: SafeSubscribe -->
+                                <div align="left" style="padding-top: 0px;">
+                                    <a href="http://www.constantcontact.com/safesubscribe.jsp" target="_blank">
+                                        <img src="http://img.constantcontact.com/ui/images1/safe_subscribe_logo.gif" border="0" width="168" height="14"
+                                             alt="" />
+                                    </a>
+                                </div>
+                                <!-- END: SafeSubscribe -->
+                                <!-- BEGIN: Email Marketing you can trust -->
+                                <div align="left" style="font-family: Arial,Helvetica,sans-serif; font-size: 10px; color: #999999;">
+                                    For <a href="http://www.constantcontact.com/jmml/email-marketing.jsp" style="text-decoration: none; font-family: Arial,Helvetica,sans-serif;
+                                        font-size: 10px; color: #999999;" target="_blank">Email Marketing</a>you can trust
+                                </div>
+                                <!-- END: Email Marketing you can trust -->
+                            </div>
+                            <!--                            <div align="center" style="margin-top: 24px">
+                                                            <a href="javascript:" onclick="window.external.openUrl('http://youtube.com/user/codeontime')">
+                                                                <img src="YouTube.png" alt="Watch tutorials on our YouTube channel." style="border: 0px" /></a></div>
+                            -->
+                        </div>
+                    </div>
+                </td>
+                <td id="MainDivider" style="height: 480px; width: 2%; height: 100%; position: relative">
+                    <div style="background-color: #ccc; position: absolute; left: 50%; top: 0; bottom: 0; width: 1px">
+                    </div>
+                </td>
+                <td id="LatestNews" valign="top" style="width: 49%;">
+                    <iframe id="LatestNewsFrame" src="about:blank" style="width: 100%; height: 100%;" frameborder="false"></iframe>
+                    <!--<div id="LatestNewsMessage">
+                        Loading News...
+                        <div class="WizardWait" style="margin-top: 8px">
+                        </div>
+                    </div>-->
+                </td>
+            </tr>
+            <!--            <tr>
+                <td>
+                    <div style="margin: 4px 6px;">
+                        <a href="javascript:" onclick="window.external.openUrl('http://youtube.com/user/codeontime')">
+                            <img src="YouTube.png" alt="Watch tutorials on our YouTube channel." style="border: 0px" /></a></div>
+                </td>
+            </tr>-->
+        </table>
+        <!--<div class="Heading" id="ProjectMenuHeading">
+            Library</div>-->
+        <div id="ProjectMenu">
+        </div>
+    </div>
+    <!-- "Library" Dialog -->
+    <div id="LibraryDialog" title="Library">
+        <div class="Content">
+            Please select the web application project that you would like to create. Some of the project features
+            require <a href="javascript:" onclick="return $openUrl('http://www.codeontime.com/buy')" target="_blank"
+                       title="Purchase Code On Time edition">activation</a>.<br />
+        </div>
+        <!--<div class="Heading">
+            Library</div>-->
+        <div id="LibraryProjectMenu">
+        </div>
+        <div class="Buttons">
+            <button onclick="NewProjectDialog_Cancel()">
+                Cancel
+            </button>
+        </div>
+    </div>
+    <!-- "Sync Server" Dialog -->
+    <div id="ProjectSyncSettingsDialog" title="Synchronization Settings">
+        <div id="ProjectSyncSettings" class="sync-settings">
+            <div id="ProjectSyncSettings_ProjectInfo">
+            </div>
+            <table style="width: 100%; height: 300px; margin-top: 30px;">
+                <tr>
+                    <td style="border-right: solid 1px grey; padding: 20px;" valign="middle">
+                        <div class="header">
+                            Configure Synchronization Settings
+                        </div>
+                        <div>
+                            You can share work done in <i>Project Designer</i> with other developers on your team. Changes will
+                            be automatically submitted to the server. Revisions made by other developers will be downloaded whenever
+                            you start <i>Designer</i>. Team members, projects, and revisions can be viewed and managed online.
+                            <br />
+                            <br />
+                            This feature is designed to be used alongside existing source control systems, such as <i>
+                                Microsoft Team
+                                Foundation Server
+                            </i>, <i>GitHub</i>, or <i>Subversion</i>.
+                            <br />
+                            <br />
+                            Enter your payment email and <i>activation code</i> as user name and password to get started.
+                            <br />
+                            <br />
+                            Contact your team manager to obtain login information if you do not have an <i>activation code </i>.
+                            <br />
+                            <br />
+                            <a href="javascript::" onclick="window.external.OpenUrl('https://codeontime.zendesk.com/hc/en-us/requests/new');return false;"
+                               target="_blank">Open a support ticket</a> if you are in need of assistance.
+                            <br />
+                            <br />
+                            Manage your <a href="javascript::" onclick="window.external.OpenUrl(window.external.AccountManagerAccountUrl);return false;"
+                                           target="_blank">account information</a>, <a href="javascript::" onclick="window.external.OpenUrl(window.external.AccountManagerProjectsUrl);return false;"
+                                                                                       target="_blank">projects</a>, <a href="javascript::" onclick="window.external.OpenUrl(window.external.AccountManagerRevisionsUrl);return false;"
+                                                                                                                        target="_blank">revisions</a>, and <a href="javascript::" onclick="window.external.OpenUrl(window.external.AccountManagerUsersUrl);return false;"
+                                                                                                                                                              target="_blank">users</a> online.
+                        </div>
+                    </td>
+                    <td>
+                        <table class="LoginControl" cellspacing="8px" cellpadding="1" border="0" style="border-collapse: collapse;
+                            border-collapse: separate;">
+                            <tr>
+                                <td valign="middle">
+                                    <table cellpadding="5px" border="0">
+                                        <tr>
+                                            <td style="white-space: nowrap">
+                                                <label for="SyncUserName">
+                                                    User Name:
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <input id="SyncUserName" type="text" style="width: 180px;" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label for="SyncPassword">
+                                                    Password:
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <input type="password" id="SyncPassword" style="width: 180px;" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <label for="SyncServerType">
+                                                    Server:
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <select id="SyncServerType" style="width: 180px;">
+                                                    <option>codeontime.com</option>
+                                                    <option>(custom)</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                        <tr id="SyncServerUrlRow">
+                                            <td>
+                                                <label for="SyncServerUrl">
+                                                    Address:
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <input type="text" id="SyncServerUrl" style="width: 180px" />
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td>
+                                                <button id="SyncSaveSettingsButton" style="width: 80px">
+                                                    Save
+                                                </button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <a id="SyncPasswordRecoveryLink" href="javascript::" onclick="window.external.OpenUrl('http://account.codeontime.com/Pages/Recovery.aspx');return false;"
+                                                   target="_blank">Forgot Your Password?</a><br />
+                                                <br />
+                                                <a id="SyncClearLink" href="javascript::" onclick="return false;">
+                                                    Clear synchronization settings for this
+                                                    project
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="Buttons">
+            <button onclick="NewProjectDialog_Cancel()">
+                Cancel
+            </button>
+        </div>
+    </div>
+    <!-- "Project Action" Dialog -->
+    <div id="ProjectActionDialog" title="Project Action">
+        <div id="ProjectActionDialog_Menu">
+        </div>
+        <div class="Buttons">
+            <button onclick="NewProjectDialog_Cancel()">
+                Cancel
+            </button>
+        </div>
+    </div>
+    <!-- "New Project" Dialog -->
+    <div id="NewProjectDialog" title="Create Project">
+        <div class="Content ContentBar">
+            Please enter the project name and click the <i>Create</i> button.
+        </div>
+        <div class="Heading">
+            New Project
+        </div>
+        <div class="Content">
+            <div style="display: none">
+                <div>
+                    Vendor: <span id="NewProjectDialog_Vendor">Vendor Name</span>
+                </div>
+                <div id="NewProjectDialog_Website">
+                    vendor url
+                </div>
+                <div id="NewProjectDialog_Title" style="font-weight: bold; padding-bottom: 4px;">
+                </div>
+                <div id="NewProjectDialog_Description">
+                </div>
+                <div id="NewProjectDialog_ProjectResources" style="padding: 4px 0px 8px 0px">
+                    <span id="NewProjectDialog_About"></span><span id="NewProjectDialog_Demo"></span>
+                </div>
+            </div>
+            <!--<table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td></td>
+                    <td style="padding-left:4px;"></td>
+                </tr>
+            </table>-->
+            <div class="Field">
+                <label for="NewProjectDialog_DisplayName" class="Label">
+                    Name:
+                </label>
+                <input id="NewProjectDialog_DisplayName" type="text" style="width: 60%" />
+                <div class="FieldHint">The user-friendly name of the project.</div>
+            </div>
+            <div class="Field">
+                <label for="NewProjectDialog_Name" class="Label">
+                    Folder:
+                </label>
+                <input id="NewProjectDialog_Name" type="text" style="width: 60%" />
+                <div class="FieldHint">The name of the folder with the project source code.</div>
+            </div>
+            <div class="Field">
+                <label for="NewProjectDialog_Location" class="Label">
+                    Location:
+                </label>
+                <input id="NewProjectDialog_Location" type="text" style="width: 60%" />
+                <button style="margin-left:8px" id="NewProjectDialog_Location_Button">Change...</button>
+                <div class="FieldHint">The location of the folder with the project source code.</div>
+            </div>
+            <div class="Field">
+                <label for="NewProjectDialog_Group" class="Label">
+                    Group (optional):
+                </label>
+                <input id="NewProjectDialog_Group" type="text" style="width: 60%" />
+                <div class="FieldHint">The optional name of the project group. Use groups to organize related projects.</div>
+            </div>
+            <div class="Field">
+                <label for="ProviderSelector" class="Label">
+                    Language:
+                </label>
+                <select id="ProviderSelector" title="Project Implementation Language" onchange="CodeDomProviderChanged()">
+                    <option>Visual Basic</option>
+                </select>
+            </div>
+            <div id="NewProjectDialog_UseClassLibrary_Container">
+                <div>
+                    &nbsp;
+                </div>
+                <input type="checkbox" id="NewProjectDialog_UseClassLibrary" title="Project Implementation Language" />
+                <label for="NewProjectDialog_UseClassLibrary" class="Label" id="NewProjectDialog_UseClassLibraryLabel">
+                    Implement application framework as class library (for experienced users only).
+                </label>
+            </div>
+            <div id="NewProjectDialog_VSWarning" class="warning" style="display: none; width: 440px">
+                Separate class library requires Microsoft Visual Studio installed on this computer.
+            </div>
+            <div class="Buttons">
+                <button onclick="NewProjectDialog_Create()">
+                    Create
+                </button>
+                <button onclick="NewProjectDialog_Cancel()" id="Cancel_New_Project">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- "Progress" Dialog -->
+    <div id="ProgressDialog" title="Working...">
+        <div class="Content ContentBar" style="padding-bottom:8px;">
+            Code generator is working now.
+        </div>
+        <div class="Heading" id="ProgressDialog_Heading">
+            Working...
+        </div>
+        <div class="Content">
+            Generator is executing steps defined in the project build file.
+            <br />
+            <br />
+            It may take a few minutes to complete the process depending on the size of the project. The code generation
+            log displays the project steps that are being executed.
+            <br />
+            <br />
+            Click the <i>Cancel</i> button if you would like to stop the process.
+            <br />
+            <br />
+            <div class="WizardWait">
+            </div>
+            <br />
+            <br />
+            <div class="Buttons">
+                <button onclick="ProgressDialog_CancelGeneration()">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- "Install" dialog -->
+    <div id="InstallDialog" title="Installing Updates">
+        <div class="Heading">
+            Installing Updates
+        </div>
+        <div class="Content">
+            The following updates are being installed:
+        </div>
+        <div class="Buttons2" style="text-align: left">
+        </div>
+        <div class="Content">
+            <div id="InstallStatus">
+            </div>
+            <div id="InstallError">
+            </div>
+            <div id="InstallPlan">
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

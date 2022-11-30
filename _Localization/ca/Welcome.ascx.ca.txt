@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Compte administrativa^AdminDesc^
+
+^SignInHeader^Instruccions^SignInHeader^
+
+^SignInInstruction^Registreu-vos per accedir al contingut del lloc protegit.^SignInInstruction^
+
+^SignInPara1^Dos comptes d&#39;usuari estàndard, es creen automàticament quan l&#39;aplicació s&#39;inicia si l&#39;opció d&#39;afiliació hagi estat seleccionat per a aquesta aplicació.^SignInPara1^
+
+^SignInPara2^El <b>admin</b> compte administrativa està autoritzat per accedir a totes les àrees del lloc web i gestor de pertinença. El compte <b>user</b> estàndard pot accedir a totes les àrees del lloc web, amb l&#39;excepció de la gerent de membres.^SignInPara2^
+
+^SignInPara3^Moveu el punter del ratolí a l&#39;enllaç de aquest <i>Login site</i> web en el costat dret a la part superior de la pàgina i iniciï sessió amb un dels comptes que apareixen a continuació.^SignInPara3^
+
+^UserDesc^Compte d&#39;usuari estàndard^UserDesc^
+

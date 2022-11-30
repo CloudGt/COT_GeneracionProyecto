@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^管理者アカウント^AdminDesc^
+
+^SignInHeader^指示^SignInHeader^
+
+^SignInInstruction^保護されたサイトのコンテンツにアクセスするには、ログインしてください。^SignInInstruction^
+
+^SignInPara1^メンバーシップのオプションは、このアプリケーション用に選択されている場合、アプリケーションが初期化されると、次の2つの標準のユーザーアカウントが自動的に作成されます。^SignInPara1^
+
+^SignInPara2^管理者アカウントの<b>admin</b>は、ウェブサイトおよびメンバーシップマネージャーのすべての領域へのアクセスが認可されます。標準<b>user</b>アカウントがメンバシップマネージャを除いて、ウェブサイトのすべての領域へのアクセスを許可されます。^SignInPara2^
+
+^SignInPara3^ページの上部右側には、このウェブsite<i>にリンク</i>Login上にマウスポインタを移動し、以下のいずれかのアカウントでサインインしてください。^SignInPara3^
+
+^UserDesc^標準のユーザーアカウント^UserDesc^
+

@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Înapoi^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^finalizarea^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Confirma noua parola^ConfirmNewPassword^
+
+^ConfirmPassword^confirma parola^ConfirmPassword^
+
+^Email^E-mail^Email^
+
+^ForgotYourPassword^Ti-ai uitat parola?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Răspundeți la următoarea întrebare pentru a vă primi parola. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Confirmarea identității^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Completați acest formular și faceți clic pe butonul Trimiteți pentru a recupera parola uitată. Faceți clic pe Anulare pentru a reveni la ecranul anterior.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Recuperarea parolei: Pasul 2 din 2^IdentityConfirmViewLabel^
+
+^LoginButton^Logare^LoginButton^
+
+^LoginLink^Logare^LoginLink^
+
+^LoginWithDNN^Conectați-vă cu DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Logheaza-te cu Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Conectați-vă cu Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Conectați-vă cu Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Conectați-vă cu SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Conectați-vă cu Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Răspunsul parolei (nu este afișat pentru protecția dvs.)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Introduceți parola dvs. curentă pentru a crea o parolă nouă, pentru a vă actualiza adresa de e-mail sau pentru a modifica întrebarea și răspunsul pentru recuperarea parolei.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Parola curentă^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Vă rugăm să consultați informațiile de membru de mai jos. Dați clic pe Actualizați contul meu pentru a modifica această înregistrare sau faceți clic pe Anulare pentru a reveni.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Contul meu^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Introduceți o parolă nouă. Rețineți că parola trebuie să aibă cel puțin 7 caractere și să includă un caracter non-alfanumeric.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Parola nouă (opțional)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^În timpul recuperării unei parole uitate, vi se va solicita să introduceți numele de utilizator. Dacă există un cont de utilizator, trebuie să răspundeți la o întrebare cu parolă. Un răspuns corect va declanșa un e-mail cu o parolă temporară care vă va fi trimisă.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-mail &amp; Recuperarea parolei (opțional)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Parolă Nouă^NewPassword^
+
+^OldPassword^Parola veche^OldPassword^
+
+^Password^Parola^Password^
+
+^PasswordAnswer^Răspuns parolă^PasswordAnswer^
+
+^PasswordQuestion^Parola Întrebare^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Va rugam sa introduceti un nume de utilizator. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Ti-ai uitat parola?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Completați acest formular și faceți clic pe butonul Continuare pentru a recupera parola uitată. Faceți clic pe Anulare pentru a reveni la ecranul anterior.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Recuperarea parolei: Pasul 1 din 2^PasswordRequestViewLabel^
+
+^RememberMe^Adu-ți aminte de mine data viitoare^RememberMe^
+
+^RequestPasswordActionHeaderText^Următor →^RequestPasswordActionHeaderText^
+
+^SignUp^Inscrie^SignUp^
+
+^SignUpNow^Inscrie-te acum^SignUpNow^
+
+^SignUpViewHeaderText^Completați acest formular și faceți clic pe butonul OK pentru a vă înscrie pentru un cont. Faceți clic pe Anulare pentru a reveni la ecranul anterior.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Înregistrarea contului^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Introduceți numele de utilizator și parola. Rețineți că parola trebuie să aibă cel puțin 7 caractere și să includă un caracter non-alfanumeric. Numai utilizatorii aprobați vor putea să se conecteze pe site.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Informații noi despre utilizator^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Aceste câmpuri sunt necesare pentru a vă ajuta să recuperați o parolă uitată. În timpul procesului de recuperare vi se va cere să introduceți un nume de utilizator. Dacă există un cont de utilizator, este cerută o întrebare de securitate pentru a răspunde. Un răspuns corect va declanșa un e-mail cu o parolă temporară trimisă la e-mailul înregistrat.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Recuperare parola^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Actualizați contul meu^UpdateMyAccountActionHeaderText^
+
+^UserName^Nume de utilizator^UserName^
+

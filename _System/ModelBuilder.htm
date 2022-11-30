@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Data Model Builder</title>
+    <link type="text/css" rel="Stylesheet" href="cloud.models.min.css" />
+    <link type="text/css" rel="Stylesheet" href="codemirror.min.css" />
+</head>
+<body>
+    <script type="text/javascript" src="../Data Aquarium/Scripts/_system.js"></script>
+    <script type="text/javascript" src="codemirror.min.js"></script>
+    <script type="text/javascript" src="cloud.entity-model-builder.min.js"></script>
+    <script type="text/javascript">
+
+        function isSvgSupported() {
+            return document.createElementNS != null;
+        }
+
+        $(document).ready(function () {
+            var builder,
+                model,
+                database;
+
+            if (!isSvgSupported()) {
+                window.external.RequiresIternetExplorer11();
+                return;
+            }
+
+            eval('model=' + window.external.ModelJson);
+            eval('database=' + window.external.DatabaseJson);
+            eval('masterDetail=' + window.external.MasterDetail);
+
+            builder = new CloudOnTime.Models.builder({
+                model: model,
+                database: database,
+                hosted: true,
+                masterDetail: masterDetail
+            });
+            builder.attach($('div'));
+            //debugger
+        });
+
+    </script>
+    <div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^חזור^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^סִיוּם^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^תאשר סיסמא חדשה^ConfirmNewPassword^
+
+^ConfirmPassword^אשר סיסמה^ConfirmPassword^
+
+^Email^אֶלֶקטרוֹנִי^Email^
+
+^ForgotYourPassword^שכחת ססמה?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^ענה על השאלה הבאה כדי לקבל את הסיסמה שלך. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^אישור זהות^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^מלא טופס זה ולחץ על הלחצן שלח כדי לשחזר את הסיסמה שנשכחה. לחץ על ביטול כדי לחזור למסך הקודם.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^שחזור סיסמה: שלב 2 מתוך 2^IdentityConfirmViewLabel^
+
+^LoginButton^התחברות^LoginButton^
+
+^LoginLink^התחברות^LoginLink^
+
+^LoginWithDNN^התחבר עם DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^התחבר עם פייסבוק^LoginWithFacebook^
+
+^LoginWithGoogle^התחברות עם Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^כניסה עם מיקרוסופט^LoginWithMicrosoft^
+
+^LoginWithSharePoint^התחברות עם^LoginWithSharePoint^
+
+^LoginWithWindowsLive^התחברות עם Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^סיסמה תשובה (לא מוצג להגנה שלך)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^הזן את הסיסמה הנוכחית כדי ליצור סיסמה חדשה, לעדכן את כתובת הדואר האלקטרוני שלך או לשנות את השאלה ותשובה לשחזור הסיסמה.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. הסיסמה הנוכחית^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^עיין בפרטי החברות שלך למטה. לחץ על עדכן את החשבון שלי כדי לשנות רשומה זו, או לחץ על ביטול כדי לחזור.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^החשבון שלי^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^הזן סיסמה חדשה. שים לב שעל הסיסמה להיות באורך של לפחות 7 תווים וכוללת תו אחד שאינו אלפאנומרי.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. סיסמה חדשה (אופציונלי)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^במהלך שחזור סיסמה שנשכחה תתבקש להזין את שם המשתמש שלך. אם קיים חשבון משתמש, יש לענות על שאלת סיסמה. תשובה נכונה תפעיל הודעת דוא&quot;ל עם סיסמה זמנית שנשלח אליך.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. דוא&quot;ל &amp; שחזור סיסמה (אופציונלי)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^סיסמה חדשה^NewPassword^
+
+^OldPassword^סיסמה ישנה^OldPassword^
+
+^Password^סיסמה^Password^
+
+^PasswordAnswer^תשובה לשאלה^PasswordAnswer^
+
+^PasswordQuestion^סיסמה שאלה^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^אנא הכנס שם משתמש. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^שכחת ססמה?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^מלא טופס זה ולחץ על הלחצן המשך כדי לשחזר את הסיסמה שנשכחה. לחץ על ביטול כדי לחזור למסך הקודם.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^שחזור סיסמה: שלב 1 מתוך 2^PasswordRequestViewLabel^
+
+^RememberMe^תזכור אותי בפעם הבאה^RememberMe^
+
+^RequestPasswordActionHeaderText^הַבָּא^RequestPasswordActionHeaderText^
+
+^SignUp^הירשם^SignUp^
+
+^SignUpNow^הרשם עכשיו^SignUpNow^
+
+^SignUpViewHeaderText^מלא טופס זה ולחץ על הלחצן &#39;אישור&#39; כדי להירשם לחשבון. לחץ על ביטול כדי לחזור למסך הקודם.^SignUpViewHeaderText^
+
+^SignUpViewLabel^הרשמה לחשבון^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^הזן שם משתמש וסיסמה. שים לב שעל הסיסמה להיות באורך של לפחות 7 תווים וכוללת תו אחד שאינו אלפאנומרי. רק משתמשים שאושרו יוכלו להיכנס לאתר.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^מידע משתמש חדש^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^שדות אלה נדרשים כדי לעזור לך לשחזר סיסמה שנשכחה. במהלך תהליך השחזור תתבקש להזין שם משתמש. אם קיים חשבון משתמש, תתבקש לענות על שאלת אבטחה. תשובה נכונה תפעיל הודעת דוא&quot;ל עם סיסמה זמנית לשלוח את הדוא&quot;ל רשום.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^שחזור סיסמא^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^עדכן את החשבון שלי^UpdateMyAccountActionHeaderText^
+
+^UserName^שם משתמש^UserName^
+

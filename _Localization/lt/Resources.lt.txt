@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Komentuoti^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Pridedamą <b>{1}</b> ne {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Areštas^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Įveskite papildomus užrašus ir prisegti failų.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Pastabos ir Priedai^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Raštu ne {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Pažymi,^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Pažymi,^AnnotationTab^
+
+^BlobClearConfirm^Aišku?^BlobClearConfirm^
+
+^BlobCleared^<b>confirmation :</b> {0} Buvo pašalinta.^BlobCleared^
+
+^BlobClearText^Aiškiai^BlobClearText^
+
+^BlobUploadError^<b>error :</b> Nepavyko įkelti {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Spustelėkite^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^čia^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^įkelti arba išvalykite {0} failą.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>confirmation :</b> {0} Buvo sėkmingai įkeltas. <b>it Gali užtrukti iki {1} minutes miniatiūros atspindėti įkelta content.</b>^BlobUploded^
+
+^Copyright^Visos teisės saugomos.^Copyright^
+
+^RecordChangedByAnotherUser^Įrašas buvo pakeistas kito vartotojo.^RecordChangedByAnotherUser^
+

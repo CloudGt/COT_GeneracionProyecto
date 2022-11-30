@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Administrative Konto^AdminDesc^
+
+^SignInHeader^Anleitung^SignInHeader^
+
+^SignInInstruction^Melden Sie sich in der geschützten Website-Content zugreifen.^SignInInstruction^
+
+^SignInPara1^Zwei Standard-Benutzerkonten werden automatisch erstellt, wenn die Anwendung initialisiert wird, wenn die Mitgliedschaft Option hat für diese Anwendung ausgewählt wurde.^SignInPara1^
+
+^SignInPara2^Das Administrator-Konto <b>admin</b> ist berechtigt, alle Bereiche der Website und der Mitgliedschaft-Manager zugreifen. Die Standard-<b>user</b> Konto ist erlaubt, alle Bereiche der Website, mit Ausnahme der Mitgliedschaft Manager zugreifen.^SignInPara2^
+
+^SignInPara3^Bewegen Sie den Mauszeiger über den Link <i>Login zu dieser Web-site</i> auf der rechten Seite am oberen Rand der Seite und melden Sie sich mit einem der Konten aufgelistet.^SignInPara3^
+
+^UserDesc^Standard-Benutzerkonto^UserDesc^
+

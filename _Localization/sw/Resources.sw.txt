@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Annotate^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Masharti <b>{1}</b> katika {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Attachment^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Kuingia maelezo ya hiari na ambatisha files.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Maelezo na viambatisho^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^Imeandikwa katika {0} {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Vidokezo^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Vidokezo^AnnotationTab^
+
+^BlobClearConfirm^Wazi?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Imekuwa akalipa.^BlobCleared^
+
+^BlobClearText^Wazi^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Kushindwa upload {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Click^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^hapa^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^upload au wazi {0} faili.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Imekuwa uploaded mafanikio. <b>It Inaweza kuchukua hadi dakika {1} kwa thumbnail kutafakari content.</b> uploaded^BlobUploded^
+
+^Copyright^Zote zimehifadhiwa.^Copyright^
+
+^RecordChangedByAnotherUser^rekodi imekuwa iliyopita na mtumiaji mwingine.^RecordChangedByAnotherUser^
+

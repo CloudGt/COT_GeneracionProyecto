@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Crear un rexistro de nova función de membro.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Novo Papel^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Novo^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Encher o formulario. Asegúrese de poñerse todos os campos necesarios.^CreateFormCategory^
+
+^CreateFormHeaderText^Por favor, enche este formulario e prema no botón Aceptar para crear unha nova asociación rexistro papeis. Prema en Cancelar para volver á pantalla anterior.^CreateFormHeaderText^
+
+^DescriptionLabel^Descrición^DescriptionLabel^
+
+^EditViewCategory^Estes son os campos do rexistro papel da sociedade que se pode editar.^EditViewCategory^
+
+^EditViewHeaderText^Por favor, revise a información papeis asociación abaixo. Prema en Editar para cambiar este rexistro, prema en Eliminar para eliminar o rexistro, ou prema en Cancelar / Pechar para volver atrás.^EditViewHeaderText^
+
+^GridViewHeaderText^Esta é unha lista de funcións de membro.^GridViewHeaderText^
+
+^RoleNameLabel^Nome da Función^RoleNameLabel^
+

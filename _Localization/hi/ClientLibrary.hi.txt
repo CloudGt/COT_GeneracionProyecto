@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^के बारे में^About^
+
+^Accent^उच्चारण^Accent^
+
+^ActionBarActionsHeaderText^क्रियाएँ^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^रद्द करना^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^सभी रिकॉर्ड परिवर्तन रद्द करें.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^नया रिकार्ड रद्द करें.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^डेटाबेस के लिए नया रिकॉर्ड सहेजें.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^बचाना^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^एक नई {0} रिकॉर्ड बनाएँ.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^नई {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^नया^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^अभिलेख^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^रिपोर्ट^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^डेटाबेस में परिवर्तनों को सहेजें.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^बचाना^ActionBarUpdateActionHeaderText^
+
+^AddAccount^खाता जोड़ो^AddAccount^
+
+^AddCondition^हालत जोड़ें^AddCondition^
+
+^AddConditionText^खोज हालत जोड़ें^AddConditionText^
+
+^AddItem^सामान जोडें^AddItem^
+
+^AddMatchingGroup^मिलान समूह जोड़ें^AddMatchingGroup^
+
+^AddSearchBarField^और अधिक खोज फ़ील्ड^AddSearchBarField^
+
+^AddSystemIdentity^प्रणाली पहचान जोड़ने^AddSystemIdentity^
+
+^AddToFavorites^पसंदीदा में जोड़ें^AddToFavorites^
+
+^AdvancedSearch^उन्नत खोज^AdvancedSearch^
+
+^AdvancedSearchInstruction^मिलान किया जाना चाहिए कि शर्तों और प्रेस खोज बटन दर्ज करें।^AdvancedSearchInstruction^
+
+^After^के बाद^After^
+
+^Agenda^कार्यसूची^Agenda^
+
+^AlignedLeft^बाएँ संरेखित^AlignedLeft^
+
+^AlignedRight^सही गठबंधन^AlignedRight^
+
+^AllDatesInPreriod^अवधि में सभी दिनांक^AllDatesInPreriod^
+
+^AlternativeView^डेटा की एक वैकल्पिक दृश्य का चयन करें.^AlternativeView^
+
+^Always^सदैव^Always^
+
+^AnyValue^(कोई)^AnyValue^
+
+^Apply^लागू करें^Apply^
+
+^Apps^Apps^Apps^
+
+^Aquarium^मछलीघर^Aquarium^
+
+^Auto^ऑटो^Auto^
+
+^AutoOpenNextItem^ऑटो-अगला आइटम खोलें^AutoOpenNextItem^
+
+^AverageOf^का औसत^AverageOf^
+
+^AvgAggregate^औसत: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^{0} का औसत^AvgAggregateToolTip^
+
+^Azure^नीला^Azure^
+
+^Back^लौटना^Back^
+
+^BackColor^पीछे का रंग^BackColor^
+
+^BatchEditActionHeaderText^बैच संपादन^BatchEditActionHeaderText^
+
+^BatchEdited^{0} अपडेट किया गया^BatchEdited^
+
+^BatchEditInFormActionHeaderText^बैच संपादन (प्रपत्र)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^अद्यतन^BatchUpdate^
+
+^Before^से पहले^Before^
+
+^BeginsWith^इससे शुरू होता है^BeginsWith^
+
+^Belltown^बेलटाउन^Belltown^
+
+^Berry^बेर^Berry^
+
+^Between^के बीच में^Between^
+
+^Bittersweet^Bittersweet^Bittersweet^
+
+^Blank^रिक्त^Blank^
+
+^BlankPassword^पासवर्ड खाली नहीं हो सकता.^BlankPassword^
+
+^BlankUserName^उपयोगकर्ता नाम रिक्त नहीं हो सकता.^BlankUserName^
+
+^BlankValue^(रिक्त)^BlankValue^
+
+^BlobDownloadHint^यहाँ क्लिक करने के लिए मूल फ़ाइल डाउनलोड करें.^BlobDownloadHint^
+
+^BlobDownloadLink^डाउनलोड^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^मूल फ़ाइल को डाउनलोड करने के लिए चित्र टैप करें^BlobDownloadOriginalHint^
+
+^Blur^कलंक^Blur^
+
+^Bold^बोल्ड^Bold^
+
+^BooleanFilterText^तर्कसंगत फ़िल्टर^BooleanFilterText^
+
+^BooleanIsExpected^एक तार्किक मान है उम्मीद है.^BooleanIsExpected^
+
+^ButtonShapes^बटन आकार^ButtonShapes^
+
+^By^द्वारा^By^
+
+^Calendar^कैलेंडर^Calendar^
+
+^Cancel^रद्द करना^Cancel^
+
+^Cards^पत्ते^Cards^
+
+^Cay^रेती^Cay^
+
+^ChangeYourLanguage^अपनी भाषा बदलें^ChangeYourLanguage^
+
+^Charts^चार्ट^Charts^
+
+^Citrus^साइट्रस^Citrus^
+
+^Classic^क्लासिक^Classic^
+
+^ClearFilter^से साफ फ़िल्टर {0}^ClearFilter^
+
+^ClearFilter2^स्पष्ट निस्यंदक^ClearFilter2^
+
+^ClearText^स्पष्ट पाठ^ClearText^
+
+^ClearToolTip^साफ {0}^ClearToolTip^
+
+^Close^नज़दीक^Close^
+
+^Comfortable^आरामदायक^Comfortable^
+
+^Compact^सघन^Compact^
+
+^Condensed^गाढ़ा^Condensed^
+
+^ConfirmContinue^जारी रहना?^ConfirmContinue^
+
+^ConfirmReload^पुनः लोड करें?^ConfirmReload^
+
+^ConnectionLost^नेटवर्क कनेक्शन खो गया है. फिर प्रयास करें?^ConnectionLost^
+
+^Construct^निर्माण करना^Construct^
+
+^Contains^शामिल^Contains^
+
+^Convention^सम्मेलन^Convention^
+
+^Copy^कॉपी करें^Copy^
+
+^CountAggregate^गणना: {0}^CountAggregate^
+
+^CountAggregateToolTip^की गणना {0}^CountAggregateToolTip^
+
+^CountOf^की गिनती^CountOf^
+
+^CreateLink^लिंक बनाएँ^CreateLink^
+
+^CustomFilterOption^फ़िल्टर ...^CustomFilterOption^
+
+^Cut^कटौती^Cut^
+
+^DarkKnight^डार्क नाइट^DarkKnight^
+
+^DarkTheme^अंधेरा^DarkTheme^
+
+^DataSheetActionDescription^एक डेटा sheet<br/>format का उपयोग कर आइटम्स प्रदर्शित करना.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^डाटा शीट में दिखाएँ^DataSheetActionHeaderText^
+
+^DataWarning^इस प्रक्रिया के लिए मदों की अधिकतम संख्या {0: D} है। परिणाम फिल्टर करने के लिए यहां क्लिक करें।^DataWarning^
+
+^Date^दिनांक^Date^
+
+^DateFilterText^दिनांक फ़िल्टर्स^DateFilterText^
+
+^DateIsExpected^एक तिथि की उम्मीद है.^DateIsExpected^
+
+^DatesAMinAgo^एक मिनट पहले^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^एक मिनट में^DatesInAMin^
+
+^DatesInHour^एक घंटा में^DatesInHour^
+
+^DatesInMin^{0} मिनट में^DatesInMin^
+
+^DatesLast^पिछली बार^DatesLast^
+
+^DatesMinAgo^{0} मिनट पहले^DatesMinAgo^
+
+^DatesNext^अगला^DatesNext^
+
+^DatesNow^अभी^DatesNow^
+
+^DatesOneHour^एक घंटा पहले^DatesOneHour^
+
+^DateSortAscending^शीर्ष पर सबसे पुराना^DateSortAscending^
+
+^DateSortDescending^शीर्ष पर नवीनतम^DateSortDescending^
+
+^DatesSmart^स्मार्ट तारीखें^DatesSmart^
+
+^DatesToday^आज^DatesToday^
+
+^DatesTomorrow^आने वाला कल^DatesTomorrow^
+
+^DatesYesterday^बिता कल^DatesYesterday^
+
+^Day^दिन^Day^
+
+^DefaultCancelActionHeaderText^नज़दीक^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^इस फार्म को भरने और ठीक करने के लिए एक नई {0} रिकॉर्ड बनाने के लिए बटन क्लिक करें. पिछले स्क्रीन पर लौटने के लिए रद्द करें क्लिक करें.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^ये {0} रिकॉर्ड के क्षेत्रों है कि संपादित किया जा सकता हैं.^DefaultEditDescription^
+
+^DefaultEditViewDescription^{0} नीचे दी गई जानकारी की समीक्षा करें. इस रिकॉर्ड बदलने के लिए संपादित करें, रिकॉर्ड करने के लिए हटाएँ हटाएँ क्लिक करें, या क्लिक करें रद्द करने के लिए / वापस बंद करें.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^यह {0} की एक सूची है.^DefaultGridViewDescription^
+
+^DefaultNewDescription^प्रपत्र को पूरा करें. करने के लिए सभी आवश्यक फ़ील्ड दर्ज करना सुनिश्चित करें.^DefaultNewDescription^
+
+^DefaultOption^मानक^DefaultOption^
+
+^DefaultReferenceDescription^{0} के बारे में अतिरिक्त विवरण संदर्भ जानकारी अनुभाग में प्रदान की जाती हैं.^DefaultReferenceDescription^
+
+^Delete^हटाना^Delete^
+
+^DeleteActionConfirmation^हटाएँ?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^हटाना^DeleteActionHeaderText^
+
+^Deleted^{$ चयनित} हटाए गए^Deleted^
+
+^DeleteOriginalSel^मूल चयन हटाएं^DeleteOriginalSel^
+
+^DeleteSearchBarField^(हटाना)^DeleteSearchBarField^
+
+^DetailsToolTip^{0} के लिए विवरण देखें^DetailsToolTip^
+
+^DevelopExplorer^प्रोजेक्ट एक्सप्लोरर^DevelopExplorer^
+
+^DevelopFormLayout^फॉर्म लेआउट^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^लेआउट में शामिल होने के लिए स्क्रीन आकार चुनें।^DevelopFormLayoutInstr^
+
+^DevelopTools^डेवलपर उपकरण^DevelopTools^
+
+^Device^युक्ति^Device^
+
+^DeviceLoginPrompt^कृपया इस डिवाइस पर पहुंच को अधिकृत करने के लिए लॉग इन करें।^DeviceLoginPrompt^
+
+^DidNotMatch^मिलान नहीं हुआ^DidNotMatch^
+
+^Directions^दिशाएं^Directions^
+
+^DiscardChanges^परिवर्तनों को निरस्त करें?^DiscardChanges^
+
+^DisplayDensity^प्रदर्शन घनत्व^DisplayDensity^
+
+^DisplayedAbove^ऊपर प्रदर्शित^DisplayedAbove^
+
+^DisplayedBelow^नीचे प्रदर्शित^DisplayedBelow^
+
+^Dock^कनेक्ट^Dock^
+
+^DoesNotBeginWith^नहीं करता है के साथ शुरू^DoesNotBeginWith^
+
+^DoesNotContain^नहीं होता^DoesNotContain^
+
+^DoesNotEndWith^के साथ समाप्त नहीं करता है^DoesNotEndWith^
+
+^DoesNotEqual^के समान नहीं है^DoesNotEqual^
+
+^DoesNotInclude^शामिल नहीं^DoesNotInclude^
+
+^DoNotMatchAll^सभी परिस्थितियों से मेल नहीं खाते^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^सभी परिस्थितियों से मेल नहीं खाती^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^किसी भी स्थिति से मेल नहीं खाते^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^किसी भी स्थिति से मेल नहीं खाती^DoNotMatchAnyPastTense^
+
+^Download^डाउनलोड^Download^
+
+^Draw^खींचना^Draw^
+
+^DuplicateActionHeaderText^डुप्लिकेट^DuplicateActionHeaderText^
+
+^DuplicateItem^डुप्लिकेट आइटम^DuplicateItem^
+
+^DuplicateRow^डुप्लिकेट पंक्ति^DuplicateRow^
+
+^EditActionHeaderText^संपादित करें^EditActionHeaderText^
+
+^EditItem^संपादित आइटम^EditItem^
+
+^EditModeCancelActionHeaderText^रद्द करना^EditModeCancelActionHeaderText^
+
+^EditRow^पंक्ति संपादित करें^EditRow^
+
+^Empty^खाली^Empty^
+
+^EmptyContext^क्रिया उपलब्ध नहीं हैं.^EmptyContext^
+
+^EmptyValue^(खाली)^EmptyValue^
+
+^Enable^सक्षम^Enable^
+
+^EndsWith^साथ समाप्त होता है^EndsWith^
+
+^Equals^बराबरी^Equals^
+
+^Eraser^रबड़^Eraser^
+
+^Error^त्रुटि^Error^
+
+^Exit^बाहर जाएं^Exit^
+
+^ExitFullscreen^पूर्ण स्क्रीन से बाहर निकलें^ExitFullscreen^
+
+^ExportCsvActionDescription^सीऍसवी प्रारूप में डाउनलोड आइटम नहीं है.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^डाउनलोड^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Spreadsheet<br/>application के साथ आइटम्स का विश्लेषण करें.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^स्प्रेडशीट में निर्यात करें^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^एक आरएसएस रीडर के साथ सिंडीकेट आइटम नहीं है.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^देखें आरएसएस फ़ीड^ExportRssActionHeaderText^
+
+^Favorites^पसंदीदा^Favorites^
+
+^Felt^फेल्ट^Felt^
+
+^FileCleared^सेव करने पर वैल्यू क्लियर हो जाएगी^FileCleared^
+
+^FilesBytes^बाइट्स^FilesBytes^
+
+^FilesClear^साफ^FilesClear^
+
+^FilesClearConfirm^साफ?^FilesClearConfirm^
+
+^FilesClick^एक फ़ाइल को चुनने के लिए क्लिक करें^FilesClick^
+
+^FilesClickMany^फ़ाइलों का चयन करने के लिए क्लिक करें^FilesClickMany^
+
+^FilesDrop^यहाँ एक फ़ाइल ड्रॉप^FilesDrop^
+
+^FilesDropMany^फ़ाइल यहां छोड़ें^FilesDropMany^
+
+^FilesKB^केबी^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^एक फ़ाइल का चयन करने के लिए टैप^FilesTap^
+
+^FilesTapMany^फ़ाइलों का चयन करने के लिए टैप^FilesTapMany^
+
+^Filter^फिल्टर^Filter^
+
+^FilterApplied^एक फिल्टर लागू किया गया है.^FilterApplied^
+
+^FilterByField^<b>{0}</b> के लिए एक फिल्टर लागू करने के लिए एक क्षेत्र का चयन करें.^FilterByField^
+
+^FilterByOptions^<b>{2}</b> क्षेत्र से नीचे की सूची और <b>{0}</b> फिल्टर करने के लिए प्रेस <b>{1}</b> में एक या एक से अधिक विकल्प का चयन करें.^FilterByOptions^
+
+^FilterCleared^सभी फिल्टर साफ़ किया^FilterCleared^
+
+^FilterLabelAnd^और^FilterLabelAnd^
+
+^FilterLabelClear^साफ़^FilterLabelClear^
+
+^FilterLabelEquals^बराबरी^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^परिवर्तन^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^शामिल^FilterLabelIncludes^
+
+^FilterLabelOr^या^FilterLabelOr^
+
+^FilterLabelSelectAll^(सभी चुनें)^FilterLabelSelectAll^
+
+^FilterSiteMap^फ़िल्टर साइट मानचित्र ...^FilterSiteMap^
+
+^Finish^समाप्त^Finish^
+
+^FitToWidth^फ़िट चौड़ाई के लिए^FitToWidth^
+
+^FlatTreeToggle^पदानुक्रम में स्विच करें^FlatTreeToggle^
+
+^FontName^फ़ॉन्ट का नाम^FontName^
+
+^FontSize^फ़ॉन्ट का आकार^FontSize^
+
+^ForeColor^फोर कलर^ForeColor^
+
+^Forget^भूल जाओ^Forget^
+
+^ForgotYourPassword^अपना पासवर्ड भूल गए?^ForgotYourPassword^
+
+^Format^स्वरूप^Format^
+
+^Freeze^स्थिर^Freeze^
+
+^From^से^From^
+
+^Fullscreen^पूर्ण स्क्रीन^Fullscreen^
+
+^Future^भविष्य^Future^
+
+^GeneralTabText^सामान्य^GeneralTabText^
+
+^Generate^उत्पन्न^Generate^
+
+^GenericNewToolTip^नया बनाएँ^GenericNewToolTip^
+
+^GenericSortAscending^शीर्ष पर सबसे छोटा^GenericSortAscending^
+
+^GenericSortDescending^शीर्ष पर सबसे बड़ा^GenericSortDescending^
+
+^Graham^ग्रैहम^Graham^
+
+^GrandTotals^ग्रैंड योग^GrandTotals^
+
+^Granite^ग्रेनाइट^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^गंभीरता^Gravity^
+
+^GreaterThan^से अधिक^GreaterThan^
+
+^GreateThanOrEqual^से बड़ा या बराबर^GreateThanOrEqual^
+
+^Grid^ग्रिड^Grid^
+
+^GridActionDescription^Standard<br/>list प्रारूप में आइटम्स प्रदर्शित करें.^GridActionDescription^
+
+^GridActionHeaderText^मानक दृश्य में दिखाएँ^GridActionHeaderText^
+
+^Group^समूह^Group^
+
+^GroupByField^<b>{0}</b> समूह के लिए एक क्षेत्र का चयन करें।^GroupByField^
+
+^Grouped^समूहीकृत^Grouped^
+
+^GroupedBy^के आधार पर वर्गीकृत^GroupedBy^
+
+^GroupedDefault^समूहकरण हटा दिया गया है^GroupedDefault^
+
+^Heading1^शीर्षक 1^Heading1^
+
+^Heading2^शीर्षक 2^Heading2^
+
+^Heading3^शीर्षक 3^Heading3^
+
+^Heading4^शीर्षक 4^Heading4^
+
+^Heading5^शीर्ष 5^Heading5^
+
+^Heading6^शीर्ष 6^Heading6^
+
+^Help^मदद^Help^
+
+^HelpClose^नज़दीक^HelpClose^
+
+^HelpFullScreen^पूर्ण स्क्रीन^HelpFullScreen^
+
+^Hide^छिपाना^Hide^
+
+^HideAdvancedSearch^उन्नत खोज छिपाएँ^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^फ्लैट सूची में स्विच करें^HierarchyTreeModeToggle^
+
+^Highlighter^हाइलाइटर^Highlighter^
+
+^History^इतिहास^History^
+
+^HistoryToolTip^पहले से चयनित अभिलेखों का इतिहास देखें^HistoryToolTip^
+
+^HistoryUnavailable^इतिहास उपलब्ध नहीं है.^HistoryUnavailable^
+
+^Home^घर^Home^
+
+^IdleUser^तुम अब भी वहाँ हैं? फिर से लॉगिन करें.^IdleUser^
+
+^ImportActionDescription^एक CSV, xls, या XLSX file<br/>to आयात रिकॉर्ड अपलोड करें.^ImportActionDescription^
+
+^ImportActionHeaderText^फ़ाइल से आयात करें^ImportActionHeaderText^
+
+^ImportAutoDetect^(ऑटो पता लगाने के लिए)^ImportAutoDetect^
+
+^ImportComplete^पूर्ण^ImportComplete^
+
+^ImportDone^पूरे आयात^ImportDone^
+
+^ImportDownloadTemplate^आयात फ़ाइल टेम्पलेट डाउनलोड करें.^ImportDownloadTemplate^
+
+^ImportDuplicates^डुप्लिकेट^ImportDuplicates^
+
+^ImportEmail^निम्नलिखित ईमेल पते आयात करने के लिए लॉग इन करें भेजें (वैकल्पिक)^ImportEmail^
+
+^ImportEmailNotSpecified^आयात लॉग प्राप्तकर्ता निर्दिष्ट नहीं किया गया है. वैसे भी आगे बढ़ें?^ImportEmailNotSpecified^
+
+^ImportExpected^पूरा होने की संभावना^ImportExpected^
+
+^ImportFileStats^वहाँ फ़ाइल में <b>{0}</b> <b>{1}</b> रिकॉर्ड संसाधित करने के लिए तैयार हैं। कृपया क्षेत्र के नाम से मेल।^ImportFileStats^
+
+^Importing^आयात^Importing^
+
+^ImportMappingInstruction^वहाँ फ़ाइल <b>{0}</b> में <b>{1}</b> अभिलेख (ओं) हैं करने के लिए processed.<br/>Please मानचित्र होना डेटा फ़ाइल से आवेदन क्षेत्रों के लिए आयात के खेतों और करने के लिए प्रक्रिया शुरू <i>Import</i> क्लिक करें तैयार है.^ImportMappingInstruction^
+
+^ImportNotSupported^की &quot;{0}&quot; डाटा प्रारूप समर्थित नहीं है।^ImportNotSupported^
+
+^ImportProcessing^आयात फ़ाइल प्रसंस्करण शुरू किया गया है. आयातित डेटा अभिलेख सफल प्रसंस्करण पर उपलब्ध हो जाएगा. आप के लिए प्रासंगिक विचार / पृष्ठों को ताज़ा करने के लिए आयातित रिकॉर्ड देखना पड़ सकता है.^ImportProcessing^
+
+^ImportRemaining^पूरा होने की संभावना^ImportRemaining^
+
+^ImportSelectFile^सीएसवी, xls, या XLSX प्रारूप में एक डेटा फ़ाइल का चयन करें।^ImportSelectFile^
+
+^ImportStartButton^आयात^ImportStartButton^
+
+^ImportUploading^आपकी फ़ाइल को सर्वर पर अपलोड किया जा रहा है. कृपया प्रतीक्षा करें ...^ImportUploading^
+
+^ImportUploadInstruction^अपलोड करने के लिए फ़ाइल चुनें. फ़ाइल <b>CSV</b>, प्रारूप <b>XLS</b> <b>XLSX</b>, या में होना चाहिए.^ImportUploadInstruction^
+
+^In^में^In^
+
+^Includes^शामिल^Includes^
+
+^Indent^मांगपत्र^Indent^
+
+^InfoBarAnd^और^InfoBarAnd^
+
+^InfoBarEmpty^रिक्त^InfoBarEmpty^
+
+^InfoBarEqualTo^के बराबर है^InfoBarEqualTo^
+
+^InfoBarGreaterThan^से अधिक है^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^से बड़ा या बराबर है^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^से कम है^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^से कम या उसके बराबर है^InfoBarLessThanOrEqual^
+
+^InfoBarLike^की तरह है^InfoBarLike^
+
+^InfoBarOr^या^InfoBarOr^
+
+^InfoBarQuickFind^किसी भी क्षेत्र में शामिल है^InfoBarQuickFind^
+
+^InfoBarStartsWith^साथ शुरू होता है^InfoBarStartsWith^
+
+^InitialListMode^प्रारंभिक सूची मोड^InitialListMode^
+
+^InlineEditing^इनलाइन संपादन^InlineEditing^
+
+^InsertActionHeaderText^ओके^InsertActionHeaderText^
+
+^InsertHorizontalRule^क्षैतिज नियम सम्मिलित^InsertHorizontalRule^
+
+^InsertingRecords^रिकॉर्ड डालने^InsertingRecords^
+
+^InsertOrderedList^आदेश दिया सूची डालें^InsertOrderedList^
+
+^InsertUnorderedList^सम्मिलित सूची Unordered^InsertUnorderedList^
+
+^Into^में^Into^
+
+^InvalidUserNameAndPassword^आपका उपयोगकर्ता नाम और पासवर्ड मान्य नहीं हैं.^InvalidUserNameAndPassword^
+
+^Italic^तिरछा^Italic^
+
+^ItemsPerPage^प्रति पृष्ठ आइटम:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} चयनित आइटम^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} आइटम का चयन^ItemsSelectedOne^
+
+^JustDatesNow^अभी^JustDatesNow^
+
+^JustifyCenter^केंद्र जस्टिफाई^JustifyCenter^
+
+^JustifyFull^पूर्ण समन्वित^JustifyFull^
+
+^JustifyLeft^वाम जस्टिफाई^JustifyLeft^
+
+^JustifyRight^समन्वित^JustifyRight^
+
+^KeepOriginalSel^मूल चयन रखें^KeepOriginalSel^
+
+^LabelsInList^लेबल सूची में^LabelsInList^
+
+^Lacquer^लाह^Lacquer^
+
+^Laminate^टुकड़े टुकड़े में^Laminate^
+
+^Landscape^परिदृश्य^Landscape^
+
+^Large^बडा^Large^
+
+^LastMonth^पिछले माह^LastMonth^
+
+^LastQuarter^अंतिम तिमाही^LastQuarter^
+
+^LastWeek^पिछले सप्ताह^LastWeek^
+
+^LastYear^पिछले वर्ष^LastYear^
+
+^Less^कम^Less^
+
+^LessThan^से कम^LessThan^
+
+^LessThanOrEqual^इससे कम या इसके बराबर^LessThanOrEqual^
+
+^Lichen^दाद^Lichen^
+
+^LightTheme^प्रकाश^LightTheme^
+
+^Line^लाइन^Line^
+
+^List^सूची^List^
+
+^ListOneColumn^सूची (एक कॉलम)^ListOneColumn^
+
+^ListViewStyle^लिस्ट^ListViewStyle^
+
+^Loading^लोड हो रहा है ...^Loading^
+
+^Logical^तार्किक^Logical^
+
+^LoginButton^लॉग इन^LoginButton^
+
+^LoginLink^लॉग इन^LoginLink^
+
+^Logout^लॉगआउट^Logout^
+
+^LookupInstruction^सूची में <b>{0}</b> का चयन करें.^LookupInstruction^
+
+^LookupOriginalSelection^मूल चयन <b>&quot;{0}&quot;</b> है.^LookupOriginalSelection^
+
+^ManageAccounts^खातों का प्रबंधन^ManageAccounts^
+
+^Map^नक्शा^Map^
+
+^MatchAll^सभी शर्तों का मिलान करें^MatchAll^
+
+^MatchAllPastTense^सभी शर्तों का मिलान नहीं हुआ^MatchAllPastTense^
+
+^MatchAny^किसी भी शर्तों मैच^MatchAny^
+
+^MatchAnyPastTense^किसी भी स्थिति का मिलान नहीं हुआ^MatchAnyPastTense^
+
+^Matched^मेल खाने वाले^Matched^
+
+^MaxAggregate^अधिकतम: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^{0} की अधिकतम^MaxAggregateToolTip^
+
+^Maximize^विस्तार^Maximize^
+
+^MaximumOf^अधिकतम^MaximumOf^
+
+^Medium^मध्यम^Medium^
+
+^Menu^मेनू^Menu^
+
+^MinAggregate^न्यूनतम: {0}^MinAggregate^
+
+^MinAggregateToolTip^{0} की न्यूनतम^MinAggregateToolTip^
+
+^Minimize^संकुचित^Minimize^
+
+^MinimumOf^की न्यूनतम^MinimumOf^
+
+^Mission^मिशन^Mission^
+
+^ModeBrowsing^ब्राउज़िंग^ModeBrowsing^
+
+^ModeEditing^संपादन^ModeEditing^
+
+^ModeEntering^बनाने^ModeEntering^
+
+^ModeLookup^लुक^ModeLookup^
+
+^Modern^आधुनिक^Modern^
+
+^ModernRose^आधुनिक गुलाब^ModernRose^
+
+^ModeViewing^देखने^ModeViewing^
+
+^Month^माह^Month^
+
+^More^अधिक^More^
+
+^MultiSelection^मल्टी चयन^MultiSelection^
+
+^Municipal^नगरपालिका^Municipal^
+
+^MyAccount^मेरा खाता^MyAccount^
+
+^Never^कभी नहीं^Never^
+
+^NewActionHeaderText^नया^NewActionHeaderText^
+
+^NewItem^नई वस्तु^NewItem^
+
+^NewRow^नई पंक्ति^NewRow^
+
+^NewRowLink^यहाँ क्लिक करें एक नया रिकार्ड बना.^NewRowLink^
+
+^NewToolTip^नई {0}^NewToolTip^
+
+^Next^अगला^Next^
+
+^Next2^अगला^Next2^
+
+^NextMonth^अगले महीने^NextMonth^
+
+^NextQuarter^अगली तिमाही^NextQuarter^
+
+^NextWeek^अगला सप्ताह^NextWeek^
+
+^NextYear^अगले साल^NextYear^
+
+^No^नहीं^No^
+
+^NoMatches^कोई मेल नही।^NoMatches^
+
+^None^कोई नहीं^None^
+
+^Noon^दोपहर^Noon^
+
+^NoRecords^नहीं मिला पाया.^NoRecords^
+
+^NoteDeleteConfirm^हटाएँ?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^हटाना^NoteDeleteLabel^
+
+^NoteEditLabel^संपादित करें^NoteEditLabel^
+
+^NotEmpty^खाली नहीं है^NotEmpty^
+
+^NotMatched^(मिलान नहीं)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^नंबर^Number^
+
+^NumberFilterText^संख्या फ़िल्टर्स^NumberFilterText^
+
+^NumberIsExpected^एक नंबर की उम्मीद है.^NumberIsExpected^
+
+^OdpCommitting^लेनदेन अपलोड हो रहा है ...^OdpCommitting^
+
+^OdpDone^किया हुआ।^OdpDone^
+
+^OdpDownloadingBlob^{0} के लिए द्विआधारी डेटा डाउनलोड करना।^OdpDownloadingBlob^
+
+^OdpDownloadingData^{0} के लिए डेटा डाउनलोड करना।^OdpDownloadingData^
+
+^OdpInitializing^शुरु कर रहा है ...^OdpInitializing^
+
+^OdpInvalidResponse^सर्वर से अमान्य प्रतिक्रिया।^OdpInvalidResponse^
+
+^OdpLastRefresh^अंतिम ताज़ा: {0}^OdpLastRefresh^
+
+^OdpNotRefreshed^डेटा ताज़ा नहीं किया गया है।^OdpNotRefreshed^
+
+^OdpOfflineState^आप ऑफ़लाइन मोड में काम कर रहे हैं।^OdpOfflineState^
+
+^OdpOnlineRequired^ऑनलाइन कनेक्शन आवश्यक है।^OdpOnlineRequired^
+
+^OdpPending^लंबित परिवर्तन^OdpPending^
+
+^OdpReconRequired^सुलह आवश्यक है^OdpReconRequired^
+
+^OdpReconTxDelete^लॉग से यह परिवर्तन हटाएं?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^लॉग में पहले लंबित लेनदेन हटा दिया गया।^OdpReconTxDeleted^
+
+^OdpRefresh^डेटा ताज़ा करें^OdpRefresh^
+
+^OdpRefreshData^डेटा ताज़ा करें^OdpRefreshData^
+
+^OdpRefreshLast^डेटा ताज़ा किया गया^OdpRefreshLast^
+
+^OdpSave^कृपया सभी परिवर्तन सहेजें।^OdpSave^
+
+^OdpSaveAndSync^सभी परिवर्तनों को सहेजें और संदर्भ मेनू में सिंक्रोनाइज़ विकल्प चुनें।^OdpSaveAndSync^
+
+^OdpServerUnavailable^एप्लिकेशन सर्वर उपलब्ध नहीं है।^OdpServerUnavailable^
+
+^OdpStatus^स्थिति^OdpStatus^
+
+^OdpSync^सिंक्रनाइज़^OdpSync^
+
+^OdpSynced^सिंक्रनाइज़^OdpSynced^
+
+^OdpSyncLast^अंतिम सिंक^OdpSyncLast^
+
+^OdpSyncLong^परिवर्तनों को अपलोड करने के लिए सिंक्रनाइज़ करें।^OdpSyncLong^
+
+^OdpSyncUploadFailed^{0} फ़ाइलें अपलोड करने में विफल।^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^{0} अपलोड हो रहा है ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^हटाने में असमर्थ। {1} निर्भर आइटम {0} में।^OdpUnableToDelete^
+
+^OdpUnableToExec^निष्पादित करने में असमर्थ।^OdpUnableToExec^
+
+^OdpUnableToProcess^लेन-देन की प्रक्रिया में असमर्थ।^OdpUnableToProcess^
+
+^OdpUnableToSave^परिवर्तन सहेजने में असमर्थ।^OdpUnableToSave^
+
+^OdpUploadFailed^फाइलें अपलोड करने में विफल।^OdpUploadFailed^
+
+^OdpUploadingFiles^{0} फ़ाइलें अपलोड कर रहा है ...^OdpUploadingFiles^
+
+^OK^ओके^OK^
+
+^OnHover^हॉवर पर^OnHover^
+
+^OnOrAfter^को या उसके बाद^OnOrAfter^
+
+^OnOrBefore^को या उससे पहले^OnOrBefore^
+
+^OpenActionHeaderText^खुला है^OpenActionHeaderText^
+
+^Optional^ऐच्छिक^Optional^
+
+^Orientation^अभिविन्यास^Orientation^
+
+^Other^अन्य^Other^
+
+^Outdent^आउटडेंट^Outdent^
+
+^Page^पेज^Page^
+
+^Paragraph^अनुच्छेद^Paragraph^
+
+^Password^पासवर्ड^Password^
+
+^Past^अतीत^Past^
+
+^Paste^चिपकाएं^Paste^
+
+^Pen^कलम^Pen^
+
+^PerformAdvancedSearch^खोज^PerformAdvancedSearch^
+
+^Permalink^Permalink^Permalink^
+
+^PermalinkToolTip^चयनित रिकॉर्ड के लिए एक स्थायी लिंक बनाएँ^PermalinkToolTip^
+
+^PermalinkUnavailable^पर्मलिंक उपलब्ध नहीं है. एक रिकार्ड का चयन करें.^PermalinkUnavailable^
+
+^Petal^पत्ती^Petal^
+
+^Pinnate^सुफ़ने से^Pinnate^
+
+^Plastic^प्लास्टिक^Plastic^
+
+^Portrait^चित्र^Portrait^
+
+^PresentationStyle^एक डेटा प्रस्तुति शैली का चयन करें.^PresentationStyle^
+
+^Prev2^पिछला^Prev2^
+
+^Previous^पिछला^Previous^
+
+^PromoteActions^कार्यों को बढ़ावा^PromoteActions^
+
+^Q1^Q1 में^Q1^
+
+^Q2^Q2^Q2^
+
+^Q3^Q3 में^Q3^
+
+^Q4^Q4^Q4^
+
+^Quarter^तिमाही^Quarter^
+
+^Quarter1^1 क्वार्टर^Quarter1^
+
+^Quarter2^2 क्वार्टर^Quarter2^
+
+^Quarter3^3 क्वार्टर^Quarter3^
+
+^Quarter4^4 क्वार्टर^Quarter4^
+
+^QuickFindDescription^की खोज में {0}^QuickFindDescription^
+
+^QuickFindScope^में खोज ...^QuickFindScope^
+
+^QuickFindText^त्वरित खोजें^QuickFindText^
+
+^QuickFindToolTip^को रिकॉर्ड खोज और प्रेस दर्ज करें प्रकार^QuickFindToolTip^
+
+^Quotation^उद्धरण^Quotation^
+
+^Reading^पढ़ रहा है ...^Reading^
+
+^ReadingPane^पठन फलक^ReadingPane^
+
+^ReadOnly^{0} केवल पढ़ने के लिए है^ReadOnly^
+
+^Recent^रीसेंट^Recent^
+
+^Redo^फिर से करना^Redo^
+
+^Refresh^ताज़ा करना^Refresh^
+
+^Refreshed^ताजा^Refreshed^
+
+^RememberMe^मुझे अगली बार याद रखें^RememberMe^
+
+^RemoveCondition^हालत निकालें^RemoveCondition^
+
+^RemoveFormat^प्रारूप निकालें^RemoveFormat^
+
+^ReportActionDescription^PDF स्वरूप में एक रिपोर्ट प्रस्तुत करना^ReportActionDescription^
+
+^ReportActionHeaderText^रिपोर्ट^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^एक formatted<br/>Microsoft एक्सेल स्प्रेडशीट में आइटम देखें.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^स्प्रेडशीट^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^एक multipage झगड़ा छवि के रूप में आइटम देखें.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^बहुपृष्ठ छवि^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^आइटम के रूप में देखें एडोब पीडीएफ एक संगत पाठक document.<br/>Requires.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^पीडीएफ दस्तावेज़^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^एक formatted<br/>Microsoft Word दस्तावेज़ में आइटम देखें.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^माइक्रोसॉफ्ट वर्ड^ReportAsWordActionHeaderText^
+
+^Required^अपेक्षित^Required^
+
+^RequiredField^इस फ़ील्ड की आवश्यकता है.^RequiredField^
+
+^RequiredFiledMarkerFootNote^एक आवश्यक फ़ील्ड इंगित करता है^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^रीसेट^ResetAdvancedSearch^
+
+^ResetSearchConfirm^खोज की स्थिति रीसेट करें?^ResetSearchConfirm^
+
+^ResolvingReferences^संदर्भों को हल^ResolvingReferences^
+
+^ResumeBrowsing^ब्राउजिंग फिर से शुरू^ResumeBrowsing^
+
+^ResumeEditing^संपादन फिर से शुरू^ResumeEditing^
+
+^ResumeEntering^में प्रवेश कर फिर से शुरू^ResumeEntering^
+
+^ResumeLookup^लुक को फिर से शुरू^ResumeLookup^
+
+^ResumeViewing^देखने फिर से शुरू^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^भूमिकाएँ^RolesTab^
+
+^RootNodeText^शीर्ष स्तर^RootNodeText^
+
+^Rotate^घुमाना^Rotate^
+
+^RowCancelActionHeaderText^रद्द करना^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^सम्मिलित करें^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^बचाना^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^अद्यतन?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^अद्यतन चयन^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^बचाना^Save^
+
+^SaveAndContinue^सहेजें और जारी रखें^SaveAndContinue^
+
+^SaveAndNew^सहेजें और नई^SaveAndNew^
+
+^Saved^बचाया - {0}^Saved^
+
+^ScanToConfirm^कृपया पुष्टि करने के लिए फिर से स्कैन करें।^ScanToConfirm^
+
+^SeeAll^सभी देखें^SeeAll^
+
+^SeeAlso^यह भी देखें^SeeAlso^
+
+^SelectActionHeaderText^चुनें^SelectActionHeaderText^
+
+^SelectAll^सभी का चयन करें^SelectAll^
+
+^SelectItem^वस्तु चुनें^SelectItem^
+
+^SelectLink^(चयन)^SelectLink^
+
+^SelectRow^पंक्ति का चयन करें^SelectRow^
+
+^SelectToolTip^चुनें {0}^SelectToolTip^
+
+^Separator^विभाजक^Separator^
+
+^Settings^सेटिंग्स^Settings^
+
+^Show^दिखाना^Show^
+
+^ShowAdvancedSearch^उन्नत खोज दिखाएँ^ShowAdvancedSearch^
+
+^ShowChart^दिखाएँ चार्ट^ShowChart^
+
+^ShowData^शो डाटा^ShowData^
+
+^ShowingItems^<b>{0}</b> मदों की <b>{1}</b>-<b>{2}</b> दिखा रहा है^ShowingItems^
+
+^ShowingItemsInfo^{0} आइटम दिखा रहा है.^ShowingItemsInfo^
+
+^ShowingItemsRange^{0} आइटम के दिखा {1}^ShowingItemsRange^
+
+^ShowLess^कम दिखाएं^ShowLess^
+
+^ShowMore^और दिखाओ^ShowMore^
+
+^ShowOptions^विकल्प दिखाएँ^ShowOptions^
+
+^ShowSystemButtons^प्रणाली दिखाने बटन^ShowSystemButtons^
+
+^Sidebar^साइडबार^Sidebar^
+
+^Sign^यहां हस्ताक्षर करें^Sign^
+
+^SignedOut^साइन आउट^SignedOut^
+
+^SignUpNow^अभी साइन अप करें^SignUpNow^
+
+^Simple^सरल^Simple^
+
+^SiteActions^साइट क्रियाएँ^SiteActions^
+
+^SizeLabel^आकार^SizeLabel^
+
+^Small^छोटा^Small^
+
+^Social^सामाजिक^Social^
+
+^Sort^क्रम में रखना^Sort^
+
+^SortBy^{0} द्वारा क्रमबद्ध करें^SortBy^
+
+^SortByField^<b>{0}</b> के सॉर्ट क्रम बदलने के लिए एक क्षेत्र का चयन करें.^SortByField^
+
+^SortByOptions^नीचे दिए गए विकल्पों की सूची में <b>{0}</b> क्षेत्र द्वारा <b>{1}</b> की तरह आदेश का चयन करें.^SortByOptions^
+
+^Sorted^क्रमबद्ध किया गया^Sorted^
+
+^SortedDefault^डिफ़ॉल्ट सॉर्ट क्रम^SortedDefault^
+
+^StartImport^आयात शुरू^StartImport^
+
+^StrikeThrough^के माध्यम से हड़ताल^StrikeThrough^
+
+^StringSortAscending^आरोही^StringSortAscending^
+
+^StringSortDescending^अवरोही^StringSortDescending^
+
+^Submit^जमा करें^Submit^
+
+^Subscript^उप स्क्रिप्ट^Subscript^
+
+^Suggestions^सुझाव^Suggestions^
+
+^SumAggregate^रकम: {0}^SumAggregate^
+
+^SumAggregateToolTip^{0} का योग^SumAggregateToolTip^
+
+^Summary^सारांश^Summary^
+
+^Summer^गर्मी^Summer^
+
+^SumOf^की राशि^SumOf^
+
+^Superscript^सुपर स्क्रिप्ट^Superscript^
+
+^Sync^सिंक^Sync^
+
+^TaskResume^जारी रहना^TaskResume^
+
+^Tasks^कार्य^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^एबीसी^TelHints2^
+
+^TelHints3^डीईएफ़^TelHints3^
+
+^TelHints4^घी^TelHints4^
+
+^TelHints5^जेकेएलई^TelHints5^
+
+^TelHints6^एमएनओ^TelHints6^
+
+^TelHints7^पीक्यूआरएस^TelHints7^
+
+^TelHints8^टीयूवी^TelHints8^
+
+^TelHints9^डब्ल्यू एक्स वाई जेड^TelHints9^
+
+^TestingRecords^परीक्षण रिकॉर्ड^TestingRecords^
+
+^Text^टेक्स्ट^Text^
+
+^TextFilterText^पाठ फ़िल्टर्स^TextFilterText^
+
+^Theme^विषय^Theme^
+
+^ThisMonth^इस महीने^ThisMonth^
+
+^ThisQuarter^इस तिमाही^ThisQuarter^
+
+^ThisWeek^इस सप्ताह^ThisWeek^
+
+^ThisYear^इस वर्ष^ThisYear^
+
+^Tiny^टिनी^Tiny^
+
+^Today^आज^Today^
+
+^Tomorrow^कल^Tomorrow^
+
+^Top^टॉप^Top^
+
+^ToThisWebsite^इस वेबसाइट के लिए^ToThisWebsite^
+
+^TouchUINotSupported^टच यूआई इस ब्राउज़र में समर्थित नहीं है.^TouchUINotSupported^
+
+^TransitionFade^मुरझाना^TransitionFade^
+
+^TransitionFlip^फ्लिप^TransitionFlip^
+
+^TransitionFlow^फ्लो^TransitionFlow^
+
+^TransitionNone^कोई नहीं^TransitionNone^
+
+^TransitionPop^पॉप^TransitionPop^
+
+^Transitions^बदलाव^Transitions^
+
+^TransitionSlide^स्लाइड^TransitionSlide^
+
+^TransitionSlideDown^नीचे स्लाइड^TransitionSlideDown^
+
+^TransitionSlideUp^स्लाइड^TransitionSlideUp^
+
+^TransitionTurn^मोड़^TransitionTurn^
+
+^TreeActionDescription^श्रेणीबद्ध संबंधों को प्रदर्शित करें.^TreeActionDescription^
+
+^TreeActionHeaderText^पदानुक्रम दिखाएँ^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^सत्यापन कोड प्राप्त करें^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^प्रमाणक ऐप^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^यदि आप सत्यापन कोड प्रदान करने में असमर्थ हैं, तो इसके बजाय बैकअप कोड दर्ज करें।^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^एक बार का कोड^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^बैकअप कोड^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^कॉल किया गया^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^ईमेल भेजा गया था^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^पाठ संदेश भेजा गया^TwoFaCodeSentSms^
+
+^TwoFaConsent^सहमति^TwoFaConsent^
+
+^TwoFaEnterPassword^अपना कूटशब्द भरें^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^मुझे कॉल करो^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^मै बुलाऊंगा^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^मुझे ईमेल करें^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^मुझे यहां टेक्स्ट करें^TwoFaGetCodeSms^
+
+^TwoFaMethod^तरीका^TwoFaMethod^
+
+^TwoFaMsgChanged^2-कारक प्रमाणीकरण बदल दिया गया है।^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^2-कारक प्रमाणीकरण अक्षम कर दिया गया है।^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^दो-कारक प्रमाणीकरण अक्षम करें?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^2-कारक प्रमाणीकरण सक्षम किया गया है।^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^कृपया {0} अंकों का सत्यापन कोड दर्ज करें।^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^अवैध पासवर्ड।^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^अवैध सत्यापन संकेत।^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 आपका {0} सत्यापन कोड है।^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^मैं क्यूआर कोड स्कैन नहीं कर सकता।^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^मुझे प्रमाणक ऐप इंस्टॉल करने में सहायता चाहिए।^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^मेरे पास मोबाइल डिवाइस पर एक प्रमाणक ऐप है।^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^यदि आप सत्यापन कोड प्रदान करने में असमर्थ हैं, तो एक बार उपयोग किए जाने वाले बैकअप कोड आपको साइन इन करने देंगे।^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^बैकअप कोड^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^सफलतापूर्वक साइन इन करने के बाद मैं एक सत्यापन कोड दर्ज करूंगा।^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^ऐप में सेटअप कुंजी दर्ज करें^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^सत्यापन के तरीके^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^कैमरे से क्यूआर कोड को स्कैन करें^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^ऐप में क्यूआर कोड को स्कैन करें^TwoFaSetupScanQrCode^
+
+^TwoFaText^2-कारक प्रमाणीकरण^TwoFaText^
+
+^TwoFaTrustThisDevice^इस डिवाइस पर भरोसा करें^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^पुष्टि संख्या^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^मैं सत्यापन कोड प्राप्त करने के लिए एक प्रमाणक ऐप का उपयोग करूंगा।^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^मुझे अपने फोन पर एक स्वचालित कॉल प्राप्त होगी।^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^सत्यापन कोड ईमेल के माध्यम से दिया जाएगा।^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^सत्यापन कोड पाठ संदेश के माध्यम से दिया जाएगा।^TwoFaVerifyViaSms^
+
+^TypeToSearch^खोजने के लिए लिखें^TypeToSearch^
+
+^Underline^रेखांकन^Underline^
+
+^Undo^पूर्ववत् करें^Undo^
+
+^Undock^अनडॉक करें^Undock^
+
+^Unfreeze^नरम कर देना^Unfreeze^
+
+^UnGrouped^समूहकरण हटा दिया गया है^UnGrouped^
+
+^UnLink^उतारना^UnLink^
+
+^UnSelect^गडडमड्ड^UnSelect^
+
+^UpdateActionHeaderText^ओके^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^अद्यतन?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^अद्यतन चयन^UpdateActionInBatchModeHeaderText^
+
+^Upload^डालना^Upload^
+
+^UploadDescription^कई फाइलें अपलोड करें।^UploadDescription^
+
+^Uploading^अपलोड {0}...^Uploading^
+
+^UpOneLevel^एक स्तर ऊपर^UpOneLevel^
+
+^UseLEV^चिपकाएँ "{0}"^UseLEV^
+
+^UserName^उपयोगकर्ता नाम^UserName^
+
+^UsersInRole^रोल में उपयोगकर्ता^UsersInRole^
+
+^UsersTab^उपयोक्ता^UsersTab^
+
+^Vantage^सहूलियत^Vantage^
+
+^Verdant^सब्ज़^Verdant^
+
+^Verify^सत्यापित करें^Verify^
+
+^View^देखें^View^
+
+^Viewpoint^दृष्टिकोण^Viewpoint^
+
+^Wait^कृपया प्रतीक्षा करें...^Wait^
+
+^Week^सप्ताह^Week^
+
+^Welcome1^आपका स्वागत है^Welcome1^
+
+^Welcome2^आज है^Welcome2^
+
+^WhiteSmoke^सफेद धुआँ^WhiteSmoke^
+
+^WithSelectedValues10^चयनित मानों के साथ (शीर्ष 10)^WithSelectedValues10^
+
+^WithSelectedValues5^चयनित मानों के साथ (शीर्ष 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^निर्दिष्ट फ़िल्टर के साथ^WithSpecifiedFilters^
+
+^Year^साल^Year^
+
+^YearToDate^तिथि करने के लिए वर्ष^YearToDate^
+
+^Yes^हां^Yes^
+
+^Yesterday^कल^Yesterday^
+
+^Yoshi^योशी^Yoshi^
+
+^ZoomIn^ज़ूम इन^ZoomIn^
+
+^ZoomOut^ज़ूम आउट^ZoomOut^
+

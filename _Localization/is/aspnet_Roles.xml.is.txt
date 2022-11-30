@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Búa til nýjan aðild Hlutverk met.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Nýtt hlutverk^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Nýtt^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Fylltu út eyðublaðið. Gakktu úr skugga um að færa inn allar umbeðnar sviðum.^CreateFormCategory^
+
+^CreateFormHeaderText^Vinsamlegast fyllið þetta form og smelltu á OK hnappinn til að búa til nýja aðild hlutverk met. Smelltu á Hætta við til að fara aftur í fyrri skjá.^CreateFormHeaderText^
+
+^DescriptionLabel^Lýsing^DescriptionLabel^
+
+^EditViewCategory^Þetta eru svið hlutverk aðild skrá sem hægt er að breyta.^EditViewCategory^
+
+^EditViewHeaderText^Vinsamlega farðu aðild hlutverkum upplýsingar hér að neðan. Smelltu á Breyta til að breyta þessari skrá, smelltu Eyða til að eyða skrá, eða smelltu á Hætta við / Close til að fara aftur til baka.^EditViewHeaderText^
+
+^GridViewHeaderText^Þetta er listi yfir hlutverk aðild.^GridViewHeaderText^
+
+^RoleNameLabel^Hlutverk Nafn^RoleNameLabel^
+

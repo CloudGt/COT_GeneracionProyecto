@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Administratīvo kontu^AdminDesc^
+
+^SignInHeader^Instrukcijas^SignInHeader^
+
+^SignInInstruction^Pierakstieties, lai piekļūtu aizsargātas vietnes saturu.^SignInInstruction^
+
+^SignInPara1^Divi standarta lietotāja kontu tiek automātiski izveidota, kad pieteikums ir inicializēts, ja dalība risinājumu izraudzījās par šo pieteikumu.^SignInPara1^
+
+^SignInPara2^Administratīvās konts <b>admin</b> ir pilnvarots piekļūt visas jomas tīmekļa vietnes un biedru vadītājs. Standarta <b>user</b> konts ir atļauts piekļūt visas jomas tīmekļa vietnē, izņemot dalības vadītājs.^SignInPara2^
+
+^SignInPara3^Pārvietojiet peles rādītāju virs saites <i>Login ar šo tīmekļa site</i> labajā pusē pie lapas augšpusē un pierakstieties ar vienu no kontiem uzskaitīti turpmāk.^SignInPara3^
+
+^UserDesc^Standarta lietotāja kontu^UserDesc^
+

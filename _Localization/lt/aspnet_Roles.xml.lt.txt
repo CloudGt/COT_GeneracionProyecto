@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Sukurti naują nario vaidmuo įrašų.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Naujas vaidmuo^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Naujas^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^Užpildykite formą. Įsitikinkite, kad įvesti visus būtinus laukus.^CreateFormCategory^
+
+^CreateFormHeaderText^Prašome užpildyti šią formą ir paspauskite mygtuką &quot;OK&quot;, sukurti naują narystės vaidmenis įrašų. Spustelėkite Atšaukti, jei norite grįžti į ankstesnį ekraną.^CreateFormHeaderText^
+
+^DescriptionLabel^Aprašymas^DescriptionLabel^
+
+^EditViewCategory^Tai yra nario vaidmuo įrašų, kurie gali būti redaguojama srityse.^EditViewCategory^
+
+^EditViewHeaderText^Prašome peržiūrėti žemiau informacija apie narystę vaidmenis. Spustelėkite Redaguoti, jei norite pakeisti šį įrašą, spustelėkite Naikinti ištrinti įrašą, arba spustelėkite Atšaukti / Uždaryti grįžti atgal.^EditViewHeaderText^
+
+^GridViewHeaderText^Tai narystės vaidmenų sąrašas.^GridViewHeaderText^
+
+^RoleNameLabel^Vaidmuo Vardas^RoleNameLabel^
+

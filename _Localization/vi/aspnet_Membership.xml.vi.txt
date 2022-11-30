@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Tạo một hồ sơ người dùng mới.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Người dùng mới^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^New^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Trở lại^BackToRequestPasswordActionHeaderText^
+
+^Comment^Cảm nhận^Comment^
+
+^ConfirmIdentityActionHeaderText^Kết thúc^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Xác nhận mật khẩu mới^ConfirmNewPassword^
+
+^ConfirmPassword^Xác nhận mật khẩu^ConfirmPassword^
+
+^CreateDate^Tạo ngày^CreateDate^
+
+^CreateFormCommentCategoryDescription^Nhập bất kỳ ý kiến ​​bổ sung về tài khoản người dùng này. Bình luận không phải là hiển thị cho người dùng.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Bình luận^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Xin vui lòng nhập tên người dùng và mật khẩu. Lưu ý rằng mật khẩu phải có ít nhất 7 ký tự và bao gồm một ký tự chữ và số không. Chỉ người dùng đã được phê duyệt sẽ có thể đăng nhập vào trang web.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Thông tin người sử dụng mới^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Những lĩnh vực được yêu cầu để giúp một người sử dụng để khôi phục lại một mật khẩu bị lãng quên. Trong quá trình phục hồi, người dùng sẽ được yêu cầu nhập tên người dùng. Nếu một tài khoản người dùng tồn tại sau đó một câu hỏi bảo mật là yêu cầu được trả lời. Một câu trả lời chính xác sẽ kích hoạt một email với một mật khẩu tạm thời gửi cho người sử dụng.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Phục hồi mật khẩu^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Xin vui lòng lựa chọn vai trò người dùng chặt chẽ nhất phù hợp với trách nhiệm của người sử dụng. Vai trò kiểm soát truy cập vào các lĩnh vực của trang web này. Xin vui lòng liên hệ với quản trị hệ thống nếu vai trò hạn chế truy cập phải được thay đổi.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Vai trò^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Xin vui lòng điền mẫu này và nhấn nút OK để tạo ra một hồ sơ người dùng thành viên mới. Nhấp vào Cancel để quay trở lại màn hình trước đó.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Người dùng mới^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Tài khoản người dùng này sẽ được tạo ra đã được phê duyệt.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Địa chỉ email trùng lặp.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Chìa khóa nhà cung cấp dịch vụ trùng lặp.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Tên người dùng trùng lặp.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Hoạt động thống kê^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Tài khoản người dùng này được chấp thuận^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Đây là những số liệu thống kê của những nỗ lực đăng nhập thất bại bởi người sử dụng này. <br/> Tài <br/> sẽ bị khóa sau khi thống nhất một số lượng tối đa của các cố gắng đăng nhập thất bại. <br/> <br/> Đã bị khoá ra người dùng có thể đăng nhập lại sau ngày bắt đầu Mật khẩu Window Không Cố gắng. <br/> <br/> Người dùng không để khôi phục mật khẩu sẽ có thể để như vậy, kể từ ngày bắt đầu Không trả lời Mật khẩu Window Cố gắng. <br/> <br/> Bạn có thể khôi phục lại khả năng của người sử dụng đăng nhập bằng cách thiết lập lá cờ đã bị khoá Out &#39;Không&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Đăng nhập Thống kê^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Trong sự phục hồi của là quên mật khẩu người dùng sẽ được yêu cầu nhập tên người dùng. Nếu một tài khoản người dùng tồn tại sau đó một câu hỏi bảo mật là yêu cầu được trả lời. Một câu trả lời chính xác sẽ kích hoạt một email với một mật khẩu tạm thời gửi cho người sử dụng. <br/><br/> Thay đổi khóa cờ &#39;Không&#39; nếu người dùng đã bị khóa sau khi thống nhất một số lượng tối đa của các cố gắng đăng nhập thất bại và bạn muốn cho phép người dùng đăng nhập lại.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Phục hồi mật khẩu^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Xin vui lòng lựa chọn vai trò người dùng chặt chẽ nhất phù hợp với trách nhiệm của người sử dụng. Vai trò kiểm soát truy cập vào các lĩnh vực của trang web này. Xin vui lòng liên hệ với quản trị hệ thống nếu vai trò hạn chế truy cập phải được thay đổi. <br/> <br/> Nhập bất kỳ ý kiến ​​bổ sung về tài khoản người dùng này. Bình luận không phải là hiển thị cho người dùng.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Thông tin người sử dụng^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Vui lòng xem thông tin thành viên sử dụng dưới đây. Nhấp vào Chỉnh sửa để thay đổi hồ sơ này, nhấn Delete để xóa các bản ghi, hoặc nhấn vào Cancel / Close để trở về.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Đánh giá người sử dụng^EditFormViewLabel^
+
+^Email^Email^Email^
+
+^EnterCurrentPassword^Xin vui lòng nhập mật khẩu hiện tại của bạn.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Xin vui lòng nhập mật khẩu một câu trả lời.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Lỗi tài khoản tiết kiệm của người dùng.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Không Mật khẩu Trả lời Cố gắng đếm^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Không Mật khẩu Trả lời Cố gắng Window Bắt đầu^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Không Mật khẩu Cố gắng đếm^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Không Mật khẩu Cố gắng bắt đầu cửa sổ^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Đây là danh sách các hồ sơ của người sử dụng thành viên.^GridViewHeaderText^
+
+^GridViewLabel^Tất cả người dùng^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Trả lời các câu hỏi sau đây để nhận được mật khẩu của bạn. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Nhận dạng xác nhận^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Xin vui lòng điền vào mẫu đơn này và nhấn nút Submit để phục hồi mật khẩu đã quên. Nhấp vào Cancel để quay trở lại màn hình trước đó.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Phục hồi mật khẩu: Bước 2 của 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Khôi phục mật khẩu không hợp lệ câu trả lời.^InvalidAnswer^
+
+^InvalidEmail^Địa chỉ email không hợp lệ.^InvalidEmail^
+
+^InvalidPassword^Không hợp lệ mật khẩu.^InvalidPassword^
+
+^InvalidProviderUserKey^Người sử dụng nhà cung cấp không hợp lệ quan trọng.^InvalidProviderUserKey^
+
+^InvalidQuestion^Khôi phục mật khẩu không hợp lệ câu hỏi.^InvalidQuestion^
+
+^InvalidUserName^Tên người dùng không hợp lệ.^InvalidUserName^
+
+^IsApproved^Là được chấp thuận^IsApproved^
+
+^IsLockedOut^Khóa^IsLockedOut^
+
+^LastLockoutDate^Lần Lockout Ngày^LastLockoutDate^
+
+^LastLoginDate^Đăng nhập Ngày^LastLoginDate^
+
+^LastPasswordChangedDate^Lần Mật khẩu Thay đổi ngày^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Trả lời Mật khẩu (không được hiển thị để bảo vệ bạn)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Xin vui lòng nhập mật khẩu hiện tại của bạn để tạo ra mật khẩu mới, cập nhật địa chỉ email của bạn, hoặc khôi phục mật khẩu thay đổi câu hỏi và câu trả lời.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Mật khẩu hiện tại^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Vui lòng xem thông tin thành viên của bạn dưới đây. Nhấp vào Cập nhật Tài khoản của tôi để thay đổi hồ sơ này, hoặc nhấn Cancel để trở về.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Tài khoản của tôi^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Xin vui lòng nhập mật khẩu mới. Lưu ý rằng mật khẩu phải có ít nhất 7 ký tự và bao gồm một ký tự chữ và số không.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Mật khẩu mới (Tùy chọn)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Trong quá trình phục hồi mật khẩu bị lãng quên, bạn sẽ được yêu cầu nhập tên người dùng của bạn. Nếu một tài khoản người dùng tồn tại sau đó một câu hỏi mật khẩu phải được trả lời. Một câu trả lời chính xác sẽ kích hoạt một email với một mật khẩu tạm thời gửi cho bạn.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Password Recovery (Tùy chọn)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Mật khẩu mới^NewPassword^
+
+^NewPasswordAlert^Một mật khẩu mới đã được gửi qua email đến địa chỉ trong hồ sơ.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Mật khẩu mới và xác nhận không phù hợp.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Mật khẩu mới của bạn là không hợp lệ.^NewPasswordInvalid^
+
+^NewPasswordSubject^Mật khẩu mới cho \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Mật khẩu cũ^OldPassword^
+
+^Password^Mật khẩu^Password^
+
+^PasswordAndConfirmationDoNotMatch^Mật khẩu và xác nhận không phù hợp.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Mật khẩu Trả lời^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Mật khẩu của bạn không khớp với hồ sơ của chúng tôi.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Mật khẩu Định dạng^PasswordFormat^
+
+^PasswordQuestion^Mật khẩu Câu hỏi^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Xin vui lòng nhập một tên người dùng. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Quên mật khẩu của bạn?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Xin vui lòng điền vào mẫu đơn này và nhấp vào Tiếp tục nút để phục hồi mật khẩu bị lãng quên. Nhấp vào Cancel để quay trở lại màn hình trước đó.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Password Recovery: Bước 1 của 2^PasswordRequestViewLabel^
+
+^ProviderError^Nhà cung cấp lỗi.^ProviderError^
+
+^RequestPasswordActionHeaderText^Tiếp theo^RequestPasswordActionHeaderText^
+
+^Roles^Vai trò^Roles^
+
+^SelfRegisteredUser^Tự đăng ký người dùng.^SelfRegisteredUser^
+
+^SignUp^Đăng ký^SignUp^
+
+^SignUpViewHeaderText^Xin vui lòng điền mẫu này và nhấn nút OK để đăng ký một tài khoản. Nhấp vào Cancel để quay trở lại màn hình trước đó.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Tài khoản Đăng nhập^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Xin vui lòng nhập tên người dùng và mật khẩu. Lưu ý rằng mật khẩu phải có ít nhất 7 ký tự và bao gồm một ký tự chữ và số không. Chỉ người dùng đã được phê duyệt sẽ có thể đăng nhập vào trang web.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Thông tin người sử dụng mới^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Những lĩnh vực cần thiết để giúp bạn khôi phục một mật khẩu bị lãng quên. Trong quá trình phục hồi bạn sẽ được yêu cầu nhập tên người dùng. Nếu một tài khoản người dùng tồn tại sau đó một câu hỏi bảo mật là yêu cầu được trả lời. Một câu trả lời chính xác sẽ kích hoạt một email với một mật khẩu tạm thời gửi email đăng ký.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Phục hồi mật khẩu^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Cập nhật Tài khoản của tôi^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Người dùng không có thể bị khóa. Nếu bạn muốn ngăn chặn điều này người sử dụng có thể đăng nhập sau đó chỉ cần đánh dấu người sử dụng là &quot;không chấp thuận&quot;.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^&#39;{0}&#39; Người dùng đã bị xóa.^UserHasBeenDeleted^
+
+^UserName^User Name^UserName^
+
+^UserNameDoesNotExist^Tên người dùng không tồn tại.^UserNameDoesNotExist^
+
+^UserNotFound^Người dùng không được tìm thấy.^UserNotFound^
+
+^UserRejected^Người dùng đã bị từ chối.^UserRejected^
+
+^UsersInRolesGridHeaderText^Đây là danh sách các hồ sơ của người sử dụng thành viên thuộc về một vai trò được lựa chọn.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Người sử dụng trong vai trò^UsersInRolesGridLabel^
+

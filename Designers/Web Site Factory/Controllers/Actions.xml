@@ -1,0 +1,446 @@
+<dataController name="Actions" conflictDetection="overwriteChanges" label="Actions" handler="CodeOnTime.Designer.DesignerBusinessRules"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium">
+  <commands>
+    <command id="command1" type="Text">
+      <query href="Controllers.xml" select="//a:action" />
+      <template select="//a:dataController[@name=$Controller]/a:actions/a:actionGroup[@id=$ActionGroupId]">
+        <action xmlns="urn:schemas-codeontime-com:data-aquarium" id="{generate-id('ActionId')}"/>
+      </template>
+    </command>
+  </commands>
+  <fields>
+    <field name="ActionId" type="String" select="@id" allowNulls="false" label="Id" readOnly="true" isPrimaryKey="true"/>
+    <field name="ActionGroupId" type="String" select="parent::a:actionGroup/@id" isPrimaryKey="true" allowNulls="false" label="Group Id" readOnly="true">
+      <items style="Lookup" dataController="ActionGroups" newDataView="createForm1" dataValueField="ActionGroupId" dataTextField="ActionGroupId"/>
+    </field>
+    <field name="Scope" type="String" select="parent::a:actionGroup/@scope" allowNulls="false" readOnly="true">
+      <items style="DropDownList">
+        <item value="Grid" text="Grid"/>
+        <item value="ActionColumn" text="Action Column"/>
+        <item value="Form" text="Form"/>
+        <item value="ActionBar" text="Action Bar"/>
+        <item value="Row" text="Row"/>
+      </items>
+    </field>
+    <field name="Controller" type="String" select="ancestor::a:dataController[1]/@name" allowNulls="false" isPrimaryKey="true" readOnly="true">
+      <items style="Lookup" dataController="Controllers" newDataView="createForm1" dataValueField="Name" dataTextField="Name"/>
+    </field>
+    <field name="CommandName" type="String" select="@commandName" label="Command Name">
+      <items style="DropDownList">
+        <item value="Back" text="Back"/>
+        <item value="BatchEdit" text="Batch Edit"/>
+        <item value="Cancel" text="Cancel"/>
+        <item value="ClientScript" text="Client Script"/>
+        <item value="Confirm" text="Confirm"/>
+        <item value="Custom" text="Custom"/>
+        <item value="DataSheet" text="Data Sheet"/>
+        <item value="Delete" text="Delete"/>
+        <item value="Duplicate" text="Duplicate"/>
+        <item value="Edit" text="Edit"/>
+        <item value="EditModal" text="Edit (Modal)"/>
+        <item value="Email" text="Email"/>
+        <item value="Execute" text="Execute"/>
+        <item value="ExportCsv" text="Export (Csv)"/>
+        <item value="ExportRowset" text="Export (Rowset)"/>
+        <item value="ExportRss" text="Export (Rss)"/>
+        <item value="Grid" text="Grid"/>
+        <item value="Import" text="Import"/>
+        <item value="Insert" text="Insert"/>
+        <item value="Navigate" text="Navigate"/>
+        <item value="New" text="New"/>
+        <item value="None" text="None"/>
+        <item value="Report" text="Report"/>
+        <item value="ReportAsExcel" text="Report (Excel)"/>
+        <item value="ReportAsImage" text="Report (Image)"/>
+        <item value="ReportAsPdf" text="Report (Pdf)"/>
+        <item value="ReportAsWord" text="Report (Word)"/>
+        <item value="Search" text="Search"/>
+        <item value="Select" text="Select"/>
+        <item value="SelectModal" text="Select (Modal)"/>
+        <item value="Status" text="Status"/>
+        <item value="SQL" text="SQL"/>
+        <item value="Update" text="Update"/>
+        <item value="Upload" text="Upload"/>
+      </items>
+    </field>
+    <field name="CommandArgument" type="String" select="@commandArgument" label="Command Argument"/>
+    <field name="HeaderText" type="String" select="@headerText" label="Header Text"/>
+    <field name="Description" type="String" select="@description" label="Description"/>
+    <field name="CssClass" type="String" select="@cssClass" label="Icon / Custom Style"/>
+    <field name="WhenLastCommandName" type="String" select="@whenLastCommandName" label="When Last Command Name">
+      <items style="DropDownList">
+        <item value="Any" text="Any"/>
+        <item value="Back" text="Back"/>
+        <item value="BatchEdit" text="Batch Edit"/>
+        <item value="Cancel" text="Cancel"/>
+        <item value="ClientScript" text="Client Script"/>
+        <item value="Confirm" text="Confirm"/>
+        <item value="Custom" text="Custom"/>
+        <item value="DataSheet" text="Data Sheet"/>
+        <item value="Delete" text="Delete"/>
+        <item value="Duplicate" text="Duplicate"/>
+        <item value="Edit" text="Edit"/>
+        <item value="EditModal" text="Edit (Modal)"/>
+        <item value="Email" text="Email"/>
+        <item value="Execute" text="Execute"/>
+        <item value="ExportCsv" text="Export (Csv)"/>
+        <item value="ExportRowset" text="Export (Rowset)"/>
+        <item value="ExportRss" text="Export (Rss)"/>
+        <item value="Grid" text="Grid"/>
+        <item value="Import" text="Import"/>
+        <item value="Insert" text="Insert"/>
+        <item value="Navigate" text="Navigate"/>
+        <item value="New" text="New"/>
+        <item value="Search" text="Search"/>
+        <item value="Report" text="Report"/>
+        <item value="ReportAsExcel" text="Report (Excel)"/>
+        <item value="ReportAsImage" text="Report (Image)"/>
+        <item value="ReportAsPdf" text="Report (Pdf)"/>
+        <item value="ReportAsWord" text="Report (Word)"/>
+        <item value="Select" text="Select"/>
+        <item value="SelectModal" text="Select (Modal)"/>
+        <item value="SQL" text="SQL"/>
+        <item value="Status" text="Status"/>
+        <item value="Update" text="Update"/>
+      </items>
+    </field>
+    <field name="WhenLastCommandArgument" type="String" select="@whenLastCommandArgument" label="When Last Command Argument"/>
+    <field name="WhenKeySelected" type="Boolean" select="@whenKeySelected" label="When Key Selected"/>
+    <field name="WhenHRef" type="String" select="@whenHRef" label="When HRef (Regex)"/>
+    <field name="WhenView" type="String" select="@whenView" label="When View (Regex)"/>
+    <field name="WhenTag" type="String" select="@whenTag" label="When Tag (Regex)"/>
+    <field name="WhenClientScript" type="String" select="@whenClientScript" label="When Client Script (JavaScript)"/>
+    <field name="Confirmation" type="String" select="@confirmation" label="Confirmation"/>
+    <field name="Notification" type="String" select="@notify" label="Notification"/>
+    <field name="CausesValidation" type="Boolean" allowNulls="false" select="@causesValidation" label="Causes Validation" default="true()">
+      <items style="CheckBox"/>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="true"/>
+      </defaultValues>
+    </field>
+    <field name="Key" type="String" select="@key" label="Keyboard Shortcut"/>
+    <field name="Roles" type="String" select="@roles" label="Roles"/>
+    <field name="Data" type="String" select="a:data" label="Data" />
+  </fields>
+  <views>
+    <view id="grid1" type="Grid" commandId="command1" label="Actions">
+      <headerText>
+        <![CDATA[
+        <span class="HelpLink" title="Learn to work with Actions" onclick="$openUrl('http://codeontime.com/learn/development/project-designer/actions')"></span>
+		This is a list of data controller actions. Actions are available in the specified UI scope of the group if all "when..." conditions are met.
+    ]]>
+      </headerText>
+      <dataFields>
+        <dataField fieldName="ActionGroupId"/>
+        <dataField fieldName="ActionId" hidden="false" readOnly="true"/>
+        <dataField fieldName="Controller"/>
+        <dataField fieldName="CommandName"/>
+        <dataField fieldName="CommandArgument"/>
+        <dataField fieldName="HeaderText"/>
+        <dataField fieldName="WhenLastCommandName"/>
+        <dataField fieldName="WhenLastCommandArgument"/>
+        <dataField fieldName="WhenClientScript"/>
+        <dataField fieldName="WhenKeySelected"/>
+        <dataField fieldName="WhenHRef"/>
+        <dataField fieldName="WhenView"/>
+        <!--<dataField fieldName="WhenTag"/>-->
+        <dataField fieldName="Roles"/>
+        <dataField fieldName="Scope"/>
+      </dataFields>
+    </view>
+    <view id="editForm1" type="Form" commandId="command1" label="Action">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about Actions" onclick="$openUrl('http://codeontime.com/learn/data-controllers/actions/overview')"></span>
+        Click OK to save the action, or click Cancel to undo changes or return back.]]>
+      </headerText>
+      <categories>
+        <category headerText="General" id="catGeneral">
+          <description>
+            <![CDATA[
+            The <i>Id</i> is used as a unique identifier for the action.<br/><br/>
+            The <i>Group Id</i> displays the Id of the action group this action belongs to.<br/><br/>
+            The <i>Controller</i> displays the controller that this action belongs to.<br/><br/>
+            The <i>Scope</i> displays the scope of the action group that this action belongs to.<br/><br/>
+            The <i>Command Name</i> determines the behavior that will occur when the action is activated. If command name is not specified then the action is presented as a break line in the acton group popup menu.<br/><br/>
+            The <i>Command Argument</i> is used to modify the command. For standard Select, Edit, Update commands, specifying a view Id will perform the action in that view. For other actions, the argument can be used as a tag.<br/><br/>
+            The <i>Header Text</i> will be displayed on the action. If not specified, the <i>Command Name</i> will be used.
+            When <i>Causes Validation</i> is enabled, the form will be validated when the action is activated.<br/><br/>
+            <i>Keyboard Shortcut</i> will enable the user to trigger the action via the specified keyboard shortcut.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="ActionId" readOnly="true"  hyperlinkFormatString="javascript:window.external.SyncAndRename()" toolTip="Click here to change the 'Id' of the Action."/>
+            <dataField fieldName="ActionGroupId"/>
+            <dataField fieldName="Controller"/>
+            <dataField fieldName="Scope"/>
+            <dataField fieldName="CommandName"/>
+            <dataField fieldName="CommandArgument"/>
+            <dataField fieldName="HeaderText"/>
+            <dataField fieldName="CausesValidation"/>
+            <dataField fieldName="Key"/>
+          </dataFields>
+        </category>
+        <category id="catData" headerText="Data">
+          <description>
+            <![CDATA[
+          Specify <i>Data</i> for the <a href="javascript:" title="Learn how to use SQL action." onclick="return $openUrl('http://codeontime.com/learn/data-controllers/actions/sql/calculating-values')">SQL</a>, 
+          <a href="javascript:" title="Learn how to configure Report action." onclick="return $openUrl('http://codeontime.com/learn/data-controllers/actions/report')">Report</a>, or  
+          or <a href="javascript:" title="Learn how to use Custom action." onclick="return $openUrl('http://codeontime.com/learn/data-controllers/actions/custom/calculating-values')">Custom</a> 
+          action. Application framework will use this information when processing the action.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Data" columns="58" rows="10"/>
+          </dataFields>
+          <visibility>
+            <expression test="$row.CommandName != null &amp;&amp; $row.CommandName.match(/^Report|Custom|SQL|Email/)" type="ClientScript"/>
+          </visibility>
+          <template>
+            <![CDATA[
+            <div class="FieldPlaceholder DataOnly">{Data}</div>
+          ]]>
+          </template>
+        </category>
+        <category headerText="Conditions">
+          <description>
+            <![CDATA[
+            Conditions control action availability in the user interface.<br/><br/>
+            <i>When Last Command Name</i> will only display the action if the previous action has the specified command name.<br/></br/>
+            <i>When Last Command Argument</i> will only display the action if the previous action has the specified command argument.<br/><br/>
+            If <i>When Key Selected</i> is enabled, the action will only displayed when a record is selected.<br/><br/>
+            <i>When HRef</i> will display the action when the specified <a href="javascript:" title="Learn how to use regular expressions." onclick="return $openUrl('http://en.wikipedia.org/wiki/Regular_expression')">regular expression</a> 
+            matches the page URL. If you would like to have a negative match then put "false:" without double quotes in front of the expression.<br/><br/>
+            <i>When View</i> will display the action when the regular expression matches the view.<br/><br/>
+            <i>When Tag</i> will display the action when the view <i>Tag</i> is matched by the regular expression.<br/><br/>
+            <a href="javascript:" title="Learn how to use When Client Script." onclick="return $openUrl('http://codeontime.com/learn/data-controllers/actions/properties/when-client-script')">When Client Script</a>
+            is a JavaScript expression that will display the action if it evaluates to <i>true</i>.
+					  ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="WhenLastCommandName"/>
+            <dataField fieldName="WhenLastCommandArgument"/>
+            <dataField fieldName="WhenKeySelected"/>
+            <dataField fieldName="WhenHRef"/>
+            <dataField fieldName="WhenView"/>
+            <dataField fieldName="WhenTag"/>
+            <dataField fieldName="WhenClientScript" rows="5"/>
+          </dataFields>
+        </category>
+        <category headerText="Presentation">
+          <description>
+            <![CDATA[
+          The <i>Description</i> will be displayed under the <i>Header Text</i> on actions in a menu on the action bar.<br/><br/>
+          When not blank, <a href="javascript:" title="Learn how to display a simple confirmation." onclick="return $openUrl('http://codeontime.com/learn/data-controllers/actions/properties/confirmation/simple')">Confirmation</a> 
+          will display a confirmation window with the specified text. It may also used to call a <a href="javascript:" title="Learn how to display a modal form." onclick="return $openUrl('http://codeontime.com/learn/data-controllers/actions/properties/confirmation/modal-form')">modal form</a>.<br/><br/>
+          Specify an <a href="javascript:" onclick="return $openUrl('http://demo.codeontime.com/northwind/css/icons.html')" 
+          title="Learn to configure an External URL.">icon name</a> and/or custom CSS classes to apply to this action, separated by commas. <br/><br/>
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Description"/>
+            <dataField fieldName="Confirmation" rows="5"/>
+            <dataField fieldName="Notification" rows="5"/>
+            <dataField fieldName="CssClass" columns="25"/>
+          </dataFields>
+        </category>
+        <category headerText="Security">
+          <description>
+            <![CDATA[
+          List roles allowed to execute this action in <i>Roles</i>. Role check is performed on the server and precedes the action conditions.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Roles"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+    <view id="createForm1" type="Form" commandId="command1" label="New Action">
+      <headerText>
+        <![CDATA[<span class="HelpLink" title="Learn about Actions" onclick="$openUrl('http://codeontime.com/learn/data-controllers/actions/overview')"></span>
+        Please fill this form and click OK button to create a new action. Click Cancel to return to the previous screen.]]>
+      </headerText>
+      <categories>
+        <category headerText="General" id="catGeneral">
+          <description>
+            <![CDATA[
+            The <i>Id</i> is used as a unique identifier for the action.<br/><br/>
+            The <i>Group Id</i> displays the Id of the action group this action belongs to.<br/><br/>
+            The <i>Controller</i> displays the controller that this action belongs to.<br/><br/>
+            The <i>Scope</i> displays the scope of the action group that this action belongs to.<br/><br/>
+            The <i>Command Name</i> determines the behavior that will occur when the action is activated. If command name is not specified then the action is presented as a break line in the acton group popup menu.<br/><br/>
+            The <i>Command Argument</i> is used to modify the command. For standard Select, Edit, Update commands, specifying a view Id will perform the action in that view. For other actions, the argument can be used as a tag.<br/><br/>
+            The <i>Header Text</i> will be displayed on the action. If not specified, the <i>Command Name</i> will be used.
+            When <i>Causes Validation</i> is enabled, the form will be validated when the action is activated.
+            <i>Keyboard Shortcut</i> will enable the user to trigger the action via the specified keyboard shortcut.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="ActionId" hidden="true"/>
+            <dataField fieldName="ActionGroupId" readOnly="false"/>
+            <dataField fieldName="Controller" readOnly="false"/>
+            <dataField fieldName="CommandName"/>
+            <dataField fieldName="CommandArgument"/>
+            <dataField fieldName="HeaderText"/>
+            <dataField fieldName="CausesValidation"/>
+            <dataField fieldName="Key"/>
+          </dataFields>
+        </category>
+        <category id="catData" headerText="Data">
+          <description>
+            <![CDATA[
+          Specify <i>Data</i> for the <a href="javascript:" title="Learn how to use SQL action." onclick="return $openUrl('http://codeontime.com/learn/data-controllers/actions/sql/calculating-values')">SQL</a>, 
+          <a href="javascript:" title="Learn how to configure Report action." onclick="return $openUrl('http://codeontime.com/learn/data-controllers/actions/report')">Report</a>, or  
+          or <a href="javascript:" title="Learn how to use Custom action." onclick="return $openUrl('http://codeontime.com/learn/data-controllers/actions/custom/calculating-values')">Custom</a> 
+          action. Application framework will use this information when processing the action.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Data" columns="58" rows="10"/>
+          </dataFields>
+          <visibility>
+            <expression test="[CommandName] == 'Custom' || [CommandName] == 'SQL' || [CommandName] == 'Email' || ([CommandName] != null &amp;&amp; [CommandName].match(/^Report/))" type="ClientScript"/>
+          </visibility>
+          <template>
+            <![CDATA[
+            <div class="FieldPlaceholder DataOnly">{Data}</div>
+          ]]>
+          </template>
+        </category>
+        <category headerText="Conditions">
+          <description>
+            <![CDATA[
+            Conditions control action availability in the user interface.<br/><br/>
+            <i>When Last Command Name</i> will only display the action if the previous action has the specified command name.<br/></br/>
+            <i>When Last Command Argument</i> will only display the action if the previous action has the specified command argument.<br/><br/>
+            If <i>When Key Selected</i> is enabled, the action will only displayed when a record is selected.<br/><br/>
+            <i>When HRef</i> will display the action when the specified <a href="javascript:" title="Learn how to use regular expressions." onclick="return $openUrl('http://en.wikipedia.org/wiki/Regular_expression')">regular expression</a> 
+            matches the page URL. If you would like to have a negative match then put "false:" without double quotes in front of the expression.<br/><br/>
+            <i>When View</i> will display the action when the regular expression matches the view.<br/><br/>
+            <i>When Tag</i> will display the action when the view <i>Tag</i> is matched by the regular expression.<br/><br/>
+            <a href="javascript:" title="Learn how to use When Client Script." onclick="return $openUrl('http://codeontime.com/learn/data-controllers/actions/client-script')">When Client Script</a>
+            is a JavaScript expression that will display the action if it evaluates to <i>true</i>.
+					  ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="WhenLastCommandName"/>
+            <dataField fieldName="WhenLastCommandArgument"/>
+            <dataField fieldName="WhenKeySelected"/>
+            <dataField fieldName="WhenHRef"/>
+            <dataField fieldName="WhenView"/>
+            <dataField fieldName="WhenTag"/>
+            <dataField fieldName="WhenClientScript" rows="5"/>
+          </dataFields>
+        </category>
+        <category headerText="Presentation">
+          <description><![CDATA[Specify action presentation properties.]]></description>
+          <dataFields>
+            <dataField fieldName="Description"/>
+            <dataField fieldName="Confirmation" rows="5"/>
+            <dataField fieldName="Notification" rows="5"/>
+            <dataField fieldName="CssClass" columns="25"/>
+          </dataFields>
+        </category>
+        <category headerText="Security">
+          <description>
+            <![CDATA[
+          List roles allowed to execute this action in <i>Roles</i>. Role check is performed on the server and precedes the action conditions.
+          ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="Roles"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+  </views>
+  <actions>
+    <actionGroup scope="ActionColumn">
+      <action commandName="Edit" commandArgument="editForm1" headerText="View"/>
+    </actionGroup>
+    <!--<actionGroup scope="Grid">
+      <action commandName="Edit" commandArgument="editForm1" headerText="View"/>
+      -->
+    <!--<action commandName="Navigate" commandArgument="Action.htm?Controller={Controller}&amp;ActionGroupId={ActionGroupId}&amp;ActionId={ActionId}&amp;TheActionGroup={ActionId} ({CommandName}) {HeaderText}" headerText="View"/>-->
+    <!--
+      <action commandName="Edit" />
+      <action commandName="Delete" confirmation="Delete?" />
+      <action/>
+      <action commandName="Custom" commandArgument="MakeFirst" headerText="Make First"/>
+      <action commandName="Custom" commandArgument="MoveUp" headerText="Move Up"/>
+      <action commandName="Custom" commandArgument="MoveDown" headerText="Move Down"/>
+      <action commandName="Custom" commandArgument="MakeLast" headerText="Make Last"/>
+      -->
+    <!--<action commandName="Select" commandArgument="editForm1" headerText="Properties"/>-->
+    <!--
+      -->
+    <!--<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+    <!--
+    </actionGroup>-->
+    <actionGroup scope="Grid">
+      <action commandName="Navigate" commandArgument="Action.htm?_returnController=Actions&amp;Controller={Controller}&amp;ActionGroupId={ActionGroupId}&amp;TheAction={ActionId} ({CommandName}) {HeaderText}" headerText="Open"/>
+      <action commandName="ClientScript" commandArgument="__syncDesigner(this)" headerText="Sync" cssClass="SyncIcon"/>
+      <action commandName="Edit" />
+      <action commandName="Select" commandArgument="editForm1" headerText="View"/>
+    </actionGroup>
+    <actionGroup scope="Form">
+      <action commandName="Edit" />
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <action commandName="Cancel" headerText="Close" />
+      <action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+      <!--<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />-->
+      <action whenLastCommandName="Edit" commandName="Cancel" />
+      <action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+      <action whenLastCommandName="New" commandName="Cancel" />
+    </actionGroup>
+    <actionGroup scope="ActionBar" headerText="New">
+      <action commandName="New" commandArgument="createForm1" headerText="New Action" description="Create a new action." />
+    </actionGroup>
+    <!--<actionGroup scope="ActionBar" headerText="N/A" flat="true">
+      <action commandName="Custom" commandArgument="Preview" headerText="Quick View" description="Preview the data controller."  />
+    </actionGroup>-->
+    <actionGroup scope="ActionBar" headerText="N/A" flat="true">
+      <!--<action commandName="Custom" commandArgument="MakeFirst" headerText="First" whenKeySelected="true" whenView="grid1" cssClass="MakeFirstIcon"/>-->
+      <action commandName="Custom" commandArgument="MoveUp" headerText="Up" whenKeySelected="true" whenView="grid1" cssClass="MoveUpIcon"/>
+      <action commandName="Custom" commandArgument="MoveDown" headerText="Down" whenKeySelected="true" whenView="grid1" cssClass="MoveDownIcon"/>
+      <!--<action commandName="Custom" commandArgument="MakeLast" headerText="Last" whenKeySelected="true" whenView="grid1" cssClass="MakeLastIcon"/>-->
+    </actionGroup>
+    <!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+    <actionGroup scope="ActionBar" headerText="Record">
+      <action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+      <action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+    </actionGroup>
+    <actionGroup id="sync01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncDesigner()" headerText="Sync" cssClass="SyncIcon" description="Synchronize with Explorer (Ctrl+.)"/>
+    </actionGroup>
+    <actionGroup id="ag8" scope="Row">
+      <action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+      <action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+    </actionGroup>
+  </actions>
+  <businessRules>
+    <rule id="r1" commandName="Select|New" commandArgument="" view="editForm1|createForm1" type="JavaScript" phase="After">
+      <![CDATA[
+        var categoryDescription = $('td.catData.Category').hide().find('table.Category');
+        var $dataCat = $('td.catData.Fields').attr('colspan', 2).css({backgroundColor:'#fff'});
+        var $dataCatRow = $('.CategoryRow.catData');
+        var isVisible = $dataCatRow.is(':visible');
+        $dataCatRow.show().addClass('full-width');
+        var textArea = $('.Item.Data .Value textarea').css('width', ($dataCat.width() - 50) + 'px');
+        textArea.attr('wrap', 'off');
+        categoryDescription.insertBefore(textArea);
+        $('tr.CategoryRow.catData').css('visibility','visible');
+        if (!isVisible)
+          $dataCatRow.hide();
+     ]]>
+    </rule>
+  </businessRules>
+</dataController>

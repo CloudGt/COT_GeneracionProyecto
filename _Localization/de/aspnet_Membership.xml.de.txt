@@ -1,0 +1,213 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Erstellen Sie einen neuen Benutzer erfassen.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^New User^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Neu^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Zurück^BackToRequestPasswordActionHeaderText^
+
+^Comment^Kommentar^Comment^
+
+^ConfirmIdentityActionHeaderText^Finish^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Neues Passwort bestätigen^ConfirmNewPassword^
+
+^ConfirmPassword^Passwort bestätigen^ConfirmPassword^
+
+^CreateDate^Neues Datum^CreateDate^
+
+^CreateFormCommentCategoryDescription^Geben Sie zusätzliche Kommentare über dieses Benutzerkonto. Kommentar ist nicht für den Benutzer sichtbar.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Kommentare^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Bitte geben Sie Benutzernamen und ein Passwort. Beachten Sie, dass Passwort muss mindestens 7 Zeichen lang und beinhalten ein nicht-alphanumerische Zeichen. Nur autorisierte Benutzer können auf der Website anmelden.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Neuer Benutzer Informationen^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Diese Felder sind erforderlich, um einen Benutzer zu einem Verlust des Passworts zu helfen. Während der Wiederherstellung wird der Benutzer aufgefordert, einen Benutzernamen einzugeben. Wenn ein Benutzerkonto existiert dann eine Sicherheitsfrage wird gebeten, beantwortet werden. Eine richtige Antwort löst eine E-Mail mit einem temporären Passwort für den Benutzer zu senden.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Passwort Zurückstellung^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Bitte wählen Sie Benutzerrollen, die am ehesten entsprechen Benutzer-Aufgaben. Rollen steuern den Zugriff auf die Bereiche dieser Website. Bitte kontaktieren Sie Ihren Systemadministrator, falls Rolle Zugriffsbeschränkungen geändert werden muss.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Rollen^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Bitte füllen Sie dieses Formular aus und klicken Sie auf OK, um einen neuen Benutzer Mitgliedschaft Datensatz zu erstellen. Klicken Sie auf Abbrechen, um zum vorherigen Bildschirm zurückzukehren.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^New User^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Dieses Benutzerkonto wird erstellt als genehmigt.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Duplicate Email-Adresse.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Duplicate Anbieter Taste.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Duplicate Benutzernamen.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Activity-Statistik^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Dieses Benutzerkonto ist genehmigt^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^Dies sind die Statistiken der fehlgeschlagene Anmeldeversuche dieses Benutzers. <br/> <br/> User erfolgt nach Erreichen einer maximalen Anzahl fehlgeschlagener Anmeldeversuche gesperrt werden. <br/> <br/> Locked out-Benutzer können sich wieder anmelden, nachdem Sie das Datum in Failed Versuch, Passwort zu starten. <br/> <br/> Nutzer, um das Passwort zurückzugewinnen nicht in der Lage, so nach dem Datum in Failed Passwort Antworten Versuch Window Start. <br/> <br/> Sie können Benutzer die Fähigkeit an, indem Sie Locked Out-Flag auf 'Nein' login wiederherzustellen.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Login Statistics^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Während der Wiederherstellung eines vergessenen Passworts wird der Benutzer aufgefordert, einen Benutzernamen einzugeben. Wenn ein Benutzerkonto existiert dann eine Sicherheitsfrage wird gebeten, beantwortet werden. Eine richtige Antwort löst eine E-Mail mit einem temporären Passwort für den Benutzer zu senden. <br/><br/> Out Change Flag auf 'Nein' gesperrt, wenn der Benutzer hat sich nach Erreichen einer maximalen Anzahl fehlgeschlagener Anmeldeversuche gesperrt und Sie möchten, dass Benutzer sich wieder anmelden.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Passwort Zurückstellung^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Bitte wählen Sie Benutzerrollen, die am ehesten entsprechen Benutzer-Aufgaben. Rollen steuern den Zugriff auf die Bereiche dieser Website. Bitte kontaktieren Sie Ihren Systemadministrator, falls Rolle Zugriffsbeschränkungen geändert werden muss. <br/> <br/> Geben Sie zusätzliche Kommentare über dieses Benutzerkonto. Kommentar ist nicht für den Benutzer sichtbar.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Benutzerinformationen^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Bitte lesen Sie Benutzer Informationen zur Mitgliedschaft unter. Klicken Sie auf Bearbeiten, um diesen Datensatz zu ändern, klicken Sie auf Löschen, um den Eintrag zu löschen, oder klicken Sie auf Abbrechen / Schließen, um wieder zurückzukehren.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Überprüfung Benutzer^EditFormViewLabel^
+
+^Email^E-Mail^Email^
+
+^EnterCurrentPassword^Bitte geben Sie Ihr aktuelles Passwort.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Bitte geben Sie ein Passwort zu beantworten.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Fehler beim Speichern der Benutzer-Account.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Failed Passwort Antwort Versuch Graf^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Failed Passwort Antwort Versuch Window Start^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Failed Versuch, Passwort Count^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Failed Versuch, Passwort Window Start^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Dies ist eine Liste der Mitgliedschaft Benutzer Datensätze.^GridViewHeaderText^
+
+^GridViewLabel^All Users^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Beantworten Sie die folgende Frage zu Ihrem Passwort erhalten. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Identity Bestätigung^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Bitte füllen Sie dieses Formular aus und klicken Sie, um das vergessene Passwort wiederherzustellen Submit. Klicken Sie auf Abbrechen, um zum vorherigen Bildschirm zurückzukehren.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Passwort-Wiederherstellung: Schritt 2 von 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Ungültig passwort-wiederherstellung zu beantworten.^InvalidAnswer^
+
+^InvalidEmail^Ungültige E-Mail-Adresse.^InvalidEmail^
+
+^InvalidPassword^Ungültiges Passwort.^InvalidPassword^
+
+^InvalidProviderUserKey^Ungültige Anbieter Benutzerschlüssel.^InvalidProviderUserKey^
+
+^InvalidQuestion^Invalid Passwort Zurückstellung Frage.^InvalidQuestion^
+
+^InvalidUserName^Ungültiger Benutzername.^InvalidUserName^
+
+^IsApproved^Zugelassen ist,^IsApproved^
+
+^IsLockedOut^Ist gesperrt^IsLockedOut^
+
+^LastLockoutDate^Letzte Lockout Date^LastLockoutDate^
+
+^LastLoginDate^Letzter Login Datum^LastLoginDate^
+
+^LastPasswordChangedDate^Letzte Passwort Änderung^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Passwort Antwort (nicht zu Ihrem Schutz angezeigt)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Bitte geben Sie Ihr aktuelles Passwort, um neues Passwort zu erstellen, aktualisieren Sie Ihre E-Mail-Adresse oder Passwort ändern Erholung Frage und Antwort.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Aktuelles Passwort^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Bitte überprüfen Sie Ihre Mitgliedschaft weiter unten. Klicken Sie auf Mein Konto aktualisieren, um diesen Datensatz zu ändern, oder klicken Sie auf Abbrechen, um wieder zurück.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Ihr Konto^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Bitte geben Sie neue Passwort ein. Beachten Sie, dass Passwort muss mindestens 7 Zeichen lang und beinhalten ein nicht-alphanumerische Zeichen.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. New Passwort (Optional)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Während der Wiederherstellung eines vergessenen Passworts werden Sie aufgefordert, Ihren Benutzernamen einzugeben. Wenn ein Benutzerkonto existiert dann ein Passwort Frage muss beantwortet werden. Eine richtige Antwort löst eine E-Mail mit einem temporären Passwort zusenden.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Passwort Zurückstellung (Optional)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Neues Passwort^NewPassword^
+
+^NewPasswordAlert^Ein neues Passwort wurde an die Adresse auf Datei zugeschickt.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Neues Passwort und Bestätigung stimmen nicht überein.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Ihr neues Passwort ist ungültig.^NewPasswordInvalid^
+
+^NewPasswordSubject^Neues Passwort für \'{0} \ '.^NewPasswordSubject^
+
+^OldPassword^Altes Passwort^OldPassword^
+
+^Password^Passwort^Password^
+
+^PasswordAndConfirmationDoNotMatch^Passwort und Bestätigung stimmen nicht überein.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Passwort Antwort^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Ihr Passwort stimmt nicht mit unseren Aufzeichnungen.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Passwort Format^PasswordFormat^
+
+^PasswordQuestion^Passwort Frage^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Bitte geben Sie einen Benutzernamen. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Passwort vergessen?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Füllen Sie das Formular aus und drücken Sie auf Weiter, um die vergessenen Passworts. Klicken Sie auf Abbrechen, um zum vorherigen Bildschirm zurückzukehren.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Passwort Zurückstellung: Schritt 1 von 2^PasswordRequestViewLabel^
+
+^ProviderError^Provider-Fehler.^ProviderError^
+
+^RequestPasswordActionHeaderText^Nächste^RequestPasswordActionHeaderText^
+
+^Roles^Rollen^Roles^
+
+^SelfRegisteredUser^Self-Nutzer.^SelfRegisteredUser^
+
+^SignUp^Registrieren^SignUp^
+
+^SignUpViewHeaderText^Bitte füllen Sie dieses Formular aus und klicken Sie auf OK, um sich für ein Konto. Klicken Sie auf Abbrechen, um zum vorherigen Bildschirm zurückzukehren.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Konto Registrieren^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Bitte geben Sie Benutzernamen und ein Passwort. Beachten Sie, dass Passwort muss mindestens 7 Zeichen lang und beinhalten ein nicht-alphanumerische Zeichen. Nur autorisierte Benutzer können auf der Website anmelden.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^New User Information^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Diese Felder sind Pflichtfelder Ihnen zu helfen, ein vergessenes Passwort wiederherzustellen. Während der Wiederherstellung werden Sie aufgefordert, einen Benutzernamen einzugeben. Wenn ein Benutzerkonto existiert dann eine Sicherheitsfrage wird gebeten, beantwortet werden. Eine richtige Antwort löst eine E-Mail mit einem temporären Passwort an die registrierte E-Mail senden.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Passwort Zurückstellung^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Mein Konto aktualisieren^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Der Benutzer kann nicht gesperrt werden. Wenn Sie an diesen Benutzer von der Möglichkeit, login verhindern wollen, dann markieren Sie einfach Benutzer als "nicht-anerkannten".^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^User'{0}' wurde gelöscht.^UserHasBeenDeleted^
+
+^UserName^Benutzername^UserName^
+
+^UserNameDoesNotExist^Benutzername existiert nicht.^UserNameDoesNotExist^
+
+^UserNotFound^User nicht gefunden.^UserNotFound^
+
+^UserRejected^User wurde abgelehnt.^UserRejected^
+
+^UsersInRolesGridHeaderText^Dies ist eine Liste der Mitgliedschaft Benutzer Datensätze, die zu einem ausgewählten Rolle gehören.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Benutzer in Rolle^UsersInRolesGridLabel^
+

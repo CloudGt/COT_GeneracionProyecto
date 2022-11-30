@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^İdari hesap^AdminDesc^
+
+^SignInHeader^Talimatlar^SignInHeader^
+
+^SignInInstruction^Sit içeriğe erişmek için oturum açın.^SignInInstruction^
+
+^SignInPara1^İki standart kullanıcı hesapları, bu uygulama için üyelik seçeneği seçildiyse uygulaması başlatıldığında otomatik olarak oluşturulur.^SignInPara1^
+
+^SignInPara2^Idari hesap <b>admin</b>, web sitesi ve üyelik yöneticisi tüm alanlara erişim yetkisine sahiptir. Standart <b>user</b> hesap üyelik yöneticisi hariç web sitesinin tüm alanlarda erişmesine izin verilir.^SignInPara2^
+
+^SignInPara3^Bu web site<i> sayfanın en üstünde sağ tarafta linki </i>Login üzerine fare imlecini hareket ettirmek ve aşağıda listelenen hesapları ile oturum açın.^SignInPara3^
+
+^UserDesc^Standart kullanıcı hesabı^UserDesc^
+

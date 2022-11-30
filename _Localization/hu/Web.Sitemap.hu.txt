@@ -1,0 +1,19 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Web.Sitemap project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^HomeDesc^Alkalmazás honlap^HomeDesc^
+
+^HomePath^Címlap^HomePath^
+
+^MembershipDesc^Felhasználó és szerepkör karbantartás^MembershipDesc^
+
+^MembershipPath^Hozzáférés^MembershipPath^
+
+^ReportsPath^Jelentések^ReportsPath^
+
+^SiteHome^Címlap^SiteHome^
+

@@ -1,0 +1,25 @@
+<dataController name="OnDemandHandlers" conflictDetection="overwriteChanges" label="On-Demands Handlers"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium"     
+		xmlns:bo="urn:schemas-codeontime-com:business-objects"
+>
+	<commands>
+		<command id="command1" type="Text">
+			<query href="RawControllers.xml" select="//bo:field[@onDemand='true']" sort="Name"/>
+		</command>
+	</commands>
+	<fields>
+		<field name="Name" type="String" select="@onDemandHandler" allowNulls="false" isPrimaryKey="true"/>
+	</fields>
+	<views>
+		<view id="grid1" type="Grid" commandId="command1" label="On-Demand Handlers">
+			<headerText>This is a list of on-demand handlers. </headerText>
+			<dataFields>
+				<dataField fieldName="Name" columns="30"/>
+			</dataFields>
+		</view>
+	</views>
+	<actions>
+		<actionGroup scope="Grid">
+		</actionGroup>
+	</actions>
+</dataController>

@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^حساب اداری^AdminDesc^
+
+^SignInHeader^دستورالعمل^SignInHeader^
+
+^SignInInstruction^ورود برای دسترسی به محتوای سایت حفاظت شده.^SignInInstruction^
+
+^SignInPara1^دو حساب کاربر استاندارد به طور خودکار زمانی ساخته می شود که نرم افزار است مقداردهی اولیه در صورتی که گزینه عضویت برای این برنامه انتخاب شده است.^SignInPara1^
+
+^SignInPara2^<b>admin</b> حساب اداری مجاز است برای دسترسی به تمام مناطق از وب سایت و مدیر عضویت است. حساب <b>user</b> استاندارد مجاز است برای دسترسی به تمام زمینه های وب سایت به استثنای مدیر عضویت.^SignInPara2^
+
+^SignInPara3^انتقال اشاره گر ماوس بر <i>Login پیوند به site</i> این وب در سمت راست در بالای صفحه و با یکی از حساب های ذکر شده در زیر.^SignInPara3^
+
+^UserDesc^حساب کاربر استاندارد^UserDesc^
+

@@ -1,0 +1,11 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Membership.aspx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^MembershipAbout^Αυτή η σελίδα σας επιτρέπει να διαχειρίζεται τους ρόλους και τους χρήστες.^MembershipAbout^
+
+^MembershipTitle^Διευθυντής Μέλους^MembershipTitle^
+

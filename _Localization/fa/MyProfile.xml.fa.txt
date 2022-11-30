@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^بازگشت^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^پایان دادن^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^تأیید رمز جدید^ConfirmNewPassword^
+
+^ConfirmPassword^رمز عبور را تأیید کنید^ConfirmPassword^
+
+^Email^پست الکترونیک^Email^
+
+^ForgotYourPassword^رمز عبور خود را فراموش کرده اید؟^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^برای دریافت رمز عبور خود، به سوال زیر پاسخ دهید. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^تأیید هویت^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^لطفا این فرم را پر کنید و دکمه Submit را بزنید تا رمز عبور فراموش شده را بازیابی کنید. روی لغو کلیک کنید تا به صفحه قبلی بازگردید^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^بازیابی رمز عبور: مرحله 2 از 2^IdentityConfirmViewLabel^
+
+^LoginButton^ورود^LoginButton^
+
+^LoginLink^ورود^LoginLink^
+
+^LoginWithDNN^ورود با DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^برای ورود با فیس بوک^LoginWithFacebook^
+
+^LoginWithGoogle^با Google وارد شوید^LoginWithGoogle^
+
+^LoginWithMicrosoft^ورود با مایکروسافت^LoginWithMicrosoft^
+
+^LoginWithSharePoint^ورود با شیرپوینت^LoginWithSharePoint^
+
+^LoginWithWindowsLive^ورود با ویندوز لایو^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^پاسخ رمز عبور (برای حفاظت شما نمایش داده نمی شود)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^لطفا رمزعبور فعلی خود را وارد کنید تا رمز عبور جدیدی ایجاد کنید، آدرس ایمیل خود را به روز کنید، یا پرسش و پاسخ بازیابی رمز عبور را تغییر دهید.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. رمز عبور فعلی^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^لطفا اطلاعات عضویت خود را در زیر بررسی کنید. برای تغییر این رکورد بر روی Update Mano حساب کلیک کنید، یا برای بازگرداندن روی لغو کلیک کنید.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^حساب من^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^لطفا رمز عبور جدید را وارد کنید توجه داشته باشید که رمز عبور باید حداقل 7 کاراکتر داشته باشد و شامل یک علامت غیر الفبا و عددی باشد.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. رمز عبور جدید (اختیاری)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^در طول بازیابی رمز عبور فراموش شده شما از شما خواسته خواهد شد تا نام کاربری خود را وارد کنید. اگر یک حساب کاربری وجود دارد پس باید یک سوال رمز عبور پاسخ داده شود. پاسخ صحیح یک ایمیل با یک گذرواژه موقت برای شما ارسال می کند.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. ایمیل &amp; بازیابی رمز عبور (اختیاری)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^رمز عبور جدید^NewPassword^
+
+^OldPassword^رمز عبور قدیمی^OldPassword^
+
+^Password^کلمه عبور^Password^
+
+^PasswordAnswer^پاسخ رمز عبور^PasswordAnswer^
+
+^PasswordQuestion^رمز عبور سوال^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^لطفا نام کاربری را وارد کنید <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^رمز عبور خود را فراموش کرده اید؟^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^لطفا این فرم را پر کنید و دکمه Continue را کلیک کنید تا رمز عبور فراموش شده را بازیابی کنید. روی لغو کلیک کنید تا به صفحه قبلی بازگردید^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^بازیابی رمز عبور: مرحله 1 از 2^PasswordRequestViewLabel^
+
+^RememberMe^دفعه بعد مرا به خاطر بیاور^RememberMe^
+
+^RequestPasswordActionHeaderText^بعد^RequestPasswordActionHeaderText^
+
+^SignUp^ثبت نام^SignUp^
+
+^SignUpNow^ثبت نام کن^SignUpNow^
+
+^SignUpViewHeaderText^لطفا این فرم را پر کنید و برای ثبت نام برای یک حساب کاربری کلیک کنید. روی لغو کلیک کنید تا به صفحه قبلی بازگردید^SignUpViewHeaderText^
+
+^SignUpViewLabel^ثبت نام حساب^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^لطفا نام کاربری و رمز عبور را وارد کنید. توجه داشته باشید که رمز عبور باید حداقل 7 کاراکتر داشته باشد و شامل یک علامت غیر الفبا و عددی باشد. فقط کاربران تایید شده قادر به ورود به وب سایت خواهند بود.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^اطلاعات کاربر جدید^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^این فیلدها برای کمک به شما برای بازیابی رمز عبور فراموش شده مورد نیاز است. در طول فرایند بازیابی از شما خواسته می شود که نام کاربری را وارد کنید. اگر یک حساب کاربری وجود داشته باشد، یک سوال امنیتی برای جواب دادن درخواست می شود. پاسخ صحیح یک ایمیل با یک گذرواژه موقت ارسال میکند که به ایمیل ثبت شده ارسال میشود.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^بازیابی رمز عبور^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^به روز رسانی حساب کاربری من^UpdateMyAccountActionHeaderText^
+
+^UserName^نام کاربری^UserName^
+

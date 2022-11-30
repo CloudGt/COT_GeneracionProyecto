@@ -1,0 +1,1602 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<project xmlns="http://www.codeontime.com/2008/code-generator"
+         xmlns:ontime="http://www.codeontime.com/2008/code-generator"
+         xmlns:a="urn:schemas-codeontime-com:data-aquarium-project"
+         xmlns:c="urn:schemas-codeontime-com:data-aquarium"
+				 xmlns:config="http://www.codeontime.com/2008/codedom-configuration"
+				 xmlns:vsproj="http://schemas.microsoft.com/developer/msbuild/2003"
+         xmlns:app="urn:schemas-codeontime-com:data-aquarium-application"
+         debug="true"
+>
+	<information>
+		<product>COT201010-WAF</product>
+		<title>Web App Factory</title>
+		<display>false</display>
+		<order>2</order>
+		<description>Create an ASP.NET/AJAX solution composed of a web application project and class library implementing a web site with navigation system, role-based security, membership manager, built-in data export and reporting, adaptive filtering, advanced search options, optional mobile user interface, and much more.</description>
+		<vendor>Code OnTime LLC</vendor>
+		<website>http://www.codeontime.com</website>
+		<about>http://www.codeontime.com/learn</about>
+		<demo>http://www.codeontime.com/demo</demo>
+	</information>
+	<build>
+		<!-- load entire project output file/folder tree -->
+		<load path="$ProjectPath">
+			<if test="not(file/@name='DataAquarium.Project.xml')">
+				<copy input="$LibraryRoot\Data Aquarium\DataAquarium.Project.xml" output="DataAquarium.Project.xml"/>
+			</if>
+		</load>
+		<navigate url="..\Data Aquarium\DataAquarium.Start.htm?webServer2=false&amp;splash=WebAppFactory"/>
+		<load path="DataAquarium.Project.xml">
+			<variable name="ConnectionString" select="a:project/a:connectionString"/>
+			<variable name="ProviderName" select="a:project/a:providerName"/>
+			<variable name="MembershipProviderName" select="a:project/a:membership/@providerName"/>
+			<variable name="MembershipConnectionString" select="a:project/a:membership/@connectionString"/>
+			<load path="$ProjectPath">
+				<if test="not(file/@name='DataAquarium.Metadata.xml')">
+					<execute fileName="CodeOnTime.exe" arguments="/connectionString:&quot;$ConnectionString&quot; /providerName:&quot;$ProviderName&quot; /output:&quot;$ProjectPath\DataAquarium.Metadata.xml&quot;" mode="wait"/>
+				</if>
+			</load>
+		</load>
+		<retract path="Error.DataAquarium.Metadata.xml" test="ontime:error!=''" steps="2"/>
+		<!-- convert project data model in the Data Aquarium controller collection -->
+		<load path="DataAquarium.Project.xml">
+			<variable name="Compatibility" select="a:project/@compatibility"/>
+			<variable name="Namespace" select="a:project/a:namespace"/>
+			<variable name="TargetFramework" select="a:project/@targetFramework"/>
+			<variable name="ScriptOnly" select="a:project/@targetFramework['$TargetFramework45Plus'='true'] and a:project/a:features/a:framework/@scriptOnly='true'"/>
+			<variable name="ReportsEnabled" select="a:project/a:reports/@enabled"/>
+			<variable name="ReportsVersion" select="a:project/a:reports/@version"/>
+			<variable name="MembershipEnabled" select="a:project/a:membership/@enabled"/>
+			<variable name="MembershipDisplayRememberMe" select="a:project/a:membership/@displayRememberMe"/>
+			<variable name="MembershipRememberMeSet" select="a:project/a:membership/@rememberMeSet"/>
+			<variable name="MembershipDisplaySignUp" select="a:project/a:membership/@displaySignUp"/>
+			<variable name="MembershipDisplayPasswordRecovery" select="a:project/a:membership/@displayPasswordRecovery"/>
+			<variable name="WindowsAuthentication" select="a:project/a:membership/@windowsAuthentication"/>
+			<variable name="CustomSecurity" select="a:project/a:membership/@customSecurity"/>
+			<variable name="ActiveDirectory" select="a:project/a:membership/@activeDirectory"/>
+			<variable name="DedicatedLogin" select="a:project/a:membership/@dedicatedLogin"/>
+			<variable name="HelpEnabled" select="/a:project/a:membership/@displayHelp"/>
+			<variable name="AnnotationsEnabled" select="a:project/a:features/@annotations"/>
+			<variable name="AnnotationsPath" select="a:project/a:features/@annotationsPath"/>
+			<variable name="NewColumnEnabled" select="a:project/a:features/@newColumn"/>
+			<variable name="FloatingEnabled" select="a:project/a:features/@floating"/>
+			<variable name="MaxGridFields" select="a:project/a:features/@maxGridFields"/>
+			<variable name="MultiSelectEnabled" select="a:project/a:features/@multiSelect"/>
+			<variable name="ShowModalForms" select="a:project/a:features/@showModalForms"/>
+			<variable name="UseSaveAndNew" select="a:project/a:features/@useSaveAndNew"/>
+			<variable name="SearchOnStart" select="a:project/a:features/@advancedSearch"/>
+			<variable name="SearchOnStartInLookups" select="a:project/a:features/@advancedLookup"/>
+			<variable name="BatchEditEnabled" select="a:project/a:features/@batchEdit"/>
+			<variable name="RelationshipExplorer" select="a:project/a:features/@relationshipExplorer"/>
+			<!--<variable name="EnableTransactions" select="a:project/a:features/@enableTransactions"/>-->
+			<variable name="PageHeader" select="a:project/a:features/@pageHeader"/>
+			<variable name="Copyright" select="a:project/a:features/@copyright"/>
+			<variable name="DataViewLayout" select="a:project/a:layout/@name"/>
+			<variable name="BLL_DiscoveryDepth" select="a:project/a:bll/@discoveryDepth"/>
+			<variable name="BLL_FieldMap" select="a:project/a:bll/a:fieldMap"/>
+			<variable name="BLL_Keys" select="a:project/a:bll/a:keys"/>
+			<variable name="BLL_FieldsToIgnore" select="a:project/a:bll/a:fieldsToIgnore"/>
+			<variable name="BLL_FieldsToHide" select="a:project/a:bll/a:fieldsToHide"/>
+			<variable name="BLL_CustomLabels" select="a:project/a:bll/a:customLabels"/>
+			<variable name="DatabaseObjectFilter" select="a:project/a:databaseObjectFilter"/>
+			<variable name="BLL_LabelFormatExpression" select="a:project/a:bll/@labelFormatExpression"/>
+			<variable name="BLL_SharedBusinessRules" select="a:project/a:bll/@generateSharedBusinessRules"/>
+			<variable name="BLL_IncludeViews" select="a:project/a:bll/@includeViews"/>
+			<variable name="WebConfigUserData" select="a:project/a:webServer/a:webConfig"/>
+			<variable name="Globalization_SupportedCultures" select="a:project/a:globalization/@supportedCultures"/>
+			<variable name="Globalization_GoogleTranslateApiKey" select="a:project/a:globalization/@googleTranslateApiKey"/>
+			<variable name="EASE_UrlHashing" select="a:project/a:features/a:ease/@urlHashing"/>
+			<variable name="DetectUnderscoreSeparatedSchema" select="a:project/a:features/a:navigation/@detectUnderscoreSeparatedSchema"/>
+			<variable name="AllowBlobUploadOnInsert" select="a:project/a:features/a:blob/@allowUploadOnInsert"/>
+			<variable name="ActionColumn" select="/a:project/a:features/a:grid/@actionColumn"/>
+			<variable name="DatabaseObjectGenerate" select="a:project/a:databaseObjectFilter/@generate"/>
+			<variable name="UseExtenders" select="a:project/a:features/a:framework/@useExtenders"/>
+			<variable name="DataModelMode" select="a:project/@dataModel"/>
+			<variable name="PageImplementation" select="a:project/@pageImplementation"/>
+			<variable name="SecretKey" select="a:project/a:membership/@validationKey"/>
+			<variable name="RunWebServer" select="a:project/a:webServer/@run"/>
+			<variable name="WebServerPort" select="a:project/a:webServer/@port"/>
+			<variable name="Preview" select="a:project/a:webServer/@preview"/>
+			<variable name="Client" select="a:project/a:webServer/@client"/>
+			<choose>
+				<when test="$TargetFramework45Plus = 'true' ">
+					<variable name="ReportTemplate" select="'Template40'"/>
+				</when>
+				<when test="$TargetFramework='4.0'">
+					<variable name="ReportTemplate" select="'Template40'"/>
+				</when>
+				<otherwise>
+					<variable name="ReportTemplate" select="'Template'"/>
+				</otherwise>
+			</choose>
+			<variable name="CKEDITOR" select="'false'"/>
+			<load path="$ProjectPath\$AppFolder\ckeditor" depth="0">
+				<if test="file">
+					<variable name="CKEDITOR" select="'true'"/>
+				</if>
+			</load>
+		</load>
+		<!-- load meta data produced by the import process in the previous step and convert it into the standardized project data model -->
+		<load path="DataAquarium.Metadata.xml" skipIfCached="Controllers.xml">
+			<transform template="$LibraryRoot\_System\DataModel.xslt" output="DataModel.xml">
+				<param name="Keys" select="$BLL_Keys"/>
+				<param name="IncludeViews" select="$BLL_IncludeViews"/>
+				<param name="DatabaseObjectFilter" select="$DatabaseObjectFilter"/>
+			</transform>
+			<load path="$ProjectPath\DataModel.xml">
+				<transform template="$LibraryRoot\_System\DataModelReducer.xslt" output="DataModel.xml"/>
+			</load>
+		</load>
+		<load path="DataModel.xml" skipIfCached="Controllers.xml">
+			<transform template="$LibraryRoot\_System\BusinessObjects2.xslt" output="Controllers.xml">
+				<param name="AllowBlobSupport" select="'true'"/>
+				<param name="DiscoveryDepth" select="$BLL_DiscoveryDepth"/>
+				<param name="FieldMap" select="$BLL_FieldMap"/>
+				<param name="LabelFormatExpression" select="$BLL_LabelFormatExpression"/>
+				<param name="FieldsToIgnore" select="$BLL_FieldsToIgnore"/>
+				<param name="FieldsToHide" select="$BLL_FieldsToHide"/>
+				<param name="CustomLabels" select="$BLL_CustomLabels"/>
+				<param name="MaxNumberOfDataFieldsInGridView" select="$MaxGridFields"/>
+				<param name="DetectUnderscoreSeparatedSchema" select="$DetectUnderscoreSeparatedSchema"/>
+				<param name="AllowBlobUploadOnInsert" select="$AllowBlobUploadOnInsert"/>
+				<param name="DataModel" select="$DataModelMode"/>
+				<param name="DataModelPath" select="$DataModelPath"/>
+				<param name="SiteContentEnabled" select="$TargetFramework!='3.5' and $TargetFramework!='4.0'"/>
+				<param name="MembershipEnabled" select="$MembershipEnabled"/>
+				<param name="MembershipDisplaySignUp" select="$MembershipDisplaySignUp"/>
+				<param name="MembershipDisplayPasswordRecovery" select="$MembershipDisplayPasswordRecovery"/>
+				<param name="CustomSecurity" select="$CustomSecurity"/>
+				<param name="ActiveDirectory" select="$ActiveDirectory"/>
+			</transform>
+		</load>
+		<load path="Controllers.xml" skipIfCached="Controllers.xml">
+			<transform template="$LibraryRoot\Web Site Factory\MapBuilder.1.xslt" output="Map1.xml">
+				<param name="DatabaseObjectGenerate" select="$DatabaseObjectGenerate"/>
+			</transform>
+			<transform template="$LibraryRoot\Data Aquarium\DataAquarium.xslt" output="Controllers.xml" cache="true">
+				<param name="ReportsEnabled" select="$ReportsEnabled"/>
+				<param name="FactoryEnabled" select="'true'"/>
+				<param name="BatchEditEnabled" select="$BatchEditEnabled"/>
+				<param name="RelationshipExplorer" select="$RelationshipExplorer"/>
+				<!--<param name="EnableTransactions" select="$EnableTransactions"/>-->
+				<param name="UseSaveAndNew" select="$UseSaveAndNew"/>
+				<param name="SearchOnStartInLookups" select="$SearchOnStartInLookups"/>
+				<param name="TargetFramework" select="$TargetFramework"/>
+				<param name="ActionColumn" select="$ActionColumn"/>
+				<param name="PageImplementation" select="$PageImplementation"/>
+			</transform>
+		</load>
+		<load path="$ProjectPath\Map1.xml" skipIfCached="Application.xml">
+			<transform template="$LibraryRoot\Web Site Factory\MapBuilder.2.xslt" output="Map2.xml"/>
+		</load>
+		<load path="$ProjectPath\Map2.xml" skipIfCached="Application.xml">
+			<transform template="$LibraryRoot\Web Site Factory\MapBuilder.3.xslt" output="Map3.xml"/>
+		</load>
+		<load path="$ProjectPath\Map3.xml" skipIfCached="Application.xml">
+			<transform template="$LibraryRoot\Web Site Factory\MapBuilder.4.xslt" output="Map4.xml"/>
+		</load>
+		<load path="$ProjectPath\Controllers.Cache.xml" useLog="false" skipIfCached="Application.xml">
+			<transform template="$LibraryRoot\Web Site Factory\Application.xslt" output="Application.xml" cache="true">
+				<param name="ProjectPath" select="$ProjectPath"/>
+				<param name="MembershipEnabled" select="$MembershipEnabled"/>
+				<param name="CustomSecurity" select="$CustomSecurity"/>
+				<param name="ActiveDirectory" select="$ActiveDirectory"/>
+				<param name="DedicatedLogin" select="$DedicatedLogin"/>
+				<param name="Style" select="$DataViewLayout"/>
+				<param name="MultiSelectEnabled" select="$MultiSelectEnabled"/>
+				<param name="ShowModalForms" select="$ShowModalForms"/>
+				<param name="SearchOnStart" select="$SearchOnStart"/>
+				<param name="ScriptOnly" select="$ScriptOnly"/>
+				<param name="PageImplementation" select="$PageImplementation"/>
+				<param name="DataModel" select="$DataModelMode"/>
+				<param name="DataModelPath" select="$DataModelPath"/>
+			</transform>
+			<if test="contains($Compatibility, '20111118')">
+				<load path="$ProjectPath\Application.Cache.xml">
+					<transform template="$LibraryRoot\Web Site Factory\ApplicationReducer.xslt" output="Application.Cache.xml"/>
+				</load>
+			</if>
+		</load>
+		<load path="$ProjectPath\Controllers.xml" useLog="true">
+			<variable name="SITE_CONTENT_VARIABLES" select="*"/>
+			<message text="Finished processing Controllers.xml log."/>
+		</load>
+		<load path="$ProjectPath\Application.xml" useLog="true">
+			<message text="Finished processing Application.xml log."/>
+		</load>
+		<navigate url="..\Data Aquarium\DataAquarium.Controllers.htm"/>
+		<retract path="DataAquarium.Project.xml" test="$NextStep!='Generate'" steps="14"/>
+		<if test="$RunWebServer='true' and $IISExpress='true' and $PageImplementation='html'" silent="true">
+			<browse name="$ProjectName" path="$ProjectPath\$AppFolder" port="$WebServerPort"
+            framework="$TargetFramework" preview="$Preview" client="$Client" clear="true"/>
+		</if>
+		<!-- create a backup of the project source code -->
+		<!--<message text="backup the previous version of the project"/>
+    <load path="$ProjectPath">
+      <forEach select="//file[not(contains(@path, '\bin\') or contains(@path, '\obj\') or contains(@path, 'AjaxControlToolkit\') or starts-with(@path, '.') or starts-with(@path, 'packages\') or starts-with(@path, 'app\fonts') or starts-with(@path, 'app\images') or contains(@path, '\js\sys') or starts-with(@path, 'app\js\lib') or contains(@path, '\css\sys'))]">
+        <copy input="$ProjectPath\{@path}" output="$BackupPath\{@path}" silent="true"/>
+      </forEach>
+    </load>
+    <message text="end backup"/>-->
+		<load path="$ProjectPath\Application.xml" useLog="true">
+			<transform template="$LibraryRoot\Web Site Factory\Web.Sitemap.xslt" output="$AppFolder\Web.Sitemap">
+				<param name="PageImplementation" select="$PageImplementation"/>
+			</transform>
+		</load>
+		<load path="$LibraryRoot\_Config\CodeOnTime.CodeDom.xml">
+			<variable name="CodedomProviderName" select="/config:configuration/config:providers/@default"/>
+			<variable name="ProjectExtension" select="concat(substring-after(/config:configuration/config:providers/config:provider[@name=/config:configuration/config:providers/@default]/@extension, '.'), 'proj')"/>
+		</load>
+		<load path="DataAquarium.Project.xml">
+			<variable name="BLL_Generate" select="a:project/a:bll/@generate"/>
+			<variable name="BLL_SelectMethod" select="a:project/a:bll/@selectMethod"/>
+			<variable name="BLL_SelectSingleMethod" select="a:project/a:bll/@selectSingleMethod"/>
+			<variable name="BLL_InsertMethod" select="a:project/a:bll/@insertMethod"/>
+			<variable name="BLL_UpdateMethod" select="a:project/a:bll/@updateMethod"/>
+			<variable name="BLL_DeleteMethod" select="a:project/a:bll/@deleteMethod"/>
+			<variable name="Theme" select="a:project/a:theme/@name"/>
+			<variable name="ThemeInput" select="'$LibraryRoot\Data Aquarium\_App_Themes\$Theme'"/>
+			<variable name="ThemeOutput" select="'$ProjectPath\$Namespace\Theme'"/>
+			<variable name="SourceControl" select="a:project/@sourceControl"/>
+			<variable name="WebServerPort" select="a:project/a:webServer/@port"/>
+			<variable name="UI" select="a:project/@userInterface"/>
+			<if test="$ReportsEnabled='true'">
+				<copy input="$LibraryRoot\Data Aquarium\Reports\$ReportTemplate.xslt" output="$Namespace\reports\Template.xslt"/>
+			</if>
+			<!-- delete any previous themes -->
+			<load path="$LibraryRoot\Data Aquarium\_App_Themes">
+				<forEach select="folder" silent="true">
+					<variable name="ThemeFolder" select="@path" silent="true"/>
+					<delete path="$Namespace\Theme\{@name}.css" silent="true"/>
+					<load path="$ProjectPath\$AppFolder\App_Themes\$ThemeFolder" silent="true">
+						<forEach select="//file" silent="true">
+							<delete path="$ProjectPath\$AppFolder\App_Themes\$ThemeFolder\{@path}" silent="true"/>
+						</forEach>
+					</load>
+					<delete path="$ProjectPath\$AppFolder\App_Themes\{@path}" silent="true"/>
+					<delete path="$ProjectPath\$AppFolder\App_Themes\$Namespace\_Theme_{@name}.css" silent="true"/>
+				</forEach>
+			</load>
+			<!-- copy shared theme and target theme in the App_Themes folder -->
+			<if test="$UI!='TouchUI'">
+				<load path="$LibraryRoot\Data Aquarium\_App_Themes\_Shared">
+					<forEach select="//file[@name!='Membership.css']">
+						<copy input="$LibraryRoot\Data Aquarium\_App_Themes\_Shared\{@path}" output="$Namespace\Theme\{@path}" silent="true"/>
+						<copy input="$LibraryRoot\Data Aquarium\_App_Themes\_Shared\{@path}" output="$AppFolder\App_Themes\_Shared\{@path}" silent="true"/>
+					</forEach>
+				</load>
+				<load path="$ThemeInput">
+					<forEach select="//file[not(contains(@name, '.css'))]">
+						<copy input="$ThemeInput\{@path}" output="$Namespace\Theme\{@path}" silent="true"/>
+						<copy input="$ThemeInput\{@path}" output="$AppFolder\App_Themes\$Theme\{@path}" silent="true"/>
+					</forEach>
+				</load>
+				<!-- alter default theme -->
+				<copy input="$ProjectPath\$Namespace\Theme\Core.css" output="$Namespace\Theme\$Theme.css"/>
+				<copy input="$ProjectPath\$Namespace\Theme\Core.css" output="$AppFolder\App_Themes\_Shared\Core.css"/>
+				<if test="$MembershipEnabled='true' or $CustomSecurity='true' or $WindowsAuthentication='true' or $ActiveDirectory='true'">
+					<copy input="$LibraryRoot\Data Aquarium\_App_Themes\_Shared\Membership.css" output="$Namespace\Theme\$Theme.css" mode="append"/>
+					<copy input="$LibraryRoot\Data Aquarium\_App_Themes\_Shared\Membership.css" output="$AppFolder\App_Themes\_Shared\Membership.css"/>
+				</if>
+				<copy input="$ThemeInput\$Theme.css" output="$Namespace\Theme\$Theme.css" mode="append">
+					<regex pattern="@import .+?;\s+" replacement=""/>
+					<regex pattern="url\s*\((.+?)\)" replacement="url(&lt;%= WebResource(&quot;DAF.Theme.$1&quot;) %&gt;)"/>
+				</copy>
+				<applyTheme theme="$Theme" output="$Namespace\Theme\$Theme.css" usage="ClassLibrary"/>
+				<delete path="$ProjectPath\$Namespace\Theme\Core.css"/>
+			</if>
+			<!-- generate AssemblyInfo with web resources -->
+			<load path="$ProjectPath\$Namespace\Theme">
+				<transform template="AssemblyInfo.codedom.xslt" output="$Namespace\AssemblyInfo.codedom.xml" async="true" dependencies="DataAquarium.Project.xml">
+					<param name="Namespace" select="$Namespace"/>
+					<param name="ProjectPath" select="$ProjectPath"/>
+					<param name="MembershipEnabled" select="$MembershipEnabled"/>
+					<param name="CustomSecurity" select="$CustomSecurity"/>
+					<param name="ActiveDirectory" select="$ActiveDirectory"/>
+					<param name="WindowsAuthentication" select="$WindowsAuthentication"/>
+					<param name="Theme" select="$Theme"/>
+					<param name="TargetFramework" select="$TargetFramework"/>
+					<param name="Globalization_SupportedCultures" select="$Globalization_SupportedCultures"/>
+					<param name="ScriptOnly" select="$ScriptOnly"/>
+					<param name="Mobile" select="$Mobile"/>
+				</transform>
+			</load>
+			<!-- Generate "Data" folder -->
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\ActionHandlerBase.codedom.xslt" output="$Namespace\Data\ActionHandlerBase.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\BusinessRules.codedom.xslt" output="$Namespace\Data\BusinessRules.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true">
+				<param name="UrlHashing" select="$EASE_UrlHashing"/>
+			</transform>
+			<transform template="$LibraryRoot\Premium\_App_Code\Data\ControllerNodeSet.codedom.xslt" output="$Namespace\Data\ControllerNodeSet.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Web\AquariumExtenderBase.codedom.xslt" output="$Namespace\Web\AquariumExtenderBase.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true">
+				<param name="IsClassLibrary" select="'true'"/>
+				<param name="Theme" select="$Theme"/>
+				<param name="AppVersion" select="$AppVersion"/>
+				<param name="ScriptOnly" select="$ScriptOnly"/>
+				<param name="Mobile" select="$Mobile"/>
+				<param name="jQueryMobileVersion" select="$jQueryMobileVersion"/>
+				<param name="CodedomProviderName" select="$CodedomProviderName"/>
+			</transform>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Web\PageBase.codedom.xslt" output="$Namespace\Web\PageBase.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true">
+				<param name="UrlHashing" select="$EASE_UrlHashing"/>
+			</transform>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\Controller.codedom.xslt" output="$Namespace\Data\Controller.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\Controller.Core.codedom.xslt" output="$Namespace\Data\Controller.Core.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml"  async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\Controller.Export.codedom.xslt" output="$Namespace\Data\Controller.Export.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml"  async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\Controller.Filter.codedom.xslt" output="$Namespace\Data\Controller.Filter.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml"  async="true"/>
+			<transform template="$LibraryRoot\Unlimited\Security\EventTracker.codedom.xslt" output="$Namespace\Security\EventTracker.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml"  async="true"/>
+			<if test="$ActiveDirectory='true'">
+				<transform template="$LibraryRoot\Unlimited\Security\ADRoleProvider.codedom.xslt" output="$Namespace\Security\RoleProvider.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml"  async="true"/>
+			</if>
+			<if test="$CustomSecurity='true'">
+				<transform template="$LibraryRoot\Unlimited\Security\RoleProvider.codedom.xslt" output="$Namespace\Security\RoleProvider.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml"  async="true"/>
+				<transform template="$LibraryRoot\Unlimited\Security\MembershipProvider.codedom.xslt" output="$Namespace\Security\MembershipProvider.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml"  async="true"/>
+			</if>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\DataField.codedom.xslt" output="$Namespace\Data\DataField.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\Action.codedom.xslt" output="$Namespace\Data\Action.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\ActionGroup.codedom.xslt" output="$Namespace\Data\ActionGroup.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\FieldValue.codedom.xslt" output="$Namespace\Data\FieldValue.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\View.codedom.xslt" output="$Namespace\Data\View.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\Category.codedom.xslt" output="$Namespace\Data\Category.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\ViewPage.codedom.xslt" output="$Namespace\Data\ViewPage.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\AnnotationPlugIn.codedom.xslt" output="$Namespace\Data\AnnotationPlugIn.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml"  async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\ActionArgs.codedom.xslt" output="$Namespace\Data\ActionArgs.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\ActionResult.codedom.xslt" output="$Namespace\Data\ActionResult.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\PageRequest.codedom.xslt" output="$Namespace\Data\PageRequest.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\DistinctValueRequest.codedom.xslt" output="$Namespace\Data\DistinctValueRequest.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\Common.codedom.xslt" output="$Namespace\Data\Common.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\ControllerConfiguration.codedom.xslt" output="$Namespace\Data\ControllerConfiguration.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\DynamicExpression.codedom.xslt" output="$Namespace\Data\DynamicExpression.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\Transactions.codedom.xslt" output="$Namespace\Data\Transactions.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml"  async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\FilterFunctions.codedom.xslt" output="$Namespace\Data\FilterFunctions.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml"  async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\ImportProcessor.codedom.xslt" output="$Namespace\Data\ImportProcessor.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml"  async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Web\ControlHost.codedom.xslt" output="$Namespace\Web\ControlHost.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+				<param name="ScriptOnly" select="$ScriptOnly"/>
+			</transform>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\Localizer.codedom.xslt" output="$Namespace\Data\Localizer.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml"  async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\CultureManager.codedom.xslt" output="$Namespace\Data\CultureManager.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+				<param name="SupportedCultures" select="$Globalization_SupportedCultures"/>
+			</transform>
+			<if test="$UI != 'TouchUI'">
+				<choose>
+					<when test="$TargetFramework!='3.5'">
+						<transform template="$LibraryRoot\Data Aquarium\_App_Code\Web\ChartHost.codedom.xslt" output="$Namespace\Web\ChartHost.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true"/>
+					</when>
+					<otherwise>
+						<delete path="$Namespace\Web\ChartHost.$CodeExtension"/>
+					</otherwise>
+				</choose>
+			</if>
+			<transform template="$LibraryRoot\_Shared\DataAccess.codedom.xslt" output="$Namespace\Data\DataAccess.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true">
+				<param name="Namespace" select="$Namespace"/>
+			</transform>
+			<!-- Generate "Web" folder -->
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Web\DataViewExtender.codedom.xslt" output="$Namespace\Web\DataViewExtender.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true">
+				<param name="IsClassLibrary" select="'true'"/>
+			</transform>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Web\DataViewLookup.codedom.xslt" output="$Namespace\Web\DataViewLookup.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Web\DataViewTextBox.codedom.xslt" output="$Namespace\Web\DataViewTextBox.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true">
+				<param name="IsClassLibrary" select="'true'"/>
+				<param name="ScriptOnly" select="$ScriptOnly"/>
+			</transform>
+			<transform template="$LibraryRoot\Web Site Factory\_App_Code\Web\MenuExtender.codedom.xslt" output="$Namespace\Web\MenuExtender.codedom.xml" when="TemplateChanged"  usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+				<param name="Namespace" select="$Namespace"/>
+				<param name="IsClassLibrary" select="'true'"/>
+				<param name="Theme" select="$Theme"/>
+				<param name="ScriptOnly" select="$ScriptOnly"/>
+				<param name="Mobile" select="$Mobile"/>
+			</transform>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Web\ControllerDataSource.codedom.xslt" output="$Namespace\Web\ControllerDataSource.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Web\ControllerDataSourceDesign.codedom.xslt" output="$Namespace\Web\ControllerDataSourceDesign.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<!-- generate "Services" folder -->
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Services\DataControllerService.codedom.xslt" output="$Namespace\Services\DataControllerService.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<!--<delete path="$Namespace\Services\ApplicationServices.*" silent="true"/>-->
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Services\Rest.codedom.xslt" output="$Namespace\Services\Rest.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Services\Rest.Core.codedom.xslt" output="$Namespace\Services\Rest.Core.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Services\Rest.OAuth.codedom.xslt" output="$Namespace\Services\Rest.OAuth.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Services\Rest.Engine.codedom.xslt" output="$Namespace\Services\Rest.Engine.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Services\ApplicationServices.codedom.xslt" output="$Namespace\Services\ApplicationServices.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true">
+				<param name="Mobile" select="$Mobile"/>
+				<param name="SiteContentTableName" select="$SiteContentTableName"/>
+				<param name="SiteContentSiteContentID" select="$SiteContentSiteContentID"/>
+				<param name="SiteContentFileName" select="$SiteContentFileName"/>
+				<param name="SiteContentContentType" select="$SiteContentContentType"/>
+				<param name="SiteContentLength" select="$SiteContentLength"/>
+				<param name="SiteContentRoles" select="$SiteContentRoles"/>
+				<param name="SiteContentUsers" select="$SiteContentUsers"/>
+				<param name="SiteContentCacheProfile" select="$SiteContentCacheProfile"/>
+				<param name="SiteContentRoleExceptions" select="$SiteContentRoleExceptions"/>
+				<param name="SiteContentUserExceptions" select="$SiteContentUserExceptions"/>
+				<param name="SiteContentSchedule" select="$SiteContentSchedule"/>
+				<param name="SiteContentScheduleExceptions" select="$SiteContentScheduleExceptions"/>
+				<param name="SiteContentCreatedDate" select="$SiteContentCreatedDate"/>
+				<param name="SiteContentModifiedDate" select="$SiteContentModifiedDate"/>
+				<param name="TargetFramework45Plus" select="$TargetFramework45Plus"/>
+			</transform>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Services\ApplicationServices.Auth.codedom.xslt" output="$Namespace\Services\ApplicationServices.Auth.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true">
+				<param name="Mobile" select="$Mobile"/>
+				<param name="SiteContentTableName" select="$SiteContentTableName"/>
+				<param name="SiteContentSiteContentID" select="$SiteContentSiteContentID"/>
+				<param name="SiteContentFileName" select="$SiteContentFileName"/>
+				<param name="SiteContentContentType" select="$SiteContentContentType"/>
+				<param name="SiteContentLength" select="$SiteContentLength"/>
+				<param name="SiteContentRoles" select="$SiteContentRoles"/>
+				<param name="SiteContentUsers" select="$SiteContentUsers"/>
+				<param name="SiteContentCacheProfile" select="$SiteContentCacheProfile"/>
+				<param name="SiteContentRoleExceptions" select="$SiteContentRoleExceptions"/>
+				<param name="SiteContentUserExceptions" select="$SiteContentUserExceptions"/>
+				<param name="SiteContentSchedule" select="$SiteContentSchedule"/>
+				<param name="SiteContentScheduleExceptions" select="$SiteContentScheduleExceptions"/>
+				<param name="SiteContentCreatedDate" select="$SiteContentCreatedDate"/>
+				<param name="SiteContentModifiedDate" select="$SiteContentModifiedDate"/>
+				<param name="TargetFramework45Plus" select="$TargetFramework45Plus"/>
+			</transform>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Services\ApplicationServices.generated.codedom.xslt" output="$Namespace\Services\ApplicationServices.generated.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml,DataAquarium.Version.xml" async="true">
+				<param name="SiteContentTableName" select="$SiteContentTableName"/>
+				<param name="AppVersion" select="$AppVersion"/>
+				<param name="jQueryMobileVersion" select="$jQueryMobileVersion"/>
+			</transform>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Services\ApplicationServices.Version.codedom.xslt" output="$Namespace\Services\ApplicationServices.Version.codedom.xml" usage="ClassLibrary" async="true"/>
+			<if test="$TargetFramework!='3.5'">
+				<!--<delete path="$Namespace\Services\EnterpriseApplicationServices.*" silent="true"/>-->
+				<transform template="$LibraryRoot\Unlimited\Services\EnterpriseApplicationServices.codedom.xslt" output="$Namespace\Services\EnterpriseApplicationServices.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true"/>
+				<transform template="$LibraryRoot\Unlimited\Services\RepresentationalStateTransfer.codedom.xslt" output="$Namespace\Services\RepresentationalStateTransfer.codedom.xml" when="TemplateChanged" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true">
+					<param name="AppVersion" select="$AppVersion"/>
+					<param name="IsClassLibrary" select="true"/>
+					<param name="SiteContentTableName" select="$SiteContentTableName"/>
+				</transform>
+			</if>
+			<wait message="Waiting for transformations to complete..." silent="true"/>
+			<if test="$HelpEnabled='true'">
+				<choose>
+					<when test="$PageImplementation='html'">
+						<load path="$ProjectPath\$AppFolder\Help" silent="true">
+							<forEach select="//file[contains(@name,'.master') or contains(@name, '.aspx')]" silent="true">
+								<delete path="$AppFolder\Help\{@path}" silent="true"/>
+							</forEach>
+						</load>
+					</when>
+					<otherwise>
+						<load path="$LibraryRoot\Data Aquarium\Help">
+							<forEach select="//file">
+								<copy input="$LibraryRoot\Data Aquarium\Help\{@path}" output="$AppFolder\Help\{@path}"/>
+							</forEach>
+						</load>
+					</otherwise>
+				</choose>
+			</if>
+			<choose>
+				<when test="$SourceControl='git'">
+					<copy input="$LibraryRoot\_Content\SourceControl\.gitignore" output=".gitignore" mode="create"/>
+				</when>
+				<when test="$SourceControl='tfs'">
+					<copy input="$LibraryRoot\_Content\SourceControl\.tfignore" output=".tfignore" mode="create"/>
+				</when>
+			</choose>
+			<!-- generate files for $AppFolder application-->
+			<load path="$ProjectPath\Application.xml" useLog="true">
+				<copy output="Application.Web.Config.xml" />
+			</load>
+			<transform template="$LibraryRoot\Data Aquarium\web.config.xslt" output="web.config.xml" >
+				<param name="Namespace" select="$Namespace"/>
+				<param name="IsClassLibrary" select="'true'"/>
+				<param name="MembershipEnabled" select="$MembershipEnabled"/>
+				<param name="ReportsEnabled" select="$ReportsEnabled"/>
+				<param name="ApplicationPath" select="concat($ProjectPath, '\Application.Web.Config.xml')"/>
+				<param name="AnnotationsPath" select="$AnnotationsPath"/>
+				<param name="FrameworkIsAssembly" select="'true'"/>
+				<!--<param name="MySqlClient" select="$MySqlClient"/>
+        <param name="MySqlMembershipProvider" select="$MySqlMembershipProvider"/>-->
+				<param name="ProviderFactories" select="$ProviderFactories"/>
+				<param name="ScriptOnly" select="$ScriptOnly"/>
+				<param name="ReportsVersion" select="$ReportsVersion"/>
+				<param name="TargetFramework45Plus" select="$TargetFramework45Plus"/>
+			</transform>
+			<transform template="$LibraryRoot\Data Aquarium\web.config.Customize.xslt" output="$AppFolder\web.config" async="true">
+				<param name="Path" select="concat($ProjectPath, '\web.config.xml')"/>
+				<param name="UserData" select="$WebConfigUserData"/>
+				<regex pattern=" encoding=&quot;utf-8&quot;" replacement=""/>
+				<regex pattern="&quot;\s+/>" replacement="&quot;/>"/>
+				<regex pattern="&lt;(\w+)\s+/>" replacement="&lt;$1/>"/>
+			</transform>
+			<if test="$TargetFramework != '3.5'">
+				<copy input="$LibraryRoot\Data Aquarium\Web.Debug.config" output="$AppFolder\Web.Debug.config" mode="create"/>
+				<copy input="$LibraryRoot\Data Aquarium\Web.Release.config" output="$AppFolder\Web.Release.config" mode="create"/>
+			</if>
+			<if test="$PageImplementation!='html'">
+				<transform template="$LibraryRoot\Web Site Factory\Main.master.1.xslt" output="$AppFolder\Main.master.1">
+					<param name="Namespace" select="$Namespace"/>
+				</transform>
+				<transform template="$LibraryRoot\Web Site Factory\Main.master.2.xslt" output="$AppFolder\Main.master.2" async="true">
+					<param name="Namespace" select="$Namespace"/>
+					<param name="MembershipEnabled" select="$MembershipEnabled"/>
+					<param name="PageHeader" select="$PageHeader"/>
+					<param name="Copyright" select="$Copyright"/>
+					<param name="ScriptOnly" select="$ScriptOnly"/>
+				</transform>
+				<transform template="$LibraryRoot\Web Site Factory\Main.master.codedom.xslt" output="$AppFolder\Main.master.codedom.xml" async="true" >
+					<param name="MembershipEnabled" select="$MembershipEnabled"/>
+					<param name="AppVersion" select="$AppVersion"/>
+					<param name="ScriptOnly" select="$ScriptOnly"/>
+					<param name="IsClassLibrary" select="'true'"/>
+					<param name="CKEDITOR" select="$CKEDITOR"/>
+					<param name="Mobile" select="$Mobile"/>
+					<param name="jQueryMobileVersion" select="$jQueryMobileVersion"/>
+					<param name="CodedomProviderName" select="$CodedomProviderName"/>
+				</transform>
+				<delete path="$AppFolder\Site.html" silent="true"/>
+				<delete path="$AppFolder\Site.aspx" silent="true"/>
+			</if>
+			<if test="a:project/a:membership[(@enabled='true' or @customSecurity='true' or @activeDirectory='true') and @dedicatedLogin='true']">
+				<choose>
+					<when test="$PageImplementation='html'">
+						<copy input="$LibraryRoot\Web Site Factory\Login.html" output="$AppFolder\Login.html" mode="create" silent="true"/>
+						<delete path="$AppFolder\Login.aspx*.*" silent="true"/>
+					</when>
+					<otherwise>
+						<transform template="$LibraryRoot\Web Site Factory\Login.aspx.1.xslt" output="$AppFolder\Login.aspx.1">
+							<param name="Namespace" select="$Namespace"/>
+						</transform>
+						<transform template="$LibraryRoot\Web Site Factory\Login.aspx.2.xslt" output="$AppFolder\Login.aspx.2" >
+							<param name="Namespace" select="$Namespace"/>
+						</transform>
+						<transform template="$LibraryRoot\Web Site Factory\Login.aspx.codedom.xslt" output="$AppFolder\Login.aspx.codedom.xml" >
+							<param name="Namespace" select="$Namespace"/>
+						</transform>
+						<delete path="$AppFolder\Login.html" silent="true"/>
+					</otherwise>
+				</choose>
+			</if>
+			<if test="$BLL_SharedBusinessRules='true'">
+				<transform template="$LibraryRoot\Data Aquarium\_App_Code\Rules\SharedBusinessRules.codedom.xslt" output="$Namespace\custom\Rules\SharedBusinessRules.codedom.xml" legacyOutput="$Namespace\Rules\SharedBusinessRules.codedom.xml" when="DoesNotExist" usage="ClassLibrary">
+					<param name="Namespace" select="$Namespace"/>
+				</transform>
+			</if>
+			<if test="$PageImplementation='html'">
+				<transform template="$LibraryRoot\Web Site Factory\Site.aspx.xslt" output="$AppFolder\Site.aspx" async="true">
+					<param name="Namespace" select="$Namespace"/>
+					<param name="CodedomProviderName" select="$CodedomProviderName"/>
+				</transform>
+				<transform template="$LibraryRoot\Web Site Factory\Site.aspx.codedom.xslt" output="$AppFolder\Site.aspx.codedom.xml" async="true">
+					<param name="Namespace" select="$Namespace"/>
+				</transform>
+				<transform template="$LibraryRoot\Web Site Factory\Site.html.1.xslt" output="$AppFolder\Site.html.1">
+					<param name="Namespace" select="$Namespace"/>
+				</transform>
+				<transform template="$LibraryRoot\Web Site Factory\Site.html.2.xslt" output="$AppFolder\Site.html.2" async="true">
+					<param name="Namespace" select="$Namespace"/>
+					<param name="MembershipEnabled" select="$MembershipEnabled"/>
+					<param name="PageHeader" select="$PageHeader"/>
+					<param name="Copyright" select="$Copyright"/>
+					<param name="ScriptOnly" select="$ScriptOnly"/>
+					<regex pattern="&lt;META.+?>\s*" replacement=""/>
+				</transform>
+				<transform template="$LibraryRoot\Web Site Factory\Site.html.codedom.xslt" output="$Namespace\Handlers\Site.codedom.xml" usage="ClassLibrary"  dependencies="DataAquarium.Project.xml" async="true">
+					<param name="Namespace" select="$Namespace"/>
+					<param name="MembershipEnabled" select="$MembershipEnabled"/>
+					<param name="PageHeader" select="$PageHeader"/>
+					<param name="Copyright" select="$Copyright"/>
+					<param name="IsClassLibrary" select="'true'"/>
+				</transform>
+				<delete path="Main.master*.*" silent="true"/>
+				<delete path="$AppFolder\Default.aspx*.*" silent="true"/>
+			</if>
+			<copy group="Addons" output="$AppFolder\bin" silent="true"/>
+		</load>
+		<copy input="$LibraryRoot\_Schemas\DataAquarium.xsd" output="$Namespace\controllers\DataAquarium.xsd"/>
+		<copy input="$LibraryRoot\_Schemas\Application.xsd" output="$Namespace\controllers\Application.xsd"/>
+		<!--
+    <copy input="Web.sitemap" output="Web.sitemap"/>
+		-->
+		<load path="Controllers.xml" useLog="true">
+			<!-- Crete $AppFolder web application project -->
+			<choose>
+				<when test="$PageImplementation='html'">
+					<delete path="$AppFolder\DAF\Service.asmx*.*" silent="true"/>
+					<delete path="$AppFolder\DAF"/>
+				</when>
+				<otherwise>
+					<transform template="Service.asmx.xslt" output="$AppFolder\DAF\Service.asmx">
+						<param name="Namespace" select="$Namespace"/>
+					</transform>
+				</otherwise>
+			</choose>
+			<if test="$PageImplementation!='html'">
+				<transform template="$LibraryRoot\Web Site Factory\Default.aspx.1.xslt" output="$AppFolder\Default.aspx.1">
+					<param name="Namespace" select="$Namespace"/>
+				</transform>
+				<transform template="$LibraryRoot\Web Site Factory\Default.aspx.2.xslt" output="$AppFolder\Default.aspx.2">
+					<param name="Namespace" select="$Namespace"/>
+				</transform>
+				<transform template="$LibraryRoot\Web Site Factory\Default.aspx.codedom.xslt" output="$AppFolder\Default.aspx.codedom.xml" async="true">
+					<param name="Namespace" select="$Namespace"/>
+				</transform>
+				<delete path="$AppFolder\Site.html"/>
+			</if>
+			<!--<transform template="$LibraryRoot\Data Aquarium\Details.aspx.1.xslt" output="$AppFolder\Details.aspx.1">
+        <param name="Namespace" select="$Namespace"/>
+        <param name="IsApplication" select="'true'"/>
+      </transform>
+      <transform template="$LibraryRoot\Data Aquarium\Details.aspx.2.xslt" output="$AppFolder\Details.aspx.2" >
+        <param name="Namespace" select="$Namespace"/>
+        <param name="IsApplication" select="'true'"/>
+      </transform>
+      <transform template="$LibraryRoot\Data Aquarium\Details.aspx.codedom.xslt" output="$AppFolder\Details.aspx.codedom.xml">
+        <param name="Namespace" select="$Namespace"/>
+        <param name="IsApplication" select="'true'"/>
+      </transform>-->
+			<transform template="$LibraryRoot\Data Aquarium\_App_Code\Rules\MyProfileBusinessRules.codedom.xslt" output="$Namespace\Rules\MyProfileBusinessRules.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+				<param name="Namespace" select="$Namespace"/>
+				<param name="ProviderName" select="$MembershipProviderName"/>
+				<param name="SharedBusinessRules" select="$BLL_SharedBusinessRules"/>
+				<param name="SiteContentTableName" select="$SiteContentTableName"/>
+				<param name="MembershipDisplayRememberMe" select="$MembershipDisplayRememberMe"/>
+				<param name="MembershipRememberMeSet" select="$MembershipRememberMeSet"/>
+			</transform>
+			<forEach select="/c:dataControllerCollection/c:dataController[not(@generate='false')]">
+				<transform template="$LibraryRoot\Data Aquarium\DataAquarium.Controller.xslt" output="$Namespace\controllers\{@name}.xml" async="true">
+					<param name="AnnotationsEnabled" select="$AnnotationsEnabled"/>
+					<param name="NewColumnEnabled" select="$NewColumnEnabled"/>
+					<param name="FloatingEnabled" select="$FloatingEnabled"/>
+					<param name="Namespace" select="$Namespace"/>
+				</transform>
+				<if test="string-length(@handler)>0">
+					<choose>
+						<when test="@name='MyProfile' and @handler='MyProfileBusinessRules'">
+							<transform template="$LibraryRoot\Data Aquarium\_App_Code\Rules\MyProfile.generated.codedom.xslt" output="$Namespace\Rules\MyProfile.generated.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+								<param name="Namespace" select="$Namespace"/>
+								<param name="ProviderName" select="$MembershipProviderName"/>
+								<param name="SharedBusinessRules" select="$BLL_SharedBusinessRules"/>
+								<param name="SiteContentTableName" select="$SiteContentTableName"/>
+								<param name="MembershipDisplayRememberMe" select="$MembershipDisplayRememberMe"/>
+								<param name="MembershipRememberMeSet" select="$MembershipRememberMeSet"/>
+							</transform>
+						</when>
+						<otherwise>
+							<transform template="$LibraryRoot\Data Aquarium\_App_Code\Rules\BusinessRules.codedom.xslt" output="$Namespace\custom\Rules\{@name}\{@handler}.codedom.xml" legacyOutput="$Namespace\Rules\{@handler}.codedom.xml" when="DoesNotExist" usage="ClassLibrary" async="true">
+								<param name="Namespace" select="$Namespace"/>
+								<param name="SharedBusinessRules" select="$BLL_SharedBusinessRules"/>
+							</transform>
+						</otherwise>
+					</choose>
+				</if>
+				<if test="c:fields/c:field[string-length(c:codeFormula)>0 or string-length(c:codeDefault)>0 or string-length(c:codeValue)>0] or .//c:dataField[string-length(c:codeFilter)>0] or c:views/c:view[@virtualViewId!='']">
+					<transform template="$LibraryRoot\Data Aquarium\_App_Code\Rules\BusinessRules.Generated.codedom.xslt" output="$Namespace\Rules\{@name}.Generated.codedom.xml" usage="ClassLibrary" async="true">
+						<param name="Namespace" select="$Namespace"/>
+						<param name="SharedBusinessRules" select="$BLL_SharedBusinessRules"/>
+					</transform>
+				</if>
+				<forEach select="c:businessRules/c:rule[@type='Code']">
+					<transform template="$LibraryRoot\Data Aquarium\_App_Code\Rules\BusinessRules.Rule.codedom.xslt" output="$Namespace\custom\Rules\{ancestor::c:dataController/@name}\{ancestor::c:dataController/@name}.{@id}.codedom.xml" legacyOutput="$Namespace\Rules\{ancestor::c:dataController/@name}.{@id}.codedom.xml" usage="ClassLibrary" when="DoesNotExist" async="true">
+						<param name="Namespace" select="$Namespace"/>
+						<param name="SharedBusinessRules" select="$BLL_SharedBusinessRules"/>
+					</transform>
+				</forEach>
+				<if test="@generateDataAccessObjects='true' or count(c:businessRules/c:rule[@type='Code']) > 0">
+					<transform template="$LibraryRoot\Data Aquarium\_App_Code\Data\Objects\Object.codedom.xslt" output="$Namespace\Models\{@name}.codedom.xml" usage="ClassLibrary" async="true" dependencies="DataAquarium.Project.xml,Controllers.Cache.xml">
+						<param name="Namespace" select="$Namespace"/>
+						<param name="SelectMethod" select="$BLL_SelectMethod"/>
+						<param name="SelectSingleMethod" select="$BLL_SelectSingleMethod"/>
+						<param name="InsertMethod" select="$BLL_InsertMethod"/>
+						<param name="UpdateMethod" select="$BLL_UpdateMethod"/>
+						<param name="DeleteMethod" select="$BLL_DeleteMethod"/>
+						<param name="GenerateDataAccessObjects" select="@generateDataAccessObjects='true'"/>
+					</transform>
+				</if>
+				<forEach select="c:views/c:view[@reportTemplate='true']" silent="true">
+					<transform template="$LibraryRoot\Data Aquarium\Reports\$ReportTemplate.xslt" output="$Namespace\reports\{ancestor::c:dataController/@name}_{@id}.rdlc" select="ancestor::c:dataController" async="true" when="DoesNotExist" otherwise="Reporting_SyncFields">
+						<param name="ControllerName" select="ancestor::c:dataController/@name"/>
+						<param name="ViewName" select="@id"/>
+					</transform>
+				</forEach>
+				<if test="$UI != 'TouchUI'">
+					<load path="$ProjectPath\$AppFolder\controls">
+						<variable name="AvailableChartControls" select="';'"/>
+						<forEach select="//file[not(contains(@name,'ascx.')) and starts-with(@name, 'Chart_')]">
+							<variable name="AvailableChartControls" select="concat('$AvailableChartControls', @name, ';')"/>
+						</forEach>
+					</load>
+					<forEach select="c:views/c:view[@type='Chart' and c:dataFields/c:dataField[@chart!='']]">
+						<variable name="ChartName" select="concat('Chart_', ancestor::c:dataController/@name, '_', @id)"/>
+						<variable name="ChartType" select="c:dataFields/c:dataField[@chart!='' and @chart!='XValue']/@chart"/>
+						<if test="$ChartType!='Custom' or not(contains($AvailableChartControls, concat(';', $ChartName, '.ascx')))">
+							<transform template="$LibraryRoot\Premium\Controls\Chart.ascx.1.xslt" output="$AppFolder\controls\$ChartName.ascx.1">
+								<param name="Namespace" select="$Namespace"/>
+								<param name="Name" select="$ChartName"/>
+							</transform>
+							<transform template="$LibraryRoot\Premium\Controls\Chart.ascx.2.xslt" output="$AppFolder\controls\$ChartName.ascx.2" >
+								<param name="Namespace" select="$Namespace"/>
+								<param name="Name" select="$ChartName"/>
+							</transform>
+
+							<transform template="$LibraryRoot\Premium\Controls\Chart.ascx.codedom.xslt" output="$AppFolder\controls\$ChartName.ascx.codedom.xml" usage="ClassLibrary">
+								<param name="Namespace" select="$Namespace"/>
+								<param name="Name" select="$ChartName"/>
+							</transform>
+						</if>
+					</forEach>
+				</if>
+			</forEach>
+			<if test="$ScriptOnly='true'">
+				<choose>
+					<when test="$Mobile='true'">
+						<variable name="ExistingThemes" select="''" silent="true"/>
+						<variable name="ExistingAccents" select="''" silent="true"/>
+						<load path="$ProjectPath\$AppFolder\css">
+							<forEach select="//file" silent="true">
+								<if test="contains(@name, '.json')" silent="true">
+									<if test="starts-with(@name, 'touch-theme.')" silent="true">
+										<variable name="ExistingThemes" select="concat('$ExistingThemes', ',', @name)" silent="true"/>
+									</if>
+									<if test="starts-with(@name, 'touch-accent.')" silent="true">
+										<variable name="ExistingAccents" select="concat('$ExistingAccents', ',', @name)" silent="true"/>
+									</if>
+								</if>
+								<if test="starts-with(@name, 'app-') or starts-with(@name, 'jquery.mobile') or starts-with(@name, 'bootstrap-')" silent="true">
+									<delete path="$AppFolder\css\{@path}"/>
+								</if>
+							</forEach>
+						</load>
+						<load path="$LibraryRoot\_Client\Mobile">
+							<forEach select="//file[($ExistingThemes='' and $ExistingAccents='') or not(contains(@name, '.json') and (starts-with(@name, 'touch-theme.') or starts-with(@name, 'touch-accent.'))) or contains($ExistingThemes, @name) or contains($ExistingAccents, @name)]" silent="true">
+								<choose silent="true">
+									<when test="contains(@name, '.json')"  silent="true">
+										<copy input="$LibraryRoot\_Client\Mobile\{@path}" output="$AppFolder\css\themes\{@path}" silent="true"/>
+									</when>
+									<when test="starts-with(@name, 'touch') and contains(@name, '.css')"  silent="true">
+										<copy input="$LibraryRoot\_Client\Mobile\{@path}" output="$AppFolder\css\daf\{@path}" silent="true"/>
+									</when>
+									<when test="starts-with(@name, 'bootstrap') or (starts-with(@name, 'jquery.mobile') and contains(@name, '.css'))"  silent="true">
+										<copy input="$LibraryRoot\_Client\Mobile\{@path}" output="$AppFolder\css\sys\{@path}" silent="true"/>
+									</when>
+									<when test="starts-with(@path, 'fonts')" silent="true">
+										<copy input="$LibraryRoot\_Client\Mobile\{@path}" output="$AppFolder\{@path}" silent="true"/>
+									</when>
+									<when test="contains(@name, '.jpg')"  silent="true">
+										<copy input="$LibraryRoot\_Client\Mobile\{@path}" output="$AppFolder\images\{@path}" silent="true"/>
+									</when>
+									<when test="contains(@name, '.txt')"  silent="true">
+										<copy input="$LibraryRoot\_Client\Mobile\{@path}" output="$AppFolder\css\{@path}" silent="true" mode="create"/>
+									</when>
+								</choose>
+							</forEach>
+						</load>
+					</when>
+					<otherwise>
+						<copy input="$LibraryRoot\_Client\Mobile\bootstrap.min.css" output="$AppFolder\css\sys\bootstrap.min.css"/>
+						<copy input="$LibraryRoot\_Client\Mobile\bootstrap.css" output="$AppFolder\css\sys\bootstrap.css"/>
+						<load path="$LibraryRoot\_Client\Mobile\fonts">
+							<forEach select="//file">
+								<copy input="$LibraryRoot\_Client\Mobile\fonts\{@path}" output="$AppFolder\fonts\{@path}"/>
+							</forEach>
+						</load>
+					</otherwise>
+				</choose>
+			</if>
+			<if test="$MembershipEnabled='true'">
+				<if test="$UI!='TouchUI'">
+					<copy input="$LibraryRoot\Data Aquarium\_App_Themes\Aquarium\Membership.css" output="$Namespace\Theme\Membership.css" silent="true">
+						<regex pattern="url\s*\((.+?)\)" replacement="url(&lt;%= WebResource(&quot;DAF.Theme.$1&quot;) %&gt;)"/>
+					</copy>
+				</if>
+				<transform template="$LibraryRoot\Data Aquarium\_App_Code\Web\MembershipBarExtender.codedom.xslt" output="$Namespace\Web\MembershipBarExtender.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+					<param name="Namespace" select="$Namespace"/>
+					<param name="IsClassLibrary" select="'true'"/>
+					<param name="Theme" select="$Theme"/>
+				</transform>
+				<transform template="$LibraryRoot\Data Aquarium\_App_Code\Web\MembershipBar.codedom.xslt" output="$Namespace\Web\MembershipBar.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+					<param name="Namespace" select="$Namespace"/>
+					<param name="IsClassLibrary" select="'true'"/>
+					<param name="PageImplementation" select="$PageImplementation"/>
+				</transform>
+				<!--<transform template="$LibraryRoot\Data Aquarium\_App_Code\Web\MembershipManagerExtender.codedom.xslt" output="$Namespace\Web\MembershipManagerExtender.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+          <param name="Namespace" select="$Namespace"/>
+          <param name="IsClassLibrary" select="'true'"/>
+          <param name="Theme" select="$Theme"/>
+          <param name="ScriptOnly" select="$ScriptOnly"/>
+        </transform>
+        <transform template="$LibraryRoot\Data Aquarium\_App_Code\Web\MembershipManager.codedom.xslt" output="$Namespace\Web\MembershipManager.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+          <param name="Namespace" select="$Namespace"/>
+          <param name="IsClassLibrary" select="'true'"/>
+        </transform>-->
+				<transform template="$LibraryRoot\Data Aquarium\_App_Code\Security\MembershipBusinessRules.codedom.xslt" output="$Namespace\Security\MembershipBusinessRules.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+					<param name="Namespace" select="$Namespace"/>
+					<param name="ProviderName" select="$MembershipProviderName"/>
+				</transform>
+				<choose>
+					<when test="contains($ProviderName, 'Oracle')">
+						<transform template="$LibraryRoot\Data Aquarium\_App_Code\Security\Membership.codedom.xslt" output="$Namespace\Security\Membership.codedom.xml"  when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="false">
+							<param name="Namespace" select="$Namespace"/>
+						</transform>
+					</when>
+					<otherwise>
+						<delete path="$Namespace\Security\Membership.codedom.xml"/>
+					</otherwise>
+				</choose>
+				<load path="$LibraryRoot\Data Aquarium\Controllers\aspnet_Membership.xml">
+					<transform template="$LibraryRoot\Data Aquarium\Controllers\MembershipControllerBuilder.xslt" output="$Namespace\controllers\aspnet_Membership.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+						<param name="Namespace" select="$Namespace"/>
+						<param name="ProviderName" select="$MembershipProviderName"/>
+						<param name="ConnectionString" select="$ConnectionString"/>
+						<param name="MembershipConnectionString" select="$MembershipConnectionString"/>
+						<param name="UseSaveAndNew" select="$UseSaveAndNew"/>
+					</transform>
+				</load>
+				<load path="$LibraryRoot\Data Aquarium\Controllers\aspnet_Roles.xml">
+					<transform template="$LibraryRoot\Data Aquarium\Controllers\MembershipControllerBuilder.xslt" output="$Namespace\controllers\aspnet_Roles.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+						<param name="Namespace" select="$Namespace"/>
+						<param name="ProviderName" select="$MembershipProviderName"/>
+						<param name="ConnectionString" select="$ConnectionString"/>
+						<param name="MembershipConnectionString" select="$MembershipConnectionString"/>
+						<param name="UseSaveAndNew" select="$UseSaveAndNew"/>
+					</transform>
+				</load>
+			</if>
+			<if test="$MembershipEnabled='true' or $CustomSecurity='true' or $ActiveDirectory='true'">
+				<transform template="$LibraryRoot\Data Aquarium\_App_Code\Security\ExportAuthenticationModule.codedom.xslt" output="$Namespace\Security\ExportAuthenticationModule.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+					<param name="Namespace" select="$Namespace"/>
+				</transform>
+			</if>
+			<load path="$ProjectPath\$AppFolder" depth="0">
+				<if test="not(file[@name='Global.asax'])">
+					<transform template="$LibraryRoot\Data Aquarium\Global.asax.1.xslt" output="$AppFolder\Global.asax.1">
+						<param name="Namespace" select="$Namespace"/>
+					</transform>
+					<transform template="$LibraryRoot\Data Aquarium\Global.asax.2.xslt" output="$AppFolder\Global.asax.2" async="true">
+						<param name="Namespace" select="$Namespace"/>
+						<regex pattern="\)\s+Handles\s+.+?\r" replacement=")&#13;"/>
+					</transform>
+				</if>
+			</load>
+			<if test="$CustomSecurity='true' or $WindowsAuthentication='true' or $ActiveDirectory='true'">
+				<if test="$UI!='TouchUI'">
+					<copy input="$LibraryRoot\Data Aquarium\_App_Themes\Aquarium\Membership.css" output="$Namespace\Theme\Membership.css" silent="true">
+						<regex pattern="url\s*\((.+?)\)" replacement="url(&lt;%= WebResource(&quot;DAF.Theme.$1&quot;) %&gt;)"/>
+					</copy>
+				</if>
+				<transform template="$LibraryRoot\Data Aquarium\_App_Code\Web\MembershipBarExtender.codedom.xslt" output="$Namespace\Web\MembershipBarExtender.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+					<param name="Namespace" select="$Namespace"/>
+					<param name="IsClassLibrary" select="'true'"/>
+				</transform>
+				<transform template="$LibraryRoot\Data Aquarium\_App_Code\Web\MembershipBar.codedom.xslt" output="$Namespace\Web\MembershipBar.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+					<param name="Namespace" select="$Namespace"/>
+					<param name="IsClassLibrary" select="'true'"/>
+				</transform>
+			</if>
+			<transform template="$LibraryRoot\Data Aquarium\Report.ashx.codedom.xslt" output="$Namespace\Handlers\Report.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+				<param name="Namespace" select="$Namespace"/>
+				<param name="TargetFramework" select="$TargetFramework"/>
+			</transform>
+			<if test="$ReportsEnabled='true'">
+				<transform template="$LibraryRoot\Data Aquarium\Report.generated.codedom.xslt" output="$Namespace\Handlers\Report.generated.codedom.xml" when="TemplateChanged" usage="ClassLibrary" dependencies="DataAquarium.Project.xml" async="true">
+					<param name="Namespace" select="$Namespace"/>
+					<param name="TargetFramework" select="$TargetFramework"/>
+					<param name="TargetFramework45Plus" select="$TargetFramework45Plus"/>
+				</transform>
+			</if>
+			<!-- create web handlers -->
+			<!-- create ScriptHost and Export handlers (ignores RawControllers.xml) -->
+			<transform template="$LibraryRoot\Data Aquarium\Export.ashx.codedom.xslt" output="$Namespace\Handlers\Export.codedom.xml" usage="ClassLibrary">
+				<param name="Namespace" select="$Namespace"/>
+			</transform>
+			<if test="$Mobile='true'">
+				<transform template="$LibraryRoot\Data Aquarium\Theme.ashx.codedom.xslt" output="$Namespace\Handlers\Theme.codedom.xml" usage="ClassLibrary">
+					<param name="Namespace" select="$Namespace"/>
+				</transform>
+			</if>
+			<!--<transform template="$LibraryRoot\Data Aquarium\Details.aspx.codedom.xslt" output="$Namespace\Handlers\Details.codedom.xml" usage="ClassLibrary">
+        <param name="Namespace" select="$Namespace"/>
+        <param name="IsClassLibrary" select="'true'"/>
+      </transform>-->
+			<!-- create blob handler (uses RawControllers.xml)-->
+			<transform template="$LibraryRoot\Data Aquarium\Blob.ashx.codedom.xslt" output="$Namespace\Handlers\Blob.codedom.xml" usage="ClassLibrary">
+				<param name="Namespace" select="$Namespace"/>
+				<param name="ProviderName" select="$ProviderName"/>
+				<param name="SecretKey" select="$SecretKey"/>
+				<param name="MembershipEnabled" select="$MembershipEnabled='true' or $CustomSecurity='true' or $ActiveDirectory='true'"/>
+			</transform>
+			<transform template="$LibraryRoot\Data Aquarium\Blob.generated.codedom.xslt" output="$Namespace\Handlers\Blob.generated.codedom.xml" usage="ClassLibrary" dependencies="DataAquarium.Project.xml,Controllers.Cache.xml">
+				<param name="Namespace" select="$Namespace"/>
+				<param name="ProviderName" select="$ProviderName"/>
+				<param name="DataModelPath" select="$DataModelPath"/>
+			</transform>
+			<transform template="$LibraryRoot\Premium\_App_Code\Data\BlobAdapters.codedom.xslt" output="$Namespace\Data\BlobAdapters.codedom.xml"  usage="ClassLibrary"  dependencies="DataAquarium.Project.xml">
+				<param name="Namespace" select="$Namespace"/>
+			</transform>
+			<transform template="$LibraryRoot\Unlimited\Data\BlobAdaptersEx.codedom.xslt" output="$Namespace\Data\BlobAdaptersEx.codedom.xml"  usage="ClassLibrary"  dependencies="DataAquarium.Project.xml">
+				<param name="Namespace" select="$Namespace"/>
+			</transform>
+			<transform template="$LibraryRoot\Data Aquarium\Import.ashx.codedom.xslt" output="$Namespace\Handlers\Import.codedom.xml" usage="ClassLibrary">
+				<param name="Namespace" select="$Namespace"/>
+			</transform>
+		</load>
+		<wait message="Waiting for transformations to complete..."/>
+		<delete path="$ProjectPath\web.config.xml"/>
+		<!-- create $AppFolder applications pages and user controls -->
+		<load path="$ProjectPath\$AppFolder\Pages">
+			<variable name="AvailablePages" select="';'"/>
+			<forEach select="//file[not(contains(@name,'html.')) and $PageImplementation='html' or not(contains(@name,'aspx.')) and $PageImplementation='aspx']" >
+				<variable name="AvailablePages" select="concat('$AvailablePages', @name, ';')" silent="true"/>
+			</forEach>
+		</load>
+		<load path="$ProjectPath\Application.xml" useLog="true">
+			<forEach select="/app:application/app:pages/app:page[string-length(@url)=0]">
+				<choose>
+					<when test="$PageImplementation='html'">
+						<if test="not(@generate='FirstTimeOnly') or not(contains($AvailablePages, concat(';', @name, '.html')))" silent="true">
+							<transform template="$LibraryRoot\Web Site Factory\Pages\Page.html.1.xslt" output="$AppFolder\pages\{@name}.html.1">
+								<param name="Namespace" select="$Namespace"/>
+								<param name="Name" select="@name"/>
+							</transform>
+							<transform template="$LibraryRoot\Web Site Factory\Pages\Page.html.2.xslt" output="$AppFolder\pages\{@name}.html.2" async="true">
+								<param name="Namespace" select="$Namespace"/>
+								<param name="Name" select="@name"/>
+								<param name="LibraryRoot" select="$LibraryRoot"/>
+								<param name="UserInterface" select="$UI"/>
+							</transform>
+							<delete path="$AppFolder\Pages\{@name}.aspx*.*" silent="true"/>
+						</if>
+					</when>
+					<otherwise>
+						<if test="not(@generate='FirstTimeOnly') or not(contains($AvailablePages, concat(';', @name, '.aspx')))" silent="true">
+							<transform template="$LibraryRoot\Web Site Factory\Pages\Page.aspx.1.xslt" output="$AppFolder\pages\{@name}.aspx.1">
+								<param name="Host" select="'WebApp'"/>
+								<param name="Namespace" select="$Namespace"/>
+								<param name="Name" select="@name"/>
+							</transform>
+							<transform template="$LibraryRoot\Web Site Factory\Pages\Page.aspx.2.xslt" output="$AppFolder\pages\{@name}.aspx.2" >
+								<param name="Host" select="'WebApp'"/>
+								<param name="Namespace" select="$Namespace"/>
+								<param name="Name" select="@name"/>
+								<param name="UseExtenders" select="$UseExtenders"/>
+								<param name="UserInterface" select="$UI"/>
+							</transform>
+							<transform template="$LibraryRoot\Web Site Factory\Pages\Page.aspx.codedom.xslt" output="$AppFolder\pages\{@name}.aspx.codedom.xml" >
+								<param name="Host" select="'WebApp'"/>
+								<param name="Namespace" select="$Namespace"/>
+								<param name="Name" select="@name"/>
+							</transform>
+							<delete path="$AppFolder\Pages\{@name}.html" silent="true"/>
+						</if>
+					</otherwise>
+				</choose>
+			</forEach>
+			<load path="$ProjectPath\$AppFolder\controls">
+				<variable name="AvailableControls" select="';'"/>
+				<forEach select="//file[not(contains(@name,'html.')) and $PageImplementation='html' or not(contains(@name,'ascx.') and starts-with(@name, 'Chart_')) and $PageImplementation='aspx']">
+					<variable name="AvailableControls" select="concat('$AvailableControls', @name, ';')" silent="true"/>
+				</forEach>
+			</load>
+			<forEach select="/app:application/app:userControls/app:userControl">
+				<choose>
+					<when test="$PageImplementation='html'">
+						<if test="@generate='Always' or not(contains($AvailableControls, concat(';', @name, '.html')))" silent="true">
+							<transform template="$LibraryRoot\Web Site Factory\Controls\Control.html.xslt" output="$AppFolder\controls\{@name}.html" async="true">
+								<param name="Namespace" select="$Namespace"/>
+								<param name="Name" select="@name"/>
+							</transform>
+							<delete path="$AppFolder\controls\{@name}.ascx*.*" silent="true"/>
+						</if>
+					</when>
+					<otherwise>
+						<if test="@generate='Always' or not(contains($AvailableControls, concat(';', @name, '.ascx')))" silent="true">
+							<choose>
+								<when test="not(contains(app:body, '&lt;%@')) or string-length(app:body)>0">
+									<transform template="$LibraryRoot\Web Site Factory\Controls\Control.ascx.1.xslt" output="$AppFolder\controls\{@name}.ascx.1">
+										<param name="Namespace" select="$Namespace"/>
+										<param name="Name" select="@name"/>
+									</transform>
+									<transform template="$LibraryRoot\Web Site Factory\Controls\Control.ascx.2.xslt" output="$AppFolder\controls\{@name}.ascx.2" >
+										<param name="Namespace" select="$Namespace"/>
+										<param name="Name" select="@name"/>
+									</transform>
+									<transform template="$LibraryRoot\Web Site Factory\Controls\Control.ascx.codedom.xslt" output="$AppFolder\controls\{@name}.ascx.codedom.xml">
+										<param name="Host" select="'WebApp'"/>
+										<param name="Namespace" select="$Namespace"/>
+										<param name="Name" select="@name"/>
+										<param name="PageImplementation" select="$PageImplementation"/>
+									</transform>
+								</when>
+								<otherwise>
+									<transform template="$LibraryRoot\Web Site Factory\Controls\Control.ascx.2.xslt" output="$AppFolder\controls\{@name}.ascx" >
+										<param name="Namespace" select="$Namespace"/>
+										<param name="Name" select="@name"/>
+									</transform>
+								</otherwise>
+							</choose>
+							<delete path="$AppFolder\controls\{@name}.html*.*" silent="true"/>
+						</if>
+					</otherwise>
+				</choose>
+			</forEach>
+		</load>
+		<!-- copy static files-->
+		<choose>
+			<when test="$TargetFramework45Plus='true'">
+				<copy input="$LibraryRoot\_Packages\Newtonsoft.Json\net45\Newtonsoft.Json.dll" output="$Namespace\bin\Newtonsoft.Json.dll"/>
+				<copy input="$LibraryRoot\_Packages\YamlDotNet\net45\YamlDotNet.dll" output="$Namespace\bin\YamlDotNet.dll"/>
+				<if test="$ReportsVersion='15'">
+					<copy input="$LibraryRoot\_Packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1404.0\Microsoft.ReportViewer.Common.dll" output="$AppFolder\bin\Microsoft.ReportViewer.Common.dll"/>
+					<copy input="$LibraryRoot\_Packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1404.0\Microsoft.ReportViewer.ProcessingObjectModel.dll" output="$AppFolder\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll"/>
+					<copy input="$LibraryRoot\_Packages\Microsoft.ReportingServices.ReportViewerControl.WebForms.150.1404.0\Microsoft.ReportViewer.WebForms.dll" output="$AppFolder\bin\Microsoft.ReportViewer.WebForms.dll"/>
+					<copy input="$LibraryRoot\_Packages\Microsoft.SqlServer.Types.14.0.1016.290\Microsoft.SqlServer.Types.dll" output="$AppFolder\bin\Microsoft.SqlServer.Types.dll"/>
+				</if>
+				<if test="$ReportsVersion='14'">
+					<copy input="$LibraryRoot\_Packages\Microsoft.ReportingServices.ReportViewer.140.340.80\Microsoft.ReportViewer.Common.dll" output="$Namespace\bin\Microsoft.ReportViewer.Common.dll"/>
+					<copy input="$LibraryRoot\_Packages\Microsoft.ReportingServices.ReportViewer.140.340.80\Microsoft.ReportViewer.ProcessingObjectModel.dll" output="$Namespace\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll"/>
+					<copy input="$LibraryRoot\_Packages\Microsoft.ReportingServices.ReportViewer.140.340.80\Microsoft.ReportViewer.WebForms.dll" output="$Namespace\bin\Microsoft.ReportViewer.WebForms.dll"/>
+					<copy input="$LibraryRoot\_Packages\Microsoft.SqlServer.Types.14.0.314.76\Microsoft.SqlServer.Types.dll" output="$Namespace\bin\Microsoft.SqlServer.Types.dll"/>
+				</if>
+			</when>
+			<when test="$TargetFramework='4.0'">
+				<copy input="$LibraryRoot\_Packages\Newtonsoft.Json\net40\Newtonsoft.Json.dll" output="$Namespace\bin\Newtonsoft.Json.dll"/>
+				<copy input="$LibraryRoot\_Packages\YamlDotNet\net35\YamlDotNet.dll" output="$Namespace\bin\YamlDotNet.dll"/>
+			</when>
+			<otherwise>
+				<copy input="$LibraryRoot\_Packages\Newtonsoft.Json\net35\Newtonsoft.Json.dll" output="$Namespace\bin\Newtonsoft.Json.dll"/>
+				<copy input="$LibraryRoot\_Packages\YamlDotNet\net35\YamlDotNet.dll" output="$Namespace\bin\YamlDotNet.dll"/>
+			</otherwise>
+		</choose>
+		<!-- copy scripts -->
+		<!-- system scripts -->
+		<transform template="$LibraryRoot\Web App Factory\_references.js.xslt" output="$AppFolder\js\_references.js" when="TemplateChanged" async="true">
+			<param name="Namespace" select="$Namespace"/>
+			<param name="UI" select="$UI"/>
+		</transform>
+		<copy input="$LibraryRoot\Data Aquarium\Scripts\_ignore.txt" output="$AppFolder\js\_ignore.txt" mode="create" silent="true"/>
+		<if test="$UI!='TouchUI'" silent="true">
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\_System.js" output="$Namespace\js\sys\_System.js" silent="true"/>
+			<copy input="$LibraryRoot\Web Site Factory\Scripts\AjaxControlToolkit.min.js" output="$Namespace\js\sys\AjaxControlToolkit.min.js" silent="true" />
+			<copy input="$LibraryRoot\Premium\Scripts\daf-extensions.min.js" output="$Namespace\js\daf\daf-extensions.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Premium\Scripts\daf-extensions.js" output="$Namespace\js\daf\daf-extensions.js" silent="true"/>
+		</if>
+		<if test="$UI!='Desktop'" silent="true">
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\jquery-3.6.0.min.js" output="$Namespace\js\sys\jquery-3.6.0.min.js"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\jquery-3.6.0.js" output="$AppFolder\js\sys\jquery-3.6.0.js"/>
+			<copy input="$LibraryRoot\_Client\Scripts\jQuery\jquery-2.2.4.min.js" output="$Namespace\js\sys\jquery-2.2.4.min.js" silent="true"/>
+			<copy input="$LibraryRoot\_Client\Scripts\Frameworks\Bootstrap\bootstrap.min.js" output="$Namespace\js\sys\bootstrap.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Standard\Scripts\jquery-2.2.4.js" output="$AppFolder\js\sys\jquery-2.2.4.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\unicode.min.js" output="$Namespace\js\sys\unicode.min.js"/>
+			<copy input="$LibraryRoot\Standard\Scripts\unicode.js" output="$AppFolder\js\sys\unicode.js"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\restful.min.js" output="$Namespace\js\sys\restful.min.js"/>
+			<copy input="$LibraryRoot\Standard\Scripts\restful.js" output="$AppFolder\js\sys\restful.js"/>
+		</if>
+		<choose>
+			<when test="$PageImplementation='html' and $UI = 'TouchUI'">
+				<copy input="$LibraryRoot\Web Site Factory\config\oauth2-schema.yaml" output="$AppFolder\config\oauth2-schema.yaml" silent="true"/>
+				<copy input="$LibraryRoot\Web Site Factory\Scripts\Microsoft.min.js" output="$Namespace\js\sys\MicrosoftAjax.min.js" silent="true"/>
+			</when>
+			<otherwise>
+				<copy input="$LibraryRoot\Web Site Factory\Scripts\MicrosoftAjax.min.js" output="$Namespace\js\sys\MicrosoftAjax.min.js" silent="true"/>
+			</otherwise>
+		</choose>
+		<if test="not($PageImplementation='html' and $UI='TouchUI')" silent="true">
+			<copy input="$LibraryRoot\Web Site Factory\Scripts\MicrosoftAjaxWebForms.min.js" output="$Namespace\js\sys\MicrosoftAjaxWebForms.min.js" silent="true" />
+		</if>
+		<!-- daf scripts -->
+		<copy input="$LibraryRoot\Data Aquarium\Scripts\daf.js" output="$Namespace\js\daf\daf.min.js" silent="true"/>
+		<copy input="$LibraryRoot\Data Aquarium\Scripts\daf-resources.js" output="$Namespace\js\daf\daf-resources.min.js" silent="true"/>
+		<copy input="$LibraryRoot\Data Aquarium\Scripts\daf-odp.js" output="$Namespace\js\daf\daf-odp.min.js" silent="true"/>
+		<copy input="$LibraryRoot\Data Aquarium\Scripts\daf-ifttt.js" output="$Namespace\js\daf\daf-ifttt.min.js" silent="true"/>
+		<!--<copy input="$LibraryRoot\Data Aquarium\Scripts\touch-scroll.js" output="$Namespace\js\daf\touch-scroll.min.js" silent="true"/>-->
+		<copy input="$LibraryRoot\Standard\Scripts\daf.js" output="$AppFolder\js\daf\daf.js" silent="true"/>
+		<copy input="$LibraryRoot\Standard\Scripts\daf-resources.js" output="$AppFolder\js\daf\daf-resources.js" silent="true"/>
+		<copy input="$LibraryRoot\Unlimited\Scripts\daf-odp.js" output="$AppFolder\js\daf\daf-odp.js" silent="true"/>
+		<copy input="$LibraryRoot\Unlimited\Scripts\daf-ifttt.js" output="$AppFolder\js\daf\daf-ifttt.js" silent="true"/>
+		<!--<copy input="$LibraryRoot\Unlimited\Scripts\touch-scroll.js" output="$AppFolder\js\daf\touch-scroll.js" silent="true"/>-->
+		<if test="$UI!='TouchUI'" silent="true">
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\classic.js" output="$Namespace\js\daf\classic.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\daf-menu.js" output="$Namespace\js\daf\daf-menu.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Standard\Scripts\classic.js" output="$AppFolder\js\daf\classic.js" silent="true"/>
+			<copy input="$LibraryRoot\Standard\Scripts\daf-menu.js" output="$AppFolder\js\daf\daf-menu.js" silent="true"/>
+		</if>
+		<if test="$MembershipEnabled='true' or $CustomSecurity='true' or $WindowsAuthentication='true' or $ActiveDirectory='true'" silent="true">
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\daf-membership.js" output="$Namespace\js\daf\daf-membership.min.js" silent="true" />
+			<copy input="$LibraryRoot\Standard\Scripts\daf-membership.js" output="$AppFolder\js\daf\daf-membership.js" silent="true" />
+			<if test="$TargetFramework='3.5'" silent="true">
+				<copy input="$LibraryRoot\Web Site Factory\Scripts\MicrosoftAjaxApplicationServices.min.js" output="$Namespace\js\sys\MicrosoftAjaxApplicationServices.min.js" silent="true" />
+			</if>
+		</if>
+		<!-- touch scripts -->
+		<if test="$Mobile='true'" silent="true">
+			<copy input="$LibraryRoot\Data Aquarium\Mobile\touch-core.min.css" output="$Namespace\css\daf\touch-core.min.css" />
+			<copy input="$LibraryRoot\Data Aquarium\Mobile\touch-core.min.js" output="$Namespace\js\daf\touch-core.min.js" />
+			<copy input="$LibraryRoot\Data Aquarium\Mobile\touch.js" output="$Namespace\js\daf\touch.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Mobile\touch-charts.js" output="$Namespace\js\daf\touch-charts.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\touch-edit.js" output="$Namespace\js\daf\touch-edit.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\touch-edit.js" output="$AppFolder\js\daf\touch-edit.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\touch-input.js" output="$Namespace\js\daf\touch-input.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\touch-input.js" output="$AppFolder\js\daf\touch-input.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\input-blob.js" output="$Namespace\js\daf\input-blob.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\touch-flow.js" output="$AppFolder\js\daf\touch-flow.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\touch-propgrid.js" output="$AppFolder\js\daf\touch-propgrid.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\daf-import.js" output="$AppFolder\js\daf\daf-import.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\daf-search.js" output="$AppFolder\js\daf\daf-search.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\input-draw.js" output="$AppFolder\js\daf\input-draw.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\input-qrcode.js" output="$AppFolder\js\daf\input-qrcode.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Scripts\daf-otpauth.js" output="$AppFolder\js\daf\daf-otpauth.min.js" silent="true"/>
+
+			<copy input="$LibraryRoot\Data Aquarium\Mobile\touch-core.css" output="$AppFolder\css\daf\touch-core.css" />
+			<copy input="$LibraryRoot\Data Aquarium\Mobile\touch-core.min.css" output="$AppFolder\css\daf\touch-core.min.css" />
+			<copy input="$LibraryRoot\Data Aquarium\Mobile\touch-core.js" output="$AppFolder\js\daf\touch-core.js" />
+			<copy input="$LibraryRoot\Premium\Mobile\touch.js" output="$AppFolder\js\daf\touch.js" silent="true"/>
+			<copy input="$LibraryRoot\Premium\Mobile\touch-charts.js" output="$AppFolder\js\daf\touch-charts.js" silent="true"/>
+			<copy input="$LibraryRoot\Unlimited\Scripts\touch-edit.js" output="$AppFolder\js\daf\touch-edit.js" silent="true"/>
+			<copy input="$LibraryRoot\Unlimited\Scripts\touch-input.js" output="$AppFolder\js\daf\touch-input.js" silent="true"/>
+			<copy input="$LibraryRoot\Unlimited\Scripts\touch-flow.js" output="$AppFolder\js\daf\touch-flow.js" silent="true"/>
+			<copy input="$LibraryRoot\Unlimited\Scripts\touch-propgrid.js" output="$AppFolder\js\daf\touch-propgrid.js" silent="true"/>
+			<copy input="$LibraryRoot\Unlimited\Scripts\daf-import.js" output="$AppFolder\js\daf\daf-import.js" silent="true"/>
+			<copy input="$LibraryRoot\Unlimited\Scripts\daf-search.js" output="$AppFolder\js\daf\daf-search.js" silent="true"/>
+			<copy input="$LibraryRoot\Unlimited\Scripts\input-blob.js" output="$AppFolder\js\daf\input-blob.js" silent="true"/>
+			<copy input="$LibraryRoot\Unlimited\Scripts\input-draw.js" output="$AppFolder\js\daf\input-draw.js" silent="true"/>
+			<copy input="$LibraryRoot\Unlimited\Scripts\input-qrcode.js" output="$AppFolder\js\daf\input-qrcode.js" silent="true"/>
+			<copy input="$LibraryRoot\Unlimited\Scripts\daf-otpauth.js" output="$AppFolder\js\daf\daf-otpauth.js" silent="true"/>
+
+			<copy input="$LibraryRoot\Data Aquarium\Mobile\import.min.js" output="$AppFolder\js\lib\import.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Mobile\qrcode\qrcode.min.js" output="$AppFolder\js\lib\qrcode.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Mobile\codemirror.min.js" output="$AppFolder\js\lib\codemirror.min.js" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Mobile\codemirror.min.css" output="$AppFolder\js\lib\codemirror.min.css" silent="true"/>
+			<copy input="$LibraryRoot\Data Aquarium\Mobile\touch-settings.json" output="$AppFolder\touch-settings.json" silent="true" mode="create"/>
+			<!-- surveys - cms -->
+			<if test="$SiteContentTableName!=''">
+				<load path="$LibraryRoot\Data Aquarium\Mobile\surveys\cms" silent="true">
+					<forEach select="//file">
+						<copy input="$LibraryRoot\Data Aquarium\Mobile\surveys\cms\{@path}" output="$AppFolder\js\surveys\cms\{@path}" silent="true"/>
+					</forEach>
+				</load>
+			</if>
+			<!-- surveys - tools -->
+			<!--<load path="$LibraryRoot\Data Aquarium\Mobile\surveys\tools" silent="true">
+        <forEach select="//file">
+          <copy input="$LibraryRoot\Data Aquarium\Mobile\surveys\tools\{@path}" output="$AppFolder\js\surveys\tools\{@path}" silent="true"/>
+        </forEach>
+      </load>-->
+		</if>
+		<!-- copy Ajax Control Toolkit to the project folder -->
+		<if test="$ScriptOnly='false'">
+			<choose>
+				<when test="$TargetFramework!='3.5'">
+					<load path="$LibraryRoot\_AjaxControlToolkit40">
+						<forEach select="//file">
+							<copy input="$LibraryRoot\_AjaxControlToolkit40\{@path}" output="AjaxControlToolkit\\{@path}" silent="true"/>
+						</forEach>
+					</load>
+				</when>
+				<otherwise>
+					<load path="$LibraryRoot\_AjaxControlToolkit">
+						<forEach select="//file">
+							<copy input="$LibraryRoot\_AjaxControlToolkit\{@path}" output="AjaxControlToolkit\\{@path}" silent="true"/>
+						</forEach>
+					</load>
+				</otherwise>
+			</choose>
+		</if>
+		<!-- copy Factory theme files-->
+		<if test="$UI!='TouchUI'">
+			<load path="$LibraryRoot\Web Site Factory\_App_Themes\Factory">
+				<forEach select="//file">
+					<copy input="$LibraryRoot\Web Site Factory\_App_Themes\Factory\{@path}" output="$AppFolder\App_Themes\_Shared\{@path}" silent="true"/>
+				</forEach>
+			</load>
+			<load path="$ThemeInput">
+				<forEach select="//file">
+					<copy input="$ThemeInput\{@path}" output="$ProjectPath\$AppFolder\App_Themes\$Theme\{@path}" silent="true"/>
+				</forEach>
+			</load>
+			<if test="not($MembershipEnabled='true' or $WindowsAuthentication='true' or $CustomSecurity='true' or $ActiveDirectory='true')">
+				<copy input="$ThemeInput\$Theme.css" output="$ProjectPath\$AppFolder\App_Themes\$Theme\$Theme.css" silent="true">
+					<regex pattern="@import.+?Membership.css\S+?\s+" replacement=""/>
+				</copy>
+			</if>
+			<copy input="$LibraryRoot\Data Aquarium\_App_Themes\_Layout.skin" output="$ProjectPath\$AppFolder\App_Themes\$Namespace\_Layout.skin" silent="true"/>
+			<transform template="$LibraryRoot\Data Aquarium\_App_Themes\FactoryTheme.xslt" output="$ProjectPath\$AppFolder\App_Themes\$Namespace\_Theme_$Theme.css">
+				<param name="Theme" select="$Theme"/>
+				<param name="Namespace" select="$Namespace"/>
+			</transform>
+			<applyTheme theme="$Theme" output="$AppFolder\App_Themes\$Namespace\_Theme_$Theme.css"/>
+		</if>
+		<load path="$ProjectPath">
+			<!-- delete all .codedom.xml files -->
+			<forEach select="//file[contains(@name, '.codedom.xml')]">
+				<delete path="{@path}" silent="true"/>
+			</forEach>
+			<!-- merge Blob files -->
+			<variable name="BlobSource" select="//file[starts-with(@name, 'Blob.') and not(contains(@name,'codedom'))]/@path"/>
+			<copy input="$ProjectPath\$BlobSource" output="$BlobSource">
+				<regex pattern="([^\x0d\S])(\x0a)" replacement="$1&#13;$2"/>
+				<regex pattern="&quot;&amp;\s+_\s+&quot;" replacement=""/>
+				<regex pattern="&quot;&amp;Global\.Microsoft\.VisualBasic\.ChrW\(10\)&amp;&quot;" replacement="&quot;&amp; _&#13;&#10;&#9;&#9;&#9;&quot;"/>
+			</copy>
+			<!--<delete path="$BlobSource"/>-->
+		</load>
+		<!-- create Class Library project file-->
+		<load path="$LibraryRoot\_Config\CodeOnTime.CodeDom.xml">
+			<variable name="CodedomProviderName" select="/config:configuration/config:providers/@default"/>
+			<choose>
+				<when test="$CodedomProviderName='CSharp'">
+					<copy input="$ProjectPath\$Namespace\AssemblyInfo.cs" output="$Namespace\Properties\AssemblyInfo.cs">
+						<regex pattern="\[" replacement="[assembly: "/>
+						<regex pattern="public class[\s\S]*$" replacement=""/>
+					</copy>
+					<delete path="$ProjectPath\$Namespace\AssemblyInfo.cs"/>
+				</when>
+				<otherwise>
+					<copy input="$ProjectPath\$Namespace\AssemblyInfo.vb" output="$Namespace\My Project\AssemblyInfo.vb">
+						<regex pattern="&quot;&amp;\s+_\s+&quot;" replacement=""/>
+						<regex pattern="(WebResource\(&quot;\w+\.)js\.sys\.culture\." replacement="$1"/>
+						<regex pattern="(WebResource\(&quot;\w+\.)\w+\.\w+\." replacement="$1"/>
+						<regex pattern="&lt;([\s\S]+)&gt;" replacement=" $1,"/>
+						<regex pattern="Public[\s\S]+End Class" replacement=""/>
+						<regex pattern="\s(\w+\(.+?\)),\s+_" replacement="&lt;Assembly: $1&gt;"/>
+					</copy>
+					<delete path="$ProjectPath\$Namespace\AssemblyInfo.vb"/>
+					<load path="$ProjectPath\$Namespace">
+						<forEach select="//file[contains(@name,'.css')]">
+							<copy input="$ProjectPath\$Namespace\{@path}" output="$Namespace\{@path}">
+								<!--<regex pattern="Namespace\s+\w+\." replacement="Namespace2 "/>-->
+								<regex pattern="(\w+)\.(\w+)\.(.+?)\.(js|css|gif|jpeg|jpg|png)" replacement="$1.$3.$4"/>
+							</copy>
+						</forEach>
+					</load>
+				</otherwise>
+			</choose>
+		</load>
+		<!-- translate application resources -->
+		<translate path="$ProjectPath\$Namespace" pattern="*.xyz" cultures="$Globalization_SupportedCultures" dictionary="$Namespace\Resources.txt"/>
+		<load path="$ProjectPath\$Namespace" depth="0">
+			<forEach select="//file[starts-with(@name, 'Resources.')]">
+				<copy input="$ProjectPath\$Namespace\{@name}" output="{@name}"/>
+			</forEach>
+		</load>
+		<translate path="$ProjectPath\$AppFolder" pattern="*.sitemap!,*.aspx,*.ascx,*.xslt,*.html" cultures="$Globalization_SupportedCultures" dictionary="Resources.txt" />
+		<load path="$ProjectPath" depth="0">
+			<forEach select="//file[starts-with(@name, 'Resources.')]">
+				<delete path="{@path}"/>
+			</forEach>
+		</load>
+		<translate path="$ProjectPath\$Namespace\controllers" pattern="*.xml" cultures="$Globalization_SupportedCultures" dictionary="$Namespace\Resources.txt"/>
+		<translate path="$ProjectPath\$Namespace\reports" pattern="*.xslt" cultures="$Globalization_SupportedCultures" dictionary="$Namespace\Resources.txt"/>
+		<translate path="$ProjectPath\$Namespace\js" pattern="*.js" cultures="$Globalization_SupportedCultures" dictionary="ClientLibrary.txt"/>
+		<translate path="$ProjectPath\$AppFolder\js" pattern="*.js" cultures="$Globalization_SupportedCultures" dictionary="ClientLibrary.txt"/>
+		<delete path="$ProjectPath\$Namespace\js\daf\daf-resources.min.js" silent="true"/>
+		<delete path="$ProjectPath\$AppFolder\js\daf\daf-resources.js" silent="true"/>
+		<!-- create a project file for "Aquarium in a Box" class library-->
+		<load path="$Namespace\$Namespace.$ProjectExtension">
+			<variable name="LibraryProjectGuid" select="//vsproj:ProjectGuid"/>
+		</load>
+		<load path="$ProjectPath\$Namespace">
+			<!--<copy output="ProjectMap.xml"/>-->
+			<transform template="VisualStudioProject.xslt" output="$Namespace\$Namespace.$ProjectExtension">
+				<param name="ProjectName" select="$Namespace"/>
+				<param name="ProjectGuid" select="$LibraryProjectGuid"/>
+				<param name="CodedomProviderName" select="$CodedomProviderName"/>
+				<param name="ReportsEnabled" select="$ReportsEnabled"/>
+				<param name="TargetFramework" select="$TargetFramework"/>
+				<param name="IsClassLibrary" select="'true'"/>
+				<param name="MembershipProviderName" select="$MembershipProviderName"/>
+				<param name="ScriptOnly" select="$ScriptOnly"/>
+				<param name="ActiveDirectory" select="$ActiveDirectory"/>
+				<param name="ReportsVersion" select="$ReportsVersion"/>
+				<param name="AppFolder" select="$AppFolder"/>
+			</transform>
+		</load>
+		<load path="$Namespace\$Namespace.$ProjectExtension">
+			<variable name="ProjectGuid" select="//vsproj:ProjectGuid"/>
+		</load>
+		<!-- create a project file for $AppFolder app -->
+		<load path="$AppFolder\$AppFolder.$ProjectExtension">
+			<variable name="WebAppProjectGuid" select="//vsproj:ProjectGuid"/>
+		</load>
+		<load path="$ProjectPath\$AppFolder">
+			<!--<copy output="$AppFolderMap.xml"/>-->
+			<transform template="VisualStudioProject.xslt" output="$AppFolder\$AppFolder.$ProjectExtension">
+				<param name="ProjectName" select="'WebApp'"/>
+				<param name="ProjectGuid" select="$WebAppProjectGuid"/>
+				<param name="ProjectExtension" select="$ProjectExtension"/>
+				<param name="CodedomProviderName" select="$CodedomProviderName"/>
+				<param name="Reference1" select="$Namespace"/>
+				<param name="Reference1Guid" select="$ProjectGuid"/>
+				<param name="TargetFramework" select="$TargetFramework"/>
+				<param name="MembershipProviderName" select="$MembershipProviderName"/>
+				<param name="ReportsEnabled" select="$ReportsEnabled"/>
+				<param name="ReportsVersion" select="$ReportsVersion"/>
+				<param name="VisualStudio2012" select="$VisualStudio2012"/>
+				<param name="VisualStudio2013" select="$VisualStudio2013"/>
+				<param name="VisualStudio2015" select="$VisualStudio2015"/>
+				<param name="VisualStudio2017" select="$VisualStudio2017"/>
+				<param name="VisualStudio2019" select="$VisualStudio2019"/>
+				<param name="VisualStudio2022" select="$VisualStudio2022"/>
+				<param name="ScriptOnly" select="$ScriptOnly"/>
+				<param name="WebServerPort" select="$WebServerPort"/>
+			</transform>
+		</load>
+		<!-- create a solution file -->
+		<load path="$ProjectPath" depth="0">
+			<if test="not(file[@name=concat($Namespace, '.sln')])">
+				<load path="$AppFolder\$AppFolder.$ProjectExtension">
+					<variable name="WebAppGuid" select="//vsproj:ProjectGuid"/>
+				</load>
+				<load path="DataAquarium.Project.xml">
+					<transform template="Solution.sln.xslt" output="$Namespace.sln">
+						<param name="Namespace" select="$Namespace"/>
+						<param name="AppFolder" select="$AppFolder"/>
+						<param name="ProjectExtension" select="$ProjectExtension"/>
+						<param name="ProjectGuid" select="$ProjectGuid"/>
+						<param name="WebAppGuid" select="$WebAppGuid"/>
+						<param name="TargetFramework" select="$TargetFramework"/>
+						<param name="VisualStudio2012" select="$VisualStudio2012"/>
+						<param name="VisualStudio2013" select="$VisualStudio2013"/>
+						<param name="VisualStudio2015" select="$VisualStudio2015"/>
+						<param name="VisualStudio2017" select="$VisualStudio2017"/>
+						<param name="VisualStudio2019" select="$VisualStudio2019"/>
+						<param name="VisualStudio2022" select="$VisualStudio2022"/>
+					</transform>
+				</load>
+			</if>
+			<revise type="sln" file="$ProjectPath\$Namespace.sln"/>
+		</load>
+		<!-- delete temprorary files -->
+		<delete path="DataModel.xml" silent="true"/>
+		<delete path="Controllers.xml" silent="true"/>
+		<delete path="Application.Web.Config.xml" silent="true"/>
+		<delete path="Application.xml" silent="true"/>
+		<delete path="Map*.*" silent="true"/>
+		<if test="$PageImplementation='html'" silent="true">
+			<copy input="$ProjectPath\$AppFolder\Site.html" output="$AppFolder\Site.html" silent="true">
+				<regex pattern="&lt;META.+?>\s*" replacement=""/>
+			</copy>
+		</if>
+		<load path="DataAquarium.Project.xml">
+			<if test="a:project/a:webServer/@run='true'">
+				<choose>
+					<when test="a:project/@targetFramework!='3.5'">
+						<choose>
+							<when test="$MSBuild!=''">
+								<execute fileName="$MSBuild" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot;  /t:rebuild /verbosity:m /p:Platform=&quot;Any CPU&quot;" mode="wait"/>
+							</when>
+							<otherwise>
+								<execute fileName="$MSBuild40" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot;  /t:rebuild /verbosity:m /p:Platform=&quot;Any CPU&quot;" mode="wait"/>
+							</otherwise>
+						</choose>
+						<load path="$ProjectPath\$AppFolder\bin">
+							<variable name="Compiled" select="//file[@name='WebApp.dll']/@name"/>
+						</load>
+						<choose>
+							<when test="$Compiled!=''">
+								<choose>
+									<when test="$IISExpress='true'">
+										<choose>
+											<when test="$PageImplementation='html'">
+												<browse name="$ProjectName" path="$ProjectPath\$AppFolder" port="{a:project/a:webServer/@port}"
+                                framework="{a:project/@targetFramework}"
+                                windowsAuthentication="{a:project/a:membership/@windowsAuthentication}"
+                                relativePath=""
+                                preview="{a:project/a:webServer/@preview}"
+                                client="{a:project/a:webServer/@client}"/>
+											</when>
+											<otherwise>
+												<browse name="$ProjectName" path="$ProjectPath\$AppFolder" port="{a:project/a:webServer/@port}"
+                            framework="{a:project/@targetFramework}"
+                            windowsAuthentication="{a:project/a:membership/@windowsAuthentication}"
+                            relativePath="default.aspx"/>
+											</otherwise>
+										</choose>
+									</when>
+									<otherwise>
+										<execute fileName="$WebDevWebServer40" arguments="/port:{a:project/a:webServer/@port} /path:&quot;$ProjectPath\$AppFolder&quot; /vpath:&quot;/$ProjectName&quot;" mode="nowait"/>
+										<execute fileName="http://localhost:{a:project/a:webServer/@port}/$ProjectName/default.aspx" arguments="-new" mode="nowait"/>
+									</otherwise>
+								</choose>
+							</when>
+							<when test="$VisualStudio2022!=''">
+								<execute fileName="$VisualStudio2022" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</when>
+							<when test="$VisualStudio2019!=''">
+								<execute fileName="$VisualStudio2019" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</when>
+							<when test="$VisualStudio2017!=''">
+								<execute fileName="$VisualStudio2017" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</when>
+							<when test="$VisualStudio2015!=''">
+								<execute fileName="$VisualStudio2015" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</when>
+							<when test="$VisualStudio2013!=''">
+								<execute fileName="$VisualStudio2013" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</when>
+							<when test="$VisualStudio2012!=''">
+								<execute fileName="$VisualStudio2012" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</when>
+							<otherwise>
+								<execute fileName="$VisualStudio2010" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</otherwise>
+						</choose>
+					</when>
+					<otherwise>
+						<execute fileName="$MSBuild35" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /t:rebuild /verbosity:m /p:Platform=&quot;Any CPU&quot;" mode="wait"/>
+						<load path="$ProjectPath\$AppFolder\bin">
+							<variable name="Compiled" select="//file[@name='WebApp.dll']/@name"/>
+						</load>
+						<choose>
+							<when test="$Compiled!=''">
+								<choose>
+									<when test="$IISExpress='true'">
+										<browse name="$ProjectName" path="$ProjectPath\$AppFolder" port="{a:project/a:webServer/@port}"
+                            framework="{a:project/@targetFramework}"
+                            windowsAuthentication="{a:project/a:membership/@windowsAuthentication}"
+                            relativePath="default.aspx"/>
+									</when>
+									<otherwise>
+										<execute fileName="$WebDevWebServer" arguments="/port:{a:project/a:webServer/@port} /path:&quot;$ProjectPath\$AppFolder&quot; /vpath:&quot;/$ProjectName&quot;" mode="nowait"/>
+										<execute fileName="http://localhost:{a:project/a:webServer/@port}/$ProjectName/default.aspx" arguments="-new" mode="nowait"/>
+									</otherwise>
+								</choose>
+							</when>
+							<otherwise>
+								<execute fileName="$VisualStudio2008" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</otherwise>
+						</choose>
+					</otherwise>
+				</choose>
+				<!--<if test="$Compiled!=''">
+          <execute fileName="http://localhost:{a:project/a:webServer/@port}/$ProjectName/default.aspx" arguments="-new" mode="nowait"/>
+        </if>-->
+			</if>
+		</load>
+	</build>
+	<actions>
+		<action name="Develop" toolTip="Open in Visual Studio to customize the project.">
+			<load path="DataAquarium.Project.xml">
+				<execute fileName="file://$ProjectPath\{a:project/a:namespace}.sln" arguments="" mode="nowait"/>
+			</load>
+		</action>
+		<action name="Browse" toolTip="Compile and view the application in your default web browser.">
+			<load path="DataAquarium.Project.xml">
+				<choose>
+					<when test="a:project/@targetFramework!='3.5'">
+						<choose>
+							<when test="$MSBuild!=''">
+								<execute fileName="$MSBuild" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot;  /t:rebuild /verbosity:m /p:Platform=&quot;Any CPU&quot;" mode="wait"/>
+							</when>
+							<otherwise>
+								<execute fileName="$MSBuild40" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot;  /t:rebuild /verbosity:m /p:Platform=&quot;Any CPU&quot;" mode="wait"/>
+							</otherwise>
+						</choose>
+						<load path="$ProjectPath\$AppFolder\bin">
+							<variable name="Compiled" select="//file[@name='WebApp.dll']/@name"/>
+						</load>
+						<choose>
+							<when test="$Compiled!=''">
+								<choose>
+									<when test="$IISExpress='true'">
+										<choose>
+											<when test="a:project/@pageImplementation='html'">
+												<browse name="$ProjectName" path="$ProjectPath\$AppFolder" port="{a:project/a:webServer/@port}"
+                            framework="{a:project/@targetFramework}"
+                            windowsAuthentication="{a:project/a:membership/@windowsAuthentication}"
+                            relativePath=""
+                            preview="{a:project/a:webServer/@preview}"
+                            client="{a:project/a:webServer/@client}"/>
+											</when>
+											<otherwise>
+												<browse name="$ProjectName" path="$ProjectPath\$AppFolder" port="{a:project/a:webServer/@port}"
+                            framework="{a:project/@targetFramework}"
+                            windowsAuthentication="{a:project/a:membership/@windowsAuthentication}"
+                            relativePath="default.aspx"/>
+											</otherwise>
+										</choose>
+									</when>
+									<otherwise>
+										<execute fileName="$WebDevWebServer40" arguments="/port:{a:project/a:webServer/@port} /path:&quot;$ProjectPath\$AppFolder&quot; /vpath:&quot;/$ProjectName&quot;" mode="nowait"/>
+										<execute fileName="http://localhost:{a:project/a:webServer/@port}/$ProjectName/default.aspx" arguments="-new" mode="nowait"/>
+									</otherwise>
+								</choose>
+							</when>
+							<when test="$VisualStudio2022!=''">
+								<execute fileName="$VisualStudio2022" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</when>
+							<when test="$VisualStudio2019!=''">
+								<execute fileName="$VisualStudio2019" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</when>
+							<when test="$VisualStudio2017!=''">
+								<execute fileName="$VisualStudio2017" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</when>
+							<when test="$VisualStudio2015!=''">
+								<execute fileName="$VisualStudio2015" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</when>
+							<when test="$VisualStudio2013!=''">
+								<execute fileName="$VisualStudio2013" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</when>
+							<when test="$VisualStudio2012!=''">
+								<execute fileName="$VisualStudio2012" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</when>
+							<otherwise>
+								<execute fileName="$VisualStudio2010" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</otherwise>
+						</choose>
+					</when>
+					<otherwise>
+						<execute fileName="$MSBuild35" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /t:rebuild /verbosity:m /p:Platform=&quot;Any CPU&quot;" mode="wait"/>
+						<load path="$ProjectPath\$AppFolder\bin">
+							<variable name="Compiled" select="//file[@name='WebApp.dll']/@name"/>
+						</load>
+						<choose>
+							<when test="$Compiled!=''">
+								<choose>
+									<when test="$IISExpress='true'">
+										<browse name="$ProjectName" path="$ProjectPath\$AppFolder" port="{a:project/a:webServer/@port}"
+                            framework="{a:project/@targetFramework}"
+                            windowsAuthentication="{a:project/a:membership/@windowsAuthentication}"
+                            relativePath="default.aspx"/>
+									</when>
+									<otherwise>
+
+										<execute fileName="$WebDevWebServer" arguments="/port:{a:project/a:webServer/@port} /path:&quot;$ProjectPath\$AppFolder&quot; /vpath:&quot;/$ProjectName&quot;" mode="nowait"/>
+										<execute fileName="http://localhost:{a:project/a:webServer/@port}/$ProjectName/default.aspx" arguments="-new" mode="nowait"/>
+									</otherwise>
+								</choose>
+							</when>
+							<otherwise>
+								<execute fileName="$VisualStudio2008" arguments="&quot;$ProjectPath\{a:project/a:namespace}.sln&quot; /Run" mode="nowait"/>
+							</otherwise>
+						</choose>
+					</otherwise>
+				</choose>
+				<!--<if test="$Compiled!=''">
+          <execute fileName="http://localhost:{a:project/a:webServer/@port}/$ProjectName/default.aspx" arguments="-new" mode="nowait"/>
+        </if>-->
+			</load>
+		</action>
+		<action name="Publish" toolTip="Publish and deploy the web application.">
+			<navigate url="..\Data Aquarium\DataAquarium.Publish.htm"/>
+			<load path="$LibraryRoot\_Config\CodeOnTime.CodeDom.xml">
+				<variable name="ProjectExtension" select="concat(substring-after(/config:configuration/config:providers/config:provider[@name=/config:configuration/config:providers/@default]/@extension, '.'), 'proj')"/>
+			</load>
+			<load path="DataAquarium.Project.xml">
+				<if test="$PublishMode!=''">
+					<revise/>
+					<variable name="Namespace" select="a:project/a:namespace"/>
+					<variable name="TargetFramework" select="a:project/@targetFramework"/>
+					<variable name="ReportsEnabled" select="a:project/a:reports/@enabled"/>
+					<variable name="PublishPath" select="'$Root\Publish\Web App Factory\$ProjectName\_server'"/>
+					<delete path="$PublishPath"/>
+					<choose>
+						<when test="$TargetFramework='3.5'">
+							<execute fileName="$MSBuild35" arguments="&quot;$ProjectPath\$AppFolder\$AppFolder.$ProjectExtension&quot; &quot;/t:Clean;Build;ResolveReferences;_CopyWebApplication&quot; &quot;/p:OutDir=$PublishPath\Bin\;WebProjectOutputDir=$PublishPath\;Configuration=Release&quot;" mode="wait" />
+						</when>
+						<when test="$MSBuild!=''">
+							<execute fileName="$MSBuild" arguments="&quot;$ProjectPath\$AppFolder\$AppFolder.$ProjectExtension&quot; &quot;/t:Clean;Build;ResolveReferences;_CopyWebApplication&quot; &quot;/p:OutDir=$PublishPath\Bin\;WebProjectOutputDir=$PublishPath\;Configuration=Release&quot;" mode="wait" />
+						</when>
+						<otherwise>
+							<execute fileName="$MSBuild40" arguments="&quot;$ProjectPath\$AppFolder\$AppFolder.$ProjectExtension&quot; &quot;/t:Clean;Build;ResolveReferences;_CopyWebApplication&quot; &quot;/p:OutDir=$PublishPath\Bin\;WebProjectOutputDir=$PublishPath\;Configuration=Release&quot;" mode="wait" />
+						</otherwise>
+					</choose>
+					<if test="$ReportsEnabled='true'">
+						<copy group="ReportViewer" output="$PublishPath\Bin"/>
+					</if>
+					<copy group="ControllerViews" output="$PublishPath\Views"/>
+					<clean path="$PublishPath"/>
+					<message text="backup the published folder"/>
+					<load path="$PublishPath">
+						<forEach select="//file">
+							<copy input="$PublishPath\{@path}" output="$BackupPublishPath\{@path}" silent="true"/>
+						</forEach>
+					</load>
+					<message text="end backup"/>
+					<navigate url="..\Data Aquarium\DataAquarium.Publish.htm?mode=$PublishMode"/>
+				</if>
+			</load>
+		</action>
+	</actions>
+	<settings>
+		<group name="Namespace" text="Source Code and UI" description="Change the source code namespace, .NET Framework, source control, and User Interface of the generated application."/>
+		<group name="Connection" text="Database Connection" description="Configure database connection provider and connection string properties."/>
+		<group name="BLL" text="Business Logic Layer" description="Configure shared business rules, data access objects, relationship discovery, denormalization map, and text label construction."/>
+		<group name="Reports" text="Reporting" description="Enable or disable automatic reports in your application."/>
+		<group name="Membership" text="Authentication and Membership" description="Select authentication and membership options for your application."/>
+		<group name="Features" text="Features" description="Specify global features of the generated baseline application."/>
+		<!--<group name="Layout" text="Layouts" description="Specify the page data view layout preferences. Select simple, tabbed, classic, inline, or stacked layout."/>-->
+		<group name="Theme" text="Theme" description="Change user interface theme."/>
+		<group name="Globalization" text="Globalization and Localization" description="Enter globalization and localization settings of this application."/>
+		<group name="WebServer" text="Client &amp; Server" description="Configure client application and web server runtime configuration."/>
+	</settings>
+</project>

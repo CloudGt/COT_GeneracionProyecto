@@ -1,0 +1,213 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Membership.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^Направи нови рекорд корисника.^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^Нови корисник^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^Ново^ActionBarNewGroupHeaderText^
+
+^BackToRequestPasswordActionHeaderText^Назад^BackToRequestPasswordActionHeaderText^
+
+^Comment^Коментар^Comment^
+
+^ConfirmIdentityActionHeaderText^Завршити^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Потврдите нову лозинку^ConfirmNewPassword^
+
+^ConfirmPassword^Потврдите лозинку^ConfirmPassword^
+
+^CreateDate^Направи Датум^CreateDate^
+
+^CreateFormCommentCategoryDescription^Унесите додатне коментаре о овом корисничком налогу. Коментар није видљив кориснику.^CreateFormCommentCategoryDescription^
+
+^CreateFormCommentCategoryHeaderText^Коментари^CreateFormCommentCategoryHeaderText^
+
+^CreateFormNewUserInfoCategoryDescription^Молимо Вас да унесете корисничко име и лозинку. Имајте на уму да мора лозинка мора имати најмање 7 знакова и укључују један не-алфанумерички знак. Само одобрена корисници ће моћи да се пријавите у веб сајт.^CreateFormNewUserInfoCategoryDescription^
+
+^CreateFormNewUserInfoCategoryHeaderText^Нови Информације о кориснику^CreateFormNewUserInfoCategoryHeaderText^
+
+^CreateFormPasswordRecoveryCategoryDescription^Ова поља су обавезна да помогне кориснику да поврати заборављене лозинке. Током процеса опоравка корисник ће бити затражено да унесете корисничко име. Ако кориснички налог постоји онда безбедносно питање се тражи да се одговори. Тачан одговор ће покренути е-маил са привремену лозинку пошаље кориснику.^CreateFormPasswordRecoveryCategoryDescription^
+
+^CreateFormPasswordRecoveryCategoryHeaderText^Пассворд Рецовери^CreateFormPasswordRecoveryCategoryHeaderText^
+
+^CreateFormRolesCategoryDescription^Молимо Вас да одаберете улога корисника која најближе одговара одговорности корисника. Улоге контролу приступа области овог веб сајта. Молимо Вас да контактирате администратора система ако улогу ограничења приступа мора бити промењена.^CreateFormRolesCategoryDescription^
+
+^CreateFormRolesCategoryHeaderText^Улоге^CreateFormRolesCategoryHeaderText^
+
+^CreateFormViewHeaderText^Молимо Вас да попуните овај формулар и кликните на ОК дугме да бисте креирали нови рекорд корисника чланство. Кликните на дугме Откажи да бисте се вратили на претходни екран.^CreateFormViewHeaderText^
+
+^CreateFormViewLabel^Нови корисник^CreateFormViewLabel^
+
+^CreateViewIsApprovedFieldHeaderText^Овај кориснички налог ће бити креиран као одобрени.^CreateViewIsApprovedFieldHeaderText^
+
+^DuplicateEmail^Дупликат емаил адресу.^DuplicateEmail^
+
+^DuplicateProviderUserKey^Дуплирани кључ провајдера.^DuplicateProviderUserKey^
+
+^DuplicateUserName^Дупликат корисничко име.^DuplicateUserName^
+
+^EditFormActivityStatisticsCategoryDescription^Активност Статистика^EditFormActivityStatisticsCategoryDescription^
+
+^EditFormIsApprovedFieldHeaderText^Овај кориснички налог је одобрен^EditFormIsApprovedFieldHeaderText^
+
+^EditFormLoginStatisticsCategoryDescription^То су статистички подаци пропалих пријавите покушаја овог корисника. <br/> <br/> Корисник ће бити закључане после достизања максималног броја није се пријавите покушаја. <br/> <br/> Закључана се корисници ће моћи да се поново пријавите после датума у ​​пропалим Лозинка Почетак Покушај прозор. <br/> <br/> Корисници који није успео да се опорави лозинка ће бити у могућности да то после датума у ​​пропалим Лозинка одговора Почетак Покушај прозор. <br/> <br/> Можете да вратите способност корисника да се пријавите постављањем блокирани заставу &#39;Не&#39;.^EditFormLoginStatisticsCategoryDescription^
+
+^EditFormLoginStatisticsCategoryHeaderText^Логин Статистика^EditFormLoginStatisticsCategoryHeaderText^
+
+^EditFormPasswordRecoveryCategoryDescription^Током опоравка заборављене лозинке корисник ће бити затражено да унесете корисничко име. Ако кориснички налог постоји онда безбедносно питање се тражи да се одговори. Тачан одговор ће покренути е-маил са привремену лозинку пошаље кориснику. <br/><br/> Промена закључан ван заставу &#39;Не&#39; ако корисник је закључана после достизања максималног броја није се пријавите покушаја и желите да омогућите кориснику да поново пријавити.^EditFormPasswordRecoveryCategoryDescription^
+
+^EditFormPasswordRecoveryCategoryHeaderText^Пассворд Рецовери^EditFormPasswordRecoveryCategoryHeaderText^
+
+^EditFormUserInformationCategoryDescription^Молимо Вас да одаберете улога корисника која најближе одговара одговорности корисника. Улоге контролу приступа области овог веб сајта. Молимо Вас да контактирате администратора система ако улогу ограничења приступа мора бити промењена. <br/> <br/> Унесите додатне коментаре о овом корисничком налогу. Коментар није видљив кориснику.^EditFormUserInformationCategoryDescription^
+
+^EditFormUserInformationCategoryHeaderText^Информације о кориснику^EditFormUserInformationCategoryHeaderText^
+
+^EditFormViewHeaderText^Прегледајте информације о кориснику у наставку чланства. Кликните на Измени да промените ову запис, кликните на дугме Избриши да избришете запис, или на дугме Откажи / Затвори да се врати врати.^EditFormViewHeaderText^
+
+^EditFormViewLabel^Преглед корисника^EditFormViewLabel^
+
+^Email^Е-маил^Email^
+
+^EnterCurrentPassword^Унесите тренутну лозинку.^EnterCurrentPassword^
+
+^EnterPasswordAnswer^Молимо Вас да унесете одговор лозинку.^EnterPasswordAnswer^
+
+^ErrorSavingUser^Грешка приликом чувања кориснички налог.^ErrorSavingUser^
+
+^FailedPasswordAnswerAttemptCount^Није успео лозинку одговора Покушај грофа^FailedPasswordAnswerAttemptCount^
+
+^FailedPasswordAnswerAttemptWindowStart^Није успео покушај одговора Лозинка Прозор Почетак^FailedPasswordAnswerAttemptWindowStart^
+
+^FailedPasswordAttemptCount^Није успео лозинку Покушај грофа^FailedPasswordAttemptCount^
+
+^FailedPasswordAttemptWindowStart^Није успео покушај Лозинка Прозор Почетак^FailedPasswordAttemptWindowStart^
+
+^GridViewHeaderText^Ово је списак евиденције чланства корисника.^GridViewHeaderText^
+
+^GridViewLabel^Сви корисници^GridViewLabel^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Одговорите на следеће питање да прими своју лозинку. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Потврда идентитета^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Молимо Вас да попуните овај формулар и кликните на дугме Пошаљи да се опорави заборављене лозинке. Кликните на дугме Откажи да бисте се вратили на претходни екран.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Пассворд Рецовери: Корак 2 од 2^IdentityConfirmViewLabel^
+
+^InvalidAnswer^Неисправна лозинка опоравак одговор.^InvalidAnswer^
+
+^InvalidEmail^Неисправна е-маил адресу.^InvalidEmail^
+
+^InvalidPassword^Неисправна лозинка.^InvalidPassword^
+
+^InvalidProviderUserKey^Неважећи провајдер корисник тастер.^InvalidProviderUserKey^
+
+^InvalidQuestion^Неисправна лозинка опоравак питање.^InvalidQuestion^
+
+^InvalidUserName^Неважећи корисничко име.^InvalidUserName^
+
+^IsApproved^Је одобрен^IsApproved^
+
+^IsLockedOut^Је закључана Оут^IsLockedOut^
+
+^LastLockoutDate^Последња Лоцкоут Датум^LastLockoutDate^
+
+^LastLoginDate^Последњи Логин Датум^LastLoginDate^
+
+^LastPasswordChangedDate^Последња Лозинка промењена Датум^LastPasswordChangedDate^
+
+^MaskedPasswordAnswer^Лозинка Одговор (не приказује за Вашу заштиту)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Унесите тренутну лозинку да направите нову шифру, ажурирајте своју е-адресу, или да промените лозинку опоравак питање и одговор.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Тренутну лозинку^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Молимо Вас прегледајте своје информације о чланству. Кликните на Ажурирај Мој налог да бисте променили ову евиденцију, или кликните на дугме Откажи да бисте поново врате.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Мој налог^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Молимо Вас да унесете нову лозинку. Имајте на уму да мора лозинка мора имати најмање 7 знакова и укључују један не-алфанумерички знак.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Нову лозинку (опционално)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Током опоравка заборављене лозинке ћете бити затражено да унесете своје корисничко име. Ако кориснички налог постоји онда лозинку питање се мора одговорити. Тачан одговор ће покренути е-маил са привремену лозинку вам послати.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3.. Е-маил &amp; Пассворд Рецовери (опционо)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Нови лозинку^NewPassword^
+
+^NewPasswordAlert^Нова лозинка је послата на адресу на фајл.^NewPasswordAlert^
+
+^NewPasswordAndConfirmatinDoNotMatch^Нова лозинка и потврда се не подударају.^NewPasswordAndConfirmatinDoNotMatch^
+
+^NewPasswordInvalid^Ваша нова лозинка је неважећи.^NewPasswordInvalid^
+
+^NewPasswordSubject^Нову шифру за \&#39;{0} \ &#39;.^NewPasswordSubject^
+
+^OldPassword^Стару лозинку^OldPassword^
+
+^Password^Шифра^Password^
+
+^PasswordAndConfirmationDoNotMatch^Лозинка и потврда се не подударају.^PasswordAndConfirmationDoNotMatch^
+
+^PasswordAnswer^Лозинка одговора^PasswordAnswer^
+
+^PasswordDoesNotMatchRecords^Ваша лозинка не одговара нашу евиденцију.^PasswordDoesNotMatchRecords^
+
+^PasswordFormat^Лозинка формат^PasswordFormat^
+
+^PasswordQuestion^Питање лозинку^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Молимо Вас да унесете корисничко име. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Заборавили сте лозинку?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Молимо Вас да попуните овај формулар и кликните на дугме Настави дугме да се опорави заборављене лозинке. Кликните на дугме Откажи да бисте се вратили на претходни екран.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Пассворд Рецовери: Корак 1 од 2^PasswordRequestViewLabel^
+
+^ProviderError^Провајдер грешка.^ProviderError^
+
+^RequestPasswordActionHeaderText^Следећи^RequestPasswordActionHeaderText^
+
+^Roles^Улоге^Roles^
+
+^SelfRegisteredUser^Само-регистрованих корисника.^SelfRegisteredUser^
+
+^SignUp^Пријавите се^SignUp^
+
+^SignUpViewHeaderText^Молимо Вас да попуните овај формулар и кликните на ОК дугме да се пријавите за налог. Кликните на дугме Откажи да бисте се вратили на претходни екран.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Рачун Пријавите се^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Молимо Вас да унесете корисничко име и лозинку. Имајте на уму да мора лозинка мора имати најмање 7 знакова и укључују један не-алфанумерички знак. Само одобрена корисници ће моћи да се пријавите у веб сајт.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Нови Информације о кориснику^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Ова поља су обавезна да вам помогне да се опорави заборављене лозинке. Током процеса опоравка вас ће се тражити да унесете корисничко име. Ако кориснички налог постоји онда безбедносно питање се тражи да се одговори. Тачан одговор ће покренути е-маил са привремену лозинку послати на регистровану е-маил.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Пассворд Рецовери^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Упдате Мој налог^UpdateMyAccountActionHeaderText^
+
+^UserCannotBeLockedOut^Корисник не може бити затворен. Ако желите да спречите овог корисника од могућности да се пријавите онда једноставно означите корисника као &quot;не-одобрене.^UserCannotBeLockedOut^
+
+^UserHasBeenDeleted^Корисник&#39;{0}&#39; је избрисана.^UserHasBeenDeleted^
+
+^UserName^Корисничко име^UserName^
+
+^UserNameDoesNotExist^Корисничко име не постоји.^UserNameDoesNotExist^
+
+^UserNotFound^Корисник није пронађен.^UserNotFound^
+
+^UserRejected^Корисник је одбијен.^UserRejected^
+
+^UsersInRolesGridHeaderText^Ово је списак докумената чланство корисника који припадају одабраној улогу.^UsersInRolesGridHeaderText^
+
+^UsersInRolesGridLabel^Корисници у улози^UsersInRolesGridLabel^
+

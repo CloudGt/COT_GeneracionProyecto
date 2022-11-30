@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^注释^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0}在 <b>{1}</b> 附加 {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^附件^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^输入可选的说明和附加文件。^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^注释和附件^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} 写在 {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^注释^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^注：附件^AnnotationTab^
+
+^BlobClearConfirm^清楚了吗？^BlobClearConfirm^
+
+^BlobCleared^<b>确认:</b> {0}已被清除。^BlobCleared^
+
+^BlobClearText^清除^BlobClearText^
+
+^BlobUploadError^<b>错误:</b>上传失败{0}。 {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^点击^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^在这里^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^上传文件或清除{0}。^BlobUploadLinkPart3^
+
+^BlobUploded^<b>确认:</b> {0}已经上传成功。 <b>It最多可能需要为缩略图{1}分钟，以反映上传content.</b>^BlobUploded^
+
+^Copyright^保留所有权利。^Copyright^
+
+^RecordChangedByAnotherUser^记录已被更改其他用户。^RecordChangedByAnotherUser^
+

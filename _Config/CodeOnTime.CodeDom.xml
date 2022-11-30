@@ -1,0 +1,18 @@
+<configuration xmlns="http://www.codeontime.com/2008/codedom-configuration">
+  <providers default="CSharp">
+    <provider name="CSharp" title="C#" bracingStyle="C" memberFieldPrefix="_" verbatimOrder="false" extension=".cs" language="C#" autoEventWireup="true" />
+    <provider name="VisualBasic" title="Visual Basic" memberFieldPrefix="m_" verbatimOrder="false" extension=".vb" language="VB" autoEventWireup="true" />
+  </providers>
+  <customFormatters>
+    <formatter extensions=".aspx, .ascx, .master, .asax">
+      <!-- removes any custom namespaces left by xslt transformations-->
+      <regex pattern="\s*xmlns:(?!factory)\w+=&quot;.+?&quot;" replacement="" />
+      <!-- removes any \r\n\t codes from the stylesheet produced files -->
+      <regex pattern="&amp;#xD;&amp;#xA;" replacement="&#xA;" />
+      <regex pattern="&amp;#x9;" replacement="	" />
+      <!-- replace _namespace_ with ":" -->
+      <regex pattern="_namespace_" replacement=":" />
+    </formatter>
+  </customFormatters>
+  <allowInlineCode extensions=".aspx, .ascx, .master, .asax" />
+</configuration>

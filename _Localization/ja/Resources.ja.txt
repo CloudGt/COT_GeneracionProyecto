@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^注釈を付ける^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0}時<b>添付{1}</b>{2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^添付^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^オプションのノートを入力して、ファイルを添付する。^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^注意事項と添付ファイル^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} {1}時に書き込ま^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^ノート^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^ノート^AnnotationTab^
+
+^BlobClearConfirm^クリア？^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0}クリアされている。^BlobCleared^
+
+^BlobClearText^クリア^BlobClearText^
+
+^BlobUploadError^<b>Error :</b>は{0}をアップロードできませんでした。 {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^クリックして^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^ここ^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^{0}のファイルをアップロードまたはクリアする。^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0}正常にアップロードされています。 <b>Itは、アップロードを反映するためにサムネイル用の{1}の数分かかる場合がありますcontent.</b>^BlobUploded^
+
+^Copyright^すべての権利を保有。^Copyright^
+
+^RecordChangedByAnotherUser^レコードが別のユーザーによって変更されました。^RecordChangedByAnotherUser^
+

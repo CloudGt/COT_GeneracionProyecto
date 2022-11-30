@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Ek açıklama^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b> Az bağlı {1}</b>{2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Eklenti^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^İsteğe bağlı notlar girin ve dosya ekleyin.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Notlar ve Ekler^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} {1} Yazılı.^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Notlar^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Notlar^AnnotationTab^
+
+^BlobClearConfirm^Açık mı?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Temizledi olmuştur.^BlobCleared^
+
+^BlobClearText^Açık^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> {0} Yüklemek için başarısız oldu. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Tıklayın^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^burada^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^{0} dosya yüklemek veya silmek için.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Başarıyla yüklendi. <b>It Yüklenen content.{1} yansıtmak için thumbnail </b> dakika kadar sürebilir^BlobUploded^
+
+^Copyright^Tüm hakları saklıdır.^Copyright^
+
+^RecordChangedByAnotherUser^Kayıt başka bir kullanıcı tarafından değiştirildi.^RecordChangedByAnotherUser^
+

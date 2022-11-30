@@ -1,0 +1,21 @@
+﻿*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Account amministratore^AdminDesc^
+
+^SignInHeader^Istruzioni^SignInHeader^
+
+^SignInInstruction^Registrati per accedere al contenuto protetto del sito.^SignInInstruction^
+
+^SignInPara1^Due account utente standard vengono creati automaticamente quando l'applicazione viene inizializzata se avete deciso di utilizzare gli accessi protetti da password.^SignInPara1^
+
+^SignInPara2^Il <b>admin</b> account amministratore è autorizzato ad accedere a tutte le aree del sito web ed è responsabile della gestione di utenti e ruoli. L’ account <b>user</b> standard è autorizzato ad accedere a tutte le aree del sito con l'eccezione di Gestione Utenti e Ruoli.^SignInPara2^
+
+^SignInPara3^Spostare il puntatore del mouse sopra il link a questo <i>Login site</i> web sul lato destro in alto della pagina e accedere con uno degli account elencati di seguito.^SignInPara3^
+
+^UserDesc^Account utente standard^UserDesc^
+

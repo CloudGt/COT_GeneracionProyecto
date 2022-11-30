@@ -1,0 +1,1379 @@
+﻿***********************************************************************************
+This file is not required to execute your application and does not have to be
+deployed to production server.
+
+Code On Time generator uses this file to maintain AJAX Client Library resource 
+strings. Replace the text between localization brackets as needed and 
+re-generate your application. Refresh the browser cache to ensure that the latest 
+client library resource scripts are being used when application starts.
+
+Help us to improve the client library resources. We ask you to kindly contribute
+localized resource files to Code On Time community. 
+
+Simply send the resource files as attachments to customerservice@codeontime.com and 
+we will include your resource file(s) in the general distribution of the code 
+generation library.
+************************************************************************************
+
+^About^Ynglŷn^About^
+
+^Accent^Accent^Accent^
+
+^ActionBarActionsHeaderText^Camau Gweithredu^ActionBarActionsHeaderText^
+
+^ActionBarCancelActionHeaderText^Diddymu^ActionBarCancelActionHeaderText^
+
+^ActionBarCancelWhenEditActionDescription^Diddymu pob newid cofnod.^ActionBarCancelWhenEditActionDescription^
+
+^ActionBarCancelWhenNewActionDescription^Canslo record newydd.^ActionBarCancelWhenNewActionDescription^
+
+^ActionBarInsertActionDescription^Cadw cofnod newydd i&#39;r gronfa ddata.^ActionBarInsertActionDescription^
+
+^ActionBarInsertActionHeaderText^Cadw^ActionBarInsertActionHeaderText^
+
+^ActionBarNewHeaderDescription^Creu cofnod {0} newydd.^ActionBarNewHeaderDescription^
+
+^ActionBarNewHeaderText^Newydd {0}^ActionBarNewHeaderText^
+
+^ActionBarNewHeaderText2^Newydd^ActionBarNewHeaderText2^
+
+^ActionBarRecordHeaderText^Cofnod^ActionBarRecordHeaderText^
+
+^ActionBarReportHeaderText^Adroddiad^ActionBarReportHeaderText^
+
+^ActionBarUpdateActionDescription^Cadw newidiadau i&#39;r gronfa ddata.^ActionBarUpdateActionDescription^
+
+^ActionBarUpdateActionHeaderText^Cadw^ActionBarUpdateActionHeaderText^
+
+^AddAccount^Ychwanegu Cyfrif^AddAccount^
+
+^AddCondition^Ychwanegu Cyflwr^AddCondition^
+
+^AddConditionText^Ychwanegu cyflwr chwilio^AddConditionText^
+
+^AddItem^Ychwanegu Eitem^AddItem^
+
+^AddMatchingGroup^Ychwanegu grŵp cyfateb^AddMatchingGroup^
+
+^AddSearchBarField^Meysydd Chwilio Mwy^AddSearchBarField^
+
+^AddSystemIdentity^Ychwanegu System Hunaniaeth^AddSystemIdentity^
+
+^AddToFavorites^Ychwanegu at ffefrynnau^AddToFavorites^
+
+^AdvancedSearch^Chwilio Manwl^AdvancedSearch^
+
+^AdvancedSearchInstruction^Rhowch amodau y mae&#39;n rhaid eu paru a botwm chwilio wasg.^AdvancedSearchInstruction^
+
+^After^Ar ôl^After^
+
+^Agenda^Agenda^Agenda^
+
+^AlignedLeft^Halinio Chwith^AlignedLeft^
+
+^AlignedRight^Alinio i&#39;r dde^AlignedRight^
+
+^AllDatesInPreriod^Pob Dyddiad mewn Cyfnod^AllDatesInPreriod^
+
+^AlternativeView^Dewiswch barn arall o ddata.^AlternativeView^
+
+^Always^Bob amser^Always^
+
+^AnyValue^(Unrhyw)^AnyValue^
+
+^Apply^Gwneud cais^Apply^
+
+^Apps^apps^Apps^
+
+^Aquarium^Acwariwm^Aquarium^
+
+^Auto^Auto^Auto^
+
+^AutoOpenNextItem^Auto-agor yr eitem nesaf^AutoOpenNextItem^
+
+^AverageOf^Cyfartaledd o^AverageOf^
+
+^AvgAggregate^Cyf: {0}^AvgAggregate^
+
+^AvgAggregateToolTip^Cyfartaledd o {0}^AvgAggregateToolTip^
+
+^Azure^Azure^Azure^
+
+^Back^Dychwelyd^Back^
+
+^BackColor^Lliw Yn ôl^BackColor^
+
+^BatchEditActionHeaderText^Swp Golygu^BatchEditActionHeaderText^
+
+^BatchEdited^{0} wedi&#39;i ddiweddaru^BatchEdited^
+
+^BatchEditInFormActionHeaderText^Golygu Swp (Ffurflen)^BatchEditInFormActionHeaderText^
+
+^BatchUpdate^diweddaru^BatchUpdate^
+
+^Before^Cyn^Before^
+
+^BeginsWith^Dechrau Gyda^BeginsWith^
+
+^Belltown^BELLTOWN^Belltown^
+
+^Berry^Aeron^Berry^
+
+^Between^Rhwng^Between^
+
+^Bittersweet^Chwerwfelys^Bittersweet^
+
+^Blank^Blank^Blank^
+
+^BlankPassword^Ni all fod yn wag Cyfrinair.^BlankPassword^
+
+^BlankUserName^Ni ellir ei enw defnyddiwr wag.^BlankUserName^
+
+^BlankValue^(Gwag)^BlankValue^
+
+^BlobDownloadHint^Cliciwch yma i lawrlwytho&#39;r ffeil wreiddiol.^BlobDownloadHint^
+
+^BlobDownloadLink^llwytho i lawr^BlobDownloadLink^
+
+^BlobDownloadOriginalHint^Tap delwedd i lawrlwytho&#39;r ffeil wreiddiol.^BlobDownloadOriginalHint^
+
+^Blur^Aneglur^Blur^
+
+^Bold^Beiddgar^Bold^
+
+^BooleanFilterText^Hidlau Rhesymegol^BooleanFilterText^
+
+^BooleanIsExpected^Mae gwerth rhesymegol a ddisgwylir.^BooleanIsExpected^
+
+^ButtonShapes^Siâp botwm^ButtonShapes^
+
+^By^gan^By^
+
+^Calendar^Calendr^Calendar^
+
+^Cancel^Diddymu^Cancel^
+
+^Cards^Cardiau^Cards^
+
+^Cay^Cay^Cay^
+
+^ChangeYourLanguage^Newid eich iaith^ChangeYourLanguage^
+
+^Charts^Siartiau^Charts^
+
+^Citrus^Sitrws^Citrus^
+
+^Classic^Classic^Classic^
+
+^ClearFilter^Filter clir gan {0}^ClearFilter^
+
+^ClearFilter2^Hidlo clir^ClearFilter2^
+
+^ClearText^Testun clir^ClearText^
+
+^ClearToolTip^{0} Clir^ClearToolTip^
+
+^Close^Close^Close^
+
+^Comfortable^Cyfforddus^Comfortable^
+
+^Compact^Compact^Compact^
+
+^Condensed^Tew^Condensed^
+
+^ConfirmContinue^Parhau?^ConfirmContinue^
+
+^ConfirmReload^Ail-lwytho?^ConfirmReload^
+
+^ConnectionLost^Mae&#39;r cysylltiad rhwydwaith wedi cael ei golli. Ceisiwch eto?^ConnectionLost^
+
+^Construct^Adeiladu^Construct^
+
+^Contains^Yn cynnwys^Contains^
+
+^Convention^Confensiwn^Convention^
+
+^Copy^Copi^Copy^
+
+^CountAggregate^Cyfrif: {0}^CountAggregate^
+
+^CountAggregateToolTip^Cyfrif o {0}^CountAggregateToolTip^
+
+^CountOf^Cyfrif o^CountOf^
+
+^CreateLink^Creu Link^CreateLink^
+
+^CustomFilterOption^Hidlo ...^CustomFilterOption^
+
+^Cut^Torrwch^Cut^
+
+^DarkKnight^Dark Knight^DarkKnight^
+
+^DarkTheme^Tywyll^DarkTheme^
+
+^DataSheetActionDescription^Dangos eitemau gan ddefnyddio sheet<br/>format data.^DataSheetActionDescription^
+
+^DataSheetActionHeaderText^Dangos mewn Taflen Ddata^DataSheetActionHeaderText^
+
+^DataWarning^Y nifer mwyaf o eitemau i broses yw {0: d}. Cliciwch yma i hidlo&#39;r canlyniad.^DataWarning^
+
+^Date^Dyddiad^Date^
+
+^DateFilterText^Hidlau Dyddiad^DateFilterText^
+
+^DateIsExpected^Mae dyddiad y disgwylir.^DateIsExpected^
+
+^DatesAMinAgo^funud yn ôl^DatesAMinAgo^
+
+^DatesCommaMinute^, {0}m^DatesCommaMinute^
+
+^DatesInAMin^mewn munud^DatesInAMin^
+
+^DatesInHour^mewn awr^DatesInHour^
+
+^DatesInMin^yn min {0}^DatesInMin^
+
+^DatesLast^diwethaf^DatesLast^
+
+^DatesMinAgo^{0} Min yn ôl^DatesMinAgo^
+
+^DatesNext^nesaf^DatesNext^
+
+^DatesNow^yn awr^DatesNow^
+
+^DatesOneHour^awr yn ôl^DatesOneHour^
+
+^DateSortAscending^Cynharaf ar Top^DateSortAscending^
+
+^DateSortDescending^Diweddaraf ar y Top^DateSortDescending^
+
+^DatesSmart^Dyddiadau smart^DatesSmart^
+
+^DatesToday^heddiw^DatesToday^
+
+^DatesTomorrow^yfory^DatesTomorrow^
+
+^DatesYesterday^ddoe^DatesYesterday^
+
+^Day^Dydd^Day^
+
+^DefaultCancelActionHeaderText^Close^DefaultCancelActionHeaderText^
+
+^DefaultCreateViewDescription^Dylech lenwi&#39;r ffurflen hon a chliciwch botwm OK i greu cofnod {0} newydd. Cliciwch Canslo i ddychwelyd i&#39;r sgrin flaenorol.^DefaultCreateViewDescription^
+
+^DefaultEditDescription^Dyma&#39;r meysydd y cofnod {0} y ​​gellir eu golygu.^DefaultEditDescription^
+
+^DefaultEditViewDescription^Os gwelwch yn dda adolygu {0} wybodaeth isod. Cliciwch Golygu i newid y cofnod hwn, cliciwch Dileu i ddileu&#39;r cofnod, neu cliciwch Diddymu / Yn agos i ddychwelyd yn ôl.^DefaultEditViewDescription^
+
+^DefaultGridViewDescription^Mae hon yn rhestr o {0}.^DefaultGridViewDescription^
+
+^DefaultNewDescription^Cwblhewch y ffurflen. Gwnewch yn siŵr i fynd i mewn yr holl feysydd gofynnol.^DefaultNewDescription^
+
+^DefaultOption^Safon^DefaultOption^
+
+^DefaultReferenceDescription^Manylion ychwanegol am {0} yn cael eu darparu yn y wybodaeth gyfeirio adran.^DefaultReferenceDescription^
+
+^Delete^Dileu^Delete^
+
+^DeleteActionConfirmation^Dileu?^DeleteActionConfirmation^
+
+^DeleteActionHeaderText^Dileu^DeleteActionHeaderText^
+
+^Deleted^{$ selected} wedi ei ddileu^Deleted^
+
+^DeleteOriginalSel^dileu&#39;r dewis gwreiddiol^DeleteOriginalSel^
+
+^DeleteSearchBarField^(Dileu)^DeleteSearchBarField^
+
+^DetailsToolTip^Gweld manylion am {0}^DetailsToolTip^
+
+^DevelopExplorer^prosiect Explorer^DevelopExplorer^
+
+^DevelopFormLayout^ffurflen Layout^DevelopFormLayout^
+
+^DevelopFormLayoutInstr^maint sgrîn Dewiswch i gael eu cynnwys yn y cynllun.^DevelopFormLayoutInstr^
+
+^DevelopTools^Offer datblygwr^DevelopTools^
+
+^Device^dyfais^Device^
+
+^DeviceLoginPrompt^Mewngofnodwch i awdurdodi mynediad ar y ddyfais hon.^DeviceLoginPrompt^
+
+^DidNotMatch^Nid oedd yn cyd-fynd^DidNotMatch^
+
+^Directions^Cyfarwyddiadau^Directions^
+
+^DiscardChanges^Gwaredu&#39;r newidiadau?^DiscardChanges^
+
+^DisplayDensity^Arddangos Dwysedd^DisplayDensity^
+
+^DisplayedAbove^Dangos Uchod^DisplayedAbove^
+
+^DisplayedBelow^Dangos Isod^DisplayedBelow^
+
+^Dock^Doc^Dock^
+
+^DoesNotBeginWith^A yw&#39;r Ddim yn Dechrau Gyda^DoesNotBeginWith^
+
+^DoesNotContain^A yw&#39;r Heb Gynnwys^DoesNotContain^
+
+^DoesNotEndWith^A yw&#39;r Ddim yn Diwedd Gyda^DoesNotEndWith^
+
+^DoesNotEqual^A yw&#39;r Ddim yn Cyfartal^DoesNotEqual^
+
+^DoesNotInclude^A yw&#39;r Ddim yn Cynnwys^DoesNotInclude^
+
+^DoNotMatchAll^Yn cyfateb holl amodau^DoNotMatchAll^
+
+^DoNotMatchAllPastTense^Nid oedd yn cyd-fynd yr holl amodau^DoNotMatchAllPastTense^
+
+^DoNotMatchAny^Yn cyfateb i unrhyw amodau^DoNotMatchAny^
+
+^DoNotMatchAnyPastTense^Nid oedd yn cyd-fynd ag unrhyw amodau^DoNotMatchAnyPastTense^
+
+^Download^Lawrlwytho^Download^
+
+^Draw^Tynnu llun^Draw^
+
+^DuplicateActionHeaderText^Dyblyg^DuplicateActionHeaderText^
+
+^DuplicateItem^Eitem Dyblyg^DuplicateItem^
+
+^DuplicateRow^Rownd Dyblyg^DuplicateRow^
+
+^EditActionHeaderText^Golygu^EditActionHeaderText^
+
+^EditItem^Golygu Eitem^EditItem^
+
+^EditModeCancelActionHeaderText^Diddymu^EditModeCancelActionHeaderText^
+
+^EditRow^Golygu Rownd^EditRow^
+
+^Empty^Gwag^Empty^
+
+^EmptyContext^Nid yw camau gweithredu ar gael.^EmptyContext^
+
+^EmptyValue^(Gwag)^EmptyValue^
+
+^Enable^Galluogi^Enable^
+
+^EndsWith^Diwedd Gyda^EndsWith^
+
+^Equals^Equals^Equals^
+
+^Eraser^Rhwbiwr^Eraser^
+
+^Error^gwall^Error^
+
+^Exit^Ymadael^Exit^
+
+^ExitFullscreen^sgrîn lawn ymadael^ExitFullscreen^
+
+^ExportCsvActionDescription^Lawrlwytho eitemau mewn fformat CSV.^ExportCsvActionDescription^
+
+^ExportCsvActionHeaderText^Lawrlwytho^ExportCsvActionHeaderText^
+
+^ExportRowsetActionDescription^Dadansodda eitemau gyda spreadsheet<br/>application.^ExportRowsetActionDescription^
+
+^ExportRowsetActionHeaderText^Allforio i Taenlen^ExportRowsetActionHeaderText^
+
+^ExportRssActionDescription^Eitemau Syndicate â darllenydd RSS.^ExportRssActionDescription^
+
+^ExportRssActionHeaderText^View RSS Feed^ExportRssActionHeaderText^
+
+^Favorites^Ffefrynnau^Favorites^
+
+^Felt^Ffelt^Felt^
+
+^FileCleared^Bydd gwerth yn cael ei glirio wrth arbed^FileCleared^
+
+^FilesBytes^bytes^FilesBytes^
+
+^FilesClear^Clirio^FilesClear^
+
+^FilesClearConfirm^Yn glir?^FilesClearConfirm^
+
+^FilesClick^Cliciwch i ddewis ffeil^FilesClick^
+
+^FilesClickMany^Cliciwch i ddewis ffeiliau^FilesClickMany^
+
+^FilesDrop^Galwch heibio ffeil yma^FilesDrop^
+
+^FilesDropMany^Gollwng ffeiliau yma^FilesDropMany^
+
+^FilesKB^KB^FilesKB^
+
+^FilesMB^KB^FilesMB^
+
+^FilesTap^Tap i ddewis ffeil^FilesTap^
+
+^FilesTapMany^Tap i ddewis ffeiliau^FilesTapMany^
+
+^Filter^Hidlo^Filter^
+
+^FilterApplied^Mae hidlo wedi cael ei gymhwyso.^FilterApplied^
+
+^FilterByField^Dewiswch cae i gymhwyso hidlo i <b>{0}</b>.^FilterByField^
+
+^FilterByOptions^Dewiswch un neu fwy o opsiynau yn y rhestr isod a phwyswch <b>{2}</b> i hidlo <b>{0}</b> gan y cae <b>{1}</b>.^FilterByOptions^
+
+^FilterCleared^Clirio pob hidlydd.^FilterCleared^
+
+^FilterLabelAnd^a^FilterLabelAnd^
+
+^FilterLabelClear^Clir^FilterLabelClear^
+
+^FilterLabelEquals^yn dychwelyd^FilterLabelEquals^
+
+^FilterLabelFilterToolTip^Newid^FilterLabelFilterToolTip^
+
+^FilterLabelIncludes^yn cynnwys^FilterLabelIncludes^
+
+^FilterLabelOr^neu^FilterLabelOr^
+
+^FilterLabelSelectAll^(Dewis Popeth)^FilterLabelSelectAll^
+
+^FilterSiteMap^Map o&#39;r safle Hidlo...^FilterSiteMap^
+
+^Finish^Gorffen^Finish^
+
+^FitToWidth^Fit I Lled^FitToWidth^
+
+^FlatTreeToggle^Newid i Hierarchaeth^FlatTreeToggle^
+
+^FontName^Enw ffont^FontName^
+
+^FontSize^Maint y testun^FontSize^
+
+^ForeColor^Lliw Fore^ForeColor^
+
+^Forget^Anghofiwch^Forget^
+
+^ForgotYourPassword^Wedi anghofio eich cyfrinair?^ForgotYourPassword^
+
+^Format^Fformat^Format^
+
+^Freeze^Rhewi^Freeze^
+
+^From^o^From^
+
+^Fullscreen^Sgrîn Llawn^Fullscreen^
+
+^Future^Yn y Dyfodol^Future^
+
+^GeneralTabText^Cyffredinol^GeneralTabText^
+
+^Generate^Cynhyrchu^Generate^
+
+^GenericNewToolTip^Creu Newydd^GenericNewToolTip^
+
+^GenericSortAscending^Lleiaf ar Top^GenericSortAscending^
+
+^GenericSortDescending^Fwyaf ar y Top^GenericSortDescending^
+
+^Graham^Graham^Graham^
+
+^GrandTotals^Cyfansymiau Grand^GrandTotals^
+
+^Granite^Gwenithfaen^Granite^
+
+^Grapello^Grapello^Grapello^
+
+^Gravity^Disgyrchiant^Gravity^
+
+^GreaterThan^Mwy na^GreaterThan^
+
+^GreateThanOrEqual^Fwy na neu&#39;n hafal^GreateThanOrEqual^
+
+^Grid^Grid^Grid^
+
+^GridActionDescription^Dangos eitemau yn y fformat standard<br/>list.^GridActionDescription^
+
+^GridActionHeaderText^Dangoswch yn View Safon^GridActionHeaderText^
+
+^Group^Grŵp^Group^
+
+^GroupByField^Dewiswch cae i grŵp <b>{0}</b>.^GroupByField^
+
+^Grouped^Wedi&#39;i grwpio^Grouped^
+
+^GroupedBy^Grwpio yn ôl^GroupedBy^
+
+^GroupedDefault^Mae grwpio wedi&#39;i ddileu^GroupedDefault^
+
+^Heading1^Pennawd 1^Heading1^
+
+^Heading2^Pennawd 2^Heading2^
+
+^Heading3^Pennawd 3^Heading3^
+
+^Heading4^Pennawd 4^Heading4^
+
+^Heading5^Pennawd 5^Heading5^
+
+^Heading6^Pennawd 6^Heading6^
+
+^Help^Help^Help^
+
+^HelpClose^Close^HelpClose^
+
+^HelpFullScreen^Sgrîn Lawn^HelpFullScreen^
+
+^Hide^cuddio^Hide^
+
+^HideAdvancedSearch^Cuddio Chwilio Manwl^HideAdvancedSearch^
+
+^HierarchyTreeModeToggle^Newid i Rhestr Fflat^HierarchyTreeModeToggle^
+
+^Highlighter^Uchafbwynt^Highlighter^
+
+^History^Hanes^History^
+
+^HistoryToolTip^Hanes Golygfa o gofnodion a ddewiswyd yn flaenorol^HistoryToolTip^
+
+^HistoryUnavailable^Nid yw Hanes ar gael.^HistoryUnavailable^
+
+^Home^Cartref^Home^
+
+^IdleUser^A ydych yn dal yno? Mewngofnodwch eto.^IdleUser^
+
+^ImportActionDescription^Llwytho CSV, XLS, neu gofnodion XLSX file<br/>to fewnforio.^ImportActionDescription^
+
+^ImportActionHeaderText^Mewnforio O Ffeil^ImportActionHeaderText^
+
+^ImportAutoDetect^(Auto canfod)^ImportAutoDetect^
+
+^ImportComplete^cwblhau^ImportComplete^
+
+^ImportDone^mewnforio cwblhawyd^ImportDone^
+
+^ImportDownloadTemplate^Llwytho ffeil templed mewnforio.^ImportDownloadTemplate^
+
+^ImportDuplicates^Duplicates^ImportDuplicates^
+
+^ImportEmail^Anfonwch y cofnod mewnforio i&#39;r cyfeiriadau e-bost canlynol (dewisol)^ImportEmail^
+
+^ImportEmailNotSpecified^Nid yw sawl sy&#39;n derbyn y cofnod mewnforio wedi ei nodi. Ewch ymlaen ta beth?^ImportEmailNotSpecified^
+
+^ImportExpected^Disgwyl cwblhau^ImportExpected^
+
+^ImportFileStats^Mae cofnodion <b>{0}</b> yn y ffeil <b>{1}</b> yn barod i gael eu prosesu. Os gwelwch yn dda yn cyfateb i&#39;r enwau caeau.^ImportFileStats^
+
+^Importing^mewnforio^Importing^
+
+^ImportMappingInstruction^Mae cofnod <b>{0}</b> (au) yn y <b>{1}</b> ffeil yn barod i&#39;w processed.<br/>Please Map y meysydd mewnforio o ffeil ddata i&#39;r caeau cais a chliciwch <i>Import</i> i ddechrau prosesu.^ImportMappingInstruction^
+
+^ImportNotSupported^Fformat Data o &quot;{0}&quot; Nid yn cael ei gefnogi.^ImportNotSupported^
+
+^ImportProcessing^Prosesu ffeil Mewnforio wedi ei gychwyn. Bydd y fewnforio cofnodion data ar gael ar brosesu llwyddiannus. Efallai y bydd angen i ail osod y farn berthnasol / dudalennau i weld y cofnodion a fewnforiwyd.^ImportProcessing^
+
+^ImportRemaining^Disgwyl cwblhau^ImportRemaining^
+
+^ImportSelectFile^Dewiswch ffeil ddata yn CSV, XLS, XLSX neu fformat.^ImportSelectFile^
+
+^ImportStartButton^Mewnforio^ImportStartButton^
+
+^ImportUploading^Mae eich ffeil yn cael ei llwytho i fyny i&#39;r gweinydd. Arhoswch ...^ImportUploading^
+
+^ImportUploadInstruction^Dewiswch y ffeil i&#39;w llwytho. Rhaid i&#39;r ffeil gael yn <b>CSV</b>, <b>XLS</b>, neu <b>XLSX</b> fformat.^ImportUploadInstruction^
+
+^In^mewn^In^
+
+^Includes^Yn cynnwys^Includes^
+
+^Indent^Mewnoliad^Indent^
+
+^InfoBarAnd^a^InfoBarAnd^
+
+^InfoBarEmpty^gwag^InfoBarEmpty^
+
+^InfoBarEqualTo^yn hafal i^InfoBarEqualTo^
+
+^InfoBarGreaterThan^yn fwy na^InfoBarGreaterThan^
+
+^InfoBarGreaterThanOrEqual^yn fwy na neu&#39;n hafal i^InfoBarGreaterThanOrEqual^
+
+^InfoBarLessThan^yn llai na^InfoBarLessThan^
+
+^InfoBarLessThanOrEqual^yn llai na neu&#39;n hafal i^InfoBarLessThanOrEqual^
+
+^InfoBarLike^yn debyg^InfoBarLike^
+
+^InfoBarOr^neu^InfoBarOr^
+
+^InfoBarQuickFind^Unrhyw faes yn cynnwys^InfoBarQuickFind^
+
+^InfoBarStartsWith^yn dechrau gyda^InfoBarStartsWith^
+
+^InitialListMode^Modd Rhestr cychwynnol^InitialListMode^
+
+^InlineEditing^Golygu Mewnol^InlineEditing^
+
+^InsertActionHeaderText^OK^InsertActionHeaderText^
+
+^InsertHorizontalRule^Mewnosod Rheol llorweddol^InsertHorizontalRule^
+
+^InsertingRecords^mewnosod cofnodion^InsertingRecords^
+
+^InsertOrderedList^Mewnosod Rhestr Archebir yn ôl^InsertOrderedList^
+
+^InsertUnorderedList^Mewnosod Rhestr heb drefn^InsertUnorderedList^
+
+^Into^i mewn i^Into^
+
+^InvalidUserNameAndPassword^Nid yw eich enw defnyddiwr a chyfrinair yn ddilys.^InvalidUserNameAndPassword^
+
+^Italic^Italig^Italic^
+
+^ItemsPerPage^Eitemau fesul tudalen:^ItemsPerPage^
+
+^ItemsSelectedMany^{0} Eitemau a ddewiswyd^ItemsSelectedMany^
+
+^ItemsSelectedOne^{0} Eitem dewisiedig^ItemsSelectedOne^
+
+^JustDatesNow^Dim ond yn awr^JustDatesNow^
+
+^JustifyCenter^Cyfiawnhau&#39;r Center^JustifyCenter^
+
+^JustifyFull^Cyfiawnhewch Llawn^JustifyFull^
+
+^JustifyLeft^Cyfiawnhewch chwith^JustifyLeft^
+
+^JustifyRight^Cyfiawnhewch Hawl^JustifyRight^
+
+^KeepOriginalSel^cadwch y dewis gwreiddiol^KeepOriginalSel^
+
+^LabelsInList^Labeli Yn Rhestr^LabelsInList^
+
+^Lacquer^Lacr^Lacquer^
+
+^Laminate^Laminedig^Laminate^
+
+^Landscape^Tirwedd^Landscape^
+
+^Large^Mawr^Large^
+
+^LastMonth^Mis Diwethaf^LastMonth^
+
+^LastQuarter^Chwarter Olaf^LastQuarter^
+
+^LastWeek^Wythnos diwethaf^LastWeek^
+
+^LastYear^Llynedd^LastYear^
+
+^Less^Llai^Less^
+
+^LessThan^Llai na^LessThan^
+
+^LessThanOrEqual^Llai na neu&#39;n hafal^LessThanOrEqual^
+
+^Lichen^Cen^Lichen^
+
+^LightTheme^Golau^LightTheme^
+
+^Line^llinell^Line^
+
+^List^Rhestr^List^
+
+^ListOneColumn^Rhestr (One Colofn)^ListOneColumn^
+
+^ListViewStyle^Rhestr^ListViewStyle^
+
+^Loading^Loading ...^Loading^
+
+^Logical^Rhesymegol^Logical^
+
+^LoginButton^Mewngofnodi^LoginButton^
+
+^LoginLink^Mewngofnodi^LoginLink^
+
+^Logout^Allgofnodi^Logout^
+
+^LookupInstruction^Dewiswch <b>{0}</b> yn y rhestr.^LookupInstruction^
+
+^LookupOriginalSelection^Mae&#39;r dewis gwreiddiol <b>&quot;{0}&quot;</b>.^LookupOriginalSelection^
+
+^ManageAccounts^rheoli Cyfrifon^ManageAccounts^
+
+^Map^Map^Map^
+
+^MatchAll^Cydweddu pob amodau^MatchAll^
+
+^MatchAllPastTense^Cyfatebol holl amodau^MatchAllPastTense^
+
+^MatchAny^Cydweddu unrhyw amodau^MatchAny^
+
+^MatchAnyPastTense^Cyfatebol unrhyw amodau^MatchAnyPastTense^
+
+^Matched^Cyfatebol^Matched^
+
+^MaxAggregate^Max: {0}^MaxAggregate^
+
+^MaxAggregateToolTip^Uchafswm o {0}^MaxAggregateToolTip^
+
+^Maximize^Expand^Maximize^
+
+^MaximumOf^Uchafswm o^MaximumOf^
+
+^Medium^Canolig^Medium^
+
+^Menu^Dewislen^Menu^
+
+^MinAggregate^Min: {0}^MinAggregate^
+
+^MinAggregateToolTip^Isafswm o {0}^MinAggregateToolTip^
+
+^Minimize^Collapse^Minimize^
+
+^MinimumOf^O leiaf^MinimumOf^
+
+^Mission^Cenhadaeth^Mission^
+
+^ModeBrowsing^Yn pori^ModeBrowsing^
+
+^ModeEditing^Golygu^ModeEditing^
+
+^ModeEntering^Mynd i mewn^ModeEntering^
+
+^ModeLookup^Am-edrych^ModeLookup^
+
+^Modern^Modern^Modern^
+
+^ModernRose^Rose Modern^ModernRose^
+
+^ModeViewing^Gwylio^ModeViewing^
+
+^Month^Mis^Month^
+
+^More^Mwy^More^
+
+^MultiSelection^Dewis aml^MultiSelection^
+
+^Municipal^Bwrdeistrefol^Municipal^
+
+^MyAccount^Fy Nghyfrif^MyAccount^
+
+^Never^Peidiwch byth â^Never^
+
+^NewActionHeaderText^Newydd^NewActionHeaderText^
+
+^NewItem^Eitem Newydd^NewItem^
+
+^NewRow^Row Newydd^NewRow^
+
+^NewRowLink^Cliciwch yma i greu cofnod newydd.^NewRowLink^
+
+^NewToolTip^Newydd {0}^NewToolTip^
+
+^Next^Nesaf^Next^
+
+^Next2^Nesaf^Next2^
+
+^NextMonth^Mis nesaf^NextMonth^
+
+^NextQuarter^Chwarter Nesaf^NextQuarter^
+
+^NextWeek^Wythnos Nesaf^NextWeek^
+
+^NextYear^Blwyddyn Nesaf^NextYear^
+
+^No^Dim^No^
+
+^NoMatches^Dim canlyniadau sy&#39;n cyfateb.^NoMatches^
+
+^None^Dim^None^
+
+^Noon^Hanner dydd^Noon^
+
+^NoRecords^Ni ddarganfuwyd unrhyw gofnod.^NoRecords^
+
+^NoteDeleteConfirm^Dileu?^NoteDeleteConfirm^
+
+^NoteDeleteLabel^dileu^NoteDeleteLabel^
+
+^NoteEditLabel^golygu^NoteEditLabel^
+
+^NotEmpty^Nid yw Gwag^NotEmpty^
+
+^NotMatched^(Ddim yn cyfateb)^NotMatched^
+
+^NullValue^n/a^NullValue^
+
+^NullValueInForms^N/A^NullValueInForms^
+
+^Number^Nifer^Number^
+
+^NumberFilterText^Hidlau Rhif^NumberFilterText^
+
+^NumberIsExpected^Mae nifer a ddisgwylir.^NumberIsExpected^
+
+^OdpCommitting^Llwytho trafodion i fyny ...^OdpCommitting^
+
+^OdpDone^Wedi&#39;i wneud.^OdpDone^
+
+^OdpDownloadingBlob^Dadlwytho data deuaidd ar gyfer {0}….^OdpDownloadingBlob^
+
+^OdpDownloadingData^Dadlwytho data ar gyfer {0}….^OdpDownloadingData^
+
+^OdpInitializing^Yn cychwyn ...^OdpInitializing^
+
+^OdpInvalidResponse^Ymateb annilys gan y gweinydd.^OdpInvalidResponse^
+
+^OdpLastRefresh^Adnewyddu olaf: {0}.^OdpLastRefresh^
+
+^OdpNotRefreshed^Nid yw&#39;r data wedi&#39;i adnewyddu.^OdpNotRefreshed^
+
+^OdpOfflineState^Rydych chi&#39;n gweithio yn y modd all-lein.^OdpOfflineState^
+
+^OdpOnlineRequired^Mae angen cysylltiad ar-lein.^OdpOnlineRequired^
+
+^OdpPending^Newidiadau sydd ar ddod^OdpPending^
+
+^OdpReconRequired^Mae angen cysoni^OdpReconRequired^
+
+^OdpReconTxDelete^Dileu&#39;r newid hwn o&#39;r log?^OdpReconTxDelete^
+
+^OdpReconTxDeleted^Wedi&#39;i ddileu trafodiad cyntaf yn yr arfaeth yn y log.^OdpReconTxDeleted^
+
+^OdpRefresh^Adnewyddu Data^OdpRefresh^
+
+^OdpRefreshData^Adnewyddu Data^OdpRefreshData^
+
+^OdpRefreshLast^Adnewyddu Data^OdpRefreshLast^
+
+^OdpSave^Os gwelwch yn dda arbed pob newid.^OdpSave^
+
+^OdpSaveAndSync^Cadwch yr holl newidiadau a dewiswch opsiwn Cydamseru yn y ddewislen cyd-destun.^OdpSaveAndSync^
+
+^OdpServerUnavailable^Nid yw&#39;r gweinydd cais ar gael.^OdpServerUnavailable^
+
+^OdpStatus^Statws^OdpStatus^
+
+^OdpSync^Cydamseru^OdpSync^
+
+^OdpSynced^Cydamserol^OdpSynced^
+
+^OdpSyncLast^Sync Diwethaf^OdpSyncLast^
+
+^OdpSyncLong^Cydamseru i uwchlwytho newidiadau.^OdpSyncLong^
+
+^OdpSyncUploadFailed^Wedi methu uwchlwytho ffeiliau {0}.^OdpSyncUploadFailed^
+
+^OdpSyncUploadingFiles^Llwytho {0} ...^OdpSyncUploadingFiles^
+
+^OdpUnableToDelete^Methu dileu. {1} eitemau dibynnol yn {0}.^OdpUnableToDelete^
+
+^OdpUnableToExec^Methu gweithredu.^OdpUnableToExec^
+
+^OdpUnableToProcess^Methu prosesu trafodion.^OdpUnableToProcess^
+
+^OdpUnableToSave^Methu arbed newidiadau.^OdpUnableToSave^
+
+^OdpUploadFailed^Wedi methu uwchlwytho ffeiliau.^OdpUploadFailed^
+
+^OdpUploadingFiles^Llwytho ffeiliau {0} i fyny ...^OdpUploadingFiles^
+
+^OK^OK^OK^
+
+^OnHover^ar hofran^OnHover^
+
+^OnOrAfter^Ar neu ar ôl^OnOrAfter^
+
+^OnOrBefore^Ar neu cyn^OnOrBefore^
+
+^OpenActionHeaderText^Agored^OpenActionHeaderText^
+
+^Optional^dewisol^Optional^
+
+^Orientation^cyfeiriadedd^Orientation^
+
+^Other^Arall^Other^
+
+^Outdent^Outdent^Outdent^
+
+^Page^Tudalen^Page^
+
+^Paragraph^Paragraff^Paragraph^
+
+^Password^Cyfrinair^Password^
+
+^Past^Gorffennol^Past^
+
+^Paste^Gludo^Paste^
+
+^Pen^Pen^Pen^
+
+^PerformAdvancedSearch^Chwilio^PerformAdvancedSearch^
+
+^Permalink^Permalink^Permalink^
+
+^PermalinkToolTip^Creu cyswllt parhaol ar gyfer cofnodi a ddewiswyd^PermalinkToolTip^
+
+^PermalinkUnavailable^Permalink Nid yw ar gael. Dewiswch cofnod.^PermalinkUnavailable^
+
+^Petal^Petal^Petal^
+
+^Pinnate^Pinnate^Pinnate^
+
+^Plastic^Plastig^Plastic^
+
+^Portrait^Portread^Portrait^
+
+^PresentationStyle^Dewiswch arddull gyflwyno data.^PresentationStyle^
+
+^Prev2^Blaenorol^Prev2^
+
+^Previous^Blaenorol^Previous^
+
+^PromoteActions^Hyrwyddo Camau Gweithredu^PromoteActions^
+
+^Q1^C1^Q1^
+
+^Q2^C2^Q2^
+
+^Q3^C3^Q3^
+
+^Q4^C4^Q4^
+
+^Quarter^Chwarter^Quarter^
+
+^Quarter1^Chwarter 1^Quarter1^
+
+^Quarter2^Chwarter 2^Quarter2^
+
+^Quarter3^Chwarter 3^Quarter3^
+
+^Quarter4^Chwarter 4^Quarter4^
+
+^QuickFindDescription^Chwilio yn {0}^QuickFindDescription^
+
+^QuickFindScope^Chwilio yn ...^QuickFindScope^
+
+^QuickFindText^Dod o hyd i Cyflym^QuickFindText^
+
+^QuickFindToolTip^Teipiwch i chwilio&#39;r cofnodion a gwasgwch Enter^QuickFindToolTip^
+
+^Quotation^Dyfyniad^Quotation^
+
+^Reading^Darllen ...^Reading^
+
+^ReadingPane^Pane Darllen^ReadingPane^
+
+^ReadOnly^{0} yn ddarllen yn unig.^ReadOnly^
+
+^Recent^Diweddar^Recent^
+
+^Redo^Ail-wneud^Redo^
+
+^Refresh^Adnewyddu^Refresh^
+
+^Refreshed^Adnewyddwyd^Refreshed^
+
+^RememberMe^Cofiwch fi tro nesaf^RememberMe^
+
+^RemoveCondition^Dileu Amod^RemoveCondition^
+
+^RemoveFormat^Tynnu Fformat^RemoveFormat^
+
+^ReportActionDescription^Rendr adroddiad ar ffurf PDF^ReportActionDescription^
+
+^ReportActionHeaderText^Adroddiad^ReportActionHeaderText^
+
+^ReportAsExcelActionDescription^Gweld eitemau mewn taenlen Excel formatted<br/>Microsoft.^ReportAsExcelActionDescription^
+
+^ReportAsExcelActionHeaderText^Taenlen^ReportAsExcelActionHeaderText^
+
+^ReportAsImageActionDescription^Gweld eitemau fel delwedd TIFF Multipage.^ReportAsImageActionDescription^
+
+^ReportAsImageActionHeaderText^Multipage Delwedd^ReportAsImageActionHeaderText^
+
+^ReportAsPdfActionDescription^Gweld eitemau fel Adobe PDF document.<br/>Requires darllenydd gydnaws.^ReportAsPdfActionDescription^
+
+^ReportAsPdfActionHeaderText^PDF Document^ReportAsPdfActionHeaderText^
+
+^ReportAsWordActionDescription^Gweld eitemau mewn dogfen Word formatted<br/>Microsoft.^ReportAsWordActionDescription^
+
+^ReportAsWordActionHeaderText^Microsoft Word^ReportAsWordActionHeaderText^
+
+^Required^Angenrheidiol^Required^
+
+^RequiredField^Mae&#39;r maes hwn yn ofynnol.^RequiredField^
+
+^RequiredFiledMarkerFootNote^indicates a required field^RequiredFiledMarkerFootNote^
+
+^ResetAdvancedSearch^Ailosod^ResetAdvancedSearch^
+
+^ResetSearchConfirm^Ailosod amodau chwilio?^ResetSearchConfirm^
+
+^ResolvingReferences^datrys cyfeiriadau^ResolvingReferences^
+
+^ResumeBrowsing^Ail-ddechrau pori^ResumeBrowsing^
+
+^ResumeEditing^Ail-ddechrau Golygu^ResumeEditing^
+
+^ResumeEntering^Ail-ddechrau Mynd i mewn^ResumeEntering^
+
+^ResumeLookup^Ail-ddechrau-edrych^ResumeLookup^
+
+^ResumeViewing^Ail-ddechrau Gwylio^ResumeViewing^
+
+^Ricasso^Ricasso^Ricasso^
+
+^RolesTab^Rolau^RolesTab^
+
+^RootNodeText^Lefel Uchaf^RootNodeText^
+
+^Rotate^Cylchdroi^Rotate^
+
+^RowCancelActionHeaderText^Diddymu^RowCancelActionHeaderText^
+
+^RowInsertActionHeaderText^Mewnosod^RowInsertActionHeaderText^
+
+^RowUpdateActionHeaderText^Cadw^RowUpdateActionHeaderText^
+
+^RowUpdateWhenBatchEditActionConfirmation^Diweddariad?^RowUpdateWhenBatchEditActionConfirmation^
+
+^RowUpdateWhenBatchEditActionHeaderText^Diweddariad Dewis^RowUpdateWhenBatchEditActionHeaderText^
+
+^Save^Cadw^Save^
+
+^SaveAndContinue^Arbed a Parhau^SaveAndContinue^
+
+^SaveAndNew^Cadw a Newydd^SaveAndNew^
+
+^Saved^Wedi&#39;i Cadw - {0}^Saved^
+
+^ScanToConfirm^Sganiwch eto i gadarnhau.^ScanToConfirm^
+
+^SeeAll^Gweld yr Holl^SeeAll^
+
+^SeeAlso^Gweler Hefyd^SeeAlso^
+
+^SelectActionHeaderText^Dewis^SelectActionHeaderText^
+
+^SelectAll^Dewis Popeth^SelectAll^
+
+^SelectItem^Dewiswch Eitem^SelectItem^
+
+^SelectLink^(Dewiswch)^SelectLink^
+
+^SelectRow^Dewiswch Row^SelectRow^
+
+^SelectToolTip^Dewiswch {0}^SelectToolTip^
+
+^Separator^Gwahanydd^Separator^
+
+^Settings^Gosodiadau^Settings^
+
+^Show^Dangos^Show^
+
+^ShowAdvancedSearch^Dangos Chwilio Manwl^ShowAdvancedSearch^
+
+^ShowChart^Dangos Siart^ShowChart^
+
+^ShowData^Dangos Data^ShowData^
+
+^ShowingItems^Dangos <b>{0}</b> <b>{1}</b>-o eitemau <b>{2}</b>^ShowingItems^
+
+^ShowingItemsInfo^Yn dangos eitemau {0}.^ShowingItemsInfo^
+
+^ShowingItemsRange^Yn dangos {0} {1} o eitemau^ShowingItemsRange^
+
+^ShowLess^Dangos Llai^ShowLess^
+
+^ShowMore^dangos mwy^ShowMore^
+
+^ShowOptions^Dangos Opsiynau^ShowOptions^
+
+^ShowSystemButtons^Botymau Dangos System^ShowSystemButtons^
+
+^Sidebar^Sidebar^Sidebar^
+
+^Sign^Cofrestrwch yma^Sign^
+
+^SignedOut^Llofnodwyd Out^SignedOut^
+
+^SignUpNow^Cofrestrwch nawr^SignUpNow^
+
+^Simple^Syml^Simple^
+
+^SiteActions^Camau Gweithredu Safle^SiteActions^
+
+^SizeLabel^Maint^SizeLabel^
+
+^Small^Bach^Small^
+
+^Social^Cymdeithasol^Social^
+
+^Sort^Trefnu^Sort^
+
+^SortBy^Trefnu yn ôl {0}^SortBy^
+
+^SortByField^Dewiswch cae i newid trefn math o <b>{0}</b>.^SortByField^
+
+^SortByOptions^Dewiswch y gorchymyn math o <b>{0}</b> gan y cae <b>{1}</b> yn y rhestr o opsiynau isod.^SortByOptions^
+
+^Sorted^Wedi&#39;i ddosbarthu^Sorted^
+
+^SortedDefault^Gorchymyn didoli diofyn.^SortedDefault^
+
+^StartImport^Mewnforio Start^StartImport^
+
+^StrikeThrough^Streic Trwy^StrikeThrough^
+
+^StringSortAscending^Esgynnol^StringSortAscending^
+
+^StringSortDescending^Disgynnol^StringSortDescending^
+
+^Submit^Cyflwyno^Submit^
+
+^Subscript^Is-Script^Subscript^
+
+^Suggestions^Awgrymiadau^Suggestions^
+
+^SumAggregate^Swm: {0}^SumAggregate^
+
+^SumAggregateToolTip^Swm o {0}^SumAggregateToolTip^
+
+^Summary^Crynodeb^Summary^
+
+^Summer^Haf^Summer^
+
+^SumOf^Swm o^SumOf^
+
+^Superscript^Super Script^Superscript^
+
+^Sync^Sync^Sync^
+
+^TaskResume^Ailddechrau^TaskResume^
+
+^Tasks^Tasgau^Tasks^
+
+^TelHints1^ ^TelHints1^
+
+^TelHints2^abc^TelHints2^
+
+^TelHints3^def^TelHints3^
+
+^TelHints4^ghi^TelHints4^
+
+^TelHints5^jkl^TelHints5^
+
+^TelHints6^mno^TelHints6^
+
+^TelHints7^pqrs^TelHints7^
+
+^TelHints8^tuv^TelHints8^
+
+^TelHints9^wxyz^TelHints9^
+
+^TestingRecords^cofnodion profi^TestingRecords^
+
+^Text^Testun^Text^
+
+^TextFilterText^Testun Hidlau^TextFilterText^
+
+^Theme^Thema^Theme^
+
+^ThisMonth^Mae hyn yn Mis^ThisMonth^
+
+^ThisQuarter^Mae hyn yn Chwarter^ThisQuarter^
+
+^ThisWeek^Yr Wythnos Hon^ThisWeek^
+
+^ThisYear^Mae hyn yn Blwyddyn^ThisYear^
+
+^Tiny^Tiny^Tiny^
+
+^Today^Heddiw^Today^
+
+^Tomorrow^Yfory^Tomorrow^
+
+^Top^top^Top^
+
+^ToThisWebsite^i&#39;r wefan hon^ToThisWebsite^
+
+^TouchUINotSupported^Nid Touch UI ei gefnogi yn y porwr hwn.^TouchUINotSupported^
+
+^TransitionFade^Pylu^TransitionFade^
+
+^TransitionFlip^Flip^TransitionFlip^
+
+^TransitionFlow^Llif^TransitionFlow^
+
+^TransitionNone^Dim^TransitionNone^
+
+^TransitionPop^Pop^TransitionPop^
+
+^Transitions^Trawsnewidiadau^Transitions^
+
+^TransitionSlide^Slide^TransitionSlide^
+
+^TransitionSlideDown^Sleid Down^TransitionSlideDown^
+
+^TransitionSlideUp^Sleid Up^TransitionSlideUp^
+
+^TransitionTurn^Trowch i&#39;r^TransitionTurn^
+
+^TreeActionDescription^Arddangos perthynas hierarchaidd.^TreeActionDescription^
+
+^TreeActionHeaderText^Dangos Hierarchaeth^TreeActionHeaderText^
+
+^TwoFaActionsGetVerificationCode^Cael Cod Gwirio^TwoFaActionsGetVerificationCode^
+
+^TwoFaAuthenticatorApp^Ap Dilysydd^TwoFaAuthenticatorApp^
+
+^TwoFaBackupCodeFooter^Os na allwch ddarparu&#39;r cod dilysu, yna nodwch y cod wrth gefn yn lle.^TwoFaBackupCodeFooter^
+
+^TwoFaBackupCodePlaceholder^cod un-amser^TwoFaBackupCodePlaceholder^
+
+^TwoFaBackupCodeText^Cod wrth gefn^TwoFaBackupCodeText^
+
+^TwoFaCodeSentCall^Rhoddwyd galwad i^TwoFaCodeSentCall^
+
+^TwoFaCodeSentEmail^Anfonwyd e-bost at^TwoFaCodeSentEmail^
+
+^TwoFaCodeSentSms^Anfonwyd neges destun at^TwoFaCodeSentSms^
+
+^TwoFaConsent^Cydsyniad^TwoFaConsent^
+
+^TwoFaEnterPassword^Rhowch eich cyfrinair^TwoFaEnterPassword^
+
+^TwoFaGetCodeCall^Ffoniwch fi yn^TwoFaGetCodeCall^
+
+^TwoFaGetCodeDial^Byddaf yn galw^TwoFaGetCodeDial^
+
+^TwoFaGetCodeEmail^E-bostiwch fi i^TwoFaGetCodeEmail^
+
+^TwoFaGetCodeSms^Tecstiwch ataf yn^TwoFaGetCodeSms^
+
+^TwoFaMethod^Dull^TwoFaMethod^
+
+^TwoFaMsgChanged^Mae Dilysiad 2-ffactor wedi&#39;i newid.^TwoFaMsgChanged^
+
+^TwoFaMsgDisabled^Mae Dilysiad 2-ffactor wedi&#39;i anablu.^TwoFaMsgDisabled^
+
+^TwoFaMsgDisableQuestion^Analluogi dilyswr dau ffactor?^TwoFaMsgDisableQuestion^
+
+^TwoFaMsgEnabled^Mae Dilysiad 2-ffactor wedi&#39;i alluogi.^TwoFaMsgEnabled^
+
+^TwoFaMsgEnterCode^Rhowch y cod dilysu 6 digid.^TwoFaMsgEnterCode^
+
+^TwoFaMsgInvalidPassword^Cyfrinair annilys.^TwoFaMsgInvalidPassword^
+
+^TwoFaMsgInvalidVerificationCode^Cod dilysu annilys.^TwoFaMsgInvalidVerificationCode^
+
+^TwoFaMsgYourCode^000000 yw eich cod gwirio {0}.^TwoFaMsgYourCode^
+
+^TwoFaSetupAppConfigEnterSetupKey^Gallaf sganio&#39;r cod QR.^TwoFaSetupAppConfigEnterSetupKey^
+
+^TwoFaSetupAppConfigInstallApp^Dwi angen help i osod app dilyswr.^TwoFaSetupAppConfigInstallApp^
+
+^TwoFaSetupAppConfigScanQrCode^Mae gen i ap dilyswr ar ddyfais symudol.^TwoFaSetupAppConfigScanQrCode^
+
+^TwoFaSetupBackupCodesFooter^Bydd y codau wrth gefn defnydd un-amser yn caniatáu ichi fewngofnodi os na allwch ddarparu cod dilysu.^TwoFaSetupBackupCodesFooter^
+
+^TwoFaSetupBackupCodesText^Codau wrth gefn^TwoFaSetupBackupCodesText^
+
+^TwoFaSetupConsent^Byddaf yn nodi cod gwirio ar ôl mewngofnodi&#39;n llwyddiannus.^TwoFaSetupConsent^
+
+^TwoFaSetupEnterSetupKey^Rhowch yr allwedd setup yn yr app^TwoFaSetupEnterSetupKey^
+
+^TwoFaSetupMethods^Dulliau Gwirio^TwoFaSetupMethods^
+
+^TwoFaSetupScanAppQrCode^Sganiwch y cod QR gyda&#39;r camera^TwoFaSetupScanAppQrCode^
+
+^TwoFaSetupScanQrCode^Sganiwch y cod QR yn yr app^TwoFaSetupScanQrCode^
+
+^TwoFaText^Dilysiad 2-ffactor^TwoFaText^
+
+^TwoFaTrustThisDevice^Ymddiried yn y ddyfais hon^TwoFaTrustThisDevice^
+
+^TwoFaVerificationCode^Cod Gwirio^TwoFaVerificationCode^
+
+^TwoFaVerifyViaApp^Byddaf yn defnyddio ap dilyswr i gael y cod dilysu.^TwoFaVerifyViaApp^
+
+^TwoFaVerifyViaCall^Byddaf yn derbyn galwad awtomataidd ar fy ffôn.^TwoFaVerifyViaCall^
+
+^TwoFaVerifyViaEmail^Bydd y cod dilysu yn cael ei ddanfon trwy e-bost.^TwoFaVerifyViaEmail^
+
+^TwoFaVerifyViaSms^Bydd y cod dilysu yn cael ei gyflwyno trwy neges destun.^TwoFaVerifyViaSms^
+
+^TypeToSearch^Teipiwch i Chwilio^TypeToSearch^
+
+^Underline^Tanlinellwch^Underline^
+
+^Undo^Dadwneud^Undo^
+
+^Undock^Datgysylltu^Undock^
+
+^Unfreeze^Ddadrewi^Unfreeze^
+
+^UnGrouped^Mae grwpio wedi&#39;i ddileu^UnGrouped^
+
+^UnLink^Dadgysylltu^UnLink^
+
+^UnSelect^Dad-ddewis^UnSelect^
+
+^UpdateActionHeaderText^OK^UpdateActionHeaderText^
+
+^UpdateActionInBatchModeConfirmation^Diweddariad?^UpdateActionInBatchModeConfirmation^
+
+^UpdateActionInBatchModeHeaderText^Diweddariad Dewis^UpdateActionInBatchModeHeaderText^
+
+^Upload^Llwythiad i fyny^Upload^
+
+^UploadDescription^Llwythwch i fyny ffeiliau lluosog.^UploadDescription^
+
+^Uploading^Llwytho {0}….^Uploading^
+
+^UpOneLevel^I fyny un lefel^UpOneLevel^
+
+^UseLEV^Gludo &quot;{0}&quot;^UseLEV^
+
+^UserName^Enw Defnyddiwr^UserName^
+
+^UsersInRole^Defnyddwyr mewn Rôl^UsersInRole^
+
+^UsersTab^Defnyddwyr^UsersTab^
+
+^Vantage^Vantage^Vantage^
+
+^Verdant^Verdant^Verdant^
+
+^Verify^Gwirio^Verify^
+
+^View^View^View^
+
+^Viewpoint^Viewpoint^Viewpoint^
+
+^Wait^Arhoswch os gwelwch yn dda...^Wait^
+
+^Week^Wythnos^Week^
+
+^Welcome1^Croeso^Welcome1^
+
+^Welcome2^Mae heddiw yn^Welcome2^
+
+^WhiteSmoke^Mwg gwyn^WhiteSmoke^
+
+^WithSelectedValues10^Gyda Gwerthoedd Dethol (10)^WithSelectedValues10^
+
+^WithSelectedValues5^Gyda Gwerthoedd Dethol (Top 5)^WithSelectedValues5^
+
+^WithSpecifiedFilters^Gyda Hidlau Penodedig^WithSpecifiedFilters^
+
+^Year^Blwyddyn^Year^
+
+^YearToDate^Flwyddyn Hyd Yma^YearToDate^
+
+^Yes^Ydy^Yes^
+
+^Yesterday^Ddoe^Yesterday^
+
+^Yoshi^Yoshi^Yoshi^
+
+^ZoomIn^Chwyddo mewn^ZoomIn^
+
+^ZoomOut^Chwyddo allan^ZoomOut^
+

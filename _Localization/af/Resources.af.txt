@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^Annoteer^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} Aangehegte <b>{1}</b> op {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^Attachment^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^Voer opsioneel notas en heg lêers.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^Notas en aanhangsels^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} Geskryf op {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^Notas^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^Notas^AnnotationTab^
+
+^BlobClearConfirm^Duidelik?^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} Is skoongemaak.^BlobCleared^
+
+^BlobClearText^Duidelike^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> Nie {0} te laai. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^Kliek^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^hier^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^{0} lêer te laai of &#39;n duidelike.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} Is opgelaai. <b>It Kan tot {1} minute vir die thumbnail om die foto&#39;s content.</b> om te besin^BlobUploded^
+
+^Copyright^Alle regte voorbehou.^Copyright^
+
+^RecordChangedByAnotherUser^Die rekord is deur &#39;n ander gebruiker verander.^RecordChangedByAnotherUser^
+

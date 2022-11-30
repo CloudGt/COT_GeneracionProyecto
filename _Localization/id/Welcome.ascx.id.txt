@@ -1,0 +1,21 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in Welcome.ascx project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^AdminDesc^Administrasi akun^AdminDesc^
+
+^SignInHeader^Instruksi^SignInHeader^
+
+^SignInInstruction^Masuk untuk mengakses konten situs yang dilindungi.^SignInInstruction^
+
+^SignInPara1^Dua account pengguna standar secara otomatis dibuat saat aplikasi diinisialisasi jika opsi keanggotaan telah dipilih untuk aplikasi ini.^SignInPara1^
+
+^SignInPara2^Para <b>admin</b> account administratif berwenang untuk mengakses seluruh area situs web dan manajer keanggotaan. Account <b>user</b> standar diizinkan untuk mengakses seluruh area situs web dengan pengecualian manajer keanggotaan.^SignInPara2^
+
+^SignInPara3^Pindahkan pointer mouse di atas link ke <i>Login ini site</i> web pada sisi kanan di bagian atas halaman dan masuk dengan salah satu rekening yang tercantum di bawah.^SignInPara3^
+
+^UserDesc^Standar account pengguna^UserDesc^
+

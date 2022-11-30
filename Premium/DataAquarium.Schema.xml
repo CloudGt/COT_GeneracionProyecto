@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<schema xmlns:a="urn:schemas-codeontime-com:data-aquarium" >
+	<!-- controllers -->
+	<table name="Controllers" alias="Controllers$" select="//a:dataController" file="Controllers.xml">
+		<template select="/a:dataControllerCollection">
+			<dataController xmlns="urn:schemas-codeontime-com:data-aquarium" >
+				<commands/>
+				<fields/>
+				<views/>
+				<actions/>
+			</dataController>
+		</template>
+		<fields>
+			<field name="Controller" alias="Controller" isKey="true" select="@name"/>
+			<field name="ConflictDetection" alias="Conflict Detection" select="@conflictDetection"/>
+			<field name="Label" alias="Label" select="@label"/>
+			<field name="Handler" alias="Handler" select="@handler"/>
+			<field name="Annotations" alias="Annotations" select="@allowAnnotations"/>
+			<field name="ConnectionStringName" alias="Connection String Name" select="@connectionStringName"/>
+		</fields>
+	</table>
+	<!-- Commands -->
+	<!--<table name="Commands" alias="Commands$" select="//a:command" file="Controllers.xml">
+		<template select="//a:dataController[@name=$Controller]/a:commands">
+			<command xmlns="urn:schemas-codeontime-com:data-aquarium">
+				<output/>
+			</command>
+		</template>
+		<fields>
+			<field name="Controller" alias="Controller" isKey="true" select="ancestor::a:dataController[1]/@name"/>
+			<field name="Command" alias="Command" isKey="true" select="@id"/>
+			<field name="Type" alias="Type" select="@type"/>
+			<field name="Event" alias="Event" select="@event"/>
+			<field name="Text" alias="Text" select="a:text"/>
+		</fields>
+	</table>-->
+	<!-- Fields -->
+	<table name="Fields" alias="Fields$" select="//a:field" file="Controllers.xml">
+		<template select="//a:dataController[@name=$Controller]/a:fields">
+			<field xmlns="urn:schemas-codeontime-com:data-aquarium" />
+		</template>
+		<fields>
+			<field name="Controller" alias="Controller" isKey="true" select="ancestor::a:dataController[1]/@name"/>
+			<field name="FieldName" alias="Field Name" isKey="true" select="@name"/>
+			<field name="Type" alias="Type" select="@type"/>
+			<field name="AllowNulls" alias="Allow Nulls" select="@allowNulls"/>
+            <field name="ReadOnly" alias="Read Only" select="@readOnly"/>
+            <field name="IsPrimaryKey" alias="Is Key" select="@isPrimaryKey"/>
+			<field name="ServerDefault" alias="Server Default" select="@default"/>
+			<field name="Computed" alias="Computed" select="@computed"/>
+			<field name="SQLFormula" alias="SQL Formula" select="a:formula"/>
+			<field name="CodeDefault" alias="Code Default" select="a:codeDefault"/>
+			<field name="Label" alias="Label" select="@label"/>
+			<field name="ShowInSummary" alias="Show In Summary" select="@showInSummary"/>
+			<field name="HtmlEncode" alias="Html Encoding" select="@htmlEncode"/>
+			<field name="FormatOnClient" alias="Format On Client" select="@formatOnClient"/>
+			<field name="DataFormatString" alias="Data Format String" select="@dataFormatString"/>
+      <field name="LEV" alias="LEV" select="@allowLEV"/>
+			<!-- Lookup properties -->
+			<field name="ItemsStyle" alias="Items Style" select="a:items/@style"/>
+			<field name="ItemsDataController" alias="Items Data Controller" select="a:items/@dataController"/>
+			<field name="ItemsDataValueField" alias="Items Data Value Field" select="a:items/@dataValueField"/>
+			<field name="ItemsDataTextField" alias="Items Data Text Field" select="a:items/@dataTextField"/>
+			<field name="ItemsNewDataView" alias="Items New Data View" select="a:items/@newDataView"/>
+			<field name="ItemsTargetDataController" alias="Items Target Controller" select="a:items/@targetController"/>
+			<field name="ItemsCopy" alias="Items Copy" select="a:items/@copy"/>
+			<!-- Dynamic Properties-->
+			<field name="ContextFields" alias="Context Fields" select="@contextFields"/>
+			<field name="DynamicConfiguration" alias="Dynamic Configuration" select="a:configuration"/>
+      <field name="Calculated" alias="Calculated On Server" select="@calculated"/>
+      <field name="CausesCalculate" alias="CausesCalculate" select="@causesCalculate"/>
+      <field name="IsVirtual" alias="IsVirtual" select="@isVirtual"/>
+      <field name="CodeFormula" alias="Code Formula" select="a:codeFormula"/>
+			<field name="AllowQBE" alias="Allow QBE" select="@allowQBE"/>
+			<field name="AllowSorting" alias="Allow Sorting" select="@allowSorting"/>
+			<field name="Mask" alias="Edit Mask" select="@mask"/>
+			<field name="MaskType" alias="Mask Type" select="@maskType"/>
+			<!-- Security -->
+			<field name="ReadRoles" alias="Read Roles" select="@readRoles"/>
+			<field name="WriteRoles" alias="Write Roles" select="@writeRoles"/>
+			<!-- "on demand" group -->
+			<field name="OnDemand" alias="On Demand" select="@onDemand"/>
+			<field name="OnDemandHandler" alias="On Demand Handler" select="@onDemandHandler"/>
+			<field name="OnDemandStyle" alias="On Demand Style" select="@onDemandStyle"/>
+			<field name="SourceFields" alias="Source Fields" select="@sourceFields"/>
+		</fields>
+	</table>
+	<!-- views -->
+	<table name="Views" alias="Views$" select="//a:view" file="Controllers.xml">
+		<template select="//a:dataController[@name=$Controller]/a:views">
+			<view xmlns="urn:schemas-codeontime-com:data-aquarium">
+				<categories/>
+				<dataFields/>
+			</view>
+		</template>
+		<fields>
+			<field name="Controller" alias="Controller" isKey="true" select="ancestor::a:dataController[1]/@name"/>
+			<field name="View" alias="View" isKey="true" select="@id"/>
+			<field name="CommandId" alias="Command ID" select="@commandId"/>
+			<field name="Type" alias="Type" select="@type"/>
+			<field name="Label" alias="Label" select="@label"/>
+			<field name="HeaderText" alias="Header Text" select="a:headerText"/>
+			<field name="SortExpression" alias="Sort Expression" select="@sortExpression"/>
+			<field name="FilterExpression" alias="Filter Expression" select="@filter"/>
+      <field name="GroupExpression" alias="Group Expression" select="@groupExpression"/>
+      <field name="BaseViewId" alias="Base View Id" select="@baseViewId"/>
+      <field name="VirtualViewId" alias="Virtual View Id" select="@virtualViewId"/>
+      <field name="OverrideWhen" alias="Override When" select="@overrideWhen"/>
+      <field name="Layout" alias="Layout" select="a:layout"/>
+    </fields>
+	</table>
+	<!-- Categories -->
+	<table name="Categories" alias="Categories$" select="//a:category" file="Controllers.xml">
+		<template select="//a:dataController[@name=$Controller]/a:views/a:view[@id=$View]/a:categories">
+			<category xmlns="urn:schemas-codeontime-com:data-aquarium">
+				<dataFields/>
+			</category>
+		</template>
+		<fields>
+			<field name="Controller" alias="Controller" isKey="true" select="ancestor::a:dataController[1]/@name"/>
+			<field name="View" alias="View" isKey="true" select="ancestor::a:view[1]/@id"/>
+			<field name="Category" alias="Category" select="@headerText" isKey="true"/>
+      <field name="Flow" alias="Flow" select="@flow"/>
+      <field name="Tab" alias="Tab" select="@tab"/>
+      <field name="Wizard" alias="Wizard" select="@wizard"/>
+			<field name="Floating" alias="Floating" select="@floating"/>
+      <field name="Wrap" alias="Wrap" select="@wrap"/>
+      <field name="Description" alias="Description" select="a:description"/>
+			<field name="Template" alias="Template" select="a:template"/>
+      <field name="Layout" alias="Layout" select="a:layout"/>
+		</fields>
+	</table>
+	<!-- DataFields -->
+	<table name="DataFields" alias="Data Fields$" select="//a:dataField" file="Controllers.xml">
+		<template select="//a:dataController[@name=$Controller]/a:views/a:view[@id=$View]/a:categories/a:category[@headerText=$Category]/a:dataFields | //a:dataController[@name=$Controller]/a:views/a:view[@id=$View]/a:dataFields">
+			<dataField xmlns="urn:schemas-codeontime-com:data-aquarium" />
+		</template>
+		<fields>
+			<field name="Controller" alias="Controller" isKey="true" select="ancestor::a:dataController[1]/@name"/>
+			<field name="View" alias="View" isKey="true" select="ancestor::a:view[1]/@id"/>
+			<field name="Category" alias="Category" isKey="true" optional="true" select="parent::a:dataFields/parent::a:category/@headerText"/>
+			<field name="FieldName" alias="Field Name" isKey="true" select="@fieldName"/>
+			<field name="Hidden" alias="Hidden" select="@hidden"/>
+			<field name="ReadOnly" alias="Read Only" select="@readOnly"/>
+			<field name="HeaderText" alias="Header Text" select="a:headerText" />
+			<field name="FooterText" alias="Footer Text" select="a:footerText"/>
+			<field name="DataFormatString" alias="Data Format String" select="@dataFormatString"/>
+			<field name="FormatOnClient" alias="Format On Client" select="@formatOnClient"/>
+			<field name="AliasFieldName" alias="Alias Field Name" select="@aliasFieldName"/>
+			<field name="Columns" alias="Columns" type2="Int32" select="@columns"/>
+			<field name="Rows" alias="Rows" type2="Int32" select="@rows"/>
+			<field name="HyperlinkFormatString" alias="Hyperlink Format String" select="@hyperlinkFormatString"/>
+			<field name="AutoComplete" alias="Auto Complete" select="@autoCompletePrefixLength"/>
+			<filed name="AggregateFunction" alias="Aggregate Function" select="@aggregate"/>
+			<field name="FilterOperator" alias="Filter Operator" select="a:codeFilter/@operator"/>
+			<field name="CodeFilter" alias="Code Filter" select="a:codeFilter"/>
+		</fields>
+	</table>
+</schema>

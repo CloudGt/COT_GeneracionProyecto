@@ -1,0 +1,163 @@
+<dataController name="Fields" conflictDetection="overwriteChanges" label="Containers"
+		xmlns="urn:schemas-codeontime-com:data-aquarium" xmlns:a="urn:schemas-codeontime-com:data-aquarium"
+		xmlns:app="urn:schemas-codeontime-com:data-aquarium-application"  handler="CodeOnTime.Designer.DesignerBusinessRules"
+>
+  <commands>
+    <command id="command1" type="Text">
+      <query href="Application.xml" select="//app:container" sort="" dependencies="//app:dataView,//app:control"/>
+      <template select="//app:page[@name=$Page]/app:containers">
+        <container xmlns="urn:schemas-codeontime-com:data-aquarium-application"  id="{generate-id('ContainerId')}"/>
+      </template>
+    </command>
+  </commands>
+  <fields>
+    <field name="Page" type="String" select="ancestor::app:page[1]/@name" allowNulls="false" isPrimaryKey="true" readOnly="true">
+      <items style="Lookup" dataController="Pages" newDataView="createForm1" dataValueField="Name" dataTextField="Name"/>
+    </field>
+    <field name="ContainerId" type="String" select="@id" allowNulls="false" isPrimaryKey="true" readOnly="true" label="Id"/>
+    <field name="Flow" type="String" select="@flow" allowNulls="false" >
+      <items style="DropDownList">
+        <item value="NewRow" text="New Row"/>
+        <item value="NewColumn" text="New Column"/>
+      </items>
+      <defaultValues>
+        <expression type="ClientScript" test="" result="NewRow"/>
+      </defaultValues>
+    </field>
+    <field name="Width" type="String" select="@width" allowNulls="true" >
+      <validate>
+        <expression type="RegularExpression" test="^\s*$|^\d+(px|%)$" result="Examples of valid container width formats are 40% and 120px."/>
+      </validate>
+    </field>
+    <field name="ClassName" type="String" allowNulls="true" select="@className" label="CSS Class Name"/>
+    <field name="CssStyle" type="String" allowNulls="true" select="@style" label="CSS Style Properties"/>
+  </fields>
+  <views>
+    <view id="grid1" type="Grid" commandId="command1" label="Containers">
+      <headerText>
+        <![CDATA[
+        <span class="HelpLink" title="Learn to work with Containers" onclick="$openUrl('http://codeontime.com/learn/development/project-designer/containers')"></span>
+		    This is a list of page containers. 
+		    ]]>
+      </headerText>
+      <dataFields>
+        <dataField fieldName="ContainerId"/>
+        <dataField fieldName="Page" columns="30" />
+        <dataField fieldName="Flow"/>
+        <dataField fieldName="Width" columns="6"/>
+        <dataField fieldName="ClassName" columns="20"/>
+      </dataFields>
+    </view>
+    <view id="editForm1" type="Form" commandId="command1" label="Container">
+      <headerText>
+        <![CDATA[
+        <span class="HelpLink" title="Learn to work with Containers" onclick="$openUrl('http://codeontime.com/learn/pages/containers/overview')"></span>
+        Click OK to save the container, or click Cancel to undo changes or return back.
+        ]]>
+      </headerText>
+      <categories>
+        <category headerText="General" >
+          <description>
+            <![CDATA[
+						The Id can be <a href="javascript:" onclick="return $openUrl('http://codeontime.com/learn/development/project-explorer/containers')" 
+            title="Learn to configure a Container.">renamed</a> in the <i>Project Explorer</i>.<br/><br/>
+            The way that the container will be positioned on the page is determined by <i>Flow</i> property.<br/><br/>
+            <i>Example:<br/>
+            200px or 75%</i><br/><br/>
+            <i>Width</i> can specify the percent of the total page or an exact width in pixels for the container.<br/><br/>
+            Assign a <i>CSS Class Name</i> to apply custom styling.<br/><br/>
+            Assign CSS styling to the container in <i>CSS Style Properties</i>.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="ContainerId" hyperlinkFormatString="javascript:window.external.SyncAndRename()" toolTip="Click here to change the 'Id' of the Container."/>
+            <dataField fieldName="Page" columns="30" />
+            <dataField fieldName="Flow"/>
+            <dataField fieldName="Width" columns="6"/>
+            <dataField fieldName="ClassName" columns="20"/>
+            <dataField fieldName="CssStyle" rows="8"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+    <view id="createForm1" type="Form" commandId="command1" label="New Container">
+      <headerText>
+        <![CDATA[
+        <span class="HelpLink" title="Learn to work with Containers" onclick="$openUrl('http://codeontime.com/learn/pages/containers/overview')"></span>
+        Please fill this form and click OK button to create a new container record. Click Cancel to return to the previous screen.
+        ]]>
+      </headerText>
+      <categories>
+        <category headerText="General" >
+          <description>
+            <![CDATA[ 
+            The way that the container will be positioned on the page is determined by <i>Flow</i> property.<br/><br/>
+            <i>Width</i> can specify the percent of the total page or an exact width in pixels for the container.<br/><br/>
+            <i>Example:<br/>
+            200px or 75%</i><br/><br/>
+            Assign a <i>CSS Class Name</i> to apply custom styling.<br/><br/>
+            Assign CSS styling to the container in <i>CSS Style Properties</i>.
+            ]]>
+          </description>
+          <dataFields>
+            <dataField fieldName="ContainerId" hidden="true"/>
+            <dataField fieldName="Page" columns="30" />
+            <dataField fieldName="Flow"/>
+            <dataField fieldName="Width" columns="6"/>
+            <dataField fieldName="ClassName" columns="20"/>
+            <dataField fieldName="CssStyle" rows="8"/>
+          </dataFields>
+        </category>
+      </categories>
+    </view>
+  </views>
+  <actions>
+    <actionGroup scope="Grid">
+      <action commandName="Navigate" commandArgument="Container.htm?_returnController=Containers&amp;Page={Page}&amp;ContainerId={ContainerId}" headerText="Open"/>
+      <!--<action commandName="Select" commandArgument="editForm1" />-->
+      <action commandName="ClientScript" commandArgument="__syncDesigner(this)" headerText="Sync" cssClass="SyncIcon"/>
+      <action commandName="Edit" />
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <!--<action whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+			<action whenLastCommandName="Edit" commandName="Cancel" />-->
+      <!--<action/>
+      <action commandName="Custom" commandArgument="MakeFirst" headerText="Make First"/>
+      <action commandName="Custom" commandArgument="MoveUp" headerText="Move Up"/>
+      <action commandName="Custom" commandArgument="MoveDown" headerText="Move Down"/>
+      <action commandName="Custom" commandArgument="MakeLast" headerText="Make Last"/>-->
+      <action commandName="Select" commandArgument="editForm1" headerText="View"/>
+    </actionGroup>
+    <actionGroup scope="Form">
+      <action commandName="Edit" />
+      <!--<action commandName="Delete" confirmation="Delete?" />-->
+      <action commandName="Cancel" headerText="Close" />
+      <action whenLastCommandName="Edit" commandName="Update" headerText="OK" />
+      <!--<action whenLastCommandName="Edit" commandName="Delete" confirmation="Delete?" />-->
+      <action whenLastCommandName="Edit" commandName="Cancel" />
+      <action whenLastCommandName="New" commandName="Insert" headerText="OK" />
+      <action whenLastCommandName="New" commandName="Cancel" />
+    </actionGroup>
+    <actionGroup scope="ActionBar" headerText="New">
+      <action commandName="New" commandArgument="createForm1" headerText="New Container" description="Create a new container." />
+    </actionGroup>
+    <!--<actionGroup scope="ActionBar" headerText="Actions">
+			<action commandName="ExportCsv" headerText="Download" description="Download items in CSV format." />
+			<action />
+			<action commandName="ExportRowset" headerText="Export to Spreadsheet" description="Analyze items with spreadsheet&lt;br/&gt; application." />
+			<action commandName="ExportRss" headerText="View RSS Feed" description="Syndicate items with an RSS reader." />
+			<action />
+			<action commandName="Custom" commandArgument="MyCommand" headerText="My Command" description="Execute my custom command" />
+		</actionGroup>-->
+    <actionGroup scope="ActionBar" headerText="Record">
+      <action whenLastCommandName="Edit" commandName="Update" headerText="Save" description="Save changes to the database." />
+      <action whenLastCommandName="Edit" commandName="Cancel" description="Cancel all record changes." />
+    </actionGroup>
+    <actionGroup id="sync01" scope="ActionBar" flat="true">
+      <action id="a1" whenLastCommandName="Edit" commandName="ClientScript" commandArgument="__syncDesigner()" headerText="Sync" cssClass="SyncIcon" description="Synchronize with Explorer (Ctrl+.)"/>
+    </actionGroup>
+    <actionGroup id="ag8" scope="Row">
+      <action id="a4" whenLastCommandName="Edit" commandName="Update" headerText="Save" />
+      <action id="a5" whenLastCommandName="Edit" commandName="Cancel" />
+    </actionGroup>
+  </actions>
+</dataController>

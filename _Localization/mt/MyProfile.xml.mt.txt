@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Lura^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Finish^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Ikkonferma Password Ġdid^ConfirmNewPassword^
+
+^ConfirmPassword^Ikkonferma il-Password^ConfirmPassword^
+
+^Email^Email^Email^
+
+^ForgotYourPassword^Insejt il-password?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Irrispondi l-mistoqsija li ġejja biex tirċievi l-password tiegħek. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Konferma ta &#39;l-Identità^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Jekk jogħġbok imla din il-formola u kklikkja Ibgħat buttuna biex tirkupra l-password li tkun insejt. Ikklikkja Ikkanċella biex tmur lura għall-iskrin ta &#39;qabel.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Irkupru tal-Password: Stadju 2 ta &#39;2^IdentityConfirmViewLabel^
+
+^LoginButton^Idħol^LoginButton^
+
+^LoginLink^Idħol^LoginLink^
+
+^LoginWithDNN^Login Bil DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Login Bil Facebook^LoginWithFacebook^
+
+^LoginWithGoogle^Login Bil-Google^LoginWithGoogle^
+
+^LoginWithMicrosoft^Login Bil-Microsoft^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Login ma &#39;SharePoint^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Login Bil-Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Password Tweġiba (mhux murija għall-protezzjoni tiegħek)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Jekk jogħġbok daħħal il-password attwali biex toħloq password ġdida, taġġorna l-indirizz elettroniku tiegħek, jew tibdel il-mistoqsija u r-risposta għall-irkupru tal-password.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Password kurrenti^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Jekk jogħġbok irrevedi l-informazzjoni ta &#39;sħubija tiegħek hawn taħt. Ikklikkja Aġġorna l-Kont Tiegħi biex tibdel dan ir-rekord, jew ikklikkja Ikkanċella biex terġa &#39;lura^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Il-Kont Tiegħi^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Jekk jogħġbok daħħal password ġdida. Innota li l-password għandu jkun ta &#39;mill-inqas 7 karattri fit-tul u jinkludi karattru mhux alfanumeriku wieħed.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Password ġdid (mhux obbligatorju)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Matul l-irkupru ta &#39;password li tkun insejt tieħu inti tkun mitlub li ddaħħal l-isem ta&#39; l-utent tiegħek. Jekk jeżisti kont tal-utent allura trid tingħata tweġiba għall-mistoqsija tal-password. Tweġiba korretta twassal għal email b&#39;password temporanju tibgħatlek.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. Email &amp; Irkupru tal-Password (Mhux obbligatorju)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^Password gdida^NewPassword^
+
+^OldPassword^Password Qadim^OldPassword^
+
+^Password^Password^Password^
+
+^PasswordAnswer^Tweġiba bil-Password^PasswordAnswer^
+
+^PasswordQuestion^Mistoqsija ta &#39;Password^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Jekk jogħġbok daħħal isem ta &#39;l-utent. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Insejt il-password?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Jekk jogħġbok imla din il-formola u kklikkja fuq il-buttuna Tkompli biex tirkupra l-password li tkun insejt. Ikklikkja Ikkanċella biex tmur lura għall-iskrin ta &#39;qabel.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Irkupru tal-Password: Pass 1 ta &#39;2^PasswordRequestViewLabel^
+
+^RememberMe^Ftakarni l-ħin li jmiss^RememberMe^
+
+^RequestPasswordActionHeaderText^Sussegwentement^RequestPasswordActionHeaderText^
+
+^SignUp^Irregistra^SignUp^
+
+^SignUpNow^Sign up issa^SignUpNow^
+
+^SignUpViewHeaderText^Jekk jogħġbok imla din il-formola u kklikkja buttuna OK biex tiffirma għal kont. Ikklikkja Ikkanċella biex tmur lura għall-iskrin ta &#39;qabel.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Sign up tal-Kont^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Jekk jogħġbok daħħal l-isem tal-utent u l-password Innota li l-password għandu jkun ta &#39;mill-inqas 7 karattri fit-tul u jinkludi karattru mhux alfanumeriku wieħed. Utenti approvati biss se jkunu jistgħu jidħlu fil-websajt.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Informazzjoni ġdida għall-Utenti^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Dawn l-oqsma huma meħtieġa biex jgħinuk tirkupra l-password li tkun insejt. Matul il-proċess ta &#39;rkupru inti tkun mitlub li tidħol isem ta&#39; l-utent. Jekk kont ta &#39;utent jeżisti, titlob tweġiba ta&#39; mistoqsija ta &#39;sigurtà. Tweġiba korretta twassal għal email b&#39;password temporanju tibgħat lill-email irreġistrat.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Password Recovery^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Aġġorna l-Kont Tiegħi^UpdateMyAccountActionHeaderText^
+
+^UserName^Isem ta &#39;l-Utent^UserName^
+

@@ -1,0 +1,27 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in aspnet_Roles.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^ActionBarNewActionDescription^新しいメンバーシップロールのレコードを作成します。^ActionBarNewActionDescription^
+
+^ActionBarNewActionHeaderText^新しい役割^ActionBarNewActionHeaderText^
+
+^ActionBarNewGroupHeaderText^新^ActionBarNewGroupHeaderText^
+
+^CreateFormCategory^フォームに必要事項を記入。すべての必須フィールドを入力してください。^CreateFormCategory^
+
+^CreateFormHeaderText^このフォームを記入し、新しいメンバーシップロールのレコードを作成する[OK]ボタンをクリックしてください。前の画面に戻るには[キャンセル]をクリックします。^CreateFormHeaderText^
+
+^DescriptionLabel^説明^DescriptionLabel^
+
+^EditViewCategory^これらは編集可能なメンバーシップのロールレコードのフィールドです。^EditViewCategory^
+
+^EditViewHeaderText^下記の会員の役割の情報を確認してください。このレコードを変更する場合は、編集をクリックして、レコードを削除する削除、またはバック戻るには、[キャンセル/閉じる]をクリックします]をクリックします。^EditViewHeaderText^
+
+^GridViewHeaderText^これは、メンバーシップロールのリストです。^GridViewHeaderText^
+
+^RoleNameLabel^役割名^RoleNameLabel^
+

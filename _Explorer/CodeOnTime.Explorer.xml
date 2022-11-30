@@ -1,0 +1,1538 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<explorer xmlns="http://www.codeontime.com/2011/explorer">
+  <tabs>
+    <!-- "Pages" tab -->
+    <tab name="Pages" text="Pages" imageUrl="Page.png">
+      <actions>
+        <action name="Navigate" text="List of Pages" argument="Start.htm?_activeTab=Pages" imageUrl="Home.png"/>
+        <action name="Navigate" text="New Page" argument="Start.htm?_activeTab=Pages&amp;_controller=Pages&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="Page-New.png"/>
+      </actions>
+      <!-- Page -->
+      <node name="Page" text="{Path}" alternativeText="{Title}" title="{Name} {' - path: ', Path}" imageUrl="Page" style="Hierarchy" drop="Page,Container,DataView,Control,UserControl:copy,Controller:copy,View:copy" nodeSetPath="/page/{Name}" insertNodeSetPath="/pages">
+        <query controller="Pages" view="grid1" sort="Index" key="Name,Path,Url,Generate"/>
+        <actions>
+          <action name="Select" argument="Page.htm?Page={Name}"/>
+          <action name="Browse" imageUrl="Page-Browse.png" toolbar="false"/>
+          <!--<action name="Navigate" text="List" argument="Start.htm?_activeTab=Pages" imageUrl="List.png"/>-->
+          <action name="Edit" argument="Page" text="Edit in Visual Studio" when="Generate=='FirstTimeOnly'" imageUrl="VisualStudio.png"/>
+          <action toolbar="false"/>
+          <action name="Cut"/>
+          <action name="Copy"/>
+          <action name="Paste"/>
+          <action name="Delete" toolbar="false"/>
+          <action name="Rename" toolbar="false"/>
+          <action toolbar="false"/>
+          <action name="Navigate" text="Show All Containers" argument="Page.htm?Page={Name}&amp;_activeTab=Containers" toolbar="false"/>
+          <action name="Configure" argument="Exclude" text="Exclude From Menu" toolbar="false" when="Path!=''"/>
+          <action name="Configure" argument="Include" text="Include in Menu" toolbar="false" when="Path==''"/>
+          <action/>
+          <action name="Navigate" text="New Child Page" when="Path!=''" argument="Start.htm?_activeTab=Pages&amp;_controller=Pages&amp;_commandName=New&amp;_commandArgument=createForm1&amp;_contextNodeSetPath=/page/{Name}" imageUrl="Page-ChildNew.png"  />
+          <action name="Navigate" text="New Container" argument="Page.htm?Page={Name}&amp;_activeTab=Containers&amp;_controller=Containers&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="Container-New.png"/>
+          <!--<action toolbar="false"/>-->
+          <!--<action name="AddContent" argument="{Name}" text="Add Content..." toolbar="false"/>-->
+          <!--<action name="ConfigurePage" argument="{Name}" text="Configure Page..." toolbar="false"/>-->
+        </actions>
+        <match >
+          <when test="ListController=Pages" url="tab://Pages/Page/Name={Name}"/>
+          <when test="\WPage\.htm\W" url="tab://Pages/Page/Name={Page}"/>
+        </match>
+        <inspect>
+          <when test="div\.pages_(?'Name'\w+)_aspx" priority="10" url="tab://Pages/Page/Name={Name}" />
+        </inspect>
+        <!-- Container -->
+        <node name="Container" text="{ContainerId}" title="{Page} / {ContainerId} ({Flow})" imageUrl="Container" drop="Container:move,DataView,Control,UserControl:copy,Controller:copy,View:copy" nodeSetPath="/page/{Page}/container/{ContainerId}" insertNodeSetPath="/page/{Page}">
+          <query controller="Containers" view="grid1" sort="Page,ContainerId" key="Page,ContainerId" filter="Page=Name"/>
+          <actions>
+            <action name="Select" argument="Container.htm?Page={Page}&amp;ContainerId={ContainerId}"/>
+            <action name="Navigate" text="List" argument="Page.htm?Page={Page}&amp;_activeTab=Containers" imageUrl="List.png"/>
+            <!--<action name="Select" text="Delete" argument="Container.htm?Page={Page}&amp;ContainerId={ContainerId}&amp;_controller=Containers&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+            <action toolbar="false"/>
+            <action name="Cut"/>
+            <action name="Copy"/>
+            <action name="Paste"/>
+            <action name="Delete" toolbar="false"/>
+            <action name="Rename" toolbar="false"/>
+            <action toolbar="false"/>
+            <action name="Navigate" text="Show All Data Views" argument="Container.htm?Page={Page}&amp;ContainerId={ContainerId}&amp;_activeTab=Data Views" toolbar="false"/>
+            <action name="Navigate" text="Show All Controls" argument="Container.htm?Page={Page}&amp;ContainerId={ContainerId}&amp;_activeTab=Controls" toolbar="false"/>
+            <action/>
+            <action name="Navigate" text="New Data View" argument="Container.htm?Page={Page}&amp;ContainerId={ContainerId}&amp;_activeTab=Data Views&amp;_controller=DataViews&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="DataView-New.png"/>
+            <action name="Navigate" text="New Control" argument="Container.htm?Page={Page}&amp;ContainerId={ContainerId}&amp;_activeTab=Controls&amp;_controller=Controls&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="Control-New.png"/>
+            <!--<action toolbar="false"/>-->
+            <!--<action name="AddContent" argument="{Name}" text="Add Content..." toolbar="false"/>-->
+            <!--<action name="ConfigurePage" argument="{Name}" text="Configure Page..." toolbar="false"/>-->
+            <!--<action toolbar="false"/>
+            <action name="Navigate" text="Delete" argument="Container.htm?Page={Page}&amp;ContainerId={ContainerId}&amp;_controller=Containers&amp;_commandName=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+          </actions>
+          <inspect>
+            <when test="div#_lc(?'Index'\d+)\W(.+?)div\.pages_(?'Name'\w+)_aspx" priority="20" url="tab://Pages/Page/Name={Name}/Container/{Index}" />
+          </inspect>
+          <match >
+            <when test="\WContainer\.htm\W" url="tab://Pages/Page/Name={Page}/Container/ContainerId={ContainerId}"/>
+            <when test="ListController=Containers" url="tab://Pages/Page/Name={Page}/Container/ContainerId={ContainerId}"/>
+          </match>
+          <!-- DataView -->
+          <node name="DataView" text="{DataViewId} ({Controller}{', ', View}){' #', Sequence}{' -> ', FilterSource}" title="{Page} / {ContainerId} / {DataViewId} ({Controller}{', ', View})" imageUrl="DataView.png"
+                drop="DataView:move,DataView_DataField" nodeSetPath="/page/{Page}/dataView/{DataViewId}" nodeSetLogicalPath="/page/{Page}/container/{ContainerId}/dataView/{DataViewId}" insertNodeSetPath="/page/{Page}/container/{ContainerId}">
+            <query controller="DataViews" view="grid1" sort="Page,ContainerId,Sequence" key="Page,ContainerId,DataViewId,Controller,View" filter="Page=Page,ContainerId=ContainerId"/>
+            <actions>
+              <action name="Select" argument="DataView.htm?Page={Page}&amp;ContainerId={ContainerId}&amp;DataViewId={DataViewId}"/>
+              <action name="Navigate" text="List" argument="Container.htm?Page={Page}&amp;ContainerId={ContainerId}&amp;_activeTab=Data Views" imageUrl="List.png"/>
+              <!--<action name="Select" text="Delete" argument="DataView.htm?Page={Page}&amp;ContainerId={ContainerId}&amp;DataViewId={DataViewId}&amp;_controller=DataViews&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+              <action toolbar="false"/>
+              <action name="Cut"/>
+              <action name="Copy"/>
+              <action name="Paste"/>
+              <action name="Delete" toolbar="false"/>
+              <action name="Rename" toolbar="false"/>
+              <action/>
+              <action name="Select" text="Show '{Controller}' Controller" argument="tab://Controllers/Controller/Controller={Controller}" imageUrl="Controller-Shortcut.png" when="View==''" />
+              <action name="Select" text="Show View '{View}' in Controller" argument="tab://Controllers/Controller/Controller={Controller}/Views/Name={Controller}/View/ViewId={View}" imageUrl="Controller-Shortcut.png" when="View!=''" />
+              <action name="Navigate" text="Show All Views" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Views" />
+              <action toolbar="false"/>
+              <action name="Navigate" text="New View" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Views&amp;_controller=Views&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="View-New.png"/>
+            </actions>
+            <match >
+              <when test="\WDataView\.htm\W" url="tab://Pages/Page/Name={Page}/Container/ContainerId={ContainerId}/DataView/DataViewId={DataViewId}"/>
+              <when test="ListController=DataViews" url="tab://Pages/Page/Name={Page}/Container/ContainerId={ContainerId}/DataView/DataViewId={DataViewId}"/>
+            </match>
+            <!-- DataView_View -->
+            <node name="DataView_View" text="{ViewId}" title="{Controller} / {ViewId}" imageUrl="View"
+                  drop="DataView_View:move,View:move,Field,DataView_Category,View_Category,DataView_DataField,DataView_Category_DataField"  nodeSetPath="/controller/{Controller}/view/{ViewId}" insertNodeSetPath="/controller/{Controller}">
+              <query controller="Views" view="grid1" key="Controller,ViewId,Type" filter="Controller=Controller"/>
+              <actions>
+                <action name="Select" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}"/>
+                <action name="Navigate" text="List" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Views" imageUrl="List.png"/>
+                <!--<action name="Select" text="Delete" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_controller=Views&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+                <action toolbar="false"/>
+                <action name="Cut"/>
+                <action name="Copy"/>
+                <action name="Paste"/>
+                <action name="Delete" toolbar="false"/>
+                <action name="Rename" toolbar="false"/>
+                <action toolbar="false"/>
+                <action name="Select" text="Show View '{ViewId}' in Controller" argument="tab://Controllers/Controller/Controller={Controller}/Views/Name={Controller}/View/ViewId={ViewId}" imageUrl="Controller-Shortcut.png"/>
+                <action name="Navigate" text="Show All Data Fields" when="Type!='Form'" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_activeTab=Data Fields" toolbar="false"/>
+                <action name="Navigate" text="Show All Categories" when="Type=='Form'" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_activeTab=Categories" toolbar="false"/>
+                <action name="Navigate" text="Show Styles" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_activeTab=Styles" imageUrl="Style.png"/>
+                <action toolbar="false"/>
+                <action name="Configure" argument="ConvertToGrid" when="Type=='Form'" text="Convert To Grid" toolbar="false" imageUrl="View-Grid.png"/>
+                <action name="Configure" argument="ConvertToForm" when="Type!='Form'" text="Convert To Form" toolbar="false" imageUrl="View-Form.png" />
+                <action/>
+                <action name="Navigate" text="New Data Field" when="Type!='Form'" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_activeTab=Data Fields&amp;_controller=DataFields&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="DataField-New.png"/>
+                <action name="Navigate" text="New Category" when="Type=='Form'" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_activeTab=Categories&amp;_controller=Categories&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="Category-New.png"/>
+              </actions>
+              <match >
+                <when test="\WView\.htm\W" url="tab://Pages/*/DataView/Controller={Controller}/DataView_View/ViewId={ViewId}"/>
+              </match>
+              <inspect>
+                <when test="table\.DataView\.(?'Controller'\w+)_(?'View'\w+)(.+?)div#_lc(?'ContainerIndex'\d+)\W(.+?)div\.pages_(?'Page'\w+)_aspx"
+                      priority="30" url="tab://Pages/Page/Name={Page}/Container/{ContainerIndex}/DataView/Controller={Controller}/DataView_View/ViewId={View}" />
+                <when test="table\.DataView\.(?'Controller'\w+)_(?'View'\w+)(.+?)\.ModalPlaceholder"
+                      priority="31" url="tab://Controllers/Controller/Controller={Controller}/Views/Controller={Controller}/View/ViewId={View}" />
+              </inspect>
+              <!--- DataView_DataField -->
+              <node name="DataView_DataField" text="{FieldName}{' -> ', Alias}" title="{Controller} / {ViewId} / {FieldName} ({DataType}){' -> ', Alias}" imageUrl="DataField"
+                    drop="DataView_DataField:move" nodeSetPath="/controller/{Controller}/view/{ViewId}/dataField/{FieldName}" insertNodeSetPath="/controller/{Controller}/view/{ViewId}">
+                <query controller="DataFields" view="grid1" sort="" key="Controller,ViewId,CategoryId,FieldName,Alias" filter="Controller=Controller,ViewId=ViewId,CategoryId=null"/>
+                <actions>
+                  <action name="Select" argument="DataField.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;FieldName={FieldName}"/>
+                  <action name="Navigate" text="List" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_activeTab=Data Fields" imageUrl="List.png"/>
+                  <!--<action name="Select" text="Delete" argument="DataField.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;FieldName={FieldName}&amp;_controller=DataFields&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+                  <action toolbar="false"/>
+                  <action name="Cut"/>
+                  <action name="Copy"/>
+                  <action name="Paste"/>
+                  <action name="Delete" toolbar="false"/>
+                  <action name="Select" text="Show Data Field in Controller" argument="tab://Controllers/Controller/Controller={Controller}/Views/Name={Controller}/View/ViewId={ViewId}/View_DataField/FieldName={FieldName}" imageUrl="Controller-Shortcut.png"/>
+                  <!--<action name="Select" text="Show Value/Text Items" argument="Field.htm?Controller={Controller}&amp;Name={FieldName}&amp;FieldName={FieldName}&amp;_activeTab=Items" imageUrl="Items.png"/>-->
+                  <!--<action name="Select" text="Show Validators" argument="Field.htm?Controller={Controller}&amp;Name={FieldName}&amp;FieldName={FieldName}&amp;_activeTab=Validators" imageUrl="Validator.png"/>-->
+                </actions>
+                <match >
+                  <when test="\WDataField\.htm\W" url="tab://Pages/*/DataView/Controller={Controller}/DataView_View/ViewId={ViewId}/DataView_DataField/FieldName={FieldName}"/>
+                </match>
+                <inspect>
+                  <when test="td\.Cell\.(?'FieldName'\w+)\W(.+?)table\.DataView\.(?'Controller'\w+)_(?'View'\w+)(.+?)div#_lc(?'ContainerIndex'\d+)\W(.+?)div\.pages_(?'Page'\w+)_aspx"
+                        priority="40" url="tab://Pages/Page/Name={Page}/Container/{ContainerIndex}/DataView/Controller={Controller}/DataView_View/ViewId={View}/DataView_DataField/FieldName={FieldName}/DataView_NoCategory_DataField_Field/Name={FieldName}" />
+                  <when test="td\.Cell\.(?'FieldName'\w+)\W(.+?)table\.DataView\.(?'Controller'\w+)_(?'View'\w+)(.+?)\.ModalPlaceholder"
+                        priority="41" url="tab://Controllers/Controller/Controller={Controller}/Views/Controller={Controller}/View/ViewId={View}/View_DataField/FieldName={FieldName}/View_NoCategory_DataField_Field/Name={FieldName}" />
+                </inspect>
+                <!-- DataView_NoCategory_DataField_Field -->
+                <node name="DataView_NoCategory_DataField_Field" text="{Name}{AllowNulls:True=;False=*;} ({Type}{'(',Length,')'}{ReadOnly:True=, read-only;False=;})" title="{Controller} / {Name} ({Type})" imageUrl="Field-Shortcut.png">
+                  <query controller="Fields" view="grid1" sort="" key="Controller,Name" filter="Controller=Controller,Name=FieldName"/>
+                  <actions>
+                    <action name="Select" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}"/>
+                    <action/>
+                    <action name="Select" text="Show Field '{Name}' in Controller" argument="tab://Controllers/Controller/Controller={Controller}/Fields/Controller={Controller}/Field/Name={Name}" imageUrl="Controller-Shortcut.png"/>
+                    <action name="Select" text="Show Value/Text Items" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}&amp;_activeTab=Items" imageUrl="Items.png"/>
+                    <!--<action name="Select" text="Show Validators" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}&amp;_activeTab=Validators" imageUrl="Validator.png"/>-->
+                  </actions>
+                  <match >
+                    <when test="\WController\:Fields\W"
+                          refresh="2" url="tab://Pages/*/DataView/Controller={OldValue.Controller}/*/DataView_DataField/FieldName={Value.FieldName}/DataView_NoCategory_DataField_Field/Name={Value.FieldName}"/>
+                  </match>
+                  <inspect>
+                    <when test="th\.FieldHeaderSelector\.(?'FieldName'\w+)\W(.+?)table\.DataView\.(?'Controller'\w+)_(?'View'\w+)(.+?)div#_lc(?'ContainerIndex'\d+)\W(.+?)div\.pages_(?'Page'\w+)_aspx"
+                          priority="50" url="tab://Pages/Page/Name={Page}/Container/{ContainerIndex}/DataView/Controller={Controller}/DataView_View/ViewId={View}/DataView_DataField/FieldName={FieldName}" />
+                    <when test="th\.FieldHeaderSelector\.(?'FieldName'\w+)\W(.+?)table\.DataView\.(?'Controller'\w+)_(?'View'\w+)(.+?)\.ModalPlaceholder"
+                          priority="51" url="tab://Controllers/Controller/Controller={Controller}/Views/Controller={Controller}/View/ViewId={View}/View_DataField/FieldName={FieldName}" />
+                  </inspect>
+                </node>
+                <!-- DataView_NoCategory_DataField_AliasField -->
+                <node name="DataView_NoCategory_DataField_AliasField" text="{Name}{AllowNulls:True=;False=*;} ({Type}{'(',Length,')'}{ReadOnly:True=, read-only;False=;})" title="{Controller} / {Name} ({Type})" imageUrl="Field-Shortcut.png">
+                  <query controller="Fields" view="grid1" sort="" key="Controller,Name" filter="Controller=Controller,Name=Alias"/>
+                  <actions>
+                    <action name="Select" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}"/>
+                    <action/>
+                    <action name="Select" text="Show Field '{Name}'in Controller" argument="tab://Controllers/Controller/Controller={Controller}/Fields/Controller={Controller}/Field/Name={Name}" imageUrl="Controller-Shortcut.png"/>
+                  </actions>
+                </node>
+              </node>
+              <!-- DataView_Category -->
+              <node name="DataView_Category" text="{categoryId}{' - ', Wizard}{' - [', Tab, ']'}{' - ', HeaderText}" title="{Controller} / {ViewId} / {CategoryId} - {HeaderText}" imageUrl="Category"
+                     drop="DataView_Category:move,DataView_Category_DataField" nodeSetPath="/controller/{Controller}/view/{ViewId}/category/{CategoryId}" insertNodeSetPath="/controller/{Controller}/view/{ViewId}">
+                <query controller="Categories" view="grid1" sort="" key="Controller,ViewId,CategoryId,HeaderText" filter="Controller=Controller,ViewId=ViewId"/>
+                <actions>
+                  <action name="Select" argument="Category.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}"/>
+                  <action name="Navigate" text="List" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_activeTab=Categories" imageUrl="List.png"/>
+                  <!--<action name="Select" text="Delete" argument="Category.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;_controller=Categories&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+                  <action/>
+                  <action name="Cut"/>
+                  <action name="Copy"/>
+                  <action name="Paste"/>
+                  <action name="Delete" toolbar="false"/>
+                  <action name="Rename" toolbar="false"/>
+                  <action toolbar="false"/>
+                  <action name="Select" text="Show Category '{CategoryId}' in Controller" argument="tab://Controllers/Controller/Controller={Controller}/Views/Name={Controller}/View/ViewId={ViewId}/View_Category/CategoryId={CategoryId}" imageUrl="Controller-Shortcut.png"/>
+                  <action name="Navigate" text="Show All Data Fields" argument="Category.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;_activeTab=Data Fields" toolbar="false"/>
+                  <action/>
+                  <action name="Navigate" text="New Data Field" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;_activeTab=Data Fields&amp;_controller=DataFields&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="DataField-New.png"/>
+                </actions>
+                <match >
+                  <when test="ListController=Categories" url="tab://Controllers/Controller/Name={Controller}/Views/Controller={Controller}/View/ViewId={ViewId}/View_Category/CategoryId={CategoryId}"/>
+                  <when test="\WCategory\.htm\W" url="tab://Pages/*/DataView/Controller={Controller}/DataView_View/ViewId={ViewId}/DataView_Category/CategoryId={CategoryId}"/>
+                </match>
+                <inspect>
+                  <when test="_Category(?'CategoryIndex'\d+).Category\W(.+?)table\.DataView\.(?'Controller'\w+)_(?'View'\w+)(.+?)div#_lc(?'ContainerIndex'\d+)\W(.+?)div\.pages_(?'Page'\w+)_aspx"
+                        priority="50" url="tab://Pages/Page/Name={Page}/Container/{ContainerIndex}/DataView/Controller={Controller}/DataView_View/ViewId={View}/DataView_Category/{CategoryIndex}" />
+                  <when test="_Category(?'CategoryIndex'\d+).Category\W(.+?)table\.DataView\.(?'Controller'\w+)_(?'View'\w+)(.+?)\.ModalPlaceholder"
+                        priority="51" url="tab://Controllers/Controller/Controller={Controller}/Views/Controller={Controller}/View/ViewId={View}/View_Category/{CategoryIndex}" />
+                </inspect>
+                <!-- DataView_Category_DataField -->
+                <node name="DataView_Category_DataField" text="{FieldName}{' -> ', Alias}" title="{Controller} / {ViewId} / {CategoryId} - {CategoryHeaderText} / {FieldName} ({DataType}){' -> ', Alias}" imageUrl="DataField"
+                      drop="DataView_Category_DataField:move" nodeSetPath="/controller/{Controller}/view/{ViewId}/category/{CategoryId}/dataField/{FieldName}" insertNodeSetPath="/controller/{Controller}/view/{ViewId}/category/{CategoryId}">
+                  <query controller="DataFields" view="grid1" sort="" key="Controller,ViewId,CategoryId,FieldName,Alias" filter="Controller=Controller,ViewId=ViewId,CategoryId=CategoryId"/>
+                  <actions>
+                    <action name="Select" argument="DataField.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;FieldName={FieldName}"/>
+                    <action name="Navigate" text="List" argument="Category.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;_activeTab=Data Fields" imageUrl="List.png"/>
+                    <!--<action name="Select" text="Delete" argument="DataField.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;FieldName={FieldName}&amp;_controller=DataFields&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+                    <action toolbar="false"/>
+                    <action name="Cut"/>
+                    <action name="Copy"/>
+                    <action name="Paste"/>
+                    <action name="Delete" toolbar="false"/>
+                    <action name="Select" text="Show Data Field in Controller" argument="tab://Controllers/Controller/Controller={Controller}/Views/Name={Controller}/View/ViewId={ViewId}/View_Category/CategoryId={CategoryId}/View_Category_DataField/FieldName={FieldName}" imageUrl="Controller-Shortcut.png"/>
+                    <!--<action name="Select" text="Show Value/Text Items" argument="Field.htm?Controller={Controller}&amp;Name={FieldName}&amp;FieldName={FieldName}&amp;_activeTab=Items" imageUrl="Items.png"/>-->
+                    <!--<action name="Select" text="Show Validators" argument="Field.htm?Controller={Controller}&amp;Name={FieldName}&amp;FieldName={FieldName}&amp;_activeTab=Validators" imageUrl="Validator.png"/>-->
+                  </actions>
+                  <match >
+                    <when test="\WDataField\.htm\W" url="tab://Pages/*/DataView/Controller={Controller}/DataView_View/ViewId={ViewId}/DataView_Category/CategoryId={CategoryId}/DataView_Category_DataField/FieldName={FieldName}"/>
+                  </match>
+                  <inspect>
+                    <when test="\.Item\.(?'FieldName'\w+)\W(.+?)_Category(?'CategoryIndex'\d+).Category\W(.+?)table\.DataView\.(?'Controller'\w+)_(?'View'\w+)(.+?)div#_lc(?'ContainerIndex'\d+)\W(.+?)div\.pages_(?'Page'\w+)_aspx"
+                          priority="60" url="tab://Pages/Page/Name={Page}/Container/{ContainerIndex}/DataView/Controller={Controller}/DataView_View/ViewId={View}/DataView_Category/{CategoryIndex}/DataView_Category_DataField/FieldName={FieldName}/DataView_Category_DataField_Field/Name={FieldName}" />
+                    <when test="\.Header\.(?'FieldName'\w+)\W(.+?)_Category(?'CategoryIndex'\d+).Category\W(.+?)table\.DataView\.(?'Controller'\w+)_(?'View'\w+)(.+?)div#_lc(?'ContainerIndex'\d+)\W(.+?)div\.pages_(?'Page'\w+)_aspx"
+                          priority="61" url="tab://Pages/Page/Name={Page}/Container/{ContainerIndex}/DataView/Controller={Controller}/DataView_View/ViewId={View}/DataView_Category/{CategoryIndex}/DataView_Category_DataField/FieldName={FieldName}" />
+                    <when test="\.Item\.(?'FieldName'\w+)\W(.+?)_Category(?'CategoryIndex'\d+).Category\W(.+?)table\.DataView\.(?'Controller'\w+)_(?'View'\w+)(.+?)\.ModalPlaceholder"
+                          priority="62" url="tab://Controllers/Controller/Controller={Controller}/Views/Controller={Controller}/View/ViewId={View}/View_Category/{CategoryIndex}/View_Category_DataField/FieldName={FieldName}/View_Category_DataField_Field/Name={FieldName}" />
+                    <when test="\.Header\.(?'FieldName'\w+)\W(.+?)_Category(?'CategoryIndex'\d+).Category\W(.+?)table\.DataView\.(?'Controller'\w+)_(?'View'\w+)(.+?)\.ModalPlaceholder"
+                          priority="63" url="tab://Controllers/Controller/Controller={Controller}/Views/Controller={Controller}/View/ViewId={View}/View_Category/{CategoryIndex}/View_Category_DataField/FieldName={FieldName}" />
+                  </inspect>
+                  <!-- DataView_Category_DataField_Field -->
+                  <node name="DataView_Category_DataField_Field" text="{Name}{AllowNulls:True=;False=*;} ({Type}{'(',Length,')'}{ReadOnly:True=, read-only;False=;})" title="{Controller} / {Name} ({Type})" imageUrl="Field-Shortcut.png">
+                    <query controller="Fields" view="grid1" sort="" key="Controller,Name" filter="Controller=Controller,Name=FieldName"/>
+                    <actions>
+                      <action name="Select" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}"/>
+                      <action/>
+                      <action name="Select" text="Show Field '{Name}' in Controller" argument="tab://Controllers/Controller/Controller={Controller}/Fields/Controller={Controller}/Field/Name={Name}" imageUrl="Controller-Shortcut.png"/>
+                      <action name="Select" text="Show Value/Text Items" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}&amp;_activeTab=Items" imageUrl="Items.png"/>
+                      <!--<action name="Select" text="Show Validators" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}&amp;_activeTab=Validators" imageUrl="Validator.png"/>-->
+                    </actions>
+                    <match >
+                      <when test="\WController\:Fields\W"
+                            refresh="2" url="tab://Pages/*/DataView/Controller={OldValue.Controller}/*/DataView_Category_DataField/FieldName={Value.FieldName}/DataView_Category_DataField_Field/Name={Value.FieldName}"/>
+                    </match>
+                  </node>
+                  <!-- DataView_Category_DataField_AliasField -->
+                  <node name="DataView_Category_DataField_AliasField" text="{Name}{AllowNulls:True=;False=*;} ({Type}{'(',Length,')'}{ReadOnly:True=, read-only;False=;})" title="{Controller} / {Name} ({Type})" imageUrl="Field-Shortcut.png">
+                    <query controller="Fields" view="grid1" sort="" key="Controller,Name" filter="Controller=Controller,Name=Alias"/>
+                    <actions>
+                      <action name="Select" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}"/>
+                      <action/>
+                      <action name="Select" text="Show Field '{Name}' in Controller" argument="tab://Controllers/Controller/Controller={Controller}/Fields/Controller={Controller}/Field/Name={Name}" imageUrl="Controller-Shortcut.png"/>
+                    </actions>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <!-- DataView_Actions -->
+            <node name="DataView_Actions" text="Actions" title="{Controller} / Action Groups" imageUrl="Actions.png" controller="Controllers"  drop="DataView_ActionGroup,Controller_ActionGroup" nodeSetPath="/controller/{Controller}">
+              <actions>
+                <action name="Navigate" text="List" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Action Groups" imageUrl="List.png"/>
+                <action/>
+                <action name="Navigate" text="New Action Group" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Action Groups&amp;_controller=ActionGroups&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="ActionGroup-New.png"/>
+                <action name="Paste"/>
+              </actions>
+              <!-- DataView_ActionGroup -->
+              <node name="DataView_ActionGroup" text="{ActionGroupId} ({Scope}){' - ', HeaderText}" title="{Controller} / {ActionGroupId} ({Scope}){' - ', HeaderText}" imageUrl="ActionGroup.png"
+                    drop="DataView_ActionGroup:move,Controller_ActionGroup:move,DataView_ActionGroup_Action,Controller_ActionGroup_Action"  nodeSetPath="/controller/{Controller}/actionGroup/{ActionGroupId}" insertNodeSetPath="/controller/{Controller}">
+                <query controller="ActionGroups" view="grid1" sort="Controller" key="Controller,ActionGroupId" filter="Controller=Controller"/>
+                <actions>
+                  <action name="Select" argument="ActionGroup.htm?Controller={Controller}&amp;ActionGroupId={ActionGroupId}"/>
+                  <action name="Navigate" text="List" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Action Groups" imageUrl="List.png"/>
+                  <action toolbar="false"/>
+                  <action name="Cut"/>
+                  <action name="Copy"/>
+                  <action name="Paste"/>
+                  <action name="Delete" toolbar="false"/>
+                  <action name="Rename" toolbar="false"/>
+                  <action/>
+                  <action name="Select" text="Show Action Group '{ActionGroupId}' in Controller" argument="tab://Controllers/Controller/Controller={Controller}/Actions/Name={Controller}/Controller_ActionGroup/ActionGroupId={ActionGroupId}" imageUrl="Controller-Shortcut.png"/>
+                  <action name="Navigate" text="Show All Actions" argument="ActionGroup.htm?Controller={Controller}&amp;ActionGroupId={ActionGroupId}&amp;_activeTab=Actions" toolbar="false"/>
+                  <action/>
+                  <action name="Navigate" text="New Action" argument="ActionGroup.htm?Controller={Controller}&amp;ActionGroupId={ActionGroupId}&amp;_activeTab=Actions&amp;_controller=Actions&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="Action-New.png"/>
+                </actions>
+                <match>
+                  <when test="\WActionGroup\.htm\W" url="tab://Pages/*/DataView/Controller={Controller}/DataView_Actions/Controller={Controller}/DataView_ActionGroup/ActionGroupId={ActionGroupId}"/>
+                </match>
+                <inspect>
+                  <when test="Actions\$g\$(?'ActionGroupId'\w+)(.+?)table\.DataView\.(?'Controller'\w+)_(?'View'\w+)(.+?)div#_lc(?'ContainerIndex'\d+)\W(.+?)div\.pages_(?'Page'\w+)_aspx"
+                        priority="70" url="tab://Pages/Page/Name={Page}/Container/{ContainerIndex}/DataView/Controller={Controller}/DataView_Actions/Controller={Controller}/DataView_ActionGroup/ActionGroupId={ActionGroupId}" />
+                </inspect>
+                <!-- DataView_ActionGroup_Action -->
+                <node name="DataView_ActionGroup_Action"
+                      text="{ActionId}{' - ', CommandName}{', ', CommandArgument}{' when ', WhenLastCommandName}{', ', WhenLastCommandArgument}{' | ', HeaderText}"
+                      title="{Controller} / {ActionGroupId} ({Scope}){' - ', HeaderText} / {ActionId}{' - ', CommandName}{', ', CommandArgument}{' when ', WhenLastCommandName}{', ', WhenLastCommandArgument}{' | ', HeaderText}" imageUrl="Action"
+                      drop="DataView_ActionGroup_Action:move"  nodeSetPath="/controller/{Controller}/actionGroup/{ActionGroupId}/action/{ActionId}" insertNodeSetPath="/controller/{Controller}/actionGroup/{ActionGroupId}" >
+                  <query controller="Actions" view="grid1" sort="Controller" key="Controller,ActionGroupId,ActionId" filter="Controller=Controller,ActionGroupId=ActionGroupId"/>
+                  <actions>
+                    <action name="Select" argument="Action.htm?Controller={Controller}&amp;ActionGroupId={ActionGroupId}&amp;ActionId={ActionId}"/>
+                    <action name="Navigate" text="List" argument="ActionGroup.htm?Controller={Controller}&amp;ActionGroupId={ActionGroupId}&amp;_activeTab=Actions" imageUrl="List.png"/>
+                    <!--<action name="Select" text="Delete" argument="Action.htm?Controller={Controller}&amp;ActionGroupId={ActionGroupId}&amp;ActionId={ActionId}&amp;_controller=Actions&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+                    <action toolbar="false"/>
+                    <action name="Cut"/>
+                    <action name="Copy"/>
+                    <action name="Paste"/>
+                    <action name="Delete" toolbar="false"/>
+                    <action name="Rename" toolbar="false"/>
+                    <action/>
+                    <action name="Select" text="Show Action '{ActionId}' in Controller" argument="tab://Controllers/Controller/Controller={Controller}/Actions/Name={Controller}/Controller_ActionGroup/ActionGroupId={ActionGroupId}/Controller_ActionGroup_Action/ActionId={ActionId}" imageUrl="Controller-Shortcut.png"/>
+                  </actions>
+                  <match>
+                    <when test="\WAction\.htm\W" url="tab://Pages/*/DataView/Controller={Controller}/DataView_Actions/Controller={Controller}/DataView_ActionGroup/ActionGroupId={ActionGroupId}/DataView_ActionGroup_Action/ActionId={ActionId}"/>
+                  </match>
+                  <inspect>
+                    <when test="Actions\$g\$(?'ActionGroupId'\w+)\$a\$(?'ActionId'\w+)(.+?)table\.DataView\.(?'Controller'\w+)_(?'View'\w+)(.+?)div#_lc(?'ContainerIndex'\d+)\W(.+?)div\.pages_(?'Page'\w+)_aspx"
+                          priority="80" url="tab://Pages/Page/Name={Page}/Container/{ContainerIndex}/DataView/Controller={Controller}/DataView_Actions/Controller={Controller}/DataView_ActionGroup/ActionGroupId={ActionGroupId}/DataView_ActionGroup_Action/ActionId={ActionId}" />
+                    <when test="Actions\$g\$(?'ActionGroupId'\w+)\$a\$(?'ActionId'\w+)(.+?)div#(?'Controller'\w+)_(?'View'\w+)_Placeholder(.+?)\.ModalPlaceholder"
+                          priority="81" url="tab://Controllers/Controller/Controller={Controller}/Actions/Controller={Controller}/Controller_ActionGroup/ActionGroupId={ActionGroupId}/Controller_ActionGroup_Action/ActionId={ActionId}" />
+                  </inspect>
+                </node>
+              </node>
+            </node>
+          </node>
+          <!-- Control -->
+          <node name="Control" text="{ControlId} - {UserControl}{' #', Sequence}" title="{Page} / {ContainerId} / {ControlId}" imageUrl="Control.png"
+                drop="Control:move" nodeSetPath="/page/{Page}/control/{ControlId}" nodeSetLogicalPath="/page/{Page}/container/{ContainerId}/control/{ControlId}" insertNodeSetPath="/page/{Page}/container/{ContainerId}">
+            <query controller="Controls" view="grid1" sort="Page,ContainerId,Sequence" key="Page,ContainerId,ControlId,UserControl" filter="Page=Page,ContainerId=ContainerId"/>
+            <actions>
+              <action name="Select" argument="Control.htm?Page={Page}&amp;ContainerId={ContainerId}&amp;ControlId={ControlId}"/>
+              <action name="Edit" argument="UserControl" text="Edit in Visual Studio" imageUrl="VisualStudio.png"/>
+              <action name="Navigate" text="List" argument="Container.htm?Page={Page}&amp;ContainerId={ContainerId}&amp;_activeTab=Controls" imageUrl="List.png"/>
+              <action toolbar="false"/>
+              <action name="Cut"/>
+              <action name="Copy"/>
+              <action name="Paste"/>
+              <action name="Delete" toolbar="false"/>
+              <action name="Rename" toolbar="false"/>
+              <action/>
+              <action name="Select" text="Show User Control" argument="tab://UserControls/UserControl/Name={UserControl}" imageUrl="UserControl-Shortcut.png"/>
+              <!--<action name="Select" text="Delete" argument="Control.htm?Page={Page}&amp;ContainerId={ContainerId}&amp;ControlId={ControlId}&amp;_controller=Controls&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+            </actions>
+            <match >
+              <when test="\WControl\.htm\W" url="tab://Pages/Page/Name={Page}/Container/ContainerId={ContainerId}/Control/ControlId={ControlId}"/>
+              <when test="ListController=Controls" url="tab://Pages/Page/Name={Page}/Container/ContainerId={ContainerId}/Control/ControlId={ControlId}"/>
+            </match>
+            <!-- Control_UserControl -->
+            <node name="Control_UserControl" text="{Name}" imageUrl="UserControl.png">
+              <query controller="UserControls" view="grid1" sort="Name" key="Name" filter="Name=UserControl"/>
+              <actions>
+                <action name="Select" argument="UserControl.htm?Name={Name}"/>
+                <action name="Select" text="Show User Control" argument="tab://UserControls/UserControl/Name={Name}" imageUrl="UserControl-Shortcut.png"/>
+              </actions>
+              <match >
+                <when test="\WUserControl\.htm\W" url="tab://UserControls/UserControl/Name={Name}"/>
+              </match>
+            </node>
+          </node>
+        </node>
+      </node>
+    </tab>
+    <!-- "Controllers" tab -->
+    <tab name="Controllers" text="Controllers" imageUrl="Controller.png">
+      <actions>
+        <action name="Navigate" text="List of Controllers" argument="Start.htm?_activeTab=Controllers" imageUrl="Home.png"/>
+        <action name="Navigate" text="New Controller" argument="Start.htm?_activeTab=Controllers&amp;_controller=Controllers&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="Controller-New.png"/>
+      </actions>
+      <!-- Controller -->
+      <node name="Controller" text="{Name}" imageUrl="Controller"  drop="Controller,Command,BusinessRule,Controller_ActionGroup,View,Field" nodeSetPath="/controller/{Name}" insertNodeSetPath="/controllers">
+        <query controller="Controllers" view="grid1" sort="Name" key="Name,Controller,Handler,HasRules"/>
+        <actions>
+          <action name="Select" argument="Controller.htm?Controller={Controller}"/>
+          <action name="Edit" argument="Handler" text="Edit Handler in Visual Studio" when="Handler!=''" imageUrl="VisualStudio.png"/>
+          <!--<action name="Navigate" text="List" argument="Start.htm?_activeTab=Controllers" imageUrl="List.png"/>-->
+          <!--<action name="Select" text="Delete" argument="Controller.htm?Controller={Controller}&amp;_controller=Controllers&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+          <!--<action/>
+          <action name="Navigate" text="New Controller" argument="Start.htm?_activeTab=Controllers&amp;_controller=Controllers&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="Controller-New.png"/>-->
+          <action toolbar="false"/>
+          <action name="Copy"/>
+          <action name="Paste"/>
+          <action name="Delete" toolbar="false"/>
+          <action name="Rename" toolbar="false"/>
+          <action toolbar="false"/>
+          <action name="Clone" toolbar="false"/>
+          <action name="GenerateFromSQL" text="Generate from SQL..." argument="{Controller}" toolbar="false"/>
+          <action name="GenerateFromFields" text="Generate from Fields" argument="{Controller}" toolbar="false"/>
+        </actions>
+        <match >
+          <when test="ListController=Controllers" url="tab://Controllers/Controller/Name={Name}"/>
+          <when test="\WController\.htm\W" url="tab://Controllers/Controller/Name={Controller}"/>
+        </match>
+        <!-- Commands -->
+        <node name="Commands" text="Commands" title="{Controller} / Commands" imageUrl="Commands.png" drop="Command" nodeSetPath="/controller/{Controller}" >
+          <actions>
+            <action name="Navigate" text="List" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Commands" imageUrl="List.png"/>
+            <action/>
+            <action name="Navigate" text="New Command" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Commands&amp;_controller=Commands&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="Command-New.png"/>
+            <action name="Paste"/>
+          </actions>
+          <!-- Command -->
+          <node name="Command" text="{CommandId} ({Type}){' - ', Event}" title="{Controller} / {CommandId} ({Type}){' - ', Event}" imageUrl="Command.png"  drop="Command:move" nodeSetPath="/controller/{Controller}/command/{CommandId}" insertNodeSetPath="/controller/{Controller}">
+            <query controller="Commands" view="grid1" key="Controller,CommandId" filter="Controller=Name"/>
+            <actions>
+              <action name="Select" argument="Command.htm?Controller={Controller}&amp;CommandId={CommandId}"/>
+              <!--<action name="Select" text="Delete" argument="Command.htm?Controller={Controller}&amp;CommandId={CommandId}&amp;_controller=Commands&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+              <action toolbar="false"/>
+              <action name="Cut"/>
+              <action name="Copy"/>
+              <action name="Paste"/>
+              <action name="Delete" toolbar="false"/>
+              <action name="Rename" toolbar="false"/>
+              <action toolbar="false"/>
+              <action name="Configure" argument="Text" text="Reset to Baseline" toolbar="false"/>
+              <action toolbar="false"/>
+              <!--<action name="Select" text="Show Parameters" argument="Command.htm?Controller={Controller}&amp;CommandId={CommandId}&amp;_activeTab=Parameters" imageUrl="Parameter.png"/>-->
+              <action name="Select" text="Show Field Outputs" argument="Command.htm?Controller={Controller}&amp;CommandId={CommandId}&amp;_activeTab=Field Outputs" imageUrl="FieldOutput.png"/>
+            </actions>
+            <match>
+              <when test="ListController=Commands" url="tab://Controllers/Controller/Name={Controller}/Commands/Controller={Controller}/Command/CommandId={CommandId}"/>
+              <when test="\WCommand\.htm\W" url="tab://Controllers/Controller/Controller={Controller}/Commands/Controller={Controller}/Command/CommandId={CommandId}"/>
+            </match>
+            <!-- 
+             // FieldOutput
+            <node name="FieldOutput" text="{FieldName}" title="{Controller} / {CommandId} ({CommandType}){' - ', CommandEvent} / {FieldName}" imageUrl="FieldOutput.png">
+              <query controller="FieldOutputs" view="grid1" key="Controller,CommandId,FieldName" filter="Controller=Controller,CommandId=CommandId"/>
+              <actions>
+                <action name="Select" argument="FieldOutput.htm?Controller={Controller}&amp;CommandId={CommandId}&amp;FieldName={FieldName}"/>
+                <action name="Select" text="Delete" argument="FieldOutput.htm?Controller={Controller}&amp;CommandId={CommandId}&amp;FieldName={FieldName}&amp;_controller=FieldOutputs&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>
+              </actions>
+              // FieldOutput_Field 
+              <node name="FieldOutput_Field" text="{Name} ({Type})" title="{Controller} / {Name} ({Type})" imageUrl="Field-Shortcut.png">
+                <query controller="Fields" view="grid1" sort="" key="Controller,Name" filter="Controller=Controller,Name=FieldName"/>
+                <actions>
+                  <action name="Select" argument="Field.htm?Controller={Controller}&amp;Name={Name}"/>
+                </actions>
+              </node>
+            </node>
+            -->
+          </node>
+        </node>
+        <!-- Fields -->
+        <node name="Fields" text="Fields" title="{Controller} / Fields" imageUrl="Fields.png" drop="Field,Controller" nodeSetPath="/controller/{Controller}">
+          <actions>
+            <action name="Navigate" text="List" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Fields" imageUrl="List.png"/>
+            <action/>
+            <action name="Navigate" text="New Field" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Fields&amp;_controller=Fields&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="Field-New.png"/>
+            <action name="Paste"/>
+          </actions>
+          <!-- Field -->
+          <node name="Field" text="{Name}{AllowNulls:True=;False=*;} ({Type}{'(',Length,')'}{ReadOnly:True=, read-only;False=;}){' -> ', ItemsDataController}{': ', ItemsDataValueField}{' / ', ItemsDataTextField}" title="{Controller} / {Name} ({Type}){' -> ', ItemsDataController}{': ', ItemsDataValueField}{' / ', ItemsDataTextField}" imageUrl="Field"
+                drop="Field:move,Item" nodeSetPath="/controller/{Controller}/field/{Name}" insertNodeSetPath="/controller/{Controller}">
+            <query controller="Fields" view="grid1" sort="Controller" key="Controller,Name,ItemsDataController,ItemsDataValueField,ItemsDataTextField" filter="Controller=Name" expandWhen="HasItems"/>
+            <actions>
+              <action name="Select" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}"/>
+              <action name="Navigate" text="List" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Fields" imageUrl="List.png"/>
+              <!--<action name="Select" text="Delete" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}&amp;_controller=Fields&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+              <action toolbar="false"/>
+              <action name="Cut"/>
+              <action name="Copy"/>
+              <action name="Paste"/>
+              <action name="Delete" toolbar="false"/>
+              <action name="Rename" toolbar="false"/>
+              <action toolbar="true"/>
+              <action name="Select" text="Show Value/Text Items" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}&amp;_activeTab=Items" toolbar="false" />
+              <action name="Navigate" text="New Value/Text Item" argument="Item.htm?Controller={Controller}&amp;FieldName={Name}&amp;FieldName={Name}&amp;_activeTab=Items&amp;_controller=Items&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="Item-New.png"/>
+              <!--<action name="Select" text="Show Validators" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}&amp;_activeTab=Validators" imageUrl="Validator.png"/>-->
+              <action toolbar="false"/>
+              <action name="Configure" argument="JavaScriptValidator" text="Add JavaScript Validator" toolbar="false" imageUrl="BusinessRule-JavaScript.png" question="Add a JavaScript business rule to validate the field {0}?" />
+              <action name="Configure" argument="JavaScriptConverter" text="Add JavaScript Converter" toolbar="false" imageUrl="BusinessRule-JavaScript.png" question="Add a JavaScript business rule to convert the field {0}?" />
+              <action toolbar="false"/>
+              <action name="Configure" argument="SqlValidator" text="Add SQL Validator" toolbar="false" imageUrl="BusinessRule-SQL.png"  question="Add an SQL business rule to validate the field {0}?"/>
+              <action name="Configure" argument="SqlConverter" text="Add SQL Converter" toolbar="false" imageUrl="BusinessRule-SQL.png"  question="Add an SQL business rule to convert the field {0}?" />
+              <action toolbar="false"/>
+              <action name="Configure" argument="CodeValidator" text="Add Code Validator" toolbar="false" imageUrl="BusinessRule-Code.png"  question="Add a Code business rule to validate the field {0}?"/>
+              <action name="Configure" argument="CodeConverter" text="Add Code Converter" toolbar="false" imageUrl="BusinessRule-Code.png"  question="Add a Code business rule to convert the field {0}?" />
+            </actions>
+            <match>
+              <when test="ListController=Fields" url="tab://Controllers/Controller/Name={Controller}/Fields/Controller={Controller}/Field/Name={Name}"/>
+              <when test="\WField\.htm\W" url="tab://Controllers/Controller/Controller={Controller}/Fields/Controller={Controller}/Field/Name={FieldName}"/>
+            </match>
+            <!-- Item -->
+            <node name="Item" text="{Value} - {Text} " title="{Controller} / {FieldName} / {Value} - {Text}" imageUrl="Items.png"
+                  drop="Item:move" nodeSetPath="/controller/{Controller}/field/{FieldName}/item/{Value}" insertNodeSetPath="/controller/{Controller}/field/{FieldName}">
+              <query controller="Items" view="grid1" sort="Controller" key="Controller,FieldName,Value" filter="Controller=Controller,FieldName=Name"/>
+              <actions>
+                <action name="Select" argument="Item.htm?Controller={Controller}&amp;Name={FieldName}&amp;FieldName={FieldName}&amp;Value={Value}"/>
+                <action name="Navigate" text="List" argument="Field.htm?Controller={Controller}&amp;Name={FieldName}&amp;FieldName={FieldName}&amp;_activeTab=Items" imageUrl="List.png"/>
+                <action toolbar="false"/>
+                <action name="Cut"/>
+                <action name="Copy"/>
+                <action name="Paste"/>
+                <action name="Delete" toolbar="false"/>
+                <action name="Rename" toolbar="false"/>
+              </actions>
+              <match>
+                <when test="ListController=Items" url="tab://Controllers/Controller/Name={Controller}/Fields/Controller={Controller}/Field/Name={FieldName}/Item/Value={Value}"/>
+                <when test="\WItem\.htm\W" url="tab://Controllers/Controller/Controller={Controller}/Fields/Controller={Controller}/Field/Name={FieldName}/Item/Value={Value}"/>
+              </match>
+            </node>
+          </node>
+        </node>
+        <!-- Views -->
+        <node name="Views" text="Views"  title="{Controller} / Views" imageUrl="Views.png" drop="View,DataView_View" nodeSetPath="/controller/{Controller}">
+          <actions>
+            <action name="Navigate" text="List" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Views" imageUrl="List.png"/>
+            <action/>
+            <action name="Navigate" text="New View" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Views&amp;_controller=Views&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="View-New.png"/>
+            <action name="Paste"/>
+          </actions>
+          <!-- View -->
+          <node name="View" text="{ViewId}" title="{Controller} / {ViewId}" imageUrl="View"
+                drop="View:move,DataView_View:move,Field,View_Category,View_DataField,View_Category_DataField" nodeSetPath="/controller/{Controller}/view/{ViewId}" insertNodeSetPath="/controller/{Controller}">
+            <query controller="Views" view="grid1" sort="Controller" key="Controller,ViewId,Type" filter="Controller=Name"/>
+            <actions>
+              <action name="Select" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}"/>
+              <action name="Navigate" text="List" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Views" imageUrl="List.png"/>
+              <!--<action name="Select" text="Delete" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_controller=Views&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+              <action toolbar="false"/>
+              <action name="Cut"/>
+              <action name="Copy"/>
+              <action name="Paste"/>
+              <action name="Delete" toolbar="false"/>
+              <action name="Rename" toolbar="false"/>
+              <action toolbar="false"/>
+              <action name="Navigate" text="Show All Data Fields" when="Type!='Form'" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_activeTab=Data Fields" toolbar="false"/>
+              <action name="Navigate" text="Show All Categories" when="Type=='Form'" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_activeTab=Categories" toolbar="false"/>
+              <action name="Select" text="Show Styles" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_activeTab=Styles" imageUrl="Style.png"/>
+              <action toolbar="false"/>
+              <action name="Configure" argument="ConvertToGrid" when="Type=='Form'" text="Convert To Grid" toolbar="false" imageUrl="View-Grid.png"/>
+              <action name="Configure" argument="ConvertToForm" when="Type!='Form'" text="Convert To Form" toolbar="false" imageUrl="View-Form.png" />
+              <action/>
+              <action name="Navigate" text="New Data Field" when="Type!='Form'" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_activeTab=Data Fields&amp;_controller=DataFields&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="DataField-New.png"/>
+              <action name="Navigate" text="New Category" when="Type=='Form'" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_activeTab=Categories&amp;_controller=Categories&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="Category-New.png"/>
+            </actions>
+            <match>
+              <when test="ListController=Views" url="tab://Controllers/Controller/Name={Controller}/Views/Controller={Controller}/View/ViewId={ViewId}"/>
+              <when test="\WView\.htm\W" url="tab://Controllers/Controller/Controller={Controller}/Views/Controller={Controller}/View/ViewId={ViewId}"/>
+            </match>
+            <inspect>
+              <when test="div#(?'Controller'\w+)_(?'View'\w+)_Placeholder(.+?)\.ModalPlaceholder"
+                    priority="16" url="tab://Controllers/Controller/Controller={Controller}/Views/Controller={Controller}/View/ViewId={View}" />
+            </inspect>
+            <!-- View_DataField -->
+            <node name="View_DataField" text="{FieldName}{' -> ', Alias}" title="{Controller} / {ViewId} / {FieldName} ({DataType})" imageUrl="DataField"
+                  drop="View_DataField:move" nodeSetPath="/controller/{Controller}/view/{ViewId}/dataField/{FieldName}" insertNodeSetPath="/controller/{Controller}/view/{ViewId}">
+              <query controller="DataFields" view="grid1" sort="" key="Controller,ViewId,CategoryId,FieldName,Alias" filter="Controller=Controller,ViewId=ViewId,CategoryId=null"/>
+              <actions>
+                <action name="Select" argument="DataField.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;FieldName={FieldName}"/>
+                <action name="Navigate" text="List" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_activeTab=Data Fields" imageUrl="List.png"/>
+                <!--<action name="Select" text="Delete" argument="DataField.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;FieldName={FieldName}&amp;_controller=DataFields&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+                <action toolbar="false"/>
+                <action name="Cut"/>
+                <action name="Copy"/>
+                <action name="Paste"/>
+                <action name="Delete" toolbar="false"/>
+                <!--<action name="Rename" toolbar="false"/>-->
+                <!--<action toolbar="false"/>
+                <action name="Select" text="Show Value/Text Items" argument="Field.htm?Controller={Controller}&amp;Name={FieldName}&amp;FieldName={FieldName}&amp;_activeTab=Items" imageUrl="Items.png"/>-->
+                <!--<action name="Select" text="Show Validators" argument="Field.htm?Controller={Controller}&amp;Name={FieldName}&amp;FieldName={FieldName}&amp;_activeTab=Validators" imageUrl="Validator.png"/>-->
+              </actions>
+              <match>
+                <when test="ListController=DataFields" url="tab://Controllers/Controller/Name={Controller}/Views/Controller={Controller}/View/ViewId={ViewId}/View_DataField/FieldName={FieldName}"/>
+                <when test="\WDataField\.htm\W" url="tab://Controllers/Controller/Controller={Controller}/Views/Controller={Controller}/View/ViewId={ViewId}/View_DataField/FieldName={FieldName}"/>
+              </match>
+              <!-- View_NoCategory_DataField_Field -->
+              <node name="View_NoCategory_DataField_Field" text="{Name}{AllowNulls:True=;False=*;} ({Type}{'(',Length,')'}{ReadOnly:True=, read-only;False=;})" title="{Controller} / {Name} ({Type})" imageUrl="Field-Shortcut.png">
+                <query controller="Fields" view="grid1" sort="" key="Controller,Name" filter="Controller=Controller,Name=FieldName"/>
+                <actions>
+                  <action name="Select" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}"/>
+                  <action/>
+                  <action name="Select" text="Show Field '{Name}' in Field List" argument="tab://Controllers/Controller/Controller={Controller}/Fields/Controller={Controller}/Field/Name={Name}" imageUrl="Controller-Shortcut.png"/>
+                  <action name="Select" text="Show Value/Text Items" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}&amp;_activeTab=Items" imageUrl="Items.png"/>
+                  <!--<action name="Select" text="Show Validators" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}&amp;_activeTab=Validators" imageUrl="Validator.png"/>-->
+                </actions>
+              </node>
+              <!-- View_NoCategory_DataField_AliasField -->
+              <node name="View_NoCategory_DataField_AliasField" text="{Name}{AllowNulls:True=;False=*;} ({Type}{'(',Length,')'}{ReadOnly:True=, read-only;False=;})" title="{Controller} / {Name} ({Type})" imageUrl="Field-Shortcut.png">
+                <query controller="Fields" view="grid1" sort="" key="Controller,Name" filter="Controller=Controller,Name=Alias"/>
+                <actions>
+                  <action name="Select" argument="Field.htm?Controller={Controller}&amp;Name={Name}"/>
+                  <action/>
+                  <action name="Select" text="Show Field '{Name}' in Field List" argument="tab://Controllers/Controller/Controller={Controller}/Fields/Controller={Controller}/Field/Name={Name}" imageUrl="Controller-Shortcut.png"/>
+                </actions>
+              </node>
+            </node>
+            <!-- View_Category -->
+            <node name="View_Category" text="{categoryId}{' - ', Wizard}{' - [', Tab, ']'}{' - ', HeaderText}" title="{Controller} / {ViewId} / {CategoryId} - {HeaderText}" imageUrl="Category"
+                  drop="View_Category:move,Field,View_Category_DataField" nodeSetPath="/controller/{Controller}/view/{ViewId}/category/{CategoryId}" insertNodeSetPath="/controller/{Controller}/view/{ViewId}">
+              <query controller="Categories" view="grid1" sort="" key="Controller,ViewId,CategoryId,HeaderText" filter="Controller=Controller,ViewId=ViewId"/>
+              <actions>
+                <action name="Select" argument="Category.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}"/>
+                <action name="Navigate" text="List" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;_activeTab=Categories" imageUrl="List.png"/>
+                <!--<action name="Select" text="Delete" argument="Category.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;_controller=Categories&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+                <action toolbar="false"/>
+                <action name="Cut"/>
+                <action name="Copy"/>
+                <action name="Paste"/>
+                <action name="Delete" toolbar="false"/>
+                <action name="Rename" toolbar="false"/>
+                <action toolbar="false"/>
+                <action name="Navigate" text="Show All Data Fields" argument="Category.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;_activeTab=Data Fields" toolbar="false"/>
+                <action/>
+                <action name="Navigate" text="New Data Field" argument="View.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;_activeTab=Data Fields&amp;_controller=DataFields&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="DataField-New.png"/>
+              </actions>
+              <match>
+                <when test="ListController=Categories" url="tab://Controllers/Controller/Name={Controller}/Views/Controller={Controller}/View/ViewId={ViewId}/View_Category/CategoryId={CategoryId}"/>
+                <when test="\WCategory\.htm\W" url="tab://Controllers/Controller/Controller={Controller}/Views/Controller={Controller}/View/ViewId={ViewId}/View_Category/CategoryId={CategoryId}"/>
+              </match>
+              <!-- View_Category_DataField -->
+              <node name="View_Category_DataField" text="{FieldName}{' -> ', Alias}" title="{Controller} / {ViewId} / {CategoryId} - {CategoryHeaderText} / {FieldName} ({DataType})" imageUrl="DataField"
+                    drop="View_Category_DataField:move" nodeSetPath="/controller/{Controller}/view/{ViewId}/category/{CategoryId}/dataField/{FieldName}" insertNodeSetPath="/controller/{Controller}/view/{ViewId}/category/{CategoryId}">
+                <query controller="DataFields" view="grid1" sort="" key="Controller,ViewId,CategoryId,FieldName,Alias" filter="Controller=Controller,ViewId=ViewId,CategoryId=CategoryId"/>
+                <actions>
+                  <action name="Select" argument="DataField.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;FieldName={FieldName}"/>
+                  <action name="Navigate" text="List" argument="Category.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;_activeTab=Data Fields" imageUrl="List.png"/>
+                  <!--<action name="Select" text="Delete" argument="DataField.htm?Controller={Controller}&amp;ViewId={ViewId}&amp;CategoryId={CategoryId}&amp;FieldName={FieldName}&amp;_controller=DataFields&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+                  <action toolbar="false"/>
+                  <action name="Cut"/>
+                  <action name="Copy"/>
+                  <action name="Paste"/>
+                  <action name="Delete" toolbar="false"/>
+                  <!--<action name="Rename" toolbar="false"/>-->
+                  <!--<action toolbar="false"/>
+                  <action name="Select" text="Show Value/Text Items" argument="Field.htm?Controller={Controller}&amp;Name={FieldName}&amp;FieldName={FieldName}&amp;_activeTab=Items" imageUrl="Items.png"/>-->
+                  <!--<action name="Select" text="Show Validators" argument="Field.htm?Controller={Controller}&amp;Name={FieldName}&amp;FieldName={FieldName}&amp;_activeTab=Validators" imageUrl="Validator.png"/>-->
+                </actions>
+                <match>
+                  <when test="ListController=DataFields" url="tab://Controllers/Controller/Name={Controller}/Views/Controller={Controller}/View/ViewId={ViewId}/View_Category/CategoryId={CategoryId}/View_Category_DataField/FieldName={FieldName}"/>
+                  <when test="\WDataField\.htm\W"  url="tab://Controllers/Controller/Controller={Controller}/Views/Controller={Controller}/View/ViewId={ViewId}/View_Category/CategoryId={CategoryId}/View_Category_DataField/FieldName={FieldName}"/>
+                </match>
+                <!-- View_Category_DataField_Field -->
+                <node name="View_Category_DataField_Field" text="{Name}{AllowNulls:True=;False=*;} ({Type}{'(',Length,')'}{ReadOnly:True=, read-only;False=;})"  title="{Controller} / {Name} ({Type})" imageUrl="Field-Shortcut.png">
+                  <query controller="Fields" view="grid1" sort="" key="Controller,Name" filter="Controller=Controller,Name=FieldName"/>
+                  <actions>
+                    <action name="Select" argument="Field.htm?Controller={Controller}&amp;Name={Name}"/>
+                    <action/>
+                    <action name="Select" text="Show Field '{Name}' in Field List" argument="tab://Controllers/Controller/Controller={Controller}/Fields/Controller={Controller}/Field/Name={Name}" imageUrl="Controller-Shortcut.png"/>
+                    <action name="Select" text="Show Value/Text Items" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}&amp;_activeTab=Items" imageUrl="Items.png"/>
+                    <!--<action name="Select" text="Show Validators" argument="Field.htm?Controller={Controller}&amp;Name={Name}&amp;FieldName={Name}&amp;_activeTab=Validators" imageUrl="Validator.png"/>-->
+                  </actions>
+                </node>
+                <!-- View_Category_DataField_AliasField -->
+                <node name="View_Category_DataField_AliasField" text="{Name}{AllowNulls:True=;False=*;} ({Type}{'(',Length,')'}{ReadOnly:True=, read-only;False=;})" title="{Controller} / {Name} ({Type})" imageUrl="Field-Shortcut.png">
+                  <query controller="Fields" view="grid1" sort="" key="Controller,Name" filter="Controller=Controller,Name=Alias"/>
+                  <actions>
+                    <action name="Select" argument="Field.htm?Controller={Controller}&amp;Name={Name}"/>
+                    <action/>
+                    <action name="Select" text="Show Filed '{Name}' in Field List" argument="tab://Controllers/Controller/Controller={Controller}/Fields/Controller={Controller}/Field/Name={Name}" imageUrl="Controller-Shortcut.png"/>
+                  </actions>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <!-- Actions -->
+        <node name="Actions" text="Actions" title="{Controller} / Action Groups" imageUrl="Actions.png" drop="Controller_ActionGroup" nodeSetPath="/controller/{Controller}" >
+          <actions>
+            <action name="Navigate" text="List" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Action Groups" imageUrl="List.png"/>
+            <action/>
+            <action name="Navigate" text="New Action Group" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Action Groups&amp;_controller=ActionGroups&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="ActionGroup-New.png"/>
+            <action name="Paste"/>
+          </actions>
+          <!-- Controller_ActionGroup -->
+          <node name="Controller_ActionGroup" text="{ActionGroupId} ({Scope}){' - ', HeaderText}" title="{Controller} / {ActionGroupId} ({Scope}){' - ', HeaderText}" imageUrl="ActionGroup.png"
+                drop="Controller_ActionGroup:move,Controller_ActionGroup_Action"  nodeSetPath="/controller/{Controller}/actionGroup/{ActionGroupId}" insertNodeSetPath="/controller/{Controller}">
+            <query controller="ActionGroups" view="grid1" sort="Controller" key="Controller,ActionGroupId,Scope" filter="Controller=Name"/>
+            <actions>
+              <action name="Select" argument="ActionGroup.htm?Controller={Controller}&amp;ActionGroupId={ActionGroupId}"/>
+              <action name="Navigate" text="List" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Action Groups" imageUrl="List.png"/>
+              <!--<action name="Select" text="Delete" argument="ActionGroup.htm?Controller={Controller}&amp;ActionGroupId={ActionGroupId}&amp;_controller=ActionGroups&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+              <action toolbar="false"/>
+              <action name="Cut"/>
+              <action name="Copy"/>
+              <action name="Paste"/>
+              <action name="Delete" toolbar="false"/>
+              <action name="Rename" toolbar="false"/>
+              <action toolbar="false"/>
+              <action name="Navigate" text="Show All Actions" argument="ActionGroup.htm?Controller={Controller}&amp;ActionGroupId={ActionGroupId}&amp;_activeTab=Actions" toolbar="false"/>
+              <action/>
+              <action name="Navigate" text="New Action" argument="ActionGroup.htm?Controller={Controller}&amp;ActionGroupId={ActionGroupId}&amp;_activeTab=Actions&amp;_controller=Actions&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="Action-New.png"/>
+            </actions>
+            <match>
+              <when test="ListController=ActionGroups" url="tab://Controllers/Controller/Name={Controller}/Actions/Controller={Controller}/Controller_ActionGroup/ActionGroupId={ActionGroupId}"/>
+              <when test="\WActionGroup\.htm\W" url="tab://Controllers/Controller/Controller={Controller}/Actions/Controller={Controller}/Controller_ActionGroup/ActionGroupId={ActionGroupId}"/>
+            </match>
+            <!-- Controller_ActionGroup_Action -->
+            <node name="Controller_ActionGroup_Action"
+                  text="{ActionId}{' - ', CommandName}{', ', CommandArgument}{' when ', WhenLastCommandName}{', ', WhenLastCommandArgument}{' | ', HeaderText}"
+                  title="{Controller} / {ActionGroupId} ({Scope}){' - ', HeaderText} / {ActionId}{' - ', CommandName}{' when ', WhenLastCommandName}{', ', WhenLastCommandArgument}{' | ', HeaderText}" imageUrl="Action"
+                  drop="Controller_ActionGroup_Action:move"  nodeSetPath="/controller/{Controller}/actionGroup/{ActionGroupId}/action/{ActionId}" insertNodeSetPath="/controller/{Controller}/actionGroup/{ActionGroupId}" >
+              <query controller="Actions" view="grid1" sort="Controller" key="Controller,ActionGroupId,ActionId" filter="Controller=Controller,ActionGroupId=ActionGroupId"/>
+              <actions>
+                <action name="Select" argument="Action.htm?Controller={Controller}&amp;ActionGroupId={ActionGroupId}&amp;ActionId={ActionId}"/>
+                <action name="Navigate" text="List" argument="ActionGroup.htm?Controller={Controller}&amp;ActionGroupId={ActionGroupId}&amp;_activeTab=Actions" imageUrl="List.png"/>
+                <!--<action name="Select" text="Delete" argument="Action.htm?Controller={Controller}&amp;ActionGroupId={ActionGroupId}&amp;ActionId={ActionId}&amp;_controller=Actions&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+                <action toolbar="false"/>
+                <action name="Cut"/>
+                <action name="Copy"/>
+                <action name="Paste"/>
+                <action name="Delete" toolbar="false"/>
+                <action name="Rename" toolbar="false"/>
+              </actions>
+              <match>
+                <when test="ListController=Actions" url="tab://Controllers/Controller/Name={Controller}/Actions/Controller={Controller}/Controller_ActionGroup/ActionGroupId={ActionGroupId}/Controller_ActionGroup_Action/ActionId={ActionId}"/>
+                <when test="\WAction\.htm\W" url="tab://Controllers/Controller/Controller={Controller}/Actions/Controller={Controller}/Controller_ActionGroup/ActionGroupId={ActionGroupId}/Controller_ActionGroup_Action/ActionId={ActionId}"/>
+              </match>
+            </node>
+          </node>
+        </node>
+        <!-- BusinessRules -->
+        <node name="BusinessRules" text="Business Rules" title="{Controller} / Business Rules" imageUrl="BusinessRules.png" drop="BusinessRule" nodeSetPath="/controller/{Controller}"  expandWhen="HasRules">
+          <actions>
+            <action name="Navigate" text="List" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Rules" imageUrl="List.png"/>
+            <action name="Edit" argument="Handler" text="Edit Handler in Visual Studio" when="Handler!=''" imageUrl="VisualStudio.png"/>
+            <action/>
+            <action name="Navigate" text="New Business Rule" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Rules&amp;_controller=BusinessRules&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="BusinessRule-New.png"/>
+            <action name="Paste"/>
+          </actions>
+          <!-- BusinessRule-->
+          <node name="BusinessRule" text="{Name, ' - '}{CommandName}{', ', CommandArgument}{' in ', View} ({Type} / {Phase}) - {RuleId}" title="{Controller}: {Name, ' - '}{CommandName}{', ', CommandArgument}{' in ', View} ({Type} / {Phase}) - {RuleId}" imageUrl="BusinessRule"  drop="BusinessRule:move" nodeSetPath="/controller/{Controller}/rule/{RuleId}" insertNodeSetPath="/controller/{Controller}">
+            <query controller="BusinessRules" view="grid1" sort="Controller" key="Controller,RuleId,CommandName,CommandArgument,View,Type,Phase" filter="Controller=Name"/>
+            <actions>
+              <action name="Select" argument="BusinessRule.htm?Controller={Controller}&amp;RuleId={RuleId}"/>
+              <action name="Edit" argument="CodeFile" text="Edit Rule in Visual Studio" when="Type=='Code'" imageUrl="VisualStudio.png"/>
+              <action name="Navigate" text="List" argument="Controller.htm?Controller={Controller}&amp;_activeTab=Rules" imageUrl="List.png"/>
+              <!--<action name="Select" text="Delete" argument="BusinessRule.htm?Controller={Controller}&amp;RuleId={RuleId}&amp;_controller=BusinessRules&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+              <action toolbar="false"/>
+              <action name="Cut"/>
+              <action name="Copy"/>
+              <action name="Paste"/>
+              <action name="Delete" toolbar="false"/>
+              <action name="Rename" toolbar="false"/>
+            </actions>
+            <match>
+              <when test="ListController=BusinessRules" url="tab://Controllers/Controller/Name={Controller}/BusinessRules/Controller={Controller}/BusinessRule/RuleId={RuleId}"/>
+              <when test="\WBusinessRule\.htm\W" url="tab://Controllers/Controller/Controller={Controller}/BusinessRules/Controller={Controller}/BusinessRule/RuleId={RuleId}"/>
+            </match>
+          </node>
+        </node>
+      </node>
+    </tab>
+    <!-- "User Controls" tab -->
+    <tab name="UserControls" text="User Controls" imageUrl="UserControl.png">
+      <actions>
+        <action name="Navigate" text="List of User Controls" argument="Start.htm?_activeTab=User Controls" imageUrl="Home.png"/>
+        <action name="Navigate" text="New User Control" argument="Start.htm?_activeTab=User Controls&amp;_controller=UserControls&amp;_commandName=New&amp;_commandArgument=createForm1" imageUrl="UserControl-New.png"/>
+      </actions>
+      <!-- UserControl -->
+      <node name="UserControl" text="{Name}" imageUrl="UserControl" nodeSetPath="/userControl/{Name}" insertNodeSetPath="/userControls">
+        <query controller="UserControls" view="grid1" sort="Name" key="Name,Generate"/>
+        <actions>
+          <action name="Select" argument="UserControl.htm?Name={Name}"/>
+          <action name="Edit" argument="UserControl" text="Edit in Visual Studio" when="Generate!='Always'" imageUrl="VisualStudio.png"/>
+          <action toolbar="false"/>
+          <action name="Copy"/>
+          <!--<action name="Navigate" text="List" argument="Start.htm?_activeTab=User Controls" imageUrl="List.png"/>-->
+          <!--<action name="Select" text="Delete" argument="UserControl.htm?Name={Name}&amp;_controller=UserControls&amp;_commandName=Select&amp;_commandArgument=editForm1&amp;_commandName2=Delete" imageUrl="Delete.png" toolbar="false"/>-->
+          <action name="Delete" toolbar="false"/>
+          <action name="Rename" toolbar="false"/>
+        </actions>
+        <match>
+          <when test="ListController=UserControl" url="tab://UserControls/UserControl/Name={Name}"/>
+        </match>
+      </node>
+    </tab>
+  </tabs>
+  <!-- Speical nodes that are not visible in Project Explorer -->
+  <specialNodes>
+    <node name="FieldOutput" nodeSetPath="/controller/{Controller}/command/{CommandId}/fieldOutput/{FieldName}" insertNodeSetPath="/controller/{Controller}/command/{CommandId}">
+      <query controller="FieldOutputs"/>
+    </node>
+    <node name="Style" nodeSetPath="/controller/{Controller}/view/{ViewId}/style/{CssClass}" insertNodeSetPath="/controller/{Controller}/view/{ViewId}">
+      <query controller="Styles"/>
+    </node>
+  </specialNodes>
+  <monitor>
+    <!-- ************************** -->
+    <!-- "Pages" controller         -->
+    <!-- ************************** -->
+    <when test="\WController:Pages;CommandName:NodeSet;CommandArgument:(copy);NodeSetPath1:(.+?);NodeSetPath2:(/controller/.+?);" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/last()/DataView/last()" />
+    </when>
+    <when test="\WController:Pages;CommandName:NodeSet;CommandArgument:(copy);NodeSetPath1:(.+?);NodeSetPath2:(/userControl/.+?);" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/last()/Control/UserControl={NodeSet2.userControl}" />
+    </when>
+    <when test="\WController:Pages;CommandName:NodeSet;CommandArgument:(move|after|before|copy);NodeSetPath1:(.+?);NodeSetPath2:(.+?/dataView/.+?);" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/last()/DataView/DataViewId={NodeSetLogical2.dataView}" />
+    </when>
+    <when test="\WController:Pages;CommandName:NodeSet;CommandArgument:(move|after|before|copy);NodeSetPath1:(.+?);NodeSetPath2:(.+?/control/.+?);" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/last()/Control/ControlId={NodeSetLogical2.control}" />
+    </when>
+    <when test="\WController:Pages;CommandName:NodeSet;CommandArgument:(move|after|before);NodeSetPath1:(.+?);NodeSetPath2:(.+?/container/.+?);" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/ContainerId={NodeSet2.container}"/>
+    </when>
+    <when test="\WController:Pages;CommandName:NodeSet;CommandArgument:(move|after|before)" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet2.page}"/>
+    </when>
+    <when test="\WController:Pages;CommandName:NodeSet;CommandArgument:(copy|rename)" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}"/>
+    </when>
+    <when test="\WController:Pages;CommandName:NodeSet;CommandArgument:(delete)" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Navigate" url="Start.htm?_activeTab=Pages"/>
+    </when>
+    <when test="\WController\:Pages\W.+?CommandName\:Insert" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NewValue.Name}"/>
+    </when>
+    <!--<when test="\WController\:Pages\W.+?CommandName\:Delete">
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Navigate" url="Start.htm?_activeTab=Pages"/>
+    </when>-->
+    <when test="\WController\:Pages\W" >
+      <perform action="Refresh" url="tab://Pages" />
+      <perform action="Activate"  url="tab://Pages/Page/Name={Value.Name}" />
+    </when>
+    <!-- ************************** -->
+    <!-- "Controllers" controller  -->
+    <!-- ************************** -->
+    <when test="\WController:Controllers;CommandName:NodeSet;CommandArgument:(move|copy);NodeSetPath1:(.+?);NodeSetPath2:(.+?/field/.+?);" >
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/Fields/Controller={NodeSet2.controller}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}/Field/Name={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Controllers;CommandName:NodeSet;CommandArgument:(move|copy);NodeSetPath1:(.+?);NodeSetPath2:(.+?/command/.+?);" >
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/Commands/Controller={NodeSet2.controller}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Commands/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Commands/Controller={NodeSet1.controller}/Command/CommandId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Controllers;CommandName:NodeSet;CommandArgument:(move|copy);NodeSetPath1:(.+?);NodeSetPath2:(.+?/rule/.+?);" >
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/BusinessRules/Controller={NodeSet2.controller}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/BusinessRules/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/BusinessRules/Controller={NodeSet1.controller}/BusinessRule/RuleId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Controllers;CommandName:NodeSet;CommandArgument:(move|copy);NodeSetPath1:(.+?);NodeSetPath2:(.+?/actionGroup/.+?);" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet2.controller}/DataView_Actions/Controller={NodeSet2.controller}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet2.controller}/DataView_Actions/Controller={NodeSet2.controller}"/>
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}/DataView_ActionGroup/ActionGroupId={NodeSet.NewIdentifier}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/Actions/Controller={NodeSet2.controller}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}/Controller_ActionGroup/ActionGroupId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Controllers;CommandName:NodeSet;CommandArgument:(move|copy);NodeSetPath1:(.+?);NodeSetPath2:(.+?/view/.+?);" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet2.controller}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet2.controller}"/>
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet.NewIdentifier}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/Views/Controller={NodeSet2.controller}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Controllers;CommandName:NodeSet;CommandArgument:(move|copy);NodeSetPath1:(.+?);NodeSetPath2:(/controller/.+?);" >
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}/Field/Name={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Controllers;CommandName:NodeSet;CommandArgument:(rename|clone)" >
+      <perform action="Refresh"  url="tab://Controllers"/>
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet.LastAffectedIdentifier}/parent()"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Name={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Controllers;CommandName:NodeSet;CommandArgument:(delete)" >
+      <perform action="Refresh"  url="tab://Controllers"/>
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet.LastAffectedIdentifier}/parent()"/>
+      <perform action="Navigate" url="Start.htm?_activeTab=Controllers"/>
+    </when>
+    <when test="\WController\:Controllers\W.+?CommandName\:Insert" >
+      <perform action="Refresh"  url="tab://Controllers"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Name={NewValue.Name}"/>
+    </when>
+    <!--<when test="\WController\:Controllers\W.+?CommandName\:Delete">
+      <perform action="Refresh"  url="tab://Controllers"/>
+      <perform action="Navigate" url="Start.htm?_activeTab=Controllers"/>
+    </when>-->
+    <when test="\WController\:Controllers\W" >
+      <perform action="Refresh" url="tab://Controllers" />
+      <perform action="Activate"  url="tab://Controllers/Controller/Name={Value.Name}" />
+    </when>
+    <!-- ************************** -->
+    <!-- "UserControls" controller  -->
+    <!-- ************************** -->
+    <when test="\WController:UserControls;CommandName:NodeSet;CommandArgument:(rename)" >
+      <perform action="Refresh"  url="tab://UserControls"/>
+      <perform action="Refresh"  url="tab://Pages/*/Control/UserControl={NodeSet.LastAffectedIdentifier}/parent()"/>
+      <perform action="Activate" url="tab://UserControls/UserControl/Name={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:UserControls;CommandName:NodeSet;CommandArgument:(delete)" >
+      <perform action="Refresh"  url="tab://UserControls"/>
+      <perform action="Refresh"  url="tab://Pages/*/Control/UserControl={NodeSet.LastAffectedIdentifier}/parent()"/>
+      <perform action="Navigate" url="Start.htm?_activeTab=User Controls"/>
+    </when>
+    <when test="\WController\:UserControls\W.+?CommandName\:Insert" >
+      <perform action="Refresh"  url="tab://UserControls"/>
+      <perform action="Activate" url="tab://UserControls/UserControl/Name={NewValue.Name}"/>
+    </when>
+    <!--<when test="\WController\:UserControls\W.+?CommandName\:Delete">
+      <perform action="Refresh"  url="tab://UserControls"/>
+      <perform action="Navigate" url="Start.htm?_activeTab=User Controls"/>
+    </when>-->
+    <when test="\WController\:UserControls\W" >
+      <perform action="Refresh" url="tab://UserControls" />
+      <perform action="Activate"  url="tab://UserControls/UserControl/Name={Value.Name}" />
+    </when>
+    <!-- ************************** -->
+    <!-- "Containers" controller    -->
+    <!-- ************************** -->
+    <when test="\WController:Containers;CommandName:NodeSet;CommandArgument:(copy);NodeSetPath1:(.+?);NodeSetPath2:(/controller/.+?);" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/ContainerId={NodeSet1.container}/DataView/last()" />
+    </when>
+    <when test="\WController:Containers;CommandName:NodeSet;CommandArgument:(copyRef);NodeSetPath1:(.+?);NodeSetPath2:(/userControl/.+?);" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/ContainerId={NodeSet1.container}/Control/last()" />
+    </when>
+    <when test="\WController:Containers;CommandName:NodeSet;CommandArgument:(move|after|before|copy);NodeSetPath1:(.+?);NodeSetPath2:(.+?/dataView/.+?);" >
+      <perform action="Refresh"  url="tab://Pages/Page/Name={NodeSet1.page}/Container/ContainerId={NodeSet1.container}" />
+      <perform action="Refresh"  url="tab://Pages/Page/Name={NodeSetLogical2.page}/Container/ContainerId={NodeSetLogical2.container}" />
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/ContainerId={NodeSet1.container}/DataView/DataViewId={NodeSetLogical2.dataView}" />
+    </when>
+    <when test="\WController:Containers;CommandName:NodeSet;CommandArgument:(move|after|before|copy);NodeSetPath1:(.+?);NodeSetPath2:(.+?/control/.+?);" >
+      <perform action="Refresh"  url="tab://Pages/Page/Name={NodeSet1.page}/Container/ContainerId={NodeSet1.container}" />
+      <perform action="Refresh"  url="tab://Pages/Page/Name={NodeSetLogical2.page}/Container/ContainerId={NodeSetLogical2.container}" />
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/ContainerId={NodeSet1.container}/Control/ControlId={NodeSetLogical2.control}" />
+    </when>
+    <when test="\WController:Containers;CommandName:NodeSet;CommandArgument:(move|after|before)" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/ContainerId={NodeSet2.container}"/>
+    </when>
+    <when test="\WController:Containers;CommandName:NodeSet;CommandArgument:(copy)" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/ContainerId={NodeSet2.container}"/>
+    </when>
+    <when test="\WController:Containers;CommandName:NodeSet;CommandArgument:(delete)" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}"/>
+    </when>
+    <when test="\WController:Containers;CommandName:NodeSet;CommandArgument:(rename)" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/ContainerId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController\:Containers\W.+?CommandName\:Insert">
+      <!--
+      NOTE
+      The entire set of pages must be refreshed. It is not possible to refresh a particular page node.
+      The following "Refresh" will not work.
+      END NOTE
+      <perform action="Refresh"  url="tab://Pages/Page/Name={NewValue.Page}"/>
+      -->
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NewValue.Page}/Container/last()"/>
+    </when>
+    <!--<when test="\WController\:Containers\W.+?CommandName\:Delete">
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={OldValue.Page}" />
+    </when>-->
+    <when test="\WController\:Containers\W" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate"  url="tab://Pages/Page/Name={OldValue.Page}/Container/ContainerId={OldValue.ContainerId}"/>
+    </when>
+    <!-- ************************** -->
+    <!-- "Controls" controller      -->
+    <!-- ************************** -->
+    <when test="\WController:Controls;CommandName:NodeSet;CommandArgument:(move|after|before)" >
+      <perform action="Refresh"  url="tab://Pages/Page/Name={NodeSetLogical1.page}/Container/ContainerId={NodeSetLogical1.container}" />
+      <perform action="Refresh"  url="tab://Pages/Page/Name={NodeSetLogical2.page}/Container/ContainerId={NodeSetLogical2.container}" />
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSetLogical1.page}/Container/ContainerId={NodeSetLogical1.container}/Control/ControlId={NodeSetLogical2.control}" />
+    </when>
+    <when test="\WController:Controls;CommandName:NodeSet;CommandArgument:(delete)" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/ContainerId={NodeSetLogical1.container}"/>
+    </when>
+    <when test="\WController:Controls;CommandName:NodeSet;CommandArgument:(rename)" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/ContainerId={NodeSetLogical1.container}/Control/ControlId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController\:Controls\W.+?CommandName\:Insert">
+      <perform action="Refresh"  url="tab://UserControls"/>
+      <perform action="Refresh"  url="tab://Pages/Page/Name={NewValue.Page}/Container/ContainerId={NewValue.ContainerId}" />
+      <perform action="Activate" url="tab://Pages/Page/Name={NewValue.Page}/Container/ContainerId={NewValue.ContainerId}/Control/UserControl={NewValue.UserControl}" />
+    </when>
+    <!--<when test="\WController\:Controls\W.+?CommandName\:Delete">
+      <perform action="Refresh" url="tab://Pages/Page/Name={OldValue.Page}/Container/ContainerId={OldValue.ContainerId}"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={OldValue.Page}/Container/ContainerId={OldValue.ContainerId}"/>
+    </when>-->
+    <when test="\WController\:Controls\W">
+      <perform action="Refresh"  url="tab://UserControls"/>
+      <perform action="Refresh" url="tab://Pages/Page/Name={OldValue.Page}"/>
+      <perform action="Activate"  url="tab://Pages/Page/Name={OldValue.Page}/Container/ContainerId={Value.ContainerId}/Control/ControlId={Value.ControlId}"/>
+    </when>
+    <!-- ************************** -->
+    <!-- "DataViews" controller     -->
+    <!-- ************************** -->
+    <when test="\WController:DataViews;CommandName:NodeSet;CommandArgument:(copy|move);NodeSetPath1:(.+?);NodeSetPath2:(.+?/dataField/.+?);" >
+      <perform action="Refresh" url="tab://Pages/Page/Name={NodeSetLogical1.page}/*/DataView/Controller={NodeSet2.controller}/parent()" />
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSetLogical1.page}/*/DataView/Controller={NodeSet2.controller}" />
+    </when>
+    <when test="\WController:DataViews;CommandName:NodeSet;CommandArgument:(move|after|before)" >
+      <perform action="Refresh"  url="tab://Pages/Page/Name={NodeSetLogical1.page}/Container/ContainerId={NodeSetLogical1.container}" />
+      <perform action="Refresh"  url="tab://Pages/Page/Name={NodeSetLogical2.page}/Container/ContainerId={NodeSetLogical2.container}" />
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSetLogical1.page}/Container/ContainerId={NodeSetLogical1.container}/DataView/DataViewId={NodeSetLogical2.dataView}" />
+    </when>
+    <when test="\WController:DataViews;CommandName:NodeSet;CommandArgument:(delete)" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/ContainerId={NodeSetLogical1.container}"/>
+    </when>
+    <when test="\WController:DataViews;CommandName:NodeSet;CommandArgument:(rename)" >
+      <perform action="Refresh"  url="tab://Pages"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={NodeSet1.page}/Container/ContainerId={NodeSetLogical1.container}/DataView/DataViewId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController\:DataViews\W.+?CommandName\:Insert">
+      <perform action="Refresh"  url="tab://Pages/Page/Name={NewValue.Page}/Container/ContainerId={NewValue.ContainerId}" />
+      <perform action="Activate" url="tab://Pages/Page/Name={NewValue.Page}/Container/ContainerId={NewValue.ContainerId}/DataView/Controller={NewValue.Controller}" />
+    </when>
+    <!--<when test="\WController\:DataViews\W.+?CommandName\:Delete">
+      <perform action="Refresh" url="tab://Pages/Page/Name={OldValue.Page}/Container/ContainerId={OldValue.ContainerId}"/>
+      <perform action="Activate" url="tab://Pages/Page/Name={OldValue.Page}/Container/ContainerId={OldValue.ContainerId}"/>
+    </when>-->
+    <when test="\WController\:DataViews\W">
+      <perform action="Refresh" url="tab://Pages/Page/Name={OldValue.Page}/Container/ContainerId={Value.ContainerId}"/>
+      <perform action="Activate"  url="tab://Pages/Page/Name={OldValue.Page}/Container/ContainerId={Value.ContainerId}/DataView/DataViewId={Value.DataViewId}"/>
+    </when>
+    <!-- ************************** -->
+    <!-- "Views" controller         -->
+    <!-- ************************** -->
+    <when test="\WController:Views;CommandName:NodeSet;CommandArgument:(copy|move);NodeSetPath1:(.+?);NodeSetPath2:(.+?/(field|dataField)/.+?);" >
+      <!-- "pages" tab -->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}/DataView_DataField/last()"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}/DataView_Category/last()/DataView_Category_DataField/last()"/>
+      <!-- "controllers" tab -->
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}/View_Category/last()/View_Category_DataField/last()"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}/View_DataField/last()"/>
+    </when>
+    <when test="\WController:Views;CommandName:NodeSet;CommandArgument:(copy|move);NodeSetPath1:(.+?);NodeSetPath2:(.+?/category/.+?);" >
+      <!-- "pages" tab -->
+      <perform action="Refresh" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}/DataView_Category/last()"/>
+      <!-- "controllers" tab -->
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}/View_Category/last()"/>
+    </when>
+    <when test="\WController:Views;CommandName:NodeSet;CommandArgument:(move|copy|after|before)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet2.controller}"/>
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet.NewIdentifier}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/Views/Controller={NodeSet2.controller}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Views;CommandName:NodeSet;CommandArgument:(rename|configure)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet.NewIdentifier}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Views;CommandName:NodeSet;CommandArgument:(delete)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}"/>
+    </when>
+    <when test="\WController\:Views\W.+?CommandName\:Insert">
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NewValue.Controller}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NewValue.Controller}/DataView_View/ViewId={NewValue.ViewId}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NewValue.Controller}/Views/Controller={NewValue.Controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NewValue.Controller}/Views/Controller={NewValue.Controller}/View/ViewId={NewValue.ViewId}"/>
+    </when>
+    <when test="\WController\:Views\W">
+      <perform action="Refresh" url="tab://Pages/*/DataView/Controller={OldValue.Controller}"/>
+      <perform action="Select"  url="tab://Pages/*/DataView/Controller={OldValue.Controller}/DataView_View/ViewId={Value.ViewId}"/>
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={OldValue.Controller}/Views/Controller={OldValue.Controller}"/>
+      <perform action="Select"  url="tab://Controllers/Controller/Controller={OldValue.Controller}/Views/Controller={OldValue.Controller}/View/ViewId={Value.ViewId}"/>
+    </when>
+    <!-- ************************** -->
+    <!-- "DataFields" controller    -->
+    <!-- ************************** -->
+    <when test="\WController:DataFields;CommandName:NodeSet;CommandArgument:(move|copy|after|before)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet2.controller}/DataView_View/ViewId={NodeSet2.view}"/>
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}/DataView_DataField/FieldName={NodeSet.NewIdentifier}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}/DataView_Category/CategoryId={NodeSet1.category}/DataView_Category_DataField/FieldName={NodeSet.NewIdentifier}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/Views/Controller={NodeSet2.controller}/View/ViewId={NodeSet2.view}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}/View_DataField/FieldName={NodeSet.NewIdentifier}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}/View_Category/CategoryId={NodeSet1.category}/View_Category_DataField/FieldName={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:DataFields;CommandName:NodeSet;CommandArgument:(delete)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}/DataView_Category/CategoryId={NodeSet1.category}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}/View_Category/CategoryId={NodeSet1.category}"/>
+    </when>
+    <when test="\WController\:DataFields\W.+?CommandName\:Insert">
+      <!-- "pages" tab -->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NewValue.Controller}/DataView_View/ViewId={NewValue.ViewId}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NewValue.Controller}/DataView_View/ViewId={NewValue.ViewId}/DataView_DataField/FieldName={NewValue.FieldName}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NewValue.Controller}/DataView_View/ViewId={NewValue.ViewId}/DataView_Category/CategoryId={NewValue.CategoryId}/DataView_Category_DataField/FieldName={NewValue.FieldName}"/>
+      <!-- "controllers" tab -->
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={NewValue.Controller}/Views/Controller={NewValue.Controller}/View/ViewId={NewValue.ViewId}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NewValue.Controller}/Views/Controller={NewValue.Controller}/View/ViewId={NewValue.ViewId}/View_DataField/FieldName={NewValue.FieldName}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NewValue.Controller}/Views/Controller={NewValue.Controller}/View/ViewId={NewValue.ViewId}/View_Category/CategoryId={NewValue.CategoryId}/View_Category_DataField/FieldName={NewValue.FieldName}"/>
+    </when>
+    <when test="\WController\:DataFields\W">
+      <!-- "pages" tab -->
+      <perform action="Refresh" url="tab://Pages/*/DataView/Controller={OldValue.Controller}/DataView_View/ViewId={OldValue.ViewId}"/>
+      <perform action="Activate"  url="tab://Pages/*/DataView/Controller={OldValue.Controller}/DataView_View/ViewId={OldValue.ViewId}/DataView_DataField/FieldName={Value.FieldName}"/>
+      <perform action="Activate"  url="tab://Pages/*/DataView/Controller={OldValue.Controller}/DataView_View/ViewId={OldValue.ViewId}/DataView_Category/CategoryId={Value.CategoryId}/DataView_Category_DataField/FieldName={Value.FieldName}"/>
+      <!-- "controllers" tab -->
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={OldValue.Controller}/Views/Controller={OldValue.Controller}/View/ViewId={OldValue.ViewId}"/>
+      <perform action="Activate"  url="tab://Controllers/Controller/Controller={OldValue.Controller}/Views/Controller={OldValue.Controller}/View/ViewId={OldValue.ViewId}/View_DataField/FieldName={Value.FieldName}"/>
+      <perform action="Activate"  url="tab://Controllers/Controller/Controller={OldValue.Controller}/Views/Controller={OldValue.Controller}/View/ViewId={OldValue.ViewId}/View_Category/CategoryId={Value.CategoryId}/View_Category_DataField/FieldName={Value.FieldName}"/>
+    </when>
+    <!-- ************************** -->
+    <!-- "Categories" controller    -->
+    <!-- ************************** -->
+    <when test="\WController:Categories;CommandName:NodeSet;CommandArgument:(copy|move);NodeSetPath1:(.+?);NodeSetPath2:(.+?/(field|dataField)/.+?);" >
+      <!-- "pages" tab -->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}/DataView_DataField/last()"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}/DataView_Category/CategoryId={NodeSet1.category}/DataView_Category_DataField/last()"/>
+      <!-- "controllers" tab -->
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}/View_Category/CategoryId={NodeSet1.category}/View_Category_DataField/last()"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}/View_DataField/last()"/>
+    </when>
+    <when test="\WController:Categories;CommandName:NodeSet;CommandArgument:(move|copy|after|before)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet2.controller}/DataView_View/ViewId={NodeSet2.view}"/>
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}/DataView_Category/CategoryId={NodeSet.NewIdentifier}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/Views/Controller={NodeSet2.controller}/View/ViewId={NodeSet2.view}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}/View_Category/CategoryId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Categories;CommandName:NodeSet;CommandArgument:(rename)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}/DataView_Category/CategoryId={NodeSet.NewIdentifier}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}/View_Category/CategoryId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Categories;CommandName:NodeSet;CommandArgument:(delete)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_View/ViewId={NodeSet1.view}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}/View/ViewId={NodeSet1.view}"/>
+    </when>
+    <when test="\WController\:Categories\W.+?CommandName\:Insert" >
+      <!-- "pages" tab -->
+      <perform action="Refresh" url="tab://Pages/*/DataView/Controller={NewValue.Controller}/DataView_View/ViewId={NewValue.ViewId}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NewValue.Controller}/DataView_View/ViewId={NewValue.ViewId}/DataView_Category/last()"/>
+      <!-- "controllers" tab -->
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={NewValue.Controller}/Views/Controller={NewValue.Controller}/View/ViewId={NewValue.ViewId}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NewValue.Controller}/Views/Controller={NewValue.Controller}/View/ViewId={NewValue.ViewId}/View_Category/last()"/>
+    </when>
+    <when test="\WController\:Categories\W">
+      <!-- "pages" tab -->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={OldValue.Controller}/DataView_View/ViewId={OldValue.ViewId}"/>
+      <perform action="Select"  url="tab://Pages/*/DataView/Controller={OldValue.Controller}/DataView_View/ViewId={OldValue.ViewId}/DataView_Category/CategoryId={OldValue.CategoryId}"/>
+      <!-- "controllers" tab -->
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={OldValue.Controller}/Views/Controller={OldValue.Controller}/View/ViewId={OldValue.ViewId}"/>
+      <perform action="Select"  url="tab://Controllers/Controller/Controller={OldValue.Controller}/Views/Controller={OldValue.Controller}/View/ViewId={OldValue.ViewId}/View_Category/CategoryId={Value.CategoryId}"/>
+    </when>
+    <!-- ************************** -->
+    <!-- "Commands" controller        -->
+    <!-- ************************** -->
+    <when test="\WController:Commands;CommandName:NodeSet;CommandArgument:(move|copy|after|before)" >
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/Commands/Controller={NodeSet2.controller}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Commands/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Commands/Controller={NodeSet1.controller}/Command/CommandId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Commands;CommandName:NodeSet;CommandArgument:(rename|configure)" >
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Commands/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Commands/Controller={NodeSet1.controller}/Command/CommandId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Commands;CommandName:NodeSet;CommandArgument:(delete)" >
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Commands/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Commands/Controller={NodeSet1.controller}"/>
+    </when>
+    <when test="\WController\:Commands\W.+?CommandName\:Insert">
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NewValue.Controller}/Commands/Controller={NewValue.Controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NewValue.Controller}/Commands/Controller={NewValue.Controller}/Command/last()"/>
+    </when>
+    <when test="\WController\:Commands\W.+?CommandName\:Delete">
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={OldValue.Controller}/Commands/Controller={OldValue.Controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={OldValue.Controller}/Commands/Controller={OldValue.Controller}"/>
+    </when>
+    <when test="\WController\:Commands\W">
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={OldValue.Controller}/Commands/Controller={OldValue.Controller}"/>
+      <perform action="Select"  url="tab://Controllers/Controller/Controller={OldValue.Controller}/Commands/Controller={OldValue.Controller}/Command/CommandId={Value.CommandId}"/>
+    </when>
+    <!-- ************************** -->
+    <!-- "Fields" controller        -->
+    <!-- ************************** -->
+    <when test="\WController:Fields;CommandName:NodeSet;CommandArgument:(move|copy);NodeSetPath1:(.+?);NodeSetPath2:(.+?/item/.+?);" >
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/Fields/Controller={NodeSet2.controller}/Field/Name={NodeSet2.field}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}/Field/Name={NodeSet1.field}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}/Field/Name={NodeSet1.field}/Item/Value={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Fields;CommandName:NodeSet;CommandArgument:(move|copy|after|before)" >
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/Fields/Controller={NodeSet2.controller}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}/Field/Name={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Fields;CommandName:NodeSet;CommandArgument:(rename)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}/Field/Name={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Fields;CommandName:NodeSet;CommandArgument:(configure)" >
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/BusinessRules/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/BusinessRules/Controller={NodeSet1.controller}/BusinessRule/last()"/>
+    </when>
+    <when test="\WController:Fields;CommandName:NodeSet;CommandArgument:(delete)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Views/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}"/>
+    </when>
+    <when test="\WController\:Fields\W.+?CommandName\:Insert">
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NewValue.Controller}/Fields/Controller={NewValue.Controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NewValue.Controller}/Fields/Controller={NewValue.Controller}/Field/Name={NewValue.Name}"/>
+    </when>
+    <when test="\WController\:Fields\W">
+      <!-- "pages" tab-->
+      <perform action="Refresh" url="tab://Pages/*/DataView/Controller={OldValue.Controller}"/>
+      <!--<perform action="Select"  url="tab://Pages/*/DataView/Controller={OldValue.Controller}/*/DataView_NoCategory_DataField_Field/Name={Value.Name}"/>
+      <perform action="Select"  url="tab://Pages/*/DataView/Controller={OldValue.Controller}/*/DataView_Category_DataField_Field/Name={Value.Name}"/>-->
+      <!-- "controllers" tab-->
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={OldValue.Controller}/Fields/Controller={OldValue.Controller}"/>
+      <perform action="Select"  url="tab://Controllers/Controller/Controller={OldValue.Controller}/Fields/Controller={OldValue.Controller}/Field/Name={Value.Name}"/>
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={OldValue.Controller}/Views/Controller={OldValue.Controller}"/>
+    </when>
+    <!-- ************************** -->
+    <!-- "Items" controller        -->
+    <!-- ************************** -->
+    <when test="\WController:Items;CommandName:NodeSet;CommandArgument:(move|copy|after|before)" >
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/Fields/Controller={NodeSet2.controller}/Field/Name={NodeSet2.field}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}/Field/Name={NodeSet1.field}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}/Field/Name={NodeSet1.field}/Item/Value={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Items;CommandName:NodeSet;CommandArgument:(rename)" >
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}/Field/Name={NodeSet1.field}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}/Field/Name={NodeSet1.field}/Item/Value={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Items;CommandName:NodeSet;CommandArgument:(delete)" >
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}/Field/Name={NodeSet1.field}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Fields/Controller={NodeSet1.controller}/Field/Name={NodeSet1.field}"/>
+    </when>
+    <when test="\WController\:Items\W.+?CommandName\:Insert">
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NewValue.Controller}/Fields/Controller={NewValue.Controller}/Field/Name={NewValue.FieldName}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NewValue.Controller}/Fields/Controller={NewValue.Controller}/Field/Name={NewValue.FieldName}/Item/Value={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController\:Items\W">
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={OldValue.Controller}/Fields/Controller={OldValue.Controller}"/>
+      <perform action="Activate"  url="tab://Controllers/Controller/Controller={OldValue.Controller}/Fields/Controller={OldValue.Controller}/Field/Name={OldValue.FieldName}/Item/Value={Value.Value}"/>
+    </when>
+    <!-- ************************** -->
+    <!-- "ActionGroups" controller  -->
+    <!-- ************************** -->
+    <when test="\WController:ActionGroups;CommandName:NodeSet;CommandArgument:(move|copy);NodeSetPath1:(.+?);NodeSetPath2:(.+?/action/.+?);" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet2.controller}/DataView_Actions/Controller={NodeSet2.controller}/DataView_ActionGroup/ActionGroupId={NodeSet2.actionGroup}"/>
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}/DataView_ActionGroup/ActionGroupId={NodeSet1.actionGroup}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}/DataView_ActionGroup/ActionGroupId={NodeSet1.actionGroup}/DataView_ActionGroup_Action/ActionId={NodeSet.NewIdentifier}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/Actions/Controller={NodeSet2.controller}/Controller_ActionGroup/ActionGroupId={NodeSet2.actionGroup}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}/Controller_ActionGroup/ActionGroupId={NodeSet1.actionGroup}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}/Controller_ActionGroup/ActionGroupId={NodeSet1.actionGroup}/Controller_ActionGroup_Action/ActionId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:ActionGroups;CommandName:NodeSet;CommandArgument:(move|copy|after|before)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet2.controller}/DataView_Actions/Controller={NodeSet2.controller}"/>
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}/DataView_ActionGroup/ActionGroupId={NodeSet.NewIdentifier}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/Actions/Controller={NodeSet2.controller}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}/Controller_ActionGroup/ActionGroupId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:ActionGroups;CommandName:NodeSet;CommandArgument:(rename)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}/DataView_ActionGroup/ActionGroupId={NodeSet.NewIdentifier}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}/Controller_ActionGroup/ActionGroupId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:ActionGroups;CommandName:NodeSet;CommandArgument:(delete)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}"/>
+    </when>
+    <when test="\WController\:ActionGroups\W.+?CommandName\:Insert">
+      <!-- "pages" tab-->
+      <perform action="Refresh" url="tab://Pages/*/DataView/Controller={NewValue.Controller}/DataView_Actions/Controller={NewValue.Controller}"/>
+      <perform action="Activate"  url="tab://Pages/*/DataView/Controller={NewValue.Controller}/DataView_Actions/Controller={NewValue.Controller}/DataView_ActionGroup/last()"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={NewValue.Controller}/Actions/Controller={NewValue.Controller}"/>
+      <perform action="Activate"  url="tab://Controllers/Controller/Controller={NewValue.Controller}/Actions/Controller={NewValue.Controller}/Controller_ActionGroup/last()"/>
+    </when>
+    <when test="\WController\:ActionGroups\W.+?CommandName\:Delete">
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={OldValue.Controller}/DataView_Actions/Controller={OldValue.Controller}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={OldValue.Controller}/DataView_Actions/Controller={OldValue.Controller}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={OldValue.Controller}/Actions/Controller={OldValue.Controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={OldValue.Controller}/Actions/Controller={OldValue.Controller}"/>
+    </when>
+    <when test="\WController\:ActionGroups\W">
+      <!-- "pages" tab-->
+      <perform action="Refresh" url="tab://Pages/*/DataView/Controller={OldValue.Controller}/DataView_Actions/Controller={NewValue.Controller}"/>
+      <perform action="Select"  url="tab://Pages/*/DataView/Controller={OldValue.Controller}/DataView_Actions/Controller={NewValue.Controller}/DataView_ActionGroup/ActionGroupId={OldValue.ActionGroupId}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={OldValue.Controller}/Actions/Controller={OldValue.Controller}"/>
+      <perform action="Select"  url="tab://Controllers/Controller/Controller={OldValue.Controller}/Actions/Controller={OldValue.Controller}/Controller_ActionGroup/ActionGroupId={OldValue.ActionGroupId}"/>
+    </when>
+    <!-- ************************** -->
+    <!-- "Actions" controller       -->
+    <!-- ************************** -->
+    <when test="\WController:Actions;CommandName:NodeSet;CommandArgument:(move|copy|after|before)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet2.controller}/DataView_Actions/Controller={NodeSet2.controller}/DataView_ActionGroup/ActionGroupId={NodeSet2.actionGroup}"/>
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}/DataView_ActionGroup/ActionGroupId={NodeSet1.actionGroup}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}/DataView_ActionGroup/ActionGroupId={NodeSet1.actionGroup}/DataView_ActionGroup_Action/ActionId={NodeSet.NewIdentifier}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/Actions/Controller={NodeSet2.controller}/Controller_ActionGroup/ActionGroupId={NodeSet2.actionGroup}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}/Controller_ActionGroup/ActionGroupId={NodeSet1.actionGroup}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}/Controller_ActionGroup/ActionGroupId={NodeSet1.actionGroup}/Controller_ActionGroup_Action/ActionId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Actions;CommandName:NodeSet;CommandArgument:(rename)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}/DataView_ActionGroup/ActionGroupId={NodeSet1.actionGroup}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}/DataView_ActionGroup/ActionGroupId={NodeSet1.actionGroup}/DataView_ActionGroup_Action/ActionId={NodeSet.NewIdentifier}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}/Controller_ActionGroup/ActionGroupId={NodeSet1.actionGroup}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}/Controller_ActionGroup/ActionGroupId={NodeSet1.actionGroup}/Controller_ActionGroup_Action/ActionId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:Actions;CommandName:NodeSet;CommandArgument:(delete)" >
+      <!-- "pages" tab-->
+      <perform action="Refresh"  url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}/DataView_ActionGroup/ActionGroupId={NodeSet1.actionGroup}"/>
+      <perform action="Activate" url="tab://Pages/*/DataView/Controller={NodeSet1.controller}/DataView_Actions/Controller={NodeSet1.controller}/DataView_ActionGroup/ActionGroupId={NodeSet1.actionGroup}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}/Controller_ActionGroup/ActionGroupId={NodeSet1.actionGroup}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/Actions/Controller={NodeSet1.controller}/Controller_ActionGroup/ActionGroupId={NodeSet1.actionGroup}"/>
+    </when>
+    <when test="\WController\:Actions\W.+?CommandName\:Insert">
+      <!-- "pages" tab-->
+      <perform action="Refresh" url="tab://Pages/*/DataView/Controller={NewValue.Controller}/DataView_Actions/Controller={NewValue.Controller}/DataView_ActionGroup/ActionGroupId={NewValue.ActionGroupId}"/>
+      <perform action="Activate"  url="tab://Pages/*/DataView/Controller={NewValue.Controller}/DataView_Actions/Controller={NewValue.Controller}/DataView_ActionGroup/ActionGroupId={NewValue.ActionGroupId}/DataView_ActionGroup_Action/last()"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={NewValue.Controller}/Actions/Controller={NewValue.Controller}/Controller_ActionGroup/ActionGroupId={NewValue.ActionGroupId}/"/>
+      <perform action="Activate"  url="tab://Controllers/Controller/Controller={NewValue.Controller}/Actions/Controller={NewValue.Controller}/Controller_ActionGroup/ActionGroupId={NewValue.ActionGroupId}/Controller_ActionGroup_Action/last()"/>
+    </when>
+    <when test="\WController\:Actions\W">
+      <!-- "pages" tab-->
+      <perform action="Refresh" url="tab://Pages/*/DataView/Controller={OldValue.Controller}/DataView_Actions/Controller={OldValue.Controller}/DataView_ActionGroup/ActionGroupId={OldValue.ActionGroupId}"/>
+      <perform action="Activate"  url="tab://Pages/*/DataView/Controller={OldValue.Controller}/DataView_Actions/Controller={OldValue.Controller}/DataView_ActionGroup/ActionGroupId={OldValue.ActionGroupId}/DataView_ActionGroup_Action/ActionId={OldValue.ActionId}"/>
+      <!-- "controllers" tab-->
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={OldValue.Controller}/Actions/Controller={OldValue.Controller}/Controller_ActionGroup/ActionGroupId={OldValue.ActionGroupId}"/>
+      <perform action="Activate"  url="tab://Controllers/Controller/Controller={OldValue.Controller}/Actions/Controller={OldValue.Controller}/Controller_ActionGroup/ActionGroupId={OldValue.ActionGroupId}/Controller_ActionGroup_Action/ActionId={OldValue.ActionId}"/>
+    </when>
+    <!-- ************************** -->
+    <!-- "BusinessRules" controller        -->
+    <!-- ************************** -->
+    <when test="\WController:BusinessRules;CommandName:NodeSet;CommandArgument:(move|copy|after|before)" >
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet2.controller}/BusinessRules/Controller={NodeSet2.controller}"/>
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/BusinessRules/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/BusinessRules/Controller={NodeSet1.controller}/BusinessRule/RuleId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:BusinessRules;CommandName:NodeSet;CommandArgument:(rename)" >
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/BusinessRules/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/BusinessRules/Controller={NodeSet1.controller}/BusinessRule/RuleId={NodeSet.NewIdentifier}"/>
+    </when>
+    <when test="\WController:BusinessRules;CommandName:NodeSet;CommandArgument:(delete)" >
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NodeSet1.controller}/BusinessRules/Controller={NodeSet1.controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NodeSet1.controller}/BusinessRules/Controller={NodeSet1.controller}"/>
+    </when>
+    <when test="\WController\:BusinessRules\W.+?CommandName\:Insert">
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={NewValue.Controller}/BusinessRules/Controller={NewValue.Controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={NewValue.Controller}/BusinessRules/Controller={NewValue.Controller}/BusinessRule/last()"/>
+    </when>
+    <when test="\WController\:BusinessRules\W.+?CommandName\:Delete">
+      <!-- "controllers" tab-->
+      <perform action="Refresh"  url="tab://Controllers/Controller/Controller={OldValue.Controller}/BusinessRules/Controller={OldValue.Controller}"/>
+      <perform action="Activate" url="tab://Controllers/Controller/Controller={OldValue.Controller}/BusinessRules/Controller={OldValue.Controller}"/>
+    </when>
+    <when test="\WController\:BusinessRules\W">
+      <!-- "controllers" tab-->
+      <perform action="Refresh" url="tab://Controllers/Controller/Controller={OldValue.Controller}/BusinessRules/Controller={OldValue.Controller}"/>
+      <perform action="Select"  url="tab://Controllers/Controller/Controller={OldValue.Controller}/BusinessRules/Controller={OldValue.Controller}/BusinessRule/RuleId={Value.RuleId}"/>
+    </when>
+  </monitor>
+  <dynamicImageUrls>
+    <imageUrl name="Page" default="Page.png">
+      <test when="Path=''" url="PageHidden.png"/>
+      <test when="Generate='FirstTimeOnly'" url="Page-Lock.png"/>
+      <test when="Url='about:blank'" url="Page-Blank.png"/>
+    </imageUrl>
+    <imageUrl name="UserControl" default="UserControl.png">
+      <test when="Generate='FirstTimeOnly'" url="UserControl-Lock.png"/>
+    </imageUrl>
+    <imageUrl name="Controller" default="Controller.png">
+      <test when="CommandCount='0'" url="Controller-NoCommand.png"/>
+    </imageUrl>
+    <imageUrl name="Container" default="Container.png">
+      <test when="Flow='NewColumn'" url="ContainerNewColumn.png"/>
+    </imageUrl>
+    <imageUrl name="View" default="View-Grid.png">
+      <test when="Type='Grid'" url="View-Grid.png"/>
+      <test when="Type='Form'" url="View-Form.png"/>
+      <test when="Type='DataSheet'" url="View-DataSheet.png"/>
+      <test when="Type='Chart'" url="View-Chart.png"/>
+      <test when="Type='Tree'" url="View-Tree.png"/>
+    </imageUrl>
+    <imageUrl name="Action" default="Action.png">
+      <test when="CommandName=''" url="Action-Blank.png"/>
+    </imageUrl>
+    <imageUrl name="DataField" default="DataField-Text.png">
+      <test when="ItemsStyle='Lookup'" url="DataField-Lookup.png"/>
+      <test when="ItemsStyle='AutoComplete'" url="DataField-AutoComplete.png"/>
+      <test when="ItemsStyle='CheckBox'" url="DataField-CheckBox.png"/>
+      <test when="ItemsStyle='CheckBoxList'" url="DataField-CheckBoxList.png"/>
+      <test when="ItemsStyle='DropDownList'" url="DataField-DropDownList.png"/>
+      <test when="ItemsStyle='ListBox'" url="DataField-ListBox.png"/>
+      <test when="ItemsStyle='RadioButtonList'" url="DataField-RadioButtonList.png"/>
+			<test when="ItemsStyle='Actions'" url="ActionGroup.png"/>
+			<test when="ItemsStyle='UserNameLookup'" url="DataField-UserNameLookup.png"/>
+			<test when="ItemsStyle='UserIdLookup'" url="DataField-UserIdLookup.png"/>
+      <test when="DataType='DateTime'" url="DataField-DateTime.png"/>
+      <test when="DataFormatString='c'" url="DataField-Money.png"/>
+      <test when="DataFormatString='{0:c}'" url="DataField-Money.png"/>
+      <test when="DataType='Decimal'" url="DataField-Number.png"/>
+      <test when="DataType='Int16'" url="DataField-Number.png"/>
+      <test when="DataType='Int32'" url="DataField-Number.png"/>
+      <test when="DataType='Int64'" url="DataField-Number.png"/>
+      <test when="DataType='Single'" url="DataField-Number.png"/>
+      <test when="DataType='Double'" url="DataField-Number.png"/>
+      <test when="DataType='Byte'" url="DataField-Number.png"/>
+      <test when="DataType='Currency'" url="DataField-Money.png"/>
+      <test when="DataType='DataView'" url="DataView.png"/>
+    </imageUrl>
+    <imageUrl name="Field" default="Field-Text.png">
+      <test when="IsPrimaryKey='True'" url="Field-PrimaryKey.png"/>
+      <test when="ItemsStyle='Lookup'" url="Field-Lookup.png"/>
+      <test when="ItemsStyle='AutoComplete'" url="Field-AutoComplete.png"/>
+      <test when="ItemsStyle='CheckBox'" url="Field-CheckBox.png"/>
+      <test when="ItemsStyle='CheckBoxList'" url="Field-CheckBoxList.png"/>
+      <test when="ItemsStyle='DropDownList'" url="Field-DropDownList.png"/>
+      <test when="ItemsStyle='ListBox'" url="Field-ListBox.png"/>
+      <test when="ItemsStyle='RadioButtonList'" url="Field-RadioButtonList.png"/>
+			<test when="ItemsStyle='Actions'" url="ActionGroup.png"/>
+			<test when="ItemsStyle='UserNameLookup'" url="Field-UserNameLookup.png"/>
+      <test when="ItemsStyle='UserIdLookup'" url="Field-UserIdLookup.png"/>
+      <test when="Type='DateTime'" url="Field-DateTime.png"/>
+      <test when="DataFormatString='c'" url="Field-Money.png"/>
+      <test when="DataFormatString='{0:c}'" url="Field-Money.png"/>
+      <test when="Type='Decimal'" url="Field-Number.png"/>
+      <test when="Type='Int16'" url="Field-Number.png"/>
+      <test when="Type='Int32'" url="Field-Number.png"/>
+      <test when="Type='Int64'" url="Field-Number.png"/>
+      <test when="Type='Single'" url="Field-Number.png"/>
+      <test when="Type='Double'" url="Field-Number.png"/>
+      <test when="Type='Byte'" url="Field-Number.png"/>
+      <test when="Type='Decimal'" url="Field-Number.png"/>
+      <test when="Type='Currency'" url="Field-Money.png"/>
+      <test when="Type='DataView'" url="Field-DataView.png"/>
+    </imageUrl>
+    <imageUrl name="BusinessRule" default="BusinessRule.png">
+      <test when="Type='Sql'" url="BusinessRule-Sql.png"/>
+      <test when="Type='JavaScript'" url="BusinessRule-JavaScript.png"/>
+      <test when="Type='Email'" url="BusinessRule-Email.png"/>
+      <test when="Type='Code'" url="BusinessRule-Code.png"/>
+    </imageUrl>
+    <imageUrl name="Category" default="Category.png">
+      <test when="Flow='NewRow'" url="Category-NewRow.png"/>
+      <test when="Flow='NewColumn'" url="Category-NewColumn.png"/>
+    </imageUrl>
+  </dynamicImageUrls>
+</explorer>

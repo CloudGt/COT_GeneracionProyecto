@@ -1,0 +1,45 @@
+*******************************************************************************
+Your application uses this file to locate resource strings when requested
+by Localizer.Replace(token, text) method calls in the source code files of
+the project. The localization process will also use this file if missing
+localization tokens are found in a static resource.
+
+Replace the text between localization brackets (tokens) as needed.
+*******************************************************************************
+
+^AnnotationActionHeaderText^حاشیه نوشتن^AnnotationActionHeaderText^
+
+^AnnotationAttachmentDynamicFieldHeaderText^{0} <b>{1}</b> متصل در {2}^AnnotationAttachmentDynamicFieldHeaderText^
+
+^AnnotationAttachmentNewFieldLabel^دلبستگی^AnnotationAttachmentNewFieldLabel^
+
+^AnnotationCategoryDescription^یادداشت های اختیاری را وارد کنید و فایل های ضمیمه.^AnnotationCategoryDescription^
+
+^AnnotationCategoryHeaderText^یادداشت ها و پیوست ها^AnnotationCategoryHeaderText^
+
+^AnnotationNoteDynamicFieldHeaderText^{0} نوشته شده در {1}^AnnotationNoteDynamicFieldHeaderText^
+
+^AnnotationNoteNewFieldLabel^یادداشت ها^AnnotationNoteNewFieldLabel^
+
+^AnnotationTab^یادداشت ها^AnnotationTab^
+
+^BlobClearConfirm^روشن؟^BlobClearConfirm^
+
+^BlobCleared^<b>Confirmation :</b> {0} پاکسازی شده است.^BlobCleared^
+
+^BlobClearText^واضح^BlobClearText^
+
+^BlobUploadError^<b>Error :</b> موفق به آپلود {0}. {1}^BlobUploadError^
+
+^BlobUploadLinkPart1^کلیک کنید^BlobUploadLinkPart1^
+
+^BlobUploadLinkPart2^اینجا^BlobUploadLinkPart2^
+
+^BlobUploadLinkPart3^برای آپلود و یا پاک کردن فایل {0}.^BlobUploadLinkPart3^
+
+^BlobUploded^<b>Confirmation :</b> {0} شده است با موفقیت بارگذاری شد. <b>It ممکن است تا به دقیقه {1} برای ریز content.</b> ارسال شده به منعکس کننده^BlobUploded^
+
+^Copyright^کلیه حقوق محفوظ می باشد.^Copyright^
+
+^RecordChangedByAnotherUser^ضبط شده است توسط کاربر دیگری تغییر کرده است.^RecordChangedByAnotherUser^
+

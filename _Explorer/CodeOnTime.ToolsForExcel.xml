@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<toolsForExcel>
+  <controllers>
+    <!-- Controllers -->
+    <controller id="Controllers" name="Controllers" tabColor="Black" foreColor="White">
+      <filters>
+        <filter name="ControllerFilter" fieldName="Name" imageUrl="_Explorer\Images\Controller.png"/>
+      </filters>
+      <fields>
+        <field name="Name" text="Name" key="true" backColor="Black" foreColor="White"/>
+        <field name="ConflictDetection" text="Conflict Detection" backColor="#d9d9d9"  defaultValue="Overwrite Changes" />
+        <field name="ConnectionStringName" text="Connection String Name" backColor="#d9d9d9" />
+        <field name="Handler" text="Handler" backColor="#d9d9d9" />
+        <field name="AllowAnnotations" text="Annotations" backColor="#d9d9d9" />
+        <field name="StatusBar" text="Status Bar" minWidth="120" maxWidth="70" backColor="#d9d9d9" />
+        <field name="RestConfig" text="REST Configuration" minWidth="120" maxWidth="70" backColor="#d9d9d9" />
+        <field name="BlobAdapterConfig" text="BLOB Adapter Configuration" minWidth="120" maxWidth="70" backColor="#d9d9d9" />
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Name" name="controller" allowInsert="true"/>
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- Commands -->
+    <controller id="Commands" name="Commands" tabColor="Yellow">
+      <filters>
+        <filter name="ControllerFilter" fieldName="Controller" imageUrl="_Explorer\Images\Controller.png"/>
+      </filters>
+      <fields>
+        <field name="CommandId" text="ID" key="true" backColor="Yellow" foreColor="Black"/>
+        <field name="Controller" text="Controller" key="true" backColor="Yellow" foreColor="Black"/>
+        <field name="Text" text="Text" minWidth="120" maxWidth="65" backColor="#ffffcc"/>
+        <field name="Custom" text="Custom" backColor="#ffffcc" allowNulls="true"/>
+        <field name="Type" text="Type" backColor="#ffffcc" defaultValue="Text"/>
+        <field name="Event" text="Event" backColor="#ffffcc" allowNulls="true"/>
+        <field name="TableName" text="TableName" backColor="#ffffcc"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Controller" name="controller"/>
+          <key field="CommandId" name="command" allowInsert="true"/>
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- Fields -->
+    <controller id="Fields" name="Fields" tabColor="#1f497d" >
+      <filters>
+        <filter name="ControllerFilter" fieldName="Controller" imageUrl="_Explorer\Images\Controller.png"/>
+      </filters>
+      <fields>
+        <field name="Name" text="Field Name" key="true" backColor="#1f497d" foreColor="white" maxWidth="27.86"/>
+        <field name="Controller" text="Controller" key="true" backColor="#1f497d" foreColor="white" maxWidth="20.86" />
+        <field name="Type" text="Type" backColor="#c5d9f1" defaultValue="String"/>
+        <field name="Length" text="Length" backColor="#c5d9f1"/>
+        <field name="AllowNulls" text="Allow Nulls" backColor="#c5d9f1" defaultValue="yes"/>
+        <field name="IsPrimaryKey" text="Key" backColor="#c5d9f1"  defaultValue="no"/>
+        <field name="Computed" text="Computed" backColor="#c5d9f1"  defaultValue="no"/>
+        <field name="Formula" text="SQL Formula" backColor="#c5d9f1"/>
+        <field name="Calculated" text="Calculated" backColor="#c5d9f1"  defaultValue="no"/>
+        <field name="CausesCalculate" text="Causes Calculate" backColor="#c5d9f1"  defaultValue="no"/>
+        <field name="IsVirtual" text="Causes Calculate" backColor="#c5d9f1"  defaultValue="no"/>
+        <field name="CodeFormula" text="Code Formula" backColor="#c5d9f1"/>
+        <field name="Default" text="Default" backColor="#c5d9f1"/>
+        <field name="CodeDefault" text="Code Default" backColor="#c5d9f1"/>
+        <field name="CodeValue" text="Code Value" backColor="#c5d9f1"/>
+        <field name="OnDemand" text="On Demand" backColor="#c5d9f1"  defaultValue="no"/>
+        <field name="Hidden" text="Hidden" backColor="#c5d9f1"  defaultValue="no"/>
+        <field name="SourceFields" text="Source Fields" backColor="#c5d9f1"/>
+        <field name="OnDemandHandler" text="On Demand Handler" backColor="#c5d9f1"/>
+        <field name="OnDemandStyle" text="On Demand Style" backColor="#c5d9f1"/>
+        <field name="Label" text="Label" backColor="#c5d9f1" minWidth="120" maxWidth="30" />
+        <field name="ReadOnly" text="Read-Only" backColor="#c5d9f1" defaultValue="no"/>
+        <field name="ShowInSummary" text="Show In Summary" backColor="#c5d9f1" defaultValue="no"/>
+        <field name="HtmlEncode" text="HTML Encoding" backColor="#c5d9f1"   defaultValue="yes"/>
+        <field name="DataFormatString" text="Data Format String" backColor="#c5d9f1"/>
+        <field name="FormatOnClient" text="Format On Client" backColor="#c5d9f1"  defaultValue="yes"/>
+        <field name="Editor" text="Editor" backColor="#c5d9f1"/>
+        <field name="ItemsStyle" text="Items Style" backColor="#c5d9f1"/>
+        <field name="ItemsDataController" text="Items Data Controller" backColor="#c5d9f1"/>
+        <field name="ItemsDataView" text="Items Data View" backColor="#c5d9f1"/>
+        <field name="ItemsDataValueField" text="Data Value Field" backColor="#c5d9f1"/>
+        <field name="ItemsDataTextField" text="Data Text Field" backColor="#c5d9f1"/>
+        <field name="ItemsNewDataView" text="New Data View" backColor="#c5d9f1"/>
+        <field name="Copy" text="Copy" backColor="#c5d9f1"/>
+        <field name="ItemsTargetController" text="Target Controller" backColor="#c5d9f1"/>
+        <field name="SearchOnStart" text="Search On Start" backColor="#c5d9f1"  defaultValue="no"/>
+        <field name="AutoSelect" text="Activate If Blank" backColor="#c5d9f1"  defaultValue="no"/>
+        <field name="ItemsDescription" text="Lookup Description" backColor="#c5d9f1"/>
+        <field name="ItemsPageSize" text="Page Size" backColor="#c5d9f1"/>
+        <field name="ItemsLetters" text="Search By First Letter" backColor="#c5d9f1"  defaultValue="no"/>
+        <field name="ContextFields" text="Context Fields" backColor="#c5d9f1"/>
+        <field name="Configuration" text="Dynamic Configuration" backColor="#c5d9f1"/>
+        <field name="AllowQBE" text="Query-by-Example" backColor="#c5d9f1"  defaultValue="yes"/>
+        <field name="AllowSorting" text="Sorting" backColor="#c5d9f1"  defaultValue="yes"/>
+        <field name="Mask" text="Edit Mask" backColor="#c5d9f1"/>
+        <field name="MaskType" text="Mask Type" backColor="#c5d9f1"  defaultValue="None"/>
+        <field name="AllowLEV" text="Last Entered Value" backColor="#c5d9f1"  defaultValue="no"/>
+        <field name="Roles" text="Read Roles" backColor="#c5d9f1"/>
+        <field name="WriteRoles" text="Write Roles" backColor="#c5d9f1"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Controller" name="controller"/>
+          <key field="Name" name="field" allowInsert="true"/>
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- Views -->
+    <controller id="Views" name="Views" tabColor="#f79646">
+      <filters>
+        <filter name="ControllerFilter" fieldName="Controller" imageUrl="_Explorer\Images\Controller.png"/>
+      </filters>
+      <fields>
+        <field name="ViewId" text="ID" key="true" backColor="#f79646" foreColor="#ffffff"/>
+        <field name="Controller" text="Controller" key="true" backColor="#f79646" foreColor="#ffffff"/>
+        <field name="Type" text="Type" backColor="#FDE9D9"  defaultValue="Grid"/>
+        <field name="CommandId" text="Command" backColor="#FDE9D9"/>
+        <field name="Label" text="Label" backColor="#FDE9D9"/>
+        <field name="HeaderText" text="Header Text" backColor="#FDE9D9"/>
+        <field name="ShowInSelector" text="Show in Selector" backColor="#FDE9D9"  defaultValue="yes"/>
+        <field name="Group" text="Group" backColor="#FDE9D9"/>
+        <field name="ReportLabel" text="Report Label" backColor="#FDE9D9"/>
+        <field name="ReportOrientation" text="Report Orientation" backColor="#FDE9D9"/>
+        <field name="ReportFont" text="Report Font" backColor="#FDE9D9"/>
+        <field name="ReportTemplate" text="Report Template" backColor="#FDE9D9"  defaultValue="no"/>
+        <field name="SortExpression" text="Sort Expression" backColor="#FDE9D9"/>
+        <field name="FilterExpression" text="Filter Expression" backColor="#FDE9D9"/>
+        <field name="GroupExpression" text="Group Expression" backColor="#FDE9D9"/>
+        <field name="VirtualViewID" text="Virtual View ID" backColor="#FDE9D9"/>
+        <field name="OverrideWhen" text="Override When" backColor="#FDE9D9"/>
+        <field name="BaseViewId" text="Base View Id" backColor="#FDE9D9"/>
+        <field name="Layout" text="Layout" backColor="#FDE9D9"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Controller" name="controller"/>
+          <key field="ViewId" name="view" allowInsert="true"/>
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- Categories -->
+    <controller id="Categories" name="Categories" tabColor="#31869b">
+      <filters>
+        <filter name="ControllerFilter" fieldName="Controller" imageUrl="_Explorer\Images\Controller.png"/>
+      </filters>
+      <fields>
+        <field name="CategoryId" text="ID" key="true" backColor="#31869b" foreColor="#ffffff"/>
+        <field name="ViewId" text="View" key="true" backColor="#31869b" foreColor="#ffffff"/>
+        <field name="Controller" text="Controller" key="true" backColor="#31869b" foreColor="#ffffff"/>
+        <field name="HeaderText" text="Header Text" backColor="#daeef3"/>
+        <field name="Description" text="Description" backColor="#daeef3"/>
+        <field name="Flow" text="Flow" backColor="#daeef3"/>
+        <field name="Tab" text="Tab" backColor="#daeef3"/>
+        <field name="Floating" text="Floating" backColor="#daeef3"/>
+        <field name="Wrap" text="Wrap" backColor="#daeef3"/>
+        <field name="Collapsed" text="Collapsed" backColor="#daeef3"/>
+        <field name="Visibility" text="Visibility" backColor="#daeef3"/>
+        <field name="Layout" text="Layout" backColor="#daeef3"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Controller" name="controller"/>
+          <key field="ViewId" name="view"/>
+          <key field="CategoryId" name="category"/>
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- Data Fields -->
+    <controller id="Data Fields" name="DataFields" tabColor="#9e780e">
+      <filters>
+        <filter name="ControllerFilter" fieldName="Controller" imageUrl="_Explorer\Images\Controller.png"/>
+      </filters>
+      <fields>
+        <field name="FieldName" text="Field Name" key="true" minWidth="120" maxWidth="20" backColor="#9e780e" foreColor="#ffffff"/>
+        <field name="CategoryId" text="Category" key="true" backColor="#9e780e" foreColor="#ffffff"/>
+        <field name="ViewId" text="View" key="true" backColor="#9e780e" foreColor="#ffffff"/>
+        <field name="Controller" text="Controller" minWidth="120" maxWidth="20" key="true" backColor="#9e780e" foreColor="#ffffff"/>
+        <field name="Columns" text="Columns" backColor="#f5e185"/>
+        <field name="Rows" text="Rows" backColor="#f5e185"/>
+        <field name="Alias" text="Alias" backColor="#f5e185" minWidth="120" maxWidth="20" />
+        <field name="ReadOnly" text="Read Only" backColor="#f5e185" allowNulls="true"/>
+        <field name="TextMode" text="Text Mode" backColor="#f5e185" defaultValue="Auto"/>
+        <field name="HeaderText" text="Header Text" backColor="#f5e185"/>
+        <field name="FooterText" text="Footer Text" backColor="#f5e185"/>
+        <field name="Watermark" text="Watermark" backColor="#f5e185"/>
+        <field name="ToolTip" text="Tool Tip" backColor="#f5e185"/>
+        <field name="Tag" text="Tag" backColor="#f5e185"/>
+        <field name="Search" text="Search Mode" backColor="#f5e185"/>
+        <field name="SearchOptions" text="Search Options" backColor="#f5e185"/>
+        <field name="DataFormatString" text="Data Format String" backColor="#f5e185"/>
+        <field name="FormatOnClient" text="Format On Client" backColor="#f5e185"/>
+        <field name="HyperlinkFormatString" text="Hyperlink Format String" backColor="#f5e185"/>
+        <field name="AutoCompletePrefixLength" text="Auto Complete Prefix Length" backColor="#f5e185"/>
+        <field name="Hidden" text="Hidden" backColor="#f5e185"  defaultValue="no"/>
+        <field name="Visibility" text="Visible When" backColor="#f5e185"/>
+        <field name="ReadOnlyWhen" text="Read Only When" backColor="#f5e185"/>
+        <field name="Aggregate" text="Aggregate" backColor="#f5e185"/>
+        <field name="Chart" text="Chart" backColor="#f5e185"/>
+        <field name="CodeFilterOperator" text="Code Filter" backColor="#f5e185"/>
+        <field name="CodeFilter" text="Filter Expression" backColor="#f5e185"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Controller" name="controller"/>
+          <key field="ViewId" name="view"/>
+          <key field="FieldName" name="dataField" allowInsert="true"/>
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- Action Groups -->
+    <controller id="Action Groups" name="ActionGroups" tabColor="#8064a2">
+      <filters>
+        <filter name="ControllerFilter" fieldName="Controller" imageUrl="_Explorer\Images\Controller.png"/>
+      </filters>
+      <fields>
+        <field name="ActionGroupId" text="ID" key="true" backColor="#8064a2" foreColor="#ffffff"/>
+        <field name="Controller" text="Controller" key="true" backColor="#8064a2" foreColor="#ffffff"/>
+        <field name="Scope" text="Scope" backColor="#e4dfec" defaultValue="Action Bar"/>
+        <field name="HeaderText" text="Header Text" backColor="#e4dfec"/>
+        <field name="Flat" text="Flat Rendering" backColor="#e4dfec" defaultValue="no"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Controller" name="controller"/>
+          <key field="ActionGroupId" name="actionGroup" />
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- Actions -->
+    <controller id="Actions" name="Actions" tabColor="#db70dc">
+      <filters>
+        <filter name="ControllerFilter" fieldName="Controller" imageUrl="_Explorer\Images\Controller.png"/>
+      </filters>
+      <fields>
+        <field name="ActionId" text="ID" key="true" backColor="#db70dc" foreColor="#ffffff"/>
+        <field name="ActionGroupId" text="Action Group" key="true" backColor="#db70dc" foreColor="#ffffff"/>
+        <field name="Controller" text="Controller" key="true" backColor="#db70dc" foreColor="#ffffff"/>
+        <field name="CommandName" text="Command Name" backColor="#f9dcf9"/>
+        <field name="CommandArgument" text="Command Argument" backColor="#f9dcf9"/>
+        <field name="HeaderText" text="Header Text" backColor="#f9dcf9"/>
+        <field name="CausesValidation" text="Causes Validation" backColor="#f9dcf9" defaultValue="yes"/>
+        <field name="Data" text="Data" backColor="#f9dcf9"/>
+        <field name="WhenLastCommandName" text="When Last Command Name" backColor="#f9dcf9"/>
+        <field name="WhenLastCommandArgument" text="When Last Command Argument" backColor="#f9dcf9"/>
+        <field name="WhenKeySelected" text="When Key Selected" backColor="#f9dcf9"/>
+        <field name="WhenHRef" text="When HRef" backColor="#f9dcf9"/>
+        <field name="WhenView" text="When View" backColor="#f9dcf9"/>
+        <field name="WhenTag" text="When Tag" backColor="#f9dcf9"/>
+        <field name="WhenClientScript" text="When Client Script" backColor="#f9dcf9"/>
+        <field name="Description" text="Description" backColor="#f9dcf9"/>
+        <field name="Confirmation" text="Confirmation" backColor="#f9dcf9"/>
+        <field name="CssClass" text="CSS Class" backColor="#f9dcf9"/>
+        <field name="Roles" text="Roles" backColor="#f9dcf9"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Controller" name="controller"/>
+          <key field="ActionGroupId" name="actionGroup" />
+          <key field="ActionId" name="action" />
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- Business Rules -->
+    <controller id="Business Rules" name="BusinessRules" tabColor="#76933c">
+      <filters>
+        <filter name="ControllerFilter" fieldName="Controller" imageUrl="_Explorer\Images\Controller.png" cache="false"/>
+      </filters>
+      <fields>
+        <field name="RuleId" text="ID" key="true" backColor="#76933c" foreColor="#ffffff"/>
+        <field name="Controller" text="Controller" key="true" backColor="#76933c" foreColor="#ffffff"/>
+        <field name="CommandName" text="Command Name" backColor="#ebf1de"/>
+        <field name="CommandArgument" text="Command Argument" backColor="#ebf1de"/>
+        <field name="View" text="View" backColor="#ebf1de"/>
+        <field name="Name" text="Name" backColor="#ebf1de"/>
+        <field name="Type" text="Type" backColor="#ebf1de"/>
+        <field name="Phase" text="Phase" backColor="#ebf1de"/>
+        <field name="Script" text="Script" minWidth="120" backColor="#ebf1de"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Controller" name="controller"/>
+          <key field="RuleId" name="rule" />
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- Styles -->
+    <controller id="Styles" name="Styles" tabColor="#a6a6a6">
+      <filters>
+        <filter name="ControllerFilter" fieldName="Controller" imageUrl="_Explorer\Images\Controller.png" cache="false"/>
+      </filters>
+      <fields>
+        <field name="CssClass" text="CSS Class" backColor="#a6a6a6" foreColor="#ffffff" key="true"/>
+        <field name="ViewId" text="View" key="true" backColor="#a6a6a6" foreColor="#ffffff"/>
+        <field name="Controller" text="Controller" key="true" backColor="#a6a6a6" foreColor="#ffffff"/>
+        <field name="Test" text="Test" minWidth="120" maxWidth="60" backColor="#f2f2f2"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Controller" name="controller"/>
+          <key field="ViewId" name="view"/>
+          <key field="CssClass" name="style" allowInsert="true"/>
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- Items -->
+    <controller id="Items" name="Items" tabColor="#339966">
+      <filters>
+        <filter name="ControllerFilter" fieldName="Controller" imageUrl="_Explorer\Images\Controller.png" cache="false"/>
+      </filters>
+      <fields>
+        <field name="Value" text="Value" backColor="#339966" foreColor="#ffffff" key="true"/>
+        <field name="FieldName" text="Field Name" key="true" backColor="#339966" foreColor="#ffffff"/>
+        <field name="Controller" text="Controller" key="true" backColor="#339966" foreColor="#ffffff"/>
+        <field name="Text" text="Text" backColor="#ccffcc"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Controller" name="controller"/>
+          <key field="FieldName" name="field"/>
+          <key field="Value" name="item" allowInsert="true"/>
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- Field Outputs -->
+    <controller id="Field Outputs" name="FieldOutputs" tabColor="#577fab">
+      <filters>
+        <filter name="ControllerFilter" fieldName="Controller" imageUrl="_Explorer\Images\Controller.png" cache="false"/>
+      </filters>
+      <fields>
+        <field name="FieldName" text="Field" backColor="#dce6f1" key="true"/>
+        <field name="CommandId" text="Command ID" key="true" backColor="#577fab" foreColor="#ffffff"/>
+        <field name="Controller" text="Controller" key="true" backColor="#577fab" foreColor="#ffffff"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Controller" name="controller"/>
+          <key field="CommandId" name="command"/>
+          <key field="FieldName" name="fieldOutput" allowInsert="true"/>
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- Pages -->
+    <controller id="Pages" name="Pages" tabColor="#963634">
+      <filters>
+        <filter name="PageFilter" fieldName="Name" imageUrl="_Explorer\Images\Page.png"/>
+      </filters>
+      <fields>
+        <field name="Name" text="Name" key="true" backColor="#963634" foreColor="#ffffff"/>
+        <field name="Title" text="Title" backColor="#f2dcdb" minWidth="120" maxWidth="65" />
+        <field name="Path" text="Path" backColor="#f2dcdb" minWidth="120" maxWidth="80" />
+        <field name="Description" text="Description" backColor="#f2dcdb" minWidth="120" maxWidth="65" />
+        <field name="Style" text="Style" backColor="#f2dcdb"/>
+        <field name="CustomStyle" text="Custom Style" backColor="#f2dcdb"/>
+        <field name="About" text="About This Page" backColor="#f2dcdb" minWidth="120" maxWidth="65" />
+        <field name="Url" text="URL" backColor="#f2dcdb" minWidth="120" maxWidth="65" />
+        <field name="Master" text="Master Page" backColor="#f2dcdb"/>
+        <field name="Roles" text="Roles" backColor="#f2dcdb"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Name" name="page" allowInsert="true"/>
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- Containers -->
+    <controller id="Containers" name="Containers" tabColor="#354963">
+      <filters>
+        <filter name="PageFilter" fieldName="Page" imageUrl="_Explorer\Images\Page.png"/>
+      </filters>
+      <fields>
+        <field name="ContainerId" text="ID" key="true" backColor="#354963" foreColor="#ffffff"/>
+        <field name="Page" text="Page" key="true" backColor="#354963" foreColor="#ffffff"/>
+        <field name="Flow" text="Flow" backColor="#f2f6fa" defaultValue="New Row"/>
+        <field name="Width" text="Width" backColor="#f2f6fa"/>
+        <field name="ClassName" text="CSS Class Name" backColor="#f2f6fa"/>
+        <field name="CssStyle" text="CSS Style Properties" backColor="#f2f6fa"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Page" name="page"/>
+          <key field="ContainerId" name="container"/>
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- Data Views -->
+    <controller id="Data Views" name="DataViews" tabColor="#1ab900">
+      <filters>
+        <filter name="PageFilter" fieldName="Page" imageUrl="_Explorer\Images\Page.png"/>
+      </filters>
+      <fields>
+        <field name="DataViewId" text="ID" key="true" backColor="#1ab900" foreColor="#ffffff"/>
+        <field name="ContainerId" text="Container" key="true" backColor="#1ab900" foreColor="#ffffff"/>
+        <field name="Page" text="Page" key="true" backColor="#1ab900" foreColor="#ffffff"/>
+        <field name="Controller" text="Controller"  backColor="#a8da94"/>
+        <field name="View" text="View"  backColor="#a8da94"/>
+        <field name="Tag" text="Tag"  backColor="#a8da94"/>
+        <!--<field name="Transaction" text="Transaction"  backColor="#a8da94"/>-->
+        <field name="Activator" text="Activator"  backColor="#a8da94"/>
+        <field name="Text" text="Text"  backColor="#a8da94"/>
+        <field name="Sequence" text="Sequence"  backColor="#a8da94"/>
+        <field name="ShowInSummary" text="Show In Summary"  backColor="#a8da94" defaultValue="no"/>
+        <field name="PageSize" text="Page Size"  backColor="#a8da94"/>
+        <field name="MultiSelect" text="Multi Select"  backColor="#a8da94" defaultValue="no"/>
+        <field name="ShowActionButtons" text="Show Action Buttons"  backColor="#a8da94"/>
+        <field name="ShowActionBar" text="Show Action Bar"  backColor="#a8da94" defaultValue="yes"/>
+        <field name="ShowDescription" text="Show Description"  backColor="#a8da94" defaultValue="yes"/>
+        <field name="ShowViewSelector" text="Show View Selector"  backColor="#a8da94" defaultValue="yes"/>
+        <field name="ShowSearchBar" text="Show Search Bar"  backColor="#a8da94" defaultValue="yes"/>
+        <field name="ShowQuickFind" text="Show Quick Find"  backColor="#a8da94" defaultValue="yes"/>
+        <field name="SearchByFirstLetter" text="Search By First Letter"  backColor="#a8da94" defaultValue="no"/>
+        <field name="ShowRowNumber" text="Show Row Number"  backColor="#a8da94" defaultValue="no"/>
+        <field name="ShowPager" text="Show Pager"  backColor="#a8da94" defaultValue="Bottom"/>
+        <field name="ShowPageSize" text="Show Page Size"  backColor="#a8da94" defaultValue="yes"/>
+        <field name="ShowModalForms" text="Show Modal Forms"  backColor="#a8da94" defaultValue="yes"/>
+        <field name="SearchOnStart" text="Search On Start"  backColor="#a8da94" defaultValue="no"/>
+        <field name="ShowDetailsInListMode" text="Show Details in List Mode"  backColor="#a8da94" defaultValue="yes"/>
+        <field name="VisibleWhen" text="Visible When"  backColor="#a8da94"/>
+        <field name="Roles" text="Roles"  backColor="#a8da94"/>
+        <field name="AutoHighlightFirstRow" text="Auto Highlight First Row"  backColor="#a8da94" defaultValue="no"/>
+        <field name="AutoSelectFirstRow" text="Auto Select First Row"  backColor="#a8da94" defaultValue="no"/>
+        <field name="RefreshInterval" text="Refresh Interval"  backColor="#a8da94"/>
+        <field name="ClassName" text="CSS Class Name"  backColor="#a8da94"/>
+        <field name="FilterSource" text="Filter Source"  backColor="#a8da94"/>
+        <field name="FilterFields" text="Filter Field 1"  backColor="#a8da94"/>
+        <field name="FilterField2" text="Filter Field 2"  backColor="#a8da94"/>
+        <field name="FilterField3" text="Filter Field 3"  backColor="#a8da94"/>
+        <field name="FilterField4" text="Filter Field 4"  backColor="#a8da94"/>
+        <field name="FilterField5" text="Filter Field 5"  backColor="#a8da94"/>
+        <field name="AutoHide" text="Auto Hide"  backColor="#a8da94"  defaultValue="Nothing"/>
+        <field name="StartCommandName" text="Start Command Name"  backColor="#a8da94"/>
+        <field name="StartCommandArgument" text="Start Command Argument"  backColor="#a8da94"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Page" name="page" />
+          <key field="ContainerId" name="container" update="false" delete="false" sequence="false"/>
+          <key field="DataViewId" name="dataView" sequence="false"/>
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- User Controls -->
+    <controller id="User Controls" name="UserControls" tabColor="#003399">
+      <fields>
+        <field name="Name" text="Name" key="true" backColor="#003399" foreColor="#ffffff"/>
+        <field name="Prefix" text="Prefix" backColor="#8baaea"/>
+        <field name="Generate" text="Generate" backColor="#8baaea"/>
+        <field name="Body" text="Body" minWidth="120" maxWidth="70" backColor="#8baaea"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Name" name="userControl" allowInsert="true"/>
+        </keys>
+      </nodeSet>
+    </controller>
+    <!-- Controls -->
+    <controller id="Controls" name="Controls" tabColor="#cc3300">
+      <filters>
+        <filter name="PageFilter" fieldName="Page" imageUrl="_Explorer\Images\Page.png" cache="false"/>
+      </filters>
+      <fields>
+        <field name="ControlId" text="ID" key="true" backColor="#cc3300" foreColor="#ffffff"/>
+        <field name="ContainerId" text="Container" key="true" backColor="#cc3300" foreColor="#ffffff"/>
+        <field name="Page" text="Page" key="true" backColor="#ffcccc" foreColor="#ffffff"/>
+        <field name="UserControl" text="User Control" backColor="#ffcccc"/>
+        <field name="Activator" text="Activator" backColor="#ffcccc" defaultValue="None"/>
+        <field name="Text" text="Text" backColor="#ffcccc"/>
+        <field name="Sequence" text="Sequence" backColor="#ffcccc"/>
+      </fields>
+      <nodeSet>
+        <keys>
+          <key field="Page" name="page" />
+          <key field="ContainerId" name="container" update="false" delete="false" sequence="false"/>
+          <key field="ControlId" name="control" sequence="false"/>
+        </keys>
+      </nodeSet>
+    </controller>
+  </controllers>
+</toolsForExcel>

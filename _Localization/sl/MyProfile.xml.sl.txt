@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^Nazaj^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^Dokončaj^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^Potrdite novo geslo^ConfirmNewPassword^
+
+^ConfirmPassword^potrdi geslo^ConfirmPassword^
+
+^Email^E-naslov^Email^
+
+^ForgotYourPassword^Ste pozabili geslo?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^Odgovorite na naslednje vprašanje, da prejmete svoje geslo. <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^Potrditev identitete^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^Prosimo, izpolnite ta obrazec in kliknite gumb Pošlji, da obnovite pozabljeno geslo. Kliknite Prekliči, da se vrnete na prejšnji zaslon.^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^Obnovitev gesla: korak 2 od 2^IdentityConfirmViewLabel^
+
+^LoginButton^Vpiši se^LoginButton^
+
+^LoginLink^Vpiši se^LoginLink^
+
+^LoginWithDNN^Prijava z DotNetNuke^LoginWithDNN^
+
+^LoginWithFacebook^Prijava z Facebookom^LoginWithFacebook^
+
+^LoginWithGoogle^Prijava z Googlom^LoginWithGoogle^
+
+^LoginWithMicrosoft^Prijava z Microsoftom^LoginWithMicrosoft^
+
+^LoginWithSharePoint^Prijava s SharePointom^LoginWithSharePoint^
+
+^LoginWithWindowsLive^Prijava z Windows Live^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^Geslo Odgovor (ni prikazano za vašo zaščito)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^Vnesite svoje trenutno geslo, da ustvarite novo geslo, posodobite svoj e-poštni naslov ali spremenite vprašanje in odgovor za obnovitev gesla.^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. Trenutni geslo^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^Preberite spodnje informacije o članstvu. Če želite spremeniti ta zapis, kliknite Posodobi svoj račun ali kliknite Prekliči, da se vrnete nazaj.^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^Moj račun^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^Vnesite novo geslo. Upoštevajte, da mora biti geslo daljše od 7 znakov in vključiti en ne-alfanumerični znak.^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. Novo geslo (neobvezno)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^Med obnovitvijo pozabljenega gesla boste morali vnesti vaše uporabniško ime. Če obstaja uporabniški račun, je treba odgovoriti na vprašanje o geslu. Točen odgovor bo sprožil e-poštno sporočilo z začasnim geslom, ki vam ga bo poslal.^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. E-pošta &amp; Obnovitev gesla (neobvezno)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^novo geslo^NewPassword^
+
+^OldPassword^staro geslo^OldPassword^
+
+^Password^Geslo^Password^
+
+^PasswordAnswer^Geslo^PasswordAnswer^
+
+^PasswordQuestion^Geslo vprašanje^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^Vnesite uporabniško ime. <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^Ste pozabili geslo?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^Prosimo, izpolnite ta obrazec in kliknite gumb Nadaljuj, da obnovite pozabljeno geslo. Kliknite Prekliči, da se vrnete na prejšnji zaslon.^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^Obnovitev gesla: 1. korak od 2^PasswordRequestViewLabel^
+
+^RememberMe^Zapomni si me naslednjič^RememberMe^
+
+^RequestPasswordActionHeaderText^Naslednji^RequestPasswordActionHeaderText^
+
+^SignUp^Prijavite se^SignUp^
+
+^SignUpNow^Prijavi se zdaj^SignUpNow^
+
+^SignUpViewHeaderText^Prosimo, izpolnite ta obrazec in kliknite gumb V redu, da se prijavite za račun. Kliknite Prekliči, da se vrnete na prejšnji zaslon.^SignUpViewHeaderText^
+
+^SignUpViewLabel^Prijava računa^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^Vnesite uporabniško ime in geslo. Upoštevajte, da mora biti geslo daljše od 7 znakov in vključiti en ne-alfanumerični znak. Samo prijavljeni uporabniki se bodo lahko prijavili na spletno mesto.^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^Nove uporabniške informacije^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^Ta polja so potrebna za pomoč pri obnovitvi pozabljenega gesla. Med postopkom obnovitve boste morali vnesti uporabniško ime. Če obstaja uporabniški račun, se zahteva odgovor na varnostno vprašanje. Pravilni odgovor sproži e-poštno sporočilo z začasnim geslom, ki ga pošljete na registriran e-poštni naslov.^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^Obnovitev gesla^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^Posodobi moj račun^UpdateMyAccountActionHeaderText^
+
+^UserName^Uporabniško ime^UserName^
+

@@ -1,0 +1,103 @@
+*******************************************************************************
+Your application uses this file to locate resource strings defined
+in MyProfile.xml project item. 
+
+Replace the text between localization brackets as needed.
+*******************************************************************************
+
+^BackToRequestPasswordActionHeaderText^वापस^BackToRequestPasswordActionHeaderText^
+
+^ConfirmIdentityActionHeaderText^समाप्त^ConfirmIdentityActionHeaderText^
+
+^ConfirmNewPassword^नए पासवर्ड की पुष्टि करें^ConfirmNewPassword^
+
+^ConfirmPassword^पासवर्ड की पुष्टि कीजिये^ConfirmPassword^
+
+^Email^ईमेल^Email^
+
+^ForgotYourPassword^क्या आप अपना पासवर्ड भूल गए?^ForgotYourPassword^
+
+^IdentityConfirmationViewIdentityConfirmCategoryDescription^अपना पासवर्ड प्राप्त करने के लिए निम्नलिखित प्रश्न का उत्तर दें। <br/><br/><br/>^IdentityConfirmationViewIdentityConfirmCategoryDescription^
+
+^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^पहचान की पुष्टि^IdentityConfirmationViewIdentityConfirmCategoryHeaderText^
+
+^IdentityConfirmViewHeaderText^कृपया इस फ़ॉर्म को भरें और भूल गए पासवर्ड को पुनर्प्राप्त करने के लिए सबमिट बटन पर क्लिक करें। पिछली स्क्रीन पर वापस जाने के लिए रद्द करें क्लिक करें।^IdentityConfirmViewHeaderText^
+
+^IdentityConfirmViewLabel^पासवर्ड पुनर्प्राप्ति: 2 का चरण 2^IdentityConfirmViewLabel^
+
+^LoginButton^लॉग इन करें^LoginButton^
+
+^LoginLink^लॉग इन करें^LoginLink^
+
+^LoginWithDNN^DotNetNuke के साथ लॉगिन करें^LoginWithDNN^
+
+^LoginWithFacebook^फेसबुक में जाये^LoginWithFacebook^
+
+^LoginWithGoogle^Google के साथ लॉगिन करें^LoginWithGoogle^
+
+^LoginWithMicrosoft^माइक्रोसॉफ्ट के साथ लॉगिन^LoginWithMicrosoft^
+
+^LoginWithSharePoint^SharePoint के साथ लॉगिन करें^LoginWithSharePoint^
+
+^LoginWithWindowsLive^विंडोज लाइव के साथ लॉगिन करें^LoginWithWindowsLive^
+
+^MaskedPasswordAnswer^पासवर्ड उत्तर (आपकी सुरक्षा के लिए प्रदर्शित नहीं किया गया)^MaskedPasswordAnswer^
+
+^MyAccountViewCurrentPasswordCategoryDescription^कृपया नया पासवर्ड बनाने, अपना ईमेल पता अपडेट करने, या पासवर्ड पुनर्प्राप्ति प्रश्न और जवाब बदलने के लिए अपना वर्तमान पासवर्ड दर्ज करें।^MyAccountViewCurrentPasswordCategoryDescription^
+
+^MyAccountViewCurrentPasswordCategoryHeaderText^1. वर्तमान पासवर्ड^MyAccountViewCurrentPasswordCategoryHeaderText^
+
+^MyAccountViewHeaderText^कृपया नीचे अपनी सदस्यता की जानकारी की समीक्षा करें। इस रिकॉर्ड को बदलने के लिए मेरा खाता अपडेट करें क्लिक करें, या वापस लौटने के लिए रद्द करें पर क्लिक करें।^MyAccountViewHeaderText^
+
+^MyAccountViewLabel^मेरा खाता^MyAccountViewLabel^
+
+^MyAccountViewNewPasswordCategoryDescription^कृपया नया पासवर्ड दर्ज करें ध्यान दें कि पासवर्ड कम से कम 7 वर्ण लंबा होना चाहिए और इसमें एक गैर-अल्फ़ान्यूमेरिक वर्ण शामिल होना चाहिए।^MyAccountViewNewPasswordCategoryDescription^
+
+^MyAccountViewNewPasswordCategoryHeaderText^2. नया पासवर्ड (वैकल्पिक)^MyAccountViewNewPasswordCategoryHeaderText^
+
+^MyAccountViewPasswordRecoveryCategoryDescription^भूल गए पासवर्ड की वसूली के दौरान आपको अपना उपयोगकर्ता नाम दर्ज करने के लिए कहा जाएगा। यदि कोई उपयोगकर्ता खाता मौजूद है, तो पासवर्ड प्रश्न का उत्तर होना चाहिए। एक सही उत्तर आपको एक अस्थायी पासवर्ड भेजकर ईमेल को ट्रिगर करेगा।^MyAccountViewPasswordRecoveryCategoryDescription^
+
+^MyAccountViewPasswordRecoveryCategoryHeaderText^3. ईमेल &amp; पासवर्ड वसूली (वैकल्पिक)^MyAccountViewPasswordRecoveryCategoryHeaderText^
+
+^NewPassword^नया पासवर्ड^NewPassword^
+
+^OldPassword^पुराना पासवर्ड^OldPassword^
+
+^Password^पासवर्ड^Password^
+
+^PasswordAnswer^पासवर्ड जवाब^PasswordAnswer^
+
+^PasswordQuestion^पासवर्ड प्रश्न^PasswordQuestion^
+
+^PasswordRequestViewForgotPasswordCategoryDescription^कृपया उपयोगकर्तानाम डालें। <br/><br/><br/>^PasswordRequestViewForgotPasswordCategoryDescription^
+
+^PasswordRequestViewForgotPasswordCategoryHeaderText^क्या आप अपना पासवर्ड भूल गए?^PasswordRequestViewForgotPasswordCategoryHeaderText^
+
+^PasswordRequestViewHeaderText^कृपया इस फ़ॉर्म को भरें और भूल गए पासवर्ड को पुनर्प्राप्त करने के लिए जारी रखें बटन पर क्लिक करें। पिछली स्क्रीन पर वापस जाने के लिए रद्द करें क्लिक करें।^PasswordRequestViewHeaderText^
+
+^PasswordRequestViewLabel^पासवर्ड पुनर्प्राप्ति: 2 में से 1 चरण^PasswordRequestViewLabel^
+
+^RememberMe^अगली बार, मुझे याद रखना^RememberMe^
+
+^RequestPasswordActionHeaderText^आगामी^RequestPasswordActionHeaderText^
+
+^SignUp^साइन अप करें^SignUp^
+
+^SignUpNow^अभी साइनअप करें^SignUpNow^
+
+^SignUpViewHeaderText^कृपया इस फ़ॉर्म को भरें और खाता खोलने के लिए ओके बटन पर क्लिक करें। पिछली स्क्रीन पर वापस जाने के लिए रद्द करें क्लिक करें।^SignUpViewHeaderText^
+
+^SignUpViewLabel^खाता साइन अप करें^SignUpViewLabel^
+
+^SignUpViewNewUserInfoCategoryDescription^कृपया उपयोगकर्ता नाम और पासवर्ड दर्ज करें। ध्यान दें कि पासवर्ड कम से कम 7 वर्ण लंबा होना चाहिए और इसमें एक गैर-अल्फ़ान्यूमेरिक वर्ण शामिल होना चाहिए। केवल मंजूरी दे दी उपयोगकर्ता ही वेबसाइट में लॉगइन करने में सक्षम होंगे।^SignUpViewNewUserInfoCategoryDescription^
+
+^SignUpViewNewUserInfoCategoryHeaderText^नया उपयोगकर्ता जानकारी^SignUpViewNewUserInfoCategoryHeaderText^
+
+^SignUpViewPasswordRecoveryCategoryDescription^भूल गए पासवर्ड को पुनर्प्राप्त करने के लिए ये फ़ील्ड आपको आवश्यक हैं। पुनर्प्राप्ति प्रक्रिया के दौरान आपको एक उपयोगकर्ता नाम दर्ज करने के लिए कहा जाएगा। अगर कोई उपयोगकर्ता खाता मौजूद है, तो एक सुरक्षा प्रश्न का अनुरोध किया जाना चाहिए। एक सही उत्तर पंजीकृत ईमेल को एक अस्थायी पासवर्ड भेजकर ईमेल को ट्रिगर करेगा।^SignUpViewPasswordRecoveryCategoryDescription^
+
+^SignUpViewPasswordRecoveryCategoryHeaderText^पासवर्ड की दोबारा प्राप्ति^SignUpViewPasswordRecoveryCategoryHeaderText^
+
+^UpdateMyAccountActionHeaderText^मेरा खाता अपडेट करें^UpdateMyAccountActionHeaderText^
+
+^UserName^उपयोगकर्ता नाम^UserName^
+
