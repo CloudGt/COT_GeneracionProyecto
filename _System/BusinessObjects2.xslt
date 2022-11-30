@@ -1236,7 +1236,7 @@ $app.touch.show({
 						</dataFields>
 					</view>
 					<!-- "edit" form view -->
-					<view id="editForm1" type="Form" commandId="command1" label="Review {$ViewLabel}">
+					<view id="createForm1" type="Form" commandId="command1" label="Modificar {$ViewLabel}">
 						<headerText>
 							<xsl:text>$DefaultEditViewDescription</xsl:text>
 							<!--<xsl:text>Please review </xsl:text>
@@ -1319,7 +1319,7 @@ $app.touch.show({
 							</xsl:choose>
 						</categories>
 					</view>
-					<view id="createForm1" type="Form" commandId="command1" label="New {$ViewLabel}">
+					<view id="createForm1" type="Form" commandId="command1" label="Crear {$ViewLabel}">
 						<headerText>
 							<xsl:text>$DefaultCreateViewDescription</xsl:text>
 							<!--<xsl:text>Please fill this form and click OK button to create a new </xsl:text>
